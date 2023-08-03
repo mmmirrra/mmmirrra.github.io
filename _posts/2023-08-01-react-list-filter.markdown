@@ -6,13 +6,13 @@ categories: react
 thumbnail: /assets/profile.png
 ---
 
-'dbListDate' is the source list.
-'buyDt' is the date to search.
-'start' is the start date.
-'end' is the end date.
+'dbListDate' is the source list.   
+'buyDt' is the date to search.   
+'start' is the start date.   
+'end' is the end date.   
 
-Filters dates that are greater than the start date and less than the end date, or dates that are equal to the start date or the end date.
-Filter items with the same 'buyPaymentCode'.
+Filters dates that are greater than the start date and less than the end date, or dates that are equal to the start date or the end date.   
+Filter items with the same 'buyPaymentCode'.   
 
 {% highlight react %}
 const sendListData = dbListData.filter(
