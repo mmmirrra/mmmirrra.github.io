@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "React: AXIOS API response is a list"
+title:  "React: axios api response is a list"
 date:   2023-08-02 09:00:00 +0900
 categories: react
 thumbnail: /assets/profile.png
 ---
 
-When you receive React's AXIOS API responses as a list, check them as follows.   
+When you receive React's axios api responses as a list, check them as follows.   
 
 {% highlight react %}
 const selecttestAxios = () => {
