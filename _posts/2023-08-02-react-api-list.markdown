@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "React: AXIOS API response is a list"
-date:   2023-07-28 15:56:04 +0900
-categories: jekyll update
+date:   2023-08-02 09:00:00 +0900
+categories: react
+thumbnail: /assets/profile.png
 ---
 
-When you receive React's AXIOS API responses as a list, check them as follows.
+When you receive React's AXIOS API responses as a list, check them as follows.   
 
 {% highlight react %}
 const selecttestAxios = () => {
