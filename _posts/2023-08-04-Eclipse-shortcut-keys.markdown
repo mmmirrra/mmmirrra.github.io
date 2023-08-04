@@ -7,13 +7,13 @@ thumbnail: /assets/profile.png
 ---
 
 ### 단축키 변경 메뉴   
-`Window >> Preferences >> General >> Keys` : 이클립스의 모든 단축키를 확인 및 변경할 수 있음    
-      
-      
+`Window >> Preferences >> General >> Keys` : 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
+   
+<br />
 ### 단축키 힌트 보기   
 `Ctrl + Shift + L` : See hints for Eclipse shortcuts (Eclipse 바로 가기의 힌트 보기)   
    
-   
+<br />
 ### 편집   
 `Tab` : 들여쓰기   
 `Shift + Tab` : 내어쓰기   
@@ -28,13 +28,13 @@ thumbnail: /assets/profile.png
 `Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
 `Alt + Shift + A` : 세로 편집모드 집입/해제   
    
-   
+<br />
 ### 자동완성   
 `Ctrl + Space` : 코드 자동완성 어시스트 (Content Assistance)   
 `Ctrl + Shift + O` : 해당 소스에 필요한 패키지를 자동 import 추가, 안쓰는 import 삭제   
 `Ctrl + Shift + M` : 해당 객체에 커서를 놓고 키를 누르면 필요한 특정 클래스 Import 구문 자동 생성   
    
-   
+<br />
 ### 자동완성 템플릿 이용   
 자동완성 키워드 등록 위치 : `Window - Preferences - Java - Editor - Templates`   
 (예시) sysout 입력후 'Ctrl + Space'를 누르면 'System.out.println();' 으로 변경됨   
@@ -42,29 +42,29 @@ thumbnail: /assets/profile.png
 (예시) for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
 (예시) switch 입력 후 'Ctrl + Space'를 누르면 'switch 문' 자동완성   
    
-   
+<br />
 ### 자동완성 어시스트 트리거 문자 등록 위치   
 `Window - Preferences - Java - Editor - Content Assist - Auto Activation - Auto activation triggers for java → .abcdefghijklmnopqrstuvwxyz`   
    
-   
+<br />
 ### 해결방법   
 `Ctrl + 1` : 빨간줄(에러) 해결방법 도우미  
 `F2` : 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 제공   
 `Ctrl + 2 + R` : 리팩토링(Rename)   
    
-   
+<br />
 ### 정렬   
 `Ctrl + Shift + F` : 자동 코드 정렬   
 `Ctrl + i` : 선택된 블럭내 코드 자동 들여쓰기   
    
-   
+<br />
 ### 주석   
 `Ctrl + /` : 현재라인(선택된 블럭) 주석 적용/해제 (//) (Word Completion)   
 `Ctrl + Shift + /` : 선택된 블럭 블럭주석(Block Comment) 적용 (/* */)   
 `Ctrl + Shift + \` : 블럭주석(Block Comment) 해제   
 `Alt + Shift + J` : 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
    
-   
+<br />
 ### 블록 설정   
 `Shift + End` : 현재 커서부터 끝까지 블록 설정   
 `Shift + Home` : 현재 커서부터 처음까지 블록 설정   
@@ -72,7 +72,7 @@ thumbnail: /assets/profile.png
 `Alt + Shift + 방향키(←,↑,→,↓)` : 이미 선택되어 있는 블록을 방향키로 늘림   
 `Alt + Shift + Z` : 구문 블록을 감싸는 메뉴 제공   
    
-   
+<br />
 ### 보기   
 `F4` : 클래스 계층 (Hierarchy) 보기 (클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인)   
 `Ctrl + T` : 상속 계층 팝업 창   
@@ -81,7 +81,7 @@ thumbnail: /assets/profile.png
 `Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가 , Comment 추가 , Generator 메뉴 등)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
    
-   
+<br />
 ### 찾기   
 `Ctrl + F` : 찾기/변경 (fine/replace) (해당 소스에서만)   
 `Ctrl + H` : 찾기/변경 (fine/replace) (모든 파일, 프로젝트 전체에서 검색)   
@@ -94,7 +94,7 @@ thumbnail: /assets/profile.png
 `Ctrl + J` : 검색할 단어를 입력하면서 실시간으로 검색   
 `Ctrl + Shift + J` : 검색할 단어를 입력하면서 실시간으로 거꾸로 검색   
    
-   
+<br />
 ### 이동
 `Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
@@ -109,25 +109,25 @@ thumbnail: /assets/profile.png
 `Ctrl + PageUp , Ctrl + PageDown` : Edit 창 이동   
 `F12` : Editor 창으로 이동   
    
-   
+<br />
 ### 저장   
 `Ctrl + S` : 소스코드 저장 (현재 파일만)   
 `Ctrl + Shift + S` : 열려진 모든 소스코드 저장   
    
-   
+<br />
 ### 닫기   
 `Ctrl + W` : 파일 닫기   
 `Ctrl + Shift + F4` : 열린 파일을 모두 닫음   
    
-   
+<br />
 ### 빌드   
 `Ctrl + B` : 빌드   
    
-   
+<br />
 ### 실행   
 `Ctrl + F11` : 소스 실행 run (에러가 났을 때 디버깅 하지 않음)   
    
-   
+<br />
 ### 디버깅   
 `F11` : 디버깅 실행 (에러가 났을 때 디버깅 함)   
 `F8` : 디버깅 계속   
@@ -136,7 +136,7 @@ thumbnail: /assets/profile.png
 `Ctrl + Shift + B` : 커서 줄에 중단점(Break point) 설정/해제   
 `CTRL + R` : 현재 라인까지 실행 Run to Line   
    
-   
+<br />
 ***
 추가로 정리할 것   
 2. window 이동   
@@ -154,7 +154,7 @@ thumbnail: /assets/profile.png
 4. Refactoring 단축키   
 Shift + ALT + 알파벳 : Refactoring을 위한 단축키 임.   
    
-   
+<br />
 https://velog.io/@gillog/IDE-Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EC%A0%95%EB%A6%AC   
    
 https://songeunjung92.tistory.com/7   
