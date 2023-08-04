@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eclipse: shortcut keys, hot keys"
-date:   2023-08-05 09:00:00 +0900
+date:   2023-08-04 09:00:00 +0900
 categories: [Eclipse]
 thumbnail: /assets/profile.png
 ---
