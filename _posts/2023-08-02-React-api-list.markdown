@@ -2,7 +2,7 @@
 layout: post
 title:  "React: axios api response is a list"
 date:   2023-08-02 09:00:00 +0900
-categories: React
+categories: [React]
 thumbnail: /assets/profile.png
 ---
 

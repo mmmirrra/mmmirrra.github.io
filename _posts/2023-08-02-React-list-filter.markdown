@@ -2,7 +2,7 @@
 layout: post
 title:  "React: To only display list items that meet the filter criteria"
 date:   2023-08-02 10:00:00 +0900
-categories: React
+categories: [React]
 thumbnail: /assets/profile.png
 ---
 
