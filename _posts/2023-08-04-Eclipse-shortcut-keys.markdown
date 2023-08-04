@@ -8,8 +8,8 @@ thumbnail: /assets/profile.png
 
 ### 단축키 변경 메뉴   
 `Window >> Preferences >> General >> Keys` : 이클립스의 모든 단축키를 확인 및 변경할 수 있음    
-   
-   
+      
+      
 ### 단축키 힌트 보기   
 `Ctrl + Shift + L` : See hints for Eclipse shortcuts (Eclipse 바로 가기의 힌트 보기)   
    
