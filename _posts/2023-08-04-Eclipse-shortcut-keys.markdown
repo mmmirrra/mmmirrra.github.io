@@ -105,12 +105,49 @@ thumbnail: /assets/profile.png
 `Ctrl + W` : 파일 닫기   
 `Ctrl + Shift + F4` : 열린 파일을 모두 닫음   
    
+### 빌드   
+`Ctrl + B` : 빌드   
+   
 ### 실행   
-`Ctrl + F11` : 소스 실행 (에러가 났을 때 디버깅 하지 않음)   
+`Ctrl + F11` : 소스 실행 run (에러가 났을 때 디버깅 하지 않음)   
    
 ### 디버깅   
-`F11` : 소스 실행 (에러가 났을 때 디버깅 함)   
+`F11` : 디버깅 실행 (에러가 났을 때 디버깅 함)   
 `F8` : 디버깅 계속   
-`F6` : 한 줄씩 디버깅   
-`F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅   
+`F6` : 한 줄씩 디버깅 step over  
+`F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 step into   
 `Ctrl + Shift + B` : 커서 줄에 중단점(Break point) 설정/해제   
+`CTRL + R` : 현재 라인까지 실행 Run to Line   
+   
+***
+추가로 정리할 것   
+2. window 이동   
+`F10` : 메뉴창을 활성화   
+`Ctrl + F8` : 다음 Perspective로 이동   
+`Ctrl + N` : 새로운 파일 및 프로젝트 생성.   
+`Ctrl + Shift + Down` : Java Editor에서 다음 member로 이동.   
+`Ctrl + F7` : 다음 View로 이동.   
+`Ctrl + Shift + F7` : 이전 View로 이동.   
+`Alt + <-` : 이전 작업 화면   
+`Alt + ->` : 다음 작업 화면   
+`F12` : 컴파일 중 에러등으로 포커스가 다른데로 갔을 때 Editor 로 커서 이동   
+`Ctrl + 1` : 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누를 경우 컴파일 에러에 대한 해결책을 제시   
+      
+4. Refactoring 단축키   
+Shift + ALT + 알파벳 : Refactoring을 위한 단축키 임.   
+   
+   
+https://velog.io/@gillog/IDE-Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EC%A0%95%EB%A6%AC   
+   
+https://songeunjung92.tistory.com/7   
+   
+https://www.crocus.co.kr/1614   
+   
+https://yooniron.tistory.com/44   
+   
+https://jhnyang.tistory.com/entry/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EB%8B%A8%EC%B6%95%ED%82%A4   
+   
+https://nhj12311.tistory.com/402   
+   
+https://iamfreeman.tistory.com/entry/Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-Effective-Eclipse-Shortcut-Keys#google_vignette   
+   
