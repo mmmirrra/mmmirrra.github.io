@@ -63,8 +63,8 @@ thumbnail: /assets/profile.png
 ###보기   
 `F4` : 클래스 계층 보기 (클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인)   
 `Ctrl + T` : 상속 계층 팝업 창   
-`Ctrl + O` : 해당 소스의 메소드 리스트 보기   
-`Ctrl + Shift + Space` : 메소드 파라미터 목록   
+`Ctrl + O` : 해당 소스의 클래스 구조 트리 보기   
+`Ctrl + Shift + Space` : 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
    
 ###찾기   
 `Ctrl + F` : 찾기 / 변경하기(replace) (해당 소스에서만)   
