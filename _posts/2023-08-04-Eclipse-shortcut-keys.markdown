@@ -30,8 +30,8 @@ thumbnail: /assets/profile.png
 `Ctrl + Shift + X` : 대문자로 변경   
 `Ctrl + Shift + Y` : 소문자로 변경   
 `Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
-`Alt + Shift + A` : 세로 편집모드 집입/해제   
-`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename)   
+`Alt + Shift + A` : 세로 블럭 드래그 가능한 편집모드 집입/해제   
+`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename) (preview로 변경되는 변수를 미리볼 수 있음)   
 `Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename 리팩토링   
 `Ctrl + 2 + L or F` : 새 지역 변수 또는 필드에 명령문 할당   
    
@@ -105,6 +105,7 @@ thumbnail: /assets/profile.png
 `Ctrl + F10` : 현재 보기에 대한 메뉴 목록 창 보기   
 `Ctrl + 3` : 빠른 액세스 (Quick Access) (Eclipse에서 사용 가능한 모든 작업 보기)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
+`Alt + Shift + W` : 각종 탐색 메뉴 목록 보기 (Project Explorer, Terminal, Coverage, Package Explorer, Outline, System Explorer, Properties 메뉴)   
 `Alt + Shift + Q + P` : 패키지 탐색기 표시   
 `Alt + Shift + Q + C` : 콘솔 표시   
    
@@ -127,14 +128,14 @@ thumbnail: /assets/profile.png
 `Alt + 방향키 ←/→` : 이전/다음 작업 위치로 이동   
 `Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
-`Ctrl + Shift + P` : 일치하는 괄호로 이동   
+`Ctrl + Shift + P` : 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
 `Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버로 이동   
 `Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
 `F3` : 해당 메서드나 클래스가 정의된 곳으로 이동   
 `Ctrl + L` : 특정 줄 번호로 이동   
 `Ctrl + Q` : 마지막 편집 위치로 이동   
-`Ctrl + E` : 열려져 있는 파일목록 미니창으로 보기 → 선택시 해당 파일로 이동   
-`Ctrl + Shift + E` : 에디터 안에서 열린 파일간의 이동   
+`Ctrl + E` : 에디터 안에서 열린 파일 목록을 미니창으로 확인 후 원하는 파일로 이동   
+`Ctrl + Shift + E` : 에디터 안에서 열린 파일 목록을 큰 창으로 확인 후 원하는 파일로 이동   
 `Ctrl + F6` : 에디터 안에 열린 파일간 이동, F6을 누를 때마다 하나씩 순차적으로 이동   
 `Ctrl + PageUp/PageDown` : 이전/다음에 열린 편집기 Edit로 이동   
 `F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
@@ -194,12 +195,9 @@ thumbnail: /assets/profile.png
 `개념 2: Push Up` : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
-   
-      
-https://jhnyang.tistory.com/entry/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EB%8B%A8%EC%B6%95%ED%82%A4   
-   
-https://nhj12311.tistory.com/402   
-   
+  
+<br /><br /><br />
+추가할 것   
 https://iamfreeman.tistory.com/entry/Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-Effective-Eclipse-Shortcut-Keys#google_vignette   
    
 assets의 엑셀 내용 업데이트 하기   
