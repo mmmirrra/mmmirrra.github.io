@@ -31,6 +31,9 @@ thumbnail: /assets/profile.png
 `Ctrl + Shift + Y` : 소문자로 변경   
 `Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
 `Alt + Shift + A` : 세로 편집모드 집입/해제   
+`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename)   
+`Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename 리팩토링   
+`Ctrl + 2 + L or F` : 새 지역 변수 또는 필드에 명령문 할당   
    
 <br />
 ### 자동완성   
@@ -86,8 +89,12 @@ thumbnail: /assets/profile.png
 `Ctrl + O` : 해당 소스의 클래스 구조 트리 Outline 창 보기   
 `Ctrl + Shift + Space` : 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
 `Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
+`Shift + F10` : 상황에 맞는 메뉴 목록 창 보기(Mouse2에 해당하는 키보드)   
+`Ctrl + F10` : 현재 보기에 대한 메뉴 목록 창 보기   
 `Ctrl + 3` : 빠른 액세스 (Quick Access) (Eclipse에서 사용 가능한 모든 작업 보기)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
+`Alt + Shift + Q + P` : 패키지 탐색기 표시   
+`Alt + Shift + Q + C` : 콘솔 표시   
    
 <br />
 ### 찾기   
@@ -108,6 +115,7 @@ thumbnail: /assets/profile.png
 `Alt + 방향키 ←/→` : 이전/다음 작업 위치로 이동   
 `Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
+`Ctrl + Shift + P` : 일치하는 괄호로 이동   
 `Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버로 이동   
 `Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
 `F3` : 해당 메서드나 클래스가 정의된 곳으로 이동   
@@ -153,13 +161,15 @@ thumbnail: /assets/profile.png
 `F6` : 한 줄씩 디버깅 step over  
 `F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 step into   
 `Ctrl + Shift + B` : 커서 줄에 중단점(Break point) 설정/해제   
+`Ctrl + Alt + B` : 코드 재로딩을 위해 디버그 모드를 사용하고 모든 중단점을 건너뜀   
 `Ctrl + R` : 현재 라인까지 실행 Run to Line   
+`Alt + Shift + X + J` : 현재 선택한 클래스를 Java 응용 프로그램으로 실행   
+`Alt + Shift + X + T` : JUnit 테스트 실행   
+`Alt + Shift + X + P` : JUnit 플러그인 테스트 실행   
    
 <br />
 ### 리팩토링 Refactoring   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
-`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename)   
-`Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename 리팩토링   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
    
 <br />   
