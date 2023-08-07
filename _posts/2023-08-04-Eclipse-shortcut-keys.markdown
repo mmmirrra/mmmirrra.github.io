@@ -48,7 +48,7 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 해결방법   
-`Ctrl + 1` : 빨간줄(에러) 해결방법 도우미  
+`Ctrl + 1` : 빨간줄(에러) 해결방법 도우미 (컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시)  
 `F2` : 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 제공   
 `Ctrl + 2 + R` : 리팩토링(Rename)   
    
@@ -98,7 +98,7 @@ thumbnail: /assets/profile.png
 ### 이동
 `Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
-`Ctrl + Shift + Down` : 클래스 내에서 다음 멤버로 이동   
+`Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버로 이동   
 `Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
 `Ctrl + L` : 특정 줄 번호로 이동   
 `Ctrl + Q` : 마지막 편집 위치로 이동   
@@ -107,7 +107,15 @@ thumbnail: /assets/profile.png
 `Ctrl + F6` : 창 전환   
 `Ctrl + M` : 전체 화면 전환   
 `Ctrl + PageUp , Ctrl + PageDown` : Edit 창 이동   
-`F12` : Editor 창으로 이동   
+`F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
+   
+<br />
+### window 이동   
+`Ctrl + F7` : 다음 View로 이동   
+`Ctrl + Shift + F7` : 이전 View로 이동   
+`Ctrl + F8` : 다음 Perspective로 이동   
+`F10` : 메뉴창을 활성화   
+`Ctrl + N` : 새로운 파일 및 프로젝트 생성   
    
 <br />
 ### 저장   
@@ -137,22 +145,8 @@ thumbnail: /assets/profile.png
 `CTRL + R` : 현재 라인까지 실행 Run to Line   
    
 <br />
-***
-추가로 정리할 것   
-2. window 이동   
-`F10` : 메뉴창을 활성화   
-`Ctrl + F8` : 다음 Perspective로 이동   
-`Ctrl + N` : 새로운 파일 및 프로젝트 생성.   
-`Ctrl + Shift + Down` : Java Editor에서 다음 member로 이동.   
-`Ctrl + F7` : 다음 View로 이동.   
-`Ctrl + Shift + F7` : 이전 View로 이동.   
-`Alt + <-` : 이전 작업 화면   
-`Alt + ->` : 다음 작업 화면   
-`F12` : 컴파일 중 에러등으로 포커스가 다른데로 갔을 때 Editor 로 커서 이동   
-`Ctrl + 1` : 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누를 경우 컴파일 에러에 대한 해결책을 제시   
-   
-4. Refactoring 단축키   
-Shift + ALT + 알파벳 : Refactoring을 위한 단축키 임.   
+### 리팩토링 Refactoring   
+`Shift + ALT + 알파벳` : Refactoring을 위한 단축키 임   
    
 <br />
 https://velog.io/@gillog/IDE-Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EC%A0%95%EB%A6%AC   
