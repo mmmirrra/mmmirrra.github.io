@@ -43,7 +43,7 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 자동완성 템플릿 이용   
-자동완성 키워드 등록 위치 : `Window - Preferences - Java - Editor - Templates`   
+자동완성 키워드 등록 위치 : `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트` (`Window - Preferences - Java - Editor - Templates`)   
 (예시) sysout 입력후 'Ctrl + Space'를 누르면 'System.out.println();' 으로 변경됨   
 (예시) try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
 (예시) for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
@@ -54,6 +54,12 @@ thumbnail: /assets/profile.png
 <br />
 ### 자동완성 어시스트 트리거 문자 등록 위치   
 `Window - Preferences - Java - Editor - Content Assist - Auto Activation - Auto activation triggers for java → .abcdefghijklmnopqrstuvwxyz`   
+   
+<br />
+### 메소드 쉽게 생성하는 방법   
+1. 클래스의 멤버를 일단 먼저 생성   
+2. override 메소드를 구현하려면 : 소스->메소드대체/구현 에서 해당 메소드를 체크   
+3. 기타 클래스의 멤버가 클래스의 오브젝트라면 : 소스->위임메소드 생성에서 메소드를 선택   
    
 <br />
 ### 해결방법   
@@ -85,7 +91,7 @@ thumbnail: /assets/profile.png
 ### 보기   
 `Ctrl + M` : 전체 화면으로 보기   
 `F4` : 클래스 계층 (Hierarchy) 보기 (클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인)   
-`Ctrl + T` : 상속 계층 팝업 창 보기   
+`Ctrl + T` : 상속 계층 팝업 창 보기 (인터페이스 구현 클래스간 이동 시 편리)   
 `Ctrl + O` : 해당 소스의 클래스 구조 트리 Outline 창 보기   
 `Ctrl + Shift + Space` : 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
 `Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
@@ -122,7 +128,7 @@ thumbnail: /assets/profile.png
 `Ctrl + L` : 특정 줄 번호로 이동   
 `Ctrl + Q` : 마지막 편집 위치로 이동   
 `Ctrl + E` : 열려져 있는 파일목록 미니창으로 보기 → 선택시 해당 파일로 이동   
-`Ctrl + Shift + E` : 에디터 안에서 열린 파일간의 이동
+`Ctrl + Shift + E` : 에디터 안에서 열린 파일간의 이동   
 `Ctrl + F6` : 에디터 안에 열린 파일간 이동, F6을 누를 때마다 하나씩 순차적으로 이동   
 `Ctrl + PageUp/PageDown` : 이전/다음에 열린 편집기 Edit로 이동   
 `F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
@@ -156,25 +162,34 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 디버깅   
+디버깅 하면서 소스를 수정하고 프로그램을 다시 시작할 필요 없이 계속 디버깅을 진행 할 수 있음. 단, 메소드를 추가하거나 필드를 추가하면 프로그램을 다시 시작해야 함   
+디버깅 할 때 해당 라이브러리의 소스코드를 첨부하지 않으면 진행상황을 볼 수 없는 경우 해당 라이브러리에 소스코드를 첨부할 수 있음 : `해당 프로젝트 -> 특성 -> Java 빌드경로 -> 라이브러리 -> 소스참조 -> 편집 버튼을 눌러서 첨부`   
 `F11` : 디버깅 실행 (에러가 났을 때 디버깅 함)   
-`F8` : 디버깅 계속   
-`F6` : 한 줄씩 디버깅 step over  
-`F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 step into   
+`F8` : Resume 멈추어 있던 디버깅을 다시 계속 실행   
+`F7` : Step Return 현재 메소드에서 리턴한 직후에 다시 멈춤   
+`F6` : 한 줄씩 디버깅 step over (현재 명령문을 실행하고 다음 명령문 직전에 다시 멈춤)   
+`F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 step into (자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크(Shift+F5)를 하면 필터를 설정한 클래스에 대하서는 Step Over 기능과 같은 기능을 수행)   
 `Ctrl + Shift + B` : 커서 줄에 중단점(Break point) 설정/해제   
 `Ctrl + Alt + B` : 코드 재로딩을 위해 디버그 모드를 사용하고 모든 중단점을 건너뜀   
 `Ctrl + R` : 현재 라인까지 실행 Run to Line   
 `Alt + Shift + X + J` : 현재 선택한 클래스를 Java 응용 프로그램으로 실행   
 `Alt + Shift + X + T` : JUnit 테스트 실행   
 `Alt + Shift + X + P` : JUnit 플러그인 테스트 실행   
+`Display view(표시)` : '창 -> 보기표시 -> 표시' 선택하여 소스상에서 필요한 부분을 선택해서 실행시켜 볼 수 있음 (한 순간의 값만 필요할 때 볼 수 있음)   
+`Expression view(표현식)` : '마우스 오른버튼 -> 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 -> 자바 -> 디버그 -> 세부사항 포멧터 선택' 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
+   
+<br />
+### 스크랩북   
+스크랩북을 이용하면 자바파일을 만들어 테스트 해보지 않고도 간단하게 테스트 해 볼 수 있음 : `패키지 탐색기에서 신규 -> 기타 -> 자바 -> 자바 실행/디버그 -> 스크랩북 페이지 선택`   
    
 <br />
 ### 리팩토링 Refactoring   
+Pull Down : 수퍼클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
+Push Up : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
    
-<br />   
-https://songeunjung92.tistory.com/7   
-   
+
 https://www.crocus.co.kr/1614   
    
 https://yooniron.tistory.com/44   
