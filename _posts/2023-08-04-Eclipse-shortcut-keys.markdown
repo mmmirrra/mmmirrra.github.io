@@ -20,11 +20,13 @@ thumbnail: /assets/profile.png
 `Ctrl + Z` : 실행취소   
 `Ctrl + Y` : 실행취소 되돌리기   
 `Ctrl + D` : 한줄 삭제   
+`Ctrl + Shift + Del` : 줄 끝까지 삭제   
+`Ctrl + Del` : 다음 요소 삭제   
+`Ctrl + Backspace` : 이전 요소 삭제   
 `Ctrl + Shift + Enter` : 현재 줄에 새줄 추가   
 `Shift + Enter` : 다음줄에 새줄 추가   
 `Alt + 방향키 ↑/↓` : 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 (위/아래 줄과 바꾸기)   
 `Ctrl + Alt + 방향키 ↑/↓` : 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
-`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename)   
 `Ctrl + Shift + X` : 대문자로 변경   
 `Ctrl + Shift + Y` : 소문자로 변경   
 `Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
@@ -53,8 +55,8 @@ thumbnail: /assets/profile.png
 <br />
 ### 해결방법   
 `Ctrl + 1` : 빨간줄(에러) 해결방법 도우미 (컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시)  
-`F2` : 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 제공   
-`Ctrl + 2 + R` : 리팩토링(Rename)   
+`F2` : 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 표시   
+`Shift + F2` : 선택한 유형/클래스/메서드에 대한 Javadoc 표시   
    
 <br />
 ### 정렬   
@@ -74,7 +76,7 @@ thumbnail: /assets/profile.png
 `Shift + Home` : 현재 커서부터 처음까지 블록 설정   
 `Ctrl + A` : 전체 블록 설정   
 `Alt + Shift + 방향키(←/↑/→/↓)` : 이미 선택되어 있는 블록을 방향키로 늘림   
-`Alt + Shift + Z` : 구문 블록을 감싸는 메뉴 제공   
+`Alt + Shift + Z` : 구문 블록을 감싸는 메뉴 제공 (예시: try/catch)   
    
 <br />
 ### 보기   
@@ -84,7 +86,6 @@ thumbnail: /assets/profile.png
 `Ctrl + O` : 해당 소스의 클래스 구조 트리 Outline 창 보기   
 `Ctrl + Shift + Space` : 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
 `Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
-`Alt + Shift + T` : 실행 가능한 리펙토링 메뉴 보기   
 `Ctrl + 3` : 빠른 액세스 (Quick Access) (Eclipse에서 사용 가능한 모든 작업 보기)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
    
@@ -115,7 +116,7 @@ thumbnail: /assets/profile.png
 `Ctrl + E` : 열려져 있는 파일목록 미니창으로 보기 → 선택시 해당 파일로 이동   
 `Ctrl + Shift + E` : 에디터 안에서 열린 파일간의 이동
 `Ctrl + F6` : 에디터 안에 열린 파일간 이동, F6을 누를 때마다 하나씩 순차적으로 이동   
-`Ctrl + PageUp , Ctrl + PageDown` : Edit 창 이동   
+`Ctrl + PageUp/PageDown` : 이전/다음에 열린 편집기 Edit로 이동   
 `F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
    
 <br />
@@ -152,11 +153,14 @@ thumbnail: /assets/profile.png
 `F6` : 한 줄씩 디버깅 step over  
 `F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 step into   
 `Ctrl + Shift + B` : 커서 줄에 중단점(Break point) 설정/해제   
-`CTRL + R` : 현재 라인까지 실행 Run to Line   
+`Ctrl + R` : 현재 라인까지 실행 Run to Line   
    
 <br />
 ### 리팩토링 Refactoring   
-`Shift + ALT + 알파벳` : Refactoring을 위한 단축키 임   
+`Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
+`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename)   
+`Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename 리팩토링   
+`Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
    
 <br />   
 https://songeunjung92.tistory.com/7   
