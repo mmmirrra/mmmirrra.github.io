@@ -184,7 +184,7 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 리팩토링 Refactoring   
-Pull Down : 수퍼클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
+Pull Down : 슈퍼 클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
 Push Up : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
