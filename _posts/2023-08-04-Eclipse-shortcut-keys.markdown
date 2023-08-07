@@ -20,8 +20,10 @@ thumbnail: /assets/profile.png
 `Ctrl + Z` : 실행취소   
 `Ctrl + Y` : 실행취소 되돌리기   
 `Ctrl + D` : 한줄 삭제   
-`Alt + ↑/↓` : 현재라인(선택된 블럭)을 한단계 위로/아래로 이동시키기 (위/아래 줄과 바꾸기)   
-`Ctrl + Alt + ↑/↓` : 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
+`Ctrl + Shift + Enter` : 현재 줄에 새줄 추가   
+`Shift + Enter` : 다음줄에 새줄 추가   
+`Alt + 방향키 ↑/↓` : 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 (위/아래 줄과 바꾸기)   
+`Ctrl + Alt + 방향키 ↑/↓` : 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
 `Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename)   
 `Ctrl + Shift + X` : 대문자로 변경   
 `Ctrl + Shift + Y` : 소문자로 변경   
@@ -30,7 +32,7 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 자동완성   
-`Ctrl + Space` : 코드 자동완성 어시스트 (Content Assistance)   
+`Ctrl + Space` : 코드 자동완성 어시스트 (Content Assistance) (입력하는 도중엔 언제라도 강제 호출 가능함)   
 `Ctrl + Shift + O` : 해당 소스에 필요한 패키지를 자동 import 추가, 안쓰는 import 삭제   
 `Ctrl + Shift + M` : 해당 객체에 커서를 놓고 키를 누르면 필요한 특정 클래스 Import 구문 자동 생성   
    
@@ -41,6 +43,8 @@ thumbnail: /assets/profile.png
 (예시) try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
 (예시) for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
 (예시) switch 입력 후 'Ctrl + Space'를 누르면 'switch 문' 자동완성   
+(예시) while 입력 후 'Ctrl + Space'를 누르면 'while 문' 자동완성   
+(예시) do 입력 후 'Ctrl + Space'를 누르면 'do-while 문' 자동완성   
    
 <br />
 ### 자동완성 어시스트 트리거 문자 등록 위치   
@@ -69,16 +73,19 @@ thumbnail: /assets/profile.png
 `Shift + End` : 현재 커서부터 끝까지 블록 설정   
 `Shift + Home` : 현재 커서부터 처음까지 블록 설정   
 `Ctrl + A` : 전체 블록 설정   
-`Alt + Shift + 방향키(←,↑,→,↓)` : 이미 선택되어 있는 블록을 방향키로 늘림   
+`Alt + Shift + 방향키(←/↑/→/↓)` : 이미 선택되어 있는 블록을 방향키로 늘림   
 `Alt + Shift + Z` : 구문 블록을 감싸는 메뉴 제공   
    
 <br />
 ### 보기   
+`Ctrl + M` : 전체 화면으로 보기   
 `F4` : 클래스 계층 (Hierarchy) 보기 (클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인)   
-`Ctrl + T` : 상속 계층 팝업 창   
+`Ctrl + T` : 상속 계층 팝업 창 보기   
 `Ctrl + O` : 해당 소스의 클래스 구조 트리 Outline 창 보기   
 `Ctrl + Shift + Space` : 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
-`Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가 , Comment 추가 , Generator 메뉴 등)   
+`Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
+`Alt + Shift + T` : 실행 가능한 리펙토링 메뉴 보기   
+`Ctrl + 3` : 빠른 액세스 (Quick Access) (Eclipse에서 사용 가능한 모든 작업 보기)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
    
 <br />
@@ -96,24 +103,26 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 이동
+`Ctrl + 방향키 ←/→` : 다음/이전 문자로 이동   
+`Alt + 방향키 ←/→` : 이전/다음 작업 위치로 이동   
 `Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버로 이동   
 `Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
+`F3` : 해당 메서드나 클래스가 정의된 곳으로 이동   
 `Ctrl + L` : 특정 줄 번호로 이동   
 `Ctrl + Q` : 마지막 편집 위치로 이동   
 `Ctrl + E` : 열려져 있는 파일목록 미니창으로 보기 → 선택시 해당 파일로 이동   
-`Alt + ←/→` : 이전 작업 위치로 이동 / 다음 작업 위치로 이동   
-`Ctrl + F6` : 창 전환   
-`Ctrl + M` : 전체 화면 전환   
+`Ctrl + Shift + E` : 에디터 안에서 열린 파일간의 이동
+`Ctrl + F6` : 에디터 안에 열린 파일간 이동, F6을 누를 때마다 하나씩 순차적으로 이동   
 `Ctrl + PageUp , Ctrl + PageDown` : Edit 창 이동   
 `F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
    
 <br />
-### window 이동   
+### 윈도우 window 이동   
 `Ctrl + F7` : 다음 View로 이동   
 `Ctrl + Shift + F7` : 이전 View로 이동   
-`Ctrl + F8` : 다음 Perspective로 이동   
+`Ctrl + F8` : 다음 퍼스펙티브 Perspective로 이동   
 `F10` : 메뉴창을 활성화   
 `Ctrl + N` : 새로운 파일 및 프로젝트 생성   
    
@@ -134,6 +143,7 @@ thumbnail: /assets/profile.png
 <br />
 ### 실행   
 `Ctrl + F11` : 소스 실행 run (에러가 났을 때 디버깅 하지 않음)   
+`Alt + Shift + X + R` : 서버 실행 (Run on Server)   
    
 <br />
 ### 디버깅   
@@ -148,9 +158,7 @@ thumbnail: /assets/profile.png
 ### 리팩토링 Refactoring   
 `Shift + ALT + 알파벳` : Refactoring을 위한 단축키 임   
    
-<br />
-https://velog.io/@gillog/IDE-Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EC%A0%95%EB%A6%AC   
-   
+<br />   
 https://songeunjung92.tistory.com/7   
    
 https://www.crocus.co.kr/1614   
