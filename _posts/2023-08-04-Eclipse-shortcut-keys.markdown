@@ -5,12 +5,12 @@ date:   2023-08-04 09:00:00 +0900
 categories: [Eclipse]
 ---
 
-### Keys Change Menu 단축키 변경 메뉴   
-`Window >> Preferences >> General >> Keys` : All keys in Eclipse can be checked and changed 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
+### Keys Change Menu // 단축키 변경 메뉴   
+`Window >> Preferences >> General >> Keys` : All keys in Eclipse can be checked and changed // 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
    
 <br />
-### Show Key Assist 단축키 힌트 보기   
-`Ctrl + Shift + L` : Show Key Assist 단축키 힌트 보기   
+### Show Key Assist // 단축키 힌트 보기   
+`Ctrl + Shift + L` : Show Key Assist // 단축키 힌트 보기   
    
 <br />
 ### Editing 편집   
