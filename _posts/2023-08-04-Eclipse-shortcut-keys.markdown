@@ -201,3 +201,5 @@ categories: [Eclipse]
 `Alt + F5` : Maven Update Project   
 `Ctrl + Alt + P` : Select Maven Profiles...   
    
+참고사이트
+   https://iamfreeman.tistory.com/entry/Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-Effective-Eclipse-Shortcut-Keys#google_vignette
