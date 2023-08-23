@@ -37,7 +37,7 @@ thumbnail: /assets/profile.png
    
 <br />
 ### 정렬   
-`Ctrl + Shift + F` : 코드 포맷팅 - 코드 내용을 문법 템플릿에 맞게 포맷팅(들여쓰기 등 자동 코드 정렬) 함   
+`Ctrl + Shift + F` : 코드 자동 정리(포맷팅) - 코드 내용을 문법 템플릿에 맞게 포맷팅(들여쓰기 등 자동 코드 정렬) 함   
 `Ctrl + i` : 선택된 블럭내 코드 자동 들여쓰기   
    
 <br />
@@ -116,6 +116,7 @@ thumbnail: /assets/profile.png
 `Ctrl + Shift + R` : 모든 프로젝트의 전체 리소스에서 파일 찾기   
 `Ctrl + Shift + T` : Jar 포함 클래스 찾기   
 `Ctrl + Alt + H` : 특정 클래스 호출 위치 찾기   
+`Ctrl + Alt + G` : Workspace 에서 문자 찾기   
 `Ctrl + Shift + G` : 현재 커서가 위치한 특정 메서드나 객체, 필드를 쓰는 곳, 참조하는(Reference) 곳 표시   
 `Ctrl + K` : 앞으로 찾기 (현재 라인 밑으로 찾기) 또는 찾고자 하는 문자열을 블록으로 지정하고 찾기   
 `Ctrl + Shift + K` : 뒤로 찾기 (현재 라인 위로 찾기)   
@@ -129,7 +130,7 @@ thumbnail: /assets/profile.png
 `Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
 `Ctrl + Shift + P` : 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
-`Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버로 이동   
+`Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버(member)로 이동   
 `Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
 `F3` : 해당 메서드나 클래스가 정의된 곳으로 이동   
 `Ctrl + L` : 특정 줄 번호로 이동   
@@ -195,9 +196,9 @@ thumbnail: /assets/profile.png
 `개념 2: Push Up` : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
-  
-<br /><br /><br />
-추가할 것   
-https://iamfreeman.tistory.com/entry/Eclipse-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-Effective-Eclipse-Shortcut-Keys#google_vignette   
    
-assets의 엑셀 내용 업데이트 하기   
+<br />
+### Maven   
+`Alt + F5` : Maven Update Project   
+`Ctrl + Alt + P` : Select Maven Profiles...   
+   
