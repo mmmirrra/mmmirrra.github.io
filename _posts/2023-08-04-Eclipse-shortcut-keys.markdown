@@ -6,16 +6,16 @@ categories: [Eclipse]
 ---
 
 ### Keys Change Menu 단축키 변경 메뉴   
-`Window >> Preferences >> General >> Keys` : 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
+`Window >> Preferences >> General >> Keys` : All keys in Eclipse can be checked and changed 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
    
 <br />
 ### Show Key Assist 단축키 힌트 보기   
-`Ctrl + Shift + L` : See hints for Eclipse shortcuts 이클립스 단축키의 힌트 보기   
+`Ctrl + Shift + L` : Show Key Assist 단축키 힌트 보기   
    
 <br />
-### 편집   
-`Tab` : 들여쓰기   
-`Shift + Tab` : 내어쓰기   
+### Editing 편집   
+`Tab` : Indent 들여쓰기   
+`Shift + Tab` : Outdent 내어쓰기   
 `Ctrl + Z` : 실행취소   
 `Ctrl + Y` : 실행취소 되돌리기   
 `Ctrl + D` : 한줄 삭제   
