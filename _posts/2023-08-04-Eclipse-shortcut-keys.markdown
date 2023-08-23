@@ -30,7 +30,7 @@ categories: [Eclipse]
 `Ctrl + Shift + Y` : 소문자로 변경   
 `Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
 `Alt + Shift + A` : 세로 블럭 드래그 가능한 편집모드 집입/해제   
-`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (rename) (preview로 변경되는 변수를 미리볼 수 있음)   
+`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (Rename) (Preview로 변경되는 변수를 미리볼 수 있음)   
 `Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename 리팩토링   
 `Ctrl + 2 + L or F` : 새 지역 변수 또는 필드에 명령문 할당   
    
@@ -42,7 +42,7 @@ categories: [Eclipse]
 <br />
 ### 자동완성   
 `Ctrl + Space` : Content Assistance 코드 자동완성 어시스트 (입력하는 도중엔 언제라도 강제 호출 가능함)   
-`Ctrl + Shift + O` : 해당 소스에 필요한 패키지를 자동 import 추가, 안쓰는 import 삭제   
+`Ctrl + Shift + O` : 해당 소스에 필요한 패키지를 자동 Import 추가, 안쓰는 Import 삭제   
 `Ctrl + Shift + M` : 해당 객체에 커서를 놓고 키를 누르면 필요한 특정 클래스 Import 구문 자동 생성   
    
 <br />
@@ -62,7 +62,7 @@ categories: [Eclipse]
 <br />
 ### 메소드 쉽게 생성하는 방법   
 1. 클래스의 멤버를 일단 먼저 생성   
-2. override 메소드를 구현하려면 : 소스->메소드대체/구현 에서 해당 메소드를 체크   
+2. Override 메소드를 구현하려면 : 소스->메소드대체/구현 에서 해당 메소드를 체크   
 3. 기타 클래스의 멤버가 클래스의 오브젝트라면 : 소스->위임메소드 생성에서 메소드를 선택   
    
 <br />
@@ -102,7 +102,7 @@ categories: [Eclipse]
 `Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
 `Shift + F10` : 상황에 맞는 메뉴 목록 창 보기(Mouse2에 해당하는 키보드)   
 `Ctrl + F10` : 현재 보기에 대한 메뉴 목록 창 보기   
-`Ctrl + 3` : Quick Access 빠른 액세스 (Eclipse에서 사용 가능한 모든 작업 보기)   
+`Ctrl + 3` : Quick Access 빠른 액세스 (이클립스에서 사용 가능한 모든 작업 보기)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
 `Alt + Shift + W` : 각종 탐색 메뉴 목록 보기 (Project Explorer, Terminal, Coverage, Package Explorer, Outline, System Explorer, Properties 메뉴)   
 `Alt + Shift + Q + P` : 패키지 탐색기 표시   
@@ -110,8 +110,8 @@ categories: [Eclipse]
    
 <br />
 ### 찾기   
-`Ctrl + F` : fine/replace 찾기/변경 (해당 소스에서만)   
-`Ctrl + H` : fine/replace 찾기/변경 (모든 파일, 프로젝트 전체에서 검색)   
+`Ctrl + F` : Fine/Replace 찾기/변경 (해당 소스에서만)   
+`Ctrl + H` : Fine/Replace 찾기/변경 (모든 파일, 프로젝트 전체에서 검색)   
 `Ctrl + Shift + R` : 모든 프로젝트의 전체 리소스에서 파일 찾기   
 `Ctrl + Shift + T` : Jar 포함 클래스 찾기   
 `Ctrl + Alt + H` : 특정 클래스 호출 위치 찾기   
@@ -126,10 +126,10 @@ categories: [Eclipse]
 ### 이동   
 `Ctrl + 방향키 ←/→` : 다음/이전 문자로 이동   
 `Alt + 방향키 ←/→` : 이전/다음 작업 위치로 이동   
-`Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (annotation)로 이동   
-`Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (annotation)로 이동   
+`Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (Annotation)로 이동   
+`Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (Annotation)로 이동   
 `Ctrl + Shift + P` : 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
-`Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버(member)로 이동   
+`Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버(Member)로 이동   
 `Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
 `F3` : 해당 메서드나 클래스가 정의된 곳으로 이동   
 `Ctrl + L` : 특정 줄 번호로 이동   
