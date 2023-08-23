@@ -16,18 +16,18 @@ categories: [Eclipse]
 ### Editing 편집   
 `Tab` : Indent 들여쓰기   
 `Shift + Tab` : Outdent 내어쓰기   
-`Ctrl + Z` : 실행취소   
-`Ctrl + Y` : 실행취소 되돌리기   
-`Ctrl + D` : 한줄 삭제   
-`Ctrl + Shift + Del` : 줄 끝까지 삭제   
-`Ctrl + Del` : 다음 요소 삭제   
-`Ctrl + Backspace` : 이전 요소 삭제   
-`Ctrl + Shift + Enter` : 현재 줄에 새줄 추가   
-`Shift + Enter` : 다음줄에 새줄 추가   
-`Alt + 방향키 ↑/↓` : 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 (위/아래 줄과 바꾸기)   
-`Ctrl + Alt + 방향키 ↑/↓` : 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
-`Ctrl + Shift + X` : 대문자로 변경   
-`Ctrl + Shift + Y` : 소문자로 변경   
+`Ctrl + Z` : Undo 실행취소   
+`Ctrl + Y` : Redo 실행취소 되돌리기   
+`Ctrl + D` : Delete Line 한줄 삭제   
+`Ctrl + Shift + Delete` : Delete to End of Line 줄 끝까지 삭제   
+`Ctrl + Delete` : Delete Next Word 다음 요소 삭제   
+`Ctrl + Backspace` : Delete Previous Word 이전 요소 삭제   
+`Ctrl + Shift + Enter` : Insert Line Above Current Line 현재 줄에 새줄 추가   
+`Shift + Enter` : Insert Line Below Current Line 다음줄에 새줄 추가   
+`Alt + 방향키 ↑/↓` : Move Lines Down 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 (위/아래 줄과 바꾸기)   
+`Ctrl + Alt + 방향키 ↑/↓` : Move Lines Up 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
+`Ctrl + Shift + X` : To Upper Case 대문자로 변경   
+`Ctrl + Shift + Y` : To Lower Case 소문자로 변경   
 `Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
 `Alt + Shift + A` : 세로 블럭 드래그 가능한 편집모드 집입/해제   
 `Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (Rename) (Preview로 변경되는 변수를 미리볼 수 있음)   
