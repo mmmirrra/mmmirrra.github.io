@@ -48,7 +48,7 @@ categories: [Eclipse]
    
 <br />
 ### How to use AutoComplete templates // 자동완성 템플릿 이용   
-Menu to register auto-complete keywords // 자동완성 키워드 등록 위치 : `Window - Preferences - Java - Editor - Templates` // `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트`   
+Menu to register auto-complete keywords: `Window - Preferences - Java - Editor - Templates` // 자동완성 키워드 등록 위치: `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트`   
 (Example) Type 'sysout' and press 'Ctrl + Space' to change to 'System.out.println();' // sysout 입력 후 'Ctrl + Space'를 누르면 'System.out.println();' 자동완성   
 (Example) Type 'try' and press 'Ctrl + Space' to auto-complete to 'try-catch function' // try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
 (Example) Type 'for' and press 'Ctrl + Space' to auto-complete to 'for function' // for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
@@ -75,8 +75,8 @@ Menu to register auto-complete keywords // 자동완성 키워드 등록 위치 
 <br />
 ### Comment 주석   
 `Ctrl + /` : Toggle Comment (//): Comment to the current line // 라인주석(Line Comment) (//): 현재 라인(선택된 블럭)에 주석 적용/해제   
-`Ctrl + Shift + /` : Apply Block Comment (/* */): Block Comment to the selected blocks (/* */) // 현재 선택된 블럭에 블럭주석 적용   
-`Ctrl + Shift + \` : Remove Block Comment (/* */) // 블럭주석 해제   
+`Ctrl + Shift + /` : Apply Block Comment (/**/): Block Comment to the selected blocks (/**/) // 현재 선택된 블럭에 블럭주석 적용   
+`Ctrl + Shift + \` : Remove Block Comment (/**/) // 블럭주석 해제   
 `Alt + Shift + J` : Add Javadoc Comment: Create an Comment template for that method/class, or automatically apply the default Comment you have set up (Press with focus on method or member variables) // 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
    
 <br />
