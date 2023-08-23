@@ -48,13 +48,13 @@ categories: [Eclipse]
    
 <br />
 ### How to use AutoComplete templates // 자동완성 템플릿 이용   
-Menu to register auto-complete keywords: `Window - Preferences - Java - Editor - Templates` // 자동완성 키워드 등록 위치: `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트`   
-(Example) Type 'sysout' and press 'Ctrl + Space' to change to 'System.out.println();' // sysout 입력 후 'Ctrl + Space'를 누르면 'System.out.println();' 자동완성   
-(Example) Type 'try' and press 'Ctrl + Space' to auto-complete to 'try-catch function' // try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
-(Example) Type 'for' and press 'Ctrl + Space' to auto-complete to 'for function' // for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
-(Example) Type 'switch' and press 'Ctrl + Space' to auto-complete to 'switch function' // switch 입력 후 'Ctrl + Space'를 누르면 'switch 문' 자동완성   
-(Example) Type 'while' and press 'Ctrl + Space' to auto-complete to 'while function' // while 입력 후 'Ctrl + Space'를 누르면 'while 문' 자동완성   
-(Example) Type 'do' and press 'Ctrl + Space' to auto-complete to 'do-while function' // do 입력 후 'Ctrl + Space'를 누르면 'do-while 문' 자동완성   
+Menu to register auto-complete keywords: `Window - Preferences - Java - Editor - Templates` // (예시) 자동완성 키워드 등록 위치: `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트`   
+(Example) Type 'sysout' and press 'Ctrl + Space' to change to 'System.out.println();' // (예시) sysout 입력 후 'Ctrl + Space'를 누르면 'System.out.println();' 자동완성   
+(Example) Type 'try' and press 'Ctrl + Space' to auto-complete to 'try-catch function' // (예시) try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
+(Example) Type 'for' and press 'Ctrl + Space' to auto-complete to 'for function' // (예시) for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
+(Example) Type 'switch' and press 'Ctrl + Space' to auto-complete to 'switch function' // (예시) switch 입력 후 'Ctrl + Space'를 누르면 'switch 문' 자동완성   
+(Example) Type 'while' and press 'Ctrl + Space' to auto-complete to 'while function' // (예시) while 입력 후 'Ctrl + Space'를 누르면 'while 문' 자동완성   
+(Example) Type 'do' and press 'Ctrl + Space' to auto-complete to 'do-while function' // (예시) do 입력 후 'Ctrl + Space'를 누르면 'do-while 문' 자동완성   
    
 <br />
 ### Menu to register auto activation assist triggers keywords // 자동완성 어시스트 트리거 문자 등록 위치   
