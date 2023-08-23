@@ -3,7 +3,6 @@ layout: post
 title:  "React: To only display list items that meet the filter criteria"
 date:   2023-08-02 10:00:00 +0900
 categories: [React]
-thumbnail: /assets/profile.png
 ---
 
 Filters dates that are greater than the start date and less than the end date, or dates that are equal to the start date or the end date.   

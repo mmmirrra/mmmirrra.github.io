@@ -3,15 +3,14 @@ layout: post
 title:  "Eclipse: shortcut keys, hot keys"
 date:   2023-08-04 09:00:00 +0900
 categories: [Eclipse]
-thumbnail: /assets/profile.png
 ---
 
-### 단축키 변경 메뉴   
+### 단축키 변경 메뉴 Keys Change Menu   
 `Window >> Preferences >> General >> Keys` : 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
    
 <br />
-### 단축키 힌트 보기   
-`Ctrl + Shift + L` : See hints for Eclipse shortcuts (Eclipse 바로 가기의 힌트 보기)   
+### 단축키 힌트 보기 Show Key Assist   
+`Ctrl + Shift + L` : See hints for Eclipse shortcuts (이클립스 단축키의 힌트 보기)   
    
 <br />
 ### 편집   
@@ -187,7 +186,7 @@ thumbnail: /assets/profile.png
 `Expression view(표현식)` : '마우스 오른버튼 -> 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 -> 자바 -> 디버그 -> 세부사항 포멧터 선택' 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
    
 <br />
-### 스크랩북   
+### 스크랩북 Scrapbook   
 `개념 1` : 스크랩북을 이용하면 자바파일을 만들어 테스트 해보지 않고도 간단하게 테스트 해 볼 수 있음 : `패키지 탐색기에서 신규 -> 기타 -> 자바 -> 자바 실행/디버그 -> 스크랩북 페이지 선택`   
    
 <br />
@@ -198,7 +197,7 @@ thumbnail: /assets/profile.png
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
    
 <br />
-### Maven   
+### 메이븐 Maven   
 `Alt + F5` : Maven Update Project   
 `Ctrl + Alt + P` : Select Maven Profiles...   
    
