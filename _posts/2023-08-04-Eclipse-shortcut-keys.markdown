@@ -28,10 +28,10 @@ categories: [Eclipse]
 `Ctrl + Alt + 방향키 ↑/↓` : Move Lines Up // 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
 `Ctrl + Shift + X` : To Upper Case // 대문자로 변경   
 `Ctrl + Shift + Y` : To Lower Case // 소문자로 변경   
-`Ctrl + +/-` : 폰트 사이즈 한단계 크게/작게 수정   
-`Alt + Shift + A` : 세로 블럭 드래그 가능한 편집모드 집입/해제   
-`Alt + Shift + R` : 같은 변수 이름 한꺼번에 변경 (Rename) (Preview로 변경되는 변수를 미리볼 수 있음)   
-`Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename 리팩토링   
+`Ctrl + +/-` : Modify font size one step larger/smaller // 폰트 사이즈 한단계 크게/작게 수정   
+`Alt + Shift + A` : Enter edit mode to select vertical blocks // 세로 블럭 드래그 가능한 편집모드 집입/해제   
+`Alt + Shift + R` : Rename - Refactoring : Rename the same variable at once (Preview allows you to preview variables that change) // 같은 변수의 이름을 한번에 변경 (변경되는 변수를 Preview로 미리볼 수 있음)   
+`Ctrl + 2 + R` : 로컬 파일에서 이름 바꾸기 Rename Refactoring   
 `Ctrl + 2 + L or F` : 새 지역 변수 또는 필드에 명령문 할당   
    
 <br />
