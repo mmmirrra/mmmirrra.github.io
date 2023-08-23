@@ -5,12 +5,12 @@ date:   2023-08-04 09:00:00 +0900
 categories: [Eclipse]
 ---
 
-### 단축키 변경 메뉴 Keys Change Menu   
+### Keys Change Menu 단축키 변경 메뉴   
 `Window >> Preferences >> General >> Keys` : 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
    
 <br />
-### 단축키 힌트 보기 Show Key Assist   
-`Ctrl + Shift + L` : See hints for Eclipse shortcuts (이클립스 단축키의 힌트 보기)   
+### Show Key Assist 단축키 힌트 보기   
+`Ctrl + Shift + L` : See hints for Eclipse shortcuts 이클립스 단축키의 힌트 보기   
    
 <br />
 ### 편집   
@@ -41,13 +41,13 @@ categories: [Eclipse]
    
 <br />
 ### 자동완성   
-`Ctrl + Space` : 코드 자동완성 어시스트 (Content Assistance) (입력하는 도중엔 언제라도 강제 호출 가능함)   
+`Ctrl + Space` : Content Assistance 코드 자동완성 어시스트 (입력하는 도중엔 언제라도 강제 호출 가능함)   
 `Ctrl + Shift + O` : 해당 소스에 필요한 패키지를 자동 import 추가, 안쓰는 import 삭제   
 `Ctrl + Shift + M` : 해당 객체에 커서를 놓고 키를 누르면 필요한 특정 클래스 Import 구문 자동 생성   
    
 <br />
 ### 자동완성 템플릿 이용   
-자동완성 키워드 등록 위치 : `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트` (`Window - Preferences - Java - Editor - Templates`)   
+자동완성 키워드 등록 위치 : `Window - Preferences - Java - Editor - Templates` `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트`   
 (예시) sysout 입력후 'Ctrl + Space'를 누르면 'System.out.println();' 으로 변경됨   
 (예시) try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
 (예시) for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
@@ -73,7 +73,7 @@ categories: [Eclipse]
    
 <br />
 ### 주석   
-`Ctrl + /` : 현재라인(선택된 블럭) 주석 적용/해제 (//) (Word Completion)   
+`Ctrl + /` : Word Completion 현재라인(선택된 블럭) 주석 적용/해제 (//)   
 `Ctrl + Shift + /` : 선택된 블럭 블럭주석(Block Comment) 적용 (/* */)   
 `Ctrl + Shift + \` : 블럭주석(Block Comment) 해제   
 `Alt + Shift + J` : 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
@@ -102,7 +102,7 @@ categories: [Eclipse]
 `Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
 `Shift + F10` : 상황에 맞는 메뉴 목록 창 보기(Mouse2에 해당하는 키보드)   
 `Ctrl + F10` : 현재 보기에 대한 메뉴 목록 창 보기   
-`Ctrl + 3` : 빠른 액세스 (Quick Access) (Eclipse에서 사용 가능한 모든 작업 보기)   
+`Ctrl + 3` : Quick Access 빠른 액세스 (Eclipse에서 사용 가능한 모든 작업 보기)   
 `해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
 `Alt + Shift + W` : 각종 탐색 메뉴 목록 보기 (Project Explorer, Terminal, Coverage, Package Explorer, Outline, System Explorer, Properties 메뉴)   
 `Alt + Shift + Q + P` : 패키지 탐색기 표시   
@@ -110,8 +110,8 @@ categories: [Eclipse]
    
 <br />
 ### 찾기   
-`Ctrl + F` : 찾기/변경 (fine/replace) (해당 소스에서만)   
-`Ctrl + H` : 찾기/변경 (fine/replace) (모든 파일, 프로젝트 전체에서 검색)   
+`Ctrl + F` : fine/replace 찾기/변경 (해당 소스에서만)   
+`Ctrl + H` : fine/replace 찾기/변경 (모든 파일, 프로젝트 전체에서 검색)   
 `Ctrl + Shift + R` : 모든 프로젝트의 전체 리소스에서 파일 찾기   
 `Ctrl + Shift + T` : Jar 포함 클래스 찾기   
 `Ctrl + Alt + H` : 특정 클래스 호출 위치 찾기   
@@ -141,7 +141,7 @@ categories: [Eclipse]
 `F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
    
 <br />
-### 윈도우 window 이동   
+### Window 윈도우 이동   
 `Ctrl + F7` : 다음 View로 이동   
 `Ctrl + Shift + F7` : 이전 View로 이동   
 `Ctrl + F8` : 다음 퍼스펙티브 Perspective로 이동   
@@ -149,12 +149,12 @@ categories: [Eclipse]
 `Ctrl + N` : 새로운 파일 및 프로젝트 생성   
    
 <br />
-### 저장   
+### Save 저장   
 `Ctrl + S` : 소스코드 저장 (현재 파일만)   
 `Ctrl + Shift + S` : 열려진 모든 소스코드 저장   
    
 <br />
-### 닫기   
+### Close 닫기   
 `Ctrl + W` : 파일 닫기   
 `Ctrl + Shift + F4` : 열린 파일을 모두 닫음   
    
@@ -163,19 +163,19 @@ categories: [Eclipse]
 `Ctrl + B` : 빌드   
    
 <br />
-### 실행   
-`Ctrl + F11` : 소스 실행 run (에러가 났을 때 디버깅 하지 않음)   
-`Alt + Shift + X + R` : 서버 실행 (Run on Server)   
+### Run 실행   
+`Ctrl + F11` : Run 소스 실행 (에러가 났을 때 디버깅 하지 않음)   
+`Alt + Shift + X + R` : Run on Server 서버 실행   
    
 <br />
-### 디버깅   
+### Debugging 디버깅   
 `개념 1` : 디버깅 하면서 소스를 수정하고 프로그램을 다시 시작할 필요 없이 계속 디버깅을 진행 할 수 있음. 단, 메소드를 추가하거나 필드를 추가하면 프로그램을 다시 시작해야 함   
 `개념 2` : 디버깅 할 때 해당 라이브러리의 소스코드를 첨부하지 않으면 진행상황을 볼 수 없는 경우 해당 라이브러리에 소스코드를 첨부할 수 있음 : `해당 프로젝트 -> 특성 -> Java 빌드경로 -> 라이브러리 -> 소스참조 -> 편집 버튼을 눌러서 첨부`   
 `F11` : 디버깅 실행 (에러가 났을 때 디버깅 함)   
 `F8` : Resume 멈추어 있던 디버깅을 다시 계속 실행   
 `F7` : Step Return 현재 메소드에서 리턴한 직후에 다시 멈춤   
-`F6` : 한 줄씩 디버깅 step over (현재 명령문을 실행하고 다음 명령문 직전에 다시 멈춤)   
-`F5` : 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 step into (자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크(Shift+F5)를 하면 필터를 설정한 클래스에 대하서는 Step Over 기능과 같은 기능을 수행)   
+`F6` : Step over 한 줄씩 디버깅 (현재 명령문을 실행하고 다음 명령문 직전에 다시 멈춤)   
+`F5` : Step into 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 (자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크(Shift+F5)를 하면 필터를 설정한 클래스에 대하서는 Step Over 기능과 같은 기능을 수행)   
 `Ctrl + Shift + B` : 커서 줄에 중단점(Break point) 설정/해제   
 `Ctrl + Alt + B` : 코드 재로딩을 위해 디버그 모드를 사용하고 모든 중단점을 건너뜀   
 `Ctrl + R` : 현재 라인까지 실행 Run to Line   
@@ -186,18 +186,18 @@ categories: [Eclipse]
 `Expression view(표현식)` : '마우스 오른버튼 -> 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 -> 자바 -> 디버그 -> 세부사항 포멧터 선택' 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
    
 <br />
-### 스크랩북 Scrapbook   
+### Scrapbook 스크랩북   
 `개념 1` : 스크랩북을 이용하면 자바파일을 만들어 테스트 해보지 않고도 간단하게 테스트 해 볼 수 있음 : `패키지 탐색기에서 신규 -> 기타 -> 자바 -> 자바 실행/디버그 -> 스크랩북 페이지 선택`   
    
 <br />
-### 리팩토링 Refactoring   
+### Refactoring 리팩토링   
 `개념 1: Pull Down` : 슈퍼 클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
 `개념 2: Push Up` : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
    
 <br />
-### 메이븐 Maven   
+### Maven 메이븐   
 `Alt + F5` : Maven Update Project   
 `Ctrl + Alt + P` : Select Maven Profiles...   
    
