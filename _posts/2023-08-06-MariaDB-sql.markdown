@@ -5,7 +5,7 @@ date:   2023-08-06 09:00:00 +0900
 categories: [MariaDB]
 ---
 
-###  Creating a member information table // 회원정보 테이블 생성   
+####  Creating a member information table // 회원정보 테이블 생성   
 {% highlight react %}
 CREATE TABLE dbmira.tb_memb (
 USR_NO varchar(5) not null primary key,
@@ -120,10 +120,6 @@ LPAD(NEXTVAL(usr_seq), 5, '0'),
 );
 {% endhighlight %}
 
-{% highlight react %}
-SELECT * FROM tb_memb;
-{% endhighlight %}
-
 ### Creating a Refresh Token Table // 리플레시 토큰 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_token (
@@ -138,10 +134,6 @@ COLLATE=utf8mb4_general_ci;
 
 {% highlight react %}
 ALTER TABLE tb_token ADD UNIQUE KEY(USR_ID);
-{% endhighlight %}
-
-{% highlight react %}
-SELECT * FROM tb_token;
 {% endhighlight %}
 
 ### Create prepaid money table // 선불머니원장 테이블 생성
@@ -182,10 +174,6 @@ LPAD(NEXTVAL(money_seq), 8, '0'),
 (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
 ''
 );
-{% endhighlight %}
-
-{% highlight react %}
-SELECT * FROM tb_money;
 {% endhighlight %}
 
 ### Create prepaid money history table // 선불머니내역 테이블 생성
@@ -232,10 +220,6 @@ WHERE USR_NO = '00050'
 );
 {% endhighlight %}
 
-{% highlight react %}
-SELECT * FROM tb_moneylist;
-{% endhighlight %}
-
 ### Creating a merket table // 가맹점 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_market (
@@ -268,15 +252,6 @@ LPAD(NEXTVAL(market_seq), 4, '0'),
 (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
 ''
 );
-{% endhighlight %}
-
-{% highlight react %}
-SELECT MARKET_NO, MARKET_NM
-FROM tb_market
-{% endhighlight %}
-
-{% highlight react %}
-SELECT * FROM tb_market;
 {% endhighlight %}
 
 ### Creating a goods list table // 상품목록 테이블 생성
@@ -367,10 +342,6 @@ WHERE GDS_NO = #{gdsNo}
 AND MARKET_NO = #{marketNo}
 {% endhighlight %}
 
-{% highlight react %}
-SELECT * FROM tb_goods;
-{% endhighlight %}
-
 ### Creating a purchase history table // 구매내역 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_buylist (
@@ -414,10 +385,6 @@ SELECT * FROM tb_buylist
 where USR_NO='00002'
 and BUY_DT='20230712'
 and BUY_PAYMENT_CODE = '1';
-{% endhighlight %}
-
-{% highlight react %}
-SELECT * FROM tb_buylist;
 {% endhighlight %}
 
 {% highlight react %}
