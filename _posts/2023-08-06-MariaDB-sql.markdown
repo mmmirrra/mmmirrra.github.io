@@ -28,32 +28,32 @@ CREATE TABLE DBMIRA.TB_MEMB (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE DBMIRA.TB_MEMB 
-MODIFY COLUMN USR_NO VARCHAR(5) CHARACTER SET UTF8MB4 COLLATE UTF8MB4_GENERAL_CI NOT NULL COMMENT '회원고유번호';
+MODIFY COLUMN USR_NO VARCHAR(5) CHARACTER SET UTF8MB4 COLLATE UTF8MB4_GENERAL_CI NOT NULL COMMENT '회원고유번호'
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE TB_MEMB 
-MODIFY USR_PWD VARCHAR(100) AFTER USR_ID;
+MODIFY USR_PWD VARCHAR(100) AFTER USR_ID
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE TB_MEMB 
-DROP PRIMARY KEY;
+DROP PRIMARY KEY
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE TB_MEMB 
-ADD PRIMARY KEY(USR_NO);
+ADD PRIMARY KEY(USR_NO)
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE TB_MEMB 
-ADD UNIQUE KEY(USR_ID);
+ADD UNIQUE KEY(USR_ID)
 {% endhighlight %}
 
 ### Check the ID and reply to 1 if it's there or 0 if it's not there   
@@ -65,7 +65,7 @@ SELECT EXISTS (
     FROM TB_MEMB 
     WHERE USR_ID="aaaaaa" 
     LIMIT 1
-) AS IDCHECK;
+) AS IDCHECK
 {% endhighlight %}
 
 ### Check the ID, password and reply to 1 if it's there or 0 if it's not there   
@@ -78,7 +78,7 @@ SELECT EXISTS (
     WHERE USR_ID="aaaaaa" 
         AND USR_PWD="11111111!a" 
     LIMIT 1
-) AS IDPWDCHECK;
+) AS IDPWDCHECK
 {% endhighlight %}
 
 ### Find ID and save the current date, time, host   
@@ -88,7 +88,7 @@ SELECT EXISTS (
 UPDATE TB_MEMB
 SET VISIT_DTM = (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     VISIT_HOST = '111.111.111.111'
-WHERE USR_ID = 'mirakim';
+WHERE USR_ID = 'mirakim'
 {% endhighlight %}
 
 ### Creating a member information sequence   
@@ -101,7 +101,7 @@ CREATE SEQUENCE USR_SEQ
     MINVALUE 1
     MAXVALUE 99999
     NOCYCLE
-    NOCACHE;
+    NOCACHE
 {% endhighlight %}
 
 ### Join membership   
@@ -124,7 +124,7 @@ INSERT INTO TB_MEMB VALUES(
     #{visitHost},
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
-);
+)
 {% endhighlight %}
 
 ### For the first time testing of seller information   
@@ -147,7 +147,7 @@ INSERT INTO TB_MEMB VALUES(
     '알 수 없는 IP로 접속',
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
-);
+)
 {% endhighlight %}
 
 ### Creating a refresh token table   
@@ -161,12 +161,12 @@ CREATE TABLE DBMIRA.TB_TOKEN (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE TB_TOKEN 
-ADD UNIQUE KEY(USR_ID);
+ADD UNIQUE KEY(USR_ID)
 {% endhighlight %}
 
 ### Create prepaid money table   
@@ -182,7 +182,7 @@ CREATE TABLE DBMIRA.TB_MONEY (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 ### Create prepaid money sequence   
@@ -195,12 +195,12 @@ CREATE SEQUENCE MONEY_SEQ
     MINVALUE 1
     MAXVALUE 99999
     NOCYCLE
-    NOCACHE;
+    NOCACHE
 {% endhighlight %}
 
 {% highlight react %}
 ALTER TABLE TB_MONEY 
-ADD UNIQUE KEY(USR_NO);
+ADD UNIQUE KEY(USR_NO)
 {% endhighlight %}
 
 ### For the first test of prepaid money   
@@ -213,7 +213,7 @@ INSERT INTO TB_MONEY VALUES(
     '0',
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
-);
+)
 {% endhighlight %}
 
 ### Create prepaid money history table   
@@ -231,7 +231,7 @@ CREATE TABLE DBMIRA.TB_MONEYlist (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 ### Create prepaid money history sequence   
@@ -244,7 +244,7 @@ CREATE SEQUENCE CHARGE_SEQ
     MINVALUE 1
     MAXVALUE 99999
     NOCYCLE
-    NOCACHE;
+    NOCACHE
 {% endhighlight %}
 
 {% highlight react %}
@@ -266,7 +266,7 @@ INSERT INTO TB_MONEYlist VALUES(
         ) + '10000'
     ),
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s'))
-);
+)
 {% endhighlight %}
 
 ### Creating a merket table   
@@ -281,7 +281,7 @@ CREATE TABLE DBMIRA.TB_MARKET (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 ### Create merket sequence   
@@ -294,7 +294,7 @@ CREATE SEQUENCE MARKET_SEQ
     MINVALUE 1
     MAXVALUE 99999
     NOCYCLE
-    NOCACHE;
+    NOCACHE
 {% endhighlight %}
 
 ### For merket first test   
@@ -306,7 +306,7 @@ INSERT INTO TB_MARKET VALUES(
     '부산점',
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
-);
+)
 {% endhighlight %}
 
 ### Creating a goods list table   
@@ -337,7 +337,7 @@ CREATE TABLE DBMIRA.TB_GOODS (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 ### Create a goods list sequence   
@@ -350,7 +350,7 @@ CREATE SEQUENCE GDS_SEQ
     MINVALUE 1
     MAXVALUE 99999
     NOCYCLE
-    NOCACHE;
+    NOCACHE
 {% endhighlight %}
 
 ### For the first test of goods list   
@@ -378,7 +378,7 @@ INSERT INTO TB_GOODS VALUES(
     '00020',
     '',
     ''
-);
+)
 {% endhighlight %}
 
 {% highlight react %}
@@ -429,7 +429,7 @@ CREATE TABLE DBMIRA.TB_BUYLIST (
 )
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
-COLLATE=UTF8MB4_GENERAL_CI;
+COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
 ### Create purchase history sequence   
@@ -442,21 +442,21 @@ CREATE SEQUENCE BUY_SEQ
     MINVALUE 1
     MAXVALUE 99999
     NOCYCLE
-    NOCACHE;
+    NOCACHE
 {% endhighlight %}
 
 {% highlight react %}
 SELECT * FROM TB_BUYLIST
 WHERE USR_NO='00002'
     AND BUY_DT='20230712'
-    AND BUY_PAYMENT_CODE = '1';
+    AND BUY_PAYMENT_CODE = '1'
 {% endhighlight %}
 
 {% highlight react %}
 EXPLAIN
 SELECT * 
 FROM TB_BUYLIST
-WHERE USR_NO = '00002';
+WHERE USR_NO = '00002'
 {% endhighlight %}
 
 ### Index generation grammar   
@@ -478,7 +478,7 @@ ON TB_BUYLIST (BUY_DT, BUY_NO DESC)
 {% highlight react %}
 SELECT *
 FROM INFORMATION_SCHEMA.STATISTICS
-WHERE TABLE_SCHEMA = 'DBMIRA';
+WHERE TABLE_SCHEMA = 'DBMIRA'
 {% endhighlight %}
 
 {% highlight react %}
