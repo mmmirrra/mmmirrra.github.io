@@ -5,7 +5,8 @@ date:   2023-08-06 09:00:00 +0900
 categories: [MariaDB]
 ---
 
-####  Creating a member information table // 회원정보 테이블 생성   
+#### Creating a member information table
+##### 회원정보 테이블 생성   
 {% highlight react %}
 CREATE TABLE dbmira.tb_memb (
 USR_NO varchar(5) not null primary key,
@@ -49,17 +50,20 @@ ALTER TABLE tb_memb ADD PRIMARY KEY(USR_NO);
 ALTER TABLE tb_memb ADD UNIQUE KEY(USR_ID);
 {% endhighlight %}
 
-#### Check the ID and reply to 1 if it's there or 0 if it's not there // 아이디 확인해서 있으면 1, 없으면 0 회신
+#### Check the ID and reply to 1 if it's there or 0 if it's not there
+##### 아이디 확인해서 있으면 1, 없으면 0 회신
 {% highlight react %}
 SELECT EXISTS (SELECT USR_ID FROM tb_memb WHERE USR_ID="aaaaaa" LIMIT 1) AS IDCHECK;
 {% endhighlight %}
 
-#### Check the ID, password and reply to 1 if it's there or 0 if it's not there // 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신
+#### Check the ID, password and reply to 1 if it's there or 0 if it's not there
+##### 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신
 {% highlight react %}
 SELECT EXISTS (SELECT USR_ID FROM tb_memb WHERE USR_ID="aaaaaa" and USR_PWD="11111111!a" LIMIT 1) AS IDPWDCHECK;
 {% endhighlight %}
 
-#### Find ID and save the current date, time, host // 아이디 찾아서 현재날짜, 시간, 호스트 저장
+#### Find ID and save the current date, time, host
+##### 아이디 찾아서 현재날짜, 시간, 호스트 저장
 {% highlight react %}
 UPDATE tb_memb
 SET VISIT_DTM = (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
