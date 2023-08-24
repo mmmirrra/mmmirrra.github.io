@@ -73,28 +73,28 @@ Menu to register auto-complete keywords: `Window - Preferences - Java - Editor -
 3. `Window - Preferences - Java - Code Style - Code Templates - Import - template.xml` // `환경설정 - 자바 - 코드 스타일 - 코드 템플리트 - 가져오기 - 템플리트.xml 을 불러서 사용`   
    
 <br />
-### Comment 주석   
+### Comment // 주석   
 `Ctrl + /` : Toggle Line Comment (`//`): Comment to the current line // 라인주석 (`//`): 현재 라인(선택된 블럭)에 주석 적용/해제   
 `Ctrl + Shift + /` : Apply Block Comment (`/* */`): Block Comment to the selected blocks // 블럭주석 (`/* */`): 현재 선택된 블럭에 블럭주석 적용   
 `Ctrl + Shift + \` : Remove Block Comment (`/* */`) // 블럭주석 해제   
 `Alt + Shift + J` : Add Javadoc Comment: Create an Comment template for that method/class, or automatically apply the default Comment you have set up (Press with focus on method or member variables) // 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
    
 <br />
-### 블록 설정   
-`Shift + End` : 현재 커서부터 끝까지 블록 설정   
-`Shift + Home` : 현재 커서부터 처음까지 블록 설정   
-`Ctrl + A` : 전체 블록 설정   
-`Alt + Shift + 방향키(←/↑/→/↓)` : 이미 선택되어 있는 블록을 방향키로 늘림   
-`Alt + Shift + Z` : Surround With 메뉴 - try / catch 문이나 for , do , while 등을 해당 블록에 감싸주는 메뉴가 나타남   
+### Select Block // 블록 설정   
+`Shift + End` : Select Line End // 현재 커서부터 끝까지 블록 설정   
+`Shift + Home` : Select Line Start // 현재 커서부터 처음까지 블록 설정   
+`Ctrl + A` : Select All // 전체 블록 설정   
+`Alt + Shift + 방향키(←/↑/→/↓)` : Select Next/Previous Element // 이미 선택되어 있는 블록을 방향키로 늘림   
+`Alt + Shift + Z` : Surround With Quick Menu: A menu appears that surrounds the block for a try/catch function or for function, do function, while function, etc function // try/catch 문이나 for , do, while 등을 해당 블록에 감싸주는 메뉴가 나타남   
    
 <br />
-### 해결방법   
-`Ctrl + 1` : 빨간줄(에러) 해결방법 도우미 (컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시)  
-`F2` : 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 표시   
-`Shift + F2` : 선택한 유형/클래스/메서드에 대한 Javadoc 표시   
+### How to Fix it // 해결 방법   
+`Ctrl + 1` : Quick Fix: If you press 'Ctrl + 1' in the code where the compilation error occurred, it will provide a solution to the compilation error // 빨간줄(에러) 해결 방법 도우미: 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시   
+`F2` : Show Tooltip Description: If you place the cursor on the code where the compilation error occurred and press this key, an error hint is displayed // 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 표시   
+`Shift + F2` : Open External Documentation // 선택한 유형/클래스/메서드에 대한 Javadoc 표시   
    
 <br />
-### 보기   
+### Show View // 보기   
 `Ctrl + M` : 전체 화면으로 보기   
 `F4` : 클래스 계층 (Hierarchy) 보기 (클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인)   
 `Ctrl + T` : 상속 계층 팝업 창 보기 (인터페이스 구현 클래스간 이동 시 편리)   
@@ -150,12 +150,12 @@ Menu to register auto-complete keywords: `Window - Preferences - Java - Editor -
 `Ctrl + N` : 새로운 파일 및 프로젝트 생성   
    
 <br />
-### Save 저장   
+### Save // 저장   
 `Ctrl + S` : 소스코드 저장 (현재 파일만)   
 `Ctrl + Shift + S` : 열려진 모든 소스코드 저장   
    
 <br />
-### Close 닫기   
+### Close // 닫기   
 `Ctrl + W` : 파일 닫기   
 `Ctrl + Shift + F4` : 열린 파일을 모두 닫음   
    
@@ -164,12 +164,12 @@ Menu to register auto-complete keywords: `Window - Preferences - Java - Editor -
 `Ctrl + B` : 빌드   
    
 <br />
-### Run 실행   
+### Run // 실행   
 `Ctrl + F11` : Run 소스 실행 (에러가 났을 때 디버깅 하지 않음)   
 `Alt + Shift + X + R` : Run on Server 서버 실행   
    
 <br />
-### Debugging 디버깅   
+### Debugging // 디버깅   
 `개념 1` : 디버깅 하면서 소스를 수정하고 프로그램을 다시 시작할 필요 없이 계속 디버깅을 진행 할 수 있음. 단, 메소드를 추가하거나 필드를 추가하면 프로그램을 다시 시작해야 함   
 `개념 2` : 디버깅 할 때 해당 라이브러리의 소스코드를 첨부하지 않으면 진행상황을 볼 수 없는 경우 해당 라이브러리에 소스코드를 첨부할 수 있음 : `해당 프로젝트 - 특성 - Java 빌드경로 - 라이브러리 - 소스참조 - 편집 버튼을 눌러서 첨부`   
 `F11` : 디버깅 실행 (에러가 났을 때 디버깅 함)   
@@ -187,18 +187,18 @@ Menu to register auto-complete keywords: `Window - Preferences - Java - Editor -
 `Expression view(표현식)` : '마우스 오른버튼 - 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 - 자바 - 디버그 - 세부사항 포멧터 선택' 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
    
 <br />
-### Scrapbook 스크랩북   
+### Scrapbook // 스크랩북   
 `개념 1` : 스크랩북을 이용하면 자바파일을 만들어 테스트 해보지 않고도 간단하게 테스트 해 볼 수 있음 : `패키지 탐색기에서 신규 - 기타 - 자바 - 자바 실행/디버그 - 스크랩북 페이지 선택`   
    
 <br />
-### Refactoring 리팩토링   
+### Refactoring // 리팩토링   
 `개념 1: Pull Down` : 슈퍼 클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
 `개념 2: Push Up` : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Alt + Shift + 알파벳` : Refactoring을 위한 단축키 임   
 `Alt + Shift + T` : 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시: 디스플레이)   
    
 <br />
-### Maven 메이븐   
+### Maven // 메이븐   
 `Alt + F5` : Maven Update Project   
 `Ctrl + Alt + P` : Select Maven Profiles...   
    
