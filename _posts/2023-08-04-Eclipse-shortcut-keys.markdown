@@ -24,25 +24,25 @@ categories: [Eclipse]
 `Ctrl + Backspace` : Delete Previous Word // 이전 요소 삭제   
 `Ctrl + Shift + Enter` : Insert Line Above Current Line // 현재 줄에 새줄 추가   
 `Shift + Enter` : Insert Line Below Current Line // 다음줄에 새줄 추가   
-`Alt + 방향키 ↑/↓` : Move Lines Down // 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 (위/아래 줄과 바꾸기)   
-`Ctrl + Alt + 방향키 ↑/↓` : Move Lines Up // 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
+`Alt + arrow keys ↑/↓ up/down` : Move Lines Down // 현재라인(선택된 블럭)을 한단계 위로/아래로 이동: 위/아래 줄과 바꾸기   
+`Ctrl + Alt + arrow keys ↑/↓ up/down` : Move Lines Up // 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
 `Ctrl + Shift + X` : To Upper Case // 대문자로 변경   
 `Ctrl + Shift + Y` : To Lower Case // 소문자로 변경   
 `Ctrl + +/-` : Modify font size one step larger/smaller // 폰트 사이즈 한단계 크게/작게 수정   
 `Alt + Shift + A` : Enter edit mode to select vertical blocks // 세로 블럭 드래그 가능한 편집모드 집입/해제   
-`Alt + Shift + R` : Rename - Refactoring: Rename the same variable at once (Preview allows you to preview variables that change) // 같은 변수의 이름을 한번에 변경 (변경되는 변수를 Preview로 미리볼 수 있음)   
+`Alt + Shift + R` : Rename - Refactoring: Rename the same variable at once: Preview allows you to preview variables that change // 같은 변수의 이름을 한번에 변경: 변경되는 변수를 Preview로 미리볼 수 있음   
 `Ctrl + 2 + R` : Quick Assist - Rename in file // 로컬 파일에서 이름 바꾸기   
 `Ctrl + 2 + L` : Quick Assist - Assign to local variable // 새 지역 변수에 명령문 할당   
 `Ctrl + 2 + F` : Quick Assist - Assign to field // 새 지역 필드에 명령문 할당   
    
 <br />
 ### Alignment // 정렬   
-`Ctrl + Shift + F` : Format: Format the contents of the code according to the grammar template (Automatic code alignment, such as indent) // 코드 자동 정리: 코드 내용을 문법 템플릿에 맞게 포맷팅 함 (들여쓰기 등 자동 코드 정렬)   
+`Ctrl + Shift + F` : Format: Format the contents of the code according to the grammar template: Automatic code alignment, such as indent // 코드 자동 정리: 코드 내용을 문법 템플릿에 맞게 포맷팅 함: 들여쓰기 등 자동 코드 정렬   
 `Ctrl + i` : Indent Line // 선택된 블럭내 코드 자동 들여쓰기   
    
 <br />
 ### Automatic completion // 자동완성   
-`Ctrl + Space` : Content Assist (It can be enforced at any time while the code is being entered)// 코드 자동완성 어시스트 (입력하는 도중엔 언제라도 강제 호출 가능함)   
+`Ctrl + Space` : Content Assist: It can be enforced at any time while the code is being entered // 코드 자동완성 어시스트: 입력하는 도중엔 언제라도 강제 호출 가능함   
 `Ctrl + Shift + O` : Organize Imports // 해당 소스에 필요한 패키지를 자동 Import 추가, 안쓰는 Import 삭제   
 `Ctrl + Shift + M` : Add Import: Position the cursor on the object and press the key to automatically generate the required Specific Class Import // 해당 객체에 커서를 놓고 키를 누르면 필요한 특정 클래스 Import 구문 자동 생성   
    
@@ -84,7 +84,7 @@ Menu to register auto-complete keywords: `Window - Preferences - Java - Editor -
 `Shift + End` : Select Line End // 현재 커서부터 끝까지 블록 설정   
 `Shift + Home` : Select Line Start // 현재 커서부터 처음까지 블록 설정   
 `Ctrl + A` : Select All // 전체 블록 설정   
-`Alt + Shift + 방향키(←/↑/→/↓)` : Select Next/Previous Element // 이미 선택되어 있는 블록을 방향키로 늘림   
+`Alt + Shift + arrow keys ←/↑/→/↓ left/up/right/down` : Select Next/Previous Element // 이미 선택되어 있는 블록을 방향키로 늘림   
 `Alt + Shift + Z` : Surround With Quick Menu: A menu appears that surrounds the block for a try/catch function or for function, do function, while function, etc function // try/catch 문이나 for , do, while 등을 해당 블록에 감싸주는 메뉴가 나타남   
    
 <br />
@@ -95,78 +95,78 @@ Menu to register auto-complete keywords: `Window - Preferences - Java - Editor -
    
 <br />
 ### Show View // 보기   
-`Ctrl + M` : 전체 화면으로 보기   
-`F4` : 클래스 계층 (Hierarchy) 보기 (클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인)   
-`Ctrl + T` : 상속 계층 팝업 창 보기 (인터페이스 구현 클래스간 이동 시 편리)   
-`Ctrl + O` : 해당 소스의 클래스 구조 트리 Outline 창 보기   
-`Ctrl + Shift + Space` : 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
-`Alt + Shift + S` : 실행 가능한 메뉴 목록 창 보기(Import 추가, Comment 추가, Generator 메뉴 등)   
-`Shift + F10` : 상황에 맞는 메뉴 목록 창 보기(Mouse2에 해당하는 키보드)   
-`Ctrl + F10` : 현재 보기에 대한 메뉴 목록 창 보기   
-`Ctrl + 3` : Quick Access 빠른 액세스 (이클립스에서 사용 가능한 모든 작업 보기)   
-`해당 프로젝트에서 Alt + Enter` : Project 속성 보기   
-`Alt + Shift + W` : 각종 탐색 메뉴 목록 보기 (Project Explorer, Terminal, Coverage, Package Explorer, Outline, System Explorer, Properties 메뉴)   
-`Alt + Shift + Q + P` : 패키지 탐색기 표시   
-`Alt + Shift + Q + C` : 콘솔 표시   
+`Ctrl + M` : Maximize Active View or Editor // 전체 화면으로 보기   
+`F4` : Open Type Hierarchy: Select the class and press F4 to see the inheritance hierarchy for that class // 클래스 계층 보기: 클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인   
+`Ctrl + T` : Quick Hierarchy: Convenient for moving between classes with interfaces // 상속 계층 팝업 창 보기: 인터페이스 구현 클래스간 이동 시 편리   
+`Ctrl + O` : Quick Outline // 해당 소스의 클래스 구조 트리 Outline 창 보기   
+`Ctrl + Shift + Space` : Context Information // 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
+`Alt + Shift + S` : Show Source Quick Menu: Add import, add comment, generator menu, etc // 실행 가능한 메뉴 목록 창 보기: Import 추가, Comment 추가, Generator 메뉴 등   
+`Shift + F10` : View the context menu list: Keyboard corresponding to Mouse2 // 상황에 맞는 메뉴 목록 창 보기: Mouse2에 해당하는 키보드   
+`Ctrl + F10` : Show Ruler Context Menu // 현재 보기에 대한 메뉴 목록 창 보기   
+`Ctrl + 3` : Quick Access: View all the actions available in Eclipse // 빠른 액세스: 이클립스에서 사용 가능한 모든 작업 보기   
+`Press Alt + Enter in the project` : View Project Properties // `해당 프로젝트에서 Alt + Enter 누르기` : 프로젝트 속성 보기   
+`Alt + Shift + W` : Show In Menu: Project Explorer, Terminal, Coverage, Package Explorer, Outline, System Explorer, Properties // 각종 탐색 메뉴 목록 보기   
+`Alt + Shift + Q + P` : Java Package Explorer // 패키지 탐색기 표시   
+`Alt + Shift + Q + C` : Console // 콘솔 표시   
    
 <br />
-### 찾기   
-`Ctrl + F` : Fine/Replace 찾기/변경 (해당 소스에서만)   
-`Ctrl + H` : Fine/Replace 찾기/변경 (모든 파일, 프로젝트 전체에서 검색)   
-`Ctrl + Shift + R` : 모든 프로젝트의 전체 리소스에서 파일 찾기   
-`Ctrl + Shift + T` : Jar 포함 클래스 찾기   
-`Ctrl + Alt + H` : 특정 클래스 호출 위치 찾기   
-`Ctrl + Alt + G` : Workspace 에서 문자 찾기   
-`Ctrl + Shift + G` : 현재 커서가 위치한 특정 메서드나 객체, 필드를 쓰는 곳, 참조하는(Reference) 곳 표시   
-`Ctrl + K` : 앞으로 찾기 (현재 라인 밑으로 찾기) 또는 찾고자 하는 문자열을 블록으로 지정하고 찾기   
-`Ctrl + Shift + K` : 뒤로 찾기 (현재 라인 위로 찾기)   
-`Ctrl + J` : 검색할 단어를 입력하면서 실시간으로 검색. 이클립스 하단 상태 표시줄에 Incremental find 라고 표시되어 한 글자씩 누를 때 마다 코드내의 일치하는 문자열로 이동, 다시 Ctrl + J 를 누르면 그 문자열과 일치하는 부분을 위/아래 방향키로 탐색이 가능   
-`Ctrl + Shift + J` : 검색할 단어를 입력하면서 실시간으로 거꾸로 검색   
+### Find // 찾기   
+`Ctrl + F` : Find and Replace: Find only from that source // 찾기/변경: 해당 소스에서만   
+`Ctrl + H` : Find and Replace: Open Search Dialog: Search all files, across projects // 찾기/변경: 찾기 창 열림: 모든 파일, 프로젝트 전체에서 검색   
+`Ctrl + Shift + R` : Open Resource: Find files from all resources in all projects // 모든 프로젝트의 전체 리소스에서 파일 찾기   
+`Ctrl + Shift + T` : Open Type: Find classes in all files, including Jar // Jar 포함 클래스 찾기   
+`Ctrl + Alt + H` : Open Call Hierarchy // 특정 클래스 호출 위치 찾기   
+`Ctrl + Alt + G` : Find Text in Workspace // Workspace 에서 문자 찾기   
+`Ctrl + Shift + G` : References in Workspace // 현재 커서가 위치한 특정 메서드나 객체, 필드를 쓰는 곳, 참조하는 곳 표시   
+`Ctrl + K` : 'Find Next' or 'Select the text you want to find and find it' // 앞으로 찾기 (현재 라인 밑으로 찾기) 또는 찾고자 하는 문자열을 블록으로 지정하고 찾기   
+`Ctrl + Shift + K` : Find Previous // 뒤로 찾기 (현재 라인 위로 찾기)   
+`Ctrl + J` : Incremental Find: The status bar displays 'Incremental find', pressing one letter at a time moves to a matching string within the code, pressing Ctrl + J again to navigate to the matching string with the up/down arrow keys // 검색할 단어를 입력하면서 실시간으로 검색: 이클립스 하단 상태 표시줄에 Incremental find 라고 표시되어 한 글자씩 누를 때 마다 코드내의 일치하는 문자열로 이동, 다시 Ctrl + J 를 누르면 그 문자열과 일치하는 부분을 위/아래 방향키로 탐색이 가능   
+`Ctrl + Shift + J` : Incremental Find Reverse // 검색할 단어를 입력하면서 실시간으로 거꾸로 검색   
    
 <br />
-### 이동   
-`Ctrl + 방향키 ←/→` : 다음/이전 문자로 이동   
-`Alt + 방향키 ←/→` : 이전/다음 작업 위치로 이동   
-`Ctrl + .` : 다음 오류, 에러, 워닝, 북마트 (Annotation)로 이동   
-`Ctrl + ,` : 이전 오류, 에러, 워닝, 북마트 (Annotation)로 이동   
-`Ctrl + Shift + P` : 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
-`Ctrl + Shift + Down` : Java Editor의 클래스 내에서 다음 멤버(Member)로 이동   
-`Ctrl + 클릭 or F3` : 변수나 메소드 선언부로 이동   
-`F3` : 해당 메서드나 클래스가 정의된 곳으로 이동   
-`Ctrl + L` : 특정 줄 번호로 이동   
-`Ctrl + Q` : 마지막 편집 위치로 이동   
-`Ctrl + E` : 에디터 안에서 열린 파일 목록을 미니창으로 확인 후 원하는 파일로 이동   
-`Ctrl + Shift + E` : 에디터 안에서 열린 파일 목록을 큰 창으로 확인 후 원하는 파일로 이동   
-`Ctrl + F6` : 에디터 안에 열린 파일간 이동, F6을 누를 때마다 하나씩 순차적으로 이동   
-`Ctrl + PageUp/PageDown` : 이전/다음에 열린 편집기 Edit로 이동   
-`F12` : 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
+### Move // 이동   
+`Ctrl + arrow keys ←/→ left/right` : Next/Previous Word // 다음/이전 문자로 이동   
+`Alt + arrow keys ←/→ left/right` : Backward/Forward History // 이전/다음 작업 위치로 이동   
+`Ctrl + .` : Next Error or Warning or Annotation // 다음 오류, 에러, 워닝, 북마트로 이동   
+`Ctrl + ,` : Previous Error or Warning or Annotation // 이전 오류, 에러, 워닝, 북마트로 이동   
+`Ctrl + Shift + P` : Go to Matching Bracket // 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
+`Ctrl + Shift + arrow keys ↓ down` : Go to Next Member // Java Editor의 클래스 내에서 다음 멤버로 이동   
+`Ctrl + Click or F3` : Open Structure // 변수나 메소드 선언부로 이동   
+`F3` : Open Declaration // 해당 메서드나 클래스가 정의된 곳으로 이동   
+`Ctrl + L` : Go to Line // 특정 줄 번호로 이동   
+`Ctrl + Q` : Last Edit Location // 마지막 편집 위치로 이동   
+`Ctrl + E` : Quick Switch Editor // 에디터 안에서 열린 파일 목록을 미니창으로 확인 후 원하는 파일로 이동   
+`Ctrl + Shift + E` : Switch to Editor // 에디터 안에서 열린 파일 목록을 큰 창으로 확인 후 원하는 파일로 이동   
+`Ctrl + F6` : Next Editor: Move one by one each time F6 is pressed // 에디터 안에 열린 파일간 이동: F6을 누를 때마다 하나씩 순차적으로 이동   
+`Ctrl + PageUp/PageDown` : Next Editor // 이전/다음에 열린 편집기 Edit로 이동   
+`F12` : Activate Editor // 컴파일 중 에러 등 으로 포커스가 다른데로 갔을 때 Editor 창으로 커서 이동   
    
 <br />
-### Window 윈도우 이동   
-`Ctrl + F7` : 다음 View로 이동   
-`Ctrl + Shift + F7` : 이전 View로 이동   
-`Ctrl + F8` : 다음 퍼스펙티브 Perspective로 이동   
-`F10` : 메뉴창을 활성화   
-`Ctrl + N` : 새로운 파일 및 프로젝트 생성   
+### Move Windows // 윈도우 이동   
+`Ctrl + F7` : Next View // 다음 뷰로 이동   
+`Ctrl + Shift + F7` : Previous View // 이전 뷰로 이동   
+`Ctrl + F8` : Next Perspective // 다음 퍼스펙티브로 이동   
+`F10` : Activate the menu list // 메뉴창을 활성화   
+`Ctrl + N` : New File or Project // 새로운 파일 및 프로젝트 생성   
    
 <br />
 ### Save // 저장   
-`Ctrl + S` : 소스코드 저장 (현재 파일만)   
-`Ctrl + Shift + S` : 열려진 모든 소스코드 저장   
+`Ctrl + S` : Save: Save Current Files Only // 소스코드 저장: 현재 파일만   
+`Ctrl + Shift + S` : Save All: Save all open source code // 열려진 모든 소스코드 저장   
    
 <br />
 ### Close // 닫기   
-`Ctrl + W` : 파일 닫기   
-`Ctrl + Shift + F4` : 열린 파일을 모두 닫음   
+`Ctrl + W` : Close User Assistance Tray // 파일 닫기   
+`Ctrl + Shift + F4` : Close All // 열린 파일을 모두 닫음   
    
 <br />
-### 빌드   
-`Ctrl + B` : 빌드   
+### Build // 빌드   
+`Ctrl + B` : Build All // 빌드   
    
 <br />
 ### Run // 실행   
-`Ctrl + F11` : Run 소스 실행 (에러가 났을 때 디버깅 하지 않음)   
-`Alt + Shift + X + R` : Run on Server 서버 실행   
+`Ctrl + F11` : Run Last Launched: Do not debug when errors occur // 소스 실행: 에러가 났을 때 디버깅 하지 않음   
+`Alt + Shift + X + R` : Run on Server // 서버 실행   
    
 <br />
 ### Debugging // 디버깅   
