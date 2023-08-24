@@ -68,7 +68,7 @@ SELECT EXISTS (
 ) AS IDCHECK
 {% endhighlight %}
 
-### Check the ID, password and reply to 1 if it's there or 0 if it's not there   
+### Check the ID, Password and reply to 1 if it's there or 0 if it's not there   
 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신   
 
 {% highlight react %}
@@ -108,7 +108,8 @@ CREATE SEQUENCE USR_SEQ
 회원가입   
 
 {% highlight react %}
-INSERT INTO TB_MEMB VALUES(
+INSERT INTO TB_MEMB 
+VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
     #{usrCls},
     #{usrNm},
@@ -131,7 +132,8 @@ INSERT INTO TB_MEMB VALUES(
 판매자정보 최초 테스트용   
 
 {% highlight react %}
-INSERT INTO TB_MEMB VALUES(
+INSERT INTO TB_MEMB 
+VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
     '1',
     '부산점 점장',
@@ -207,7 +209,8 @@ ADD UNIQUE KEY(USR_NO)
 선불머니원장 최초 테스트용   
 
 {% highlight react %}
-INSERT INTO TB_MONEY VALUES(
+INSERT INTO TB_MONEY 
+VALUES(
     '00007',
     LPAD(NEXTVAL(MONEY_SEQ), 8, '0'),
     '0',
@@ -248,7 +251,8 @@ CREATE SEQUENCE CHARGE_SEQ
 {% endhighlight %}
 
 {% highlight react %}
-INSERT INTO TB_MONEYlist VALUES(
+INSERT INTO TB_MONEYlist 
+VALUES(
     '00050',
     (
         SELECT MONEY_NO
@@ -301,7 +305,8 @@ CREATE SEQUENCE MARKET_SEQ
 가맹점 최초 테스트용   
 
 {% highlight react %}
-INSERT INTO TB_MARKET VALUES(
+INSERT INTO TB_MARKET 
+VALUES(
     LPAD(NEXTVAL(MARKET_SEQ), 4, '0'),
     '부산점',
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
@@ -357,7 +362,8 @@ CREATE SEQUENCE GDS_SEQ
 상품목록 최초 테스트용   
 
 {% highlight react %}
-INSERT INTO TB_GOODS VALUES(
+INSERT INTO TB_GOODS 
+VALUES(
     '0010',
     '00020',
     LPAD(NEXTVAL(GDS_SEQ), 17, '0'),
@@ -446,7 +452,8 @@ CREATE SEQUENCE BUY_SEQ
 {% endhighlight %}
 
 {% highlight react %}
-SELECT * FROM TB_BUYLIST
+SELECT * 
+FROM TB_BUYLIST
 WHERE USR_NO='00002'
     AND BUY_DT='20230712'
     AND BUY_PAYMENT_CODE = '1'
