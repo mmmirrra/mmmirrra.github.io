@@ -183,8 +183,8 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Alt + Shift + X + J` : Run Java Application // 현재 선택한 클래스를 Java 응용 프로그램으로 실행   
 `Alt + Shift + X + T` : Run JUnit Test // JUnit 테스트 실행   
 `Alt + Shift + X + P` : Run JUnit Plug-in Text // JUnit 플러그인 테스트 실행   
-`Display view(표시)` : '창 - 보기표시 - 표시' 선택하여 소스상에서 필요한 부분을 선택해서 실행시켜 볼 수 있음 (한 순간의 값만 필요할 때 볼 수 있음)   
-`Expression view(표현식)` : '마우스 오른버튼 - 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 - 자바 - 디버그 - 세부사항 포멧터 선택' 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
+`Display view` : 'Window - Show View - Other - Debug - Display' Lets you select the required parts of the source and try to run them : Can be viewed when only one moment's value is needed // '창 - 보기표시 - 기타 - 디버그 - 표시' 선택하여 소스상에서 필요한 부분을 선택해서 실행시켜 볼 수 있음 : 한 순간의 값만 필요할 때 볼 수 있음   
+`Expression view` : Select 'Right mouse button - Add Watch Expression' in the Expressions window to continue to see values changing while debugging complex expressions or objects. Select 'Preferences - Java - Debug - Detail Formatters' and edit it in a viewable way to view the results in real time in Expression View // 표현식 창에서 '마우스 오른쪽 버튼 - 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 - 자바 - 디버그 - 세부사항 포멧터' 선택 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
    
 <br />
 ### Scrapbook // 스크랩북   
