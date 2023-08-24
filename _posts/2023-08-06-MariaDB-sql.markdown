@@ -5,7 +5,7 @@ date:   2023-08-06 09:00:00 +0900
 categories: [MariaDB]
 ---
 
-#### Creating a member information table   
+### Creating a member information table   
 회원정보 테이블 생성   
 
 {% highlight react %}
@@ -51,21 +51,21 @@ ALTER TABLE tb_memb ADD PRIMARY KEY(USR_NO);
 ALTER TABLE tb_memb ADD UNIQUE KEY(USR_ID);
 {% endhighlight %}
 
-#### Check the ID and reply to 1 if it's there or 0 if it's not there   
+### Check the ID and reply to 1 if it's there or 0 if it's not there   
 아이디 확인해서 있으면 1, 없으면 0 회신   
 
 {% highlight react %}
 SELECT EXISTS (SELECT USR_ID FROM tb_memb WHERE USR_ID="aaaaaa" LIMIT 1) AS IDCHECK;
 {% endhighlight %}
 
-#### Check the ID, password and reply to 1 if it's there or 0 if it's not there   
+### Check the ID, password and reply to 1 if it's there or 0 if it's not there   
 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신   
 
 {% highlight react %}
 SELECT EXISTS (SELECT USR_ID FROM tb_memb WHERE USR_ID="aaaaaa" and USR_PWD="11111111!a" LIMIT 1) AS IDPWDCHECK;
 {% endhighlight %}
 
-#### Find ID and save the current date, time, host   
+### Find ID and save the current date, time, host   
 아이디 찾아서 현재날짜, 시간, 호스트 저장   
 
 {% highlight react %}
@@ -75,7 +75,7 @@ VISIT_HOST = '111.111.111.111'
 WHERE USR_ID = 'mirakim';
 {% endhighlight %}
 
-#### Creating a member information sequence   
+### Creating a member information sequence   
 회원정보 시퀀스 생성   
 
 {% highlight react %}
@@ -88,7 +88,7 @@ NOCYCLE
 NOCACHE;
 {% endhighlight %}
 
-#### Join membership   
+### Join membership   
 회원가입   
 
 {% highlight react %}
@@ -111,7 +111,7 @@ LPAD(NEXTVAL(usr_seq), 5, '0'),
 );
 {% endhighlight %}
 
-#### For the first time testing of seller information   
+### For the first time testing of seller information   
 판매자정보 최초 테스트용   
 
 {% highlight react %}
@@ -134,7 +134,7 @@ LPAD(NEXTVAL(usr_seq), 5, '0'),
 );
 {% endhighlight %}
 
-#### Creating a Refresh Token Table   
+### Creating a Refresh Token Table   
 리플레시 토큰 테이블 생성   
 
 {% highlight react %}
@@ -152,7 +152,7 @@ COLLATE=utf8mb4_general_ci;
 ALTER TABLE tb_token ADD UNIQUE KEY(USR_ID);
 {% endhighlight %}
 
-#### Create prepaid money table   
+### Create prepaid money table   
 선불머니원장 테이블 생성   
 
 {% highlight react %}
@@ -168,7 +168,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-#### Create prepaid money sequence   
+### Create prepaid money sequence   
 선불머니원장 시퀀스 생성   
 
 {% highlight react %}
@@ -185,7 +185,7 @@ NOCACHE;
 ALTER TABLE tb_money ADD UNIQUE KEY(USR_NO);
 {% endhighlight %}
 
-#### For the first test of prepaid money   
+### For the first test of prepaid money   
 선불머니원장 최초 테스트용   
 
 {% highlight react %}
@@ -198,7 +198,7 @@ LPAD(NEXTVAL(money_seq), 8, '0'),
 );
 {% endhighlight %}
 
-#### Create prepaid money history table   
+### Create prepaid money history table   
 선불머니내역 테이블 생성   
 
 {% highlight react %}
@@ -216,7 +216,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-#### Create prepaid money history sequence   
+### Create prepaid money history sequence   
 선불머니내역 시퀀스 생성   
 
 {% highlight react %}
@@ -246,7 +246,7 @@ WHERE USR_NO = '00050'
 );
 {% endhighlight %}
 
-#### Creating a merket table   
+### Creating a merket table   
 가맹점 테이블 생성   
 
 {% highlight react %}
@@ -261,7 +261,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-#### Create merket sequence   
+### Create merket sequence   
 가맹점 시퀀스 생성   
 
 {% highlight react %}
@@ -274,7 +274,7 @@ NOCYCLE
 NOCACHE;
 {% endhighlight %}
 
-#### For merket first test   
+### For merket first test   
 가맹점 최초 테스트용   
 
 {% highlight react %}
@@ -286,7 +286,7 @@ LPAD(NEXTVAL(market_seq), 4, '0'),
 );
 {% endhighlight %}
 
-#### Creating a goods list table   
+### Creating a goods list table   
 상품목록 테이블 생성   
 
 {% highlight react %}
@@ -317,7 +317,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-#### Create a goods list sequence   
+### Create a goods list sequence   
 상품목록 시퀀스 생성   
 
 {% highlight react %}
@@ -330,7 +330,7 @@ NOCYCLE
 NOCACHE;
 {% endhighlight %}
 
-#### For the first test of goods list   
+### For the first test of goods list   
 상품목록 최초 테스트용   
 
 {% highlight react %}
@@ -380,7 +380,7 @@ WHERE GDS_NO = #{gdsNo}
 AND MARKET_NO = #{marketNo}
 {% endhighlight %}
 
-#### Creating a purchase history table   
+### Creating a purchase history table   
 구매내역 테이블 생성   
 
 {% highlight react %}
@@ -409,7 +409,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-#### Create purchase history sequence   
+### Create purchase history sequence   
 구매내역 시퀀스 생성   
 
 {% highlight react %}
@@ -435,14 +435,14 @@ SELECT * FROM tb_buylist
 WHERE USR_NO = '00002';
 {% endhighlight %}
 
-#### Index generation grammar   
+### Index generation grammar   
 인덱스 생성 문법   
 
 {% highlight react %}
 CREATE OR REPLACE INDEX 인덱스명 ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
 {% endhighlight %}
 
-#### (Example) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (tb_buylist)   
+### (Example) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (tb_buylist)   
 (예제) 게시판(tb_buylist)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우   
 
 {% highlight react %}
