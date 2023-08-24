@@ -5,7 +5,7 @@ date:   2023-08-06 09:00:00 +0900
 categories: [MariaDB]
 ---
 
-###  // 회원정보 테이블 생성   
+###  Creating a member information table // 회원정보 테이블 생성   
 {% highlight react %}
 CREATE TABLE dbmira.tb_memb (
 USR_NO varchar(5) not null primary key,
@@ -49,17 +49,17 @@ ALTER TABLE tb_memb ADD PRIMARY KEY(USR_NO);
 ALTER TABLE tb_memb ADD UNIQUE KEY(USR_ID);
 {% endhighlight %}
 
-###  // 아이디 확인해서 있으면 1, 없으면 0 회신
+### Check the ID and reply to 1 if it's there or 0 if it's not there // 아이디 확인해서 있으면 1, 없으면 0 회신
 {% highlight react %}
 SELECT EXISTS (SELECT USR_ID FROM tb_memb WHERE USR_ID="aaaaaa" LIMIT 1) AS IDCHECK;
 {% endhighlight %}
 
-###  // 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신
+### Check the ID, password and reply to 1 if it's there or 0 if it's not there // 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신
 {% highlight react %}
 SELECT EXISTS (SELECT USR_ID FROM tb_memb WHERE USR_ID="aaaaaa" and USR_PWD="11111111!a" LIMIT 1) AS IDPWDCHECK;
 {% endhighlight %}
 
-###  // 아이디 찾아서 현재날짜시간과 host 저장
+### Find ID and save the current date, time, host // 아이디 찾아서 현재날짜, 시간, 호스트 저장
 {% highlight react %}
 UPDATE tb_memb
 SET VISIT_DTM = (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
@@ -67,7 +67,7 @@ VISIT_HOST = '111.111.111.111'
 WHERE USR_ID = 'mirakim';
 {% endhighlight %}
 
-###  // 회원정보 시퀀스 생성
+### Creating a member information sequence // 회원정보 시퀀스 생성
 {% highlight react %}
 CREATE SEQUENCE usr_seq
 INCREMENT BY 1
@@ -78,7 +78,7 @@ NOCYCLE
 NOCACHE;
 {% endhighlight %}
 
-###  // 회원가입
+### Join membership // 회원가입
 {% highlight react %}
 INSERT INTO tb_memb VALUES(
 LPAD(NEXTVAL(usr_seq), 5, '0'),
@@ -99,7 +99,7 @@ LPAD(NEXTVAL(usr_seq), 5, '0'),
 );
 {% endhighlight %}
 
-###  // 판매자정보 최초 테스트용
+### For the first time testing of seller information // 판매자정보 최초 테스트용
 {% highlight react %}
 INSERT INTO tb_memb VALUES(
 LPAD(NEXTVAL(usr_seq), 5, '0'),
@@ -124,7 +124,7 @@ LPAD(NEXTVAL(usr_seq), 5, '0'),
 SELECT * FROM tb_memb;
 {% endhighlight %}
 
-###  // 리플레시 토큰 테이블 생성
+### Creating a Refresh Token Table // 리플레시 토큰 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_token (
 ID varchar(12) not null primary key,
@@ -144,8 +144,7 @@ ALTER TABLE tb_token ADD UNIQUE KEY(USR_ID);
 SELECT * FROM tb_token;
 {% endhighlight %}
 
-
-###  // 선불머니원장 테이블 생성
+### Create prepaid money table // 선불머니원장 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_money (
 USR_NO varchar(5) not null,
@@ -159,7 +158,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-###  // 선불머니원장 시퀀스 생성
+### Create prepaid money sequence // 선불머니원장 시퀀스 생성
 {% highlight react %}
 CREATE SEQUENCE money_seq
 INCREMENT BY 1
@@ -174,7 +173,7 @@ NOCACHE;
 ALTER TABLE tb_money ADD UNIQUE KEY(USR_NO);
 {% endhighlight %}
 
-###  // 선불머니원장 최초 테스트용
+### For the first test of prepaid money // 선불머니원장 최초 테스트용
 {% highlight react %}
 INSERT INTO tb_money VALUES(
 '00007',
@@ -189,8 +188,7 @@ LPAD(NEXTVAL(money_seq), 8, '0'),
 SELECT * FROM tb_money;
 {% endhighlight %}
 
-
-###  // 선불머니내역 테이블 생성
+### Create prepaid money history table // 선불머니내역 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_moneylist (
 USR_NO varchar(5) not null,
@@ -206,7 +204,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-###  // 선불머니내역 시퀀스 생성
+### Create prepaid money history sequence // 선불머니내역 시퀀스 생성
 {% highlight react %}
 CREATE SEQUENCE charge_seq
 INCREMENT BY 1
@@ -238,8 +236,7 @@ WHERE USR_NO = '00050'
 SELECT * FROM tb_moneylist;
 {% endhighlight %}
 
-
-###  // 가맹점 테이블 생성
+### Creating a merket table // 가맹점 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_market (
 MARKET_NO varchar(4) not null primary key,
@@ -252,7 +249,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-###  // 가맹점 시퀀스 생성
+### Create merket sequence // 가맹점 시퀀스 생성
 {% highlight react %}
 CREATE SEQUENCE market_seq
 INCREMENT BY 1
@@ -263,7 +260,7 @@ NOCYCLE
 NOCACHE;
 {% endhighlight %}
 
-###  // 가맹점 최초 테스트용
+### For merket first test // 가맹점 최초 테스트용
 {% highlight react %}
 INSERT INTO tb_market VALUES(
 LPAD(NEXTVAL(market_seq), 4, '0'),
@@ -282,9 +279,7 @@ FROM tb_market
 SELECT * FROM tb_market;
 {% endhighlight %}
 
-
-
-###  // 상품목록 테이블 생성
+### Creating a goods list table // 상품목록 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_goods (
 MARKET_NO varchar(4) not null,
@@ -313,7 +308,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-###  // 상품목록 시퀀스 생성
+### Create a goods list sequence // 상품목록 시퀀스 생성
 {% highlight react %}
 CREATE SEQUENCE gds_seq
 INCREMENT BY 1
@@ -324,7 +319,7 @@ NOCYCLE
 NOCACHE;
 {% endhighlight %}
 
-###  // 상품목록 최초 테스트용
+### For the first test of goods list // 상품목록 최초 테스트용
 {% highlight react %}
 INSERT INTO tb_goods VALUES(
 '0010',
@@ -376,9 +371,7 @@ AND MARKET_NO = #{marketNo}
 SELECT * FROM tb_goods;
 {% endhighlight %}
 
-
-
-###  // 구매내역 테이블 생성
+### Creating a purchase history table // 구매내역 테이블 생성
 {% highlight react %}
 CREATE TABLE dbmira.tb_buylist (
 USR_NO varchar(5) not null,
@@ -405,8 +398,7 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_general_ci;
 {% endhighlight %}
 
-
-###  // 구매내역 시퀀스 생성
+### Create purchase history sequence // 구매내역 시퀀스 생성
 {% highlight react %}
 CREATE SEQUENCE buy_seq
 INCREMENT BY 1
@@ -416,7 +408,6 @@ MAXVALUE 99999
 NOCYCLE
 NOCACHE;
 {% endhighlight %}
-
 
 {% highlight react %}
 SELECT * FROM tb_buylist
@@ -429,20 +420,18 @@ and BUY_PAYMENT_CODE = '1';
 SELECT * FROM tb_buylist;
 {% endhighlight %}
 
-
-
 {% highlight react %}
 EXPLAIN
 SELECT * FROM tb_buylist
 WHERE USR_NO = '00002';
 {% endhighlight %}
 
-###  // 인덱스 생성 문법
+### Index generation grammar // 인덱스 생성 문법
 {% highlight react %}
 CREATE OR REPLACE INDEX 인덱스명 ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
 {% endhighlight %}
 
-###  // 예제: 게시판(tb_buylist)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우
+### (Example) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (tb_buylist) // (예제) 게시판(tb_buylist)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우
 {% highlight react %}
 CREATE OR REPLACE INDEX IDX_BUYLIST ON tb_buylist (BUY_DT, BUY_NO DESC)
 {% endhighlight %}
@@ -452,7 +441,6 @@ SELECT *
 FROM INFORMATION_SCHEMA.STATISTICS
 WHERE TABLE_SCHEMA = 'dbmira';
 {% endhighlight %}
-
 
 {% highlight react %}
 SELECT MARKET_NO,
