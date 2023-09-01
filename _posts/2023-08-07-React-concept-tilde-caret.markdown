@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "React: concept: tilde(~), caret(^)"
+title:  "React: concept: tilde(~) and caret(^), the first letters of the react and node versions"
 date:   2023-08-07 09:00:00 +0900
 categories: [React]
 ---
 
-### tilde(~) and caret(^), the first letters of the react and node versions   
-리액트, 노드 버전앞에 붙는 tilde(~) 와 caret(^)   
-
+tilde(~) and caret(^), the first letters of the react and node versions   
+// 리액트, 노드 버전앞에 붙는 tilde(~) 와 caret(^)   
+   
 `tilde(~)` : Automatically updates only within the last digit range of the specified version.   
 // 틸드(~) : 지정한 버전의 마지막 자리 내 범위에서만 자동으로 업데이트 함.   
    
