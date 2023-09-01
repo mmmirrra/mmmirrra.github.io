@@ -11,8 +11,10 @@ jsx stands for JavaScript XML and is a grammar that extends JavaScript.
 jsx can use HTML grammar.   
 // jsx는 HTML 문법을 사용할 수 있음.   
    
-The official document of jsx states that jsx is recommended for UI-related tasks. Explain that it displays error and warning messages in React.   
-// jsx의 공식 문서에서는 jsx가 UI 관련 작업을 위해 권장된다고 설명하고 있음. React에서 에러, 경고 메시지를 표시해준다고 함.   
+The official document of jsx states that jsx is recommended for UI-related tasks.   
+Explain that it displays error and warning messages in React.   
+// jsx의 공식 문서에서는 jsx가 UI 관련 작업을 위해 권장된다고 설명하고 있음.   
+// React에서 에러, 경고 메시지를 표시해준다고 함.   
    
 Among the answers to the difference between js and jsx, the answer with the highest number of recommendations is that there is no difference as an extension.   
 However, jsx is not JavaScript standard grammar, so there may be controversy.   
