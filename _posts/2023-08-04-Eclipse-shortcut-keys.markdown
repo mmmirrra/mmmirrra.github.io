@@ -24,8 +24,8 @@ categories: [Eclipse]
 `Ctrl + Backspace` : Delete Previous Word // 이전 요소 삭제   
 `Ctrl + Shift + Enter` : Insert Line Above Current Line // 현재 줄에 새줄 추가   
 `Shift + Enter` : Insert Line Below Current Line // 다음줄에 새줄 추가   
-`Alt + arrow keys ↑/↓ up/down` : Move Lines Down // 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
-`Ctrl + Alt + arrow keys ↑/↓ up/down` : Move Lines Up // 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
+`Alt + arrow keys ↑/↓ up/down` : Move Lines up/down // 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
+`Ctrl + Alt + arrow keys ↑/↓ up/down` : Copy and Paste the Line (selected blocks) up/down // 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
 `Ctrl + Shift + X` : To Upper Case // 대문자로 변경   
 `Ctrl + Shift + Y` : To Lower Case // 소문자로 변경   
 `Ctrl + +/-` : Modify font size one step larger/smaller // 폰트 사이즈 한단계 크게/작게 수정   
@@ -81,8 +81,8 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
    
 <br />
 ### Select Block // 블록 설정   
-`Shift + End` : Select Line End // 현재 커서부터 끝까지 블록 설정   
 `Shift + Home` : Select Line Start // 현재 커서부터 처음까지 블록 설정   
+`Shift + End` : Select Line End // 현재 커서부터 끝까지 블록 설정   
 `Ctrl + A` : Select All // 전체 블록 설정   
 `Alt + Shift + arrow keys ←/↑/→/↓ left/up/right/down` : Select Next/Previous Element // 이미 선택되어 있는 블록을 방향키로 늘림   
 `Alt + Shift + Z` : Surround With Quick Menu : A menu appears that surrounds the block for a try/catch function or for function, do function, while function, etc function // try/catch 문이나 for , do, while 등을 해당 블록에 감싸주는 메뉴가 나타남   
