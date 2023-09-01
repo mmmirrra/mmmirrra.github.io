@@ -5,7 +5,7 @@ date:   2023-08-07 09:00:00 +0900
 categories: [React]
 ---
 
-### Tilde(~) and caret(^), the first letters of the react and node versions   
+### tilde(~) and caret(^), the first letters of the react and node versions   
 리액트, 노드 버전앞에 붙는 tilde(~) 와 caret(^)   
 
 `tilde(~)` : Automatically updates only within the last digit range of the specified version.   
