@@ -7,8 +7,8 @@ categories: [React]
 
 When you receive React's axios api responses as a list, check them as follows.   
    
-`response.data[0]` is the first array of responses.   
-`response.data[0].usrNo` is the value name of the first array.   
+`response.data[0]` : the first array of responses.   
+`response.data[0].usrNo` : the value name of the first array.   
 
 {% highlight react %}
 const selecttestAxios = () => {

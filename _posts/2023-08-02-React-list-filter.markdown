@@ -6,12 +6,12 @@ categories: [React]
 ---
 
 Filters dates that are greater than the start date and less than the end date, or dates that are equal to the start date or the end date.   
-Filter items with the same `buyPaymentCode`.   
+Filter items with the same 'buyPaymentCode'.   
    
-`dbListDate` is the source list.   
-`buyDt` is the date to search.   
-`start` is the start date.   
-`end` is the end date.   
+`dbListDate` : the source list.   
+`buyDt` : the date to search.   
+`start` : the start date.   
+`end` : the end date.   
 
 {% highlight react %}
 const sendListData = dbListData.filter(

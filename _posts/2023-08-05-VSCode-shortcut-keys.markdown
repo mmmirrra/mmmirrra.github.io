@@ -7,4 +7,3 @@ categories: [VSCode]
 
 ### Find // 찾기   
 `Ctrl + P` : Open Search Popup : Search all files // 찾기 창 열림 : 모든 파일에서 검색   
-   
