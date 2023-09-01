@@ -88,7 +88,7 @@ SELECT EXISTS (
 UPDATE TB_MEMB
 SET VISIT_DTM = (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     VISIT_HOST = '111.111.111.111'
-WHERE USR_ID = 'mirakim'
+WHERE USR_ID = 'iiiddd'
 {% endhighlight %}
 
 ### Creating a member information sequence   
@@ -136,7 +136,7 @@ INSERT INTO TB_MEMB
 VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
     '1',
-    '부산점 점장',
+    '부산점관리자',
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
     '010',
@@ -485,7 +485,7 @@ ON TB_BUYLIST (BUY_DT, BUY_NO DESC)
 {% highlight react %}
 SELECT *
 FROM INFORMATION_SCHEMA.STATISTICS
-WHERE TABLE_SCHEMA = 'DBMIRA'
+WHERE TABLE_SCHEMA = 'DBNAME'
 {% endhighlight %}
 
 {% highlight react %}
