@@ -29,7 +29,7 @@ If you type 'Ctrl + S', 'Ctrl + K' in sequence as a shortcut, you will be taken 
 `Ctrl + End` : Move to the bottom of the Code // 코드 맨 아래로 이동   
 `Ctrl + Home` : Move to the top of the Code // 코드 맨 위로 이동   
 `Shift + arrow keys ↑/↓ up/down` : Copy and paste the Line (selected blocks) up/down // 코드 위/아래로 복사   
-`Shift + Alt + rrow keys ↑/↓ up/down` : Copy and paste the Line (selected blocks) up/down // 코드 위/아래로 복사   
+`Shift + Alt + arrow keys ↑/↓ up/down` : Copy and paste the Line (selected blocks) up/down // 코드 위/아래로 복사   
 `CTRL + D` : Modifying repeated Code at once // 반복되는 코드를 한번에 수정   
 `F2` : Change variable name/function name at once // 변수명/함수명 한번에 변경   
 `Ctrl + D` : Change the same word one by one // 같은 단어 하나씩 선택하여 변경   
@@ -38,7 +38,7 @@ If you type 'Ctrl + S', 'Ctrl + K' in sequence as a shortcut, you will be taken 
    
 <br />
 ### Alignment // 정렬   
-`Shift + Alt + F` or `After all selections Ctrl + K + F` : Automatic code alignment // 자동 정렬   
+`Shift + Alt + F` or `After all selections Ctrl + K + F` : Automatic Code alignment // 자동 정렬   
    
 <br />
 ### Automatic completion // 자동완성  
@@ -73,4 +73,4 @@ If you type 'Ctrl + S', 'Ctrl + K' in sequence as a shortcut, you will be taken 
    
 <br />
 ### Refactoring // 리팩토링   
-`Ctrl + Shift + R` : Refactoring to wrap a code with a function or variable // 코드를 함수나 변수로 감싸주는 리팩토링   
+`Ctrl + Shift + R` : Refactoring to wrap a Code with a function or variable // 코드를 함수나 변수로 감싸주는 리팩토링   
