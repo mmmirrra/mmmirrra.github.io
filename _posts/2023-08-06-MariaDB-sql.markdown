@@ -8,7 +8,7 @@ categories: [MariaDB]
 ### Creating a member information table   
 회원정보 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_MEMB (
     USR_NO VARCHAR(5) NOT NULL PRIMARY KEY,
     USR_CLS CHAR(1) NOT NULL,
@@ -31,7 +31,7 @@ DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE DBMIRA.TB_MEMB 
 MODIFY COLUMN USR_NO VARCHAR(5) CHARACTER SET UTF8MB4 COLLATE UTF8MB4_GENERAL_CI NOT NULL COMMENT '회원고유번호'
 {% endhighlight %}
