@@ -36,22 +36,22 @@ ALTER TABLE DBMIRA.TB_MEMB
 MODIFY COLUMN USR_NO VARCHAR(5) CHARACTER SET UTF8MB4 COLLATE UTF8MB4_GENERAL_CI NOT NULL COMMENT '회원고유번호'
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE TB_MEMB 
 MODIFY USR_PWD VARCHAR(100) AFTER USR_ID
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE TB_MEMB 
 DROP PRIMARY KEY
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE TB_MEMB 
 ADD PRIMARY KEY(USR_NO)
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE TB_MEMB 
 ADD UNIQUE KEY(USR_ID)
 {% endhighlight %}
@@ -59,7 +59,7 @@ ADD UNIQUE KEY(USR_ID)
 ### Check the ID and reply to 1 if it's there or 0 if it's not there   
 아이디 확인해서 있으면 1, 없으면 0 회신   
 
-{% highlight react %}
+{% highlight sql %}
 SELECT EXISTS (
     SELECT USR_ID 
     FROM TB_MEMB 
@@ -71,7 +71,7 @@ SELECT EXISTS (
 ### Check the ID, Password and reply to 1 if it's there or 0 if it's not there   
 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신   
 
-{% highlight react %}
+{% highlight sql %}
 SELECT EXISTS (
     SELECT USR_ID 
     FROM TB_MEMB 
@@ -84,7 +84,7 @@ SELECT EXISTS (
 ### Find ID and save the current date, time, host   
 아이디 찾아서 현재날짜, 시간, 호스트 저장   
 
-{% highlight react %}
+{% highlight sql %}
 UPDATE TB_MEMB
 SET VISIT_DTM = (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     VISIT_HOST = '111.111.111.111'
@@ -94,7 +94,7 @@ WHERE USR_ID = 'iiiddd'
 ### Creating a member information sequence   
 회원정보 시퀀스 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE SEQUENCE USR_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -107,7 +107,7 @@ CREATE SEQUENCE USR_SEQ
 ### Join membership   
 회원가입   
 
-{% highlight react %}
+{% highlight sql %}
 INSERT INTO TB_MEMB 
 VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
@@ -131,7 +131,7 @@ VALUES(
 ### For the first time testing of seller information   
 판매자정보 최초 테스트용   
 
-{% highlight react %}
+{% highlight sql %}
 INSERT INTO TB_MEMB 
 VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
@@ -155,7 +155,7 @@ VALUES(
 ### Creating a refresh token table   
 리플레시 토큰 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_TOKEN (
     ID VARCHAR(12) NOT NULL PRIMARY KEY,
     USR_ID VARCHAR(12) NOT NULL,
@@ -166,7 +166,7 @@ DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE TB_TOKEN 
 ADD UNIQUE KEY(USR_ID)
 {% endhighlight %}
@@ -174,7 +174,7 @@ ADD UNIQUE KEY(USR_ID)
 ### Create prepaid money table   
 선불머니원장 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_MONEY (
     USR_NO VARCHAR(5) NOT NULL,
     MONEY_NO VARCHAR(8) NOT NULL PRIMARY KEY,
@@ -190,7 +190,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ### Create prepaid money sequence   
 선불머니원장 시퀀스 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE SEQUENCE MONEY_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -200,7 +200,7 @@ CREATE SEQUENCE MONEY_SEQ
     NOCACHE
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 ALTER TABLE TB_MONEY 
 ADD UNIQUE KEY(USR_NO)
 {% endhighlight %}
@@ -208,7 +208,7 @@ ADD UNIQUE KEY(USR_NO)
 ### For the first test of prepaid money   
 선불머니원장 최초 테스트용   
 
-{% highlight react %}
+{% highlight sql %}
 INSERT INTO TB_MONEY 
 VALUES(
     '00007',
@@ -222,7 +222,7 @@ VALUES(
 ### Create prepaid money history table   
 선불머니내역 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_MONEYLIST (
     USR_NO VARCHAR(5) NOT NULL,
     MONEY_NO VARCHAR(8) NOT NULL,
@@ -240,7 +240,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ### Create prepaid money history sequence   
 선불머니내역 시퀀스 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE SEQUENCE CHARGE_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -250,7 +250,7 @@ CREATE SEQUENCE CHARGE_SEQ
     NOCACHE
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 INSERT INTO TB_MONEYLIST 
 VALUES(
     '00050',
@@ -276,7 +276,7 @@ VALUES(
 ### Creating a merket table   
 가맹점 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_MARKET (
     MARKET_NO VARCHAR(4) NOT NULL PRIMARY KEY,
     MARKET_NM VARCHAR(100) NOT NULL,
@@ -291,7 +291,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ### Create merket sequence   
 가맹점 시퀀스 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE SEQUENCE MARKET_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -304,7 +304,7 @@ CREATE SEQUENCE MARKET_SEQ
 ### For merket first test   
 가맹점 최초 테스트용   
 
-{% highlight react %}
+{% highlight sql %}
 INSERT INTO TB_MARKET 
 VALUES(
     LPAD(NEXTVAL(MARKET_SEQ), 4, '0'),
@@ -317,7 +317,7 @@ VALUES(
 ### Creating a goods list table   
 상품목록 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_GOODS (
     MARKET_NO VARCHAR(4) NOT NULL,
     SELR_USR_NO VARCHAR(5) NOT NULL,
@@ -348,7 +348,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ### Create a goods list sequence   
 상품목록 시퀀스 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE SEQUENCE GDS_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -361,7 +361,7 @@ CREATE SEQUENCE GDS_SEQ
 ### For the first test of goods list   
 상품목록 최초 테스트용   
 
-{% highlight react %}
+{% highlight sql %}
 INSERT INTO TB_GOODS 
 VALUES(
     '0010',
@@ -387,7 +387,7 @@ VALUES(
 )
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 SELECT MARKET_NO,
     GDS_NO,
     GDS_NM,
@@ -399,7 +399,7 @@ WHERE GDS_QTT > 0
 ORDER BY GDS_NM ASC
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 UPDATE TB_GOODS
 SET GDS_QTT = (GDS_QTT - 1),
     GDS_SELL_QTT = (GDS_SELL_QTT + 1),
@@ -412,7 +412,7 @@ WHERE GDS_NO = #{gdsNo}
 ### Creating a purchase history table   
 구매내역 테이블 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE TABLE DBMIRA.TB_BUYLIST (
     USR_NO VARCHAR(5) NOT NULL,
     MARKET_NO VARCHAR(4) NOT NULL,
@@ -441,7 +441,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ### Create purchase history sequence   
 구매내역 시퀀스 생성   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE SEQUENCE BUY_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -451,7 +451,7 @@ CREATE SEQUENCE BUY_SEQ
     NOCACHE
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 SELECT * 
 FROM TB_BUYLIST
 WHERE USR_NO='00002'
@@ -459,7 +459,7 @@ WHERE USR_NO='00002'
     AND BUY_PAYMENT_CODE = '1'
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 EXPLAIN
 SELECT * 
 FROM TB_BUYLIST
@@ -469,7 +469,7 @@ WHERE USR_NO = '00002'
 ### Index generation grammar   
 인덱스 생성 문법   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE OR REPLACE INDEX 인덱스명 
 ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
 {% endhighlight %}
@@ -477,18 +477,18 @@ ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
 ### (Example) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (TB_BUYLIST)   
 (예제) 게시판(TB_BUYLIST)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우   
 
-{% highlight react %}
+{% highlight sql %}
 CREATE OR REPLACE INDEX IDX_BUYLIST 
 ON TB_BUYLIST (BUY_DT, BUY_NO DESC)
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 SELECT *
 FROM INFORMATION_SCHEMA.STATISTICS
 WHERE TABLE_SCHEMA = 'DBNAME'
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 SELECT MARKET_NO,
     GDS_NM,
     BUY_NO,
@@ -507,7 +507,7 @@ WHERE DATE(a.BUY_DT) BETWEEN '20230709' AND '20230710'
 ORDER BY BUY_NO DESC
 {% endhighlight %}
 
-{% highlight react %}
+{% highlight sql %}
 SELECT ROW_NUMBER () OVER(ORDER BY a.BUY_NO DESC) AS LIST_NO,
     b.MARKET_NM AS MARKET_NO,
     a.GDS_NM,
