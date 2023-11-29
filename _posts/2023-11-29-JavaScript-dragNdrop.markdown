@@ -5,7 +5,8 @@ date:   2023-11-29 09:00:00 +0900
 categories: [JavaScript]
 ---
 
-`<script>
+{% highlight html %}
+<script>
       function dragstart(event) {
         // 전달할 데이터에 대한 처리 : dataTransfer 객체
            event.dataTransfer.setData("text", event.target.id);
@@ -38,4 +39,4 @@ categories: [JavaScript]
     </div>
     <div id="div2" ondrop="drop(event)" ondragover="dragover(event)"></div>
 </body>
-`
+{% endhighlight %}
