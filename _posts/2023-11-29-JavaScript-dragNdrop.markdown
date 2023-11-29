@@ -72,4 +72,5 @@ categories: [JavaScript]
         </div>
         <div id="div2" ondrop="drop(event)" ondragover="dragover(event)"></div>
     </body>
+</html>
 {% endhighlight %}
