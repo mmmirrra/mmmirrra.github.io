@@ -6,7 +6,8 @@ categories: [JavaScript]
 ---
 
 ### example   
-`<script>
+`
+<script>
     function dragstart(event) {
         event.dataTransfer.setData("text", event.target.id);
         event.dataTransfer.effectAllowed = "move";
@@ -34,7 +35,8 @@ categories: [JavaScript]
         <img id="image" src="flower.jpg" width="100px" height="100px" draggable="true" ondragstart="dragstart(event)" alt="">
     </div>
     <div id="div2" ondrop="drop(event)" ondragover="dragover(event)"></div>
-</body>`
+</body>
+`
    
 {% highlight html %}
 <!DOCTYPE html>
