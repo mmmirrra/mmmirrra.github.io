@@ -11,7 +11,8 @@ categories: [JavaScript]
     function getLocation() {
         let pos = document.getElementById('result');
         if (navigator.geolocation) {
-            options = { enableHighAccuracy: true,
+            options = { 
+                enableHighAccuracy: true,
                 timeout: 5000,
                 maximumAge: 5000 };
             navigator.geolocation.getCurrentPosition(
@@ -24,7 +25,8 @@ categories: [JavaScript]
     function positionStart() {
         let pos = document.getElementById('result');
         if (navigator.geolocation) {
-            options = { enableHighAccuracy: true,
+            options = { 
+                enableHighAccuracy: true,
                 timeout: 5000,
                 maximumAge: 5000 };
             watchId = navigator.geolocation.watchPosition(
@@ -44,7 +46,8 @@ categories: [JavaScript]
         let acc = position.coords.accuracy;
         let heading = position.coords.heading;
         let speed = position.coords.speed;
-        let msg = "현재 시간: " + now.toLocaleString() + "<br />" +
+        let msg = 
+            "현재 시간: " + now.toLocaleString() + "<br />" +
             "현재 위치 (위도: " + lat + " 경도: " + lng + ")<br />" +
             "정확도: " + acc + "m<br />" +
             "진행방향: " + heading + "<br />" +
@@ -86,7 +89,8 @@ categories: [JavaScript]
             function getLocation() {
                 let pos = document.getElementById('result');
                 if (navigator.geolocation) {
-                    options = { enableHighAccuracy: true,
+                    options = { 
+                        enableHighAccuracy: true,
                         timeout: 5000,
                         maximumAge: 5000 };
                     navigator.geolocation.getCurrentPosition(
@@ -99,7 +103,8 @@ categories: [JavaScript]
             function positionStart() {
                 let pos = document.getElementById('result');
                 if (navigator.geolocation) {
-                    options = { enableHighAccuracy: true,
+                    options = { 
+                        enableHighAccuracy: true,
                         timeout: 5000,
                         maximumAge: 5000 };
                     watchId = navigator.geolocation.watchPosition(
@@ -119,7 +124,8 @@ categories: [JavaScript]
                 let acc = position.coords.accuracy;
                 let heading = position.coords.heading;
                 let speed = position.coords.speed;
-                let msg = "현재 시간: " + now.toLocaleString() + "<br />" +
+                let msg = 
+                    "현재 시간: " + now.toLocaleString() + "<br />" +
                     "현재 위치 (위도: " + lat + " 경도: " + lng + ")<br />" +
                     "정확도: " + acc + "m<br />" +
                     "진행방향: " + heading + "<br />" +
