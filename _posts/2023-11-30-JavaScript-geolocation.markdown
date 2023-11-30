@@ -37,6 +37,7 @@ categories: [JavaScript]
     };
     function positionStop() {
         navigator.geolocation.clearWatch(watchId);
+        pos.innerHTML = "위치 추적이 중단 되었습니다.";
     };
     function myPosition(position) {
         let pos = document.getElementById('result');
@@ -115,6 +116,7 @@ categories: [JavaScript]
             };
             function positionStop() {
                 navigator.geolocation.clearWatch(watchId);
+                pos.innerHTML = "위치 추적이 중단 되었습니다.";
             };
             function myPosition(position) {
                 let pos = document.getElementById('result');
