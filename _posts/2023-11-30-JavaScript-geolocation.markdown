@@ -18,7 +18,7 @@ categories: [JavaScript]
             navigator.geolocation.getCurrentPosition(
                 myPosition, showError, options);
         } else {
-            pos.innerHTML = "Geolocation is not supported. /n //Geolocation을 지원하지 않습니다.";
+            pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
         }
     };
     let watchId;
@@ -32,13 +32,13 @@ categories: [JavaScript]
             watchId = navigator.geolocation.watchPosition(
                 myPosition, showError, options);
         } else {
-            pos.innerHTML = "Geolocation을 지원하지 않습니다.";
+            pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
         }
     };
     function positionStop() {
         navigator.geolocation.clearWatch(watchId);
         let pos = document.getElementById('result');
-        pos.innerHTML = "위치 추적이 중단 되었습니다.";
+        pos.innerHTML = "Location tracking has been interrupted. \n //위치 추적이 중단 되었습니다.";
     };
     function myPosition(position) {
         let pos = document.getElementById('result');
@@ -49,24 +49,24 @@ categories: [JavaScript]
         let heading = position.coords.heading;
         let speed = position.coords.speed;
         let msg = 
-            "현재 시간: " + now.toLocaleString() + "<br />" +
-            "현재 위치 (위도: " + lat + " 경도: " + lng + ")<br />" +
-            "정확도: " + acc + "m<br />" +
-            "진행방향: " + heading + "<br />" +
-            "속도: " + speed + "<br />";
+            "Current time: " + now.toLocaleString() + "<br />" +
+            "Current location (Latitude //위도: " + lat + " longitude //경도: " + lng + ")<br />" +
+            "Accuracy: " + acc + "m<br />" +
+            "Direction of progress: " + heading + "<br />" +
+            "Speed: " + speed + "<br />";
         pos.innerHTML = msg;
     };
     function showError(error) {
         let pos = document.getElementById('result');
         switch(error.code) {
             case error.PERMISSION_DENIED:
-                pos.innerHTML = "권한이 없습니다."; break;
+                pos.innerHTML = "You don't have permission //권한이 없습니다."; break;
             case error.POSITION_UNAVAILABLE:
-                pos.innerHTML = "위치 정보를 구할 수 없습니다."; break;
+                pos.innerHTML = "Location information not available //위치 정보를 구할 수 없습니다."; break;
             case error.TIMEOUT:
-                pos.innerHTML = "제한 시간을 초과하였습니다."; break;
+                pos.innerHTML = "The time limit has been exceeded //제한 시간을 초과하였습니다."; break;
             case error.UNKNOWN_ERROR:
-                pos.innerHTML = "알 수 없는 오류가 발생하였습니다."; break;
+                pos.innerHTML = "An unknown error has occurred //알 수 없는 오류가 발생하였습니다."; break;
             default: 
                 pos.innerHTML = error.message;
         }
@@ -74,9 +74,9 @@ categories: [JavaScript]
 </script>
 <body>
     <div>
-        <input type="button" onclick="getLocation()" value="위치 얻기" />
-        <input type="button" onclick="positionStart()" value="위치 추적 시작" />
-        <input type="button" onclick="positionStop()" value="위치 추적 정지" />
+        <input type="button" onclick="getLocation()" value="Getting a Location //위치 얻기" />
+        <input type="button" onclick="positionStart()" value="Start Location Tracking //위치 추적 시작" />
+        <input type="button" onclick="positionStop()" value="Stop Location Tracking //위치 추적 정지" />
         <hr>
         <div id="result"></div>
     </div>
@@ -98,7 +98,7 @@ categories: [JavaScript]
                     navigator.geolocation.getCurrentPosition(
                         myPosition, showError, options);
                 } else {
-                    pos.innerHTML = "Geolocation is not supported. /n //Geolocation을 지원하지 않습니다.";
+                    pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
                 }
             };
             let watchId;
@@ -112,13 +112,13 @@ categories: [JavaScript]
                     watchId = navigator.geolocation.watchPosition(
                         myPosition, showError, options);
                 } else {
-                    pos.innerHTML = "Geolocation을 지원하지 않습니다.";
+                    pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
                 }
             };
             function positionStop() {
                 navigator.geolocation.clearWatch(watchId);
                 let pos = document.getElementById('result');
-                pos.innerHTML = "위치 추적이 중단 되었습니다.";
+                pos.innerHTML = "Location tracking has been interrupted. \n //위치 추적이 중단 되었습니다.";
             };
             function myPosition(position) {
                 let pos = document.getElementById('result');
@@ -129,24 +129,24 @@ categories: [JavaScript]
                 let heading = position.coords.heading;
                 let speed = position.coords.speed;
                 let msg = 
-                    "현재 시간: " + now.toLocaleString() + "<br />" +
-                    "현재 위치 (위도: " + lat + " 경도: " + lng + ")<br />" +
-                    "정확도: " + acc + "m<br />" +
-                    "진행방향: " + heading + "<br />" +
-                    "속도: " + speed + "<br />";
+                    "Current time: " + now.toLocaleString() + "<br />" +
+                    "Current location (Latitude //위도: " + lat + " longitude //경도: " + lng + ")<br />" +
+                    "Accuracy: " + acc + "m<br />" +
+                    "Direction of progress: " + heading + "<br />" +
+                    "Speed: " + speed + "<br />";
                 pos.innerHTML = msg;
             };
             function showError(error) {
                 let pos = document.getElementById('result');
                 switch(error.code) {
                     case error.PERMISSION_DENIED:
-                        pos.innerHTML = "권한이 없습니다."; break;
+                        pos.innerHTML = "You don't have permission //권한이 없습니다."; break;
                     case error.POSITION_UNAVAILABLE:
-                        pos.innerHTML = "위치 정보를 구할 수 없습니다."; break;
+                        pos.innerHTML = "Location information not available //위치 정보를 구할 수 없습니다."; break;
                     case error.TIMEOUT:
-                        pos.innerHTML = "제한 시간을 초과하였습니다."; break;
+                        pos.innerHTML = "The time limit has been exceeded //제한 시간을 초과하였습니다."; break;
                     case error.UNKNOWN_ERROR:
-                        pos.innerHTML = "알 수 없는 오류가 발생하였습니다."; break;
+                        pos.innerHTML = "An unknown error has occurred //알 수 없는 오류가 발생하였습니다."; break;
                     default: 
                         pos.innerHTML = error.message;
                 }
@@ -155,9 +155,9 @@ categories: [JavaScript]
     </head>
     <body>
         <div>
-            <input type="button" onclick="getLocation()" value="위치 얻기" />
-            <input type="button" onclick="positionStart()" value="위치 추적 시작" />
-            <input type="button" onclick="positionStop()" value="위치 추적 정지" />
+            <input type="button" onclick="getLocation()" value="Getting a Location //위치 얻기" />
+            <input type="button" onclick="positionStart()" value="Start Location Tracking //위치 추적 시작" />
+            <input type="button" onclick="positionStop()" value="Stop Location Tracking //위치 추적 정지" />
             <hr>
             <div id="result"></div>
         </div>
