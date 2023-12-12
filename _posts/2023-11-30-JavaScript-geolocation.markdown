@@ -18,7 +18,7 @@ categories: [JavaScript]
             navigator.geolocation.getCurrentPosition(
                 myPosition, showError, options);
         } else {
-            pos.innerHTML = "Geolocation을 지원하지 않습니다.";
+            pos.innerHTML = "Geolocation is not supported. /n //Geolocation을 지원하지 않습니다.";
         }
     };
     let watchId;
@@ -98,7 +98,7 @@ categories: [JavaScript]
                     navigator.geolocation.getCurrentPosition(
                         myPosition, showError, options);
                 } else {
-                    pos.innerHTML = "Geolocation을 지원하지 않습니다.";
+                    pos.innerHTML = "Geolocation is not supported. /n //Geolocation을 지원하지 않습니다.";
                 }
             };
             let watchId;
