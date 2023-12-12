@@ -18,7 +18,7 @@ categories: [JavaScript]
             navigator.geolocation.getCurrentPosition(
                 myPosition, showError, options);
         } else {
-            pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
+            pos.innerHTML = "Geolocation is not supported. //Geolocation을 지원하지 않습니다.";
         }
     };
     let watchId;
@@ -32,13 +32,13 @@ categories: [JavaScript]
             watchId = navigator.geolocation.watchPosition(
                 myPosition, showError, options);
         } else {
-            pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
+            pos.innerHTML = "Geolocation is not supported. //Geolocation을 지원하지 않습니다.";
         }
     };
     function positionStop() {
         navigator.geolocation.clearWatch(watchId);
         let pos = document.getElementById('result');
-        pos.innerHTML = "Location tracking has been interrupted. \n //위치 추적이 중단 되었습니다.";
+        pos.innerHTML = "Location tracking has been interrupted. //위치 추적이 중단 되었습니다.";
     };
     function myPosition(position) {
         let pos = document.getElementById('result');
@@ -98,7 +98,7 @@ categories: [JavaScript]
                     navigator.geolocation.getCurrentPosition(
                         myPosition, showError, options);
                 } else {
-                    pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
+                    pos.innerHTML = "Geolocation is not supported. //Geolocation을 지원하지 않습니다.";
                 }
             };
             let watchId;
@@ -112,13 +112,13 @@ categories: [JavaScript]
                     watchId = navigator.geolocation.watchPosition(
                         myPosition, showError, options);
                 } else {
-                    pos.innerHTML = "Geolocation is not supported. \n //Geolocation을 지원하지 않습니다.";
+                    pos.innerHTML = "Geolocation is not supported. //Geolocation을 지원하지 않습니다.";
                 }
             };
             function positionStop() {
                 navigator.geolocation.clearWatch(watchId);
                 let pos = document.getElementById('result');
-                pos.innerHTML = "Location tracking has been interrupted. \n //위치 추적이 중단 되었습니다.";
+                pos.innerHTML = "Location tracking has been interrupted. //위치 추적이 중단 되었습니다.";
             };
             function myPosition(position) {
                 let pos = document.getElementById('result');
