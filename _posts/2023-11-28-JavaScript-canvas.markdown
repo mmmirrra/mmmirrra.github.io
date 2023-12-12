@@ -11,16 +11,17 @@ categories: [JavaScript]
     function callCanvas() {
         let canvas = document.getElementById('myCanvas');
         let ctx = canvas.getContext('2d');
-        ctx.font = "20px 굴림체";
+        ctx.font = "20px Arial";
         ctx.fillStyle = "red";
-        ctx.fillText("캔버스 맛보기", canvas.width/2-70, canvas.height/2-5);
+        ctx.fillText("Example of making a canvas", canvas.width/2-70, canvas.height/2-5);
         ctx.strokeStyle = "blue";
         ctx.strokeRect(70, 40, 200, 100);
     };
 </script>
 <body onload="callCanvas();">
     <canvas id="myCanvas" width="350px" height="200px" style="border: 1px solid red; background-color: lightgreen">
-        이 브라우저는 HTML5의 canvas 요소를 지원하지 않습니다.
+        This browser does not support the canvas element in HTML5.   
+        // 이 브라우저는 HTML5의 canvas 요소를 지원하지 않습니다.
     </canvas>
 </body>
 `
@@ -33,9 +34,9 @@ categories: [JavaScript]
             function callCanvas() {
                 let canvas = document.getElementById('myCanvas');
                 let ctx = canvas.getContext('2d');
-                ctx.font = "20px 굴림체";
+                ctx.font = "20px Arial";
                 ctx.fillStyle = "red";
-                ctx.fillText("캔버스 맛보기", canvas.width/2-70, canvas.height/2-5);
+                ctx.fillText("Example of making a canvas", canvas.width/2-70, canvas.height/2-5);
                 ctx.strokeStyle = "blue";
                 ctx.strokeRect(70, 40, 200, 100);
             };
@@ -43,7 +44,8 @@ categories: [JavaScript]
     </head>
     <body onload="callCanvas();">
         <canvas id="myCanvas" width="350px" height="200px" style="border: 1px solid red; background-color: lightgreen">
-            이 브라우저는 HTML5의 canvas 요소를 지원하지 않습니다.
+            This browser does not support the canvas element in HTML5.   
+            // 이 브라우저는 HTML5의 canvas 요소를 지원하지 않습니다.
         </canvas>
     </body>
 </html>
