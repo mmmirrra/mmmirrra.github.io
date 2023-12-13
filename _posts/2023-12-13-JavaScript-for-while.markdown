@@ -22,7 +22,7 @@ categories: [JavaScript]
 </html>
 {% endhighlight %}
    
-   
+<br />
 ### for...in   
 It is a repetition that can be used for an object.   
 It can also be used for arrays, but is not recommended for array iterations.   
@@ -49,7 +49,7 @@ It can also be used for arrays, but is not recommended for array iterations.
 </html>
 {% endhighlight %}
    
-   
+<br />
 ### for...of   
 'for...of' is not supported by the Explorer.   
 It can be used for repeatable objects (including array, map, set, string, typedArray, arguments, etc.).   
@@ -72,7 +72,7 @@ It is usually used for the array.
 </html>
 {% endhighlight %}
    
-   
+<br />
 ### forEach()   
 The method used in the array.   
 Use the callback function in the factor.   
@@ -93,7 +93,7 @@ Use the callback function in the factor.
 </html>
 {% endhighlight %}
    
-   
+<br />
 ### while   
 If while(condition) is false, it does not run once.   
    
@@ -115,7 +115,7 @@ If while(condition) is false, it does not run once.
 </html>
 {% endhighlight %}
    
-   
+<br />
 ### do...while   
 do{} is executed at least once.   
 After at least one execution, if the while condition is false, it is no longer executed.   
