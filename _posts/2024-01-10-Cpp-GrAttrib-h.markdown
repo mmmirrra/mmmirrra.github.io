@@ -16,9 +16,9 @@ project 'FirstStep'
 #include <string>
 using namespace std;
 
-class GrAttrib {		// 추상 클래스 - 도형의 그래픽 속성 클래스
+class GrAttrib {			// 추상 클래스 - 도형의 그래픽 속성 클래스
 	string lineColor;		// 선 색 속성
-	string fillColor;	// 내부 영역 색 속성
+	string fillColor;		// 내부 영역 색 속성
 public:
 	GrAttrib() : lineColor("Black"), fillColor("White") {}		// 그래픽 속성 객체 생성자 - 디폴트 생성자
 	GrAttrib(const string& lc, const string& fc) : lineColor(lc), fillColor(fc) {}		// 그래픽 속성 객체 생성자 - 지정된 색상으로 초기화하는 생성자
@@ -28,10 +28,10 @@ public:
 	void setFillColor(const string& fc) {		// 속성 지정 멤버함수 - 내부 영역 색상 지정
 		fillColor = fc;
 	}
-	string getLineColor() const {		// 속성 값을 읽는 멤버함수 - 선 색상 읽음
+	string getLineColor() const {			// 속성 값을 읽는 멤버함수 - 선 색상 읽음
 		return lineColor;
 	}
-	string getFillColor() const {		// 속성 값을 읽는 멤버함수 - 내부 영역 색상 읽음
+	string getFillColor() const {			// 속성 값을 읽는 멤버함수 - 내부 영역 색상 읽음
 		return fillColor;
 	}
 };

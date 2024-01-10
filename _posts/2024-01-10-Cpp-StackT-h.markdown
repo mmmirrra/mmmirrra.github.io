@@ -15,13 +15,13 @@ project 'FirstStep'
 #pragma once
 
 template <typename T>		// typename T 또는 class T 라고 써도 됨
-class Stack {		// Stack 이라는 클래스 템플릿
+class Stack {			// Stack 이라는 클래스 템플릿
 	T* buf;
 	int top;
 	int size;
-public:		// 함수의 원형 선언
+public:				// 함수의 원형 선언
 	Stack(int s);		// 생성자
-	virtual ~Stack();		// 소멸자
+	virtual ~Stack();	// 소멸자
 	bool full() const;
 	bool empty() const;
 	void push(const T& a);
@@ -30,11 +30,11 @@ public:		// 함수의 원형 선언
 };
 
 // 함수의 원형과 함수의 실제 정의를 헤더 파일에 한번에 정의해야 함. 함수의 실제 정의를 별도의 cpp 파일에 넣으면 여러번 중복 정의되므로 헤더 파일에 한번에 정의해야 함
-template <typename T> Stack<T>::Stack(int s) : size(s), top(s) {		// 생성자
+template <typename T> Stack<T>::Stack(int s) : size(s), top(s) {	// 생성자
 	buf = new T[s];
 }
 
-template <typename T> Stack<T>::~Stack() {		// 소멸자
+template <typename T> Stack<T>::~Stack() {	// 소멸자
 	delete[] buf;
 }
 

@@ -19,7 +19,7 @@ using namespace std;
 class AClass {		// 추상 클래스 - 객체를 만들 수 없음. ex. AClass objA; 컴파일 시 오류 발생
 public:
 	virtual void vf() const = 0;		// 순수가상함수
-	void f1() const {		// 일반함수
+	void f1() const {			// 일반함수
 		cout << "Abstract" << endl;
 	}
 };

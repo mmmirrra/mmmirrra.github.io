@@ -21,9 +21,9 @@ class IntArray1 {		// 사용자 정의 객체 오류 처리 예제 - 오류가 �
 	int* buf;
 	int size;
 public:
-	IntArray1(int s = DefaultSize);		// 생성자
+	IntArray1(int s = DefaultSize);				// 생성자
 	virtual ~IntArray1() { delete[] buf; }		// 소멸자 - 가상
-	int& operator [] (int offset);		// 첨자 연산자 - 첨자가 범위내에 있는지 확인
+	int& operator [] (int offset);			// 첨자 연산자 - 첨자가 범위내에 있는지 확인
 	const int& operator [] (int offset) const;		// 첨자 연산자 - 첨자가 범위내에 있는지 확인
 	int getSize() const { return size; }
 	friend ostream& operator << (ostream&, IntArray1&);

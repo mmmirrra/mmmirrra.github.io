@@ -19,20 +19,20 @@ project 'FirstStep'
 using namespace std;
 
 class Circle : public Figure {		// 상세 클래스 - 원 클래스
-	double cx, cy;		// 원의 중심 좌표
-	double radius;		// 원의 반경
+	double cx, cy;				// 원의 중심 좌표
+	double radius;				// 원의 반경
 public:
-	Circle(double x, double y, double r) : cx(x), cy(y), radius(r) {}		// 생성자 - 현재의 그래픽 속성에 따라 원 객체 생성. (x, y)는 중심좌표. r은 반경
+	Circle(double x, double y, double r) : cx(x), cy(y), radius(r) {}	// 생성자 - 현재의 그래픽 속성에 따라 원 객체 생성. (x, y)는 중심좌표. r은 반경
 	void move(double dx, double dy) {		// 순수가상함수를 재정의 - 원의 이동 - 원의 중심좌표를 (dx, dy) 만큼 이동
 		cx += dx;
 		cy += dy;
 	}
-	void scale(double s) {		// 순수가상함수를 재정의 - 원점 기준 크기 변경 - 좌표 원점을 기준으로 s배 크기 조정
+	void scale(double s) {				// 순수가상함수를 재정의 - 원점 기준 크기 변경 - 좌표 원점을 기준으로 s배 크기 조정
 		cx *= s;
 		cy *= s;
 		radius *= s;
 	}
-	void draw() const {		// 순수가상함수를 재정의 - 원 그리기 멤버함수
+	void draw() const {				// 순수가상함수를 재정의 - 원 그리기 멤버함수
 		cout << "Draw a circle" << endl;
 		cout << "(" << cx << ", " << cy << ")에서부터 ";
 		cout << radius << "만큼 떨어진 모든 점들을 ";

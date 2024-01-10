@@ -18,17 +18,17 @@ using namespace std;
 
 Pencils& Pencils::operator ++ () {		// ++ 연산자 (전위 표기)
 	cout << "++ operator (prefix) : ";
-	if (++np >= 12)		// 낱개를 1 증가시킴. 결과가 12보다 크면
+	if (++np >= 12)			// 낱개를 1 증가시킴. 결과가 12보다 크면
 		++dozens, np = 0;		// 타 수를 1 증가시키고, 낱개는 0
-	return *this;		// 증가된 결과를 반환
+	return *this;				// 증가된 결과를 반환
 }
 
 Pencils Pencils::operator ++ (int) {		// ++ 연산자 (후위 표기)
 	cout << "++ operator (postfix) : ";
-	Pencils tmp(*this);		// 현재 객체를 보존
-	if (++np >= 12)		// 낱개를 1 증가시킴. 결과가 12보다 크면
+	Pencils tmp(*this);			// 현재 객체를 보존
+	if (++np >= 12)			// 낱개를 1 증가시킴. 결과가 12보다 크면
 		++dozens, np = 0;		// 타 수를 1 증가시키고, 낱개는 0
-	return tmp;		// 보존된 객체를 반환
+	return tmp;				// 보존된 객체를 반환
 }
 
 void Pencils::display() const {

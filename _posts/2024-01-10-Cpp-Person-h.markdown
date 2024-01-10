@@ -19,8 +19,8 @@ class Person {		// 메모리 동적 할당 예제
 	char* addr;
 public:
 	Person(const char* name, const char* addr);		// 생성자의 원형
-	~Person();		// 소멸자의 원형
-	void print() const;		// const 이므로 변경 불가
+	~Person();						// 소멸자의 원형
+	void print() const;					// const 이므로 변경 불가
 	void chAddr(const char* newAddr);
 };
 ```

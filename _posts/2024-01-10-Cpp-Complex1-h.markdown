@@ -30,6 +30,6 @@ public:
 	}
 	Complex1 mul(const Complex1& c) const;		// 복소수 곱셈
 	Complex1 div(const Complex1& c) const;		// 복소수 나눗셈
-	void display() const;		// 복소수 값을 출력
+	void display() const;				// 복소수 값을 출력
 };
 ```

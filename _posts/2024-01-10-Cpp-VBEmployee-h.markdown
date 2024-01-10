@@ -18,7 +18,7 @@ project 'FirstStep'
 #include "VBPerson.h"
 using namespace std;
 
-class Employee2 : virtual public Person5 {		// Person5를 가상 기초 클래스로 상속받는 클래스
+class Employee2 : virtual public Person5 {	// Person5를 가상 기초 클래스로 상속받는 클래스
 	string company;
 public :
 	Employee2(const string& n, const string& c) : Person5(n), company(c) {}

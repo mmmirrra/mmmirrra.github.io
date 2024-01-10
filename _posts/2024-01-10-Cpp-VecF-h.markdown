@@ -23,23 +23,23 @@ class VecF {		// 다중정의에 대한 개념 이해를 위한 예제
 public:
 	VecF(int d, const float* a = nullptr) : n{ d } {
 		arr = new float[d];
-		if (a) memcpy(arr, a, sizeof(float) * n);		// memcpy는 메모리의 값을 다른 메모리로 복사해줌. 매개변수로 받은 메모리값을 복사함.
+		if (a) memcpy(arr, a, sizeof(float) * n);	// memcpy는 메모리의 값을 다른 메모리로 복사해줌. 매개변수로 받은 메모리값을 복사함.
 	}
-	VecF(const VecF& fv) : n{ fv.n} {		// 깊은 복사를 위한 명시적 복사 생성자 - 이걸 만들지 않을 경우 소멸자 ~VecF 실행시 소멸할 메모리주소가 없으므로 오류가 발생함
+	VecF(const VecF& fv) : n{ fv.n} {			// 깊은 복사를 위한 명시적 복사 생성자 - 이걸 만들지 않을 경우 소멸자 ~VecF 실행시 소멸할 메모리주소가 없으므로 오류가 발생함
 		arr = new float[n];
 		memcpy(arr, fv.arr, sizeof(float) * n);
 	}
-	VecF(VecF&& fv) noexcept : n{ fv.n }, arr{ fv.arr } {		// 명시적 이동 생성자 - 초기화로 값을 옮겨줌
-		fv.arr = nullptr;		// 남은값은 반드시 nullprt로 바꿔줘야 함. 소멸자 실행히 nullptr은 메모리소멸을 실행하지 않으므로 오류가 나지 않음
+	VecF(VecF&& fv) noexcept : n{ fv.n }, arr{ fv.arr } {	// 명시적 이동 생성자 - 초기화로 값을 옮겨줌
+		fv.arr = nullptr;				// 남은값은 반드시 nullprt로 바꿔줘야 함. 소멸자 실행히 nullptr은 메모리소멸을 실행하지 않으므로 오류가 나지 않음
 		fv.n = 0;
 	}
 	~VecF() {
 		delete[] arr;
 	}
 	VecF add(const VecF& fv) const {
-		VecF tmp(n);		// n개의 VecF를 저장할 수 있는 임시객체
+		VecF tmp(n);					// n개의 VecF를 저장할 수 있는 임시객체
 		for (int i = 0; i < n; i++)
-			tmp.arr[i] = arr[i] + fv.arr[i];		// 같은 자리의 값을 각각 더해줌
+			tmp.arr[i] = arr[i] + fv.arr[i];	// 같은 자리의 값을 각각 더해줌
 		return tmp;
 	}
 	void print() const {
@@ -48,13 +48,13 @@ public:
 			cout << arr[i] << " ";
 		cout << "]" << endl;
 	}
-	VecF& operator = (const VecF& fv) {		// 대입 연산자 다중정의 - 얕은 복사를 방지하기 위한 대입 연산자 다중정의
+	VecF& operator = (const VecF& fv) {			// 대입 연산자 다중정의 - 얕은 복사를 방지하기 위한 대입 연산자 다중정의
 		cout << "Multiple definition of substitution operator : ";
-		if (n != fv.n) {		// 벡터의 크기가 다르다면
-			delete[] arr;		// 기존 메모리를 반환하고
+		if (n != fv.n) {				// 벡터의 크기가 다르다면
+			delete[] arr;				// 기존 메모리를 반환하고
 			arr = new float[n = fv.n];		// 새로 메모리를 할당함
 		}
-		memcpy(arr, fv.arr, sizeof(float) * n);		// 데이터 복사
+		memcpy(arr, fv.arr, sizeof(float) * n);	// 데이터 복사
 		return *this;
 	}
 	VecF& operator = (VecF&& fv) noexcept {		// 이동 대입 연산자 다중정의. rvalue 참조
@@ -67,13 +67,13 @@ public:
 	}
 };
 void swapVecF1(VecF& v1, VecF& v2) {		// lvalue 참조 복사
-	VecF tmp(v1);		// 복사 생성자
-	v1 = v2;		// 대입 연산자 사용
-	v2 = tmp;		// 대입 연산자 사용
+	VecF tmp(v1);				// 복사 생성자
+	v1 = v2;				// 대입 연산자 사용
+	v2 = tmp;				// 대입 연산자 사용
 }
 void swapVecF2(VecF& v1, VecF& v2) {		// rvalue 참조 이동
 	VecF tmp = move(v1);		// 이동 생성자
-	v1 = move(v2);		// 이동 대입 연산자 사용
-	v2 = move(tmp);		// 이동 대입 연산자 사용
+	v1 = move(v2);			// 이동 대입 연산자 사용
+	v2 = move(tmp);			// 이동 대입 연산자 사용
 }
 ```

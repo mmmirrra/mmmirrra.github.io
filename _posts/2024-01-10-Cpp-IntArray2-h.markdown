@@ -22,17 +22,17 @@ class IntArray2 {		// 사용자 정의 객체 오류 처리 예제 - exception()
 	int* buf;
 	int size;
 public:
-	IntArray2(int s = DefaultSize);		// 생성자
+	IntArray2(int s = DefaultSize);				// 생성자
 	virtual ~IntArray2() { delete[] buf; }		// 소멸자 - 가상
-	int& operator [] (int offset);		// 첨자 연산자 - 첨자가 범위내에 있는지 확인
+	int& operator [] (int offset);			// 첨자 연산자 - 첨자가 범위내에 있는지 확인
 	const int& operator [] (int offset) const;		// 첨자 연산자 - 첨자가 범위내에 있는지 확인
 	int getSize() const { return size; }
 	friend ostream& operator << (ostream&, IntArray2&);
-	class BadIndex2 : public exception {		// exception 클래스의 파생클래스오 BadIndex2 class를 만듦
+	class BadIndex2 : public exception {			// exception 클래스의 파생클래스오 BadIndex2 class를 만듦
 	public:
 		int wrongIndex;
 		BadIndex2(int n) : wrongIndex(n), exception() {}
-		const char* what() const {		// what은 exception의 멤버함수임. 재정의함 
+		const char* what() const {			// what은 exception의 멤버함수임. 재정의함 
 			return "Array Exception::";
 		}
 	};

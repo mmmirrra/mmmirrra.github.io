@@ -37,7 +37,7 @@ void Person::print() const {
 }
 
 void Person::chAddr(const char* newAddr) {
-	delete[] addr;		// 기존 공간 반납
+	delete[] addr;					// 기존 공간 반납
 	addr = new char[strlen(newAddr)+1];		// 새로운 동적 메모리 공간 할당
 	strcpy(addr, newAddr);
 }

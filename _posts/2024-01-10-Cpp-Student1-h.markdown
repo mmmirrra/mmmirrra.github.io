@@ -15,7 +15,7 @@ project 'FirstStep'
 #pragma once
 #include "Person1.h"
 
-class Student1: public Person1 {		// 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함
+class Student1: public Person1 {	// 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함
 	string school;
 public:
 	void setSchool(const string& s) {

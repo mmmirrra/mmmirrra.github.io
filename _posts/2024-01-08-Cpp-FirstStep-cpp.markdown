@@ -126,7 +126,7 @@ GrAttrib curAttrib("Black", "White");
 // 도형을 그리는 함수
 void drawFigs(const Figure* const figs[], int n) {		// 도형 Figure 기초 클래스의 포인트 배열을 매개변수로 받음. n은 배열의 크기임
 	for (int i = 0; i < n; i++) {
-		figs[i]->draw();		// (*figs[i]).draw(); 와 동일함
+		figs[i]->draw();				// (*figs[i]).draw(); 와 동일함
 		cout << endl;
 	}
 }
@@ -154,7 +154,7 @@ double hmean3(double a, double b) {
 
 void fointTest() {
 	int* p = new(nothrow) int[1000000000];		// nothrow는 자원 할당에 실패하면 nullptr을 반환함
-	if (!p) {		// p가 nullptr 인지 확인 - nullptr 이면 if 내부 실행 
+	if (!p) {					// p가 nullptr 인지 확인 - nullptr 이면 if 내부 실행 
 		cerr << "Memory allocation error" << endl;
 		exit(EXIT_FAILURE);
 	}
@@ -445,9 +445,9 @@ int main() {
 	CounterM cnt3(999);
 	CounterM cntMArr[3] = { CounterM(9), CounterM(99), CounterM(999) };
 	CounterM cnt4(cnt3);
-	CounterM cnt5 = cnt4;		// 묵시적 복사 생성자로 초기화됨
+	CounterM cnt5 = cnt4;			// 묵시적 복사 생성자로 초기화됨
 
-	Counter cntArr[4];		// Counter 객체를 4개 만듬. 배열임
+	Counter cntArr[4];			// Counter 객체를 4개 만듬. 배열임
 	Counter* pt = new Counter[10];		// Counter 객체를 10개 만든. 배열임
 
 	float af[3] = { 1, 2, 3 };
@@ -472,7 +472,7 @@ int main() {
 	cout << " v4 ";
 	v4.print();
 	cout << endl;
-	v4 = v1.add(v2);		// 이동 대입 연산자
+	v4 = v1.add(v2);	// 이동 대입 연산자
 	cout << " v1 ";
 	v1.print();
 	cout << " + ";
@@ -517,8 +517,8 @@ int main() {
 	cout << "Enter a word that is less than 20 characters long : " << endl;
 	cin >> str;
 
-	char* spt = str;		// 포인터로 문자열 시작 위치를 가리킴
-	while (*spt)		// 문자열의 끝이 아니면 반복
+	char* spt = str;			// 포인터로 문자열 시작 위치를 가리킴
+	while (*spt)				// 문자열의 끝이 아니면 반복
 		chStack.push(*(spt++));		// 스택에 문자를 넣음
 
 	cout << "Output words in reverse order : ";
@@ -574,17 +574,17 @@ int main() {
 	cout << "Access the correct range of elements : " << sa[5] << endl;		// 올바른 범위의 원소 액세스
 	//cout << sa[12] << endl;		// 범위를 벗어난 액세스
 
-	size_t strlen(const char* str);		// 문자열의 길이 구하기
+	size_t strlen(const char* str);	// 문자열의 길이 구하기
 	cout << "The length of the str character strlen is " << strlen(str) << "개" << endl;
 	int strn = strlen("abcde");
 	cout << "The length of the abcde character strn is " << strn << "개" << endl;
 
-	char* strcpy(char* strDestination, const char* strSource);		// 문자열 복사하기
+	char* strcpy(char* strDestination, const char* strSource);	// 문자열 복사하기
 	char str10[10] = "KNOU";
 	strcpy(str10, "CS");
 	cout << "The character of str10 is " << str10 << endl;		// CS가 출력됨
 
-	char* strcat(char* strDestination, const char* strSource);		// 문자열 연결하기
+	char* strcat(char* strDestination, const char* strSource);	// 문자열 연결하기
 	char str20[10] = "KNOU";
 	strcat(str20, "CS");
 	cout << "The character of str20 is " << str20 << endl;		// KNOUCS 가 출력됨
@@ -595,34 +595,34 @@ int main() {
 	MyString mstr1("MyString Object");
 	MyString mstr2;
 	// cstr2 = cstr1;		// 에러
-	cstr3 = cstr1;		// 포인터 복사 - 문자열을 복사한 것이 아니고 포인트를 복사한 것임
+	cstr3 = cstr1;			// 포인터 복사 - 문자열을 복사한 것이 아니고 포인트를 복사한 것임
 	cout << "cstr3 output " << cstr3 << endl;
-	mstr2 = mstr1;		// deep copy
+	mstr2 = mstr1;			// deep copy
 	cout << "mstr2 output " << mstr2 << endl;
 
 	MyString sstr1("MyString class");
 	MyString sstr2("Object Oriented ");
-	MyString sstr3;		// 빈 문자열
+	MyString sstr3;			// 빈 문자열
 
 	cout << "sstr1 is " << sstr1 << endl;		// 문자열 출력
-	sstr3 = "Programming";		// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
+	sstr3 = "Programming";			// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
 	cout << "The string length of sstr3 is " << sstr3 << ".";
 	cout << sstr3.length() << endl;		// 문자열 길이를 구하는 메소드
-	sstr1 = sstr2;		// 대입 연산자 다중정의로 문자열 복사
+	sstr1 = sstr2;				// 대입 연산자 다중정의로 문자열 복사
 	cout << "sstr1 with sstr2 as a substitute is " << sstr1 << endl;
-	sstr1 = sstr2 + sstr3;		// 문자열 연결 연산자 다중정의에 의해 rvalue 가 만들어지고, 그 rvalue를 이동 대입 연산자 다중정의에 의해 이동해 넣음
+	sstr1 = sstr2 + sstr3;			// 문자열 연결 연산자 다중정의에 의해 rvalue 가 만들어지고, 그 rvalue를 이동 대입 연산자 다중정의에 의해 이동해 넣음
 	cout << "sstr1 = sstr2 + sstr3 -----> " << sstr1 << endl;
 
-	Person1 dudley1;		// 기초 클래스의 객체 선언
+	Person1 dudley1;			// 기초 클래스의 객체 선언
 	dudley1.setName("Dudley1");		// 기초 클래스의 함수 호출
-	Student1 harry1;		// 파생 클래스의 객체 선언
+	Student1 harry1;			// 파생 클래스의 객체 선언
 	harry1.setName("Harry1");		// 기초 클래스의 함수 호출
 	harry1.setSchool("Hogwarts1");		// 파생 클래스의 함수 호출
 	cout << "Run dudley1.print(); ";
-	dudley1.print();		// 기초 클래스의 함수 호출
+	dudley1.print();			// 기초 클래스의 함수 호출
 	cout << endl;
 	cout << "Run harry1.print(); ";
-	harry1.print();		// 파생 클래스의 함수 호출
+	harry1.print();				// 파생 클래스의 함수 호출
 	cout << endl;
 	cout << "Run harry1.Person1::print(); ";
 	harry1.Person1::print();		// 기초 클래스의 함수 호출
@@ -673,24 +673,24 @@ int main() {
 	harry3.printVirtual();
 	cout << endl;
 	cout << "Run PrintPersonVirtual(pPerson3, 3); " << endl;
-	PrintPersonVirtual(pPerson3, 3);		// 동적연결임
+	PrintPersonVirtual(pPerson3, 3);	// 동적연결임
 
 	Person3* ppp1 = new Person3("Dudley4");
 	cout << "Run ppp1->print(); ";
-	ppp1->print();		// Person3::print() 호출
+	ppp1->print();			// Person3::print() 호출
 	cout << endl;
 	Person3* ppp2 = new Student3("Harry", "Hogwarts");
 	cout << "Run ppp2->print(); ";
-	ppp2->print();		// Person3::print() 호출
+	ppp2->print();			// Person3::print() 호출
 	cout << endl;
 	cout << "Run ((Student3*)ppp2)->print(); ";
-	((Student3*)ppp2)->print();		// Person3 포인트를 Student3 의 포인트로 강제 형변환 후 Student3::print() 호출하는 정적연결임. ppp2가 Student 객체를 가리키고 있으리라는 보장이 없으므로 위험함
+	((Student3*)ppp2)->print();	// Person3 포인트를 Student3 의 포인트로 강제 형변환 후 Student3::print() 호출하는 정적연결임. ppp2가 Student 객체를 가리키고 있으리라는 보장이 없으므로 위험함
 	cout << endl;
 
 	BaseClass* pB1 = new BaseClass(5);
 	BaseClass* pB2 = new DrvClass(10, 15);
 	delete pB1;
-	delete pB2;		// 소멸자를 가상함수로 만들었으므로 기초 클래스, 파생 클래스 모두 소멸자가 실행됨
+	delete pB2;			// 소멸자를 가상함수로 만들었으므로 기초 클래스, 파생 클래스 모두 소멸자가 실행됨
 
 	Figure* figs[2];
 	figs[0] = new Circle(0, 20, 10);
@@ -707,7 +707,7 @@ int main() {
 	drawFigs(figs, 2);		// 모든 도형 그리기 방법 출력
 
 	Parttime1 chulsoo1("ABC1 Univ.", "DEF1 Co. ");
-	chulsoo1.printSchool();		// Student4의 멤버함수 호출
+	chulsoo1.printSchool();			// Student4의 멤버함수 호출
 	chulsoo1.printCompany();		// Employee1의 멤버함수 호출
 	chulsoo1.Student4::print();		// 동일한 이름의 함수인 경우 소속을 명확히 표기해야 함
 	chulsoo1.Employee1::print();
@@ -716,7 +716,7 @@ int main() {
 	chulsoo2.print();
 
 	Stack<char> sc(100);		// 문자를 100개까지 저장할 수 있는 char 스택 선언
-	sc.push('a');		// char 스택 사용
+	sc.push('a');			// char 스택 사용
 	sc.push('b');
 	cout << "Use a class template called Stack to save characters and output the saved characters - CHAR STACK : ";
 	while (!sc.empty())		// Stack이라는 클래스 템플릿을 이용해서 문자를 저장하고 저장된 문자를 출력
@@ -724,7 +724,7 @@ int main() {
 	cout << endl;
 
 	Stack<int> si(50);		// 정수를 50개까지 저장할 수 있는 int 스택 선언
-	si.push(5);		// int 스택 사용
+	si.push(5);			// int 스택 사용
 	si.push(10);
 	cout << "INT STACK : ";
 	while (!si.empty())
@@ -774,12 +774,12 @@ int main() {
 	cout << endl;
 
 	vector<float> fVector(10);		// 10개의 float 값을 저장하는 vector 객체 선언
-	fVector[2] = 10.0f;		// 객체의 첨자에 직접 접근
-	// fVector[12] = 10.0f;		// 범위를 벗어난 첨자이므로 실행 중 에러 발생함 - 예외처리 못함
+	fVector[2] = 10.0f;			// 객체의 첨자에 직접 접근
+	// fVector[12] = 10.0f;			// 범위를 벗어난 첨자이므로 실행 중 에러 발생함 - 예외처리 못함
 	cout << "direct access to subscripts of objects using STL sequential container vectors : " << fVector[2] << endl;		// STL 순차 컨테이너 vector를 이용한 객체의 첨자 직접 접근
 
 	vector<int> iVector = { 1, 2, 3, 4 };
-	iVector.at(2) = 10;		// vecotr의 멤버함수 at()은 첨자에 직접접근 할 수 있는 []와 같은 결과를 가져올 수 있지만 첨자의 범위를 벗어난 경우 [] 와는 다르게 예외처리를 할 수 있음
+	iVector.at(2) = 10;			// vecotr의 멤버함수 at()은 첨자에 직접접근 할 수 있는 []와 같은 결과를 가져올 수 있지만 첨자의 범위를 벗어난 경우 [] 와는 다르게 예외처리를 할 수 있음
 	cout << "iVector.at(2) : "  << iVector.at(2) << endl;
 	// cout << "iVector.at(4) 는 예외발생 " << iVector.at(4) << endl;		// 예외처리 구현 필요
 
@@ -792,7 +792,7 @@ int main() {
 	vector<int> intVec(5);
 	for (int i = 0; i < intVec.size(); i++)
 		intVec[i] = i + 1;
-	cout << "logical Size of vector : " << intVec.size() << endl;		// 벡터의 논리적 크기
+	cout << "logical Size of vector : " << intVec.size() << endl;			// 벡터의 논리적 크기
 	cout << "physical Size of vector : " << intVec.capacity() << endl;		// 벡터의 물리적 크기
 	cout << "stored data : ";
 	for (int i = 0; i < intVec.size(); i++)		// 저장된 데이터
@@ -826,10 +826,10 @@ int main() {
 	cout << endl;
 
 	// vector<int>::iterator it = intVec.begin();		// 반복자 선언 - begin() 은 처음 위치임 - 반복자는 컨테이너 내의 객체를 가리키는 포인터의 개념에 해당됨
-	auto it = intVec.begin();		// 자료형 추론을 이용한 반복자 선언 - 윗 줄의 반복자 선언 vector<int>::iterator it = intVec.begin(); 과 동일한 기능 - intVec.begin();의 값에 의해 자료형이 추론됨
+	auto it = intVec.begin();				// 자료형 추론을 이용한 반복자 선언 - 윗 줄의 반복자 선언 vector<int>::iterator it = intVec.begin(); 과 동일한 기능 - intVec.begin();의 값에 의해 자료형이 추론됨
 	cout << "iterator - Data stored from the beginning : ";
-	for (; it < intVec.end(); it++)		// 반복자를 사용 - end() 는 끝 위치임
-		cout << *it << " ";		// it라는 반복자를 사용. 포인트가 아니지만 *를 사용
+	for (; it < intVec.end(); it++)			// 반복자를 사용 - end() 는 끝 위치임
+		cout << *it << " ";				// it라는 반복자를 사용. 포인트가 아니지만 *를 사용
 	cout << endl;
 
 	it = intVec.begin();
@@ -838,32 +838,32 @@ int main() {
 	srand((unsigned)time(NULL));		// 난수 발생기 srand 함수 초기화 - time은 현재시간 리턴. time으로 srand의 sead값 전달
 	vector<int> iv1(5);
 	cout << "vector 1: ";
-	for (auto& i : iv1) {		// iv1에 대한 범위 기반 for 루프. 범위 기반 for 루프는 begin()과 end()라는 멤버함수를 이용해서 처음과 끝의 위치를 알아낼 수 있는 자료형에 사용 가능함. auto& i는 정수형 참조임
+	for (auto& i : iv1) {			// iv1에 대한 범위 기반 for 루프. 범위 기반 for 루프는 begin()과 end()라는 멤버함수를 이용해서 처음과 끝의 위치를 알아낼 수 있는 자료형에 사용 가능함. auto& i는 정수형 참조임
 		i = rand() % 100;		// 0~99의 난수 발생
 		cout << i << " ";
 	}
 	cout << endl;
 	sort(iv1.begin(), iv1.end());		// 정렬 알고리즘 - iv1의 전체 범위를 정렬하도록 함
 	cout << "sorted vector 1 : ";
-	for (auto i : iv1)		// auto i는 정수 int형
+	for (auto i : iv1)			// auto i는 정수 int형
 		cout << i << " ";
 	cout << endl;
 
 	vector<int> iv2(5);
 	cout << "vector 2: ";
-	for (auto& i : iv2) {		// iv2에 대한 범위 기반 for 루프
+	for (auto& i : iv2) {			// iv2에 대한 범위 기반 for 루프
 		i = rand() % 100;		// 0~99의 난수 발생
 		cout << i << " ";
 	}
 	cout << endl;
 	sort(iv2.begin(), iv2.end());		// 정렬 알고리즘 - iv2의 전체 범위를 정렬하도록 함
 	cout << "sorted vector 2 : ";
-	for (auto i : iv2)		// auto i는 정수 int형
+	for (auto i : iv2)			// auto i는 정수 int형
 		cout << i << " ";
 	cout << endl;
 
 	vector<int> iv3(iv1.size() + iv2.size());		// 합병 결과를 저장할 벡터 - iv1의 사이즈와 iv2의 사이즈를 합한 만큼의 크기로 iv3을 만듦
-	merge(iv1.begin(), iv1.end(), iv2.begin(), iv2.end(), iv3.begin());		// 동일한 기준으로 정렬되어 있으므로 합병 가능
+	merge(iv1.begin(), iv1.end(), iv2.begin(), iv2.end(), iv3.begin());	// 동일한 기준으로 정렬되어 있으므로 합병 가능
 	cout << "The result of merging vector 1 and vector 2 : ";
 	for (auto i : iv3)		// 벡터1과 벡터2를 합병한 결과
 		cout << i << " ";
@@ -873,7 +873,7 @@ int main() {
 	if (greaterThan(20, 10))		// 함수객체를 사용하였기 때문에 마치 함수를 호출한 것과 같이 작성함
 		cout << "20 is greater than 10" << endl;
 
-	sort(iv3.begin(), iv3.end(), GREATER<int>());		// 정렬 시 콜백 함수로 함수객체를 전달
+	sort(iv3.begin(), iv3.end(), GREATER<int>());	// 정렬 시 콜백 함수로 함수객체를 전달
 	cout << "as a result of sorting vector 3 in descending order : ";
 	for (auto i : iv3)		// 벡터3을 내림차순으로 정렬한 결과
 		cout << i << " ";
@@ -882,7 +882,7 @@ int main() {
 	map<string, string> addrbook;
 	addrbook.insert(make_pair("Kim", "서울시 종로구"));		// 데이터 쌍을 삽입. pair는 first와 second라는 2개의 데이터 멤버를 포함하는 템플릿 구조체. make_pair는 pair 객체를 반환하는 함수 템플릿
 	addrbook.insert({ "Hong", "서울시 중구" });
-	// addrbook.insert({ "Kim", "서울시 성동구" });		// 동일한 키가 이미 존재하므로 에러
+	// addrbook.insert({ "Kim", "서울시 성동구" });			// 동일한 키가 이미 존재하므로 에러
 
 	cout << "addrbook['Hong'] : " << addrbook["Hong"] << endl;		// "서울시 중구" 가 출력됨
 	addrbook["Park"] = "대전시 동구";		// "Park", "대전시 동구" 데이터가 삽입됨
@@ -893,8 +893,8 @@ int main() {
 	auto it1 = addrbook.find("Park");		// 반복자 선언. auto 는 map<string, string>::iterator 와 같음. it는 pair 객체("박영식", "대전시 동구")를 가리킴
 	auto it2 = addrbook.find("Lee");		// 찾을 키가 없으므로 it에 addrbook.end() 가 저장됨. end() 는 맨 끝의 데이터 다음 위치임. it의 값이 end()와 같다면 데이터가 검색되지 않았다는 것을 알 수 있음
 
-	addrbook.erase(it1);		// it1 이라는 반복자가 가리키는 데이터 삭제
-	addrbook.erase("Kim");		// 키가 가리키는 항목 삭제
+	addrbook.erase(it1);				// it1 이라는 반복자가 가리키는 데이터 삭제
+	addrbook.erase("Kim");				// 키가 가리키는 항목 삭제
 
 	map<string, string, LESS_T<string>> pBook{		// LESS_T 기준으로 정렬
 		{"Han", "010-2233-4354"},
@@ -902,7 +902,7 @@ int main() {
 	};
 	pBook["Kim"] = "010-1234-5678";		// 기존 항목이 없으므로 새로운 항목 추가됨
 	pBook.insert(make_pair("Choi", "010-7531-3456"));		// 새로운 항목 추가됨
-	pBook.insert({ "Park", "010-1357-2468" });		// 이미 있는 키 이므로 insert 되지 않고 무시됨
+	pBook.insert({ "Park", "010-1357-2468" });			// 이미 있는 키 이므로 insert 되지 않고 무시됨
 	for (auto pb = pBook.begin(); pb != pBook.end(); ++pb)
 		cout << pb->first << " " << pb->second << endl;		// pb->first는 첫번째 값이므로 이름이, pb->second는 두번째 값이므로 전화번호가 키 순서대로 출력됨
 	cout << pBook.size() << "person is registered." << endl;
@@ -923,9 +923,9 @@ int main() {
 	while (cFlag != 'n') {		// cFlag 가 n 이면 종료됨
 		cout << "Enter a number twice : ";
 		cin >> xt >> yt;
-		try {		// 예외 발생 가능성이 있는 코드
+		try {			// 예외 발생 가능성이 있는 코드
 			zt = hmean3(xt, yt);
-			cout << "harmonic mean = " << zt << endl;		// 조화평균 값 출력
+			cout << "harmonic mean = " << zt << endl;	// 조화평균 값 출력
 		}
 		catch (const char* s) {		// 예외처리
 			cout << s << endl;
@@ -940,17 +940,17 @@ int main() {
 	cout << "* pu1 : " <<  *pu1 << endl;
 	pu2 = move(pu1);		// pu2 = pu1; 의 형태는 불가. unique_ptr은 대입은 불가, 이동만 가능
 	cout << "* pu2 : " << *pu2 << endl;
-	pu2 = nullptr;		// 가리키고 있던 메모리는 자동 반납되어 해제됨
+	pu2 = nullptr;			// 가리키고 있던 메모리는 자동 반납되어 해제됨
 	// cout << *pu2 << endl;		// pu2은 nullptr 상태이므로 실행 시 오류 발생
 	// cout << *pu1 << endl;		// pu1은 nullptr 상태이므로 실행 시 오류 발생
 
-	IntArray1 arrE(10);		// 사용자 정의 객체 오류 처리 예제
+	IntArray1 arrE(10);			// 사용자 정의 객체 오류 처리 예제
 	try {
 		for (int i = 0; i <= 10; i++)		// i의 범위는 0 ~ 9이지만 조건에 10보다 작거나 같도록 설정해놨으므로 오류 발생함
 			arrE[i] = i;
 	}
 	catch (IntArray1::BadIndex1 e) {		// 예외객체 받음 
-		cerr << "index range error - Used Subscript : " << e.wrongIndex << endl;		// 오류 내용 출력
+		cerr << "index range error - Used Subscript : " << e.wrongIndex << endl;	// 오류 내용 출력
 	}
 	cout << "arrE[0] : " << arrE[0] << endl;
 
@@ -980,9 +980,9 @@ void PrSalesRec(const SalesRec& srec)
 }
 
 // 반올림 함수
-double Round(double x, int d) {		// d 자리에서 반올림함
+double Round(double x, int d) {			// d 자리에서 반올림함
 	double a = x >= 0 ? 0.5 : -0.5;		// 양수면 0.5 더하고, 음수면 -0.5 더함
-	double pow10 = pow(10, d);		// pow는 어떤 값의 몇 제곱을 의미함 -> 여기서는 10에 d제곱임
+	double pow10 = pow(10, d);			// pow는 어떤 값의 몇 제곱을 의미함 -> 여기서는 10에 d제곱임
 	return trunc(x * pow10 + a) / pow10;		// trunc는 소수점 이하의 값을 자르는 역할
 }
 
