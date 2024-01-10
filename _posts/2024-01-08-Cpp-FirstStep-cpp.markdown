@@ -594,15 +594,15 @@ int main() {
 	char* cstr3;
 	MyString mstr1("MyString Object");
 	MyString mstr2;
-	// cstr2 = cstr1;		// 에러
-	cstr3 = cstr1;			// 포인터 복사 - 문자열을 복사한 것이 아니고 포인트를 복사한 것임
+	// cstr2 = cstr1;				// 에러
+	cstr3 = cstr1;					// 포인터 복사 - 문자열을 복사한 것이 아니고 포인트를 복사한 것임
 	cout << "cstr3 output " << cstr3 << endl;
-	mstr2 = mstr1;			// deep copy
+	mstr2 = mstr1;					// deep copy
 	cout << "mstr2 output " << mstr2 << endl;
 
 	MyString sstr1("MyString class");
 	MyString sstr2("Object Oriented ");
-	MyString sstr3;			// 빈 문자열
+	MyString sstr3;					// 빈 문자열
 
 	cout << "sstr1 is " << sstr1 << endl;		// 문자열 출력
 	sstr3 = "Programming";				// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
@@ -751,14 +751,14 @@ int main() {
 	int sx1 = 10, sy1 = 20;
 	cout << "before exchanging int values --> ";
 	cout << "sx1 = " << sx1 << ", sy1 = " << sy1 << endl;
-	swapFT(sx1, sy1);		// 함수 템플릿 실행
+	swapFT(sx1, sy1);			// 함수 템플릿 실행
 	cout << "after exchanging int values --> ";
 	cout << "sx1 = " << sx1 << ", sy1 = " << sy1 << endl;
 
 	MyString sx2 = "KNOU", sy2 = "CS";
 	cout << "before exchanging MyString values --> ";
 	cout << "sx2 = " << sx2 << ", sy2 = " << sy2 << endl;
-	swapFT(sx2, sy2);		// 함수 템플릿 실행
+	swapFT(sx2, sy2);			// 함수 템플릿 실행
 	cout << "after exchanging MyString values --> ";
 	cout << "sx2 = " << sx2 << ", sy2 = " << sy2 << endl;
 
@@ -781,7 +781,7 @@ int main() {
 	vector<int> iVector = { 1, 2, 3, 4 };
 	iVector.at(2) = 10;			// vecotr의 멤버함수 at()은 첨자에 직접접근 할 수 있는 []와 같은 결과를 가져올 수 있지만 첨자의 범위를 벗어난 경우 [] 와는 다르게 예외처리를 할 수 있음
 	cout << "iVector.at(2) : "  << iVector.at(2) << endl;
-	// cout << "iVector.at(4) 는 예외발생 " << iVector.at(4) << endl;		// 예외처리 구현 필요
+	// cout << "iVector.at(4) 는 예외발생 " << iVector.at(4) << endl;	// 예외처리 구현 필요
 
 	cout << "The size, which is the logical size of the stored value of the fVector, is " << fVector.size() << endl;		// fVector의 저장된 값의 논리적 크기인 size
 	cout << "The physical size of the fVector's allocated memory, capacity, is " << fVector.capacity() << endl;		// fVector의 할당된 메모리 물리적 크기인 capacity
@@ -792,8 +792,8 @@ int main() {
 	vector<int> intVec(5);
 	for (int i = 0; i < intVec.size(); i++)
 		intVec[i] = i + 1;
-	cout << "logical Size of vector : " << intVec.size() << endl;			// 벡터의 논리적 크기
-	cout << "physical Size of vector : " << intVec.capacity() << endl;		// 벡터의 물리적 크기
+	cout << "logical Size of vector : " << intVec.size() << endl;		// 벡터의 논리적 크기
+	cout << "physical Size of vector : " << intVec.capacity() << endl;	// 벡터의 물리적 크기
 	cout << "stored data : ";
 	for (int i = 0; i < intVec.size(); i++)		// 저장된 데이터
 		cout << intVec[i] << " ";
@@ -865,7 +865,7 @@ int main() {
 	vector<int> iv3(iv1.size() + iv2.size());				// 합병 결과를 저장할 벡터 - iv1의 사이즈와 iv2의 사이즈를 합한 만큼의 크기로 iv3을 만듦
 	merge(iv1.begin(), iv1.end(), iv2.begin(), iv2.end(), iv3.begin());	// 동일한 기준으로 정렬되어 있으므로 합병 가능
 	cout << "The result of merging vector 1 and vector 2 : ";
-	for (auto i : iv3)		// 벡터1과 벡터2를 합병한 결과
+	for (auto i : iv3)			// 벡터1과 벡터2를 합병한 결과
 		cout << i << " ";
 	cout << endl;
 
@@ -900,7 +900,7 @@ int main() {
 		{"Han", "010-2233-4354"},
 		{"Park", "010-2233-4455"}
 	};
-	pBook["Kim"] = "010-1234-5678";				// 기존 항목이 없으므로 새로운 항목 추가됨
+	pBook["Kim"] = "010-1234-5678";					// 기존 항목이 없으므로 새로운 항목 추가됨
 	pBook.insert(make_pair("Choi", "010-7531-3456"));		// 새로운 항목 추가됨
 	pBook.insert({ "Park", "010-1357-2468" });			// 이미 있는 키 이므로 insert 되지 않고 무시됨
 	for (auto pb = pBook.begin(); pb != pBook.end(); ++pb)
@@ -910,7 +910,7 @@ int main() {
 	string strMap;
 	cout << "enter only one of the names Kim, Park, Choi, and Han to find. : ";
 	cin >> strMap;
-	auto result = pBook.find(strMap);			// find 함수는 검색된 항목의 반복자 제공
+	auto result = pBook.find(strMap);				// find 함수는 검색된 항목의 반복자 제공
 	if (result != pBook.end()) {
 		cout << result->first << "'s phone number is ";	// result->first는 첫번째 값이므로 이름 출력됨
 		cout << result->second << "." << endl;			// result->second는 두번째 값이므로 전화번호 출력됨
