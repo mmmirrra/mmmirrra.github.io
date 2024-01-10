@@ -38,7 +38,7 @@ categories: [JavaScript]
 </body>
 `
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -73,4 +73,4 @@ categories: [JavaScript]
         <div id="div2" ondrop="drop(event)" ondragover="dragover(event)"></div>
     </body>
 </html>
-{% endhighlight %}
+```

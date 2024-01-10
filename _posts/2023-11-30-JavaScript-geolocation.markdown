@@ -83,7 +83,7 @@ categories: [JavaScript]
 </body>
 `
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -163,4 +163,4 @@ categories: [JavaScript]
         </div>
     </body>
 </html>
-{% endhighlight %}
+```

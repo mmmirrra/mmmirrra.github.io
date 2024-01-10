@@ -7,7 +7,7 @@ categories: [JavaScript]
 
 ### for   
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,14 +20,14 @@ categories: [JavaScript]
     <body>
     </body>
 </html>
-{% endhighlight %}
+```
    
 <br />
 ### for...in   
 It is a repetition that can be used for an object.   
 It can also be used for arrays, but is not recommended for array iterations.   
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,7 +47,7 @@ It can also be used for arrays, but is not recommended for array iterations.
     <body>
     </body>
 </html>
-{% endhighlight %}
+```
    
 <br />
 ### for...of   
@@ -55,7 +55,7 @@ It can also be used for arrays, but is not recommended for array iterations.
 It can be used for repeatable objects (including array, map, set, string, typedArray, arguments, etc.).   
 It is usually used for the array.   
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -70,14 +70,14 @@ It is usually used for the array.
     <body>
     </body>
 </html>
-{% endhighlight %}
+```
    
 <br />
 ### forEach()   
 The method used in the array.   
 Use the callback function in the factor.   
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -91,13 +91,13 @@ Use the callback function in the factor.
     <body>
     </body>
 </html>
-{% endhighlight %}
+```
    
 <br />
 ### while   
 If while(condition) is false, it does not run once.   
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -113,14 +113,14 @@ If while(condition) is false, it does not run once.
     <body>
     </body>
 </html>
-{% endhighlight %}
+```
    
 <br />
 ### do...while   
 do{} is executed at least once.   
 After at least one execution, if the while condition is false, it is no longer executed.   
    
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -137,4 +137,4 @@ After at least one execution, if the while condition is false, it is no longer e
     <body>
     </body>
 </html>
-{% endhighlight %}
+```
