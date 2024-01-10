@@ -13,7 +13,7 @@ Filter items with the same 'buyPaymentCode'.
 `start` : the start date.   
 `end` : the end date.   
 
-{% highlight react %}
+```react
 const sendListData = dbListData.filter(
     v => (
             (Number(v.buyDt) > Number(start) && Number(v.buyDt) < Number(end)) 
@@ -22,4 +22,4 @@ const sendListData = dbListData.filter(
          )
          && v.buyPaymentCode === buyPaymentCode
 );
-{% endhighlight %}
+```
