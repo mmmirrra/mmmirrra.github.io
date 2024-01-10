@@ -15,12 +15,12 @@ project 'FirstStep'
 #pragma once
 
 class Complex1 {
-	double rPart, iPart;	// 복소수의 실수부 및 허수부
+	double rPart, iPart;		// 복소수의 실수부 및 허수부
 public:
 	// 생성자
 	Complex1(double r = 0, double i = 0) : rPart(r), iPart(i) {}
 	Complex1 conj() const {
-		return Complex1(rPart, -iPart);							// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
+		return Complex1(rPart, -iPart);		// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
 	}
 	Complex1 add(const Complex1& c) const {
 		return Complex1(rPart + c.rPart, iPart + c.iPart);		// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
@@ -28,8 +28,8 @@ public:
 	Complex1 sub(const Complex1& c) const {
 		return Complex1(rPart - c.rPart, iPart - c.iPart);		// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
 	}
-	Complex1 mul(const Complex1& c) const;						// 복소수 곱셈
-	Complex1 div(const Complex1& c) const;						// 복소수 나눗셈
-	void display() const;										// 복소수 값을 출력
+	Complex1 mul(const Complex1& c) const;		// 복소수 곱셈
+	Complex1 div(const Complex1& c) const;		// 복소수 나눗셈
+	void display() const;		// 복소수 값을 출력
 };
 ```

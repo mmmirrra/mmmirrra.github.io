@@ -17,12 +17,12 @@ project 'FirstStep'
 #include <string>
 using namespace std;
 
-class Person5 {														// 가상 기초 클래스
+class Person5 {		// 가상 기초 클래스
 	string name;
 public:
 	Person5(const string& n) : name(n) {}
-	virtual ~Person5() {}											// 가상함수 소멸자
-	virtual void print() const {									// 가상함수
+	virtual ~Person5() {}		// 가상함수 소멸자
+	virtual void print() const {		// 가상함수
 		cout << "print() function in Person5 : " << name;
 	}
 };

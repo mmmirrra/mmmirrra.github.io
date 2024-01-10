@@ -14,14 +14,14 @@ project 'FirstStep'
 ```cpp
 #pragma once
 
-template <typename T>			// typename T 또는 class T 라고 써도 됨
-class Stack {					// Stack 이라는 클래스 템플릿
+template <typename T>		// typename T 또는 class T 라고 써도 됨
+class Stack {		// Stack 이라는 클래스 템플릿
 	T* buf;
 	int top;
 	int size;
-public:							// 함수의 원형 선언
-	Stack(int s);				// 생성자
-	virtual ~Stack();			// 소멸자
+public:		// 함수의 원형 선언
+	Stack(int s);		// 생성자
+	virtual ~Stack();		// 소멸자
 	bool full() const;
 	bool empty() const;
 	void push(const T& a);
@@ -34,7 +34,7 @@ template <typename T> Stack<T>::Stack(int s) : size(s), top(s) {		// 생성자
 	buf = new T[s];
 }
 
-template <typename T> Stack<T>::~Stack() {								// 소멸자
+template <typename T> Stack<T>::~Stack() {		// 소멸자
 	delete[] buf;
 }
 

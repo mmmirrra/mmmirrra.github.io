@@ -20,7 +20,7 @@ using namespace std;
 class Employee1 {
 	string company;
 public:
-	Employee1(const string& c) : company(c) {}						// 생성자
+	Employee1(const string& c) : company(c) {}		// 생성자
 	void printCompany() const {
 		cout << "printCompany() company : " << company << endl;
 	}

@@ -17,7 +17,7 @@ project 'FirstStep'
 #include <string>
 using namespace std;
 
-class Person1 {									// 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함
+class Person1 {		// 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함
 	string name;
 public:
 	void setName(const string& n) {

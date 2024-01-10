@@ -17,7 +17,7 @@ project 'FirstStep'
 #include "BaseC.h"
 using namespace std;
 
-class Drvd1 : public BaseC {			// 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - public 상속
+class Drvd1 : public BaseC {		// 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - public 상속
 public:
 	int sum() const {
 		return geta() + b + c;

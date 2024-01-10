@@ -15,7 +15,7 @@ project 'FirstStep'
 #pragma once COUNTERM_H_INCLUDED
 #include <iostream>
 
-class CounterM {					// 카운터가 최대값에 도달했을 때 0으로 리셋되는 숫자 누적 계산기
+class CounterM {		// 카운터가 최대값에 도달했을 때 0으로 리셋되는 숫자 누적 계산기
 	const int maxValue;
 	int value;
 public:

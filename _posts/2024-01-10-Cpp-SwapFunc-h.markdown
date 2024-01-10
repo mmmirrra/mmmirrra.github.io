@@ -17,9 +17,9 @@ project 'FirstStep'
 #include <utility>
 using namespace std;
 
-template <typename ANY>							// 함수 템플릿 선언
-void swapFT(ANY& a, ANY& b) {					// 값을 서로 교환하는 함수
-	ANY temp = move(a);							// rvalue 참조를 사용하여 이동 - 이 함수 템플릿 매개변수를 통해 전달되는 전달자 클래스는 이동 대입 연산자가 정의되어 있어야 함
+template <typename ANY>		// 함수 템플릿 선언
+void swapFT(ANY& a, ANY& b) {		// 값을 서로 교환하는 함수
+	ANY temp = move(a);		// rvalue 참조를 사용하여 이동 - 이 함수 템플릿 매개변수를 통해 전달되는 전달자 클래스는 이동 대입 연산자가 정의되어 있어야 함
 	a = move(b);
 	b = move(temp);
 	cout << "Run swapFT function template - exchange two values" << endl;

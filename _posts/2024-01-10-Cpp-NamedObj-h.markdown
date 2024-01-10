@@ -16,7 +16,7 @@ project 'FirstStep'
 #include <iostream>
 using namespace std;
 
-class NamedObj {						// 생성자, 소멸자 동작 예제
+class NamedObj {		// 생성자, 소멸자 동작 예제
 	char* name;
 	int id;
 	static int nConstr;

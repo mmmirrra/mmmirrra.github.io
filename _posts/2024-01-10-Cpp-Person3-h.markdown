@@ -17,7 +17,7 @@ project 'FirstStep'
 #include <string>
 using namespace std;
 
-class Person3 {									// 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 포함 
+class Person3 {		// 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 포함 
 	string name;
 public:
 	Person3(const string& n) : name(n) {
@@ -29,7 +29,7 @@ public:
 	void print() const {
 		cout << name;
 	}
-	virtual void printVirtual() const {			// 기초 클래스의 함수를 가상함수로 만듦
+	virtual void printVirtual() const {		// 기초 클래스의 함수를 가상함수로 만듦
 		cout << name;
 	}
 };

@@ -14,14 +14,14 @@ project 'FirstStep'
 ```cpp
 #pragma once
 
-class BaseClass {											// 기초 클래스의 소멸자를 가상함수로 만드는 예제
+class BaseClass {		// 기초 클래스의 소멸자를 가상함수로 만드는 예제
 	int* ptB;
 public:
 	BaseClass(int n) {
 		cout << "BaseClass constructor Runs" << endl;
 		ptB = new int[n];
 	}
-	virtual ~BaseClass() {									// 기초 클래스의 소멸자를 가상함수로 만듦. 가상함수로 만들지 않은 경우 파생 클래스의 소멸자가 실행되지 않을 수 있음
+	virtual ~BaseClass() {		// 기초 클래스의 소멸자를 가상함수로 만듦. 가상함수로 만들지 않은 경우 파생 클래스의 소멸자가 실행되지 않을 수 있음
 		cout << "BaseClass destructor Runs" << endl;
 		delete[] ptB;
 	}

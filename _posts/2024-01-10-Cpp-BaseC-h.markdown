@@ -14,12 +14,12 @@ project 'FirstStep'
 ```cpp
 #pragma once
 
-class BaseC {				// 권한에 따른 멤버 사용 범위 예제
-	int a;					// private 멤버
+class BaseC {		// 권한에 따른 멤버 사용 범위 예제
+	int a;		// private 멤버
 protected:
-	int b;					// protected 멤버
+	int b;		// protected 멤버
 public:
-	int c;					// public 멤버
+	int c;		// public 멤버
 	int geta() const {
 		return a;
 	}

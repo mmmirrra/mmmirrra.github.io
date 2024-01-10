@@ -18,7 +18,7 @@ project 'FirstStep'
 #include "MIEmployee.h"
 using namespace std;
 
-class Parttime1 : public Student4, public Employee1 {								// 클래스를 다중상속 받는 클래스 - Student4와 Employee를 모두 상속받음
+class Parttime1 : public Student4, public Employee1 {		// 클래스를 다중상속 받는 클래스 - Student4와 Employee를 모두 상속받음
 public:
 	Parttime1(const string& s, const string& c) : Student4(s), Employee1(c) {}		// 생성자
 };

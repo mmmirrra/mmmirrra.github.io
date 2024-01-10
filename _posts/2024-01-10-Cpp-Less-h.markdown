@@ -15,10 +15,10 @@ project 'FirstStep'
 #pragma once
 
 template<typename T>
-class LESS_T {											// 두 값을 비교하여 첫번째 값이 두번째 값보다 작은 경우 true를 리턴하는 템플릿 클래스 - 오름차순 정렬 함수 구현 시 사용 가능
+class LESS_T {		// 두 값을 비교하여 첫번째 값이 두번째 값보다 작은 경우 true를 리턴하는 템플릿 클래스 - 오름차순 정렬 함수 구현 시 사용 가능
 public:
 	bool operator () (const T& a, const T& b) const {
-		return a < b;									// 오름차순
+		return a < b;		// 오름차순
 	}
 };
 ```

@@ -17,7 +17,7 @@ project 'FirstStep'
 
 using namespace std;
 
-void Counter::f() {				// 헤더 파일 외부에 함수 정의 예제
+void Counter::f() {		// 헤더 파일 외부에 함수 정의 예제
 	cout << "function f(), a function created separately by Counter.h " << endl;
 };
 ```

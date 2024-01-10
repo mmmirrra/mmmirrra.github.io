@@ -14,7 +14,7 @@ project 'FirstStep'
 ```cpp
 #pragma once
 
-template <typename T, int size>			// 템플릿 생성 시 매개변수로 자료형과 정수를 받는 예제
+template <typename T, int size>		// 템플릿 생성 시 매개변수로 자료형과 정수를 받는 예제
 class Buffer {
 	T buf[size];
 };

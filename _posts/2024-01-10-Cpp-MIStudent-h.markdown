@@ -20,7 +20,7 @@ using namespace std;
 class Student4 {
 	string school;
 public:
-	Student4(const string& s) : school(s) {}						// 생성자
+	Student4(const string& s) : school(s) {}		// 생성자
 	void printSchool() const {
 		cout << "printSchool() school : " << school << endl;
 	}

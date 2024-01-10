@@ -25,19 +25,19 @@ Complex2 Complex2::operator + (const Complex2& c) const {		// 복소수 덧셈 �
 	return Complex2(rPart + c.rPart, iPart + c.iPart);
 }
 
-Complex2 Complex2::operator + (double r) const {				// 복소수 덧셈 연산자 다중정의
+Complex2 Complex2::operator + (double r) const {		// 복소수 덧셈 연산자 다중정의
 	cout << "Addition Operator Multiple Definition : ";
 	return Complex2(rPart + r, iPart);
 }
 
-Complex2& Complex2::operator += (const Complex2& c) {			// 복소수 복합 대입 연산자 다중정의
+Complex2& Complex2::operator += (const Complex2& c) {		// 복소수 복합 대입 연산자 다중정의
 	cout << "Multiple Definition of Complex Substitutions Operator : ";
 	rPart += c.rPart;
 	iPart += c.iPart;
 	return *this;
 }
 
-void Complex2::display() const {								// 복소수 값을 출력
+void Complex2::display() const {		// 복소수 값을 출력
 	cout << "(" << rPart;
 	if (iPart > 0)
 		cout << "+j" << iPart;
@@ -57,8 +57,8 @@ Complex2 operator + (double r, const Complex2& c) {
 // 출력 연산자 다중정의. Complex2 클래스에 속하지 않는 외부 연산자로 정의해야 함
 ostream& operator << (ostream& os, const Complex2& c) {
 	cout << "Output operator multiple definition : ";
-	os << "(" << c.rPart;				// 실수부 출력
-	if (c.iPart > 0)					// 허수부 출력
+	os << "(" << c.rPart;		// 실수부 출력
+	if (c.iPart > 0)		// 허수부 출력
 		os << "+j" << c.iPart;
 	else if (c.iPart < 0)
 		os << "-j" << -c.iPart;

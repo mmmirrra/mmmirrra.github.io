@@ -15,14 +15,14 @@ project 'FirstStep'
 #include <cstring>
 #include "NamedObj.h"
 
-NamedObj::NamedObj(const char* s)			// 생성자
+NamedObj::NamedObj(const char* s)		// 생성자
 {
 	name = new char[strlen(s) + 1];
 	strcpy(name, s);
 	id = ++nConstr;
 }
 
-NamedObj::~NamedObj()						// 소멸자
+NamedObj::~NamedObj()		// 소멸자
 {
 	++nDestr;
 	delete[] name;
