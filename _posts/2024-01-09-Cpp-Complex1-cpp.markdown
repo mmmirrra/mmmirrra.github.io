@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - Complex1.cpp   
 `Complex1.cpp` : example of calculating complex number - integer // 복소수 계산 예제 - 정수   
    
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include "Complex1.h"
 using namespace std;
@@ -36,4 +36,4 @@ void Complex1::display() const {							// 복소수 값을 출력
 		cout << "-j" << -iPart;
 	cout << ")";
 }
-{% endhighlight %}
+```

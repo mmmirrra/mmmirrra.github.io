@@ -12,7 +12,6 @@ project 'FirstStep'
 `CharStack.cpp` : example of verifying stack space // 스택 공간 확인 예제   
    
 ```cpp
-ㄴㄴ
 #include <iostream>
 #include "CharStack.h"
 using namespace std;

@@ -10,7 +10,7 @@ When you receive React's axios api responses as a list, check them as follows.
 `response.data[0]` : the first array of responses.   
 `response.data[0].usrNo` : the value name of the first array.   
    
-{% highlight react %}
+```react
 const selecttestAxios = () => {
     axios.get('select')
     .then((response) => {
@@ -22,4 +22,4 @@ const selecttestAxios = () => {
         console.log("response.data.name :: ", response.data[0].usrPwd);
     });
 }
-{% endhighlight %}
+```
