@@ -8,8 +8,7 @@ categories: [C++]
 solution 'CppPrjs'   
 project 'FirstStep'   
    
-### sourceFile list - .cpp   
-main() sourceFile   
+### sourceFile list - main() sourceFile - FirstStep.cpp   
 `FirstStep.cpp` : C++ practice project main function   
    
 {% highlight cpp %}

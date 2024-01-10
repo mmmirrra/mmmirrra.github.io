@@ -8,8 +8,7 @@ categories: [C++]
 solution 'CppPrjs'   
 project 'FirstStep'   
    
-### sourceFile list - .cpp   
-etc sourceFile   
+### sourceFile list - etc sourceFile - CharStack.cpp   
 `CharStack.cpp` : example of verifying stack space // 스택 공간 확인 예제   
    
 {% highlight cpp %}
