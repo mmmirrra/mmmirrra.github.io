@@ -16,7 +16,7 @@ project 'FirstStep'
 #include "Complex2.h"
 using namespace std;
 
-Complex2 Complex2::operator + (const Complex2& c) const {		// 복소수 덧셈 연산자 다중정의
+Complex2 Complex2::operator + (const Complex2& c) const {	// 복소수 덧셈 연산자 다중정의
 	cout << "Addition Operator Multiple Definition : ";
 	// Complex2 tmp(*this);
 	// tmp.rPart += c.rPart;
@@ -37,7 +37,7 @@ Complex2& Complex2::operator += (const Complex2& c) {		// 복소수 복합 대�
 	return *this;
 }
 
-void Complex2::display() const {		// 복소수 값을 출력
+void Complex2::display() const {			// 복소수 값을 출력
 	cout << "(" << rPart;
 	if (iPart > 0)
 		cout << "+j" << iPart;

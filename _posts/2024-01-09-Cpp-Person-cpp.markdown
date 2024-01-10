@@ -19,8 +19,8 @@ project 'FirstStep'
 using namespace std;
 
 Person::Person(const char* name, const char* addr) {
-	this->name = new char[strlen(name) + 1];		// 이름을 저장할 메모리 공간을 동적 할당 받음
-	strcpy(this->name, name);		// name의 값을 this->name 의 메모리 공간에 복사해 넣음
+	this->name = new char[strlen(name) + 1];	// 이름을 저장할 메모리 공간을 동적 할당 받음
+	strcpy(this->name, name);			// name의 값을 this->name 의 메모리 공간에 복사해 넣음
 	this->addr = new char[strlen(addr) + 1];
 	strcpy(this->addr, addr);
 	cout << "create Person Object (" << name << ")" << endl;

@@ -371,7 +371,7 @@ int main() {
 	cout << "Enter a decimal number" << endl;
 	cin >> fTemp;		// 화씨온도 입력 받음
 	cTemp = FahrToC(fTemp);
-	cout << "---> Celsius temperature : " << cTemp << endl;		// 섭씨온도 출력됨
+	cout << "---> Celsius temperature : " << cTemp << endl;	// 섭씨온도 출력됨
 
 	int s, t;
 	cout << "Enter two numbers : ";
@@ -459,7 +459,7 @@ int main() {
 	cout << " v2 ";
 	v2.print();
 	cout << endl;
-	VecF v3(v1.add(v2));		// 명시적 이동 생성자가 실행됨
+	VecF v3(v1.add(v2));	// 명시적 이동 생성자가 실행됨
 	cout << " v3 ";
 	v3.print();
 	cout << endl;
@@ -510,7 +510,7 @@ int main() {
 	namedC.display();
 	cout << "Number of objects in the NamedObj class : " << NamedObj::nObj() << endl;
 
-	CharStack chStack;		// 20개의 문자를 저장할 수 있는 스택
+	CharStack chStack;			// 20개의 문자를 저장할 수 있는 스택
 	char str[20];
 
 	cout << "Enter English words : " << endl;
@@ -526,7 +526,7 @@ int main() {
 		cout << "Outputs characters extracted from the stac : " << chStack.pop();		// 스택에서 인출한 문자를 출력
 	cout << endl;
 
-	Complex1 cc1(1, 2);		// 복소수 - 정수
+	Complex1 cc1(1, 2);			// 복소수 - 정수
 	Complex1 cc2(2, 3);
 	Complex1 cc3 = cc1.add(cc2);
 
@@ -605,27 +605,27 @@ int main() {
 	MyString sstr3;			// 빈 문자열
 
 	cout << "sstr1 is " << sstr1 << endl;		// 문자열 출력
-	sstr3 = "Programming";			// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
+	sstr3 = "Programming";				// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
 	cout << "The string length of sstr3 is " << sstr3 << ".";
-	cout << sstr3.length() << endl;		// 문자열 길이를 구하는 메소드
-	sstr1 = sstr2;				// 대입 연산자 다중정의로 문자열 복사
+	cout << sstr3.length() << endl;			// 문자열 길이를 구하는 메소드
+	sstr1 = sstr2;					// 대입 연산자 다중정의로 문자열 복사
 	cout << "sstr1 with sstr2 as a substitute is " << sstr1 << endl;
-	sstr1 = sstr2 + sstr3;			// 문자열 연결 연산자 다중정의에 의해 rvalue 가 만들어지고, 그 rvalue를 이동 대입 연산자 다중정의에 의해 이동해 넣음
+	sstr1 = sstr2 + sstr3;				// 문자열 연결 연산자 다중정의에 의해 rvalue 가 만들어지고, 그 rvalue를 이동 대입 연산자 다중정의에 의해 이동해 넣음
 	cout << "sstr1 = sstr2 + sstr3 -----> " << sstr1 << endl;
 
-	Person1 dudley1;			// 기초 클래스의 객체 선언
-	dudley1.setName("Dudley1");		// 기초 클래스의 함수 호출
-	Student1 harry1;			// 파생 클래스의 객체 선언
-	harry1.setName("Harry1");		// 기초 클래스의 함수 호출
-	harry1.setSchool("Hogwarts1");		// 파생 클래스의 함수 호출
+	Person1 dudley1;				// 기초 클래스의 객체 선언
+	dudley1.setName("Dudley1");			// 기초 클래스의 함수 호출
+	Student1 harry1;				// 파생 클래스의 객체 선언
+	harry1.setName("Harry1");			// 기초 클래스의 함수 호출
+	harry1.setSchool("Hogwarts1");			// 파생 클래스의 함수 호출
 	cout << "Run dudley1.print(); ";
-	dudley1.print();			// 기초 클래스의 함수 호출
+	dudley1.print();				// 기초 클래스의 함수 호출
 	cout << endl;
 	cout << "Run harry1.print(); ";
-	harry1.print();				// 파생 클래스의 함수 호출
+	harry1.print();					// 파생 클래스의 함수 호출
 	cout << endl;
 	cout << "Run harry1.Person1::print(); ";
-	harry1.Person1::print();		// 기초 클래스의 함수 호출
+	harry1.Person1::print();			// 기초 클래스의 함수 호출
 	cout << endl;
 
 	Student2 harry2("Harry2", "Hogwarts2");
@@ -642,13 +642,13 @@ int main() {
 	// d2.a = 1;		// 에러 (private 멤버)
 	// d2.b = 2;		// 에러 (protected 멤버)
 	// d2.c = 3;		// 에러 (protected 멤버로 권한 제한)
-	// cout << "d2.c 는 " << d2.c << endl;		// 에러
+	// cout << "d2.c 는 " << d2.c << endl;	// 에러
 
 	Drvd2 d3;
 	// d3.a = 1;		// 에러 (private 멤버)
 	// d3.b = 2;		// 에러 (private 멤버로 권한 제한)
 	// d3.c = 3;		// 에러 (private 멤버로 권한 제한)
-	// cout << "d3.c 는 " << d3.c << endl;		// 에러
+	// cout << "d3.c 는 " << d3.c << endl;	// 에러
 
 	Person3 dudley3("Dudley3");
 	Student3 harry3("Harry3", "Hogwarts3");
@@ -677,20 +677,20 @@ int main() {
 
 	Person3* ppp1 = new Person3("Dudley4");
 	cout << "Run ppp1->print(); ";
-	ppp1->print();			// Person3::print() 호출
+	ppp1->print();				// Person3::print() 호출
 	cout << endl;
 	Person3* ppp2 = new Student3("Harry", "Hogwarts");
 	cout << "Run ppp2->print(); ";
-	ppp2->print();			// Person3::print() 호출
+	ppp2->print();				// Person3::print() 호출
 	cout << endl;
 	cout << "Run ((Student3*)ppp2)->print(); ";
-	((Student3*)ppp2)->print();	// Person3 포인트를 Student3 의 포인트로 강제 형변환 후 Student3::print() 호출하는 정적연결임. ppp2가 Student 객체를 가리키고 있으리라는 보장이 없으므로 위험함
+	((Student3*)ppp2)->print();		// Person3 포인트를 Student3 의 포인트로 강제 형변환 후 Student3::print() 호출하는 정적연결임. ppp2가 Student 객체를 가리키고 있으리라는 보장이 없으므로 위험함
 	cout << endl;
 
 	BaseClass* pB1 = new BaseClass(5);
 	BaseClass* pB2 = new DrvClass(10, 15);
 	delete pB1;
-	delete pB2;			// 소멸자를 가상함수로 만들었으므로 기초 클래스, 파생 클래스 모두 소멸자가 실행됨
+	delete pB2;				// 소멸자를 가상함수로 만들었으므로 기초 클래스, 파생 클래스 모두 소멸자가 실행됨
 
 	Figure* figs[2];
 	figs[0] = new Circle(0, 20, 10);
@@ -699,12 +699,12 @@ int main() {
 	curAttrib.setFillColor("Yellow");
 	figs[1] = new Triangle(vv);
 	cout << "Draw all shapes" << endl;
-	drawFigs(figs, 2);		// 모든 도형 그리기 방법 출력
+	drawFigs(figs, 2);			// 모든 도형 그리기 방법 출력
 
-	figs[0]->scale(2);		// 원의 크기 조정
-	figs[1]->move(5, 10);		// 삼각형의 이동
+	figs[0]->scale(2);			// 원의 크기 조정
+	figs[1]->move(5, 10);			// 삼각형의 이동
 	cout << "Redraw all shapes after modifying them" << endl;
-	drawFigs(figs, 2);		// 모든 도형 그리기 방법 출력
+	drawFigs(figs, 2);			// 모든 도형 그리기 방법 출력
 
 	Parttime1 chulsoo1("ABC1 Univ.", "DEF1 Co. ");
 	chulsoo1.printSchool();			// Student4의 멤버함수 호출
@@ -715,16 +715,16 @@ int main() {
 	Parttime2 chulsoo2("Chulcoo2", "ABC2 Univ.", "EDF2 Co.");
 	chulsoo2.print();
 
-	Stack<char> sc(100);		// 문자를 100개까지 저장할 수 있는 char 스택 선언
-	sc.push('a');			// char 스택 사용
+	Stack<char> sc(100);			// 문자를 100개까지 저장할 수 있는 char 스택 선언
+	sc.push('a');				// char 스택 사용
 	sc.push('b');
 	cout << "Use a class template called Stack to save characters and output the saved characters - CHAR STACK : ";
-	while (!sc.empty())		// Stack이라는 클래스 템플릿을 이용해서 문자를 저장하고 저장된 문자를 출력
+	while (!sc.empty())			// Stack이라는 클래스 템플릿을 이용해서 문자를 저장하고 저장된 문자를 출력
 		cout << sc.pop() << " ";
 	cout << endl;
 
-	Stack<int> si(50);		// 정수를 50개까지 저장할 수 있는 int 스택 선언
-	si.push(5);			// int 스택 사용
+	Stack<int> si(50);			// 정수를 50개까지 저장할 수 있는 int 스택 선언
+	si.push(5);				// int 스택 사용
 	si.push(10);
 	cout << "INT STACK : ";
 	while (!si.empty())
@@ -736,7 +736,7 @@ int main() {
 	MyString s1("KNOU");
 	MyString s2("Dep.");
 	MyString s3("CS");
-	msStack.push(s1);		// MyString 스택 사용
+	msStack.push(s1);			// MyString 스택 사용
 	msStack.push(s2 + s3);
 	cout << "MuString STACK : ";
 	while (!msStack.empty())
@@ -799,7 +799,7 @@ int main() {
 		cout << intVec[i] << " ";
 	cout << endl;
 
-	intVec.push_back(11);		// 제일 마지막에 push로 값 1개 추가
+	intVec.push_back(11);			// 제일 마지막에 push로 값 1개 추가
 	cout << "The logical size of the vector is 6 : " << intVec.size() << endl;
 	cout << "The physical size of the vector will be greater than 6 : " << intVec.capacity() << endl;
 	cout << "Stored data is 1, 2, 3, 4, 5, 11 : ";
@@ -862,20 +862,20 @@ int main() {
 		cout << i << " ";
 	cout << endl;
 
-	vector<int> iv3(iv1.size() + iv2.size());		// 합병 결과를 저장할 벡터 - iv1의 사이즈와 iv2의 사이즈를 합한 만큼의 크기로 iv3을 만듦
+	vector<int> iv3(iv1.size() + iv2.size());				// 합병 결과를 저장할 벡터 - iv1의 사이즈와 iv2의 사이즈를 합한 만큼의 크기로 iv3을 만듦
 	merge(iv1.begin(), iv1.end(), iv2.begin(), iv2.end(), iv3.begin());	// 동일한 기준으로 정렬되어 있으므로 합병 가능
 	cout << "The result of merging vector 1 and vector 2 : ";
 	for (auto i : iv3)		// 벡터1과 벡터2를 합병한 결과
 		cout << i << " ";
 	cout << endl;
 
-	GREATER<int> greaterThan;		// greaterThan은 객체임 - 객체 내의 함수를 함수객체처럼 사용하기 위해서는 GREATER 클래스에 () 연산자가 다중정의되어 있어야 함
-	if (greaterThan(20, 10))		// 함수객체를 사용하였기 때문에 마치 함수를 호출한 것과 같이 작성함
+	GREATER<int> greaterThan;			// greaterThan은 객체임 - 객체 내의 함수를 함수객체처럼 사용하기 위해서는 GREATER 클래스에 () 연산자가 다중정의되어 있어야 함
+	if (greaterThan(20, 10))			// 함수객체를 사용하였기 때문에 마치 함수를 호출한 것과 같이 작성함
 		cout << "20 is greater than 10" << endl;
 
 	sort(iv3.begin(), iv3.end(), GREATER<int>());	// 정렬 시 콜백 함수로 함수객체를 전달
 	cout << "as a result of sorting vector 3 in descending order : ";
-	for (auto i : iv3)		// 벡터3을 내림차순으로 정렬한 결과
+	for (auto i : iv3)				// 벡터3을 내림차순으로 정렬한 결과
 		cout << i << " ";
 	cout << endl;
 
@@ -884,46 +884,46 @@ int main() {
 	addrbook.insert({ "Hong", "서울시 중구" });
 	// addrbook.insert({ "Kim", "서울시 성동구" });			// 동일한 키가 이미 존재하므로 에러
 
-	cout << "addrbook['Hong'] : " << addrbook["Hong"] << endl;		// "서울시 중구" 가 출력됨
-	addrbook["Park"] = "대전시 동구";		// "Park", "대전시 동구" 데이터가 삽입됨
+	cout << "addrbook['Hong'] : " << addrbook["Hong"] << endl;	// "서울시 중구" 가 출력됨
+	addrbook["Park"] = "대전시 동구";				// "Park", "대전시 동구" 데이터가 삽입됨
 	cout << "addrbook['Park'] : " << addrbook["Park"] << endl;
-	addrbook["Kim"] = "서울시 성동구";		// "Kim" 값이 "서울시 성동구"로 변경됨
+	addrbook["Kim"] = "서울시 성동구";				// "Kim" 값이 "서울시 성동구"로 변경됨
 	cout << "addrbook['Kim'] : " << addrbook["Kim"] << endl;
 
-	auto it1 = addrbook.find("Park");		// 반복자 선언. auto 는 map<string, string>::iterator 와 같음. it는 pair 객체("박영식", "대전시 동구")를 가리킴
-	auto it2 = addrbook.find("Lee");		// 찾을 키가 없으므로 it에 addrbook.end() 가 저장됨. end() 는 맨 끝의 데이터 다음 위치임. it의 값이 end()와 같다면 데이터가 검색되지 않았다는 것을 알 수 있음
+	auto it1 = addrbook.find("Park");				// 반복자 선언. auto 는 map<string, string>::iterator 와 같음. it는 pair 객체("박영식", "대전시 동구")를 가리킴
+	auto it2 = addrbook.find("Lee");				// 찾을 키가 없으므로 it에 addrbook.end() 가 저장됨. end() 는 맨 끝의 데이터 다음 위치임. it의 값이 end()와 같다면 데이터가 검색되지 않았다는 것을 알 수 있음
 
-	addrbook.erase(it1);				// it1 이라는 반복자가 가리키는 데이터 삭제
-	addrbook.erase("Kim");				// 키가 가리키는 항목 삭제
+	addrbook.erase(it1);						// it1 이라는 반복자가 가리키는 데이터 삭제
+	addrbook.erase("Kim");						// 키가 가리키는 항목 삭제
 
-	map<string, string, LESS_T<string>> pBook{		// LESS_T 기준으로 정렬
+	map<string, string, LESS_T<string>> pBook{			// LESS_T 기준으로 정렬
 		{"Han", "010-2233-4354"},
 		{"Park", "010-2233-4455"}
 	};
-	pBook["Kim"] = "010-1234-5678";		// 기존 항목이 없으므로 새로운 항목 추가됨
+	pBook["Kim"] = "010-1234-5678";				// 기존 항목이 없으므로 새로운 항목 추가됨
 	pBook.insert(make_pair("Choi", "010-7531-3456"));		// 새로운 항목 추가됨
 	pBook.insert({ "Park", "010-1357-2468" });			// 이미 있는 키 이므로 insert 되지 않고 무시됨
 	for (auto pb = pBook.begin(); pb != pBook.end(); ++pb)
-		cout << pb->first << " " << pb->second << endl;		// pb->first는 첫번째 값이므로 이름이, pb->second는 두번째 값이므로 전화번호가 키 순서대로 출력됨
+		cout << pb->first << " " << pb->second << endl;	// pb->first는 첫번째 값이므로 이름이, pb->second는 두번째 값이므로 전화번호가 키 순서대로 출력됨
 	cout << pBook.size() << "person is registered." << endl;
 
 	string strMap;
 	cout << "enter only one of the names Kim, Park, Choi, and Han to find. : ";
 	cin >> strMap;
-	auto result = pBook.find(strMap);		// find 함수는 검색된 항목의 반복자 제공
+	auto result = pBook.find(strMap);			// find 함수는 검색된 항목의 반복자 제공
 	if (result != pBook.end()) {
-		cout << result->first << "'s phone number is ";		// result->first는 첫번째 값이므로 이름 출력됨
-		cout << result->second << "." << endl;		// result->second는 두번째 값이므로 전화번호 출력됨
+		cout << result->first << "'s phone number is ";	// result->first는 첫번째 값이므로 이름 출력됨
+		cout << result->second << "." << endl;			// result->second는 두번째 값이므로 전화번호 출력됨
 	}
 	else
 		cout << strMap << ": can't find it" << endl;
 
 	double xt, yt, zt;
 	char cFlag = 'y';
-	while (cFlag != 'n') {		// cFlag 가 n 이면 종료됨
+	while (cFlag != 'n') {				// cFlag 가 n 이면 종료됨
 		cout << "Enter a number twice : ";
 		cin >> xt >> yt;
-		try {			// 예외 발생 가능성이 있는 코드
+		try {					// 예외 발생 가능성이 있는 코드
 			zt = hmean3(xt, yt);
 			cout << "harmonic mean = " << zt << endl;	// 조화평균 값 출력
 		}
@@ -938,13 +938,13 @@ int main() {
 	unique_ptr<int> pu2;
 	*pu1 = 10;
 	cout << "* pu1 : " <<  *pu1 << endl;
-	pu2 = move(pu1);		// pu2 = pu1; 의 형태는 불가. unique_ptr은 대입은 불가, 이동만 가능
+	pu2 = move(pu1);				// pu2 = pu1; 의 형태는 불가. unique_ptr은 대입은 불가, 이동만 가능
 	cout << "* pu2 : " << *pu2 << endl;
-	pu2 = nullptr;			// 가리키고 있던 메모리는 자동 반납되어 해제됨
-	// cout << *pu2 << endl;		// pu2은 nullptr 상태이므로 실행 시 오류 발생
-	// cout << *pu1 << endl;		// pu1은 nullptr 상태이므로 실행 시 오류 발생
+	pu2 = nullptr;					// 가리키고 있던 메모리는 자동 반납되어 해제됨
+	// cout << *pu2 << endl;			// pu2은 nullptr 상태이므로 실행 시 오류 발생
+	// cout << *pu1 << endl;			// pu1은 nullptr 상태이므로 실행 시 오류 발생
 
-	IntArray1 arrE(10);			// 사용자 정의 객체 오류 처리 예제
+	IntArray1 arrE(10);				// 사용자 정의 객체 오류 처리 예제
 	try {
 		for (int i = 0; i <= 10; i++)		// i의 범위는 0 ~ 9이지만 조건에 10보다 작거나 같도록 설정해놨으므로 오류 발생함
 			arrE[i] = i;

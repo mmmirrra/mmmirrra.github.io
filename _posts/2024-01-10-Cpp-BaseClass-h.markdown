@@ -14,7 +14,7 @@ project 'FirstStep'
 ```cpp
 #pragma once
 
-class BaseClass {		// 기초 클래스의 소멸자를 가상함수로 만드는 예제
+class BaseClass {			// 기초 클래스의 소멸자를 가상함수로 만드는 예제
 	int* ptB;
 public:
 	BaseClass(int n) {

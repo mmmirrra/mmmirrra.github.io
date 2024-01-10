@@ -72,8 +72,8 @@ void swapVecF1(VecF& v1, VecF& v2) {		// lvalue 참조 복사
 	v2 = tmp;				// 대입 연산자 사용
 }
 void swapVecF2(VecF& v1, VecF& v2) {		// rvalue 참조 이동
-	VecF tmp = move(v1);		// 이동 생성자
-	v1 = move(v2);			// 이동 대입 연산자 사용
-	v2 = move(tmp);			// 이동 대입 연산자 사용
+	VecF tmp = move(v1);			// 이동 생성자
+	v1 = move(v2);				// 이동 대입 연산자 사용
+	v2 = move(tmp);				// 이동 대입 연산자 사용
 }
 ```

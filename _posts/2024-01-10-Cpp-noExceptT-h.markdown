@@ -16,7 +16,7 @@ project 'FirstStep'
 #include "StackT.h"
 
 template <typename T>
-T max(const Stack<T>& v) noexcept {		// noexcept는 이 함수가 예외를 일으키지 않는다는 선언 - 이 함수를 호출하여 사용하는 곳에서도 예외 처리를 할 필요가 없음
+T max(const Stack<T>& v) noexcept {	// noexcept는 이 함수가 예외를 일으키지 않는다는 선언 - 이 함수를 호출하여 사용하는 곳에서도 예외 처리를 할 필요가 없음
 	auto p = v.begin();
 	T m = *p++;
 	for (; p != v.end(); p++)

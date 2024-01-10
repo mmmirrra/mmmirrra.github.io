@@ -32,7 +32,7 @@ public:
 		return iPart;		// 허수부의 값 반환. 이게 없으면 private 인 iPart를 외부 함수에서 읽을 수 없음
 	}
 
-	friend Complex2 operator + (double r, const Complex2& c);	// 좌측 피연산자가 실수인 경우 덧셈 연산자 다중정의. 외부 연산자 원형을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
+	friend Complex2 operator + (double r, const Complex2& c);		// 좌측 피연산자가 실수인 경우 덧셈 연산자 다중정의. 외부 연산자 원형을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
 
 	friend ostream& operator << (ostream& os, const Complex2& c);	// 출력 연산자 다중정의. 외부 연산자 원형을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
 };

@@ -23,13 +23,13 @@ public:
 		return Complex1(rPart, -iPart);		// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
 	}
 	Complex1 add(const Complex1& c) const {
-		return Complex1(rPart + c.rPart, iPart + c.iPart);		// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
+		return Complex1(rPart + c.rPart, iPart + c.iPart);	// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
 	}
 	Complex1 sub(const Complex1& c) const {
-		return Complex1(rPart - c.rPart, iPart - c.iPart);		// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
+		return Complex1(rPart - c.rPart, iPart - c.iPart);	// Complex1 클래스의 임시 객체 생성되고, 문장 실행 후 임시 객체 소멸됨
 	}
-	Complex1 mul(const Complex1& c) const;		// 복소수 곱셈
-	Complex1 div(const Complex1& c) const;		// 복소수 나눗셈
-	void display() const;				// 복소수 값을 출력
+	Complex1 mul(const Complex1& c) const;			// 복소수 곱셈
+	Complex1 div(const Complex1& c) const;			// 복소수 나눗셈
+	void display() const;					// 복소수 값을 출력
 };
 ```

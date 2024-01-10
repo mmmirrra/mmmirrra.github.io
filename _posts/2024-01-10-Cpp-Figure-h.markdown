@@ -19,7 +19,7 @@ using namespace std;
 
 class Figure {		// 추상 클래스 - 도형 클래스
 protected:		// 파생 클래스에서는 proteted 멤버를 직접 엑세스하여 자유롭게 사용할 수 있음
-	GrAttrib attrib;		// 그래픽 속성
+	GrAttrib attrib;				// 그래픽 속성
 public:
 	Figure(): attrib(curAttrib) {}			// 현재 그래픽 속성에 따라 도형 객체 생성
 	void setLineColor(const string& c) {		// 선 색상 속성 지정
