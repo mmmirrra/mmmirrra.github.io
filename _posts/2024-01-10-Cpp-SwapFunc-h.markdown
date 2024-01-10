@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - SwapFunc.h   
 `SwapFunc.h` : example of a function template - a function that exchanges values // 함수 템플릿 예제 - 값을 서로 교환하는 함수   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 #include <utility>
@@ -24,4 +24,4 @@ void swapFT(ANY& a, ANY& b) {					// 값을 서로 교환하는 함수
 	b = move(temp);
 	cout << "Run swapFT function template - exchange two values" << endl;
 };
-{% endhighlight %}
+```

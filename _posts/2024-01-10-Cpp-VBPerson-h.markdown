@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - VBPerson.h   
 `VBPerson.h` : virtual base class - Person5 class // 가상 기초 클래스 - Person5 클래스   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 #include <string>
@@ -26,4 +26,4 @@ public:
 		cout << "print() function in Person5 : " << name;
 	}
 };
-{% endhighlight %}
+```

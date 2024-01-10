@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - softFT.h   
 `softFT.h` : bubble sort algorithm function template // 버블 정렬 알고리즘 bubble sort algorithm 함수 템플릿   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include "SwapFunc.h"
 
@@ -24,4 +24,4 @@ template <typename T> void sortFT(T arr[], int size) {				// 버블 정렬 알�
 				swapFT(arr[j], arr[j + 1]), doAgain = true;			// 변경된 값이 있으면 doAgain 을 true로 변경하여 첫번째 for 반복 실행되도록 함
 	}
 };
-{% endhighlight %}
+```

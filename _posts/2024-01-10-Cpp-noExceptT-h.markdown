@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - noExceptT.h   
 `noExceptT.h` : example of a noexcept declaration - a declaration not to cause exceptions // noexcept 선언 예제 - 예외를 일으키지 않는다는 선언   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include "StackT.h"
 
@@ -23,4 +23,4 @@ T max(const Stack<T>& v) noexcept {			// noexcept는 이 함수가 예외를 일
 		if (m < *p) m = *p;
 	return m;
 };
-{% endhighlight %}
+```

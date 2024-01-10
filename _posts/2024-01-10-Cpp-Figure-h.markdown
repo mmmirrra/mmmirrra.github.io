@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Figure.h   
 `Figure.h` : abstract class - abstract class for class that can draw shapes // 추상 클래스 - 도형을 그릴 수 있는 클래스에 대한 추상 클래스   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <string>
 #include "GrAttrib.h"
@@ -32,4 +32,4 @@ public:
 	virtual void scale(double s) = 0;					// 순수가상함수 - 원점 기준 크기조정
 	virtual void draw() const = 0;						// 순수가상함수 - 그리기 멤버함수
 };
-{% endhighlight %}
+```

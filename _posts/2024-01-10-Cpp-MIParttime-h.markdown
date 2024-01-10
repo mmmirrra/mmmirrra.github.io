@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - MIParttime.h   
 `MIParttime.h` : class that receive multiple inheritances - multiple inheritance of class in the MIEployee.h and MISstudent.h files // 클래스를 다중상속 받는 클래스 - MIEmployee.h 와 MIStudent.h 파일의 클래스를 다중상속   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <string>
 #include "MIStudent.h"
@@ -22,4 +22,4 @@ class Parttime1 : public Student4, public Employee1 {								// 클래스를 다
 public:
 	Parttime1(const string& s, const string& c) : Student4(s), Employee1(c) {}		// 생성자
 };
-{% endhighlight %}
+```

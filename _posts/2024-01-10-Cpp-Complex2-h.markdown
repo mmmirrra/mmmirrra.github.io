@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Complex2.h   
 `Complex2.h` : example of calculating complex number - real numbers // 복소수 계산 예제 - 실수   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 using namespace std;
@@ -36,4 +36,4 @@ public:
 
 	friend ostream& operator << (ostream& os, const Complex2& c);	// 출력 연산자 다중정의. 외부 연산자 원형을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
 };
-{% endhighlight %}
+```

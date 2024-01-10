@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - NamedObj.h   
 `NamedObj.h` : example of how constructor and destructor work // 생성자, 소멸자 동작 예제   
    
-{% highlight cpp %}
+```cpp
 #pragma once NAMEDOBJ_H_INCLOUDED
 #include <iostream>
 using namespace std;
@@ -31,4 +31,4 @@ public:
 		return nConstr - nDestr;
 	}
 };
-{% endhighlight %}
+```

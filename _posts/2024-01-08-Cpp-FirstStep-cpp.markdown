@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - main() sourceFile - FirstStep.cpp   
 `FirstStep.cpp` : C++ practice project main function   
    
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <climits>
 #include "Counter.h"
@@ -999,4 +999,4 @@ void AddTime(TimeRec& t, int minutes) {
 	t.hours += t.minutes / 60;
 	t.minutes %= 60;
 }
-{% endhighlight %}
+```

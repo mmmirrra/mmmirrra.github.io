@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - Counter.cpp   
 `Counter.cpp` : example of a function defined outside of a header file // 헤더파일 외부에 정의하는 함수 예제   
    
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include "Counter.h"
 
@@ -20,4 +20,4 @@ using namespace std;
 void Counter::f() {				// 헤더 파일 외부에 함수 정의 예제
 	cout << "function f(), a function created separately by Counter.h " << endl;
 };
-{% endhighlight %}
+```

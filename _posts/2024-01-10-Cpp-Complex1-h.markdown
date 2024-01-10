@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Complex1.h   
 `Complex1.h` : example of calculating complex number - integer // 복소수 계산 예제 - 정수   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 class Complex1 {
@@ -32,4 +32,4 @@ public:
 	Complex1 div(const Complex1& c) const;						// 복소수 나눗셈
 	void display() const;										// 복소수 값을 출력
 };
-{% endhighlight %}
+```

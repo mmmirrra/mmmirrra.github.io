@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Counter.h   
 `Counter.h` : example of a function defined outside of a header file - a numeric accumulator that increases the number when clicked // 헤더파일 외부에 정의하는 함수 예제 - 클릭 시 숫자가 올라가는 숫자 누적 계산기   
    
-{% highlight cpp %}
+```cpp
 // 동일한 헤더파일이 여러번 생기는것을 방지하기 위해 #ifndef를 씀 - #pragma once 도 많이씀
 #ifndef COUNTER_H_INCLUDED
 #define COUNTER_H_INCLUDED
@@ -40,4 +40,4 @@ public:
 };
 
 #endif // COUNTER_H_INCLUDED
-{% endhighlight %}
+```

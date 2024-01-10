@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - CClass.h   
 `CClass.h` : detail class - able to create object // 상세 클래스 - 객체를 만들 수 있음   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 #include "AClass.h"
@@ -26,4 +26,4 @@ public:
 		cout << "Consrete" << endl;
 	}
 };
-{% endhighlight %}
+```

@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - IntClass1.h   
 `IntClass1.h` : prefix ++ operator multiple definitions // 전위 표기 ++ 연산자 다중정의   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 class IntClass1 {
@@ -25,4 +25,4 @@ public:
 	}
 	int getValue() const { return a; }
 };
-{% endhighlight %}
+```

@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - VBStudent.h   
 `VBStudent.h` : Student5 class inherits Person5 class as a virtual base class // Person5 클래스를 가상 기초 클래스로 상속받는 클래스 Student5   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 #include <string>
@@ -27,4 +27,4 @@ public:
 		cout << "print() function in Student5 " << " goes to " << school << endl;
 	}
 };
-{% endhighlight %}
+```

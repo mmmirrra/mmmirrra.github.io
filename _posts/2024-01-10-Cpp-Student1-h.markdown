@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Student1.h   
 `Student1.h` : examples of base class and derived class - derived class - without virtual function // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include "Person1.h"
 
@@ -29,4 +29,4 @@ public:
 		cout << " goes to " << school;
 	}
 };
-{% endhighlight %}
+```

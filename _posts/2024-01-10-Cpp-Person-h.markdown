@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Person.h   
 `Person.h` : example of dynamically allocating memory - dynamic assignment of memory to the constructors of objects with names and addresses // 메모리 동적 할당 예제 - 이름과 주소를 가진 객체 생성자에 동적 할당 적용   
    
-{% highlight cpp %}
+```cpp
 #pragma once PERSON_H_INCLUDED
 
 class Person {										// 메모리 동적 할당 예제
@@ -23,4 +23,4 @@ public:
 	void print() const;								// const 이므로 변경 불가
 	void chAddr(const char* newAddr);
 };
-{% endhighlight %}
+```

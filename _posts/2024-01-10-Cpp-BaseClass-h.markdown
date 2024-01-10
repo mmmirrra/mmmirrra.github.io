@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - BaseClass.h   
 `BaseClass.h` : example of creating a virtual function of a destructor in a base class // 기초 클래스의 소멸자를 가상함수로 만드는 예제   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 class BaseClass {											// 기초 클래스의 소멸자를 가상함수로 만드는 예제
@@ -26,4 +26,4 @@ public:
 		delete[] ptB;
 	}
 };
-{% endhighlight %}
+```

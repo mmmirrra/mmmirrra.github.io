@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - CharStack.h   
 `CharStack.h` : example of verifying stack space // 스택 공간 확인 예제   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 class CharStack {						// 스택 공간 확인 예제
@@ -29,4 +29,4 @@ public:
 	bool push(char ch);
 	char pop();
 };
-{% endhighlight %}
+```

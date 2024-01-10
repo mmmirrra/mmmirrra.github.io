@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - Person.cpp   
 `Person.cpp` : example of dynamically allocating memory // 메모리 동적 할당 예제   
    
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <cstring>
 #include "Person.h"
@@ -41,4 +41,4 @@ void Person::chAddr(const char* newAddr) {
 	addr = new char[strlen(newAddr)+1];					// 새로운 동적 메모리 공간 할당
 	strcpy(addr, newAddr);
 }
-{% endhighlight %}
+```

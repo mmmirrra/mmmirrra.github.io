@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - Pencils.cpp   
 `Pencils.cpp` : example of prefix and postfix for ++ operator // ++ 연산자 전위 표기, 후위 표기 예제   
    
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include "Pencils.h"
 using namespace std;
@@ -40,4 +40,4 @@ void Pencils::display() const {
 	else
 		cout << np << "individuals " << endl;
 }
-{% endhighlight %}
+```

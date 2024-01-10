@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - BaseC.h   
 `BaseC.h` : example of a member's scope of use by permission // 권한에 따른 멤버 사용 범위 예제   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 class BaseC {				// 권한에 따른 멤버 사용 범위 예제
@@ -29,4 +29,4 @@ public:
 		c = z;
 	}
 };
-{% endhighlight %}
+```

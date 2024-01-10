@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - MIStudent.h   
 `MIStudent.h` : class for Multiple Inheritance // 클래스 다중상속을 위한 클래스   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 #include <string>
@@ -28,4 +28,4 @@ public:
 		cout << "print() school : " << school << endl;
 	}
 };
-{% endhighlight %}
+```

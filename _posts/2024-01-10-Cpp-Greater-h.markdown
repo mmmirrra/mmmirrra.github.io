@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Greater.h   
 `Greater.h` : class with function objects - object that can be used as function // 함수객체를 포함한 클래스 - 함수처럼 사용될 수 있는 객체   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 template<typename T>
@@ -21,4 +21,4 @@ public:
 	return a > b;											// 내림차순
 	}
 };
-{% endhighlight %}
+```

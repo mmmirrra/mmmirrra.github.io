@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - AClass.h   
 `AClass.h` : abstract class - unable to create object // 추상 클래스 - 객체를 만들 수 없음   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 using namespace std;
@@ -23,4 +23,4 @@ public:
 		cout << "Abstract" << endl;
 	}
 };
-{% endhighlight %}
+```

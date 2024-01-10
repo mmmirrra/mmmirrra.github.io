@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - StackT.h   
 `StackT.h` : example of a class template - definition of functions that can manipulate stack data type // 클래스 템플릿 예제 - 스택이라는 자료형을 조작할 수 있는 함수 정의   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 
 template <typename T>			// typename T 또는 class T 라고 써도 됨
@@ -57,4 +57,4 @@ template <typename T> void Stack<T>::push(T&& a) {
 template <typename T> T&& Stack<T>::pop() {
 	return move(buf[top++]);
 }
-{% endhighlight %}
+```

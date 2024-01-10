@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Student2.h   
 `Student2.h` : examples of base class and derived class - derived class - without virtual function - initialize data members through the constructor of Person2 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함 - Person2 생성자를 통해 데이터멤버 초기화   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include "Person2.h"
 
@@ -36,4 +36,4 @@ public:
 		cout << " goes to " << school;
 	}
 };
-{% endhighlight %}
+```

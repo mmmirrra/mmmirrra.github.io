@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - GrAttrib.h   
 `GrAttrib.h` : abstract class - abstract class for class that specify graphic properties of a shapes // 추상 클래스 - 도형의 그래픽 속성을 지정할 수 있는 클래스에 대한 추상 클래스   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <string>
 using namespace std;
@@ -37,4 +37,4 @@ public:
 };
 
 extern GrAttrib curAttrib;			// 전역변수 선언임. 실제 정의는 다른 파일 어딘가에 있어야 함. 현재 속성을 나타내는 전역 객체이므로 소스파일 내에서 어디서든 사용 가능. extern은 전역 객체임을 알리는 키워드임. 현재 속성을 프로그램이 끝날때까지 사용할 수 있고, 중간에 값을 변경할 수도 있음
-{% endhighlight %}
+```

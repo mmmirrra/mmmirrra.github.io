@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - NamedObj.cpp   
 `NamedObj.cpp` : example of how constructor and destructor work // 생성자, 소멸자 동작 예제   
    
-{% highlight cpp %}
+```cpp
 #include <cstring>
 #include "NamedObj.h"
 
@@ -30,4 +30,4 @@ NamedObj::~NamedObj()						// 소멸자
 
 int NamedObj::nConstr = 0;
 int NamedObj::nDestr = 0;
-{% endhighlight %}
+```

@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - IntArray1.cpp   
 `IntArray1.cpp` : example of error handling of a custom object // 사용자 정의 객체 오류 처리 예제   
    
-{% highlight cpp %}
+```cpp
 #include "IntArray1.h"
 using namespace std;
 
@@ -25,4 +25,4 @@ int& IntArray1::operator [] (int offset) {			// 첨자 연산자
 		throw BadIndex1(offset);					// 예외객체 BadIndex 객체를 생성 및 전달
 	return buf[offset];
 }
-{% endhighlight %}
+```

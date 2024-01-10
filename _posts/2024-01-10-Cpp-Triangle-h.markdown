@@ -11,7 +11,7 @@ project 'FirstStep'
 ### headerFile list - Triangle.h   
 `Triangle.h` : detail class - example of a triangle class drawing a triangle // 상세 클래스 - 삼각형을 그리는 삼각형 클래스 예제   
    
-{% highlight cpp %}
+```cpp
 #pragma once
 #include <iostream>
 #include <string>
@@ -57,4 +57,4 @@ public:
 		cout << "으로 채운다." << endl;
 	}
 };
-{% endhighlight %}
+```
