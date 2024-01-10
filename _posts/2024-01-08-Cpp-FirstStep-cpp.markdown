@@ -69,7 +69,7 @@ double maximum(double arr[], int n) {
 }
 
 // 함수의 원형을 main 함수보다 위에 먼저 써줌. 실제 함수는 main 함수 다음에 있음
-float FahrToC(float fahr);				// 인수이름인 fahr은 생략 가능함
+float FahrToC(float fahr);		// 인수이름인 fahr은 생략 가능함
 
 void SwapValues(int& x, int& y);
 
@@ -107,7 +107,7 @@ void fff() {
 // Person 객체 또는 Student 객체에 대한 포인트가 들어있는 배열을 매개변수로 받아 그 안에 들어있는 객체들에 대해 출력하는 함수 - 정적연결 함수 실행
 void PrintPerson(const Person3* const p[], int n) {
 	for (int i = 0; i < n; i++) {
-		p[i]->print();									// 포인트가 가르키는 객체의 멤버에 액세스 함. (*p[i]).print(); 형태로 작성해야 하지만 번거롭기 때문에 p[i]->print(); 형태로 작성할 수도 있음
+		p[i]->print();		// 포인트가 가르키는 객체의 멤버에 액세스 함. (*p[i]).print(); 형태로 작성해야 하지만 번거롭기 때문에 p[i]->print(); 형태로 작성할 수도 있음
 		cout << endl;
 	}
 }
@@ -126,35 +126,35 @@ GrAttrib curAttrib("Black", "White");
 // 도형을 그리는 함수
 void drawFigs(const Figure* const figs[], int n) {		// 도형 Figure 기초 클래스의 포인트 배열을 매개변수로 받음. n은 배열의 크기임
 	for (int i = 0; i < n; i++) {
-		figs[i]->draw();								// (*figs[i]).draw(); 와 동일함
+		figs[i]->draw();		// (*figs[i]).draw(); 와 동일함
 		cout << endl;
 	}
 }
 
 // 조화평균 - 오류가 발생할 수 있는 코드
 double hmean1(double a, double b) {
-	return 2.0 * a * b / (a + b);						// a == -b 인 경우 (a + b) 는 0이 되어 오류가 발생하고 실행 중 프로그램 비정상 종료됨
+	return 2.0 * a * b / (a + b);		// a == -b 인 경우 (a + b) 는 0이 되어 오류가 발생하고 실행 중 프로그램 비정상 종료됨
 }
 
 // 조화평균 - 오류가 발생하지 않도록 방지한 코드
 double hmean2(double a, double b) {
 	if (a == -b) {
 		cout << "Unable to divide." << endl;
-		exit(EXIT_FAILURE);								// a == -b 인 경우 이를 알리고, 프로그램 강제 종료 - 오류값인 EXIT_FAILURE를 함수를 호출한 곳으로 리턴함
+		exit(EXIT_FAILURE);		// a == -b 인 경우 이를 알리고, 프로그램 강제 종료 - 오류값인 EXIT_FAILURE를 함수를 호출한 곳으로 리턴함
 	}
 	return 2.0 * a * b / (a + b);
 }
 
 // 조화평균 - throw로 리턴 처리
 double hmean3(double a, double b) {
-	if (a == -b)										// a == -b 인 경우 예외 검출
-		throw "Harmonic mean cannot be calculated!";	// throw를 호출한 곳으로 리턴함
+	if (a == -b)		// a == -b 인 경우 예외 검출
+		throw "Harmonic mean cannot be calculated!";		// throw를 호출한 곳으로 리턴함
 	return 2.0 * a * b / (a + b);
 }
 
 void fointTest() {
-	int* p = new(nothrow) int[1000000000];				// nothrow는 자원 할당에 실패하면 nullptr을 반환함
-	if (!p) {											// p가 nullptr 인지 확인 - nullptr 이면 if 내부 실행 
+	int* p = new(nothrow) int[1000000000];		// nothrow는 자원 할당에 실패하면 nullptr을 반환함
+	if (!p) {		// p가 nullptr 인지 확인 - nullptr 이면 if 내부 실행 
 		cerr << "Memory allocation error" << endl;
 		exit(EXIT_FAILURE);
 	}
@@ -334,7 +334,7 @@ int main() {
 	cout << "*intPtr value after delete : " << *intPtr << endl;
 	intPtr = nullptr;
 	if (!intPtr) {
-		cout << "intPtr memory allocation deleted " << endl;										// intPtr 메모리 할당이 삭제됨
+		cout << "intPtr memory allocation deleted " << endl;		// intPtr 메모리 할당이 삭제됨
 	}
 	if (intPtr == nullptr) {
 		cout << "intPtr memory allocation deleted " << endl;
@@ -369,7 +369,7 @@ int main() {
 	float fTemp, cTemp;
 	cout << "Fahrenheit temperature : ";
 	cout << "Enter a decimal number" << endl;
-	cin >> fTemp;												// 화씨온도 입력 받음
+	cin >> fTemp;		// 화씨온도 입력 받음
 	cTemp = FahrToC(fTemp);
 	cout << "---> Celsius temperature : " << cTemp << endl;		// 섭씨온도 출력됨
 
@@ -377,7 +377,7 @@ int main() {
 	cout << "Enter two numbers : ";
 	cout << "Enter an integer number twice" << endl;
 	cin >> s >> t;
-	if (s < t) SwapValues(s, t);											// 순서를 바꿔서 s에 큰 값을 넣음
+	if (s < t) SwapValues(s, t);		// 순서를 바꿔서 s에 큰 값을 넣음
 	cout << "large number = " << s << " small number = " << t << endl;
 
 	cout << "factorial : " << factorial(3) << endl;
@@ -433,11 +433,11 @@ int main() {
 	Person* p1 = new Person("Lee", "서울시 종로구");
 	Person* p2 = new Person("Park", "강원도 동해시");
 	p1->print();
-	(*p2).print();								// 괄호 ()와 화살표 -> 는 같은 기능임
+	(*p2).print();		// 괄호 ()와 화살표 -> 는 같은 기능임
 	cout << endl << "Change address : ";
 	p2->chAddr("대전시 서구");
 	p2->print();
-	delete p1;									// Person 객체가 소멸하기 때문에 ~Person 함수가 실행됨
+	delete p1;		// Person 객체가 소멸하기 때문에 ~Person 함수가 실행됨
 	delete p2;
 
 	Person p3("Mr.nobody", "노숙자");
@@ -445,10 +445,10 @@ int main() {
 	CounterM cnt3(999);
 	CounterM cntMArr[3] = { CounterM(9), CounterM(99), CounterM(999) };
 	CounterM cnt4(cnt3);
-	CounterM cnt5 = cnt4;						// 묵시적 복사 생성자로 초기화됨
+	CounterM cnt5 = cnt4;		// 묵시적 복사 생성자로 초기화됨
 
-	Counter cntArr[4];							// Counter 객체를 4개 만듬. 배열임
-	Counter* pt = new Counter[10];				// Counter 객체를 10개 만든. 배열임
+	Counter cntArr[4];		// Counter 객체를 4개 만듬. 배열임
+	Counter* pt = new Counter[10];		// Counter 객체를 10개 만든. 배열임
 
 	float af[3] = { 1, 2, 3 };
 	VecF v1(3, af);
@@ -459,7 +459,7 @@ int main() {
 	cout << " v2 ";
 	v2.print();
 	cout << endl;
-	VecF v3(v1.add(v2));			// 명시적 이동 생성자가 실행됨
+	VecF v3(v1.add(v2));		// 명시적 이동 생성자가 실행됨
 	cout << " v3 ";
 	v3.print();
 	cout << endl;
@@ -468,11 +468,11 @@ int main() {
 	vRRef1.print();
 	cout << endl;
 	VecF v4(3);
-	v4 = v1;						// 대입 연산자
+	v4 = v1;		// 대입 연산자
 	cout << " v4 ";
 	v4.print();
 	cout << endl;
-	v4 = v1.add(v2);				// 이동 대입 연산자
+	v4 = v1.add(v2);		// 이동 대입 연산자
 	cout << " v1 ";
 	v1.print();
 	cout << " + ";
@@ -510,23 +510,23 @@ int main() {
 	namedC.display();
 	cout << "Number of objects in the NamedObj class : " << NamedObj::nObj() << endl;
 
-	CharStack chStack;													// 20개의 문자를 저장할 수 있는 스택
+	CharStack chStack;		// 20개의 문자를 저장할 수 있는 스택
 	char str[20];
 
 	cout << "Enter English words : " << endl;
 	cout << "Enter a word that is less than 20 characters long : " << endl;
 	cin >> str;
 
-	char* spt = str;													// 포인터로 문자열 시작 위치를 가리킴
-	while (*spt)														// 문자열의 끝이 아니면 반복
-		chStack.push(*(spt++));											// 스택에 문자를 넣음
+	char* spt = str;		// 포인터로 문자열 시작 위치를 가리킴
+	while (*spt)		// 문자열의 끝이 아니면 반복
+		chStack.push(*(spt++));		// 스택에 문자를 넣음
 
 	cout << "Output words in reverse order : ";
-	while (!chStack.chkEmpty())															// 스택이 비어 있지 않으면 반복
+	while (!chStack.chkEmpty())		// 스택이 비어 있지 않으면 반복
 		cout << "Outputs characters extracted from the stac : " << chStack.pop();		// 스택에서 인출한 문자를 출력
 	cout << endl;
 
-	Complex1 cc1(1, 2);				// 복소수 - 정수
+	Complex1 cc1(1, 2);		// 복소수 - 정수
 	Complex1 cc2(2, 3);
 	Complex1 cc3 = cc1.add(cc2);
 
@@ -567,65 +567,65 @@ int main() {
 	Complex2 bb1(5, -3.9);
 	cout << aa1 << " + " << bb1 << " = " << aa1 + bb1 << endl;
 
-	SafeIntArray sa(10);													// 10개의 원소를 갖는 객체 생성
+	SafeIntArray sa(10);		// 10개의 원소를 갖는 객체 생성
 
 	for (int i = 0; i < 10; i++)
 		sa[i] = i;
 	cout << "Access the correct range of elements : " << sa[5] << endl;		// 올바른 범위의 원소 액세스
-	//cout << sa[12] << endl;												// 범위를 벗어난 액세스
+	//cout << sa[12] << endl;		// 범위를 벗어난 액세스
 
-	size_t strlen(const char* str);											// 문자열의 길이 구하기
+	size_t strlen(const char* str);		// 문자열의 길이 구하기
 	cout << "The length of the str character strlen is " << strlen(str) << "개" << endl;
 	int strn = strlen("abcde");
 	cout << "The length of the abcde character strn is " << strn << "개" << endl;
 
-	char* strcpy(char* strDestination, const char* strSource);				// 문자열 복사하기
+	char* strcpy(char* strDestination, const char* strSource);		// 문자열 복사하기
 	char str10[10] = "KNOU";
 	strcpy(str10, "CS");
-	cout << "The character of str10 is " << str10 << endl;					// CS가 출력됨
+	cout << "The character of str10 is " << str10 << endl;		// CS가 출력됨
 
-	char* strcat(char* strDestination, const char* strSource);				// 문자열 연결하기
+	char* strcat(char* strDestination, const char* strSource);		// 문자열 연결하기
 	char str20[10] = "KNOU";
 	strcat(str20, "CS");
-	cout << "The character of str20 is " << str20 << endl;					// KNOUCS 가 출력됨
+	cout << "The character of str20 is " << str20 << endl;		// KNOUCS 가 출력됨
 
 	char cstr1[10] = "C string";
 	char cstr2[10];
 	char* cstr3;
 	MyString mstr1("MyString Object");
 	MyString mstr2;
-	// cstr2 = cstr1;												// 에러
-	cstr3 = cstr1;													// 포인터 복사 - 문자열을 복사한 것이 아니고 포인트를 복사한 것임
+	// cstr2 = cstr1;		// 에러
+	cstr3 = cstr1;		// 포인터 복사 - 문자열을 복사한 것이 아니고 포인트를 복사한 것임
 	cout << "cstr3 output " << cstr3 << endl;
-	mstr2 = mstr1;													// deep copy
+	mstr2 = mstr1;		// deep copy
 	cout << "mstr2 output " << mstr2 << endl;
 
 	MyString sstr1("MyString class");
 	MyString sstr2("Object Oriented ");
-	MyString sstr3;													// 빈 문자열
+	MyString sstr3;		// 빈 문자열
 
-	cout << "sstr1 is " << sstr1 << endl;							// 문자열 출력
-	sstr3 = "Programming";											// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
+	cout << "sstr1 is " << sstr1 << endl;		// 문자열 출력
+	sstr3 = "Programming";		// C스타일의 문자열을 대입하는 함수는 만들지 않았지만, C스타일의 문자열을 받는 생성자가 있으면 묵시적 형 변환이 일어나 rvalue 형태의 생성자 MyString(const char* str) 가 만들어져서 이동 연산자로 대입됨
 	cout << "The string length of sstr3 is " << sstr3 << ".";
-	cout << sstr3.length() << endl;									// 문자열 길이를 구하는 메소드
-	sstr1 = sstr2;													// 대입 연산자 다중정의로 문자열 복사
+	cout << sstr3.length() << endl;		// 문자열 길이를 구하는 메소드
+	sstr1 = sstr2;		// 대입 연산자 다중정의로 문자열 복사
 	cout << "sstr1 with sstr2 as a substitute is " << sstr1 << endl;
-	sstr1 = sstr2 + sstr3;											// 문자열 연결 연산자 다중정의에 의해 rvalue 가 만들어지고, 그 rvalue를 이동 대입 연산자 다중정의에 의해 이동해 넣음
+	sstr1 = sstr2 + sstr3;		// 문자열 연결 연산자 다중정의에 의해 rvalue 가 만들어지고, 그 rvalue를 이동 대입 연산자 다중정의에 의해 이동해 넣음
 	cout << "sstr1 = sstr2 + sstr3 -----> " << sstr1 << endl;
 
-	Person1 dudley1;												// 기초 클래스의 객체 선언
-	dudley1.setName("Dudley1");										// 기초 클래스의 함수 호출
-	Student1 harry1;												// 파생 클래스의 객체 선언
-	harry1.setName("Harry1");										// 기초 클래스의 함수 호출
-	harry1.setSchool("Hogwarts1");									// 파생 클래스의 함수 호출
+	Person1 dudley1;							// 기초 클래스의 객체 선언
+	dudley1.setName("Dudley1");					// 기초 클래스의 함수 호출
+	Student1 harry1;							// 파생 클래스의 객체 선언
+	harry1.setName("Harry1");					// 기초 클래스의 함수 호출
+	harry1.setSchool("Hogwarts1");				// 파생 클래스의 함수 호출
 	cout << "Run dudley1.print(); ";
-	dudley1.print();												// 기초 클래스의 함수 호출
+	dudley1.print();							// 기초 클래스의 함수 호출
 	cout << endl;
 	cout << "Run harry1.print(); ";
-	harry1.print();													// 파생 클래스의 함수 호출
+	harry1.print();								// 파생 클래스의 함수 호출
 	cout << endl;
 	cout << "Run harry1.Person1::print(); ";
-	harry1.Person1::print();										// 기초 클래스의 함수 호출
+	harry1.Person1::print();					// 기초 클래스의 함수 호출
 	cout << endl;
 
 	Student2 harry2("Harry2", "Hogwarts2");
