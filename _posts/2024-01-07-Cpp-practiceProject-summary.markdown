@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C++: practice project summary"
-date:   2024-01-09 09:00:00 +0900
+date:   2024-01-07 09:00:00 +0900
 categories: [C++]
 ---
 
