@@ -8,7 +8,7 @@ categories: [MariaDB]
 ### Creating a member information table   
 회원정보 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_MEMB (
     USR_NO VARCHAR(5) NOT NULL PRIMARY KEY,
     USR_CLS CHAR(1) NOT NULL,
@@ -29,49 +29,49 @@ CREATE TABLE DBMIRA.TB_MEMB (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 ALTER TABLE DBMIRA.TB_MEMB 
 MODIFY COLUMN USR_NO VARCHAR(5) CHARACTER SET UTF8MB4 COLLATE UTF8MB4_GENERAL_CI NOT NULL COMMENT '회원고유번호'
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 ALTER TABLE TB_MEMB 
 MODIFY USR_PWD VARCHAR(100) AFTER USR_ID
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 ALTER TABLE TB_MEMB 
 DROP PRIMARY KEY
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 ALTER TABLE TB_MEMB 
 ADD PRIMARY KEY(USR_NO)
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 ALTER TABLE TB_MEMB 
 ADD UNIQUE KEY(USR_ID)
-{% endhighlight %}
+```
 
 ### Check the ID and reply to 1 if it's there or 0 if it's not there   
 아이디 확인해서 있으면 1, 없으면 0 회신   
 
-{% highlight sql %}
+```sql
 SELECT EXISTS (
     SELECT USR_ID 
     FROM TB_MEMB 
     WHERE USR_ID="aaaaaa" 
     LIMIT 1
 ) AS IDCHECK
-{% endhighlight %}
+```
 
 ### Check the ID, Password and reply to 1 if it's there or 0 if it's not there   
 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신   
 
-{% highlight sql %}
+```sql
 SELECT EXISTS (
     SELECT USR_ID 
     FROM TB_MEMB 
@@ -79,22 +79,22 @@ SELECT EXISTS (
         AND USR_PWD="11111111!a" 
     LIMIT 1
 ) AS IDPWDCHECK
-{% endhighlight %}
+```
 
 ### Find ID and save the current date, time, host   
 아이디 찾아서 현재날짜, 시간, 호스트 저장   
 
-{% highlight sql %}
+```sql
 UPDATE TB_MEMB
 SET VISIT_DTM = (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     VISIT_HOST = '111.111.111.111'
 WHERE USR_ID = 'iiiddd'
-{% endhighlight %}
+```
 
 ### Creating a member information sequence   
 회원정보 시퀀스 생성   
 
-{% highlight sql %}
+```sql
 CREATE SEQUENCE USR_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -102,12 +102,12 @@ CREATE SEQUENCE USR_SEQ
     MAXVALUE 99999
     NOCYCLE
     NOCACHE
-{% endhighlight %}
+```
 
 ### Join membership   
 회원가입   
 
-{% highlight sql %}
+```sql
 INSERT INTO TB_MEMB 
 VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
@@ -126,12 +126,12 @@ VALUES(
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
 )
-{% endhighlight %}
+```
 
 ### For the first time testing of seller information   
 판매자정보 최초 테스트용   
 
-{% highlight sql %}
+```sql
 INSERT INTO TB_MEMB 
 VALUES(
     LPAD(NEXTVAL(USR_SEQ), 5, '0'),
@@ -150,12 +150,12 @@ VALUES(
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
 )
-{% endhighlight %}
+```
 
 ### Creating a refresh token table   
 리플레시 토큰 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_TOKEN (
     ID VARCHAR(12) NOT NULL PRIMARY KEY,
     USR_ID VARCHAR(12) NOT NULL,
@@ -164,17 +164,17 @@ CREATE TABLE DBMIRA.TB_TOKEN (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 ALTER TABLE TB_TOKEN 
 ADD UNIQUE KEY(USR_ID)
-{% endhighlight %}
+```
 
 ### Create prepaid money table   
 선불머니원장 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_MONEY (
     USR_NO VARCHAR(5) NOT NULL,
     MONEY_NO VARCHAR(8) NOT NULL PRIMARY KEY,
@@ -185,12 +185,12 @@ CREATE TABLE DBMIRA.TB_MONEY (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
 ### Create prepaid money sequence   
 선불머니원장 시퀀스 생성   
 
-{% highlight sql %}
+```sql
 CREATE SEQUENCE MONEY_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -198,8 +198,8 @@ CREATE SEQUENCE MONEY_SEQ
     MAXVALUE 99999
     NOCYCLE
     NOCACHE
-{% endhighlight %}
-
+```
+ㄴㄴㄴㄴㄴㄴ
 {% highlight sql %}
 ALTER TABLE TB_MONEY 
 ADD UNIQUE KEY(USR_NO)
