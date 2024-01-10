@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - CharStack.cpp   
 `CharStack.cpp` : example of verifying stack space // 스택 공간 확인 예제   
    
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include "CharStack.h"
 using namespace std;
@@ -33,4 +33,4 @@ char CharStack::pop() {
 	}
 	return buf[top++];		// top 위치의 데이터 반환
 }
-{% endhighlight %}
+```
