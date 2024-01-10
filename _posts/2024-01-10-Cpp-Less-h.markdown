@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "C++: Less.h : headerFile"
+date:   2024-01-10 09:00:00 +0900
+categories: [C++]
+---
+
+solution 'CppPrjs'   
+project 'FirstStep'   
+   
+### headerFile list - Less.h   
+`Less.h` : template class that compares two values and returns true if the first value is less than the second value - available when implementing an ascending sort function // 두 값을 비교하여 첫번째 값이 두번째 값보다 작은 경우 true를 리턴하는 템플릿 클래스 - 오름차순 정렬 함수 구현 시 사용 가능   
+   
+{% highlight cpp %}
+#pragma once
+
+template<typename T>
+class LESS_T {											// 두 값을 비교하여 첫번째 값이 두번째 값보다 작은 경우 true를 리턴하는 템플릿 클래스 - 오름차순 정렬 함수 구현 시 사용 가능
+public:
+	bool operator () (const T& a, const T& b) const {
+		return a < b;									// 오름차순
+	}
+};
+{% endhighlight %}

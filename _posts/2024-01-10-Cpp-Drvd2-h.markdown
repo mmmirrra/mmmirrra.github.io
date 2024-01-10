@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "C++: Drvd2.h : headerFile"
+date:   2024-01-10 09:00:00 +0900
+categories: [C++]
+---
+
+solution 'CppPrjs'   
+project 'FirstStep'   
+   
+### headerFile list - Drvd2.h   
+`Drvd2.h` : example of determining the range of availability based on permission settings during class inheritance - protected inheritance // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - protected 상속   
+   
+{% highlight cpp %}
+#pragma once
+#include <iostream>
+#include "BaseC.h"
+using namespace std;
+
+class Drvd2 : protected BaseC {			// 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - protected 상속
+public:
+	int sum() const {
+		return geta() + b + c;
+	}
+	void printbc() const {
+		cout << b << ' ' << c;
+	}
+};
+{% endhighlight %}
