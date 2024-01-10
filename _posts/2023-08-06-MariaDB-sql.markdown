@@ -199,16 +199,16 @@ CREATE SEQUENCE MONEY_SEQ
     NOCYCLE
     NOCACHE
 ```
-ㄴㄴㄴㄴㄴㄴ
-{% highlight sql %}
+
+```sql
 ALTER TABLE TB_MONEY 
 ADD UNIQUE KEY(USR_NO)
-{% endhighlight %}
+```
 
 ### For the first test of prepaid money   
 선불머니원장 최초 테스트용   
 
-{% highlight sql %}
+```sql
 INSERT INTO TB_MONEY 
 VALUES(
     '00007',
@@ -217,12 +217,12 @@ VALUES(
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
 )
-{% endhighlight %}
+```
 
 ### Create prepaid money history table   
 선불머니내역 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_MONEYLIST (
     USR_NO VARCHAR(5) NOT NULL,
     MONEY_NO VARCHAR(8) NOT NULL,
@@ -235,12 +235,12 @@ CREATE TABLE DBMIRA.TB_MONEYLIST (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
 ### Create prepaid money history sequence   
 선불머니내역 시퀀스 생성   
 
-{% highlight sql %}
+```sql
 CREATE SEQUENCE CHARGE_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -248,9 +248,9 @@ CREATE SEQUENCE CHARGE_SEQ
     MAXVALUE 99999
     NOCYCLE
     NOCACHE
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 INSERT INTO TB_MONEYLIST 
 VALUES(
     '00050',
@@ -271,12 +271,12 @@ VALUES(
     ),
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s'))
 )
-{% endhighlight %}
+```
 
 ### Creating a merket table   
 가맹점 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_MARKET (
     MARKET_NO VARCHAR(4) NOT NULL PRIMARY KEY,
     MARKET_NM VARCHAR(100) NOT NULL,
@@ -286,12 +286,12 @@ CREATE TABLE DBMIRA.TB_MARKET (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
 ### Create merket sequence   
 가맹점 시퀀스 생성   
 
-{% highlight sql %}
+```sql
 CREATE SEQUENCE MARKET_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -299,12 +299,12 @@ CREATE SEQUENCE MARKET_SEQ
     MAXVALUE 99999
     NOCYCLE
     NOCACHE
-{% endhighlight %}
+```
 
 ### For merket first test   
 가맹점 최초 테스트용   
 
-{% highlight sql %}
+```sql
 INSERT INTO TB_MARKET 
 VALUES(
     LPAD(NEXTVAL(MARKET_SEQ), 4, '0'),
@@ -312,12 +312,12 @@ VALUES(
     (SELECT DATE_FORMAT((SELECT NOW()), '%Y%m%d%H%i%s')),
     ''
 )
-{% endhighlight %}
+```
 
 ### Creating a goods list table   
 상품목록 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_GOODS (
     MARKET_NO VARCHAR(4) NOT NULL,
     SELR_USR_NO VARCHAR(5) NOT NULL,
@@ -343,12 +343,12 @@ CREATE TABLE DBMIRA.TB_GOODS (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
 ### Create a goods list sequence   
 상품목록 시퀀스 생성   
 
-{% highlight sql %}
+```sql
 CREATE SEQUENCE GDS_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -356,12 +356,12 @@ CREATE SEQUENCE GDS_SEQ
     MAXVALUE 99999
     NOCYCLE
     NOCACHE
-{% endhighlight %}
+```
 
 ### For the first test of goods list   
 상품목록 최초 테스트용   
 
-{% highlight sql %}
+```sql
 INSERT INTO TB_GOODS 
 VALUES(
     '0010',
@@ -385,9 +385,9 @@ VALUES(
     '',
     ''
 )
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 SELECT MARKET_NO,
     GDS_NO,
     GDS_NM,
@@ -397,9 +397,9 @@ FROM TB_GOODS
 WHERE GDS_QTT > 0
     AND BUY_YN = 'Y'
 ORDER BY GDS_NM ASC
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 UPDATE TB_GOODS
 SET GDS_QTT = (GDS_QTT - 1),
     GDS_SELL_QTT = (GDS_SELL_QTT + 1),
@@ -407,12 +407,12 @@ SET GDS_QTT = (GDS_QTT - 1),
     EDT_USR_NO = #{edtUsrNo}
 WHERE GDS_NO = #{gdsNo}
     AND MARKET_NO = #{marketNo}
-{% endhighlight %}
+```
 
 ### Creating a purchase history table   
 구매내역 테이블 생성   
 
-{% highlight sql %}
+```sql
 CREATE TABLE DBMIRA.TB_BUYLIST (
     USR_NO VARCHAR(5) NOT NULL,
     MARKET_NO VARCHAR(4) NOT NULL,
@@ -436,12 +436,12 @@ CREATE TABLE DBMIRA.TB_BUYLIST (
 ENGINE=INNODB
 DEFAULT CHARSET=UTF8MB4
 COLLATE=UTF8MB4_GENERAL_CI
-{% endhighlight %}
+```
 
 ### Create purchase history sequence   
 구매내역 시퀀스 생성   
 
-{% highlight sql %}
+```sql
 CREATE SEQUENCE BUY_SEQ
     INCREMENT BY 1
     START WITH 1
@@ -449,46 +449,46 @@ CREATE SEQUENCE BUY_SEQ
     MAXVALUE 99999
     NOCYCLE
     NOCACHE
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 SELECT * 
 FROM TB_BUYLIST
 WHERE USR_NO='00002'
     AND BUY_DT='20230712'
     AND BUY_PAYMENT_CODE = '1'
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 EXPLAIN
 SELECT * 
 FROM TB_BUYLIST
 WHERE USR_NO = '00002'
-{% endhighlight %}
+```
 
 ### Index generation grammar   
 인덱스 생성 문법   
 
-{% highlight sql %}
+```sql
 CREATE OR REPLACE INDEX 인덱스명 
 ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
-{% endhighlight %}
+```
 
 ### (Example) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (TB_BUYLIST)   
 (예제) 게시판(TB_BUYLIST)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우   
 
-{% highlight sql %}
+```sql
 CREATE OR REPLACE INDEX IDX_BUYLIST 
 ON TB_BUYLIST (BUY_DT, BUY_NO DESC)
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 SELECT *
 FROM INFORMATION_SCHEMA.STATISTICS
 WHERE TABLE_SCHEMA = 'DBNAME'
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 SELECT MARKET_NO,
     GDS_NM,
     BUY_NO,
@@ -505,9 +505,9 @@ WHERE DATE(a.BUY_DT) BETWEEN '20230709' AND '20230710'
     AND a.USR_NO = '00002'
     AND BUY_PAYMENT_CODE = 2
 ORDER BY BUY_NO DESC
-{% endhighlight %}
+```
 
-{% highlight sql %}
+```sql
 SELECT ROW_NUMBER () OVER(ORDER BY a.BUY_NO DESC) AS LIST_NO,
     b.MARKET_NM AS MARKET_NO,
     a.GDS_NM,
@@ -527,4 +527,4 @@ WHERE DATE(a.BUY_DT) BETWEEN '20230709' AND '20230710'
     AND a.USR_NO = '00002'
     AND a.BUY_PAYMENT_CODE = 1
 ORDER BY BUY_NO DESC
-{% endhighlight %}
+```
