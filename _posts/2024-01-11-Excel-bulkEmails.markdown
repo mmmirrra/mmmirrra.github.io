@@ -6,19 +6,19 @@ categories: [Excel]
 ---
 
 ### Practice sending bulk emails through Outlook   
-#### Creating a Code   
+#### 1. Creating a Code   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails1-1.png)
    
-#### Creating email List   
+#### 2. Creating email List   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails1-2.png)
    
-#### Create email content   
+#### 3. Create email content   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails1-3.png)
    
-#### Open Macro   
+#### 4. Open Macro   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails1-4.png)
    
-#### Select a macro   
+#### 5. Select a macro   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails1-5.png)
    
 <br>
@@ -48,10 +48,10 @@ Sub SendMail()
         Body = Sheet2.Cells(2, 1).Value                             '메일 본문 Sheet2의 A2 셀 내용
         
         If W_Row < 2 Then
-            MsgBox ("Enter email address")                     '입력된 메일주소 없을 경우 메시지 박스 오픈
+            MsgBox ("Enter email address")                         '입력된 메일주소 없을 경우 메시지 박스 오픈
         
         ElseIf Subject = "" Then
-            MsgBox ("Enter email title")                       '입력된 메일 제목이 없을 경우 메시지 박스 오픈
+            MsgBox ("Enter email title")                           '입력된 메일 제목이 없을 경우 메시지 박스 오픈
         
         ElseIf Body = "" Then
             MsgBox ("Enter the body of email")                       '입력된 메일 본문이 없을 경우 메시지 박스 오픈
@@ -144,19 +144,19 @@ Sub SendMail()
 
             W_Row = Sheet1.Range("A60000").End(xlUp).Row            '끝 행 찾기
 
-            For i = 2 To W_Row              'Sheet1의 2번째 행부터 끝 행인 W_Row 까지 실행
-                M_Add = ""                  '메일 주소 초기화
-                M_name = ""                 '이름 초기화
+            For i = 2 To W_Row                    'Sheet1의 2번째 행부터 끝 행인 W_Row 까지 실행
+                M_Add = ""                        '메일 주소 초기화
+                M_name = ""                       '이름 초기화
 
                 '엑셀 셀 표기 방법 -> (1,1)=(1,A)=A1
                 M_Add = Sheet1.Cells(i, 1)          '메일주소가져오기(2,1)=A2=(2,A)
                 M_name = Sheet1.Cells(i, 2)         '이름가져오기(2,2)=B2=(2, B)
 
                 '메일주소만 추출하기
-                pos = InStr(M_Add, "@")     'abc@naver.com 메일주소에서 @가 있는 자리수 찾기
+                pos = InStr(M_Add, "@")           'abc@naver.com 메일주소에서 @가 있는 자리수 찾기
                 eEmail = Left(M_Add, pos - 1)       '@ 있는 자리수에서 -1만큼 뺀 자리수까지만 데이터 가져오기
 
-                If F_Name <> "" Then        '첨부파일이 있을 경우 실행
+                If F_Name <> "" Then              '첨부파일이 있을 경우 실행
                     File_N = F_Name & "\" & eEmail & "_" & M_name & "_" & "첨부파일.pdf"    '첨부파일 경로 및 이름
                 End If
                                 
@@ -166,13 +166,13 @@ Sub SendMail()
                     Set N_Email = MyOutlook.CreateItem(olMailItem)
 
                     With N_Email
-                        .To = M_Add           '수신인 메일주소
-                        .CC = ""              '참조 메일주소
-                        .Subject = "제목"       '메일 제목
+                        .To = M_Add                 '수신인 메일주소
+                        .CC = ""                    '참조 메일주소
+                        .Subject = "제목"            '메일 제목
                         .Body = Sheet2.Cells(1, 1).Value        'Sheet2의 A1 셀의 내용 가져오기
                         If Response2 = vbYes Then
-                            If (FileChk(File_N)) Then               '첨부파일이 있을 경우 첨부(첨부파일이 없을 경우 첨부하지 않습니다.)
-                                .Attachments.Add File_N                 '첨부파일 첨부
+                            If (FileChk(File_N)) Then           '첨부파일이 있을 경우 첨부(첨부파일이 없을 경우 첨부하지 않습니다.)
+                                .Attachments.Add File_N          '첨부파일 첨부
                             End If
                         End If
                         .Send
@@ -190,19 +190,19 @@ Sub SendMail()
    
 <br>
 ### Practice sending bulk emails through CDO   
-#### Creating a Code   
+#### 1. Creating a Code   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-1.png)
    
-#### Creating email List   
+#### 2. Creating email List   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-2.png)
    
-#### Create email content   
+#### 3. Create email content   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-3.png)
    
-#### Open Macro   
+#### 4. Open Macro   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-4.png)
    
-#### Select a macro   
+#### 5. Select a macro   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-5.png)
    
 <br>
@@ -253,10 +253,10 @@ Sub CDOMail()
         Body = Sheet2.Cells(4, 1).Value                             '메일 본문 Sheet2의 A2 셀 내용
         
         If W_Row < 2 Then
-            MsgBox ("Enter email address")                     '입력된 메일주소 없을 경우 메시지 박스 오픈
+            MsgBox ("Enter email address")                           '입력된 메일주소 없을 경우 메시지 박스 오픈
         
         ElseIf Subject = "" Then
-            MsgBox ("Enter email title")                       '입력된 메일 제목이 없을 경우 메시지 박스 오픈
+            MsgBox ("Enter email title")                             '입력된 메일 제목이 없을 경우 메시지 박스 오픈
         
         ElseIf Body = "" Then
             MsgBox ("Enter the body of email")                       '입력된 메일 본문이 없을 경우 메시지 박스 오픈
