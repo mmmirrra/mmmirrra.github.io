@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Excel: Visual Basic, 매크로 작성 위치"
+title:  "Excel: Visual Basic, Menu for creating macros"
 date:   2024-01-11 09:00:00 +0900
 categories: [Excel]
 ---
