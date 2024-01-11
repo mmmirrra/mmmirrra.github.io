@@ -29,3 +29,4 @@ const selecttestAxios = () => {
 
 
 ![대체 텍스트](/_assets/profile.png)
+![대체 텍스트](_assets/profile.png)
