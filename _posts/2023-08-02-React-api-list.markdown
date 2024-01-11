@@ -25,5 +25,7 @@ const selecttestAxios = () => {
 ```
 
 
-<img src="{{ site.baseurl }}/_assets/profile.png" />
 <img src="https://th.bing.com/th?id=ORMS.940b39079df29728d2d4883226a4a05f&pid=Wdp&w=300&h=156&qlt=90&c=1&rs=1&dpr=1&p=0" />
+
+
+![대체 텍스트](./_assets/profile.png)
