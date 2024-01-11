@@ -166,13 +166,13 @@ Sub SendMail()
                     Set N_Email = MyOutlook.CreateItem(olMailItem)
 
                     With N_Email
-                        .To = M_Add                              '수신인 메일주소
-                        .CC = ""                                 '참조 메일주소
-                        .Subject = "제목"                        '메일 제목
+                        .To = M_Add                               '수신인 메일주소
+                        .CC = ""                                  '참조 메일주소
+                        .Subject = "제목"                         '메일 제목
                         .Body = Sheet2.Cells(1, 1).Value          'Sheet2의 A1 셀의 내용 가져오기
                         If Response2 = vbYes Then
                             If (FileChk(File_N)) Then            '첨부파일이 있을 경우 첨부(첨부파일이 없을 경우 첨부하지 않습니다.)
-                                .Attachments.Add File_N          '첨부파일 첨부
+                                .Attachments.Add File_N           '첨부파일 첨부
                             End If
                         End If
                         .Send
