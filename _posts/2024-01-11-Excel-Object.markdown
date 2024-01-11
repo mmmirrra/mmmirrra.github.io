@@ -10,7 +10,7 @@ Large range of Object -->>> Small range of Object // 큰 범위의 오브젝트 
 `Excel Object > Workbook Object > Sheet Object > Cell Object > row, col (Objects by each range)`   
    
 <br>
-#### Using Objects   
+#### Using Object   
 - Cell is disabled by default. When a cell is selected, the state changes to active. // 셀은 디폴트 비활성화 상태임. 셀이 선택되면 active로 상태가 변함   
    
 - Multiple cells can be selected to use range // 셀을 여러개 선택하면 range를 사용할 수 있음   
