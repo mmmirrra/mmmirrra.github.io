@@ -897,12 +897,12 @@ int main() {
 	addrbook.erase("Kim");						// 키가 가리키는 항목 삭제
 
 	map<string, string, LESS_T<string>> pBook{			// LESS_T 기준으로 정렬
-		{"Han", "O1O-0000-0000"},
-		{"Park", "O1O-0000-0001"}
+		{"Han", "o1o-0000-0000"},
+		{"Park", "o1o-0000-0001"}
 	};
-	pBook["Kim"] = "O1O-0000-0002";					// 기존 항목이 없으므로 새로운 항목 추가됨
-	pBook.insert(make_pair("Choi", "O1O-0000-0003"));		// 새로운 항목 추가됨
-	pBook.insert({ "Park", "O1O-0000-0004" });			// 이미 있는 키 이므로 insert 되지 않고 무시됨
+	pBook["Kim"] = "o1o-0000-0002";					// 기존 항목이 없으므로 새로운 항목 추가됨
+	pBook.insert(make_pair("Choi", "o1o-0000-0003"));		// 새로운 항목 추가됨
+	pBook.insert({ "Park", "o1o-0000-0004" });			// 이미 있는 키 이므로 insert 되지 않고 무시됨
 	for (auto pb = pBook.begin(); pb != pBook.end(); ++pb)
 		cout << pb->first << " " << pb->second << endl;	// pb->first는 첫번째 값이므로 이름이, pb->second는 두번째 값이므로 전화번호가 키 순서대로 출력됨
 	cout << pBook.size() << "person is registered." << endl;
