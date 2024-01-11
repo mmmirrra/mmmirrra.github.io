@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Excel: Visual Basic, Menu for creating macros"
+title:  "Excel: Visual Basic, Menu for creating macro"
 date:   2024-01-11 09:00:00 +0900
 categories: [Excel]
 ---
