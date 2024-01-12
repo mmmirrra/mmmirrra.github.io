@@ -6,7 +6,7 @@ categories: [MariaDB]
 ---
 
 ### Creating a member information table   
-회원정보 테이블 생성   
+// 회원정보 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_MEMB (
@@ -57,7 +57,7 @@ ADD UNIQUE KEY(USR_ID)
 ```
 
 ### Check the ID and reply to 1 if it's there or 0 if it's not there   
-아이디 확인해서 있으면 1, 없으면 0 회신   
+// 아이디 확인해서 있으면 1, 없으면 0 회신   
 
 ```sql
 SELECT EXISTS (
@@ -69,7 +69,7 @@ SELECT EXISTS (
 ```
 
 ### Check the ID, Password and reply to 1 if it's there or 0 if it's not there   
-아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신   
+// 아이디, 비밀번호 확인해서 있으면 1, 없으면 0 회신   
 
 ```sql
 SELECT EXISTS (
@@ -82,7 +82,7 @@ SELECT EXISTS (
 ```
 
 ### Find ID and save the current date, time, host   
-아이디 찾아서 현재날짜, 시간, 호스트 저장   
+// 아이디 찾아서 현재날짜, 시간, 호스트 저장   
 
 ```sql
 UPDATE TB_MEMB
@@ -92,7 +92,7 @@ WHERE USR_ID = 'iiiddd'
 ```
 
 ### Creating a member information sequence   
-회원정보 시퀀스 생성   
+// 회원정보 시퀀스 생성   
 
 ```sql
 CREATE SEQUENCE USR_SEQ
@@ -105,7 +105,7 @@ CREATE SEQUENCE USR_SEQ
 ```
 
 ### Join membership   
-회원가입   
+// 회원가입   
 
 ```sql
 INSERT INTO TB_MEMB 
@@ -129,7 +129,7 @@ VALUES(
 ```
 
 ### For the first time testing of seller information   
-판매자정보 최초 테스트용   
+// 판매자정보 최초 테스트용   
 
 ```sql
 INSERT INTO TB_MEMB 
@@ -153,7 +153,7 @@ VALUES(
 ```
 
 ### Creating a refresh token table   
-리플레시 토큰 테이블 생성   
+// 리플레시 토큰 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_TOKEN (
@@ -172,7 +172,7 @@ ADD UNIQUE KEY(USR_ID)
 ```
 
 ### Create prepaid money table   
-선불머니원장 테이블 생성   
+// 선불머니원장 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_MONEY (
@@ -188,7 +188,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ```
 
 ### Create prepaid money sequence   
-선불머니원장 시퀀스 생성   
+// 선불머니원장 시퀀스 생성   
 
 ```sql
 CREATE SEQUENCE MONEY_SEQ
@@ -206,7 +206,7 @@ ADD UNIQUE KEY(USR_NO)
 ```
 
 ### For the first test of prepaid money   
-선불머니원장 최초 테스트용   
+// 선불머니원장 최초 테스트용   
 
 ```sql
 INSERT INTO TB_MONEY 
@@ -220,7 +220,7 @@ VALUES(
 ```
 
 ### Create prepaid money history table   
-선불머니내역 테이블 생성   
+// 선불머니내역 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_MONEYLIST (
@@ -238,7 +238,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ```
 
 ### Create prepaid money history sequence   
-선불머니내역 시퀀스 생성   
+// 선불머니내역 시퀀스 생성   
 
 ```sql
 CREATE SEQUENCE CHARGE_SEQ
@@ -274,7 +274,7 @@ VALUES(
 ```
 
 ### Creating a merket table   
-가맹점 테이블 생성   
+// 가맹점 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_MARKET (
@@ -289,7 +289,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ```
 
 ### Create merket sequence   
-가맹점 시퀀스 생성   
+// 가맹점 시퀀스 생성   
 
 ```sql
 CREATE SEQUENCE MARKET_SEQ
@@ -302,7 +302,7 @@ CREATE SEQUENCE MARKET_SEQ
 ```
 
 ### For merket first test   
-가맹점 최초 테스트용   
+// 가맹점 최초 테스트용   
 
 ```sql
 INSERT INTO TB_MARKET 
@@ -315,7 +315,7 @@ VALUES(
 ```
 
 ### Creating a goods list table   
-상품목록 테이블 생성   
+// 상품목록 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_GOODS (
@@ -346,7 +346,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ```
 
 ### Create a goods list sequence   
-상품목록 시퀀스 생성   
+// 상품목록 시퀀스 생성   
 
 ```sql
 CREATE SEQUENCE GDS_SEQ
@@ -359,7 +359,7 @@ CREATE SEQUENCE GDS_SEQ
 ```
 
 ### For the first test of goods list   
-상품목록 최초 테스트용   
+// 상품목록 최초 테스트용   
 
 ```sql
 INSERT INTO TB_GOODS 
@@ -410,7 +410,7 @@ WHERE GDS_NO = #{gdsNo}
 ```
 
 ### Creating a purchase history table   
-구매내역 테이블 생성   
+// 구매내역 테이블 생성   
 
 ```sql
 CREATE TABLE DBMIRA.TB_BUYLIST (
@@ -439,7 +439,7 @@ COLLATE=UTF8MB4_GENERAL_CI
 ```
 
 ### Create purchase history sequence   
-구매내역 시퀀스 생성   
+// 구매내역 시퀀스 생성   
 
 ```sql
 CREATE SEQUENCE BUY_SEQ
@@ -467,7 +467,7 @@ WHERE USR_NO = '00002'
 ```
 
 ### Index generation grammar   
-인덱스 생성 문법   
+// 인덱스 생성 문법   
 
 ```sql
 CREATE OR REPLACE INDEX 인덱스명 
@@ -475,7 +475,7 @@ ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
 ```
 
 ### (Example) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (TB_BUYLIST)   
-(예제) 게시판(TB_BUYLIST)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우   
+// (예제) 게시판(TB_BUYLIST)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우   
 
 ```sql
 CREATE OR REPLACE INDEX IDX_BUYLIST 

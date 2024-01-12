@@ -13,7 +13,8 @@ main() sourceFile
 `FirstStep.cpp` : C++ practice project main function   
    
 etc sourceFile   
-`CharStack.cpp` : example of verifying stack space // 스택 공간 확인 예제   
+// 스택 공간 확인 예제   
+`CharStack.cpp` : example of verifying stack space   
 `Complex1.cpp` : example of calculating complex number - integer // 복소수 계산 예제 - 정수   
 `Complex2.cpp` : example of calculating complex number - real numbers // 복소수 계산 예제 - 실수   
 `Counter.cpp` : example of a function defined outside of a header file // 헤더파일 외부에 정의하는 함수 예제   

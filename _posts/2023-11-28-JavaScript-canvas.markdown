@@ -20,8 +20,8 @@ categories: [JavaScript]
 </script>
 <body onload="callCanvas();">
     <canvas id="myCanvas" width="350px" height="200px" style="border: 1px solid red; background-color: lightgreen">
-        This browser does not support the canvas element in HTML5.   
         // 이 브라우저는 HTML5의 canvas 요소를 지원하지 않습니다.
+        This browser does not support the canvas element in HTML5.   
     </canvas>
 </body>
 `
@@ -44,8 +44,8 @@ categories: [JavaScript]
     </head>
     <body onload="callCanvas();">
         <canvas id="myCanvas" width="350px" height="200px" style="border: 1px solid red; background-color: lightgreen">
-            This browser does not support the canvas element in HTML5.   
             // 이 브라우저는 HTML5의 canvas 요소를 지원하지 않습니다.
+            This browser does not support the canvas element in HTML5.   
         </canvas>
     </body>
 </html>
