@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React: To change the execution policy of cmd"
-date:   2024-01-12 09:00:00 +0900
+date:   2024-01-14 09:00:00 +0900
 categories: [React]
 ---
 
