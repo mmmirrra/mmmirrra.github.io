@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Excel: Use Excel to send bulk emails"
-date:   2024-01-11 09:00:00 +0900
+date:   2024-01-12 09:00:00 +0900
 categories: [Excel]
 ---
 
