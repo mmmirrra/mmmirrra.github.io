@@ -10,7 +10,7 @@ project 'FirstStep'
    
 ### sourceFile list - etc sourceFile - Complex2.cpp   
 // 복소수 계산 예제 - 실수   
-`Complex2.cpp` : example of calculating complex number - real numbers   
+`Complex2.cpp` : example of calculating complex number - real number   
    
 ```cpp
 #include <iostream>

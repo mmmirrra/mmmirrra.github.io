@@ -18,7 +18,7 @@ etc sourceFile
 // 복소수 계산 예제 - 정수   
 `Complex1.cpp` : example of calculating complex number - integer   
 // 복소수 계산 예제 - 실수   
-`Complex2.cpp` : example of calculating complex number - real numbers   
+`Complex2.cpp` : example of calculating complex number - real number   
 // 헤더파일 외부에 정의하는 함수 예제   
 `Counter.cpp` : example of a function defined outside of a header file   
 // 사용자 정의 객체 오류 처리 예제   
@@ -50,7 +50,7 @@ etc sourceFile
 // 복소수 계산 예제 - 정수   
 `Complex1.h` : example of calculating complex number - integer   
 // 복소수 계산 예제 - 실수   
-`Complex2.h` : example of calculating complex number - real numbers   
+`Complex2.h` : example of calculating complex number - real number   
 // 헤더파일 외부에 정의하는 함수 예제 - 클릭 시 숫자가 올라가는 숫자 누적 계산기   
 `Counter.h` : example of a function defined outside of a header file - a numeric accumulator that increases the number when clicked   
 // 카운터가 최대값에 도달했을 때 0으로 리셋되는 숫자 누적 계산기   
