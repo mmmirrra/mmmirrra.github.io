@@ -14,10 +14,10 @@ categories: [React]
 <br>
 #### Description of 1 // 1에 대한 설명   
    
-// d 드라이브의 `SPC9_20230406 > ssr-recipe` 폴더에서 `node scripts/build.server.js` 명령어 실행함   
+// d 드라이브의 'SPC9_20230406 > ssr-recipe' 폴더에서 'node scripts/build.server.js' 명령어 실행함   
 Executed command 'node scripts/build.server.js' in folder 'SPC9_20230406> ssr-recipe' on drive d   
    
 #### Description of 2 // 2에 대한 설명   
    
-// 'ValicationError' 발생한 예시: ‘option’은 알 수 없는 값이라고 함. 가능한 값 중에 ‘options’가 있음. `scripts/build.server.js` 파일에서 ‘option’을 ‘options’로 수정해서 재실행하니 오류없이 실행됨   
+// 'ValicationError' 발생한 예시: ‘option’은 알 수 없는 값이라고 함. 가능한 값 중에 ‘options’가 있음. 'scripts/build.server.js' 파일에서 ‘option’을 ‘options’로 수정해서 재실행하니 오류없이 실행됨   
 Example of 'ValidationError': 'option' is an unknown value. Among the possible values, there is 'options'. In the file 'scripts/build.server.js', 'option' was modified to 'options' and re-executed. Runs without errors.   
