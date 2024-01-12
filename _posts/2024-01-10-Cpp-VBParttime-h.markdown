@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - VBParttime.h   
-`VBParttime.h` : class that inherit Student5 class and Employee2 class - Parttime2 class // Student5와 Employee2를 상속받는 클래스 - Parttime2 클래스   
+`VBParttime.h` : class that inherit Student5 class and Employee2 class - Parttime2 class   
+// Student5와 Employee2를 상속받는 클래스 - Parttime2 클래스   
    
 ```cpp
 #pragma once

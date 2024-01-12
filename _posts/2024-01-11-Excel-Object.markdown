@@ -7,7 +7,7 @@ categories: [Excel]
 
 #### Object structure   
 Large range of Object -->>> Small range of Object   
-  // 큰 범위의 오브젝트 -->> 작은 범위의 오브젝트로 구성됨   
+// 큰 범위의 오브젝트 -->> 작은 범위의 오브젝트로 구성됨   
 `Excel Object > Workbook Object > Sheet Object > Cell Object > row, col (Objects by each range)`   
    
 <br>
