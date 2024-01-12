@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "React: How to check logs in cmd
-cmd log prompt"
+title:  "React: How to check logs in cmd"
 date:   2024-01-12 09:00:00 +0900
 categories: [React]
 ---
