@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React: First installation - in VSCode"
-date:   2024-01-12 09:00:00 +0900
+date:   2024-01-14 09:00:00 +0900
 categories: [React]
 ---
 
@@ -28,7 +28,7 @@ categories: [React]
 // 프론트 화면에서 화면끼리 이동을 할 수 있는 'router' 패키지 추가하는 방법   
    
 ```react
-npm install react-router-domm
+npm install react-router-dom
 ```
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/reactInstall5.png)
