@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VSCode: application"
-date:   2024-01-12 09:00:00 +0900
+date:   2024-01-13 09:00:00 +0900
 categories: [VSCode]
 ---
 
