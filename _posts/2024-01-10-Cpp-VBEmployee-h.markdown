@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - VBEmployee.h   
-`VBEmployee.h` : Employee2 class inherits Person5 class as a virtual base class // Person5 클래스를 가상 기초 클래스로 상속받는 클래스 Employee2   
+`VBEmployee.h` : Employee2 class inherits Person5 class as a virtual base class   
+// Person5 클래스를 가상 기초 클래스로 상속받는 클래스 Employee2   
    
 ```cpp
 #pragma once

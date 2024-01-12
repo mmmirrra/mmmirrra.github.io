@@ -6,19 +6,26 @@ categories: [Eclipse]
 ---
 
 ### Keys Change Menu // 단축키 변경 메뉴   
-`Window >> Preferences >> General >> Keys` : All keys in Eclipse can be checked and changed // 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
+`Window >> Preferences >> General >> Keys` : All keys in Eclipse can be checked and changed   
+// 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
    
 <br />
 ### Show Key Assist // 단축키 힌트 보기   
-`Ctrl + Shift + L` : Show Key Assist // 단축키 힌트 보기   
+`Ctrl + Shift + L` : Show Key Assist   
+// 단축키 힌트 보기   
    
 <br />
 ### Editing // 편집   
-`Tab` : Indent // 들여쓰기   
-`Shift + Tab` : Outdent // 내어쓰기   
-`Ctrl + Z` : Undo // 실행취소   
-`Ctrl + Y` : Redo // 실행취소 되돌리기   
-`Ctrl + D` : Delete Line // 한줄 삭제   
+`Tab` : Indent   
+// 들여쓰기   
+`Shift + Tab` : Outdent   
+// 내어쓰기   
+`Ctrl + Z` : Undo   
+// 실행취소   
+`Ctrl + Y` : Redo   
+// 실행취소 되돌리기   
+`Ctrl + D` : Delete Line   
+// 한줄 삭제   
 `Ctrl + Shift + Delete` : Delete to End of Line // 줄 끝까지 삭제   
 `Ctrl + Delete` : Delete Next Word // 다음 요소 삭제   
 `Ctrl + Backspace` : Delete Previous Word // 이전 요소 삭제   

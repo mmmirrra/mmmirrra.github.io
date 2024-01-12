@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - Triangle.h   
-`Triangle.h` : detail class - example of a triangle class drawing a triangle // 상세 클래스 - 삼각형을 그리는 삼각형 클래스 예제   
+`Triangle.h` : detail class - example of a triangle class drawing a triangle   
+// 상세 클래스 - 삼각형을 그리는 삼각형 클래스 예제   
    
 ```cpp
 #pragma once
