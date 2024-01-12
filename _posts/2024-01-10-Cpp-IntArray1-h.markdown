@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - IntArray1.h   
-`IntArray1.h` : example of error handling of a custom object - returns a subscript with an error // 사용자 정의 객체 오류 처리 예제 - 오류가 발생한 첨자 리턴   
+// 사용자 정의 객체 오류 처리 예제 - 오류가 발생한 첨자 리턴   
+`IntArray1.h` : example of error handling of a custom object - returns a subscript with an error   
    
 ```cpp
 #pragma once

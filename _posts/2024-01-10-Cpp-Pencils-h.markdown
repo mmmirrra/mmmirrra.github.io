@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - Pencils.h   
-`Pencils.h` : example of prefix and postfix for ++ operator - calculate the number of pencil bundles and individuals // ++연산자 전위 표기, 후위 표기 예제 - 연필 묶음과 낱개의 개수 계산   
+// ++연산자 전위 표기, 후위 표기 예제 - 연필 묶음과 낱개의 개수 계산   
+`Pencils.h` : example of prefix and postfix for ++ operator - calculate the number of pencil bundles and individuals   
    
 ```cpp
 #pragma once

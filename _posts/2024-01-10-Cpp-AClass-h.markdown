@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - AClass.h   
-`AClass.h` : abstract class - unable to create object // 추상 클래스 - 객체를 만들 수 없음   
+// 추상 클래스 - 객체를 만들 수 없음   
+`AClass.h` : abstract class - unable to create object   
    
 ```cpp
 #pragma once

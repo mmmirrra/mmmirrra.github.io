@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### sourceFile list - etc sourceFile - IntArray1.cpp   
-`IntArray1.cpp` : example of error handling of a custom object // 사용자 정의 객체 오류 처리 예제   
+// 사용자 정의 객체 오류 처리 예제   
+`IntArray1.cpp` : example of error handling of a custom object   
    
 ```cpp
 #include "IntArray1.h"

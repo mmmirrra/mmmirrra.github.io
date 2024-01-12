@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - MyString.h   
-`MyString.h` : example of multiple definitions of an operator so that a string can be computed like an integer // 문자열을 정수처럼 계산할 수 있도록 연산자를 다중정의하는 예제   
+// 문자열을 정수처럼 계산할 수 있도록 연산자를 다중정의하는 예제   
+`MyString.h` : example of multiple definitions of an operator so that a string can be computed like an integer   
    
 ```cpp
 #pragma once

@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - NamedObj.h   
-`NamedObj.h` : example of how constructor and destructor work // 생성자, 소멸자 동작 예제   
+// 생성자, 소멸자 동작 예제   
+`NamedObj.h` : example of how constructor and destructor work   
    
 ```cpp
 #pragma once NAMEDOBJ_H_INCLOUDED

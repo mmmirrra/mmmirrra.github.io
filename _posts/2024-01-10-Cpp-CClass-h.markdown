@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - CClass.h   
-`CClass.h` : detail class - able to create object // 상세 클래스 - 객체를 만들 수 있음   
+// 상세 클래스 - 객체를 만들 수 있음   
+`CClass.h` : detail class - able to create object   
    
 ```cpp
 #pragma once

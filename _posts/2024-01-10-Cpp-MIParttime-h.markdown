@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - MIParttime.h   
-`MIParttime.h` : class that receive multiple inheritances - multiple inheritance of class in the MIEployee.h and MISstudent.h files // 클래스를 다중상속 받는 클래스 - MIEmployee.h 와 MIStudent.h 파일의 클래스를 다중상속   
+// 클래스를 다중상속 받는 클래스 - MIEmployee.h 와 MIStudent.h 파일의 클래스를 다중상속   
+`MIParttime.h` : class that receive multiple inheritances - multiple inheritance of class in the MIEployee.h and MISstudent.h files   
    
 ```cpp
 #pragma once

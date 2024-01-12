@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### sourceFile list - etc sourceFile - Complex1.cpp   
-`Complex1.cpp` : example of calculating complex number - integer // 복소수 계산 예제 - 정수   
+// 복소수 계산 예제 - 정수   
+`Complex1.cpp` : example of calculating complex number - integer   
    
 ```cpp
 #include <iostream>

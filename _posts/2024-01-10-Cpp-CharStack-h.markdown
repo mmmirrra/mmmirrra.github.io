@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - CharStack.h   
-`CharStack.h` : example of verifying stack space // 스택 공간 확인 예제   
+// 스택 공간 확인 예제   
+`CharStack.h` : example of verifying stack space   
    
 ```cpp
 #pragma once

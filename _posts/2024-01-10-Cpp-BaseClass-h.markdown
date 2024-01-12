@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - BaseClass.h   
-`BaseClass.h` : example of creating a virtual function of a destructor in a base class // 기초 클래스의 소멸자를 가상함수로 만드는 예제   
+// 기초 클래스의 소멸자를 가상함수로 만드는 예제   
+`BaseClass.h` : example of creating a virtual function of a destructor in a base class   
    
 ```cpp
 #pragma once

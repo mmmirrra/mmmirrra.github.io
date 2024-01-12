@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - IntClass2.h   
-`IntClass2.h` : postfix ++ operator multiple definitions // 후위 표기 ++ 연산자 다중정의   
+// 후위 표기 ++ 연산자 다중정의   
+`IntClass2.h` : postfix ++ operator multiple definitions   
    
 ```cpp
 #pragma once

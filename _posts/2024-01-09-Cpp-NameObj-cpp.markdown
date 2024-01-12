@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### sourceFile list - etc sourceFile - NamedObj.cpp   
-`NamedObj.cpp` : example of how constructor and destructor work // 생성자, 소멸자 동작 예제   
+// 생성자, 소멸자 동작 예제   
+`NamedObj.cpp` : example of how constructor and destructor work   
    
 ```cpp
 #include <cstring>

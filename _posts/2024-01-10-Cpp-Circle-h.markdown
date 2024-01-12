@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - Circle.h   
-`Circle.h` : detail class - example of a circle class drawing a circle // 상세 클래스 - 원을 그리는 원 클래스 예제   
+// 상세 클래스 - 원을 그리는 원 클래스 예제   
+`Circle.h` : detail class - example of a circle class drawing a circle   
    
 ```cpp
 #pragma once

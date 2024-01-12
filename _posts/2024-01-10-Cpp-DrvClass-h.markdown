@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - DrvClass.h   
-`DrvClass.h` : example of a detail class that inherits a base class with an destructor defined as a virtual function // 가상함수로 정의된 소멸자를 가진 기초 클래스를 상속받는 상세 클래스 예제   
+// 가상함수로 정의된 소멸자를 가진 기초 클래스를 상속받는 상세 클래스 예제   
+`DrvClass.h` : example of a detail class that inherits a base class with an destructor defined as a virtual function   
    
 ```cpp
 #pragma once

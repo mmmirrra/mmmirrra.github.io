@@ -9,7 +9,8 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - SafeIntArray.h   
-`SafeIntArray.h` : example of verifying that subscripts are accessible by data storage space // 데이터 저장공간에 따른 첨자 접근 가능여부를 확인하는 예제   
+// 데이터 저장공간에 따른 첨자 접근 가능여부를 확인하는 예제   
+`SafeIntArray.h` : example of verifying that subscripts are accessible by data storage space   
    
 ```cpp
 #pragma once
