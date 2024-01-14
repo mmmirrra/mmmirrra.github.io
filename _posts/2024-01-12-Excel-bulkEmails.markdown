@@ -218,17 +218,17 @@ Sub CDOMail()
     'COD 메일링 환경설정
     Set iMsg = New CDO.Message
     Set iConf = New CDO.Configuration
-    from = "mira.kim@e4net.net"
+    from = "emailaddress@aaa.com"
     
     'CDO Source Defaults
     iConf.Load cdoDefaults
     With iConf.Fields
-        .Item(cdoSMTPServer) = "e4net.net"                          'SMTP 서버
+        .Item(cdoSMTPServer) = "aaa.com"                          'SMTP 서버
         .Item(cdoSendUsingMethod) = cdoSendUsingPort                '보내는 방법을 어떤것을 사용할 건지 선택, 포트, 픽업
         .Item(cdoSMTPServerPort) = 25                               'SMTP 서버 포트
         .Item(cdoSMTPUseSSL) = True                                 'smtp서버에서 ssl 사용 유무
-        .Item(cdoSendUserName) = "mira.kim"                         '계정 ID
-        .Item(cdoSendPassword) = "rlaalfk1234!"                     '계정 암호
+        .Item(cdoSendUserName) = "emailaddress"                         '계정 ID
+        .Item(cdoSendPassword) = "password"                     '계정 암호
         .Item(cdoSMTPAuthenticate) = 1
         .Update
     End With
