@@ -15,6 +15,7 @@ categories: [Git]
 // 터미널에서 실행할 파일이 있는 디렉토리까지 진입하여 'checkout' 실행해보기   
 `git checkout directory` : Enter the directory with files to run through the terminal and try 'checkout'   
    
+<br>
 #### Example   
 Run 'git checkout filename' from 'mobile-be-api' folder on drive d:   
 'git checkout' is a feature that ignores my local file and overwrites it with the file 'git'   
