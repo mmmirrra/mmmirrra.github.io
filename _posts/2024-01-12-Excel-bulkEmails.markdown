@@ -21,7 +21,7 @@ categories: [Excel]
 #### 5. Select a macro   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails1-5.png)
    
-<br>
+<br />
 #### Full Code   
 ```visualbasic
 Sub SendMail()
@@ -93,7 +93,7 @@ Sub SendMail()
 End Sub
 ```
    
-<br>
+<br />
 ### Samples with attachments   
 ```visualbasic
 '첨부파일 유무 체크하는 함수
@@ -188,7 +188,7 @@ Sub SendMail()
  End Sub
 ```
    
-<br>
+<br />
 ### Practice sending bulk emails through CDO   
 #### 1. Creating a Code   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-1.png)
@@ -205,7 +205,7 @@ Sub SendMail()
 #### 5. Select a macro   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelBulkEmails2-5.png)
    
-<br>
+<br />
 #### Full Code   
 ```visualbasic
 Sub CDOMail()
@@ -302,7 +302,7 @@ Sub CDOMail()
 End Sub
 ```
    
-<br>
+<br />
 ### Download Sample Excel   
 // 샘플 엑셀 다운로드   
    

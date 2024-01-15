@@ -33,7 +33,7 @@ categories: [Excel]
 #### * 연결 속성 창의 '사용 위치' 탭에서 화면내에 사용된 셀의 범위를 확인할 수 있음   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelImportHtml1-9.png)
    
-<br>
+<br />
 ### Import using macro code   
 #### 1. html 주소로 가져오는 매크로 작성   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelImportHtml2-1.png)
@@ -47,7 +47,7 @@ categories: [Excel]
 #### 4. 화면에 가져온 텍스트를 확인할 수 있음   
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelImportHtml2-4.png)
    
-<br>
+<br />
 #### Full Code   
 ```visualbasic
 Option Explicit
@@ -103,7 +103,7 @@ Sub ImportExchange()
 End Sub
 ```
    
-<br>
+<br />
 ### Download Sample Excel   
 // 샘플 엑셀 다운로드   
    

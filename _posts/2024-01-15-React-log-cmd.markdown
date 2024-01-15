@@ -10,12 +10,12 @@ categories: [React]
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/reactLogsCmd.png)
    
-<br>
+<br />
 #### Description of 1   
 // 1에 대한 설명   
    
-// d 드라이브의 'SPC9_20230406 > ssr-recipe' 폴더에서 'node scripts/build.server.js' 명령어 실행함   
-Executed command 'node scripts/build.server.js' in folder 'SPC9_20230406> ssr-recipe' on drive d   
+// d 드라이브의 ' ssr-recipe' 폴더에서 'node scripts/build.server.js' 명령어 실행함   
+Executed command 'node scripts/build.server.js' in folder 'ssr-recipe' on drive d   
    
 #### Description of 2  
 // 2에 대한 설명   

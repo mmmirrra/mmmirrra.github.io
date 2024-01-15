@@ -19,7 +19,7 @@ categories: [React]
 5. Enter 'npm run build' in the terminal window after project installation is completed. Enter 'npm start' after completion   
 6. When accessing 'localhost:3000' in the Internet window, when the screen is activated, complete   
    
-<br>
+<br />
 #### Create 'package.json' file   
 // 'package.json' 파일 만들기   
    
@@ -27,7 +27,7 @@ categories: [React]
 npm init -y
 ```
    
-<br>
+<br />
 #### If yarn doesn't run, delete cache and try 'yarn install' again   
 // yarn 실행안되면 캐시 지우고 'yarn install' 다시 해보기   
    
@@ -35,7 +35,7 @@ npm init -y
 yarn cache clean --force
 ```
    
-<br>
+<br />
 #### Upgrade the yarn version (-> This may clear the package settings)   
 // yarn 버전 업그레이드 (-> 이거하면 패키지 설정 날아갈 수 있음)   
    
@@ -49,7 +49,7 @@ Press `Ctrl + space` to select the full list
 // 'Shift + space' 누르면 개별 목록 선택됨   
 Press `Shift + space` to select individual list   
    
-<br>
+<br />
 #### Install storybook (I erased the yarn cache)   
 // storybook 설치 (yarn 캐시 지우고 했음)   
    
@@ -57,7 +57,7 @@ Press `Shift + space` to select individual list
 npx -p @storybook/cli sb init -f
 ```
    
-<br>
+<br />
 #### When the storybook does not run   
 // storybook 실행 안될 때   
    
@@ -71,7 +71,7 @@ Enter this and run the command below
 yarn storybook
 ```
    
-<br>
+<br />
 #### Upgrade the storybook version (-> will delete the main.js setting)   
 // storybook 버전 업그레이드 (-> 이거하면 main.js 설정 날아감)   
    

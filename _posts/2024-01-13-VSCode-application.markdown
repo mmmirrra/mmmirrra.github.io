@@ -12,7 +12,7 @@ categories: [VSCode]
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/vscodeApplication2.png)
    
-<br>
+<br />
 #### List of applications installed during practice   
 // 실습 시 설치하였던 어플리케이션 목록   
    
