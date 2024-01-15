@@ -12,9 +12,7 @@ categories: [PuTTY]
    
 <br>
 #### How to view real-time logs   
-// 실시간 로그 보는 방법   
    
-<br>
 // 방법 1. 로그인 한 뒤 './로그파일명logs.sh'를 입력하고 'Enter' 치면 실행됨   
 // 방법 2. 'tail -f /디렉토리/로그파일명.log'를 입력하고 'Enter' 치면 실행됨   
 // 방법 3. '/디렉토리/로그파일명logs.sh'를 입력하고 'Enter' 치면 실행됨   
