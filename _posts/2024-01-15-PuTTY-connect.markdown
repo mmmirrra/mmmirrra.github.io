@@ -14,13 +14,13 @@ categories: [PuTTY]
 #### How to view real-time logs   
 // 실시간 로그 보는 방법   
    
+<br>
 // 방법 1. 로그인 한 뒤 './로그파일명logs.sh'를 입력하고 'Enter' 치면 실행됨   
-1. After logging in, type './log filename logs.sh' and type 'Enter' to execute   
-   
 // 방법 2. 'tail -f /디렉토리/로그파일명.log'를 입력하고 'Enter' 치면 실행됨   
-2. Run by typing 'tail -f / directory/log filename.log' and 'Enter'   
-   
 // 방법 3. '/디렉토리/로그파일명logs.sh'를 입력하고 'Enter' 치면 실행됨   
+   
+1. After logging in, type './log filename logs.sh' and type 'Enter' to execute   
+2. Run by typing 'tail -f / directory/log filename.log' and 'Enter'   
 3. Run by typing '/directory/log filename logs.sh' and 'Enter'   
    
 <br>
