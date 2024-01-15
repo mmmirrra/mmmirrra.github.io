@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - Person.h   
+   
 // 메모리 동적 할당 예제 - 이름과 주소를 가진 객체 생성자에 동적 할당 적용   
 `Person.h` : example of dynamically allocating memory - dynamic assignment of memory to the constructors of objects with names and addresses   
    

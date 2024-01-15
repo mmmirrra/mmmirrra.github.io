@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - Person2.h   
+   
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   
 `Person2.h` : examples of base class and derived class - base class - without virtual function   
    

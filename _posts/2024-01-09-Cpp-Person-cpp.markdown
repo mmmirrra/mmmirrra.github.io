@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### sourceFile list - etc sourceFile - Person.cpp   
+   
 // 메모리 동적 할당 예제   
 `Person.cpp` : example of dynamically allocating memory   
    

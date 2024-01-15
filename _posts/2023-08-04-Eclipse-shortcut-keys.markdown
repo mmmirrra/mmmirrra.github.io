@@ -5,17 +5,21 @@ date:   2023-08-04 09:00:00 +0900
 categories: [Eclipse]
 ---
 
-### Keys Change Menu // 단축키 변경 메뉴   
+### Keys Change Menu   
+// 단축키 변경 메뉴   
+   
 // 이클립스의 모든 단축키를 확인 및 변경할 수 있음   
 `Window >> Preferences >> General >> Keys` : All keys in Eclipse can be checked and changed   
    
 <br />
-### Show Key Assist // 단축키 힌트 보기   
+### Show Key Assist   
 // 단축키 힌트 보기   
 `Ctrl + Shift + L` : Show Key Assist   
    
 <br />
-### Editing // 편집   
+### Editing   
+// 편집   
+   
 // 들여쓰기   
 `Tab` : Indent   
 // 내어쓰기   
@@ -58,14 +62,18 @@ categories: [Eclipse]
 `Ctrl + 2 + F` : Quick Assist - Assign to field   
    
 <br />
-### Alignment // 정렬   
+### Alignment   
+// 정렬   
+   
 // 코드 자동 정리 : 코드 내용을 문법 템플릿에 맞게 포맷팅 함 : 들여쓰기 등 자동 코드 정렬   
 `Ctrl + Shift + F` : Format : Format the contents of the code according to the grammar template : Automatic code alignment, such as indent   
 // 선택된 블럭내 코드 자동 들여쓰기   
 `Ctrl + i` : Indent Line   
    
 <br />
-### Automatic completion // 자동완성   
+### Automatic completion   
+// 자동완성   
+   
 // 코드 자동완성 어시스트 : 입력하는 도중엔 언제라도 강제 호출 가능함   
 `Ctrl + Space` : Content Assist : It can be enforced at any time while the code is being entered   
 // 해당 소스에 필요한 패키지를 자동 Import 추가, 안쓰는 Import 삭제   
@@ -74,8 +82,10 @@ categories: [Eclipse]
 `Ctrl + Shift + M` : Add Import : Position the cursor on the object and press the key to automatically generate the required Specific Class Import   
    
 <br />
-### How to use AutoComplete templates // 자동완성 템플릿 이용   
-// (예시) 자동완성 키워드 등록 위치 : `윈도우 - 환경설정 - 자바 - 편집기 - 템플리트`   
+### How to use AutoComplete templates   
+// 자동완성 템플릿 이용   
+   
+// (예시) 자동완성 키워드 등록 위치 : '윈도우 - 환경설정 - 자바 - 편집기 - 템플리트'   
 Menu to register auto-complete keywords : `Window - Preferences - Java - Editor - Templates`   
 // (예시) sysout 입력 후 'Ctrl + Space'를 누르면 'System.out.println();' 자동완성   
 (Example) Type 'sysout' and press 'Ctrl + Space' to change to 'System.out.println();'   
@@ -91,11 +101,15 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 (Example) Type 'do' and press 'Ctrl + Space' to auto-complete to 'do-while function'   
    
 <br />
-### Menu to register auto activation assist triggers keywords // 자동완성 어시스트 트리거 문자 등록 위치   
+### Menu to register auto activation assist triggers keywords   
+// 자동완성 어시스트 트리거 문자 등록 위치   
+   
 `Window - Preferences - Java - Editor - Content Assist - Auto Activation - Auto activation triggers for java → .abcdefghijklmnopqrstuvwxyz`   
    
 <br />
-### How to easily create a method // 메소드 쉽게 생성하는 방법   
+### How to easily create a method   
+// 메소드 쉽게 생성하는 방법   
+   
 // 1. 클래스의 멤버를 일단 먼저 생성   
 1. First, create a member of the class   
 // 2. Override 메소드를 구현하려면 : '소스 - 메소드대체/구현'에서 해당 메소드를 체크   
@@ -104,19 +118,23 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 3. If the member of the other class is an object of the class : select the method from 'Source - Create Delegation Method'   
    
 <br />
-### How to set the source code format and common comment // 소스 코드 형식 및 공통 주석 설정 방법   
-// 1. `환경설정 - 자바 - 코드 스타일 - 코드 포멧터 - 가져오기 - 프로파일.xml 을 불러서 사용`   
+### How to set the source code format and common comment   
+// 소스 코드 형식 및 공통 주석 설정 방법   
+   
+// 1. '환경설정 - 자바 - 코드 스타일 - 코드 포멧터 - 가져오기 - 프로파일.xml 을 불러서 사용'   
 1. `Window - Preferences - Java - Code Style - Code Formatter - Import - profile.xml`   
 // 2. 다수의 자바파일에 프로파일을 적용하려면 패키지 탐색기에서 패키지를 선택한 후 '소스 - 형식화'를 선택하여 사용   
 2. To apply a profile to many Java files, select a package in the Package Explorer and select 'Source - Format' to use   
-// 3. `환경설정 - 자바 - 코드 스타일 - 코드 템플리트 - 가져오기 - 템플리트.xml 을 불러서 사용`   
+// 3. '환경설정 - 자바 - 코드 스타일 - 코드 템플리트 - 가져오기 - 템플리트.xml 을 불러서 사용'   
 3. `Window - Preferences - Java - Code Style - Code Templates - Import - template.xml`   
    
 <br />
-### Comment // 주석   
-// 라인주석 (`//`) : 현재 라인(선택된 블럭)에 주석 적용/해제   
+### Comment   
+// 주석   
+   
+// 라인주석 ('//') : 현재 라인(선택된 블럭)에 주석 적용/해제   
 `Ctrl + /` : Toggle Line Comment (`//`) : Comment to the current line   
-// 블럭주석 (`/* */`) : 현재 선택된 블럭에 블럭주석 적용   
+// 블럭주석 ('/* */') : 현재 선택된 블럭에 블럭주석 적용   
 `Ctrl + Shift + /` : Apply Block Comment (`/* */`) : Block Comment to the selected blocks   
 // 블럭주석 해제   
 `Ctrl + Shift + \` : Remove Block Comment (`/* */`)   
@@ -124,7 +142,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that method/class, or automatically apply the default Comment you have set up (Press with focus on method or member variables)   
    
 <br />
-### Select Block // 블록 설정   
+### Select Block   
+// 블록 설정   
+   
 // 현재 커서부터 처음까지 블록 설정   
 `Shift + Home` : Select Line Start   
 // 현재 커서부터 끝까지 블록 설정   
@@ -138,7 +158,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
   
    
 <br />
-### How to Fix it // 해결 방법   
+### How to Fix it   
+// 해결 방법   
+   
 // 빨간줄(에러) 해결 방법 도우미 : 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시   
 `Ctrl + 1` : Quick Fix : If you press 'Ctrl + 1' in the code where the compilation error occurred, it will provide a solution to the compilation error   
 // 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 표시   
@@ -147,7 +169,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Shift + F2` : Open External Documentation   
    
 <br />
-### Show View // 보기   
+### Show View   
+// 보기   
+   
 // 전체 화면으로 보기   
 `Ctrl + M` : Maximize Active View or Editor   
 // 클래스 계층 보기 : 클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인   
@@ -166,7 +190,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Ctrl + F10` : Show Ruler Context Menu   
 // 빠른 액세스 : 이클립스에서 사용 가능한 모든 작업 보기   
 `Ctrl + 3` : Quick Access : View all the actions available in Eclipse   
-// `해당 프로젝트에서 Alt + Enter 누르기` : 프로젝트 속성 보기   
+// '해당 프로젝트에서 Alt + Enter 누르기' : 프로젝트 속성 보기   
 `Press Alt + Enter in the project` : View Project Properties   
 // 각종 탐색 메뉴 목록 보기   
 `Alt + Shift + W` : Show In Menu : Project Explorer, Terminal, Coverage, Package Explorer, Outline, System Explorer, Properties   
@@ -176,7 +200,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Alt + Shift + Q + C` : Console   
    
 <br />
-### Find // 찾기   
+### Find   
+// 찾기   
+   
 // 찾기/변경 : 해당 소스에서만   
 `Ctrl + F` : Find and Replace : Find only from that source   
 // 찾기/변경 : 찾기 창 열림 : 모든 파일, 프로젝트 전체에서 검색   
@@ -201,7 +227,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Ctrl + Shift + J` : Incremental Find Reverse   
    
 <br />
-### Move // 이동   
+### Move   
+// 이동   
+   
 // 다음/이전 문자로 이동   
 `Ctrl + arrow keys ←/→ left/right` : Next/Previous Word   
 // 이전/다음 작업 위치로 이동   
@@ -234,7 +262,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `F12` : Activate Editor   
    
 <br />
-### Move Windows // 윈도우 이동   
+### Move Windows   
+// 윈도우 이동   
+   
 // 다음 뷰로 이동   
 `Ctrl + F7` : Next View   
 // 이전 뷰로 이동   
@@ -247,36 +277,44 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Ctrl + N` : New File or Project   
    
 <br />
-### Save // 저장   
+### Save   
+// 저장   
+   
 // 소스코드 저장 : 현재 파일만   
 `Ctrl + S` : Save : Save Current Files Only   
 // 열려진 모든 소스코드 저장   
 `Ctrl + Shift + S` : Save All : Save all open source code   
    
 <br />
-### Close // 닫기   
+### Close   
+// 닫기   
+   
 // 파일 닫기   
 `Ctrl + W` : Close User Assistance Tray   
 // 열린 파일을 모두 닫음   
 `Ctrl + Shift + F4` : Close All   
    
 <br />
-### Build // 빌드   
+### Build   
 // 빌드   
 `Ctrl + B` : Build All   
    
 <br />
-### Run // 실행   
+### Run   
+// 실행   
+   
 // 소스 실행 : 에러가 났을 때 디버깅 하지 않음   
 `Ctrl + F11` : Run Last Launched : Do not debug when errors occur   
 // 서버 실행   
 `Alt + Shift + X + R` : Run on Server   
    
 <br />
-### Debugging // 디버깅   
-// `개념 1` : 디버깅 하면서 소스를 수정하고 프로그램을 다시 시작할 필요 없이 계속 디버깅을 진행 할 수 있음. 단, 메소드를 추가하거나 필드를 추가하면 프로그램을 다시 시작해야 함   
+### Debugging   
+// 디버깅   
+   
+// '개념 1' : 디버깅 하면서 소스를 수정하고 프로그램을 다시 시작할 필요 없이 계속 디버깅을 진행 할 수 있음. 단, 메소드를 추가하거나 필드를 추가하면 프로그램을 다시 시작해야 함   
 `Concept 1` : You can modify the source while debugging, and continue debugging without having to restart the program. However, if you add a method or field, you must restart the program   
-// `개념 2` : 디버깅 할 때 해당 라이브러리의 소스코드를 첨부하지 않으면 진행상황을 볼 수 없는 경우 해당 라이브러리에 소스코드를 첨부할 수 있음 : `해당 프로젝트 - 특성 - Java 빌드경로 - 라이브러리 - 소스참조 - 편집 버튼을 눌러서 첨부`   
+// '개념 2' : 디버깅 할 때 해당 라이브러리의 소스코드를 첨부하지 않으면 진행상황을 볼 수 없는 경우 해당 라이브러리에 소스코드를 첨부할 수 있음 : '해당 프로젝트 - 특성 - Java 빌드경로 - 라이브러리 - 소스참조 - 편집 버튼을 눌러서 첨부'   
 `Concept 2` : When debugging, you can attach the source code to the library if you do not attach the source code for that library and cannot see the progress : `project - properties - Java Build Path - Libraries - Source - Attach by pressing the edit button`   
 // 디버깅 실행 : 에러가 났을 때 디버깅 함   
 `F11` : Debug Last Launched : Debug when error occurs   
@@ -306,26 +344,34 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Expression view` : Select 'Right mouse button - Add Watch Expression' in the Expressions window to continue to see values changing while debugging complex expressions or objects. Select 'Preferences - Java - Debug - Detail Formatters' and edit it in a viewable way to view the results in real time in Expression View   
    
 <br />
-### Scrapbook // 스크랩북   
-// `개념 1` : 스크랩북을 이용하면 자바파일을 만들어 테스트 해보지 않고도 간단하게 테스트 해 볼 수 있음 : `패키지 탐색기에서 신규 - 기타 - 자바 - 자바 실행/디버그 - 스크랩북 페이지 선택`   
+### Scrapbook   
+// 스크랩북   
+   
+// '개념 1' : 스크랩북을 이용하면 자바파일을 만들어 테스트 해보지 않고도 간단하게 테스트 해 볼 수 있음 : '패키지 탐색기에서 신규 - 기타 - 자바 - 자바 실행/디버그 - 스크랩북 페이지 선택'   
 `Concept 1` : Using a scrapbook, you can easily test a Java file without having to test it : `Package Explorer - New - Etc - Java - Java Run/Debug - Select a scrapbook page`   
    
 <br />
-### Refactoring // 리팩토링   
-// `개념 1 : Pull Down` : 슈퍼 클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
+### Refactoring   
+// 리팩토링   
+   
+// '개념 1 : Pull Down' : 슈퍼 클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
 `Concept 1 : Pull Down` : Lowering a member or method of a super class to a lower class   
-// `개념 2 : Push Up` : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
+// '개념 2 : Push Up' : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
 `Concept 2 : Push Up` : Raising a member or method of a lower class to a higher class   
-// `Alt + Shift + 알파벳` : 리팩토링을 위한 단축키   
+// 'Alt + Shift + 알파벳' : 리팩토링을 위한 단축키   
 `Alt + Shift + Alphabet` : Keys for Refactoring   
 // 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시 : 디스플레이)   
 `Alt + Shift + T` : Show Refactor Quick Menu(Example : Display)   
    
 <br />
-### Maven // 메이븐   
+### Maven   
+// 메이븐   
+   
 `Alt + F5` : Maven Update Project   
 `Ctrl + Alt + P` : Select Maven Profiles...   
    
 <br />
-### Download Keys Excel // 단축키 엑셀 다운로드   
+### Download Keys Excel   
+// 단축키 엑셀 다운로드   
+   
 [Eclipse_keys_20210820.xlsx](https://github.com/mmmirrra/mmmirrra.github.io/raw/main/_assets/Eclipse_keys_20210820.xlsx)   

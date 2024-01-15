@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - GrAttrib.h   
+   
 // 추상 클래스 - 도형의 그래픽 속성을 지정할 수 있는 클래스에 대한 추상 클래스   
 `GrAttrib.h` : abstract class - abstract class for class that specify graphic properties of a shapes   
    

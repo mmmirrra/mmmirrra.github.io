@@ -9,10 +9,10 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### sourceFile list - .cpp   
-main() sourceFile   
+#### main() sourceFile   
 `FirstStep.cpp` : C++ practice project main function   
    
-etc sourceFile   
+#### etc sourceFile   
 // 스택 공간 확인 예제   
 `CharStack.cpp` : example of verifying stack space   
 // 복소수 계산 예제 - 정수   

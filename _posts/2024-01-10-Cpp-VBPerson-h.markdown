@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - VBPerson.h   
+   
 // 가상 기초 클래스 - Person5 클래스   
 `VBPerson.h` : virtual base class - Person5 class   
    

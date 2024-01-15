@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - BaseC.h   
+   
 // 권한에 따른 멤버 사용 범위 예제   
 `BaseC.h` : example of a member's scope of use by permission   
    

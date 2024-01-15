@@ -9,6 +9,7 @@ solution 'CppPrjs'
 project 'FirstStep'   
    
 ### headerFile list - IntArray2.h   
+   
 // 사용자 정의 객체 오류 처리 예제 - exception() 사용   
 `IntArray2.h` : example of error handling of a custom object - use exception()   
    
