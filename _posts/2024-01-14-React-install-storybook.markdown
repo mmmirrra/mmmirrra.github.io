@@ -44,10 +44,10 @@ yarn upgrade-interactive --latest
 ```
 // 이거 입력한 뒤에 목록 나오면 선택   
 Enter this and select when the list comes up   
-// `Ctrl + space` 누르면 전체 목록 선택됨   
-Press 'Ctrl + space' to select the full list   
-// `Shift + space` 누르면 개별 목록 선택됨   
-Press 'Shift + space' to select individual list   
+// 'Ctrl + space' 누르면 전체 목록 선택됨   
+Press `Ctrl + space` to select the full list   
+// 'Shift + space' 누르면 개별 목록 선택됨   
+Press `Shift + space` to select individual list   
    
 <br>
 #### Install storybook (I erased the yarn cache)   
