@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C++: headerFile : .h"
+title:  "C++: headerFile list : .h"
 date:   2024-01-10 09:00:00 +0900
 categories: [C++]
 ---
