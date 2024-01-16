@@ -1,0 +1,129 @@
+---
+layout: post
+title:  "C++: etc sourceFile"
+date:   2024-01-09 09:00:00 +0900
+categories: [C++]
+---
+
+solution 'CppPrjs'   
+project 'FirstStep'   
+   
+### sourceFile list - etc sourceFile   
+   
+// 스택 공간 확인 예제   
+`CharStack.cpp` : example of verifying stack space   
+   
+```cpp
+#include <iostream>
+#include "CharStack.h"
+using namespace std;
+
+bool CharStack::push(char ch)
+{
+	if (chkFull()) {
+		cout << "The stack is full." << endl;
+		return false;
+	}
+	buf[--top] = ch;		// 스택에 공간이 있으면 저장
+	return true;
+}
+
+char CharStack::pop() {
+	if (chkEmpty()) {
+		cout << "There is no data in the stack." << endl;
+		return 0;
+	}
+	return buf[top++];		// top 위치의 데이터 반환
+}
+```
+   
+<br>
+// 복소수 계산 예제 - 정수   
+`Complex1.cpp` : example of calculating complex number - integer   
+   
+```cpp
+#include <iostream>
+#include "Complex1.h"
+using namespace std;
+
+Complex1 Complex1::mul(const Complex1& c) const {	// 복소수 곱셈
+	double r = rPart * c.rPart - iPart * c.iPart;
+	double i = rPart * c.iPart + iPart + c.rPart;
+	return Complex1(r, i);
+}
+
+Complex1 Complex1::div(const Complex1& c) const {	// 복소수 나눗셈
+	double d = c.rPart * c.rPart + c.iPart * c.iPart;
+	Complex1 c1 = mul(c.conj());
+	return Complex1(c1.rPart / d, c1.iPart / d);
+}
+
+void Complex1::display() const {			// 복소수 값을 출력
+	cout << "(" << rPart;
+	if (iPart > 0)
+		cout << "+j" << iPart;
+	else if (iPart < 0)
+		cout << "-j" << -iPart;
+	cout << ")";
+}
+```
+   
+<br>
+// 복소수 계산 예제 - 실수   
+`Complex2.cpp` : example of calculating complex number - real number   
+   
+```cpp
+#include <iostream>
+#include "Complex2.h"
+using namespace std;
+
+Complex2 Complex2::operator + (const Complex2& c) const {	// 복소수 덧셈 연산자 다중정의
+	cout << "Addition Operator Multiple Definition : ";
+	// Complex2 tmp(*this);
+	// tmp.rPart += c.rPart;
+	// tmp.iPart += c.iPart;
+	// return tmp;
+	return Complex2(rPart + c.rPart, iPart + c.iPart);
+}
+
+Complex2 Complex2::operator + (double r) const {		// 복소수 덧셈 연산자 다중정의
+	cout << "Addition Operator Multiple Definition : ";
+	return Complex2(rPart + r, iPart);
+}
+
+Complex2& Complex2::operator += (const Complex2& c) {		// 복소수 복합 대입 연산자 다중정의
+	cout << "Multiple Definition of Complex Substitutions Operator : ";
+	rPart += c.rPart;
+	iPart += c.iPart;
+	return *this;
+}
+
+void Complex2::display() const {			// 복소수 값을 출력
+	cout << "(" << rPart;
+	if (iPart > 0)
+		cout << "+j" << iPart;
+	else if (iPart < 0)
+		cout << "-j" << -iPart;
+	cout << ")";
+}
+
+// 좌측 피연산자가 실수인 경우 덧셈 연산자 다중정의. Complex2 클래스에 속하지 않는 외부 연산자로 정의해야 함
+Complex2 operator + (double r, const Complex2& c) {
+	cout << "Multiple addition operator definition if left operand is real number : ";
+	// return Complex2(r + c.rPart, c.iPart); -> private 멤버를 사용했기 때문에 오류 발생
+	return Complex2(r + c.rPart, c.iPart);		// Complex2.h 파일에서 이 함수를 friend로 지정하였기 때문에 private 멤버를 자유롭게 사용할 수 있음
+	// return Complex2(r + c.real(), c.imag());	// friend로 지정되어 있지 않은 경우 public 함수를 통해 private 멤버 값을 찾아올 수 있음
+}
+
+// 출력 연산자 다중정의. Complex2 클래스에 속하지 않는 외부 연산자로 정의해야 함
+ostream& operator << (ostream& os, const Complex2& c) {
+	cout << "Output operator multiple definition : ";
+	os << "(" << c.rPart;		// 실수부 출력
+	if (c.iPart > 0)		// 허수부 출력
+		os << "+j" << c.iPart;
+	else if (c.iPart < 0)
+		os << "-j" << -c.iPart;
+	os << ")";
+	return os;
+}
+```
