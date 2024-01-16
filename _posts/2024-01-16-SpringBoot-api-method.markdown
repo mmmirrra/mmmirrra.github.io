@@ -23,7 +23,7 @@ D : DELETE
 <br />
 ### API Sample   
    
-```spring
+```java
 package com.study;
 
 import org.springframework.stereotype.Controller;
@@ -39,7 +39,7 @@ import java.util.Map;
 public class RestApiTestController {
 
     @GetMapping("/members")
-    @ResponseBody               // public @ResponseBody List<Map<String, Object>> findAllMember()와 같이 리턴 타입 앞에도 선언 가능
+    @ResponseBody           // public @ResponseBody List<Map<String, Object>> findAllMember()와 같이 리턴 타입 앞에도 선언 가능
     public List<Map<String, Object>> findAllMember() {
 
         List<Map<String, Object>> members = new ArrayList<>();
