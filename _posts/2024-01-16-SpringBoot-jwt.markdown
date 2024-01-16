@@ -21,24 +21,24 @@ categories: [SpringBoot]
 // 표준 스펙상 key의 이름으로 사용하는 3글자 약어 : 상황에 따라 골라서 사용   
    
 <br />
-// 인증 주체 : 토큰 제목 : 토큰에서 사용자에 대한 식별 값이 됨   
-- `sub` : subject : Token title: Identification value for user in token   
-// 토큰 발급처   
-- `iss` : issuer   
-// 토큰의 유형   
-- `typ` : type   
-// 서명 알고리즘   
-- `alg` : algorithm   
-// 토큰 발급 시각   
-- `iat` : issued at   
-// 토큰 만료 시작   
-- `exp` : expiration time   
-// 클라이언트 : 토큰 대상자   
-- `aud` : audience : Token Targets   
-// 토큰 활성 날짜   
-- `nbf` : not before   
-// JWT 토큰 식별자 : Issuer가 여러 명 일 때 구분하기 위한 값   
-- `jti` : JWT ID : Values to differentiate when there are multiple Issuers   
+// 'sub' : 인증 주체 : 토큰 제목 : 토큰에서 사용자에 대한 식별 값이 됨   
+`sub` : subject : Token title: Identification value for user in token   
+// 'iss' : 토큰 발급처   
+`iss` : issuer   
+// 'typ' : 토큰의 유형   
+`typ` : type   
+// 'alg' : 서명 알고리즘   
+`alg` : algorithm   
+// 'iat' : 토큰 발급 시각   
+`iat` : issued at   
+// 'exp' : 토큰 만료 시작   
+`exp` : expiration time   
+// 'aud' : 클라이언트 : 토큰 대상자   
+`aud` : audience : Token Targets   
+// 'nbf' : 토큰 활성 날짜   
+`nbf` : not before   
+// 'jti' : JWT 토큰 식별자 : Issuer가 여러 명 일 때 구분하기 위한 값   
+`jti` : JWT ID : Values to differentiate when there are multiple Issuers   
    
 ```json
 Header
