@@ -138,8 +138,8 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Ctrl + Shift + /` : Apply Block Comment (`/* */`) : Block Comment to the selected blocks   
 // 블럭주석 해제   
 `Ctrl + Shift + \` : Remove Block Comment (`/* */`)   
-// 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
-`Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that method/class, or automatically apply the default Comment you have set up (Press with focus on method or member variables)   
+// 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석(공통 주석)을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
+`Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that method/class, or automatically apply the default Comment(common comment) you have set up (Press with focus on method or member variables)   
    
 <br />
 ### Select Block   
