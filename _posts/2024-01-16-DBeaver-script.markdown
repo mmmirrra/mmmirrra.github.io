@@ -8,7 +8,7 @@ categories: [DBeaver]
 #### Press `Ctrl + ]` to open a new Script Editor   
 // 'Ctrl + ]' 키를 눌러서 Script 편집기 새로 열기   
    
-<br>
+<br />
 // 'Ctrl + ]' 키를 여러 번 눌러서 여러 개의 Script 편집기를 열 수 있음   
 // Script 편집기에서 쿼리를 입력하면 됨   
 // 쿼리를 실행할 테이블은 왼쪽의 테이블 트리에서 찾아서 확인할 수 있음   
@@ -19,11 +19,11 @@ The table to run the query can be found in the table tree on the left
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/DBeaverScript1.png)
    
-<br>
+<br />
 #### How to run a query   
 // 쿼리를 실행하는 방법   
    
-<br>
+<br />
 // 'SELECT * FROM' 테이블명 입력 후 문장 위에 커서를 둔 상태로 'Ctrl + Enter' 키를 누르면 쿼리가 실행되어 전체 테이블 목록을 볼 수 있음   
 // 여러 줄의 쿼리를 입력한 후 일부 쿼리만 실행하려면 해당 부분만 블럭으로 선택한 후 'Ctrl + Enter' 키를 누름   
    
@@ -32,13 +32,13 @@ To enter multiple lines of queries and then run only some queries, select them a
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/DBeaverScript2.png)
    
-<br>
+<br />
 // 테이블 속성 중 검색할 속성을 'WHERE'로 추가하여 실행하면 아래 결과창에 검색 결과 출력됨   
 If you add and execute an attribute to be searched among table properties via `WHERE`, the search results will be displayed in the results window below   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/DBeaverScript3.png)
    
-<br>
+<br />
 // 업데이트할 값이 있는 경우 'UPDATE'로 추가하여 실행하면 수정됨   
 If there is a value to update, it will be modified by adding and running it through `UPDATE`   
    

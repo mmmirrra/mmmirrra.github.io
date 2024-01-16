@@ -37,7 +37,7 @@ char CharStack::pop() {
 }
 ```
    
-<br>
+<br />
 // 복소수 계산 예제 - 정수   
 `Complex1.cpp` : example of calculating complex number - integer   
    
@@ -68,7 +68,7 @@ void Complex1::display() const {			// 복소수 값을 출력
 }
 ```
    
-<br>
+<br />
 // 복소수 계산 예제 - 실수   
 `Complex2.cpp` : example of calculating complex number - real number   
    
@@ -128,7 +128,7 @@ ostream& operator << (ostream& os, const Complex2& c) {
 }
 ```
    
-<br>
+<br />
 // 헤더파일 외부에 정의하는 함수 예제   
 `Counter.cpp` : example of a function defined outside of a header file   
    
@@ -143,7 +143,7 @@ void Counter::f() {		// 헤더 파일 외부에 함수 정의 예제
 };
 ```
    
-<br>
+<br />
 // 사용자 정의 객체 오류 처리 예제   
 `IntArray1.cpp` : example of error handling of a custom object   
    
@@ -163,7 +163,7 @@ int& IntArray1::operator [] (int offset) {		// 첨자 연산자
 }
 ```
    
-<br>
+<br />
 // 생성자, 소멸자 동작 예제   
 `NamedObj.cpp` : example of how constructor and destructor work   
    
@@ -188,7 +188,7 @@ int NamedObj::nConstr = 0;
 int NamedObj::nDestr = 0;
 ```
    
-<br>
+<br />
 // ++ 연산자 전위 표기, 후위 표기 예제   
 `Pencils.cpp` : example of prefix and postfix for ++ operator   
    
@@ -223,7 +223,7 @@ void Pencils::display() const {
 }
 ```
    
-<br>
+<br />
 // 메모리 동적 할당 예제   
 `Person.cpp` : example of dynamically allocating memory   
    
