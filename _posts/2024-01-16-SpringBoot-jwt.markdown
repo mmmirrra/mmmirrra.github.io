@@ -5,7 +5,7 @@ date:   2024-01-16 09:00:00 +0900
 categories: [SpringBoot]
 ---
 
-#### jwt is json form : divided into three parts   
+### jwt is json form : divided into three parts   
 // jwt는 json 형태임 : 세가지 형태로 나뉘어짐   
    
 // 1. '헤더 Header'에는 토큰 타입과 서명 알고리즘 저장   
@@ -17,7 +17,7 @@ categories: [SpringBoot]
 3. Save jwt information in `Signature`   
    
 <br />
-#### Three-letter abbreviation used as the name of the key according to the standard specification: Choose according to the situation and use it   
+### Three-letter abbreviation used as the name of the key according to the standard specification: Choose according to the situation and use it   
 // 표준 스펙상 key의 이름으로 사용하는 3글자 약어 : 상황에 따라 골라서 사용   
    
 <br />
