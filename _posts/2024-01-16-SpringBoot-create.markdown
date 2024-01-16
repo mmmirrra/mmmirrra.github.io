@@ -12,6 +12,7 @@ categories: [SpringBoot]
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/spingBootCreate1-2.png)
    
+<br />
 #### Create a project with `gradle` on site `example_start.spring.io` : Download the files created on the site and open them in development tools such as Eclipse   
 // 'example_start.spring.io' 사이트에서 'gradle'로 프로젝트 만들기 : 사이트에서 만들어진 파일을 다운로드 받아서 이클립스 등 개발도구에서 열면 됨   
    
