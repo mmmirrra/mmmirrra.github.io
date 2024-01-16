@@ -127,3 +127,134 @@ ostream& operator << (ostream& os, const Complex2& c) {
 	return os;
 }
 ```
+   
+<br>
+// 헤더파일 외부에 정의하는 함수 예제   
+`Counter.cpp` : example of a function defined outside of a header file   
+   
+```cpp
+#include <iostream>
+#include "Counter.h"
+
+using namespace std;
+
+void Counter::f() {		// 헤더 파일 외부에 함수 정의 예제
+	cout << "function f(), a function created separately by Counter.h " << endl;
+};
+```
+   
+<br>
+// 사용자 정의 객체 오류 처리 예제   
+`IntArray1.cpp` : example of error handling of a custom object   
+   
+```cpp
+#include "IntArray1.h"
+using namespace std;
+
+IntArray1::IntArray1(int s) : size(s) {		// 생성자
+	buf = new int[s];
+	memset(buf, 0, sizeof(int) * s);
+}
+
+int& IntArray1::operator [] (int offset) {		// 첨자 연산자
+	if (offset < 0 || offset >= size)		// 예외조건 검사 - 정상적인 범위인지 확인
+		throw BadIndex1(offset);		// 예외객체 BadIndex 객체를 생성 및 전달
+	return buf[offset];
+}
+```
+   
+<br>
+// 생성자, 소멸자 동작 예제   
+`NamedObj.cpp` : example of how constructor and destructor work   
+   
+```cpp
+#include <cstring>
+#include "NamedObj.h"
+
+NamedObj::NamedObj(const char* s)		// 생성자
+{
+	name = new char[strlen(s) + 1];
+	strcpy(name, s);
+	id = ++nConstr;
+}
+
+NamedObj::~NamedObj()				// 소멸자
+{
+	++nDestr;
+	delete[] name;
+}
+
+int NamedObj::nConstr = 0;
+int NamedObj::nDestr = 0;
+```
+   
+<br>
+// ++ 연산자 전위 표기, 후위 표기 예제   
+`Pencils.cpp` : example of prefix and postfix for ++ operator   
+   
+```cpp
+#include <iostream>
+#include "Pencils.h"
+using namespace std;
+
+Pencils& Pencils::operator ++ () {		// ++ 연산자 (전위 표기)
+	cout << "++ operator (prefix) : ";
+	if (++np >= 12)			// 낱개를 1 증가시킴. 결과가 12보다 크면
+		++dozens, np = 0;		// 타 수를 1 증가시키고, 낱개는 0
+	return *this;				// 증가된 결과를 반환
+}
+
+Pencils Pencils::operator ++ (int) {		// ++ 연산자 (후위 표기)
+	cout << "++ operator (postfix) : ";
+	Pencils tmp(*this);			// 현재 객체를 보존
+	if (++np >= 12)			// 낱개를 1 증가시킴. 결과가 12보다 크면
+		++dozens, np = 0;		// 타 수를 1 증가시키고, 낱개는 0
+	return tmp;				// 보존된 객체를 반환
+}
+
+void Pencils::display() const {
+	if (dozens) {
+		cout << dozens << "bundles ";
+		if (np) cout << np << "individuals ";
+		cout << endl;
+	}
+	else
+		cout << np << "individuals " << endl;
+}
+```
+   
+<br>
+// 메모리 동적 할당 예제   
+`Person.cpp` : example of dynamically allocating memory   
+   
+```cpp
+#include <iostream>
+#include <cstring>
+#include "Person.h"
+
+using namespace std;
+
+Person::Person(const char* name, const char* addr) {
+	this->name = new char[strlen(name) + 1];	// 이름을 저장할 메모리 공간을 동적 할당 받음
+	strcpy(this->name, name);			// name의 값을 this->name 의 메모리 공간에 복사해 넣음
+	this->addr = new char[strlen(addr) + 1];
+	strcpy(this->addr, addr);
+	cout << "create Person Object (" << name << ")" << endl;
+}
+
+Person::~Person() {
+	cout << "destruction of Person object (" << name << ")" << endl;
+	delete[] name;
+	delete[] addr;
+}
+
+void Person::print() const {
+	cout << "I am " << name << " who lives in " << addr << "." << endl;
+}
+
+void Person::chAddr(const char* newAddr) {
+	delete[] addr;					// 기존 공간 반납
+	addr = new char[strlen(newAddr)+1];		// 새로운 동적 메모리 공간 할당
+	strcpy(addr, newAddr);
+}
+```
