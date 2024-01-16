@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PuTTY: How to connect PuTTY"
-date:   2024-01-15 09:00:00 +0900
+date:   2024-01-16 09:00:00 +0900
 categories: [PuTTY]
 ---
 
