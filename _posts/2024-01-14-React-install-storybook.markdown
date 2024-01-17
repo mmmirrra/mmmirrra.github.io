@@ -16,11 +16,11 @@ categories: [React]
 2. Unzip VScode   
 3. Install Korean language package (optional)   
 4. Terminal Window Open - npx create-react-app "Project Name"   
-5. Enter 'npm run build' in the terminal window after project installation is completed. Enter 'npm start' after completion   
-6. When accessing 'localhost:3000' in the Internet window, when the screen is activated, complete   
+5. Enter `npm run build` in the terminal window after project installation is completed. Enter `npm start` after completion   
+6. When accessing `localhost:3000` in the Internet window, when the screen is activated, complete   
    
 <br />
-#### Create 'package.json' file   
+#### Create `package.json` file   
 // 'package.json' 파일 만들기   
    
 ```react
@@ -28,7 +28,7 @@ npm init -y
 ```
    
 <br />
-#### If yarn doesn't run, delete cache and try 'yarn install' again   
+#### If yarn doesn't run, delete cache and try `yarn install` again   
 // yarn 실행안되면 캐시 지우고 'yarn install' 다시 해보기   
    
 ```react
@@ -50,16 +50,16 @@ Press `Ctrl + space` to select the full list
 Press `Shift + space` to select individual list   
    
 <br />
-#### Install storybook (I erased the yarn cache)   
-// storybook 설치 (yarn 캐시 지우고 했음)   
+#### Install Storybook (I erased the yarn cache)   
+// Storybook 설치 (yarn 캐시 지우고 했음)   
    
 ```react
 npx -p @storybook/cli sb init -f
 ```
    
 <br />
-#### When the storybook does not run   
-// storybook 실행 안될 때   
+#### When the Storybook does not run   
+// Storybook 실행 안될 때   
    
 ```react
 $env:NODE_OPTIONS = "--openssl-legacy-provider"
@@ -72,8 +72,8 @@ yarn storybook
 ```
    
 <br />
-#### Upgrade the storybook version (-> will delete the main.js setting)   
-// storybook 버전 업그레이드 (-> 이거하면 main.js 설정 날아감)   
+#### Upgrade the Storybook version (-> will delete the main.js setting)   
+// Storybook 버전 업그레이드 (-> 이거하면 main.js 설정 날아감)   
    
 ```react
 npx sb@next upgrade

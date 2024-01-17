@@ -74,7 +74,7 @@ It is usually used for the array.
    
 <br />
 ### forEach()   
-The method used in the array.   
+The Method used in the array.   
 Use the callback function in the factor.   
    
 ```html

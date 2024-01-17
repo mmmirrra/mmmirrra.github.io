@@ -13,7 +13,7 @@ categories: [Git]
 // `vim .git/info/exclude` 으로 제외할 파일명 또는 디렉토리 등록   
    
 <br />
-#### 1. Type `vim.git/info/exlude` command and hit 'Enter' to show 'git' list that allows you to list things to be excluded from 'git'   
+#### 1. Type `vim.git/info/exlude` command and hit `Enter` to show 'git' list that allows you to list things to be excluded from 'git'   
 // 1. 'vim .git/info/exclude' 이 명령어 입력하고 'Enter'를 치면 'git'에서 제외할 목록 작성할 수 있는 'git' 화면 나옴   
    
 ```
@@ -44,7 +44,7 @@ Enter a file name or directory after `# *~`. Then press `esc` and type `->:wq!`,
 // 'git update-index --assume-unchanged' 이 명령어 뒤에 제외할 파일명 또는 디렉토리를 입력하고 'Enter' 치면 됨   
    
 // 디렉토리 전체를 제외할 때는 디렉토리명 뒤에 '/'를 입력해야 함   
-You must enter '/' after the directory name when excluding the entire directory   
+You must enter `/` after the directory name when excluding the entire directory   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/gitExclude2-1.png)
    

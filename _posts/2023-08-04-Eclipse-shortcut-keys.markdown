@@ -88,17 +88,17 @@ categories: [Eclipse]
 // (예시) 자동완성 키워드 등록 위치 : '윈도우 - 환경설정 - 자바 - 편집기 - 템플리트'   
 Menu to register auto-complete keywords : `Window - Preferences - Java - Editor - Templates`   
 // (예시) sysout 입력 후 'Ctrl + Space'를 누르면 'System.out.println();' 자동완성   
-(Example) Type 'sysout' and press 'Ctrl + Space' to change to 'System.out.println();'   
+(Example) Type `sysout` and press `Ctrl + Space` to change to `System.out.println();`   
 // (예시) try 입력 후 'Ctrl + Space'를 누르면 'try-catch 문' 자동완성   
-(Example) Type 'try' and press 'Ctrl + Space' to auto-complete to 'try-catch function'   
+(Example) Type `try` and press `Ctrl + Space` to auto-complete to `try-catch function`   
 // (예시) for 입력 후 'Ctrl + Space'를 누르면 'for 문' 자동완성   
-(Example) Type 'for' and press 'Ctrl + Space' to auto-complete to 'for function'   
+(Example) Type `for` and press `Ctrl + Space` to auto-complete to `for function`   
 // (예시) switch 입력 후 'Ctrl + Space'를 누르면 'switch 문' 자동완성   
-(Example) Type 'switch' and press 'Ctrl + Space' to auto-complete to 'switch function'   
+(Example) Type `switch` and press `Ctrl + Space` to auto-complete to `switch function`   
 // (예시) while 입력 후 'Ctrl + Space'를 누르면 'while 문' 자동완성   
-(Example) Type 'while' and press 'Ctrl + Space' to auto-complete to 'while function'   
+(Example) Type `while` and press `Ctrl + Space` to auto-complete to `while function`   
 // (예시) do 입력 후 'Ctrl + Space'를 누르면 'do-while 문' 자동완성   
-(Example) Type 'do' and press 'Ctrl + Space' to auto-complete to 'do-while function'   
+(Example) Type `do` and press `Ctrl + Space` to auto-complete to `do-while function`   
    
 <br />
 ### Menu to register auto activation assist triggers keywords   
@@ -107,15 +107,15 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Window - Preferences - Java - Editor - Content Assist - Auto Activation - Auto activation triggers for java → .abcdefghijklmnopqrstuvwxyz`   
    
 <br />
-### How to easily create a method   
+### How to easily create a Method   
 // 메소드 쉽게 생성하는 방법   
    
 // 1. 클래스의 멤버를 일단 먼저 생성   
-1. First, create a member of the class   
+1. First, create a Member of the Class   
 // 2. Override 메소드를 구현하려면 : '소스 - 메소드대체/구현'에서 해당 메소드를 체크   
-2. To implement an Override method : check the method in 'Source - Method replacement/implementation'   
+2. To implement an Override Method : check the Method in `Source - Method replacement/implementation`   
 // 3. 기타 클래스의 멤버가 클래스의 오브젝트라면 : '소스 - 위임메소드 생성'에서 메소드를 선택   
-3. If the member of the other class is an object of the class : select the method from 'Source - Create Delegation Method'   
+3. If the Member of the other Class is an object of the Class : select the Method from `Source - Create Delegation Method`   
    
 <br />
 ### How to set the source code format and common comment   
@@ -124,7 +124,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 1. '환경설정 - 자바 - 코드 스타일 - 코드 포멧터 - 가져오기 - 프로파일.xml 을 불러서 사용'   
 1. `Window - Preferences - Java - Code Style - Code Formatter - Import - profile.xml`   
 // 2. 다수의 자바파일에 프로파일을 적용하려면 패키지 탐색기에서 패키지를 선택한 후 '소스 - 형식화'를 선택하여 사용   
-2. To apply a profile to many Java files, select a package in the Package Explorer and select 'Source - Format' to use   
+2. To apply a profile to many Java files, select a package in the Package Explorer and select `Source - Format` to use   
 // 3. '환경설정 - 자바 - 코드 스타일 - 코드 템플리트 - 가져오기 - 템플리트.xml 을 불러서 사용'   
 3. `Window - Preferences - Java - Code Style - Code Templates - Import - template.xml`   
    
@@ -139,7 +139,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 블럭주석 해제   
 `Ctrl + Shift + \` : Remove Block Comment (`/* */`)   
 // 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석(공통 주석)을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
-`Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that method/class, or automatically apply the default Comment(common comment) you have set up (Press with focus on method or member variables)   
+`Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that Method/Class, or automatically apply the default Comment(common comment) you have set up (Press with focus on Method or Member variables)   
    
 <br />
 ### Select Block   
@@ -162,7 +162,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 해결 방법   
    
 // 빨간줄(에러) 해결 방법 도우미 : 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시   
-`Ctrl + 1` : Quick Fix : If you press 'Ctrl + 1' in the code where the compilation error occurred, it will provide a solution to the compilation error   
+`Ctrl + 1` : Quick Fix : If you press `Ctrl + 1` in the code where the compilation error occurred, it will provide a solution to the compilation error   
 // 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 표시   
 `F2` : Show Tooltip Description : If you place the cursor on the code where the compilation error occurred and press this key, an error hint is displayed   
 // 선택한 유형/클래스/메서드에 대한 Javadoc 표시   
@@ -175,9 +175,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 전체 화면으로 보기   
 `Ctrl + M` : Maximize Active View or Editor   
 // 클래스 계층 보기 : 클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인   
-`F4` : Open Type Hierarchy : Select the class and press F4 to see the inheritance hierarchy for that class   
+`F4` : Open Type Hierarchy : Select the Class and press F4 to see the inheritance hierarchy for that Class   
 // 상속 계층 팝업 창 보기 : 인터페이스 구현 클래스간 이동 시 편리   
-`Ctrl + T` : Quick Hierarchy : Convenient for moving between classes with interfaces   
+`Ctrl + T` : Quick Hierarchy : Convenient for moving between Classes with interfaces   
 // 해당 소스의 클래스 구조 트리 Outline 창 보기   
 `Ctrl + O` : Quick Outline   
 // 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
@@ -210,7 +210,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 모든 프로젝트의 전체 리소스에서 파일 찾기   
 `Ctrl + Shift + R` : Open Resource : Find files from all resources in all projects   
 // Jar 포함 클래스 찾기   
-`Ctrl + Shift + T` : Open Type : Find classes in all files, including Jar   
+`Ctrl + Shift + T` : Open Type : Find Classes in all files, including Jar   
 // 특정 클래스 호출 위치 찾기   
 `Ctrl + Alt + H` : Open Call Hierarchy   
 // Workspace 에서 문자 찾기   
@@ -218,11 +218,11 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 현재 커서가 위치한 특정 메서드나 객체, 필드를 쓰는 곳, 참조하는 곳 표시   
 `Ctrl + Shift + G` : References in Workspace   
 // 앞으로 찾기 (현재 라인 밑으로 찾기) 또는 찾고자 하는 문자열을 블록으로 지정하고 찾기   
-`Ctrl + K` : 'Find Next' or 'Select the text you want to find and find it'   
+`Ctrl + K` : `Find Next` or `Select the text you want to find and find it`   
 // 뒤로 찾기 (현재 라인 위로 찾기)   
 `Ctrl + Shift + K` : Find Previous   
 // 검색할 단어를 입력하면서 실시간으로 검색 : 이클립스 하단 상태 표시줄에 Incremental find 라고 표시되어 한 글자씩 누를 때 마다 코드내의 일치하는 문자열로 이동, 다시 Ctrl + J 를 누르면 그 문자열과 일치하는 부분을 위/아래 방향키로 탐색이 가능   
-`Ctrl + J` : Incremental Find : The status bar displays 'Incremental find', pressing one letter at a time moves to a matching string within the code, pressing Ctrl + J again to navigate to the matching string with the up/down arrow keys   
+`Ctrl + J` : Incremental Find : The status bar displays `Incremental find`, pressing one letter at a time moves to a matching string within the code, pressing Ctrl + J again to navigate to the matching string with the up/down arrow keys   
 // 검색할 단어를 입력하면서 실시간으로 거꾸로 검색   
 `Ctrl + Shift + J` : Incremental Find Reverse   
    
@@ -313,7 +313,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 디버깅   
    
 // '개념 1' : 디버깅 하면서 소스를 수정하고 프로그램을 다시 시작할 필요 없이 계속 디버깅을 진행 할 수 있음. 단, 메소드를 추가하거나 필드를 추가하면 프로그램을 다시 시작해야 함   
-`Concept 1` : You can modify the source while debugging, and continue debugging without having to restart the program. However, if you add a method or field, you must restart the program   
+`Concept 1` : You can modify the source while debugging, and continue debugging without having to restart the program. However, if you add a Method or field, you must restart the program   
 // '개념 2' : 디버깅 할 때 해당 라이브러리의 소스코드를 첨부하지 않으면 진행상황을 볼 수 없는 경우 해당 라이브러리에 소스코드를 첨부할 수 있음 : '해당 프로젝트 - 특성 - Java 빌드경로 - 라이브러리 - 소스참조 - 편집 버튼을 눌러서 첨부'   
 `Concept 2` : When debugging, you can attach the source code to the library if you do not attach the source code for that library and cannot see the progress : `project - properties - Java Build Path - Libraries - Source - Attach by pressing the edit button`   
 // 디버깅 실행 : 에러가 났을 때 디버깅 함   
@@ -325,7 +325,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 한 줄씩 디버깅 : 현재 명령문을 실행하고 다음 명령문 직전에 다시 멈춤   
 `F6` : Step over : Run the current function and stop again just before running the next function   
 // 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 : 자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크(Shift+F5) 하면 필터를 설정한 클래스에 대해서는 Step Over 기능과 같은 기능을 수행   
-`F5` : Step into : When debugging one line at a time, Debug it to the inside of the function if it is a function : Because it reaches the Java library class level, checking 'Use Step Filter' (Shift+F5) performs the same function as Step Over for the class where you set the filter   
+`F5` : Step into : When debugging one line at a time, Debug it to the inside of the function if it is a function : Because it reaches the Java library Class level, checking `Use Step Filter` (Shift+F5) performs the same function as Step Over for the Class where you set the filter   
 // 커서 줄에 중단점 설정/해제   
 `Ctrl + Shift + B` : Toggle Line Breakpoint   
 // 코드 재로딩을 위해 디버그 모드를 사용하고 모든 중단점을 건너뜀   
@@ -339,9 +339,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // JUnit 플러그인 테스트 실행   
 `Alt + Shift + X + P` : Run JUnit Plug-in Text   
 // '창 - 보기표시 - 기타 - 디버그 - 표시' 선택하여 소스상에서 필요한 부분을 선택해서 실행시켜 볼 수 있음 : 한 순간의 값만 필요할 때 볼 수 있음   
-`Display view` : 'Window - Show View - Other - Debug - Display' Lets you select the required parts of the source and try to run them : Can be viewed when only one moment's value is needed   
+`Display view` : `Window - Show View - Other - Debug - Display` Lets you select the required parts of the source and try to run them : Can be viewed when only one moment's value is needed   
 // 표현식 창에서 '마우스 오른쪽 버튼 - 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 - 자바 - 디버그 - 세부사항 포멧터' 선택 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
-`Expression view` : Select 'Right mouse button - Add Watch Expression' in the Expressions window to continue to see values changing while debugging complex expressions or objects. Select 'Preferences - Java - Debug - Detail Formatters' and edit it in a viewable way to view the results in real time in Expression View   
+`Expression view` : Select `Right mouse button - Add Watch Expression` in the Expressions window to continue to see values changing while debugging complex expressions or objects. Select `Preferences - Java - Debug - Detail Formatters` and edit it in a viewable way to view the results in real time in Expression View   
    
 <br />
 ### Scrapbook   
@@ -355,9 +355,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 리팩토링   
    
 // '개념 1 : Pull Down' : 슈퍼 클래스의 멤버나 메소드를 하위 클래스로 내리는 행위   
-`Concept 1 : Pull Down` : Lowering a member or method of a super class to a lower class   
+`Concept 1 : Pull Down` : Lowering a Member or Method of a super Class to a lower Class   
 // '개념 2 : Push Up' : 하위 클래스의 멤버나 메소드를 상위 클래스로 올리는 행위   
-`Concept 2 : Push Up` : Raising a member or method of a lower class to a higher class   
+`Concept 2 : Push Up` : Raising a Member or Method of a lower Class to a higher Class   
 // 'Alt + Shift + 알파벳' : 리팩토링을 위한 단축키   
 `Alt + Shift + Alphabet` : Keys for Refactoring   
 // 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시 : 디스플레이)   

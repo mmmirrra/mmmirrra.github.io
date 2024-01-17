@@ -11,7 +11,7 @@ project 'FirstStep'
 ### sourceFile list - etc sourceFile - .cpp   
    
 // 스택 공간 확인 예제   
-`CharStack.cpp` : example of verifying stack space   
+`CharStack.cpp` : Example of verifying stack space   
    
 ```cpp
 #include <iostream>
@@ -39,7 +39,7 @@ char CharStack::pop() {
    
 <br />
 // 복소수 계산 예제 - 정수   
-`Complex1.cpp` : example of calculating complex number - integer   
+`Complex1.cpp` : Example of calculating complex number - Integer   
    
 ```cpp
 #include <iostream>
@@ -70,7 +70,7 @@ void Complex1::display() const {			// 복소수 값을 출력
    
 <br />
 // 복소수 계산 예제 - 실수   
-`Complex2.cpp` : example of calculating complex number - real number   
+`Complex2.cpp` : Example of calculating complex number - Real Number   
    
 ```cpp
 #include <iostream>
@@ -130,7 +130,7 @@ ostream& operator << (ostream& os, const Complex2& c) {
    
 <br />
 // 헤더파일 외부에 정의하는 함수 예제   
-`Counter.cpp` : example of a function defined outside of a header file   
+`Counter.cpp` : Example of a function defined outside of a header file   
    
 ```cpp
 #include <iostream>
@@ -145,7 +145,7 @@ void Counter::f() {		// 헤더 파일 외부에 함수 정의 예제
    
 <br />
 // 사용자 정의 객체 오류 처리 예제   
-`IntArray1.cpp` : example of error handling of a custom object   
+`IntArray1.cpp` : Example of error handling of a custom object   
    
 ```cpp
 #include "IntArray1.h"
@@ -165,7 +165,7 @@ int& IntArray1::operator [] (int offset) {		// 첨자 연산자
    
 <br />
 // 생성자, 소멸자 동작 예제   
-`NamedObj.cpp` : example of how constructor and destructor work   
+`NamedObj.cpp` : Example of how Constructor and Destructor work   
    
 ```cpp
 #include <cstring>
@@ -190,7 +190,7 @@ int NamedObj::nDestr = 0;
    
 <br />
 // ++ 연산자 전위 표기, 후위 표기 예제   
-`Pencils.cpp` : example of prefix and postfix for ++ operator   
+`Pencils.cpp` : Example of prefix and postfix for ++ operator   
    
 ```cpp
 #include <iostream>
@@ -225,7 +225,7 @@ void Pencils::display() const {
    
 <br />
 // 메모리 동적 할당 예제   
-`Person.cpp` : example of dynamically allocating memory   
+`Person.cpp` : Example of dynamically allocating memory   
    
 ```cpp
 #include <iostream>

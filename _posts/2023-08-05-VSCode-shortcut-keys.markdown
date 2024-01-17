@@ -19,7 +19,7 @@ categories: [VSCode]
 `Shift + Ctrl + P -> Search 'keyboard shortcuts'` : Easy to find by searching keyboard shortcuts   
    
 // 단축키로 'Ctrl + S', 'Ctrl + K' 를 차례대로 입력하면 단축키를 모두 볼 수 있는 페이지로 이동함.   
-If you type 'Ctrl + S', 'Ctrl + K' in sequence as a shortcut, you will be taken to a page where you can view all the shortcuts   
+If you type `Ctrl + S`, `Ctrl + K` in sequence as a shortcut, you will be taken to a page where you can view all the shortcuts   
    
 <br />
 ### Frequently used function short keywords   

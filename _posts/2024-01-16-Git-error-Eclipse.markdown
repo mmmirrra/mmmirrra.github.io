@@ -5,7 +5,7 @@ date:   2024-01-16 09:00:00 +0900
 categories: [Git]
 ---
 
-## How to fix an error when running 'git > pull'   
+## How to fix an error when running `git > pull`   
 // 'git > pull' 실행 시 발생한 오류 해결하는 방법   
    
 <br />
@@ -13,18 +13,18 @@ categories: [Git]
 // 내 로컬 파일은 무시하고 'git' 파일로 덮어쓰는 방법   
    
 // 터미널에서 실행할 파일이 있는 디렉토리까지 진입하여 'checkout' 실행해보기   
-`git checkout directory` : Enter the directory with files to run through the terminal and try 'checkout'   
+`git checkout directory` : Enter the directory with files to run through the terminal and try `checkout`   
    
 <br />
 #### Example   
-Run 'git checkout filename' from 'mobile-be-api' folder on drive d:   
-'git checkout' is a feature that ignores my local file and overwrites it with the file 'git'   
+Run `git checkout filename` from 'mobile-be-api' folder on drive d:   
+`git checkout` is a feature that ignores my local file and overwrites it with the file 'git'   
 // d 드라이브의 'mobile-be-api' 폴더에서 'git checkout 파일명' 실행함: 'git checkout'은 내 로컬 파일은 무시하고 'git'의 파일로 덮어쓰는 기능임   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/gitError1-1.png)
    
 <br /><br />
-### How to fix errors that occur during build after 'git > pull'   
+### How to fix errors that occur during build after `git > pull`   
 // 'git > pull' 이후 빌드 시 오류 발생하는 경우 해결 방법   
    
 <br />
@@ -43,6 +43,6 @@ In addition to 'git', this can be resolved if an error occurs during the build
 #### 2. Maven > Update Project   
    
 // 프로젝트명 위에서 마우스 오른쪽 버튼 클릭 > 메뉴 목록에서 'Maven' > 'Update Project...' 선택 : 정보 업데이트 되어 빌드 됨   
-Right-click on the project name > Select 'Maven' > 'Update Project...' from the menu list : Updated information and built   
+Right-click on the project name > Select `Maven > Update Project...` from the menu list : Updated information and built   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/gitError2-2.png)

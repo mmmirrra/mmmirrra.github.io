@@ -17,10 +17,10 @@ categories: [PuTTY]
 // 방법 2. 'tail -f /디렉토리/로그파일명.log'를 입력하고 'Enter' 치면 실행됨   
 // 방법 3. '/디렉토리/로그파일명logs.sh'를 입력하고 'Enter' 치면 실행됨   
    
-1. After logging in, type './log filename logs.sh' and type 'Enter' to execute   
-2. Run by typing 'tail -f / directory/log filename.log' and 'Enter'   
-3. Run by typing '/directory/log filename logs.sh' and 'Enter'   
+1. After logging in, type `./log filename logs.sh` and type `Enter` to execute   
+2. Run by typing `tail -f / directory/log filename.log` and `Enter`   
+3. Run by typing `/directory/log filename logs.sh` and `Enter`   
    
 <br />
-#### Log file location : The location of the 'logfile name.log' file varies depending on the project   
-// 로그 파일 위치 : 프로젝트에 따라 '로그파일명.log' 파일의 위치가 다름   
+#### Log file location : The location of the `logfile name.log` file varies depending on the project   
+// 로그 파일 위치 : 프로젝트에 따라 `로그파일명.log` 파일의 위치가 다름   

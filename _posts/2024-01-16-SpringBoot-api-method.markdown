@@ -12,7 +12,7 @@ C : CREATE, INSERT
 R : SELECT   
    
 // ※ 목록과 상세가 있는 경우 'GET'을 써서 파라미터를 보내주면 백 버튼 기능을 구현하기 편함   
-※ If there is a list and details, it is easy to implement the back button function by sending parameters using 'GET'   
+※ If there is a list and details, it is easy to implement the back button function by sending parameters using `GET`   
    
 #### 3. PUT / POST   
 U : UPDATE   
