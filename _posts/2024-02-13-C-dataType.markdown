@@ -12,7 +12,7 @@ Types of dataType include Basic type and Extended type.
 // 기본형   
    
 // 정수형   
-integer type: `int` (4byte), `short` (2byte), `long` (4byte), `unsigned` (int 4byte, short 2byte, long 4byte)   
+integer type: `int` (4byte), `short int` (2byte), `long int` (4byte), `unsigned int` (4byte), `unsigned short int` (2byte), `unsigned long int` (4byte)   
    
 // 실수형   
 floating-point type: `float` (4byte), `double` (8byte), `long double` (8byte)   
@@ -33,6 +33,7 @@ SUN == 0, MON == 1, TUE == 2, WED == 3, ...
 // 형 없음   
 `void`   
    
+<br />
 ### Extended type   
 // 확장형   
    
