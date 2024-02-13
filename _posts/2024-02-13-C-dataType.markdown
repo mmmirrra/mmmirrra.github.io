@@ -12,14 +12,14 @@ Types of dataType include Basic type and Extended type.
 // 기본형   
    
 // 정수형   
-integer type: `int (4byte)`, `short (2byte)`, `long (4byte)`, `unsigned (int 4byte, short 2byte, long 4byte)`   
+integer type: `int` (4byte), `short` (2byte), `long` (4byte), `unsigned` (int 4byte, short 2byte, long 4byte)   
    
 // 실수형   
-floating-point type: `float (4byte)`, `double (8byte)`, `long double (8byte)`   
+floating-point type: `float` (4byte), `double` (8byte), `long double` (8byte)   
 default: `double`   
    
 // 문자형   
-character type: `char (1byte)`, `unsigned char (1byte)`   
+character type: `char` (1byte), `unsigned char` (1byte)   
 // char : -128 ~ 127까지의 값으로 ASCII 코드를 사용하여 처리. 실제 저장은 숫자로 저장됨   
 `char` : Processed using ASCII code with values from -128 to 127. saved as a number   
 // unsigned char : 0 ~ 255까지의 값으로 ASCII 코드를 사용하여 처리. 실제 저장은 숫자로 저장됨   
