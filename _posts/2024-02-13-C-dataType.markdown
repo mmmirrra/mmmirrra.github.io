@@ -12,19 +12,19 @@ Types of dataType include Basic type and Extended type.
 // 기본형   
    
 // 정수형   
-integer type: int, short, long, unsigned   
+integer type: `int`, `short`, `long`, `unsigned`   
    
 // 실수형   
-floating-point type: float, double, long double   
+floating-point type: `float`, `double`, `long double`   
    
 // 문자형   
-character type: char, unsigned char   
+character type: `char`, `unsigned char`   
    
 // 열거형   
-enumerated type: enum   
+enumerated type: `enum`   
    
 // 형 없음   
-void   
+`void`   
    
 ### Extended type   
 // 확장형   
@@ -39,4 +39,4 @@ function type
 pointer type   
    
 // 구조체형   
-structure type   
+structure type
