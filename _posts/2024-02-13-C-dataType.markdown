@@ -17,6 +17,7 @@ Variable is a storage space where values that can change during program executio
 // 자료형의 종류에는 기본형과 확장형이 있음   
 Types of data type include Basic type and Extended type   
    
+<br />
 ### Basic type   
 // 기본형   
    
