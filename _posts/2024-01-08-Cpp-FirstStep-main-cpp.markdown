@@ -69,7 +69,7 @@ double maximum(double arr[], int n) {
 	return max;
 }
 
-// 함수의 원형을 main 함수보다 위에 먼저 써줌. 실제 함수는 main 함수 다음에 있음
+// 함수의 원형 prototype 을 main 함수보다 위에 먼저 써줌. 실제 함수는 main 함수 다음에 있음
 float FahrToC(float fahr);		// 인수이름인 fahr은 생략 가능함
 
 void SwapValues(int& x, int& y);
@@ -89,7 +89,7 @@ struct SalesRec {
 
 void PrSalesRec(const SalesRec& srec);
 
-// 함수의 원형에 디폴트 값 설정
+// 함수의 원형 prototype 에 디폴트 값 설정
 double Round(double x, int d = 0);
 
 struct TimeRec {

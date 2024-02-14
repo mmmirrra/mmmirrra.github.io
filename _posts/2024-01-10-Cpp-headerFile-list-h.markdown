@@ -218,9 +218,9 @@ public:
 		return iPart;		// 허수부의 값 반환. 이게 없으면 private 인 iPart를 외부 함수에서 읽을 수 없음
 	}
 
-	friend Complex2 operator + (double r, const Complex2& c);		// 좌측 피연산자가 실수인 경우 덧셈 연산자 다중정의. 외부 연산자 원형을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
+	friend Complex2 operator + (double r, const Complex2& c);		// 좌측 피연산자가 실수인 경우 덧셈 연산자 다중정의. 외부 연산자 원형 prototype 을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
 
-	friend ostream& operator << (ostream& os, const Complex2& c);	// 출력 연산자 다중정의. 외부 연산자 원형을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
+	friend ostream& operator << (ostream& os, const Complex2& c);	// 출력 연산자 다중정의. 외부 연산자 원형 prototype 을 friend로 정의. private 인 rPart, iPart를 자유롭게 사용할 수 있음
 };
 ```
    
@@ -253,7 +253,7 @@ public:
 	int getValue() const {
 		return value;
 	}
-	void f();		// 외부에 정의하는 함수 원형 예제
+	void f();		// 외부에 정의하는 함수 원형 prototype 예제
 };
 
 #endif // COUNTER_H_INCLUDED
@@ -723,7 +723,7 @@ public:
 		strcpy(pt, buf);
 		return pt;
 	}
-	friend std::ostream& operator << (std::ostream& os, const MyString& mstr);		// 스트림 출력 연산자 다중정의 원형 - 좌측 피연산자인 cout이 ostream 클래스의 객체이기 때문에 이 MyString 클래스에서는 정의할 수 없으므로 클래스 외부에 별도로 정의함. 외부에서 클래스 내부의 멤버를 사용할 수 있게 하기 위해 friend로 설정
+	friend std::ostream& operator << (std::ostream& os, const MyString& mstr);		// 스트림 출력 연산자 다중정의 원형 prototype - 좌측 피연산자인 cout이 ostream 클래스의 객체이기 때문에 이 MyString 클래스에서는 정의할 수 없으므로 클래스 외부에 별도로 정의함. 외부에서 클래스 내부의 멤버를 사용할 수 있게 하기 위해 friend로 설정
 };
 
 // 스트림 출력 연산자
@@ -811,8 +811,8 @@ class Person {		// 메모리 동적 할당 예제
 	char* name;
 	char* addr;
 public:
-	Person(const char* name, const char* addr);		// 생성자의 원형
-	~Person();						// 소멸자의 원형
+	Person(const char* name, const char* addr);		// 생성자의 원형 prototype
+	~Person();						// 소멸자의 원형 prototype
 	void print() const;					// const 이므로 변경 불가
 	void chAddr(const char* newAddr);
 };
@@ -973,7 +973,7 @@ class Stack {			// Stack 이라는 클래스 템플릿
 	T* buf;
 	int top;
 	int size;
-public:				// 함수의 원형 선언
+public:				// 함수의 원형 prototype 선언
 	Stack(int s);		// 생성자
 	virtual ~Stack();	// 소멸자
 	bool full() const;
@@ -983,7 +983,7 @@ public:				// 함수의 원형 선언
 	T&& pop();
 };
 
-// 함수의 원형과 함수의 실제 정의를 헤더 파일에 한번에 정의해야 함. 함수의 실제 정의를 별도의 cpp 파일에 넣으면 여러번 중복 정의되므로 헤더 파일에 한번에 정의해야 함
+// 함수의 원형 prototype 과 함수의 실제 정의를 헤더 파일에 한번에 정의해야 함. 함수의 실제 정의를 별도의 cpp 파일에 넣으면 여러번 중복 정의되므로 헤더 파일에 한번에 정의해야 함
 template <typename T> Stack<T>::Stack(int s) : size(s), top(s) {	// 생성자
 	buf = new T[s];
 }
