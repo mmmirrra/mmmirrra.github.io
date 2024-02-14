@@ -1,12 +1,21 @@
 ---
 layout: post
-title:  "C: dataType"
+title:  "C: data type"
 date:   2024-02-13 09:00:00 +0900
 categories: [C]
 ---
 
-// 자료형의 종류에는 기본형과 확장형이 있음.   
-Types of dataType include Basic type and Extended type.   
+// 자료형은 상수와 변수로 구분하여 사용함   
+Data type are divided into constant and variable   
+   
+// 상수는 항상 고정되는 값을 갖는 자료임   
+Constant is a data that always has a fixed value   
+   
+// 변수는 프로그램 실행 도중 변할 수 있는 값이 저장되는 기억공간임   
+Variable is a storage space where values that can change during program execution are stored   
+   
+// 자료형의 종류에는 기본형과 확장형이 있음   
+Types of data type include Basic type and Extended type   
    
 ### Basic type   
 // 기본형   
