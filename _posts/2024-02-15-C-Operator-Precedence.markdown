@@ -52,5 +52,5 @@ categories: [C]
 |14|&#62;&#62;=|Assignment by bitwise right shift|Right-to-right|
 |14|&=|Assignment by bitwise AND|Right-to-right|
 |14|^=|Assignment by bitwise XOR|Right-to-right|
-|14|\|=ㅇ|Assignment by bitwise OR|Right-to-right|
+|14|\|=|Assignment by bitwise OR|Right-to-right|
 |15|,|Comma|Left-to-right|
