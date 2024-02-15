@@ -38,9 +38,9 @@ categories: [C]
 |7|!=|Relational ≠|Left-to-right|
 |8|&|Bitwise AND|Left-to-right|
 |9|^|Bitwise XOR (exclusive or)|Left-to-right|
-|10|\|ㅌ|Bitwise OR (inclusive or)|Left-to-right|
+|10|\||Bitwise OR (inclusive or)|Left-to-right|
 |11|&&|Logical AND|Left-to-right|
-|12|&#124;&#124;|Logical OR|Left-to-right|
+|12|\|\||Logical OR|Left-to-right|
 |13|?:|Ternary conditional|Right-to-left|
 |14|=|Simple assignment|Right-to-right|
 |14|+=|Assignment by sum|Right-to-right|
@@ -52,5 +52,5 @@ categories: [C]
 |14|&#62;&#62;=|Assignment by bitwise right shift|Right-to-right|
 |14|&=|Assignment by bitwise AND|Right-to-right|
 |14|^=|Assignment by bitwise XOR|Right-to-right|
-|14|&#124;=|Assignment by bitwise OR|Right-to-right|
+|14|\|=|Assignment by bitwise OR|Right-to-right|
 |15|,|Comma|Left-to-right|
