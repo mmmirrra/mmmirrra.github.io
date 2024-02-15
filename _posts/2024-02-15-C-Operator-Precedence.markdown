@@ -15,7 +15,7 @@ categories: [C]
 |. |Structure and union member access |Left-to-right
 |-> |Structure and union member access through pointer |Left-to-right
 |(type){list} |Compound literal |Left-to-right
-.10|2 |++ -- |Prefix increment and decrement |Right-to-left
+.10+|2 |++ -- |Prefix increment and decrement |Right-to-left
 |+ |Unary plus |Right-to-left
 |- |Unary minus |Right-to-left
 |! |Logical NOT |Right-to-left
