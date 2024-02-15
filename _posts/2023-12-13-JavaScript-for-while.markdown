@@ -37,10 +37,10 @@ It can also be used for arrays, but is not recommended for array iterations.
                 age: '20'
             }
             for(const key in obj) {
-                console.log(key);                   //name // age
-                console.log(obj.name, obj.age);     //NAME, 20
-                console.log(`key: ${key}`);         //key: name //key: age
-                console.log(`value: ${obj[key]}`);  //value: NAME //value: 20
+                console.log(key);                   // name // age
+                console.log(obj.name, obj.age);     // NAME, 20
+                console.log(`key: ${key}`);         // key: name //key: age
+                console.log(`value: ${obj[key]}`);  // value: NAME //value: 20
             };
         </script>
     </head>
@@ -62,8 +62,8 @@ It is usually used for the array.
         <script>
             const array = ['1', '2', '3'];
             for(const element of array) {
-                console.log(element);           //array[first] value ~ array[last] value
-                console.log(array);             //array full output
+                console.log(element);           // array[first] value ~ array[last] value
+                console.log(array);             // array full output
             };
         </script>
     </head>
@@ -84,7 +84,7 @@ Use the callback function in the factor.
         <script>
             const array = ['1', '2', '3'];
             array.forEach((element) => {
-                console.log(element);           //array[first] value ~ array[last] value
+                console.log(element);           // array[first] value ~ array[last] value
             };
         </script>
     </head>
@@ -103,7 +103,7 @@ If while(condition) is false, it does not run once.
     <head>
         <script>
             const array = ['1', '2', '3'];
-            while(array.length > 0) {               //condition
+            while(array.length > 0) {               // condition
                 array.forEach((element) => {
                     console.log(element);
                 };
@@ -126,12 +126,12 @@ After at least one execution, if the while condition is false, it is no longer e
     <head>
         <script>
             const array = ['1', '2', '3'];
-            do{                                 //do{} is executed at least once.
+            do{                                 // do{} is executed at least once.
                 array.forEach((element) => {
                     console.log(element);
                 };
             }
-            while(array.length > 3)             //condition
+            while(array.length > 3)             // condition
         </script>
     </head>
     <body>
