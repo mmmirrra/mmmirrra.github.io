@@ -17,8 +17,8 @@ categories: [C]
 |8|&|Bitwise AND|Left-to-right|
 |9|^|Bitwise XOR (exclusive or)|Left-to-right|
 |10|||Bitwise OR (inclusive or)|Left-to-right|
-|11|||Left-to-right|
-|12|||Left-to-right|
-|13|||Right-to-left|
-|14|||Right-to-left|
-|15||||Left-to-right|
+|11|&&|Logical AND|Left-to-right|
+|12||||Logical OR|Left-to-right|
+|13|?:|Ternary conditional|Right-to-left|
+|14|=<br />+= -=<br />*= /= %=<br /><<= >>=<br />&= ^= |=|Simple assignment<br />Assignment by sum and difference<br />Assignment by product, quotient, and remainder<br />Assignment by bitwise left shift and right shift<br />Assignment by bitwise AND, XOR, and OR|Right-to-left|
+|15|,|Comma|Left-to-right|
