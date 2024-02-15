@@ -5,22 +5,33 @@ date:   2023-11-27 09:00:00 +0900
 categories: [JavaScript]
 ---
 
-```
-// 그레이브 - 물결표시 아래 따옴표
-` Grave
+```html
+<!-- 그레이브 - 물결표시 아래 따옴표 -->
+`    Grave
 // 틸드 - 물결표시
-~ Tilde
-! Exclamation Point (엑스클러메이션 포인트) [느낌표]
-@ At Sign / Commercial At (앳 사인 / 커머셜 앳) [골뱅이]
-# Crosshatch / Sharp / hash / Pound (크로스해치 / 샵 / 해쉬 / 파운드) [샵, 우물 정]
-♯ Music Sharp Sign (뮤직 샵 사인)
-$ Dollar Sign (달러 사인) [달러]
-% Percent Sign (퍼센트 사인) [퍼센트, 백분율]
-‰ per mille Sign (퍼마일 사인) [천분율, 퍼밀]
-‱ Basis Point / bp / bps / bips (베이세스 포인트) [채권의 이자율이나 비율]
-^ Circumflex / Caret (서컴플렉스 / 캐럿) [꺽쇠, 웃는 눈]
-& Ampersand (앰퍼샌드) [앤드 마크 ]
-* Asterisk (애스터리스크) [별표, 별사탕, 곱하기]
+~    Tilde
+// 엑스클러메이션 포인트 - 느낌표
+!    Exclamation Point
+// 앳 사인 / 커머셜 앳 - 골뱅이
+@    At Sign / Commercial At
+// 크로스해치 / 샵 / 해쉬 / 파운드 - 샵, 우물 정
+#    Crosshatch / Sharp / hash / Pound
+// 뮤직 샵 사인
+♯    Music Sharp Sign
+// 달러 사인 - 달러
+$    Dollar Sign
+// 퍼센트 사인 - 퍼센트, 백분율
+%    Percent Sign
+// 퍼마일 사인 -천분율, 퍼밀
+‰    per mille Sign
+// 베이세스 포인트 - 채권의 이자율이나 비율
+‱    Basis Point / bp / bps / bips
+// 서컴플렉스 / 캐럿 - 꺽쇠, 웃는 눈
+^    Circumflex / Caret
+// 앰퍼샌드 - 앤드 마크
+&    Ampersand
+// 애스터리스크 - 별표, 별사탕, 곱하기
+*    Asterisk
  
 - Minus Sign / Hyphen-Minus / Hyphen / Minus / Dash (마이너스 사인 / 하이픈 마이너스 / 하이픈 / 마이너스 / 대시) [빼기, 마이너스]
 – en dash (En 대시)
