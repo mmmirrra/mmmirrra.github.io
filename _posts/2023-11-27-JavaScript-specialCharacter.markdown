@@ -86,9 +86,9 @@ _ Underscore / Underline
 ] Right Bracket
 
 <!-- 레스 댄 사인 / 레프트 앵글 브래킷 - 작다 -->
-'<' Less Than Sign / Left Angle Bracket
+< Less Than Sign / Left Angle Bracket
 <!-- 그레이터 댄 사인 / 레프트 앵글 브래킷 - 크다 -->
-'>' Greater Than Sign / Right Angle Bracket
+> Greater Than Sign / Right Angle Bracket
 
 <!-- 카피라이트 심볼 - 저작권 기호 -->
 © copyright symbol
