@@ -8,7 +8,6 @@ categories: [C]
 [cols="^,^,^,^"]
 |===
 |Precedence |Operator |Description |Associativity
-
 |:---: |:---: |:--- |:---
 
 .6+.^|1 |++ -- |Suffix/postfix increment and decrement |Left-to-right
