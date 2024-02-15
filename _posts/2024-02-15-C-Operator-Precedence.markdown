@@ -6,10 +6,10 @@ categories: [C]
 ---
 
 |Pre<br />cedence|Operator|Description|Associativity|
-|:---:|:---|:---|:---|
+|:---:|:---:|:---|:---|
 |1|++ --|Suffix/postfix increment and decrement|Left-to-right|
-||()|Function call|Left-to-right|
-||[]|Array subscripting|Left-to-right|
+|^^|()|Function call|Left-to-right|
+|^^|[]|Array subscripting|Left-to-right|
 ||.|Structure and union member access|Left-to-right|
 |1|->|Structure and union member access through pointer|Left-to-right|
 |1|(type){list}|Compound literal|Left-to-right|
