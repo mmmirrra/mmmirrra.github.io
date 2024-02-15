@@ -5,6 +5,17 @@ date:   2024-02-15 09:00:00 +0900
 categories: [C]
 ---
 
+let md = new window.markdownit();
+md.use(window.markdownitMergeCells);
+
+let result = md.render(`
+|1|1|3|4|5|
+|-|-|-|-|-|
+|1|1|2|2|6|
+|1|1|2|2|7|
+|1|4|3|5|5|
+`)
+
 |Precedence|Operator|Description|Associativity|
 |:---:|:---:|:---|:---|
 |1|++ --|Suffix/postfix increment and decrement|Left-to-right|
