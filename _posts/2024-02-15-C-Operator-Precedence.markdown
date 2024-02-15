@@ -20,5 +20,5 @@ categories: [C]
 |11|&&|Logical AND|Left-to-right|
 |12|&#124;&#124;|Logical OR|Left-to-right|
 |13|?:|Ternary conditional|Right-to-left|
-|14|=<br />+= -=<br />*= /= %=<br />&#60;&#60;= &#62;&#62;=<br />&= ^= &#124;=|Simple assignment<br />Assignment by sum and difference<br />Assignment by product, quotient, and remainder<br />Assignment by bitwise left shift and right shift<br />Assignment by bitwise AND, XOR, and OR|Right-to-left|
+|14|=<br />+=<br />-=<br />*=<br />/=<br />%=<br />&#60;&#60;=<br />&#62;&#62;=<br />&=<br />^=<br />&#124;=|Simple assignment<br />Assignment by sum<br />Assignment by difference<br />Assignment by product<br />Assignment by quotient<br />Assignment by remainder<br />Assignment by bitwise left shift<br />Assignment by bitwise right shift<br />Assignment by bitwise AND<br />Assignment by bitwise XOR<br />Assignment by bitwise OR|Right-to-left|
 |15|,|Comma|Left-to-right|
