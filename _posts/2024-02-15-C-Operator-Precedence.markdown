@@ -8,7 +8,7 @@ categories: [C]
 |Precedence|Operator|Description|Associativity|
 |:---:|:---:|:---|:---|
 |1|++ --|Suffix/postfix increment and decrement|Left-to-right|
-|1|()|Function call|Left-to-right|
+|^|()|Function call|Left-to-right|
 |1|[]|Array subscripting|Left-to-right|
 |1|.|Structure and union member access|Left-to-right|
 |1|->|Structure and union member access through pointer|Left-to-right|
