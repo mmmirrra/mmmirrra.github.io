@@ -16,7 +16,7 @@ categories: [C]
 |7|== !=|For relational = and ≠ respectively|Left-to-right|
 |8|&|Bitwise AND|Left-to-right|
 |9|^|Bitwise XOR (exclusive or)|Left-to-right|
-|10|||Bitwise OR (inclusive or)|Left-to-right|
+|10|&#124;|Bitwise OR (inclusive or)|Left-to-right|
 |11|&&|Logical AND|Left-to-right|
 |12||||Logical OR|Left-to-right|
 |13|?:|Ternary conditional|Right-to-left|
