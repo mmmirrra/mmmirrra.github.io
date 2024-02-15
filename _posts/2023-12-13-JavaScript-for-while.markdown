@@ -39,8 +39,8 @@ It can also be used for arrays, but is not recommended for array iterations.
             for(const key in obj) {
                 console.log(key);                   // name // age
                 console.log(obj.name, obj.age);     // NAME, 20
-                console.log(`key: ${key}`);         // key: name //key: age
-                console.log(`value: ${obj[key]}`);  // value: NAME //value: 20
+                console.log(`key: ${key}`);         // key: name // key: age
+                console.log(`value: ${obj[key]}`);  // value: NAME // value: 20
             };
         </script>
     </head>
