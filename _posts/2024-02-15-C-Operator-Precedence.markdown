@@ -11,13 +11,13 @@ categories: [C]
 
 |:---: |:---: |:--- |:---
 
-.6+^|1 |++ -- |Suffix/postfix increment and decrement |Left-to-right
+.6+.^|1 |++ -- |Suffix/postfix increment and decrement |Left-to-right
 |() |Function call |Left-to-right
 |[] |Array subscripting |Left-to-right
 |. |Structure and union member access |Left-to-right
 |-> |Structure and union member access through pointer |Left-to-right
 |(type){list} |Compound literal |Left-to-right
-.10+^|2 |++ -- |Prefix increment and decrement |Right-to-left
+.10+.^|2 |++ -- |Prefix increment and decrement |Right-to-left
 |+ |Unary plus |Right-to-left
 |- |Unary minus |Right-to-left
 |! |Logical NOT |Right-to-left
@@ -27,18 +27,18 @@ categories: [C]
 |& |Address-of |Right-to-left
 |sizeof |Size-of |Right-to-left
 |_Alignof |Alignment requirement |Right-to-left
-.3+^|3 |* |Multiplication |Left-to-right
+.3+.^|3 |* |Multiplication |Left-to-right
 |/ |Division |Left-to-right
 |% |Remainder |Left-to-right
-.2+^|4 |+ |Addition |Left-to-right
+.2+.^|4 |+ |Addition |Left-to-right
 |- |Subtraction |Left-to-right
-.2+^|5 |&#60;&#60; |Bitwise left shift |Left-to-right
+.2+.^|5 |&#60;&#60; |Bitwise left shift |Left-to-right
 |&#62;&#62; |Bitwise right shift |Left-to-right
-.4+^|6 |&#60; |Relational operators < |Left-to-right
+.4+.^|6 |&#60; |Relational operators < |Left-to-right
 |&#60;= |Relational operators ≤ |Left-to-right
 |&#62; |Relational operators > |Left-to-right
 |&#62;= |Relational operators ≥ |Left-to-right
-.2+^|7 |== |Relational = |Left-to-right
+.2+.^|7 |== |Relational = |Left-to-right
 |!= |Relational ≠ |Left-to-right
 |8 |& |Bitwise AND |Left-to-right
 |9 |^ |Bitwise XOR (exclusive or) |Left-to-right
@@ -46,7 +46,7 @@ categories: [C]
 |11 |&& |Logical AND |Left-to-right
 |12 |&#124;&#124; |Logical OR |Left-to-right
 |13 |?: |Ternary conditional |Right-to-left
-.11+^|14 |=|Simple assignment |Right-to-right
+.11+.^|14 |=|Simple assignment |Right-to-right
 |+= |Assignment by sum |Right-to-right
 |-= |Assignment by difference |Right-to-right
 |*= |Assignment by product |Right-to-right
