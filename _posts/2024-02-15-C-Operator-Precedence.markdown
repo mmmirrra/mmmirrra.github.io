@@ -8,17 +8,17 @@ categories: [C]
 |Precedence|Operator|Description|Associativity|
 |:---:|:---|:---|:---|
 |1|++ --<br />()<br />[]<br />.<br />-><br />(type){list}|Suffix/postfix increment and decrement<br />Function call<br />Array subscripting<br />Structure and union member access<br />Structure and union member access through pointer<br />Compound literal|Left-to-right|
-|2||||
-|3||||
-|4||||
-|5||||
-|6||||
-|7||||
-|8||||
-|9||||
-|10||||
-|11||||
-|12||||
-|13||||
-|14||||
-|15||||
+|2|++ --<br />+ -<br />! ~<br />(type)<br />*<br />&<br />sizeof<br />_Alignof|Prefix increment and decrement<br />Unary plus and minus<br />Logical NOT and bitwise NOT<br />Cast<br />Indirection (dereference)<br />	Address-of<br />Size-of<br />Alignment requirement|Right-to-left|
+|3|	* / %|Multiplication, division, and remainder|Left-to-right|
+|4|+ -|Addition and subtraction|Left-to-right|
+|5|<< >>|Bitwise left shift and right shift|Left-to-right|
+|6|	< <=<br/>> >=|For relational operators < and ≤ respectively<br />For relational operators > and ≥ respectively|Left-to-right|
+|7|== !=|For relational = and ≠ respectively|Left-to-right|
+|8|&|Bitwise AND|Left-to-right|
+|9|^|Bitwise XOR (exclusive or)|Left-to-right|
+|10|||Bitwise OR (inclusive or)|Left-to-right|
+|11|||Left-to-right|
+|12|||Left-to-right|
+|13|||Right-to-left|
+|14|||Right-to-left|
+|15||||Left-to-right|
