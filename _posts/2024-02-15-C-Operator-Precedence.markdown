@@ -6,7 +6,7 @@ categories: [C]
 ---
 
 [cols="^.^,^.^,^.^,^.^"]
-|====
+|===
 |Precedence |Operator |Description |Associativity
 |:---: |:---: |:--- |:---
 .6+|1 |++ -- |Suffix/postfix increment and decrement |Left-to-right
@@ -56,4 +56,4 @@ categories: [C]
 |^= |Assignment by bitwise XOR |Right-to-right
 |&#124;= |Assignment by bitwise OR |Right-to-right
 |15 |, |Comma |Left-to-right
-|====
+|===
