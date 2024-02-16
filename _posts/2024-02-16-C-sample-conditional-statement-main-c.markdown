@@ -21,8 +21,8 @@ project 'Sample_Conditional_Statement'
  - `do ~ while`   
 5. Jump Statement   
  - `goto` : Unconditionally move to the specified Label   
- - `break` : Terminate Conditional Statement   
- - `continue` : Move back to Conditional Statement   
+ - `break` : Terminate Statement (for, while, do ~ while, switch ~ case)   
+ - `continue` : Move back to Statement. Go to the beginning of the control statement and restart (for, while, do ~ while) (switch ~ case excluded)   
    
 <br />
 ### sourceFile list - main() sourceFile - sample_conditional_statement.c   
