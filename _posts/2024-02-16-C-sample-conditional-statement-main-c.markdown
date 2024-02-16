@@ -40,10 +40,10 @@ void main() {
 	int a1 = 10, b1 = 20;
 	if (a1 > b1) {
 		a1 = a1 + 20;
-		printf("a1=%d\n", a1);		// 조건에 맞지 않기 때문에 출력 안됨
+		printf("a1=%d\n", a1);	// 조건에 맞지 않기 때문에 출력 안됨
 	}
 	b1 = b1 + 20;
-	printf("b1=%d\n", b1);			// 출력결과 --> b1=40
+	printf("b1=%d\n", b1);		// 출력결과 --> b1=40
 
 	/* if ~ else 예제 */
 	int a2, b2, max2;
@@ -53,7 +53,7 @@ void main() {
 		max2 = a2;
 	else
 		max2 = b2;
-	printf("max2=%d\n", max2);			// 출력결과 --> max2=입력된값 중 큰 값. 두 값이 같다면 먼저 입력된 값
+	printf("max2=%d\n", max2);	// 출력결과 --> max2=입력된값 중 큰 값. 두 값이 같다면 먼저 입력된 값
 
 	/* 다중 if ~ else 예제 */
 	int a3;
@@ -110,14 +110,14 @@ void main() {
 			c5++;
 		}
 	}
-	end5:		// goto가 이동해 올 레이블 Label
+	end5:	// goto가 이동해 올 레이블 Label
 	printf("\n\n The End \n");
 
 	/* for (초기식; 조건식; 증감식) 예제 */
 	int i6, sum6 = 0;
 	for (i6 = 0; i6 <= 10; ++i6)
 		sum6 = sum6 + i6;
-	printf("Sum from 1 to %d=%d\n", i6 - 1, sum6);		// 출력결과 --> Sum from 1 to 10=55
+	printf("Sum from 1 to %d=%d\n", i6 - 1, sum6);	// 출력결과 --> Sum from 1 to 10=55
 
 	/* 다중 for 예제 */
 	int a7, b7;
@@ -135,14 +135,14 @@ void main() {
 		sum8 = sum8 + i8;
 		i8++;
 	}
-	printf("Sum from 1 to 100=%d\n", sum8);		// 출력결과 --> Sum from 1 to 100=5050
+	printf("Sum from 1 to 100=%d\n", sum8);	// 출력결과 --> Sum from 1 to 100=5050
 
 	/* 다중 while (조건식) 예제 - 구구단 */
 	int i9 = 2, j9 = 0;
 	while (i9 < 10) {
 		j9 = 1;
 		while (j9 < 10) {
-			printf("%dx%d=%d\n", i9, j9, i9 * j9);		// 출력결과 --> 2x1=2 \n 2x2=4 \n ... 9x8=72 \n 9x9=81
+			printf("%dx%d=%d\n", i9, j9, i9 * j9);	// 출력결과 --> 2x1=2 \n 2x2=4 \n ... 9x8=72 \n 9x9=81
 			j9++;
 		}
 		printf("\n");
@@ -157,22 +157,23 @@ void main() {
 	do {
 		sum10 = sum10 + i10;
 		i10++;
-	} while (i10 <= n10);				// 맨 뒤에 세미콜론을 꼭 써야 함
+	} while (i10 <= n10);		// 맨 뒤에 세미콜론을 꼭 써야 함
 	printf("i10=%d\n", i10);
 	printf("Sum from Initial value of i10 to %d=%d\n", n10, sum10);
 
 	/* break 예제 */
 	int num11, sum11 = 0;
-	while (1) {							// 1==참. 무한 while 루프
+	while (1) {				// 1==참. 무한 while 루프
 		printf("num11(End:0)...?");
 		scanf("%d", &num11);
-		if (num11 == 0)					// num11==0이면 while 루프 종료
+		if (num11 == 0)			// num11==0이면 while 루프 종료
 			break;
 		sum11 = sum11 + num11;
 	}
 	printf("\n sum11=%d\n", sum11);
 
-	/* continue 예제 - 루프를 다시 시작할 때 사용 - 반복구조에만 사용. switch ~ case 에는 사용 불가 */
+	/* continue 예제 - 루프를 다시 시작할 때 사용 
+	   - 반복구조에만 사용. switch ~ case 에는 사용 불가 */
 	int num12 = 1;
 	while (num12 != 0) {
 		printf("\n num12(End:0)...? If you enter a prime number, it's an infinite loop.");
