@@ -8,7 +8,8 @@ categories: [C]
 solution 'CPrjs'   
 project 'Sample_Conditional_Statement'   
    
-#### Control Structure   
+<br />
+### Control Structure   
 1. Sequence Control Structure: Control Structure performed from top to bottom unless otherwise specified   
 2. Selection or Decision Control Structure (Conditional Statement): Branch Control Structure to move performance to specific parts under given conditions   
  - `if`, `else`, `else if`   
