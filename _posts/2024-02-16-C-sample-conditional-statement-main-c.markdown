@@ -6,7 +6,7 @@ categories: [C]
 ---
 
 solution 'CPrjs'   
-project 'Sample_Coonditional_Statement'   
+project 'Sample_Conditional_Statement'   
    
 #### Control Structure   
 1. Sequence Control Structure: Control Structure performed from top to bottom unless otherwise specified   
