@@ -130,58 +130,58 @@ void main() {
 	printf("A: x8=%d, y8=%d\n", x8, y8);			// 출력결과 --> A: x8=2, y8=5
 
 	/* 기억 클래스 storage class 예제 2 - 전역변수 global variable */
-	printf("1) x9=%d\n", x9);					// 출력결과 --> 1) x9=0
+	printf("1) x9=%d\n", x9);				// 출력결과 --> 1) x9=0
 	fcn9();
-	printf("2) x9=%d\n", x9);					// 출력결과 --> 2) x9=1
+	printf("2) x9=%d\n", x9);				// 출력결과 --> 2) x9=1
 
 	/* 기억 클래스 storage class 예제 3 - 자동변수 auto */
-	int i10 = 1;							// auto 생략
+	int i10 = 1;						// auto 생략
 	auto int j10 = 2;
 	{
 		int i10 = 3;
 		{
 			int i10 = 4;
-			printf("i10 in block 2 is %d\n", i10);		// 출력결과 --> i10 in block 2 is 4
-			printf("j10 in block 2 is %d\n", j10);		// 출력결과 --> j10 in block 2 is 2
+			printf("i10 in block 2 is %d\n", i10);	// 출력결과 --> i10 in block 2 is 4
+			printf("j10 in block 2 is %d\n", j10);	// 출력결과 --> j10 in block 2 is 2
 		}
-		printf("i10 in block 1 is %d\n", i10);			// 출력결과 --> i10 in block 1 is 3
+		printf("i10 in block 1 is %d\n", i10);		// 출력결과 --> i10 in block 1 is 3
 	}
-	printf("i10 in void main() function is %d\n", i10);		// 출력결과 --> i10 in void main() function is 1
+	printf("i10 in void main() function is %d\n", i10);	// 출력결과 --> i10 in void main() function is 1
 
 	/* 기억 클래스 storage class 예제 4 - 정적변수 static */
-	int a11 = 10;							// 자동변수
-	static int b11 = 20;						// 정적변수
+	int a11 = 10;						// 자동변수
+	static int b11 = 20;					// 정적변수
 	{
 		int a11 = 5;
-		printf("a11=%d b11=%d\n", a11, b11);			// 출력결과 --> a11=5 b11=20
+		printf("a11=%d b11=%d\n", a11, b11);		// 출력결과 --> a11=5 b11=20
 	}
-	printf("a11=%d b11=%d\n", a11, b11);				// 출력결과 --> a11=10 b11=20
+	printf("a11=%d b11=%d\n", a11, b11);			// 출력결과 --> a11=10 b11=20
 
 	int i11;
 	i11 = 0;
 	while (i11 < 3) {
-		test11();						// 출력결과 --> auto=0, static=0 \n auto=0, static=1 \n auto=0, static=2
+		test11();					// 출력결과 --> auto=0, static=0 \n auto=0, static=1 \n auto=0, static=2
 		i11++;
 	}
 
 	/* 기억 클래스 storage class 예제 5 - 외부변수 extern */
-	extern int i12;						// 외부변수 선언 extern 생략 가능
-	extern int k12;						// 외부변수 선언 extern 생략 불가
+	extern int i12;					// 외부변수 선언 extern 생략 가능
+	extern int k12;					// 외부변수 선언 extern 생략 불가
 	int j12 = 100;
-	printf("i12=%d j12=%d k12=%d\n", i12, j12, k12);		// 출력결과 --> i12=10 j12=100 k12=50
+	printf("i12=%d j12=%d k12=%d\n", i12, j12, k12);	// 출력결과 --> i12=10 j12=100 k12=50
 
 	printf("Enter a string.\n");
 	scanf("%s", s13);
 	printf("The input string is %s stored in the global variable s13\n", s13);
-	extern_ex13();							// extern_ex13() 함수 - 2. 호출 - 전역변수 s13에 입력된 문자열이 출력됨
+	extern_ex13();						// extern_ex13() 함수 - 2. 호출 - 전역변수 s13에 입력된 문자열이 출력됨
 
 	/* 기억 클래스 storage class 예제 6 - 레지스터변수 register */
 	register int i14;
 	int sum14 = 0;
-	for (i14 = 0; i14 <= 10; ++i14)				// register변수를 반복문의 카운터 변수로 사용
+	for (i14 = 0; i14 <= 10; ++i14)			// register변수를 반복문의 카운터 변수로 사용
 		sum14 += i14;
 	i14 -= 1;
-	printf("i14=%d sum14=%d\n", i14, sum14);			// 출력결과 --> i14=10 sum14=55
+	printf("i14=%d sum14=%d\n", i14, sum14);		// 출력결과 --> i14=10 sum14=55
 }
 
 /* 사용자 정의 함수 예제 - 3. 정의 */
@@ -236,7 +236,7 @@ void swap7(int* x7, int* y7) {
 void fcn8() {
 	int i8;
 	i8 = 20;
-	printf("\nfcn8 i8=%d\n", i8);		// 출력결과 --> fcn8 i8=20
+	printf("\nfcn8 i8=%d\n", i8);	// 출력결과 --> fcn8 i8=20
 }
 
 void fcn9() {
@@ -244,8 +244,8 @@ void fcn9() {
 }
 
 test11() {
-	auto int a11 = 0;				// a11은 지역변수이므로 함수 호출 시마다 0으로 초기화 됨
-	static int s11 = 0;				// s11은 전역변수이므로 함수 호출 시 이전 실행 결과값이 유지됨
+	auto int a11 = 0;		// a11은 지역변수이므로 함수 호출 시마다 0으로 초기화 됨
+	static int s11 = 0;		// s11은 전역변수이므로 함수 호출 시 이전 실행 결과값이 유지됨
 	printf("auto=%d, static=%d\n", a11, s11);
 	++a11;
 	++s11;
