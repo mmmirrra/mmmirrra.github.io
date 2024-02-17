@@ -14,7 +14,7 @@ storage class : How to assign a variable to a specific area of storage space
 #### Depending on the initialization, duration and range of validity of the variable   
  : Example of use : storageClass datatype variable;   
    
-|type|Example of use|Description|
+|Type of storage class for a variable|Example of use|Description|
 |:---|:---|:---|
 |`auto`<br />// 자동변수|auto int a;|Created at the execution of the function, and removed storage space at the end of the execution.<br />You can skip "auto".<br />It's a local variable.<br />Initialization required.|
 |`static`<br />// 정적변수|static int a;|Storage space is maintained until the end of the program.<br />It's a global variable.<br />The value of the variable continues during program execution.<br />Initialized to 0 if no initialization|
