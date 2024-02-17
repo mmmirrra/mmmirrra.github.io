@@ -10,7 +10,7 @@ project 'Sample_Function_StorageClass'
    
 ### sourceFile list - .c   
 #### main() sourceFile   
-// 메인 함수
+// 메인 함수   
 `sample_function_storageClass.c` : C practice project main function   
    
 ```c
@@ -256,7 +256,7 @@ int k12 = 50;
    
 <br />
 #### etc sourceFile   
-// 외부변수가 선언된 파일
+// 외부변수가 선언된 파일   
 `externExample.c` : Files with external variables declared   
    
 ```c
