@@ -43,8 +43,8 @@ int x9;
 test11();
 int i12 = 10;
 int j12 = 20;
-void extern_ex13();		// extern_ex13() 함수 - 1. 원형 prototype 선언
-char s13[100];			// 전역변수 s13 선언
+void extern_ex13();	// extern_ex13() 함수 - 1. 원형 prototype 선언
+char s13[100];		// 전역변수 s13 선언
 
 void main() {
 
