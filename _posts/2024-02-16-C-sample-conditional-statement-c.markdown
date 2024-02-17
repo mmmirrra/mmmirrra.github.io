@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C: sample_conditional_statement.c : main() sourceFile"
+title:  "C: sample_conditional_statement.c"
 date:   2024-02-16 09:00:00 +0900
 categories: [C]
 ---
@@ -25,8 +25,8 @@ project 'Sample_Conditional_Statement'
  - `continue` : Move back to Statement. Go to the beginning of the control statement and restart (for, while, do ~ while) (switch ~ case excluded)   
    
 <br />
-### sourceFile list - main() sourceFile - sample_conditional_statement.c   
-   
+### sourceFile list - .c   
+#### main() sourceFile   
 `sample_conditional_statement.c` : C practice project main function   
    
 ```c
