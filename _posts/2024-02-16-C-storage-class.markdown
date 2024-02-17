@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C: Storage Class"
-date:   2024-02-17 09:00:00 +0900
+date:   2024-02-16 09:00:00 +0900
 categories: [C]
 ---
 

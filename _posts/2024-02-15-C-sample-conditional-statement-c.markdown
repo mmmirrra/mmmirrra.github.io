@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C: sample_conditional_statement.c"
-date:   2024-02-16 09:00:00 +0900
+date:   2024-02-15 09:00:00 +0900
 categories: [C]
 ---
 
