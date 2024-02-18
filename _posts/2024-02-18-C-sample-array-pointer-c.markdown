@@ -218,4 +218,5 @@ void score_sum6(int gr6[][5], int row, int column) {		// 가장 높은 차원의
 		printf("sum6[%d]=%d\n", i6, sum6[i6]);
 	}
 }
+
 ```
