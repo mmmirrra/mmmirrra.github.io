@@ -52,9 +52,9 @@ void main() {
 
 	/* 2차원 배열 예제 */
 	static int score3[4][3] = { {90, 90, 90},
-                                {80, 80, 80},
-                                {70, 70, 70},
-                                {60, 60, 60} };
+                                      {80, 80, 80},
+                                      {70, 70, 70},
+                                      {60, 60, 60} };
 	int sum3, i3, j3;
 	printf("Number\tKorean\tMath\tEnglish\tSum\n");
 	for (i3 = 0; i3 < 4; ++i3) {
