@@ -102,8 +102,8 @@ void main() {
 	};
 
 	struct person2 X2[3] = { {"HONG", 20, 'M'},
-							 {"HWANG", 22,'F'},
-							 {"LIM", 30, 'M'} };
+                         {"HWANG", 22,'F'},
+                         {"LIM", 30, 'M'} };
 	int i2, sum2 = 0;
 	for (i2 = 0; i2 < 3; i2++) {
 		printf("name:%s age:%d sex:%c\n", X2[i2].name, X2[i2].age, X2[i2].sex);		// 출력결과 --> name:HONG age:20 sex:M \n name:HWANG age:22 sex:F \n name:LIM age:30 sex:M
@@ -124,9 +124,9 @@ void main() {
 
 	/* 구조체 배열 포인터변수 structure pointer 사용 예제  - 2. student4형 구조체 선언과 초기화 */
 	struct student4 hs4[4] = { {"KIM HG", 90, 95},
-							   {"LEE SY", 85, 90},
-							   {"PARK GS", 70, 85},
-							   {"CHOI HI", 95, 75} };
+                          {"LEE SY", 85, 90},
+                          {"PARK GS", 70, 85},
+                          {"CHOI HI", 95, 75} };
 	struct student4* p4;
 	p4 = hs4;
 	printf("%s %d %d\n", p4->name, p4->kor, p4->math);	// 출력결과 --> KIM HG 90 95
