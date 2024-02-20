@@ -129,11 +129,11 @@ void main() {
 							   {"CHOI HI", 95, 75} };
 	struct student4* p4;
 	p4 = hs4;
-	printf("%s %d %d\n", p4->name, p4->kor, p4->math);		// 출력결과 --> KIM HG 90 95
+	printf("%s %d %d\n", p4->name, p4->kor, p4->math);	// 출력결과 --> KIM HG 90 95
 	p4 += 3;
-	printf("%s %d %d\n", p4->name, p4->kor, p4->math);		// 출력결과 --> CHOI HI 95 75
+	printf("%s %d %d\n", p4->name, p4->kor, p4->math);	// 출력결과 --> CHOI HI 95 75
 	p4--;
-	printf("%s %d %d\n", p4->name, p4->kor, p4->math);		// 출력결과 --> PARK GS 70 85
+	printf("%s %d %d\n", p4->name, p4->kor, p4->math);	// 출력결과 --> PARK GS 70 85
 
 	/* 구조체를 함수의 매개변수로 사용 예제 - 2. calc4 호출 */
 	struct num4 number4;
@@ -151,7 +151,7 @@ void main() {
 
 	/* typedef 예제 1 - 2. data6형 구조체 선언과 초기화 */
 	DATA6 d6 = { 1, 2 };
-	printf("d6.x=%d, d6.y=%d\n", d6.x, d6.y);		// 출력결과 --> d6.x=1, d6.y=2
+	printf("d6.x=%d, d6.y=%d\n", d6.x, d6.y);	// 출력결과 --> d6.x=1, d6.y=2
 
 	/* typedef 예제 2 - 2. person8형 구조체 선언과 초기화 */
 	MAN8 member8;
@@ -162,10 +162,10 @@ void main() {
 	member8.age = 30;
 	data8 = 100;
 	pt8 = &(member8.age);
-	printf("*pt8=%d\n", *pt8);				// 출력결과 --> *pt8=30
+	printf("*pt8=%d\n", *pt8);			// 출력결과 --> *pt8=30
 
 	/* 구조체의 비트필드 bit field 예제 */
-	struct test9 {						// 전체 비트의 합은 자료형의 크기 (여기에서는 unsigend 이므로 int 4byte) 보다 크기가 작아야 함
+	struct test9 {					// 전체 비트의 합은 자료형의 크기 (여기에서는 unsigend 이므로 int 4byte) 보다 크기가 작아야 함
 		unsigned a : 5;
 		unsigned b : 6;
 		unsigned c : 6;
