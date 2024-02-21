@@ -20,13 +20,18 @@ categories: [C]
 기억 공간과 디스크 사이에 존재하는 임시 기억 공간
 파일 입출력 시 디스크에 저장된 자료를 기억 공간으로 읽어들이거나, 기억 공간에서 처리된 자료를 디스크에 저장할 때 사용
 
+#### 스트림 stream
+자료의 입출력을 위한 논리적인 통로
+스크림 생성 : fopen() 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함 
+스크림 소멸 : fclose() 함수 사용
+
 #### 레코드 record   
-파일은 레코드 단위로 구성됨
 레코드는 파일 입출력처리에 사용되는 논리적인 기본 단위임
 각 레코드들은 필드 field 들로 구성됨
+파일은 레코드 단위로 구성됨
    
 #### 파일의 종류   
-파일처리함수를 이용하여 파일을 편성하는 방법에 따라
+파일처리함수를 이용하여 파일을 편성하는 방법에 따라 구분
 - 순차파일 sequential file : 파일의 처음부터 자료를 차례로 읽고, 기록하는 파일. 레코드의 길이가 일정하지 않은 파일. 레코드의 길이가 일정하지 않기 때문에 레코드들의 구분이 필요. CR/LF를 사용하여 구분
 - 랜덤파일 random file : 파일의 임의의 위치에서 자료를 읽고, 기록하는 파일. 레코드의 길이가 일정한 파일
    
@@ -40,7 +45,7 @@ categories: [C]
    
 |Function|Description|
 |:---|:---|
-|fopen("fileName", "Mode")|// 파일을 지정된 모드로 열기<br />It is used to create a file or to open a file.|
+|fopen("fileName", "Mode")|// 파일을 지정된 모드로 열기<br />입출력이 정상이면 지정된 파일의 파인포인터에 시작주소 값을 리턴. 파일이 개방되지 않을 때는 에러 값 NULL 리턴<br />It is used to create a file or to open a file.|
 |fclose()|// 파일을 닫기<br />It is used to close a file.|
 |fgetc()<br />getc()|// 파일로부터 한 문자 읽기<br />Reads a single character from the file.|
 |fputc()<br />putc()|// 파일에 한 문자 쓰기<br />Prints a single character into the file.|
