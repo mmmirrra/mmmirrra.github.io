@@ -11,7 +11,7 @@ categories: [C]
 // 파일 포인터를 사용하여 파일 입출력 수행   
 - a collection of data stored on an auxiliary memory device   
 - consisting of a series of bytes   
-- Use the file pointer to perform file input and output
+- Use the file pointer to perform file input and output   
    
 #### Type of File   
 // 텍스트 파일 : 화면에 출력되는 문자들로 구성된 파일   
@@ -22,39 +22,39 @@ categories: [C]
 #### File Pointer   
 // 파일이 어디에 있는지를 가리키는 포인터   
 // 모든 파일 입출력 함수는 파일 포인터를 사용   
-- A pointer to where the file is located
-- All file input/output functions use file pointers
-
+- A pointer to where the file is located   
+- All file input/output functions use file pointers   
+   
 #### Buffer   
 // 기억 공간과 디스크 사이에 존재하는 임시 기억 공간   
 // 파일 입출력 시 디스크에 저장된 자료를 기억 공간으로 읽어들이거나, 기억 공간에서 처리된 자료를 디스크에 저장할 때 사용   
-- Temporary storage space between storage space and disk
-- Used to read data stored on disk into storage space during file input and output, or to store data processed on disk space
-
+- Temporary storage space between storage space and disk   
+- Used to read data stored on disk into storage space during file input and output, or to store data processed on disk space   
+   
 #### Stream   
 // 자료의 입출력을 위한 논리적인 통로   
 // 스트림 생성 : `fopen()` 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함   
 // 스트림 소멸 : `fclose()` 함수 사용   
-- logical channels for data input and output
-- Stream generation: using 'fopen()' function; constructing a path (logical connection) between files and programs. The path role is played by a file pointer
-- Stream destruction: using 'fclose()' function
-
+- logical channels for data input and output   
+- Stream generation: using 'fopen()' function; constructing a path (logical connection) between files and programs. The path role is played by a file pointer   
+- Stream destruction: using 'fclose()' function   
+   
 #### Record   
 // 레코드는 파일 입출력처리에 사용되는 논리적인 기본 단위임   
 // 각 레코드들은 필드 field 들로 구성됨   
 // 파일은 레코드 단위로 구성됨   
-- A record is a logical basic unit used for file input/output processing
-- Each record consists of fields
-- Files are organized on a record basis
-
+- A record is a logical basic unit used for file input/output processing   
+- Each record consists of fields   
+- Files are organized on a record basis   
+   
 #### File classification based on how files are organized using file processing functions   
 // 파일처리함수를 이용하여 파일을 편성하는 방법에 따라 구분   
 // 순차파일 : 레코드의 길이가 일정하지 않은 파일. 파일의 처음부터 자료를 차례로 읽고, 기록하는 파일. 레코드의 길이가 일정하지 않기 때문에 레코드들의 구분이 필요. CR/LF를 사용하여 구분   
 // 랜덤파일 : 레코드의 길이가 일정한 파일. 파일의 임의의 위치에서 자료를 읽고, 기록하는 파일   
-- Categorized by how files are organized using file processing functions
-- Sequential file: a file whose length is not constant. A file that reads and records data from the beginning of a file. Because the length of the record is not constant, it is necessary to separate the records. Use CR/LF to distinguish
-- Random file : A file of constant length of the record. A file that reads and records data at any location in the file
-
+- Categorized by how files are organized using file processing functions   
+- Sequential file: a file whose length is not constant. A file that reads and records data from the beginning of a file. Because the length of the record is not constant, it is necessary to separate the records. Use CR/LF to distinguish   
+- Random file : A file of constant length of the record. A file that reads and records data at any location in the file   
+   
 #### Output function & input function of Sequential File : A function that records data in a created file and a function that reads stored data   
 - `putc()` & `getc()`   
 - `fputc()` & `fgetc()`   
@@ -89,7 +89,7 @@ categories: [C]
    
 ### File Opening Mode   
    
-#### Enable (open) mode = File access mode + Data input/output mode
+#### Enable (open) mode = File access mode + Data input/output mode   
 // 사용(개방)모드 = 파일 접근 모드 + 데이터 입출력 모드   
 - File access mode : `r`, `r+`, `w`, `w+`, `a`, `a+`   
 - Data input/output mode : `t`, `b`   
@@ -99,10 +99,10 @@ categories: [C]
    If omitted, it is designated as text mode   
   `t` : text mode : Input/output mode in which conversion occurs when data is input/output from a program to a file. Character conversion is required (￦n <-> CR/LF)   
   `b` : binary mode : Input/output mode without conversion; no character conversion required   
-
+   
 #### Basic mode of use of fopen() function   
 // fopen() 함수의 기본적인 사용모드   
-
+   
 |Mode|Description|
 |`r`|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- text mode<br />- Searches file. If the file is opened successfully fopen( ) loads it into memory and sets up a pointer that points to the first character in it. If the file cannot be opened fopen( ) returns NULL.|
 |`rb`|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- binary mode<br />- Open for reading in binary mode. If the file does not exist, fopen( ) returns NULL.|
