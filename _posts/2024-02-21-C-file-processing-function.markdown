@@ -75,7 +75,8 @@ categories: [C]
 `t` : text mode 텍스트 모드 : 프로그램에서 파일로 자료를 입출력 할 때 변환이 일어나는 입출력 모드. 문자 변환이 필요(￦n <-> CR/LF)   
 `b` : binary mode 2진 모드 : 변환이 일어나지 않는 입출력 모드. 문자 변환이 불필요   
    
-#### fopen() 함수의 기본적인 사용모드 
+#### fopen() 함수의 기본적인 사용모드   
+
 |Mode|Description|
 |r|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />Searches file. If the file is opened successfully fopen( ) loads it into memory and sets up a pointer that points to the first character in it. If the file cannot be opened fopen( ) returns NULL.|
 |rb|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />Open for reading in binary mode. If the file does not exist, fopen( ) returns NULL.|
