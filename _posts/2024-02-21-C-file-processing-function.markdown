@@ -106,8 +106,8 @@ categories: [C]
   // t : 텍스트 모드 : 프로그램에서 파일로 자료를 입출력 할 때 변환이 일어나는 입출력 모드. 문자 변환이 필요(￦n <-> CR/LF)   
   // b : 2진 모드 : 변환이 일어나지 않는 입출력 모드. 문자 변환이 불필요   
    If omitted, it is designated as text mode   
-  `t` : text mode : Input/output mode in which conversion occurs when data is input/output from a program to a file. Character conversion is required (￦n <-> CR/LF)   
-  `b` : binary mode : Input/output mode without conversion; no character conversion required   
+  - `t` : text mode : Input/output mode in which conversion occurs when data is input/output from a program to a file. Character conversion is required (￦n <-> CR/LF)   
+  - `b` : binary mode : Input/output mode without conversion; no character conversion required   
    
 <br />
 #### Basic mode of use of fopen() function   
