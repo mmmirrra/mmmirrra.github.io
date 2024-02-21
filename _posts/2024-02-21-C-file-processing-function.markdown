@@ -12,8 +12,14 @@ categories: [C]
 
 #### 파일의 종류
 파일처리함수를 이용하여 파일을 편성하는 방법에 따라
-- 순차파일
-- 랜덤파일
+- 순차파일 sequential file : 파일의 처음부터 자료를 차례로 읽고, 기록하는 파일. 레코드의 길이가 일정하지 않은 파일. 레코드의 길이가 일정하지 않기 때문에 레코드들의 구분이 필요. CR/LF를 사용하여 구분
+- 랜덤파일 random file : 파일의 임의의 위치에서 자료를 읽고, 기록하는 파일. 레코드의 길이가 일정한 파일
+
+#### 순차파일 출력함수 & 입력함수 : 만들어진 파일에 자료를 기록하는 함수 & 저장된 자료를 읽어내는 함수
+- `putc()` & `getc()`
+- `fputc()` & `fgetc()`
+- `fputs()` & `fgets()`
+- `fprintf()` & `fscanf()`
 
 ### File Processing Function   
    
@@ -43,6 +49,13 @@ categories: [C]
    
 ### File Opening Mode   
    
+#### 사용(개방)모드 = 파일 접근 모드 + 데이터 입출력 모드
+- 파일 접근 모드 : `r`, `r+`, `w`, `w+`, `a`, `a+`
+- 데이터 입출력 모드 : `t`, `b`
+`t` : text mode 텍스트 모드 : 프로그램에서 파일로 자료를 입출력 할 때 변환이 일어나는 입출력 모드. 문자 변환이 필요(￦n <-> CR/LF)
+`b` : binary mode 2진 모드 : 변환이 일어나지 않는 입출력 모드. 문자 변환이 불필요
+
+#### fopen() 함수의 기본적인 사용모드 
 |Mode|Description|
 |r|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />Searches file. If the file is opened successfully fopen( ) loads it into memory and sets up a pointer that points to the first character in it. If the file cannot be opened fopen( ) returns NULL.|
 |rb|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />Open for reading in binary mode. If the file does not exist, fopen( ) returns NULL.|
