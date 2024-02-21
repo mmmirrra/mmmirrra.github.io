@@ -40,7 +40,7 @@ categories: [C]
 // 스트림 생성 : 'fopen()' 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함   
 // 스트림 소멸 : 'fclose()' 함수 사용   
 - Logical channels for data input and output   
-- Stream generation: using `fopen()` function; constructing a path (logical connection) between File and program. The path role is played by a File Pointer   
+- Stream generation: using `fopen()` function. constructing a path (logical connection) between File and program. The path role is played by a File Pointer   
 - Stream destruction: using `fclose()` function   
    
 <br />
@@ -98,31 +98,31 @@ categories: [C]
 <br />
 ### File Opening Mode   
    
-#### Enable (open) Mode = File Access Mode + Data input/output Mode   
+#### Enable (Open) Mode = File Access Mode + Data Input/Output Mode   
 // 사용(개방)모드 = 파일 접근 모드 + 데이터 입출력 모드   
 - File Access Mode : `r`, `r+`, `w`, `w+`, `a`, `a+`   
-- Data input/output Mode : `t`, `b`   
+- Data Input/Output Mode : `t`, `b`   
   // 생략 시 Text Mode로 지정됨   
   // t : 텍스트 모드 : 프로그램에서 파일로 자료를 입출력 할 때 변환이 일어나는 입출력 모드. 문자 변환이 필요(￦n <-> CR/LF)   
   // b : 2진 모드 : 변환이 일어나지 않는 입출력 모드. 문자 변환이 불필요   
   - If omitted, it is designated as Text Mode   
-  - `t` : Text Mode : Input/output mode in which conversion occurs when data is input/output from a program to a File. Character conversion is required (￦n <-> CR/LF)   
-  - `b` : Binary Mode : Input/output mode without conversion; no character conversion required   
+  - `t` : Text Mode : Input/output Mode in which conversion occurs when data is input/output from a program to a File. Character conversion is required (￦n <-> CR/LF)   
+  - `b` : Binary Mode : Input/output Mode without conversion; no character conversion required   
    
 <br />
 #### Basic Mode of use of fopen() function   
 // fopen() 함수의 기본적인 사용모드   
    
 |Mode|Description|
-|`r`|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- text mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the first character in it. If the File cannot be opened fopen( ) returns NULL.|
-|`rb`|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- binary mode<br />- Open for reading in binary mode. If the File does not exist, fopen( ) returns NULL.|
-|`w`|// 파일 쓰기<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- text mode<br />- Open for writing in text mode. If the File exists, its contents are overwritten. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
-|`wb`|// 파일 쓰기<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- binary mode<br />- Open for writing in binary mode. If the File exists, its contents are overwritten. If the File does not exist, it will be created.|
-|`a`|// 파일 추가<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- text mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the last character in it. It opens only in the append mode. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
-|`ab`|// 파일 추가<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- binary mode<br />- Open for append in binary mode. Data is added to the end of the File. If the File does not exist, it will be created.|
-|`r+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- text mode<br />- Searches File. It is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the first character in it. Returns NULL, if unable to open the File.|
-|`rb+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- binary mode<br />- Open for both reading and writing in binary mode. If the File does not exist, fopen( ) returns NULL.|
-|`w+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- text mode<br />- Searches File. If the File exists, its contents are overwritten. If the File doesn’t exist a new File is created. Returns NULL, if unable to open the File.|
-|`wb+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- binary mode<br />- Open for both reading and writing in binary mode. If the File exists, its contents are overwritten. If the File does not exist, it will be created.|
-|`a+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- text mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the last character in it. It opens the File in both reading and append mode. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
-|`ab+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- binary mode<br />- Open for both reading and appending in binary mode. If the File does not exist, it will be created.|
+|`r`|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- Text Mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the first character in it. If the File cannot be opened fopen( ) returns NULL.|
+|`rb`|// 파일 읽기<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- Binary Mode<br />- Open for reading in Binary Mode. If the File does not exist, fopen( ) returns NULL.|
+|`w`|// 파일 쓰기<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- Text Mode<br />- Open for writing in Text Mode. If the File exists, its contents are overwritten. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
+|`wb`|// 파일 쓰기<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for writing in Binary Mode. If the File exists, its contents are overwritten. If the File does not exist, it will be created.|
+|`a`|// 파일 추가<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Text Mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the last character in it. It opens only in the append Mode. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
+|`ab`|// 파일 추가<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for append in Binary Mode. Data is added to the end of the File. If the File does not exist, it will be created.|
+|`r+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- Text Mode<br />- Searches File. It is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the first character in it. Returns NULL, if unable to open the File.|
+|`rb+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 정상처리<br />// 파일이 없을 경우 : NULL 값 반환<br />- Binary Mode<br />- Open for both reading and writing in Binary Mode. If the File does not exist, fopen( ) returns NULL.|
+|`w+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- Text Mode<br />- Searches File. If the File exists, its contents are overwritten. If the File doesn’t exist a new File is created. Returns NULL, if unable to open the File.|
+|`wb+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for both reading and writing in Binary Mode. If the File exists, its contents are overwritten. If the File does not exist, it will be created.|
+|`a+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Text Mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the last character in it. It opens the File in both reading and append Mode. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
+|`ab+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for both reading and appending in Binary Mode. If the File does not exist, it will be created.|
