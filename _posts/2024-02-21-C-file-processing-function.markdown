@@ -37,11 +37,11 @@ categories: [C]
 <br />
 #### Stream   
 // 자료의 입출력을 위한 논리적인 통로   
-// 스트림 생성 : `fopen()` 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함   
-// 스트림 소멸 : `fclose()` 함수 사용   
+// 스트림 생성 : 'fopen()' 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함   
+// 스트림 소멸 : 'fclose()' 함수 사용   
 - logical channels for data input and output   
-- Stream generation: using 'fopen()' function; constructing a path (logical connection) between files and programs. The path role is played by a file pointer   
-- Stream destruction: using 'fclose()' function   
+- Stream generation: using `fopen()` function; constructing a path (logical connection) between files and programs. The path role is played by a file pointer   
+- Stream destruction: using `fclose()` function   
    
 <br />
 #### Record   
