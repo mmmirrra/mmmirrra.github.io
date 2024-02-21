@@ -13,24 +13,28 @@ categories: [C]
 - consisting of a series of bytes   
 - Use the file pointer to perform file input and output   
    
+<br />
 #### Type of File   
 // 텍스트 파일 : 화면에 출력되는 문자들로 구성된 파일   
 // 2진 파일 : 텍스트 파일을 포함한 모든 종류의 자료를 다루는 파일. 컴파일 되어 있어 기계어에 가까우므로 내용을 이해하거나 인쇄가 불가능   
 - text file : a file consisting of characters that are displayed on the screen   
 - binary file : A file that covers all kinds of material, including text files. Compiled and close to machine language, making it impossible to understand or print content.   
    
+<br />
 #### File Pointer   
 // 파일이 어디에 있는지를 가리키는 포인터   
 // 모든 파일 입출력 함수는 파일 포인터를 사용   
 - A pointer to where the file is located   
 - All file input/output functions use file pointers   
    
+<br />
 #### Buffer   
 // 기억 공간과 디스크 사이에 존재하는 임시 기억 공간   
 // 파일 입출력 시 디스크에 저장된 자료를 기억 공간으로 읽어들이거나, 기억 공간에서 처리된 자료를 디스크에 저장할 때 사용   
 - Temporary storage space between storage space and disk   
 - Used to read data stored on disk into storage space during file input and output, or to store data processed on disk space   
    
+<br />
 #### Stream   
 // 자료의 입출력을 위한 논리적인 통로   
 // 스트림 생성 : `fopen()` 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함   
@@ -39,6 +43,7 @@ categories: [C]
 - Stream generation: using 'fopen()' function; constructing a path (logical connection) between files and programs. The path role is played by a file pointer   
 - Stream destruction: using 'fclose()' function   
    
+<br />
 #### Record   
 // 레코드는 파일 입출력처리에 사용되는 논리적인 기본 단위임   
 // 각 레코드들은 필드 field 들로 구성됨   
@@ -47,6 +52,7 @@ categories: [C]
 - Each record consists of fields   
 - Files are organized on a record basis   
    
+<br />
 #### File classification based on how files are organized using file processing functions   
 // 파일처리함수를 이용하여 파일을 편성하는 방법에 따라 구분   
 // 순차파일 : 레코드의 길이가 일정하지 않은 파일. 파일의 처음부터 자료를 차례로 읽고, 기록하는 파일. 레코드의 길이가 일정하지 않기 때문에 레코드들의 구분이 필요. CR/LF를 사용하여 구분   
@@ -55,12 +61,14 @@ categories: [C]
 - Sequential file: a file whose length is not constant. A file that reads and records data from the beginning of a file. Because the length of the record is not constant, it is necessary to separate the records. Use CR/LF to distinguish   
 - Random file : A file of constant length of the record. A file that reads and records data at any location in the file   
    
+<br />
 #### Output function & input function of Sequential File : A function that records data in a created file and a function that reads stored data   
 - `putc()` & `getc()`   
 - `fputc()` & `fgetc()`   
 - `fputs()` & `fgets()`   
 - `fprintf()` & `fscanf()`   
    
+<br />
 ### File Processing Function   
    
 |Function|Description|
@@ -87,6 +95,7 @@ categories: [C]
 |`feof()`|// 파일의 끝인가를 판별<br />Determines if it is the end of the file.|
 |`ferror()`|// 파일의 입출력 시 에러 발생 유무 조사<br />Check for errors when entering or outputting files|
    
+<br />
 ### File Opening Mode   
    
 #### Enable (open) mode = File access mode + Data input/output mode   
@@ -100,6 +109,7 @@ categories: [C]
   `t` : text mode : Input/output mode in which conversion occurs when data is input/output from a program to a file. Character conversion is required (￦n <-> CR/LF)   
   `b` : binary mode : Input/output mode without conversion; no character conversion required   
    
+<br />
 #### Basic mode of use of fopen() function   
 // fopen() 함수의 기본적인 사용모드   
    
