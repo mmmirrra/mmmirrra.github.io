@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C: File Processing Function & File Mode"
+title:  "C: File Processing Function & File Opening Mode"
 date:   2024-02-21 09:00:00 +0900
 categories: [C]
 ---
@@ -9,23 +9,31 @@ categories: [C]
    
 |Function|Description|
 |:---|:---|
-|fopen("fileName", "Mode")|파일을 지정된 모드로 열기|
-|fclose()|파일을 닫기|
-|fgetc()<br />getc()|파일로부터 한 문자 읽기|
-|fputc()<br />putc()|파일에 한 문자 쓰기|
-|fgets()|파일로부터 문자열 읽기|
-|fputs()|파일에 문자열 쓰기|
-|fscanf()|파일로부터 정해진 형식에 따라 읽기|
-|fprintf()|파일에 정해진 형식에 따라 쓰기|
-|fread()|파일로부터 정해진 크기의 자료를 정해진 개수만큼 읽기|
-|fwrite()|파일에 정해진 크기의 자료를 정해진 개수만큼 쓰기|
-|fseek()|파일에서 입출력 위치를 이동|
-|feof()|파일의 끝인가를 판별|
-|ferror()|파일의 입출력 시 에러 발생 유무 조사|
+|fopen("fileName", "Mode")|//파일을 지정된 모드로 열기<br />It is used to create a file or to open a file.|
+|fclose()|//파일을 닫기<br />It is used to close a file.|
+|fgetc()<br />getc()|//파일로부터 한 문자 읽기<br />Reads a single character from the file.|
+|fputc()<br />putc()|//파일에 한 문자 쓰기<br />Prints a single character into the file.|
+|getc()|It is used to read a single character to a file.|
+|putc()|It is used to write a single character to a file.|
+|fgets()|//파일로부터 문자열 읽기<br />Input the whole line from the file.<br />It is used to read a file.|
+|fputs()|//파일에 문자열 쓰기<br />Prints the whole line in the file and a newline at the end.|
+|fgetw()|Reads a number from a file.|
+|fputw()|Prints a number to the file.|
+|putw()|It is used to write an integer to a file.|
+|getw()|It is used to read an integer from a file.|
+|fscanf()|//파일로부터 정해진 형식에 따라 읽기<br />Use formatted string and variable arguments list to take input from a file.<br />It is used to read blocks of data from a file.|
+|fprintf()|//파일에 정해진 형식에 따라 쓰기<br />Similar to printf(), this function use formatted string and varible arguments list to print output to the file.<br />It is used to write blocks of data into a file.|
+|fread()|//파일로부터 정해진 크기의 자료를 정해진 개수만큼 읽기<br />Reads the specified bytes of data from a binary file.|
+|fwrite()|//파일에 정해진 크기의 자료를 정해진 개수만큼 쓰기<br />This functions write the specified amount of bytes to the binary file.|
+|fseek()|//파일에서 입출력 위치를 이동<br />It is used to set the position of a file pointer to a mentioned location.|
+|rewind()|It is used to set the file pointer to the beginning of a file.|
+|ftell()|It is used to return the current position of a file pointer.|
+|feof()|//파일의 끝인가를 판별<br />Determines if it is the end of the file.|
+|ferror()|//파일의 입출력 시 에러 발생 유무 조사<br />Check for errors when entering or outputting files|
    
-### File Mode   
+### File Opening Mode   
    
-|||
+|Opening Mode|Description|
 |||
 |||
 |||
