@@ -46,7 +46,7 @@ categories: [C]
 <br />
 #### Record   
 // 레코드는 파일 입출력처리에 사용되는 논리적인 기본 단위임   
-// 각 레코드들은 필드 field 들로 구성됨   
+// 각 레코드들은 필드(field)들로 구성됨   
 // 파일은 레코드 단위로 구성됨   
 - A record is a logical basic unit used for file input/output processing   
 - Each record consists of fields   
