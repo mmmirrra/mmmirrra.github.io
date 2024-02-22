@@ -70,10 +70,10 @@ categories: [C]
 #### File classification based on how File are organized using File processing functions   
 // 파일처리함수를 이용하여 파일을 편성하는 방법에 따라 구분   
 // 순차파일 : 레코드의 길이가 일정하지 않은 파일. 파일의 처음부터 자료를 차례로 읽고, 기록하는 파일. 레코드의 길이가 일정하지 않기 때문에 레코드들의 구분이 필요. CR/LF를 사용하여 구분   
-// 랜덤파일 : 레코드의 길이가 일정한 파일. 파일의 임의의 위치에서 자료를 읽고, 기록하는 파일   
+// 랜덤파일 : 레코드의 길이가 일정한 파일. 파일의 임의의 위치에서 자료를 읽고, 기록하는 파일. 입출력 시 일반적으로 2진 모드로 파일을 개방   
 - Categorized by how File are organized using File processing functions   
 - Sequential File: A File whose length is not constant. A File that reads and records data from the beginning of a File. Because the length of the record is not constant, it is necessary to separate the records. Use CR/LF to distinguish   
-- Random File : A File of constant length of the record. A File that reads and records data at any location in the File   
+- Random File : A File of constant length of the record. A File that reads and records data at any location in the File. Usually opens files in binary mode when inputting and output   
    
 <br />
 #### Output function & input function of Sequential File : A function that records data in a created File and a function that reads stored data   
