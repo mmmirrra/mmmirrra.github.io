@@ -117,7 +117,7 @@ categories: [C]
 |`fprintf()`|// 파일에 정해진 형식에 따라 쓰기<br />Similar to printf(), this function use formatted string and varible arguments list to print output to the File.<br />It is used to write blocks of data into a File.|
 |`fread()`|// 파일로부터 정해진 크기의 자료를 정해진 개수만큼 읽기<br />Reads the specified bytes of data from a Binary File.|
 |`fwrite()`|// 파일에 정해진 크기의 자료를 정해진 개수만큼 쓰기<br />This functions write the specified amount of bytes to the Binary File.|
-|`fseek()`|// 파일에서 입출력 위치인 파인 포인터를 임의의 위치로 이동<br />// 랜덤파일의 특정부분을 입출력할 수 있음<br />It is used to set the position of a File Pointer to a mentioned location.<br />Can input and output specific parts of a random file.|
+|`fseek()`|// 파일에서 입출력 위치인 파인 포인터를 임의의 위치로 이동<br />// 랜덤파일의 특정부분을 입출력할 수 있음<br />// 기준 위치로부터 앞, 뒤로 이동하는 상대위치 개념 사용<br />It is used to set the position of a File Pointer to a mentioned location.<br />Can input and output specific parts of a random file.<br />Use relative position concept moving forward and backward from reference position|
 |`rewind()`|It is used to set the File Pointer to the beginning of a File.|
 |`ftell()`|It is used to return the current position of a File Pointer.|
 |`feof()`|// 파일의 끝인가를 판별<br />Determines if it is the end of the File.|
