@@ -91,7 +91,7 @@ categories: [C]
 - `fseek()`   
    
 |// 기준위치모드<br />Reference Position Mode|// 동일기호<br />Same Symbol|// 설명<br />Description|
-|:---:|:---|:---|
+|:---:|:---:|:---|
 |0|SEEK_SET|// 파일의 시작위치<br />Starting location of the File|
 |1|SEEK_CUR|// 현재 파일포인터의 위치<br />The current location of the File Pointer|
 |2|SEEK_END|// 파일의 끝 위치<br />The end location of the File|
@@ -132,10 +132,10 @@ categories: [C]
 - Data Input/Output Mode : `t`, `b`   
   // 생략 시 Text Mode로 지정됨   
   // t : 텍스트 모드 : 프로그램에서 파일로 자료를 입출력 할 때 변환이 일어나는 입출력 모드. 문자 변환이 필요(￦n <-> CR/LF)   
-  // b : 2진 모드 : 변환이 일어나지 않는 입출력 모드. 문자 변환이 불필요   
+  // b : 2진 모드 : 변환이 일어나지 않는 입출력 모드. 문자 변환이 불필요. 2진 모드는 레코드의 길이를 프로그래머가 결정하고, 파일 포인터의 위치를 변경할 수 있음   
   - If omitted, it is designated as Text Mode   
   - `t` : Text Mode : Input/output Mode in which conversion occurs when data is input/output from a program to a File. Character conversion is required (￦n <-> CR/LF)   
-  - `b` : Binary Mode : Input/output Mode without conversion; no character conversion required   
+  - `b` : Binary Mode : Input/output Mode without conversion; no character conversion required. Binary mode allows the programmer to determine the length of the record and change the position of the File Pointer.   
    
 <br />
 #### Basic Mode of use of fopen() function   
