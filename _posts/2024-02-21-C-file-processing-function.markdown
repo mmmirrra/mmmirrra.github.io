@@ -88,9 +88,9 @@ categories: [C]
    
 <br />
 #### Location controll function of Random File   
-- `fseek()`   
+- `fseek()` : fseek(File Pointer variable, Relative Location to move, Reference Location Mode);   
    
-|// 기준위치모드<br />Reference Position Mode|// 동일기호<br />Same Symbol|// 설명<br />Description|
+|// 기준위치모드<br />Reference Location Mode|// 동일기호<br />Same Symbol|// 설명<br />Description|
 |:---:|:---:|:---|
 |0|SEEK_SET|// 파일의 시작위치<br />Starting location of the File|
 |1|SEEK_CUR|// 현재 파일포인터의 위치<br />The current location of the File Pointer|
@@ -117,7 +117,7 @@ categories: [C]
 |`fprintf()`|// 파일에 정해진 형식에 따라 쓰기<br />Similar to printf(), this function use formatted string and varible arguments list to print output to the File.<br />It is used to write blocks of data into a File.|
 |`fread()`|// 파일로부터 정해진 크기의 자료를 정해진 개수만큼 읽기<br />Reads the specified bytes of data from a Binary File.|
 |`fwrite()`|// 파일에 정해진 크기의 자료를 정해진 개수만큼 쓰기<br />This functions write the specified amount of bytes to the Binary File.|
-|`fseek()`|// 파일에서 입출력 위치인 파인 포인터를 임의의 위치로 이동<br />It is used to set the position of a File Pointer to a mentioned location.|
+|`fseek()`|// 파일에서 입출력 위치인 파인 포인터를 임의의 위치로 이동<br />// 랜덤파일의 특정부분을 입출력할 수 있음<br />It is used to set the position of a File Pointer to a mentioned location.<br />Can input and output specific parts of a random file.|
 |`rewind()`|It is used to set the File Pointer to the beginning of a File.|
 |`ftell()`|It is used to return the current position of a File Pointer.|
 |`feof()`|// 파일의 끝인가를 판별<br />Determines if it is the end of the File.|
