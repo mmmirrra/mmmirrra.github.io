@@ -30,7 +30,7 @@ categories: [C]
 - All File input/output functions use File Pointers   
    
 <br />
-#### File Pointer for three Standard Files of input/output Devices   
+#### File Pointer for three Standard Files of Input/Output Devices   
 // 입출력 장치 3개의 표준파일에 대한 파일포인터   
 // 표준파일에 대해서는 따로 파일포인터를 선언할 필요가 없음   
 - No need to declare a File Pointer for a Standard File   
@@ -76,7 +76,7 @@ categories: [C]
 - Random File : A File of constant length of the record. A File that reads and records data at any location in the File. Usually opens files in binary mode when inputting and output   
    
 <br />
-#### Output function & input function of Sequential File : A function that records data in a created File and a function that reads stored data   
+#### Output function & Input function of Sequential File : A function that records data in a created File and a function that reads stored data   
 - `putc()` & `getc()`   
 - `fputc()` & `fgetc()`   
 - `fputs()` & `fgets()`   
