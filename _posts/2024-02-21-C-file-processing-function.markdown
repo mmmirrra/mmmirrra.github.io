@@ -9,9 +9,11 @@ categories: [C]
 // 보조기억장치에 저장된 데이터들의 모임   
 // 일련의 바이트(byte)들로 구성   
 // 파일 포인터를 사용하여 파일 입출력 수행   
+// 입출력 장치를 파일 개념으로 처리
 - A collection of data stored on an auxiliary memory device   
 - Consisting of a series of bytes   
 - Use the File Pointer to perform File input and output   
+- Process I/O device as a File concept   
    
 <br />
 #### Type of File   
@@ -26,6 +28,18 @@ categories: [C]
 // 모든 파일 입출력 함수는 파일 포인터를 사용   
 - A Pointer to where the File is located   
 - All File input/output functions use File Pointers   
+   
+<br />
+#### File Pointer for three Standard Files of input/output Devices   
+// 입출력 장치 3개의 표준파일에 대한 파일포인터   
+// 표준파일에 대해서는 따로 파일포인터를 선언할 필요가 없음   
+- No need to declare a File Pointer for a Standard File   
+   
+|Standard File|File Pointer|Device|
+|:---|:---|:---|
+|Standard Input|stdin|Keyboard|
+|Standard Output|stdout|Monitor|
+|Standard Error|stderr|Monitor|
    
 <br />
 #### Buffer   
