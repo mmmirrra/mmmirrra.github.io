@@ -93,7 +93,7 @@ categories: [C]
 |`fputc()`|// 파일에 한 문자 쓰기<br />Prints a single character into the File.|
 |`getc()`|// 파일로부터 한 문자 읽기<br />It is used to read a single character to a File.|
 |`putc()`|// 파일에 한 문자 쓰기<br />It is used to write a single character to a File.|
-|`fgets()`|// 파일로부터 문자열 읽기<br />Input the whole line from the File.<br />It is used to read a File.|
+|`fgets()`|// 파일로부터 문자열 읽기<br />// 읽어낼 문자열의 길이를 반드시 명시<br />Input the whole line from the File.<br />It is used to read a File.<br />Must specify the length of the string to read.|
 |`fputs()`|// 파일에 문자열 쓰기<br />Prints the whole line in the File and a newline at the end.|
 |`fgetw()`|Reads a number from a File.|
 |`fputw()`|Prints a number to the File.|
