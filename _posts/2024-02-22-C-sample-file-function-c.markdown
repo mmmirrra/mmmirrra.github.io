@@ -125,19 +125,19 @@ void main() {
 		exit(1);					// 프로그램을 끝냄
 	}
 	printf("student number, name, middle score, final score, report score, and attendance score\n");
-	while (!feof(fp8)) {						// 파일의 끝까지 읽음
+	while (!feof(fp8)) {					// 파일의 끝까지 읽음
 		fscanf(fp8, "%10s %8s %3d %3d %3d %3d", no8, name8, &mid8, &term8, &rep8, &att8);	// 파일의 레코드 값을 입력 받음
 		printf("%-10s %-8s %4d %4d %4d %4d\n", no8, name8, mid8, term8, rep8, att8);		// 입력 형식대로 레코드를 모니터로 출력
 	}
-	fclose(fp8);							// 파일 close
+	fclose(fp8);						// 파일 close
 
 	/* 순차파일 레코드 추가 예제 */
 	FILE* fp9;
-	fp9 = fopen("sample6.dat", "a");				// 파일 open - 텍스트파일, 추가모드로 개방 - 기존 파일이 없는 경우 프로젝트와 동일 폴더에 파일 생성됨
+	fp9 = fopen("sample6.dat", "a");			// 파일 open - 텍스트파일, 추가모드로 개방 - 기존 파일이 없는 경우 프로젝트와 동일 폴더에 파일 생성됨
 	fputs("Cho DS\n", fp9);
 	fputs("Han JK\n", fp9);
 	fputs("Kang MH\n", fp9);
-	fclose(fp9);							// 파일 close
+	fclose(fp9);						// 파일 close
 
 	printf("read - sample6.dat\n");
 	char name10[20];;
