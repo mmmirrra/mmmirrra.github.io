@@ -99,7 +99,7 @@ categories: [C]
 |`fputw()`|Prints a number to the File.|
 |`putw()`|It is used to write an integer to a File.|
 |`getw()`|It is used to read an integer from a File.|
-|`fscanf()`|// 파일로부터 정해진 형식에 따라 읽기<br />Use formatted string and variable arguments list to take input from a File.<br />It is used to read blocks of data from a File.|
+|`fscanf()`|// 파일로부터 정해진 형식에 따라 읽기<br />// 일반적으로 파일의 끝을 판별하는 feof() 함수와 같이 사용<br />Use formatted string and variable arguments list to take input from a File.<br />It is used to read blocks of data from a File.<br />The fscanf() function is usually used in conjunction with the feof() function that determines the end of a File|
 |`fprintf()`|// 파일에 정해진 형식에 따라 쓰기<br />Similar to printf(), this function use formatted string and varible arguments list to print output to the File.<br />It is used to write blocks of data into a File.|
 |`fread()`|// 파일로부터 정해진 크기의 자료를 정해진 개수만큼 읽기<br />Reads the specified bytes of data from a Binary File.|
 |`fwrite()`|// 파일에 정해진 크기의 자료를 정해진 개수만큼 쓰기<br />This functions write the specified amount of bytes to the Binary File.|
