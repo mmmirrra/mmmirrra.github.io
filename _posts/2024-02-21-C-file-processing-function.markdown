@@ -91,6 +91,7 @@ categories: [C]
 - `fseek()`   
    
 |// 기준위치모드<br />Reference Position Mode|// 동일기호<br />Same Symbol|// 설명<br />Description|
+|:---:|:---|:---|
 |0|SEEK_SET|// 파일의 시작위치<br />Starting location of the File|
 |1|SEEK_CUR|// 현재 파일포인터의 위치<br />The current location of the File Pointer|
 |2|SEEK_END|// 파일의 끝 위치<br />The end location of the File|
