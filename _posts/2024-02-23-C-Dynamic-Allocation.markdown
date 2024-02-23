@@ -22,8 +22,7 @@ categories: [C]
 
 <br />
 ### 기억공간의 확보방법   
-// 메모리 정적 할당   
-// 메모리 동적 할당   
+// 기억공간의 확보방법 : 메모리 정적 할당, 메모리 동적 할당   
 - Static Allocation   
 - Dynamic Allocation   
 
