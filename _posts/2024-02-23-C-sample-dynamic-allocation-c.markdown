@@ -17,7 +17,8 @@ project 'Sample_Dynamic_Allocation'
 #include <stdlib.h>
 
 /* 기억공간 관리함수를 위한 헤더파일 */
-#include <mem.h>
+/* #include <mem.h> */
+#include <memory.h>
 
 #pragma warning(disable:4996)
 
