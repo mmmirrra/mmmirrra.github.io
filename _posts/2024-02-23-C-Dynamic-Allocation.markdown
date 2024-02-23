@@ -70,5 +70,5 @@ categories: [C]
 |Function|Type of use|Example|Description|
 |:---|:---|:---|:---|
 |`memcmp()`|int memcmp(void *s1, void *s2, size_t n);|`stat = memcmp(s1, s2, 3);`<br />// s1과 s2의 내용을 3byte만큼 비교하여 s1>s2이면 양수, s1<s2이면 음수, s1=s2이면 0을 반환|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br />- <br />- <br />- |
-|`memcpy()`|void * memcpy(void *dest, const void *src, size_t n);|`stat = (char*)memcpy(dest, str, strlen(src));`|// src에서 n byte만큼 dest에 복사<br />// 기억공간의 자료를 다른 기억공간 영역으로 복사하기 위한 함수<br />- <br />- <br />- |
+|`memcpy()`|void * memcpy(void *dest, const void *src, size_t n);|`stat = (char*)memcpy(dest, str, strlen(src));`<br />src의 첫 부분에서부터 문자열의 길이(strlen())만큼의 자료를 dest에 복사(덮어쓰기)|// src에서 n byte만큼 dest에 복사<br />// 기억공간의 자료를 다른 기억공간 영역으로 복사하기 위한 함수<br />- <br />- <br />- |
 |`memset()`|void * memset(void *s, int c, size_t n);|`memset(s, '*', strlen(s));`|// 포인터 s가 가리키는 곳을 c값으로 n byte만큼 채움<br />// 기억공간의 자료를 지정한 문자로 채우는 함수<br />// 할당된 기억공간의 초기화나 내용 삭제를 위해 주로 사용<br />- <br />- <br />- |
