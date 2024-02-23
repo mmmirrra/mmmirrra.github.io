@@ -31,18 +31,18 @@ categories: [C]
 // 설명 : 기억공간의 데이터 영역과 스택 영역 이용. 변수 선언이나 배열 선언과 같이 프로그램을 작성하는 단계에서 필요한 기억공간의 크기를 결정. 변수 선언과 같이 할당시켜줘야 할 기억공간의 한계 크기를 명확히 알고 있는 경우 사용. 프로그램이 시작될 때 미리 기억공간의 크기를 고정하여 할당함    
 // 장점 : 프로그램에서 사용하게 될 변수의 기억공간의 크기를 명확히 알고 있다면, 메모리 정적 할당은 쉽게 기억공간을 사용할 수 있고 에러의 발생 확률을 줄일 수 있음   
 // 단점 : 사용하게 될 기억공간의 크기를 정확히 알지 못하거나, 사용되는 자료의 크기가 각각 차이가 심하다면, 기억공간의 낭비를 가져오게 되는 문제가 있음   
-- Description: Using the data and stack of the memory space. Determines the size of memory space required in the step of writing a program, such as a variable or an array declaration. Use when you clearly know the limit size of the memory space to be allocated, such as a variable declaration. When the program starts, the memory space is fixed and assigned in advance   
-- Advantage: If you clearly know the size of the memory space of the variable that will be used by the program, Static Allocation of memory can easily use memory space and reduce the probability of error   
-- Cons: If you don't know exactly the size of the memory space to be used, or if the size of the data used varies greatly, there is a problem that leads to waste of memory space
+- Description : Using the data and stack of the memory space. Determines the size of memory space required in the step of writing a program, such as a variable or an array declaration. Use when you clearly know the limit size of the memory space to be allocated, such as a variable declaration. When the program starts, the memory space is fixed and assigned in advance   
+- Strengths : If you clearly know the size of the memory space of the variable that will be used by the program, Static Allocation of memory can easily use memory space and reduce the probability of error   
+- Weaknesses : If you don't know exactly the size of the memory space to be used, or if the size of the data used varies greatly, there is a problem that leads to waste of memory space
    
 <br />
 ### Dynamic Allocation   
 // 설명 : 기억공간의 힙 영역 이용. 프로그램 실행 중에 입력되는 자료에 맞게 기억공간의 크기를 결정   
 // 장점 : 많은 자료를 처리하는 배열의 크기를 실행 시간에 정의해야 하는 경우에 특히 유용함. 프로그램 실행 시 기억공간의 크기를 지정할 수 있고, 재조정이 가능   
 // 단점 : 시간이 지체되는 단점이 있음   
-- Description: Using the heap of memory space. Determine the size of the storage space to match the data input during program execution   
-- Advantage: Especially useful when you need to define the size of an array that processes a lot of data at run time. You can specify the size of the memory space when the program runs, and it can be readjusted   
-- Disadvantages: There is a disadvantage of time delay
+- Description : Using the heap of memory space. Determine the size of the storage space to match the data input during program execution   
+- Strengths : Especially useful when you need to define the size of an array that processes a lot of data at run time. You can specify the size of the memory space when the program runs, and it can be readjusted   
+- Weaknesses : There is a disadvantage of time delay
    
 <br />
 #### Order of Dynamic Allocation of memory
@@ -50,9 +50,9 @@ categories: [C]
 // 1. 기억공간을 동적으로 할당 받을 변수를 포인터를 이용하여 선언   
 // 2. malloc() 함수 등을 이용하여 기억공간을 동적으로 할당   
 // 3. 기억공간의 사용이 끝나면 free() 함수를 이용하여 기억공간을 해제   
-- 1. Declare variables that will dynamically allocate storage space using pointers
-- 2. Dynamic Allocation of memory space using malloc() function, etc
-- 3. When the memory space is used, release the memory space using the free() function
+-  1. Declare variables that will dynamically allocate storage space using pointers
+-  2. Dynamic Allocation of memory space using malloc() function, etc
+-  3. When the memory space is used, release the memory space using the free() function
    
 <br />
 #### Types of Memory Dynamic Allocation function   
