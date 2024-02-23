@@ -66,7 +66,7 @@ categories: [C]
   
 <br />
 #### 기억공간 관리 함수의 종류
-// 기억공간 관리함수를 위한 헤더파일 인크루드 : #include <mem.h>
+// 기억공간 관리함수를 위한 헤더파일 인크루드 : `#include <mem.h>`   
 
 |Function|Type of use|Description|
 |:---|:---|:---|
