@@ -49,7 +49,7 @@ void main() {
 	char* str4;					// 동적할당을 위한 포인터변수 선언
 	printf("Enter the size of the string\n");
 	scanf("%d", &size4);
-	str4 = (char*)malloc(size4 + 1);		// str4와 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재
+	str4 = (char*)malloc(size4 + 1);		// str4와 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재 - 입력받을 문자 수(size + 1)에 맞게 동적 할당
 	if (str4 == NULL) {				// 기억공간 할당 성공 여부 판단
 		puts("Memory allocation failed!\n");
 		exit(1);
