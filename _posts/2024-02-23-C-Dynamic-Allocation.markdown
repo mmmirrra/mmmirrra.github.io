@@ -70,7 +70,7 @@ categories: [C]
 // 기억공간 관리함수를 위한 헤더파일 인크루드 : '#include <mem.h>'   
 Include header files for memory space management function : `#include <mem.h>`   
    
-|Function<br /><br />Type of use|Example|Description|
+|Function|Type of use<br /><br />Example|Description|
 |:---|:---|:---|
 |`memcmp()`|int memcmp(void *s1, void *s2, size_t n);<br /><br />`stat = memcmp(s1, s2, 3);`<br /><br />// s1과 s2의 내용을 3byte만큼 비교하여 s1>s2이면 양수, s1<s2이면 음수, s1=s2이면 0을 반환<br />Compare the contents of s1 and s2 by 3 bytes and return positive if s1>s2, negative if s1<s2, and 0 if s1=s2|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br />- Compare the contents of the memory space indicated by s1 and s2 by n bytes<br />- A function that compares the data in a memory space by a given size and tells if it is the same|
 |`memcpy()`|void * memcpy(void *dest, const void *src, size_t n);<br /><br />`stat = (char*)memcpy(dest, str, strlen(src));`<br /><br />// src의 첫 부분에서부터 문자열의 길이(strlen())만큼의 자료를 dest에 복사(덮어쓰기)<br />Copy (overwrite) data from the first part of src to dest as long as string (stren())|// src에서 n byte만큼 dest에 복사<br />// 기억공간의 자료를 다른 기억공간 영역으로 복사하기 위한 함수<br />- Copy to dest by n bytes from src<br />- A function for copying data from a memory space to another memory area|
