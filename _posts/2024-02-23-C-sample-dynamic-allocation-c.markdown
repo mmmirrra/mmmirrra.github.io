@@ -62,7 +62,7 @@ void main() {
 	/* 메모리 동적할당 calloc() 예제 */
 	int i5;
 	int* a5;					// 동적할당을 위한 포인터변수 선언
-	a5 = (int*)calloc(5, sizeof(int));		// a5와 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재
+	a5 = (int*)calloc(5, sizeof(int));		// a5와 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재 - int형 크기의 기억공간 5개 할당
 	for (i5 = 0; i5 < 5; i5++) {
 		printf("%d\n", a5[i5]);			// 출력결과 --> 0 \n 0 \n 0 \n 0 \n 0 \n
 	}
