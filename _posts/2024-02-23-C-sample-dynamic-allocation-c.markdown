@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "C: sample_dynamic-allocation.c"
+title:  "C: sample_dynamic_allocation.c"
 date:   2024-02-23 09:00:00 +0900
 categories: [C]
 ---
 
 solution 'CPrjs'   
-project 'Sample_Dynamic-Allocation'   
+project 'Sample_Dynamic_Allocation'   
    
 ### sourceFile list - .c   
 #### main() sourceFile   
-`sample_dynamic-allocation.c` : C practice project main function   
+`sample_dynamic_allocation.c` : C practice project main function   
    
 ```c
 #include <stdio.h>
@@ -35,7 +35,7 @@ void main() {
 
 	/* 메모리 동적할당 malloc() 예제 1 */
 	int* a3;					// 동적할당을 위한 포인터변수 선언
-	a3 = (int*)malloc(sizeof(int));			// a3과 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재
+	a3 = (int*)malloc(sizeof(int));		// a3과 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재
 	if (a3 == NULL) {				// 기억공간 할당 성공 여부 판단
 		puts("Memory allocation failed!\n");
 		exit(1);

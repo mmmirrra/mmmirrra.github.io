@@ -67,9 +67,9 @@ categories: [C]
 <br />
 ### Types of storage management function   
 // 기억공간 관리 함수의 종류   
-// 기억공간 관리함수를 위한 헤더파일 인크루드 : '#include <mem.h>'   
+// 기억공간 관리함수를 위한 헤더파일 인크루드 : '#include &#60;mem.h&#62;'   
 <br />
-Include header files for memory space management function : `#include <mem.h>`   
+Include header files for memory space management function : `#include &#60;mem.h&#62;`   
    
 |Function|Type of use<br /><br />Example|Description|
 |:---|:---|:---|
