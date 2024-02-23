@@ -58,10 +58,10 @@ categories: [C]
    
 |Function|Type of use|Example|Description|
 |:---|:---|:---|:---|
-|`malloc()`|void * malloc(size_t number_of_bytes);|`void * malloc( sizeof(int() );`|// number_of_bytes에서 주어지는 크기만큼 기억공간을 동적으로 할당<br />// 인자로 할당받고자하는 기억공간의 크기를 byte 단위로 전달<br />// 힙 영역에 그 크기만큼 기억공간을 할당하고, 할당한 기억공간의 첫번째 주소를 반환<br />// void*로 명시하여 어떤 형으로든 형 변환이 가능<br />// 초기화 안됨. 기억공간의 초기화를 위해서는 memset() 함수를 사용해야 함<br />|
-|`calloc()`|void * calloc(int n, int size);|`void * calloc( n, sizeof(int) );`|// 주어진 size의 크기를 가지는 기억공간 n개를 할당 받음<br />// 힙 영역에 기억공간을 할당<br />// malloc() 함수와는 사용하는 형태와 할당된 기억공간을 0으로 초기화 한다는 점이 다름<br /><br /><br />|
-|`realloc()`|void * realloc(void *p, int size);|`a = (int *)realloc( a, 10*sizeof(int) );`|// 포인터 p가 가리키고 이ㅆ는 기억공간의 크기를 지정된 size의 크기로 변경<br />// 이미 할당받은 기억공간의 크기를 변경해야 할 필요가 있을 경우 사용|
-|`free()`|void free(void *p);|`free(pt);`|// 동적으로 할당된 기억공간을 해제할 때 사용<br />// 힙 영역에 할당된 공간은 free() 함수로 해제하지 않으면 프로그램이 종료될 때까지 유지됨<br />// 할당된 기억공간을 해제하지 않으면 기억공간의 부족현상이 발생함. 따라서 명시적인 반납이 필요<br /><br />|
+|`malloc()`|void * malloc(size_t number_of_bytes);|`void * malloc( sizeof(int() );`|// number_of_bytes에서 주어지는 크기만큼 기억공간을 동적으로 할당<br />// 인자로 할당받고자하는 기억공간의 크기를 byte 단위로 전달<br />// 힙 영역에 그 크기만큼 기억공간을 할당하고, 할당한 기억공간의 첫번째 주소를 반환<br />// void*로 명시하여 어떤 형으로든 형 변환이 가능<br />// 초기화 안됨. 기억공간의 초기화를 위해서는 memset() 함수를 사용해야 함<br />- <br />- <br />- |
+|`calloc()`|void * calloc(int n, int size);|`void * calloc( n, sizeof(int) );`|// 주어진 size의 크기를 가지는 기억공간 n개를 할당 받음<br />// 힙 영역에 기억공간을 할당<br />// malloc() 함수와는 사용하는 형태와 할당된 기억공간을 0으로 초기화 한다는 점이 다름<br /><br />- <br />- <br />- |
+|`realloc()`|void * realloc(void *p, int size);|`a = (int *)realloc( a, 10*sizeof(int) );`|// 포인터 p가 가리키고 있는 기억공간의 크기를 지정된 size의 크기로 변경<br />// 이미 할당받은 기억공간의 크기를 변경해야 할 필요가 있을 경우 사용<br />- <br />- <br />- |
+|`free()`|void free(void *p);|`free(pt);`|// 동적으로 할당된 기억공간을 해제할 때 사용<br />// 힙 영역에 할당된 공간은 free() 함수로 해제하지 않으면 프로그램이 종료될 때까지 유지됨<br />// 할당된 기억공간을 해제하지 않으면 기억공간의 부족현상이 발생함. 따라서 명시적인 반납이 필요<br />- <br />- <br />- |
   
 <br />
 #### 기억공간 관리 함수의 종류   
@@ -69,6 +69,6 @@ categories: [C]
 
 |Function|Type of use|Example|Description|
 |:---|:---|:---|:---|
-|`memcmp()`|int memcmp(void *s1, void *s2, size_t n);|`stat = memcmp(s1, s2, 3);`|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br /><br /><br />|
-|`memcpy()`|void * memcpy(void *dest, const void *src, size_t n);|`stat = (char *)memcpy( dest, str, strlen(src) );`|// src에서 n byte만큼 dest에 복사<br />// 기억공간의 자료를 다른 기억공간 영역으로 복사하기 위한 함수<br /><br />|
-|`memset()`|void * memset(void *s, int c, size_t n);|`memset( s, '*', strlen(s) );`|// 포인터 s가 가리키는 곳을 c값으로 n byte만큼 채움<br />// 기억공간의 자료를 지정한 문자로 채우는 함수<br />// 할당된 기억공간의 초기화나 내용 삭제를 위해 주로 사용<br /><br />|
+|`memcmp()`|int memcmp(void *s1, void *s2, size_t n);|`stat = memcmp(s1, s2, 3);`|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br />- <br />- <br />- |
+|`memcpy()`|void * memcpy(void *dest, const void *src, size_t n);|`stat = (char *)memcpy( dest, str, strlen(src) );`|// src에서 n byte만큼 dest에 복사<br />// 기억공간의 자료를 다른 기억공간 영역으로 복사하기 위한 함수<br />- <br />- <br />- |
+|`memset()`|void * memset(void *s, int c, size_t n);|`memset( s, '*', strlen(s) );`|// 포인터 s가 가리키는 곳을 c값으로 n byte만큼 채움<br />// 기억공간의 자료를 지정한 문자로 채우는 함수<br />// 할당된 기억공간의 초기화나 내용 삭제를 위해 주로 사용<br />- <br />- <br />- |
