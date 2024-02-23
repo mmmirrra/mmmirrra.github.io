@@ -11,17 +11,17 @@ categories: [C]
 // 할당되는 기억공간 영역의 종류 : 데이터 영역, 힙 영역, 스택 영역   
 - Memory space required for program execution   
 - Memory is assigned by the operating system   
-- Type of memory space to be allocated : Data, heap, Stack   
+- Type of memory space to be allocated : Data, Heap, Stack   
    
 |Type|Description|
 |:---:|:---|
-|// 데이터 영역<br />|// 메모리 정적 할당으로 확보<br />// 전역변수와 정적변수 static variable 가 저장되는 영역<br />// 프로그램이 시작함과 동시에 할당되고, 프로그램이 종료되면 소멸함<br />|
-|// 힙 영역<br />|// 메모리 동적 할당으로 확보<br />// 프로그래머의 필요에 의해 할당/소멸이 이루어지는 영역<br />// 실행이 되면서 그 크기가 늘어나고 줄어들어 자유 기억공간이라 불리며, 메모리 동적 할당에 사용되는 영역<br />|
-|// 스택 영역<br />|// 메모리 정적 할당으로 확보<br />// 지역변수와 매개변수가 저장되는 영역<br />// 함수가 호출되면 할당되고, 함수의 호출이 완료되면 사라짐<br />|
+|// 데이터 영역<br />Data|// 메모리 정적 할당으로 확보<br />// 전역변수와 정적변수가 저장되는 영역<br />// 프로그램이 시작함과 동시에 할당되고, 프로그램이 종료되면 소멸함<br />- Use as a static allocation of memory<br />- The area where the global and static variable are stored<br />- It is assigned as soon as the program starts, and disappears when the program ends|
+|// 힙 영역<br />Heap|// 메모리 동적 할당으로 확보<br />// 프로그래머의 필요에 의해 할당/소멸이 이루어지는 영역<br />// 실행이 되면서 그 크기가 늘어나고 줄어들어 자유 기억공간이라 불리며, 메모리 동적 할당에 사용되는 영역<br />- Use as a dynamic allocation of memory<br />- Areas where allocation/extinction is made by programmer's needs<br />- An area called free memory space because it increases and decreases in size as it is executed, and is used for dynamic memory allocation|
+|// 스택 영역<br />Stack|// 메모리 정적 할당으로 확보<br />// 지역변수와 매개변수가 저장되는 영역<br />// 함수가 호출되면 할당되고, 함수의 호출이 완료되면 사라짐<br />- Use as a static allocation of memory<br />- The area where the local variable and parameter are stored<br />- When a function is called, it is assigned, and disappears when the function is complete|
 
 
 <br />
-### 기억공간의 확보방법   
+### How to secure storage space   
 // 기억공간의 확보방법 : 메모리 정적 할당, 메모리 동적 할당   
 - Static Allocation   
 - Dynamic Allocation   
@@ -31,30 +31,32 @@ categories: [C]
 // 설명 : 기억공간의 데이터 영역과 스택 영역 이용. 변수 선언이나 배열 선언과 같이 프로그램을 작성하는 단계에서 필요한 기억공간의 크기를 결정. 변수 선언과 같이 할당시켜줘야 할 기억공간의 한계 크기를 명확히 알고 있는 경우 사용. 프로그램이 시작될 때 미리 기억공간의 크기를 고정하여 할당함    
 // 장점 : 프로그램에서 사용하게 될 변수의 기억공간의 크기를 명확히 알고 있다면, 메모리 정적 할당은 쉽게 기억공간을 사용할 수 있고 에러의 발생 확률을 줄일 수 있음   
 // 단점 : 사용하게 될 기억공간의 크기를 정확히 알지 못하거나, 사용되는 자료의 크기가 각각 차이가 심하다면, 기억공간의 낭비를 가져오게 되는 문제가 있음   
-- 
-- 
-- 
-
+- Description: Using the data and stack of the memory space. Determines the size of memory space required in the step of writing a program, such as a variable or an array declaration. Use when you clearly know the limit size of the memory space to be allocated, such as a variable declaration. When the program starts, the memory space is fixed and assigned in advance   
+- Advantage: If you clearly know the size of the memory space of the variable that will be used by the program, static allocation of memory can easily use memory space and reduce the probability of error   
+- Cons: If you don't know exactly the size of the memory space to be used, or if the size of the data used varies greatly, there is a problem that leads to waste of memory space
+   
 <br />
 ### Dynamic Allocation   
 // 설명 : 기억공간의 힙 영역 이용. 프로그램 실행 중에 입력되는 자료에 맞게 기억공간의 크기를 결정   
 // 장점 : 많은 자료를 처리하는 배열의 크기를 실행 시간에 정의해야 하는 경우에 특히 유용함. 프로그램 실행 시 기억공간의 크기를 지정할 수 있고, 재조정이 가능   
 // 단점 : 시간이 지체되는 단점이 있음   
-- 
-- 
--  
-
+- Description: Using the heap of memory space. Determine the size of the storage space to match the data input during program execution   
+- Advantage: Especially useful when you need to define the size of an array that processes a lot of data at run time. You can specify the size of the memory space when the program runs, and it can be readjusted   
+- Disadvantages: There is a disadvantage of time delay
+   
 <br />
-#### 메모리 동적 할당 순서   
+#### Order of dynamic allocation of memory
+// 메모리 동적 할당 순서   
 // 1. 기억공간을 동적으로 할당 받을 변수를 포인터를 이용하여 선언   
 // 2. malloc() 함수 등을 이용하여 기억공간을 동적으로 할당   
 // 3. 기억공간의 사용이 끝나면 free() 함수를 이용하여 기억공간을 해제   
-- 1. 
-- 2. 
-- 3. 
+- 1. Declare variables that will dynamically allocate storage space using pointers
+- 2. Dynamic allocation of memory space using malloc() function, etc
+- 3. When the memory space is used, release the memory space using the free() function
    
 <br />
-#### 메모리 동적 할당 함수의 종류   
+#### Types of memory dynamic allocation function   
+// 메모리 동적 할당 함수의 종류   
    
 |Function|Type of use|Example|Description|
 |:---|:---|:---|:---|
@@ -64,9 +66,11 @@ categories: [C]
 |`free()`|void free(void *p);|`free(pt);`|// 동적으로 할당된 기억공간을 해제할 때 사용<br />// 힙 영역에 할당된 공간은 free() 함수로 해제하지 않으면 프로그램이 종료될 때까지 유지됨<br />// 할당된 기억공간을 해제하지 않으면 기억공간의 부족현상이 발생함. 따라서 명시적인 반납이 필요<br />- <br />- <br />- |
   
 <br />
-### 기억공간 관리 함수의 종류   
-// 기억공간 관리함수를 위한 헤더파일 인크루드 : `#include <mem.h>`   
-
+### Types of storage management function   
+// 기억공간 관리 함수의 종류   
+// 기억공간 관리함수를 위한 헤더파일 인크루드 : '#include <mem.h>'   
+Include header files for memory space management function : `#include <mem.h>`   
+   
 |Function|Type of use|Example|Description|
 |:---|:---|:---|:---|
 |`memcmp()`|int memcmp(void *s1, void *s2, size_t n);|`stat = memcmp(s1, s2, 3);`<br /><br />// s1과 s2의 내용을 3byte만큼 비교하여 s1>s2이면 양수, s1<s2이면 음수, s1=s2이면 0을 반환|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br />- <br />- <br />- |
