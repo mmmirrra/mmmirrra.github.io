@@ -49,9 +49,9 @@ categories: [C]
 // 1. 기억공간을 동적으로 할당 받을 변수를 포인터를 이용하여 선언   
 // 2. malloc() 함수 등을 이용하여 기억공간을 동적으로 할당   
 // 3. 기억공간의 사용이 끝나면 free() 함수를 이용하여 기억공간을 해제   
--  1. Declare variables that will dynamically allocate storage space using pointers   
--  2. Dynamic Allocation of memory space using malloc() function, etc   
--  3. When the memory space is used, release the memory space using the free() function   
+  1. Declare variables that will dynamically allocate storage space using pointers   
+  2. Dynamic Allocation of memory space using malloc() function, etc   
+  3. When the memory space is used, release the memory space using the free() function   
    
 <br />
 #### Types of Memory Dynamic Allocation function   
