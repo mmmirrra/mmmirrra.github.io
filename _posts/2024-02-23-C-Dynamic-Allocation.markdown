@@ -64,11 +64,11 @@ categories: [C]
 |`free()`|void free(void *p);|`free(pt);`|// 동적으로 할당된 기억공간을 해제할 때 사용<br />// 힙 영역에 할당된 공간은 free() 함수로 해제하지 않으면 프로그램이 종료될 때까지 유지됨<br />// 할당된 기억공간을 해제하지 않으면 기억공간의 부족현상이 발생함. 따라서 명시적인 반납이 필요<br />- <br />- <br />- |
   
 <br />
-#### 기억공간 관리 함수의 종류   
+### 기억공간 관리 함수의 종류   
 // 기억공간 관리함수를 위한 헤더파일 인크루드 : `#include <mem.h>`   
 
 |Function|Type of use|Example|Description|
 |:---|:---|:---|:---|
-|`memcmp()`|int memcmp(void *s1, void *s2, size_t n);|`stat = memcmp(s1, s2, 3);`|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br />- <br />- <br />- |
+|`memcmp()`|int memcmp(void *s1, void *s2, size_t n);|`stat = memcmp(s1, s2, 3);`<br />// s1과 s2의 내용을 3byte만큼 비교하여 s1>s2이면 양수, s1<s2이면 음수, s1=s2이면 0을 반환|// s1과 s2가 가리키는 기억공간의 내용을 n byte만큼 비교<br />// 기억공간에 들어있는 자료를 주어지는 크기만큼 비교하여, 같은지 여부를 알 수 있게 해주는 함수<br />- <br />- <br />- |
 |`memcpy()`|void * memcpy(void *dest, const void *src, size_t n);|`stat = (char*)memcpy(dest, str, strlen(src));`|// src에서 n byte만큼 dest에 복사<br />// 기억공간의 자료를 다른 기억공간 영역으로 복사하기 위한 함수<br />- <br />- <br />- |
 |`memset()`|void * memset(void *s, int c, size_t n);|`memset(s, '*', strlen(s));`|// 포인터 s가 가리키는 곳을 c값으로 n byte만큼 채움<br />// 기억공간의 자료를 지정한 문자로 채우는 함수<br />// 할당된 기억공간의 초기화나 내용 삭제를 위해 주로 사용<br />- <br />- <br />- |
