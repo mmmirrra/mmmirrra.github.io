@@ -33,15 +33,21 @@ categories: [Data Analysis]
   - It is possible to obtain a certificate of '사회조사분석사'   
 - SAS   
   - www.sas.com   
+  - It's a program processing method   
   - Data processing is excellent   
   - Excellent database, data warehousing, etc   
   - Data mining is excellent   
   - Big Data Solution Capabilities   
   - It is possible to obtain a certificate of '사회조사분석사'   
 - R   
+  - www.r-project.org   
+  - Free   
+  - highly functional   
+  - It's a program processing method   
+  - Excellence in data processing, analysis, and graphics   
 - Python   
 
-#### SAS module   
+### SAS module   
 // SAS 기본   
 `SAS/BASE` : SAS Basic   
 // 자료의 분석 및 통계 분석   
