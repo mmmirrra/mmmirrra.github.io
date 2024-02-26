@@ -107,7 +107,7 @@ categories: [Data Analysis]
    
 ```
 # Importing file
-> ex12 <- read.csv("C:/Users/mirak/R-workspace/ex1-2.csv")
+> ex12 <- read.csv("C:/Users/R-workspace/ex1-2.csv")
 # Check the contents of the file
 > head(ex12)
   id math physics
