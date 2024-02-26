@@ -77,7 +77,7 @@ categories: [Data Analysis]
 `SAS/E-Miner` : Data Mining   
    
 ### R sample
-`
+```
 # 수학점수
 > math = c(66, 63, 48, 46, 78, 60, 90, 50, 66, 70)
 # 물리점수
@@ -91,4 +91,4 @@ categories: [Data Analysis]
 > abline(lm(physics ~ math))
 /* 각 포인트 케이스 확인 */
 > identify(math, physics)
-`
+```
