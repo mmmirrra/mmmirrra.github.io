@@ -83,6 +83,7 @@ categories: [Data Analysis]
 # 물리점수
 > physics = c(70, 68, 46, 48, 84, 64, 92, 52, 68, 72)
 # 상관계수
+# Correlation coefficient
 > cor(math, physics)
 [1] 0.9907909
 # 산점도
@@ -94,6 +95,7 @@ categories: [Data Analysis]
 # 각 포인트 케이스 확인
 # Check each point case
 > identify(math, physics)
+[1] 5 7
 ```
    
 ```
@@ -117,6 +119,7 @@ categories: [Data Analysis]
 4  4   46      48
 5  5   78      84
 6  6   60      64
+# data frame
 > head(ex12, 3)
   id math physics
 1  1   66      79
@@ -127,4 +130,22 @@ categories: [Data Analysis]
 > plot(ex12$math, ex12$physics, pch=19, col="BLUE")
 # Change the title of the scatterplot
 > title("\n Scatter Plot of (math, physics)\n")
+# 상관계수
+# Correlation coefficient
+> cor(ex12$math, ex12$physics)
+[1] 0.9693012
+# 상관계수 검증
+# Correlation coefficient verification
+> cor.test(ex12$math, ex12$physics)
+
+	Pearson's product-moment correlation
+
+data:  ex12$math and ex12$physics
+t = 7.8845, df = 4, p-value = 0.001399
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.7393390 0.9967622
+sample estimates:
+      cor 
+0.9693012 
 ```
