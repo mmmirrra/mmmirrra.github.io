@@ -70,3 +70,20 @@ categories: [Data Analysis]
 `SAS/QC` : Statistical Quality Control   
 // 데이터마이닝   
 `SAS/E-Miner` : Data Mining   
+   
+### R sample
+`
+/* 수학점수 */
+> math = c(66, 63, 48, 46, 78, 60, 90, 50, 66, 70)
+/* 물리점수 */
+> physics = c(70, 68, 46, 48, 84, 64, 92, 52, 68, 72)
+/* 상관계수 */
+> cor(math, physics)
+[1] 0.9907909
+/* 산점도 */
+> plot(math, physics, pch=16, col="BLUE", main="(수학, 물리 산정도)")
+/* 회귀식 */
+> abline(lm(physics ~ math))
+/* 각 포인트 케이스 확인 */
+> identify(math, physics)
+`
