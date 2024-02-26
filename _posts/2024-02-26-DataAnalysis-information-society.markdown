@@ -76,7 +76,7 @@ categories: [Data Analysis]
 // 데이터마이닝   
 `SAS/E-Miner` : Data Mining   
    
-### R sample
+### R sample   
 ```
 # 수학점수
 > math = c(66, 63, 48, 46, 78, 60, 90, 50, 66, 70)
@@ -86,18 +86,45 @@ categories: [Data Analysis]
 > cor(math, physics)
 [1] 0.9907909
 # 산점도
-> plot(math, physics, pch=16, col="BLUE", main="(수학, 물리 산정도)")
+# scatter plot
+> plot(math, physics, pch=16, col="BLUE", main="(math, physics scatterplot)")
 # 회귀식
+# Regression equation
 > abline(lm(physics ~ math))
 # 각 포인트 케이스 확인
+# Check each point case
 > identify(math, physics)
 ```
    
 ```
-# a에 1부터 10까지 삽입
+# Insert from 1 to 10 in a
 > a <- c(1:10)
-# a의 모든 원소를 3으로 나눔
+# Divide all elements of a by 3
 > a/3
  [1] 0.3333333 0.6666667 1.0000000 1.3333333 1.6666667 2.0000000 2.3333333
  [8] 2.6666667 3.0000000 3.3333333
+```
+   
+```
+# Importing file
+> ex12 <- read.csv("C:/Users/mirak/R-workspace/ex1-2.csv")
+# Check the contents of the file
+> head(ex12)
+  id math physics
+1  1   66      79
+2  2   64      68
+3  3   48      46
+4  4   46      48
+5  5   78      84
+6  6   60      64
+> head(ex12, 3)
+  id math physics
+1  1   66      79
+2  2   64      68
+3  3   48      46
+# 산점도
+# scatter plot
+> plot(ex12$math, ex12$physics, pch=19, col="BLUE")
+# Change the title of the scatterplot
+> title("\n Scatter Plot of (math, physics)\n")
 ```
