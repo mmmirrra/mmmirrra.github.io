@@ -46,7 +46,12 @@ categories: [Data Analysis]
   - It's a program processing method   
   - Excellence in data processing, analysis, and graphics   
 - Python   
-
+  - www.anaconda.com   
+  - Free   
+  - object-oriented language   
+  - program grammar is easy   
+  - Excellent features for machine learning and deep learning   
+   
 ### SAS module   
 // SAS 기본   
 `SAS/BASE` : SAS Basic   
@@ -73,9 +78,9 @@ categories: [Data Analysis]
    
 ### R sample
 `
-/* 수학점수 */
+# 수학점수
 > math = c(66, 63, 48, 46, 78, 60, 90, 50, 66, 70)
-/* 물리점수 */
+# 물리점수
 > physics = c(70, 68, 46, 48, 84, 64, 92, 52, 68, 72)
 /* 상관계수 */
 > cor(math, physics)
