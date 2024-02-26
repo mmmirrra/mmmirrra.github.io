@@ -52,7 +52,7 @@ categories: [Data Analysis]
   - program grammar is easy   
   - Excellent features for machine learning and deep learning   
    
-### SAS module   
+### SAS Module   
 // SAS 기본   
 `SAS/BASE` : SAS Basic   
 // 자료의 분석 및 통계 분석   
@@ -82,13 +82,13 @@ categories: [Data Analysis]
 > math = c(66, 63, 48, 46, 78, 60, 90, 50, 66, 70)
 # 물리점수
 > physics = c(70, 68, 46, 48, 84, 64, 92, 52, 68, 72)
-/* 상관계수 */
+# 상관계수
 > cor(math, physics)
 [1] 0.9907909
-/* 산점도 */
+# 산점도
 > plot(math, physics, pch=16, col="BLUE", main="(수학, 물리 산정도)")
-/* 회귀식 */
+# 회귀식
 > abline(lm(physics ~ math))
-/* 각 포인트 케이스 확인 */
+# 각 포인트 케이스 확인
 > identify(math, physics)
 ```
