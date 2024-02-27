@@ -64,7 +64,7 @@ categories: [Algorithm]
 (p1, p2, p3, p4) = (1개 무게 3 이익 15, 0개, 1개 무게 3 이익 9, 1개 무게 4 이익 14)
 -> 최대 이익 38
 --> 욕심쟁이 방법으로 해결할 수 없는 NP-완전문제가 됨
-```
+```   
 - 최소 신장 트리 문제 Minimum Spanning Tree (크루스칼 알고리즘 Kruskal's Algorithm, 프림 알고리즘 Prim's Algorithm)   
 - 단일 출발점 최단 경로 문제 (데이크스트라 알고리즘 Dijkstra's Algorithm)   
    
