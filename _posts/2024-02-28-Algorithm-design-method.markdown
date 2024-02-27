@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Algorithm: Design, Method"
-date:   2024-02-28 09:00:00 +0900
+date:   2024-02-27 09:00:00 +0900
 categories: [Algorithm]
 ---
 
