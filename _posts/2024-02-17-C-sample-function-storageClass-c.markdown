@@ -270,3 +270,6 @@ void extern_ex13() {
 	printf("The value of the extern variable s13 is %s.\n", s13);
 }
 ```
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

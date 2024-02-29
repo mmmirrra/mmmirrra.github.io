@@ -1326,3 +1326,6 @@ void swapVecF2(VecF& v1, VecF& v2) {		// rvalue 참조 이동
 	v2 = move(tmp);				// 이동 대입 연산자 사용
 }
 ```
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

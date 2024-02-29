@@ -128,3 +128,5 @@ project 'FirstStep'
 // 다중정의에 대한 개념 이해를 위한 예제   
 `VecF.h` : Example for conceptual understanding of multiple definitions   
    
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

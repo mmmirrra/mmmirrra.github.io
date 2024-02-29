@@ -206,3 +206,6 @@ struct num5 calc5(struct num5* number) {
 	number->mul = number->x * number->y;
 }
 ```
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

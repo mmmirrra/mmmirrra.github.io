@@ -219,3 +219,6 @@ void score_sum6(int gr6[][5], int row, int column) {		// 가장 높은 차원의
 	}
 }
 ```
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

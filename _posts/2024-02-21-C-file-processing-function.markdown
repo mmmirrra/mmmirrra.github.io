@@ -154,3 +154,6 @@ categories: [C]
 |`wb+`|// 파일 읽기, 쓰기 겸용<br />// 파일이 있을 경우 : 이전 내용 삭제<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for both reading and writing in Binary Mode. If the File exists, its contents are overwritten. If the File does not exist, it will be created.|
 |`a+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Text Mode<br />- Searches File. If the File is opened successfully fopen( ) loads it into memory and sets up a Pointer that points to the last character in it. It opens the File in both reading and append Mode. If the File doesn’t exist, a new File is created. Returns NULL, if unable to open the File.|
 |`ab+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for both reading and appending in Binary Mode. If the File does not exist, it will be created.|
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

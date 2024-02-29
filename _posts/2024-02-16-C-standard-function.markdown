@@ -17,3 +17,6 @@ categories: [C]
 |stdlib.h|Numerical transformation Function|atoi(), itoa()|
 |stdlib.h|Function related to Random Number|rand(), srand()|
 |stdlib.h|Sort/Alignment/Search Function|qsort(), lfind()|
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>

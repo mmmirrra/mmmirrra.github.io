@@ -200,3 +200,6 @@ void main() {
 	fclose(fp13);
 }
 ```
+   
+<br />
+<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
