@@ -9,6 +9,7 @@ categories: [Algorithm]
 - 주어진 문제와 조건 등이 매우 다양함   
 - 일반적/범용적인 설계 기법은 미존재   
    
+<br />
 ### 대표적인 알고리즘 설계 기법   
 - 욕심쟁이 방법 greedy method   
   - 탐욕적 방법, 탐욕 알고리즘   
@@ -30,6 +31,7 @@ categories: [Algorithm]
   - 분할된 문제는 입력 크기만 작아졌을 뿐 원래 문제와 동일   
   - 분할된 문제들은 서로 독립적일 필요는 없음   
    
+<br />
 ### 욕심쟁이 방법 greedy method 대표적인 적용 문제   
 - 거스름돈 문제 coin change problem   
   - 동전 문제, 동전 거스름돈 문제   
@@ -70,6 +72,7 @@ categories: [Algorithm]
 - 최소 신장 트리 문제 Minimum Spanning Tree (크루스칼 알고리즘 Kruskal's Algorithm, 프림 알고리즘 Prim's Algorithm)   
 - 단일 출발점 최단 경로 문제 (데이크스트라 알고리즘 Dijkstra's Algorithm)   
    
+<br />
 ### 분할정복 방법 divide-and-conquer method 대표적인 적용 문제   
 - 이진 탐색 binary search   
   - 이진 탐색 알고리즘과 분할정보 방법의 관계   
@@ -79,11 +82,13 @@ categories: [Algorithm]
 - 퀵 정렬   
 - 합병 정렬   
    
+<br />
 ### 동적 프로그래밍 방법 dynamic programming method 대표적인 적용 문제   
 - 모든 쌍 간의 최단 경로 문제 (플로이드 알고리즘 Floyd's Algorithm)   
 - 연쇄적 행렬 곱셈 문제   
 - 최장 공통 부분 수열 문제   
    
+<br />
 ### 예시 - 최소값 찾기 알고리즘   
 입력값 배열 : 80, 70, 40, 20, 30, 10, 60, 50   
 - 일상 언어로 표현/기술하는 경우   
@@ -104,6 +109,7 @@ while(i < n) {
 최소값 min 출력;
 ```
    
+<br />
 ### 예시 - 퀘닉스버그 다리 문제 - 오일러 경로 알고리즘   
 그래프의 모든 간선을 오직 한번씩만 지나가는 경로 찾기   
 1. 각 정점의 차수가 홀수인 정점이 0개 혹은 2개이어야 한다.   
