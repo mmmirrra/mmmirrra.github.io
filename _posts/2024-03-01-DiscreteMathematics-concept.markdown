@@ -77,7 +77,8 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 #### 문제해결   
 - 성공적인 문제해결을 위해 도구, 기법, 방법론 선택이 중요함   
 - 수학적 모델링이란 수학적 도구로 실행활의 문제를 해결할 수 있도록 추상화하는 과정   
-
+- 정보 모델링이란 실생활의 문제를 컴퓨터에서 해결할 수 있는 형태로 추상화하는 과정   
+   
 |수학적 모델링을 이용한 문제해결|정보 모델링을 이용한 문제해결|
 |:---:|:---:|
 |문제<br />↓<br />추상모델<br />↓<br />변형된 모델<br />↓<br />문제의 해결책|문제<br />↓<br />정보<br />↓<br />처리<br />↓<br />문제의 해결책|
@@ -93,6 +94,7 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 - 어떠한 문제를 해결하기 위한 여러 동작들의 유한한 모임   
 - <cite>a set of instructions, sometimes called a procedure or a function, that is used to perform a certain task</cite> [Wikipedia]   
 - <cite>an explicit step-by-step procedure for solving the problem</cite> [Dossey, et al.]   
+- 알고리즘을 모호하지 않게 표현하기 위해 컴퓨터 프로그래밍 언어, 순서도, 의사코드 등을 사용   
    
 #### 알고리즘 표현 방법   
 - 컴퓨터 프로그래밍 언어 Computer Programming Language   
@@ -189,18 +191,18 @@ print "fire";
    
 |이산수학 주제|컴퓨터 응용 분야|
 |:---|:---|
-|Logic|전문가 시스템|
-|Proofs|컴퓨터 프로그램의 효과성 및 효율성 입증|
-|Sets|계산 이론, 데이터베이스 등|
-|Matrices|2차원 그래픽, 3차원 그래픽, 기계학습|
-|Relations|관계형 데이터베이스|
-|Functions|컴퓨터 언어|
-|Boolean Algebra|계산 이름, 디지털 논리회로|
-|Graphs|자연어 처리, 컴퓨터 네트워크|
-|Trees|자료 탐색, 컴퓨터 네트워크, 데이터베이스, 회로망 설계|
-|Combinatorial Theory|계산 이론|
-|Number Theory|정보 보안|
-|Automata and Formal Language|계산 이론, 문제 해결 가능성|
+|Logic|전문가 시스템 Expert System|
+|Proofs|컴퓨터 프로그램의 효과성 및 효율성 입증 Performance Evaluation|
+|Sets|계산 이론, 데이터베이스 등 Data Structure, DB|
+|Matrices|2차원 그래픽 Graphics, 3차원 그래픽, 기계학습 Robotics|
+|Relations|관계형 데이터베이스 DB|
+|Functions|컴퓨터 언어 Program Language|
+|Boolean Algebra|계산 이름, 디지털 논리회로 Digital Logic Circuits|
+|Graphs|자연어 처리, 컴퓨터 네트워크 Computer Networks|
+|Trees|자료 탐색 Data Searching, 컴퓨터 네트워크, 데이터베이스, 회로망 설계|
+|Combinatorial Theory|계산 이론 Problem Solving, PE|
+|Number Theory|정보 보안 Data Encryption|
+|Automata and Formal Language|계산 이론, 문제 해결 가능성 Computing Theory, Program Language|
    
 <br />
 <cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
