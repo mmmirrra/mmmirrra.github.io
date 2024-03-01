@@ -27,6 +27,7 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 <br />
 ### How can I improve my discrete math skills?   
 // 이산수학에서 실력을 높이려면?   
+   
 // 지식 체계를 만드는 훈련을 해야 함   
 You have to train yourself to build a knowledge system   
    
@@ -52,6 +53,7 @@ You have to train yourself to build a knowledge system
 - To systematize new concepts and to cultivate the ability to express them   
    
 #### Key Contents of Discrete Mathematics   
+   
 |Types|Types|Types|
 |:---|:---|:---|
 |// 논리<br />Logic|// 증명<br />Proofs|// 귀납법<br />Induction|
@@ -168,6 +170,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
    
 #### 3 Control Structures   
 // 3가지 제어구조   
+   
 |Sequence Structure|Selection Structure|Iteration Structure|
 |:---:|:---:|:---:|
 |Assignment Statement|- if<br />- switch|- for<br />- while<br />- foreach|
