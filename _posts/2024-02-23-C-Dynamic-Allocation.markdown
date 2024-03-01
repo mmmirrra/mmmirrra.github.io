@@ -77,4 +77,4 @@ Include header file for memory space management function : `/* #include <mem.h> 
 |`memset()`|void * memset(void * s, int c, size_t n);<br />---<br />`memset(s, '*', strlen(s));`<br /><br />// 배열 s의 데이터를 '* '로 문자열의 길이만큼 (strlen()) 채움<br />- Fill data in array 's' with '*' as long as string|// 포인터 s가 가리키는 곳을 c값으로 n byte만큼 채움<br />// 기억공간의 자료를 지정한 문자로 채우는 함수<br />// 할당된 기억공간의 초기화나 내용 삭제를 위해 주로 사용<br />- Fill in the point where pointer s points by n bytes with the value c<br />- Functions that populate the data in the storage space with the specified characters<br />- Mainly used for initialization or content deletion of allocated memory space|
    
 <br />
-<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

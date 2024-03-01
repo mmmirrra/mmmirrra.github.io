@@ -19,4 +19,4 @@ categories: [C]
 |stdlib.h|Sort/Alignment/Search Function|qsort(), lfind()|
    
 <br />
-<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

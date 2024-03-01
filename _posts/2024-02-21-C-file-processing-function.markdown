@@ -156,4 +156,4 @@ categories: [C]
 |`ab+`|// 파일 읽기, 추가 겸용<br />// 파일이 있을 경우 : 이전 내용 뒤에 추가<br />// 파일이 없을 경우 : 새 파일 생성<br />- Binary Mode<br />- Open for both reading and appending in Binary Mode. If the File does not exist, it will be created.|
    
 <br />
-<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

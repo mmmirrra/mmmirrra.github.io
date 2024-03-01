@@ -206,4 +206,4 @@ print "fire";
 |Automata and Formal Language|계산 이론, 문제 해결 가능성 Computing Theory, Program Language|
    
 <br />
-<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

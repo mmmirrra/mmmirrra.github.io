@@ -22,4 +22,4 @@ storage class : How to assign a variable to a specific area of storage space
 |// 레지스터변수<br />`register`|register int a;|Used to store data in registers within the CPU.<br />Property is the same as the auto variable.<br />Used to increase the execution speed of a program.<br />Mainly used as counter variable in Loop statement.|
    
 <br />
-<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

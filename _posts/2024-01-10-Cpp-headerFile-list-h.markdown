@@ -1328,4 +1328,4 @@ void swapVecF2(VecF& v1, VecF& v2) {		// rvalue 참조 이동
 ```
    
 <br />
-<cite>출처: 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
