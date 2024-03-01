@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Algorithm: Design, Method"
-date:   2024-02-27 09:00:00 +0900
+date:   2024-02-28 09:00:00 +0900
 categories: [Algorithm]
 ---
 
@@ -176,7 +176,7 @@ Relationship between Binary Search Algorithm and Divide-and-Conquer Method
    
 Array of Input Values : 80, 70, 40, 20, 30, 10, 60, 50   
    
-// 일상 언어로 표현/기술하는 경우   
+// - 일상 언어로 표현/기술하는 경우   
 - Expressions/descriptions with Everyday Language   
    
 // 1. 첫번째 데이터를 최소값 [0]로 저장한다.   
@@ -190,7 +190,7 @@ Array of Input Values : 80, 70, 40, 20, 30, 10, 60, 50
 4. If there is any data left to process next, go to [2].   
 5. The stored minimum value is output as a result.   
    
-// 의사코드로 표현/기술하는 경우   
+// - 의사코드로 표현/기술하는 경우   
 - Expressions/descriptions with Pseudo Code   
    
 ```
@@ -209,15 +209,15 @@ Minimum min output;
 ### Algorithm Example - Koenigsberg Bridge Problem - Euler Path   
 // 알고리즘 예시 - 퀘니히스베르크(퀘닉스버그) 다리 문제 - 오일러 경로   
    
-// 그래프의 모든 간선을 오직 한번씩만 지나가는 경로 찾기   
-Find the path that passes through every edge of the graph only once   
+// - 그래프의 모든 간선을 오직 한번씩만 지나가는 경로 찾기   
+- Find the path that passes through every edge of the graph only once   
    
 // 1. 각 정점의 차수가 홀수인 정점이 0개 혹은 2개이어야 한다.   
 // 2. 홀수점이 2개일 경우에는 홀수점에서 시작해야 한다.   
 1. Each vertex must have 0 or 2 vertices of which the order is odd.   
 2. If there are two odd points, it should start at the odd point.   
    
-// 퀘니히스베르크(퀘닉스버그) 다리는 정점 4개, 간선 7개, 차수가 홀수인 정점이 4개이므로 오일러 경로가 존재하지 않음   
+// - 퀘니히스베르크(퀘닉스버그) 다리는 정점 4개, 간선 7개, 차수가 홀수인 정점이 4개이므로 오일러 경로가 존재하지 않음   
   - No Euler path exists for the Quenichberg (Quenichberg) bridge because it has four vertices, seven edges, and four vertices with odd orders   
    
 <br />
