@@ -1,4 +1,4 @@
 ---
 layout: category
-title: DiscreteMathematics
+title: Discrete Mathematics
 ---

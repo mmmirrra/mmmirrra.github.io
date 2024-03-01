@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Data Analysis: Information Society, Computer and Software"
 date:   2024-02-26 09:00:00 +0900
-categories: [DataAnalysis]
+categories: [Data Analysis]
 ---
 
 ### Information Society - Knowledge Informatization   
