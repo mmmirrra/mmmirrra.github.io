@@ -26,6 +26,7 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 ### 이산수학 Discrete Mathematics 이란?   
 - 이산적인 수학구조에 대해서 연구하는 학문   
 - 이산적 데이터를 처리하기 위해 필요한 수학   
+- Discrete mathematics is the study of mathematical structures that are fundamentally discrete rather than continuous.   
    
 #### 이산수학을 배우는 이유   
 - 컴퓨터과학의 기초를 이해하기 위해   
@@ -84,14 +85,16 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 |문제<br />↓<br />추상모델<br />↓<br />변형된 모델<br />↓<br />문제의 해결책|문제<br />↓<br />정보<br />↓<br />처리<br />↓<br />문제의 해결책|
    
 #### 추상화 abstraction   
+Abstraction is a process by which concepts are derived from the usage and classification of literal ("real" or "concrete") concepts, first principles (such as an axiom), or other methods.   
    
 |국어사전의 추상화|컴퓨터과학에서의 추상화|
 |:---|:---|
 |일정한 인식 목표를 추구하기 위해 여러가지 표상이나 개념에서 특정한 특성이나 속성을 빼냄|문제와 관련된 핵심내용만 남기고 관련없는 내용을 제거하여 문제를 단순화 시키는 과정|
    
 <br />
-### 알고리즘 Algorithm 언어   
-- 어떠한 문제를 해결하기 위한 여러 동작들의 유한한 모임   
+### 알고리즘 Algorithm   
+// 어떠한 문제를 해결하기 위한 여러 동작들의 유한한 모임   
+- An algorithm is a set of instructions, sometimes called a procedure or a function, that is used to perform a certain task.   
 - <cite>a set of instructions, sometimes called a procedure or a function, that is used to perform a certain task</cite> [Wikipedia]   
 - <cite>an explicit step-by-step procedure for solving the problem</cite> [Dossey, et al.]   
 - 알고리즘을 모호하지 않게 표현하기 위해 컴퓨터 프로그래밍 언어, 순서도, 의사코드 등을 사용   
