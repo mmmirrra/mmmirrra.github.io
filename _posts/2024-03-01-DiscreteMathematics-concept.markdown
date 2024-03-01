@@ -241,6 +241,7 @@ foreach x in {5, 4, 3, 2, 1, 0}
 print "fire";
 ```
    
+<br />
 ### Applications of Discrete Mathematics   
 // 이산수학의 응용분야   
    
