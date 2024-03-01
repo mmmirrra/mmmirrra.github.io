@@ -6,8 +6,6 @@ categories: [Algorithm]
 ---
 
 ### Basic Concept   
-// 기본 개념   
-   
 // 컴퓨터의 한계 : 알고리즘의 존재 여부에 따라 알고리즘이 존재하지 않으면 컴퓨터로 구현할 수 없음   
 // 컴퓨터과학 : 컴퓨터를 활용해서 주어진 문제를 해결하기 위함 학문. 문제 해결을 위한 문제 풀이 절차/방법이 필요   
 // 컴퓨터과학 == 알고리즘과학 : 알고리즘의 한계, 알고리즘의 분석, 알고리즘의 개발, 알고리즘의 실행, 알고리즘간의 통신, 알고리즘의 표현   
@@ -21,8 +19,6 @@ categories: [Algorithm]
    
 <br />
 ### Conditions of Algorithm   
-// 알고리즘의 조건   
-   
 // 주어진 문제에 대한 하나 이상의 결과를 생성하기 위해 모호하지 않고 단순 명확하며 컴퓨터가 수행할 수 있는 유한개의 일련의 명령어들을 순서에 따라 구성한 것   
 a set of unambiguous, simple, clear, and computer-executable finite sets of instructions in order to produce one or more results for a given problem   
    
@@ -49,7 +45,7 @@ Design -> Representation/Technology -> Accuracy Analysis -> Efficiency Analysis
 // 3. 정확성 검증 : 수학적 증명   
 // 4. 효율성 분석 : 공간 복잡도, 시간 복잡도   
 1. Design : Bottom-up Design, Top-down Design, Greedy Methods, Split-Over Methods, Dynamic Programming Methods, etc   
-2. Representation/Technology : Everyday Language, Flow Chart, Pseudocode, Programming Language, etc   
+2. Representation/Technology : Everyday Language, Flow Chart, Pseudo Code, Programming Language, etc   
 3. Accuracy Analysis : Mathematical Proof   
 4. Efficiency Analysis : Spatial Complexity, Time Complexity   
    
