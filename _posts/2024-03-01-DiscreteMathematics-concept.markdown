@@ -81,6 +81,7 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 |문제<br />↓<br />추상모델<br />↓<br />변형된 모델<br />↓<br />문제의 해결책|문제<br />↓<br />정보<br />↓<br />처리<br />↓<br />문제의 해결책|
    
 #### 추상화 abstraction   
+   
 |국어사전의 추상화|컴퓨터과학에서의 추상화|
 |:---|:---|
 |일정한 인식 목표를 추구하기 위해 여러가지 표상이나 개념에서 특정한 특성이나 속성을 빼냄|문제와 관련된 핵심내용만 남기고 관련없는 내용을 제거하여 문제를 단순화 시키는 과정|
@@ -117,6 +118,7 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
 |ex) K = 100|- 순차문 Sequence<br />- 조건문 Selection<br />- 반복문 Iteration|
    
 #### 3가지 제어구조 control structure   
+   
 |Sequence Structure|Selection Structure|Iteration Structure|
 |:---:|:---:|:---:|
 |할당문|- if문<br />- switch문|- for문<br />- while문<br />- foreach문|
@@ -181,7 +183,8 @@ foreach x in {5, 4, 3, 2, 1, 0}
 print "fire";
 ```
    
-### 이산수학의 응용분야   
+### 이산수학의 응용분야ㅁ   
+   
 |이산수학 주제|컴퓨터 응용 분야|
 |:---|:---|
 |Logic|전문가 시스템|
