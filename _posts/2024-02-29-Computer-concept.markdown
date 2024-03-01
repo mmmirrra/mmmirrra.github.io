@@ -77,8 +77,8 @@ The process of generating information by converting data by sorting, clustering,
    
 |Analog|Digital|
 |:---|:---|
-|// 사물이나 개념을 연속적인 물리량 값으로 표현<br />Representation of an object or concept as a continuous physical quantity value|//사물이나 개념을 이산적인 값으로 근사하여 표현<br />Representation of an object or concept by approximating it to a discrete value|
-|//질적 데이터 또는 양적 데이터로 표현<br />Represented as qualitative or quantitative data|//양적 데이터로 표현<br />Represented as quantitative data|
+|// 사물이나 개념을 연속적인 물리량 값으로 표현<br />Representation of an object or concept as a continuous physical quantity value|// 사물이나 개념을 이산적인 값으로 근사하여 표현<br />Representation of an object or concept by approximating it to a discrete value|
+|// 질적 데이터 또는 양적 데이터로 표현<br />Represented as qualitative or quantitative data|// 양적 데이터로 표현<br />Represented as quantitative data|
    
 #### Representation of Numeric Data   
 // 숫자 데이터의 표현 : 사람은 10진수, 16진수 등 여러 진수를 사용하지만 컴퓨터는 2진수만 사용하므로 진법 변환 필요   
