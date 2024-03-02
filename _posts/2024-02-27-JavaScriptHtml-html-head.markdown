@@ -91,7 +91,7 @@ Used to represent different metadata for web documents
 ```
    
 // 2. 웹 페이지가 출력될 타깃 윈도우 지정   
-'2. Specify the target window to which the web page will be printed   
+2 . Specify the target window to which the web page will be printed   
    
 ```html
 <base target="_blank">
