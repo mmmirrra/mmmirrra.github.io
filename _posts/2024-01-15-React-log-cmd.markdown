@@ -20,5 +20,5 @@ Executed command `node scripts/build.server.js` in folder 'ssr-recipe' on drive 
 #### Description of 2  
 // 2에 대한 설명   
    
-// 'ValicationError' 발생한 예시: ‘option’은 알 수 없는 값이라고 함. 가능한 값 중에 ‘options’가 있음. 'scripts/build.server.js' 파일에서 ‘option’을 ‘options’로 수정해서 재실행하니 오류없이 실행됨   
-Example of `ValidationError`: ‘option’ is an unknown value. Among the possible values, there is ‘options’. In the file `scripts/build.server.js`, ‘option’ was modified to ‘options’ and re-executed. Runs without errors.   
+// 'ValicationError' 발생한 예시 : ‘option’은 알 수 없는 값이라고 함. 가능한 값 중에 ‘options’가 있음. 'scripts/build.server.js' 파일에서 ‘option’을 ‘options’로 수정해서 재실행하니 오류없이 실행됨   
+Example of `ValidationError` : ‘option’ is an unknown value. Among the possible values, there is ‘options’. In the file `scripts/build.server.js`, ‘option’ was modified to ‘options’ and re-executed. Runs without errors.   

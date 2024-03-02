@@ -54,8 +54,8 @@ categories: [C]
 // 스트림 생성 : 'fopen()' 함수 사용. 파일과 프로그램과의 통로(논리적인 접속)를 구성함. 통로 역할은 파일 포인터가 수행함   
 // 스트림 소멸 : 'fclose()' 함수 사용   
 - Logical channels for data input and output   
-- Stream generation: using `fopen()` function. constructing a path (logical connection) between File and program. The path role is played by a File Pointer   
-- Stream destruction: using `fclose()` function   
+- Stream generation : using `fopen()` function. constructing a path (logical connection) between File and program. The path role is played by a File Pointer   
+- Stream destruction : using `fclose()` function   
    
 <br />
 #### Record   
@@ -72,7 +72,7 @@ categories: [C]
 // 순차파일 : 레코드의 길이가 일정하지 않은 파일. 파일의 처음부터 자료를 차례로 읽고, 기록하는 파일. 레코드의 길이가 일정하지 않기 때문에 레코드들의 구분이 필요. CR/LF를 사용하여 구분   
 // 랜덤파일 : 레코드의 길이가 일정한 파일. 파일의 임의의 위치에서 자료를 읽고, 기록하는 파일. 입출력 시 일반적으로 2진 모드로 파일을 개방   
 - Categorized by how File are organized using File processing functions   
-- Sequential File: A File whose length is not constant. A File that reads and records data from the beginning of a File. Because the length of the record is not constant, it is necessary to separate the records. Use CR/LF to distinguish   
+- Sequential File : A File whose length is not constant. A File that reads and records data from the beginning of a File. Because the length of the record is not constant, it is necessary to separate the records. Use CR/LF to distinguish   
 - Random File : A File of constant length of the record. A File that reads and records data at any location in the File. Usually opens files in binary mode when inputting and output   
    
 <br />

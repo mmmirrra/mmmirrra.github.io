@@ -185,7 +185,7 @@ Developer → Abstract → [Data Structure] ← Concrete ← Computer
 // 입력값을 머릿속에서 추상화된 형태(자료구조)로 구조화하고, 수행되어야 할 명령어를 머릿속에서 추상화된 형태(알고리즘)로 체계화됨   
 // 프로그래밍 언어 : 자료구조와 알고리즘을 구체화하는 방법   
 - Input values should be structured in an abstract form (Data Structure) in the head, and instructions to be performed should be structured in an abstract form (algorithm) in the head   
-- Programming Language: How to specify data structure and algorithm   
+- Programming Language : How to specify data structure and algorithm   
    
 |// 구체화<br />Concrete|
 |:---:|

@@ -10,12 +10,12 @@ project 'Sample_Conditional_Statement'
    
 <br />
 ### Control Structure   
-1. Sequence Control Structure: Control Structure performed from top to bottom unless otherwise specified   
-2. Selection or Decision Control Structure (Conditional Statement): Branch Control Structure to move performance to specific parts under given conditions   
+1. Sequence Control Structure : Control Structure performed from top to bottom unless otherwise specified   
+2. Selection or Decision Control Structure (Conditional Statement) : Branch Control Structure to move performance to specific parts under given conditions   
  - `if`, `else`, `else if`   
 3. Case Control Structure   
  - `switch ~ case` : Branch to one of several locations according to the given value   
-4. Repetition Control Structure: Repeated Control Structure that repeats a specific part a certain number of times   
+4. Repetition Control Structure : Repeated Control Structure that repeats a specific part a certain number of times   
  - `for`   
  - `while`   
  - `do ~ while`   

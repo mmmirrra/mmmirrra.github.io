@@ -17,7 +17,7 @@ categories: [SpringBoot]
 3. Save jwt information in `Signature`   
    
 <br />
-### Three-letter abbreviation used as the name of the key according to the standard specification: Choose according to the situation and use it   
+### Three-letter abbreviation used as the name of the key according to the standard specification : Choose according to the situation and use it   
 // 표준 스펙상 key의 이름으로 사용하는 3글자 약어 : 상황에 따라 골라서 사용   
    
 <br />
