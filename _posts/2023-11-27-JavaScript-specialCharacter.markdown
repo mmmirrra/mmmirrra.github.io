@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript: special character"
 date:   2023-11-27 09:00:00 +0900
-categories: [JavaScript]
+categories: [JavaScript Html]
 ---
 
 ```html

@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript: drag & drop"
 date:   2023-11-29 09:00:00 +0900
-categories: [JavaScript]
+categories: [JavaScript Html]
 ---
 
 ### example   
