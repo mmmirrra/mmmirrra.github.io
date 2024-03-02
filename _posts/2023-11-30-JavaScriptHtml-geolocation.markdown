@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript: geolocation"
+title:  "JavaScript Html: geolocation"
 date:   2023-11-30 09:00:00 +0900
 categories: [JavaScript Html]
 ---

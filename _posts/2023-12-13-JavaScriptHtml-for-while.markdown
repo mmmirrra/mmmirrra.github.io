@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript: for / for...in / for...of / forEach() / while / do...while"
+title:  "JavaScript Html: for / for...in / for...of / forEach() / while / do...while"
 date:   2023-12-13 09:00:00 +0900
 categories: [JavaScript Html]
 ---
