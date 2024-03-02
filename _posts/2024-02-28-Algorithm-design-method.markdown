@@ -115,16 +115,16 @@ profit per unit weight
 If an item splits
 /* (p1, p2, p3, p4) = (1개 무게 3 이익 15, 1개 무게 5 이익 20, 0개, 1개를 쪼개어 무게 2만큼만 담음 이익 14/2 = 7) */
 (p1, p2, p3, p4) = (One weighs 3 and the profit is 15, One weighs 5 and the profit is 20, Zero, The weight of one split item is 2 and the profit is only 14/2 = 7)
-/* Maximum profit is 42 */
+-> Maximum profit is 42
 
 0/1 backpack problem that can't split items in a backpack
 /* (p1, p2, p3, p4) = (1개 무게 3 이익 15, 1개 무게 5 이익 20, 0개, 0개) */
 (p1, p2, p3, p4) = (One weighs 3 and the profit is 15, One weighs 5 and the profit is 20, Zero, Zero)
-/* Maximum profit is 35 */
+-> Maximum profit is 35
 
 /* (p1, p2, p3, p4) = (1개 무게 3 이익 15, 0개, 1개 무게 3 이익 9, 1개 무게 4 이익 14) */
 (p1, p2, p3, p4) = (One weighs 3 and the profit is 15, Zero, One weighs 3 and the profit is 9, One weighs 4 and the profit is 14)
-/* Maximum profit is 38 */
+-> Maximum profit is 38
 
 --> This is an NP-complete problem that cannot be solved by the greedy method
 ```   
