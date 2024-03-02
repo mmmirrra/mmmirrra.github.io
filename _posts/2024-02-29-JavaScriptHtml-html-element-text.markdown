@@ -26,8 +26,10 @@ categories: [JavaScript Html]
 // 인용문 작성 : 상하 빈 줄로 구분되는 인용문 단락의 생성 및 들여쓰기. 들여쓰기 간격의 인위적인 조정은 불가능. cite속성으로 인용된 부분의 URL 지정   
 `<blockquote cite="http://abc.com">...</blockquote>` : Writing Quotation. Creating and indenting quotation separated by upper and lower blank lines. Artificial adjustment of indent interval is not possible. Specify the URL of the part cited by the cite property   
    
+<br />
+### Enter spaces and special characters   
 // 공백 및 특수문자 입력 : 두 칸 이상의 연속된 공백, 예약어로 사용되는 문자, 키보드로 직접 입력할 수 없는 문자 입력   
-Enter spaces and special characters : Enter two or more consecutive spaces. Enter characters used as reservation words. Enter characters that cannot be entered directly by keyboard   
+Enter two or more consecutive spaces. Enter characters used as reservation words. Enter characters that cannot be entered directly by keyboard   
    
 ```html
 <!-- Enter with Unicode -->
@@ -48,6 +50,7 @@ Enter spaces and special characters : Enter two or more consecutive spaces. Ente
 ### Styleing Elements of Charaters   
 // 글자의 스타일 지정 요소   
    
+<br />
 #### Physical Style Related Elements   
 // 물리적 스타일 관련 요소   
    
@@ -75,6 +78,7 @@ Elements that simply specify the appearance of the output displayed in the web b
 <small>small : Smaller size - Incidental explanations, Terms of use, Legal announcement, etc.</small>
 ```
    
+<br />
 #### Logical Style Related Elements   
 // 논리적 스타일 관련 요소   
    
@@ -130,7 +134,8 @@ An element in which an element itself is used to have meaning rather than an out
 |// 자동으로 줄바꿈 수행<br />Automatically perform a new line|// 줄바꿈 미수행 → 앞뒤 내용이 이어져 한 줄에 쭉 표시<br />Line modification not performed → Front and back contents are connected, displaying in a single line|
 |div, p, h1, ...|span, img, strong, ...|
    
-#### Container Elements that contain content   
+<br />
+### Container Elements that contain content   
 // 콘텐츠 컨테이너 요소   
    
 |div|span|
