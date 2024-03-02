@@ -61,7 +61,7 @@ P(D) → I
 - Abstracting data is necessary to apply the logical relationship between data to computers or programs   
 - Structuring the logical relationship of data through abstraction is called a data structure   
 - In order to store and process various objects on a computer, it is defined by extracting only common characteristics of the meaning and structure of the objects   
-- It is conceptualized as if drawing a picture in the developer's head without including the method of expressing binary numbers inside the computer, storage location, etc   
+- It is conceptualized as if drawing a picture in the developer's head without including the method of expressing binary numbers inside the computer, storage location, etc.   
 - Methods used to communicate among developers   
    
 <br />

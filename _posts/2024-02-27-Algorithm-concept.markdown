@@ -44,8 +44,8 @@ Design -> Representation/Technology -> Accuracy Analysis -> Efficiency Analysis
 // 2. 표현/기술 : 일상 언어, 순서도, 의사코드, 프로그래밍 언어 등   
 // 3. 정확성 검증 : 수학적 증명   
 // 4. 효율성 분석 : 공간 복잡도, 시간 복잡도   
-1. Design : Bottom-up Design, Top-down Design, Greedy Methods, Split-Over Methods, Dynamic Programming Methods, etc   
-2. Representation/Technology : Everyday Language, Flow Chart, Pseudo Code, Programming Language, etc   
+1. Design : Bottom-up Design, Top-down Design, Greedy Methods, Split-Over Methods, Dynamic Programming Methods, etc.   
+2. Representation/Technology : Everyday Language, Flow Chart, Pseudo Code, Programming Language, etc.   
 3. Accuracy Analysis : Mathematical Proof   
 4. Efficiency Analysis : Spatial Complexity, Time Complexity   
    

@@ -99,7 +99,7 @@ The process of generating information by converting data by sorting, clustering,
 - American Standard Code for Information Interchange   
 - Total 95 characters that can be printed : 52 English characters, 10 numbers, 32 special symbols, 1 blank character   
 - Binary bit strings can be represented as characters   
-- Representation using 7 bits. Additional 1 bit is used for control of communication errors, etc   
+- Representation using 7 bits. Additional 1 bit is used for control of communication errors, etc.   
 - The language of each country cannot be expressed using ASCII alone. Unicode is the code that solved this problem   
    
 <br />

@@ -35,7 +35,7 @@ categories: [Data Analysis]
   - www.sas.com   
   - It's a program processing method   
   - Data processing is excellent   
-  - Excellent database, data warehousing, etc   
+  - Excellent database, data warehousing, etc.   
   - Data mining is excellent   
   - Big Data Solution Capabilities   
   - It is possible to obtain a certificate of '사회조사분석사'   

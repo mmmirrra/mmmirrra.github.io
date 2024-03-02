@@ -154,7 +154,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 이미 선택되어 있는 블록을 방향키로 늘림   
 `Alt + Shift + arrow keys ←/↑/→/↓ left/up/right/down` : Select Next/Previous Element   
 // try/catch 문이나 for , do, while 등을 해당 블록에 감싸주는 메뉴가 나타남   
-`Alt + Shift + Z` : Surround With Quick Menu : A menu appears that surrounds the block for a try/catch function or for function, do function, while function, etc function 
+`Alt + Shift + Z` : Surround With Quick Menu : A menu appears that surrounds the block for a try/catch function or for function, do function, while function, etc. function 
   
    
 <br />
@@ -183,7 +183,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
 `Ctrl + Shift + Space` : Context Information   
 // 실행 가능한 메뉴 목록 창 보기 : Import 추가, Comment 추가, Generator 메뉴 등   
-`Alt + Shift + S` : Show Source Quick Menu : Add import, add comment, generator menu, etc   
+`Alt + Shift + S` : Show Source Quick Menu : Add import, add comment, generator menu, etc.   
 // 상황에 맞는 메뉴 목록 창 보기 : Mouse2에 해당하는 키보드   
 `Shift + F10` : View the context menu list : Keyboard corresponding to Mouse2   
 // 현재 보기에 대한 메뉴 목록 창 보기   

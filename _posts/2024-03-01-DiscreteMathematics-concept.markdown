@@ -22,7 +22,7 @@ DATA -> INFORMATION -> KNOWLEDGE -> WISDOM
    
 |Mathematics|Discrete Mathematics|
 |:---|:---:|
-|// 대수학 : 방정식<br />Algebra : Equations<br /><br />// 해석학 : 극한, 수열, 급수, 미분, 적분 등<br />Hermeneutics : Limits, Sequences, Series, Differential, Integral, etc<br /><br />// 기하학<br />Geometry|// 연속수학<br />Continuous Mathematics<br /><br />// 이산수학<br />Discrete Mathematics|
+|// 대수학 : 방정식<br />Algebra : Equations<br /><br />// 해석학 : 극한, 수열, 급수, 미분, 적분 등<br />Hermeneutics : Limits, Sequences, Series, Differential, Integral, etc.<br /><br />// 기하학<br />Geometry|// 연속수학<br />Continuous Mathematics<br /><br />// 이산수학<br />Discrete Mathematics|
    
 <br />
 ### How can I improve my discrete math skills?   
@@ -95,7 +95,7 @@ Methodology : who, when, where, why, what tools and techniques should be used
    
 |tools of mathematics|techniques of mathematics|methodologies of mathematics|
 |:---|:---|:---|
-|// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법(일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식(2차, 3차 방정식)<br />Formula of the root (quadratic and cubic equations)<br />// 등<br />etc|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
+|// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법(일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식(2차, 3차 방정식)<br />Formula of the root (quadratic and cubic equations)<br />// 등<br />etc.|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
    
 #### Problem Solving   
 // 문제해결   

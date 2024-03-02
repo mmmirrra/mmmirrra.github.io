@@ -255,7 +255,7 @@ int k12 = 50;
 ```
    
 <br />
-#### etc sourceFile   
+#### etc. sourceFile   
 // 외부변수가 선언된 파일   
 `externExample.c` : Files with external variables declared   
    

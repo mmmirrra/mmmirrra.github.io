@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C++: etc sourceFile list : .cpp"
+title:  "C++: etc. sourceFile list : .cpp"
 date:   2024-01-09 09:00:00 +0900
 categories: [C++]
 ---
@@ -8,7 +8,7 @@ categories: [C++]
 solution 'CppPrjs'   
 project 'FirstStep'   
    
-### sourceFile list - etc sourceFile - .cpp   
+### sourceFile list - etc. sourceFile - .cpp   
    
 // 스택 공간 확인 예제   
 `CharStack.cpp` : Example of verifying stack space   
