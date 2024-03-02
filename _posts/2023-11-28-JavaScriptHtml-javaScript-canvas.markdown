@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript Html: canvas"
+title:  "JavaScript Html: javaScript canvas"
 date:   2023-11-28 09:00:00 +0900
 categories: [JavaScript Html]
 ---
