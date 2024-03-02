@@ -28,6 +28,7 @@ elements == Start Tag + Content + End Tag
    
 Tags used without end tags : `<br>`, `<img>`, etc.   
    
+<br />
 ### Guidelines for Writing HTML Documents   
 // HTML 문서 작성 시 주의사항   
    
@@ -46,9 +47,10 @@ Tags used without end tags : `<br>`, `<img>`, etc.
   - Two or more consecutive spaces are treated as one space   
    
 // 요소 안에 다른 요소 포함 가능 : 포함 관계 주의   
-- Possible inclusion of other elements within an element : care must be taken in the inclusion relationship   
+- Possible inclusion of other elements within an element : Care must be taken in the inclusion relationship   
   - `<tag1> ... <tag2> ~~ </tag2> ... </tag1>`   
    
+<br />
 ### Basic structure of HTML documents   
 // HTML 문서의 기본 구조   
    
@@ -87,7 +89,7 @@ Tags used without end tags : `<br>`, `<img>`, etc.
 <head> ... </head>
 <!-- 
   // 웹 문서에 대한 메타 정보를 포함 : 화면에 표시되지 않음
-  - Include meta information for web documents : not displayed on screen
+  - Include meta information for web documents : Not displayed on screen
   - meta information : title, link, style, script, meta, base, etc.
 -->
 ```
@@ -108,7 +110,7 @@ Tags used without end tags : `<br>`, `<img>`, etc.
   // 문서의 어느 곳에든 위치 가능
   // '<! --'와 '-- >'는 하나의 문자임 : 각 문자 사이에 공백 불가
   // 주석 내용으로 '<', '>', '--'는 사용하지 말아야 함
-  - Comment: Used to add a brief description within a document source
+  - Comment : Used to add a brief description within a document source
   - Not output to browser so can only be seen by source
   - Can be located anywhere in the document
   - '<! --' and '-- >' are one character : No spaces between each character

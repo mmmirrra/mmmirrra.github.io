@@ -9,12 +9,14 @@ categories: [JavaScript Html]
 // 인터넷? 웹?   
 Internet ≠ Web   
    
-#### Internet   
+<br />
+### Internet   
 - Derived by ARPANET   
 - <b>INTER</b>connected <b>NET</b>work -> <b>INTERNET</b>   
 - Worldwide Connected Computer Network System   
    
-#### WWW (World Wide Web)   
+<br />
+### WWW (World Wide Web)   
 - by Tim Berners-Lee   
    
 // 하이퍼링크 개념과 GUI를 사용하여 다양한 형태의 데이터와 정보에 접근할 수 있는 인터넷 서비스   
