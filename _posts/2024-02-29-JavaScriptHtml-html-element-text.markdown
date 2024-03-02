@@ -28,7 +28,9 @@ categories: [JavaScript Html]
    
 <br />
 ### Enter spaces and special characters   
-// 공백 및 특수문자 입력 : 두 칸 이상의 연속된 공백, 예약어로 사용되는 문자, 키보드로 직접 입력할 수 없는 문자 입력   
+// 공백 및 특수문자 입력   
+   
+// 두 칸 이상의 연속된 공백, 예약어로 사용되는 문자, 키보드로 직접 입력할 수 없는 문자 입력   
 Enter two or more consecutive spaces. Enter characters used as reservation words. Enter characters that cannot be entered directly by keyboard   
    
 ```html
@@ -50,7 +52,6 @@ Enter two or more consecutive spaces. Enter characters used as reservation words
 ### Styleing Elements of Charaters   
 // 글자의 스타일 지정 요소   
    
-<br />
 #### Physical Style Related Elements   
 // 물리적 스타일 관련 요소   
    
