@@ -77,7 +77,7 @@ categories: [Data Analysis]
 `SAS/E-Miner` : Data Mining   
    
 ### R sample   
-```
+```r
 # 수학점수
 > math = c(66, 63, 48, 46, 78, 60, 90, 50, 66, 70)
 # 물리점수
@@ -98,7 +98,7 @@ categories: [Data Analysis]
 [1] 5 7
 ```
    
-```
+```r
 # Insert from 1 to 10 in a
 > a <- c(1:10)
 # Divide all elements of a by 3
@@ -107,7 +107,7 @@ categories: [Data Analysis]
  [8] 2.6666667 3.0000000 3.3333333
 ```
    
-```
+```r
 # Importing file
 > ex12 <- read.csv("C:/Users/R-workspace/ex1-2.csv")
 # Check the contents of the file

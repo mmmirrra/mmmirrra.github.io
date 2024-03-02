@@ -16,7 +16,7 @@ categories: [Git]
 #### 1. Type `vim.git/info/exlude` command and hit `Enter` to show 'git' list that allows you to list things to be excluded from 'git'   
 // 'vim .git/info/exclude' 이 명령어 입력하고 'Enter'를 치면 'git'에서 제외할 목록 작성할 수 있는 'git' 화면 나옴   
    
-```
+```bash
 vim .git/info/exclude
 ```
    

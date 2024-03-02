@@ -7,7 +7,7 @@ categories: [Git]
 
 #### Git Clone Command   
    
-```
+```bash
 git clone https://gitlab.com/....
 ```
    

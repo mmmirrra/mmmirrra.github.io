@@ -178,7 +178,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
    
 #### Example of Pseudo Code using Sequential Structure   
 // 순차구조를 사용한 의사코드 예시   
-```
+```c
 x ← 0;
 x ← x + 1;
 x ← x + 2;
@@ -186,7 +186,7 @@ x ← x + 2;
    
 #### Example of Pseudo Code using Selective Structure if   
 // 선택구조 if문을 사용한 의사코드 예시   
-```
+```c
 if (x > 0) print "pos";
 else if (x < 0) print "neg";
 else print "zero";
@@ -194,7 +194,7 @@ else print "zero";
    
 #### Example of Pseudo Code using Selective Structure switch   
 // 선택구조 switch문을 사용한 의사코드 예시   
-```
+```c
 switch (x)
 {
   case 0;
@@ -211,7 +211,7 @@ switch (x)
    
 #### Example of Pseudo Code using Iteration Structure for   
 // 반복구조 for문을 사용한 의사코드 예시   
-```
+```c
 for x ← 5 to 0
 {
   print x;
@@ -221,7 +221,7 @@ print "fire";
    
 #### Example of Pseudo Code using Iteration Structure while   
 // 반복구조 while문을 사용한 의사코드 예시   
-```
+```c
 x ← 5;
 while x >= 0 do
 {
@@ -233,7 +233,7 @@ print "fire";
    
 #### Example of Pseudo Code using Iteration Structure foreach   
 // 반복구조 foreach문을 사용한 의사코드 예시   
-```
+```c
 foreach x in {5, 4, 3, 2, 1, 0}
 {
   print x;
