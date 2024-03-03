@@ -33,8 +33,8 @@ The smallest unit with two states. Binary Digit. 2 state values can be expressed
 |:---:|
 |yottabyte (YB)<br />↑ × 1024<br />zettabyte (ZB)<br />↑ × 1024<br />exabyte (EB)<br />↑ × 1024<br />petabyte (PB)<br />↑ × 1024<br />terabyte (TB)<br />↑ × 1024<br />gigabyte (GB)<br />↑ × 1024<br />megabyte (MB)<br />↑ × 1024<br />kilobyte (KB)<br />↑ × 1024<br />byte<br />↑ × 8<br />bit|
    
-// - 2013년 하루에 생산되는 데이터의 양은 4.4 ZETTABYTES   
-// - 2020년 하루에 생산되는 데이터의 양은 60 ZETTABYTES   
+// 2013년 하루에 생산되는 데이터의 양은 4.4 ZETTABYTES   
+// 2020년 하루에 생산되는 데이터의 양은 60 ZETTABYTES   
 - The amount of data produced per day in 2013 is 4.4 ZETTABYTES   
 - The amount of data produced per day in 2020 is 60 ZETTABYTES   
    
