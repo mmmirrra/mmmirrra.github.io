@@ -63,7 +63,7 @@ Elements that simply specify the appearance of the output displayed in the web b
 <b>b : Bold - Show the words of interest</b>
 
 <!-- // 보통의 서술과 구분되는 다른 어조/분위기를 갖는 텍스트 -->
-<i>i : Italic - Text with a different tone/ atmosphere than the usual description</i>
+<i>i : Italic type - Text with a different tone/ atmosphere than the usual description</i>
 
 <!-- // 더이상 정확하지 않거나 관련이 없는 내용 -->
 <s>s : Cancellation Line - Content that is no longer accurate or relevant</s>
