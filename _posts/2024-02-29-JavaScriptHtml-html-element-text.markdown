@@ -71,8 +71,10 @@ Elements that simply specify the appearance of the output displayed in the web b
 <!-- // 철자가 틀린 단어나 불충분한 내용을 표시 -->
 <u>u : Underlined - Mark words misspelled or insufficient content</u>
 
+<!-- // 윗첨자 -->
 <up>up : Superscript</up>
 
+<!-- // 아래첨자 -->
 <sub>sub : Subscript</sub>
 
 <!-- // 부수적인 해설이나 이용조건, 법적공지 등 -->
