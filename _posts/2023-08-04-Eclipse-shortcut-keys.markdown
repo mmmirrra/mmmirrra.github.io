@@ -210,7 +210,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 모든 프로젝트의 전체 리소스에서 파일 찾기   
 `Ctrl + Shift + R` : Open Resource : Find files from all resources in all projects   
 // Jar 포함 클래스 찾기   
-`Ctrl + Shift + T` : Open Type : Find Classes in all files, including Jar   
+`Ctrl + Shift + T` : Open Type : Find Class in all files, including Jar   
 // 특정 클래스 호출 위치 찾기   
 `Ctrl + Alt + H` : Open Call Hierarchy   
 // Workspace 에서 문자 찾기   
