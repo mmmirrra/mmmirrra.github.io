@@ -12,7 +12,7 @@ storage class : How to assign a variable to a specific area of storage space
  - global variable : Variables that are declared outside the function or in external files and used throughout the program.   
    
 #### Depending on the initialization, duration and range of validity of the variable   
- : Example of use : storageClass datatype variable;   
+ : Example of use : storageClass datatype variable   
    
 |Type of storage class for a variable|Example of use|Description|
 |:---|:---|:---|

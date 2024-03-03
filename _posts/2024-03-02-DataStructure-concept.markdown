@@ -152,9 +152,9 @@ Estimate the time and space required to running an Algorithm to analyze its perf
 #### Measurement of Running Time   
 // 실행시간의 측정   
    
-// - 실제로 실행시간을 시계로 잰다는 것   
-// - 실제로 실행될 수 있는 프로그램(실행파일)이 있어야 함   
-// - 시스템 시계를 이용   
+// 실제로 실행시간을 시계로 잰다는 것   
+// 실제로 실행될 수 있는 프로그램(실행파일)이 있어야 함   
+// 시스템 시계를 이용   
 - Actually clocking the run time   
 - Must have a program (executive file) that can actually run   
 - Using the system clock   

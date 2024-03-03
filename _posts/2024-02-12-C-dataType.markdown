@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C: data type"
+title:  "C: Data Type"
 date:   2024-02-12 09:00:00 +0900
 categories: [C]
 ---

@@ -44,11 +44,10 @@ categories: [Algorithm]
   - The segmented problem is independent of each other, allowing for cyclical segmentation and combination of results   
    
   // 각 순환 호출마다 세 단계의 작업을 수행 : ‘분할’-‘정복’-‘결합’의 단계로 구성   
-  - Perform three steps for each cyclic call : 'Segmentation'- 'Conquest'- 'Combine'   
-   
     // - 분할 : 주어진 문제의 입력을 여러 개의 작은 문제로 분할   
     // - 정복 : 작은 문제들을 순환적으로 분할. 만약 작은 문제가 더이상 분할되지 않을 정도로 크기가 충분히 작으면 순환 호출 없이 작은 문제에 대한 해를 구함   
     // - 결합 : 작은 문제에 대해 정복된 해를 결합하여 원래 문제의 해를 구함   
+  - Perform three steps for each cyclic call : 'Segmentation'- 'Conquest'- 'Combine'   
     - Segmentation : Split the input of a given problem into several small problems   
     - Conquest : Circularly dividing small problems. If the small problem is small enough that it is no longer divided, find a solution to the small problem without a circular call   
     - Combine : Combine the conquered solutions to a small problem to find a solution to the original problem   
@@ -145,9 +144,9 @@ If an item splits
 // 이진 탐색 알고리즘과 분할정복 방법의 관계   
 Relationship between Binary Search Algorithm and Divide-and-Conquer Method   
    
-// - 분할 : 배열의 가운데 원소를 기준으로 왼쪽과 오른쪽 부분배열로 절반씩 분할. 탐색 키와 가운데 원소가 같으면 해당 원소의 배열 인덱스를 반환/종료   
-// - 정복 : 탐색 키가 가운데 원소보다 작으면 왼쪽 부분배열을 대상으로 이진 탐색을 순환 호출, 크면 오른쪽 부분배열을 대상으로 이진 탐색을 순환 호출   
-// - 결합 : 부분배열에 대한 탐색 결과가 직접 반환되므로 결합이 불필요   
+// 분할 : 배열의 가운데 원소를 기준으로 왼쪽과 오른쪽 부분배열로 절반씩 분할. 탐색 키와 가운데 원소가 같으면 해당 원소의 배열 인덱스를 반환/종료   
+// 정복 : 탐색 키가 가운데 원소보다 작으면 왼쪽 부분배열을 대상으로 이진 탐색을 순환 호출, 크면 오른쪽 부분배열을 대상으로 이진 탐색을 순환 호출   
+// 결합 : 부분배열에 대한 탐색 결과가 직접 반환되므로 결합이 불필요   
    
 - Split : Split into left and right subarrays based on the middle element of the array. Returns/terminates the array index of that element if the search key and the middle element are the same   
 - Conquest : If the search key is smaller than the middle element, circular calls binary search for the left subarray; if it is larger, circular calls for binary search for the right subarray   
@@ -209,7 +208,7 @@ Minimum min output;
 ### Algorithm Example - Koenigsberg Bridge Problem - Euler Path   
 // 알고리즘 예시 - 퀘니히스베르크(퀘닉스버그) 다리 문제 - 오일러 경로   
    
-// - 그래프의 모든 간선을 오직 한번씩만 지나가는 경로 찾기   
+// 그래프의 모든 간선을 오직 한번씩만 지나가는 경로 찾기   
 - Find the path that passes through every edge of the graph only once   
    
 // 1. 각 정점의 차수가 홀수인 정점이 0개 혹은 2개이어야 한다.   
@@ -217,8 +216,8 @@ Minimum min output;
 1. Each vertex must have 0 or 2 vertices of which the order is odd.   
 2. If there are two odd points, it should start at the odd point.   
    
-// - 퀘니히스베르크(퀘닉스버그) 다리는 정점 4개, 간선 7개, 차수가 홀수인 정점이 4개이므로 오일러 경로가 존재하지 않음   
-  - No Euler path exists for the Quenichberg (Quenichberg) bridge because it has four vertices, seven edges, and four vertices with odd orders   
+// 퀘니히스베르크(퀘닉스버그) 다리는 정점 4개, 간선 7개, 차수가 홀수인 정점이 4개이므로 오일러 경로가 존재하지 않음   
+- No Euler path exists for the Quenichberg (Quenichberg) bridge because it has four vertices, seven edges, and four vertices with odd orders   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
