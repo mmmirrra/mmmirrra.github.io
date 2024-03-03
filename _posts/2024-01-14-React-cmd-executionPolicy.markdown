@@ -8,7 +8,7 @@ categories: [React]
 #### Commands to change if you do not have administrator privileges on cmd   
 // cmd에 대한 관리자 권한이 없을 경우 변경하는 명령어   
    
-```prompt
+```cmd
 Get-ExecutionPolicy
 Set-ExecutionPolicy RemoteSigned
 ```

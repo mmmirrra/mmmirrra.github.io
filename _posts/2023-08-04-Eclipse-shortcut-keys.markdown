@@ -234,9 +234,9 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 `Ctrl + arrow keys ←/→ left/right` : Next/Previous Word   
 // 이전/다음 작업 위치로 이동   
 `Alt + arrow keys ←/→ left/right` : Backward/Forward History   
-// 다음 오류, 에러, 워닝, 북마트로 이동   
+// 다음 오류, 에러, 워닝, 북마크로 이동   
 `Ctrl + .` : Next Error or Warning or Annotation   
-// 이전 오류, 에러, 워닝, 북마트로 이동   
+// 이전 오류, 에러, 워닝, 북마크로 이동   
 `Ctrl + ,` : Previous Error or Warning or Annotation   
 // 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
 `Ctrl + Shift + P` : Go to Matching Bracket   

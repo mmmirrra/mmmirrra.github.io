@@ -114,7 +114,7 @@ Tags used without end tags : `<br>`, `<img>`, etc.
   - Not output to browser so can only be seen by source
   - Can be located anywhere in the document
   - '<! --' and '-- >' are one character : No spaces between each character
-  - '<', '>', '--' should not be used for annotation
+  - '<', '>', '--' should not be used for comment
 -->
 ```
    
