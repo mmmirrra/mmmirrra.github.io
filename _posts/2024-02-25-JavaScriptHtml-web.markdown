@@ -37,7 +37,7 @@ Internet ≠ Web
 // 웹 클라이언트 : 웹 서비스를 제공받아 사용하는 사용자/시스템   
 // - 웹은 서버 ↔ 클라이언트 구조에서 동작   
 // HTTP : 웹 서버와 웹 클라이언트 간의 필요한 데이터를 주고 받기 위한 통신 규약   
-// - 웹 브라우저에서 URL 입력 → DNS 서버는 URL을 IP 주소로 변환하여 웹 브라우저에게 전달 → 웹 브라우저는 웹 서버에게 HTML 페이지를 요청 → 웹 서버는 페이지를 요청 → 찾은 페이지를 웹 서버에게 전달 → 웹 서버는 HTML 파일을 웹 브라우저에게 전송 → 사용자는 브라우저에서 HTML 파일을 볼 수 있음   
+// - 웹 브라우저에서 URL 입력 → DNS 서버는 URL을 IP 주소로 변환하여 웹 브라우저에게 전달 → 웹 브라우저는 웹 서버에게 HTML 페이지를 요청 → 웹 서버는 페이지를 요청 → 찾은 페이지를 웹 서버에게 전달 → 웹 서버는 HTML 파일을 웹 브라우저에게 전송 → 브라우저는 HTML 요소를 분석 및 변환하여 화면에 출력 → 사용자는 브라우저에서 HTML 파일을 볼 수 있음   
 - Web site : A meaningful bundle of web pages   
 - Web documents (HTML documents) : Documents in the form that can be viewed in a browser   
 - Web page : Individual documents displayed in each browser window   
@@ -48,12 +48,13 @@ Internet ≠ Web
   - Web operates on Server ↔ Client structure   
 - HTTP : Conventions for communication between web servers and web clients to send and receive necessary data   
   - Enter a URL in a web browser   
-   → A DNS server converts a URL to an IP address and forwards it to a web browser   
-   → A web browser requests an HTML page from a web server   
-   → A web server requests a page   
-   → Forwards a found page to a web server   
-   → A web server sends an HTML file to a web browser   
-   → Users can view the HTML file in the browser   
+    → A DNS server converts a URL to an IP address and forwards it to a web browser   
+    → A web browser requests an HTML page from a web server   
+    → A web server requests a page   
+    → Forwards a found page to a web server   
+    → A web server sends an HTML file to a web browser   
+    → The browser analyzes and converts HTML elements and outputs them to the screen   
+    → Users can view the HTML file in the browser   
    
 <br />
 ### Configuring Web Page   
