@@ -80,7 +80,7 @@ Used to represent different metadata for web documents
 ### base   
 // 1. 웹 문서의 기본 URL 경로 지정   
 // - body 요소 내의 상대 경로로 표시된 URL을 절대 경로로 취급   
-1. Specify the default URL path for a Web document   
+1 . Specify the default URL path for a Web document   
   - Treat URLs marked as relative paths within body elements as absolute paths   
    
 ```html
