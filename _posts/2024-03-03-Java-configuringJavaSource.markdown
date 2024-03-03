@@ -67,8 +67,7 @@ public class A {
 // - 대소문자 구분됨   
 // - 주석, public class, main() 메소드, 출력문을 가진 프로그램   
 // 이 파일의 이름은 'Main.java' 임   
-   
-1. Create Java source   
+1 . Create Java source   
     - Case sensitive   
     - Program with comment, public classe, main() method, and output statement   
     - This file is named 'Main.java'   
@@ -90,8 +89,7 @@ public class Main {
    
 // 2. 실행   
 // - 실행 버튼 선택하여 실행 또는 'Run' 메뉴 선택하여 실행 또는 'Ctrl + F11' 눌러 실행   
-   
-2. Run   
+2 . Run   
     - Run by selecting the Run button or by selecting the 'Run' menu or by pressing 'Ctrl + F11'   
    
 // 3. 배포   
@@ -100,8 +98,7 @@ public class Main {
 // - 프로젝트에서 마우스 오른쪽 버튼으로 'Export...' 선택   
 // -- export 유형 (Runnable JAR file), jar 파일의 경로와 이름 등을 지정   
 // - 명령프롬프트에서 jar 파일 실행   
-   
-3. Export   
+3 . Export   
     - To bundle and export a developed Java program so it can run externally   
       - Create .jar file by grouping the class files required to run   
     - Right-click on Project to select 'Export...'   
