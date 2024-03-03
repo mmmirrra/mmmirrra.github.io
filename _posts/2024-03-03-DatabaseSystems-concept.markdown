@@ -48,7 +48,7 @@ Big Data Processing
 → 1990s : Appearance of the web   
 → Mid-2000s : Cloud Computing   
 → Late 2000s : Big Data Analysis   
-→ 2015 ~ : Appearance of Iot and AI   
+→ 2015 ~ : Appearance of IoT and AI   
    
 #### File Processing System   
 // 파일 처리 시스템   
