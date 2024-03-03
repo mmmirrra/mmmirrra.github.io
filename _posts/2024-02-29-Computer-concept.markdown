@@ -49,21 +49,6 @@ The process of generating information by converting data by sorting, clustering,
 - A machine that produces information by automatically processing input data according to a defined method   
 - Represent or process data by superimposing multiple basic units representing two state values   
    
-#### Basic Unit of Data   
-// 데이터의 기본 단위   
-   
-// 비트 : 두 개의 상태를 갖는 가장 작은 단위. 이진수. 2가지 상태값 표현 가능. 0 ~ 1까지의 십진수 표현 가능   
-// 바이트 : 8개의 bit. 256가지 상태값 표현 가능. 0 ~ 255까지의 십진수 표현 가능   
-- bit : The smallest unit with two states. Binary Digit. 2 state values can be expressed. Decimal from 0 to 1 can be represented   
-- byte : 8 bits. 256 state values can be expressed. Decimal from 0 to 255 can be represented   
-   
-|// 비트 수<br />Number of bits|// 10진수로 변환 가능한 수<br />Number that can be converted from Binary to Decimal|
-|:---:|:---:|
-|1|Decimal 0 ~ 1|
-|2|Decimal 0 ~ 3|
-|4|Decimal 0 ~ 15|
-|8|Decimal 0 ~ 255|
-   
 #### Computer and Binary   
 // 컴퓨터와 2진법   
    
@@ -87,20 +72,6 @@ The process of generating information by converting data by sorting, clustering,
 #### Representation of Character Data   
 // 문자 데이터의 표현 : 사람은 한글, 알파벳 등 여러 언어를 사용하지만 컴퓨터는 2진수만 사용하므로 인코딩 체계 필요   
 - People speak many languages, such as Korean and alphabet, but computer only use binary digits, so an encoding system is needed   
-   
-#### Encoding system - ASCII   
-// 인코딩 체계 - 아스키코드   
-   
-// 어떤 코드를 통해 정보를 교환하기 위한 미국 표준   
-// 출력 가능한 문자 총 95개 : 영문자 52개, 숫자 10개, 특수기호 32개, 공백문자 1개   
-// 2진수의 비트열을 문자로 표현할 수 있음   
-// 7비트를 이용하여 표현. 통신에러 등의 컨트롤을 위해 1bit를 추가로 사용   
-// 아스키코드만으로 나라별 언어를 표현할 수 없음. 이를 해결한 코드가 유니코드임   
-- American Standard Code for Information Interchange   
-- Total 95 characters that can be printed : 52 English characters, 10 numbers, 32 special symbols, 1 blank character   
-- Binary bit strings can be represented as characters   
-- Representation using 7 bits. Additional 1 bit is used for control of communication errors, etc.   
-- The language of each country cannot be expressed using ASCII alone. Unicode is the code that solved this problem   
    
 <br />
 ### Computer and Program   

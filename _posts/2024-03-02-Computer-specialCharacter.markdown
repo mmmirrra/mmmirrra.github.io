@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: special character"
-date:   2023-11-27 09:00:00 +0900
-categories: [JavaScript Html]
+title:  "Introduction to Computer: Special Character"
+date:   2024-03-02 09:00:00 +0900
+categories: [Computer]
 ---
 
 ```html
