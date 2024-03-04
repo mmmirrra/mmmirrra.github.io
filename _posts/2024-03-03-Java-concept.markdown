@@ -181,7 +181,7 @@ class Grade {
 }
 
 public class Main {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     Grade g1, g2;       // Object for expressing the grades of two people
     g1 = new Grade();       // Creating objects
     g2 = new Grade();

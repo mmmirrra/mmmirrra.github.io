@@ -81,7 +81,7 @@ package com;
  * simply prints "Hello, Java Application!" to standard output.
  */
 public class Main {
-    public static void main(String args[]) { // main method
+    public static void main(String[] args) { // main method
         /* Display the string */
         System.out.println("Hello, Java Application!");
     }
