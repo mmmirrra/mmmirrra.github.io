@@ -143,7 +143,7 @@ categories: [Java]
 // - 작업 공간은 프로젝트 폴더, 소스 코드, 클래스 파일 등을 저장하는 장소   
 - Free Open Source Program Development Tool   
 - 'Eclipse IDE for Java Developers' must be installed   
-- 이클립스 홈페이지에서 다운로드하여 설치할 수 있음   
+- You can download and install from the Eclipse homepage   
   - Download an executable (.exe) or a compressed (.zip) file   
   - The installation is complete by simply decompressing   
 - The installation process requires a workspace folder to be determined   
