@@ -22,29 +22,43 @@ categories: [Java]
   - Choose based on the operating system you use   
 - Verify JDK is installed by running the java command in a command prompt   
    
+<br />
 #### JDK installation process   
 // JDK 설치과정 따라하기   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk1.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk2.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk3.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk4.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk5.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk6.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk7.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk8.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk9.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk10.png)
+<br />
+<br />
+![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaJdk11.png)
    
+<br />
 #### Environment Variable   
 // 환경변수   
    
@@ -59,27 +73,37 @@ categories: [Java]
 - Add JDK installation folder path to JDK_HOME variable   
   - `C:\Program Files\Java\jdk-21`   
    
+<br />
 #### Setting Environment Variables   
 // 환경변수 설정 따라하기   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable1.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable2.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable3.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable4.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable5.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable6.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable7.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable8.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEnvironmentVariable9.png)
    
+<br />
 #### Running Java Programs After JDK Installation   
 // JDK 설치 후 Java 프로그램 실행   
    
@@ -121,21 +145,28 @@ categories: [Java]
 - 'Eclipse IDE for Java Developers' must be installed   
 - 이클립스 홈페이지에서 다운로드하여 설치할 수 있음   
   - Download an executable (.exe) or a compressed (.zip) file   
-- The installation is complete by simply decompressing   
+  - The installation is complete by simply decompressing   
+- The installation process requires a workspace folder to be determined   
   - A workspace is a place to store project folders, source code, class files, etc.   
    
+<br />
 #### Eclipse Installation Process   
 // 이클립스 설치과정 따라하기   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEclipse1.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEclipse2.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEclipse3.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEclipse4.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEclipse5.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaEclipse6.png)
    
@@ -164,70 +195,102 @@ categories: [Java]
 4. Saving a Java source causes compilation to run automatically. Class (.class) files are automatically created for each class during compilation   
 5. Run a class that contains the main() method   
    
+<br />
 #### Try developing Java program   
 // Java 프로그램 개발 따라하기   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example1.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example2.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example3.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example4.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example5.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example6.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example7.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example8.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example9.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example10.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example11.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example12.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example13.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example14.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example15.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example16.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example17.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example18.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example19.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example20.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example21.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example22.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example23.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example24.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example25.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example26.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example27.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example28.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example29.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example30.png)
 <br />
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example31.png)
+<br />
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/javaProject1_example32.png)
    
