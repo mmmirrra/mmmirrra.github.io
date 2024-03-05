@@ -113,6 +113,16 @@ categories: [Java]
 // 명령 프롬프트 창에서 실행 명령은 java   
 // - 예시 : java Hello   
 - Using a text editor to create a source   
+  - Example : file name : Hello.java   
+   
+    ```java
+    public class Hello {
+        public static void main(String[] args) {
+            System.out.println("Hello");
+        }
+    }
+    ```
+   
 - In the Command Prompt window, compilation commands are javac   
   - Example   
    
