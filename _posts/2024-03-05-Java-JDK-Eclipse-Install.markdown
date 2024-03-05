@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java: JDK and Eclipse Install"
-date:   2024-03-03 09:00:00 +0900
+date:   2024-03-05 09:00:00 +0900
 categories: [Java]
 ---
 
