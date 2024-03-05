@@ -72,7 +72,7 @@ public class A {
 - Case sensitive   
 - Program with comment, public class, main() method, and output statement   
    
-This file is named 'Main.java'   
+- This file is named 'Main.java'   
    
 ```java
 package com;
