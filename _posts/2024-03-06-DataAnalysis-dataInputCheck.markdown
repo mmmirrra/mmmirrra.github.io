@@ -160,8 +160,8 @@ Representation of matrix form of data
 // - 일변량 데이터 : 변수의 수가 1개인 것   
 // - 다변량 데이터 : 변수의 수가 2개 이상인 것   
 - Classification by the number of variables being measured   
-  - Univariate data: one variable   
-  - Multivariate data: more than one variable   
+  - Univariate data : one variable   
+  - Multivariate data : more than one variable   
    
 <br />
 ### data input process   
@@ -219,27 +219,27 @@ Representation of matrix form of data
 // -- ⑥ 전북/전남   
 // -- ⑦ 제주   
 - Questionnaire Example   
-  - 1. Do you think the local government system helps develop the region?( ) (ordinal scale)   
+  1. Do you think the local government system helps develop the region?( ) (ordinal scale)   
     ① help a lot   
     ② give a little help   
     ③ be of little help   
     ④ be of no help at all   
-  - 2. What do you think of the economic imbalance between regions since the local autonomy system was implemented?( ) (nominal scale)   
+  2. What do you think of the economic imbalance between regions since the local autonomy system was implemented?( ) (nominal scale)   
     ① The economic imbalance between regions is being resolved   
     ② not much different from the past   
     ③ The imbalance between regions is deepening   
     ④ I don't know   
-  - 3. What's your gender?( ) (nominal scale)   
+  3. What's your gender?( ) (nominal scale)   
     ① Male   
     ② Female   
-  - 4. How old are you?( ) (ordinal scale)   
+  4. How old are you?( ) (ordinal scale)   
     ① under the age of 20   
     ② 20 to 29 years old   
     ③ 30 to 39 years old   
     ④ 40 to 49 years old   
     ⑤ 50 to 59 years old   
     ⑥ 60 years of age or older   
-  - 5. What is your current residence?( ) (nominal scale)   
+  5. What is your current residence?( ) (nominal scale)   
     ① Seoul Metropolitan Government   
     ② Metropolitan City   
     ③ Gyeonggi/Gangwon   
