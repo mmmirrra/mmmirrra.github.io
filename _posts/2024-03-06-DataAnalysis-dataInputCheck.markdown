@@ -90,9 +90,9 @@ Representation of matrix form of data
 // -- 데이터를 행렬 형태로 표시하면 이해하기 쉬움   
 // -- 각 행은 케이스(레코드), 각 열은 변수(필드)가 됨   
 // -- 임 케이스에서 교육정도의 "."는 결측값을 뜻함   
-    - Displaying data in matrix form is easy to understand   
-    - Each row becomes a case (record) and each column becomes a variable (field)   
-    - In Case Lim, the "." of the degree of education means a missing value   
+- Displaying data in matrix form is easy to understand   
+- Each row becomes a case (record) and each column becomes a variable (field)   
+- In Case Lim, the "." of the degree of education means a missing value   
    
 #### level of measurement   
 // 측정의 수준   
@@ -220,33 +220,33 @@ Representation of matrix form of data
 // -- ⑦ 제주   
 - Questionnaire Example   
   - 1. Do you think the local government system helps develop the region?( ) (ordinal scale)   
-    - ① help a lot   
-    - ② give a little help   
-    - ③ be of little help   
-    - ④ be of no help at all   
+    ① help a lot   
+    ② give a little help   
+    ③ be of little help   
+    ④ be of no help at all   
   - 2. What do you think of the economic imbalance between regions since the local autonomy system was implemented?( ) (nominal scale)   
-    - ① The economic imbalance between regions is being resolved   
-    - ② not much different from the past   
-    - ③ The imbalance between regions is deepening   
-    - ④ I don't know   
+    ① The economic imbalance between regions is being resolved   
+    ② not much different from the past   
+    ③ The imbalance between regions is deepening   
+    ④ I don't know   
   - 3. What's your gender?( ) (nominal scale)   
-    - ① Male   
-    - ② Female   
+    ① Male   
+    ② Female   
   - 4. How old are you?( ) (ordinal scale)   
-    - ① under the age of 20   
-    - ② 20 to 29 years old   
-    - ③ 30 to 39 years old   
-    - ④ 40 to 49 years old   
-    - ⑤ 50 to 59 years old   
-    - ⑥ 60 years of age or older   
+    ① under the age of 20   
+    ② 20 to 29 years old   
+    ③ 30 to 39 years old   
+    ④ 40 to 49 years old   
+    ⑤ 50 to 59 years old   
+    ⑥ 60 years of age or older   
   - 5. What is your current residence?( ) (nominal scale)   
-    - ① Seoul Metropolitan Government   
-    - ② Metropolitan City   
-    - ③ Gyeonggi/Gangwon   
-    - ④ Chungbuk/Chungnam   
-    - ⑤ North Gyeongsang/South Gyeongsang Province   
-    - ⑥ Jeonbuk/Jeonnam   
-    - ⑦ Jeju   
+    ① Seoul Metropolitan Government   
+    ② Metropolitan City   
+    ③ Gyeonggi/Gangwon   
+    ④ Chungbuk/Chungnam   
+    ⑤ North Gyeongsang/South Gyeongsang Province   
+    ⑥ Jeonbuk/Jeonnam   
+    ⑦ Jeju   
    
 #### Configuring the content of the questionnaire   
 // 설문지의 내용 구성   
