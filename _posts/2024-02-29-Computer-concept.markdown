@@ -71,7 +71,7 @@ The process of generating information by converting data by sorting, clustering,
    
 #### Representation of Character Data   
 // 문자 데이터의 표현 : 사람은 한글, 알파벳 등 여러 언어를 사용하지만 컴퓨터는 2진수만 사용하므로 인코딩 체계 필요   
-- People speak many languages, such as Korean and alphabet, but computer only use binary digits, so an encoding system is needed   
+- People use many languages, such as Korean and alphabet, but computer only use binary digits, so an encoding system is needed   
    
 <br />
 ### Computer and Program   
