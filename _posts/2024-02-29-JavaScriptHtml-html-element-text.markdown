@@ -144,7 +144,7 @@ An element in which an element itself is used to have meaning rather than an out
 |div|span|
 |:---|:---|
 |Block Element|Inline Element|
-|// HTML 요소를 하나로 묶어서 논리적인 단위의 영역을 구성<br />Configure areas of logical units by grouping HTML elements together|// 텍스트를 위한 컨테이너<br />Containers for text|
+|// HTML 요소를 하나로 묶어서 논리적인 단위의 영역을 구성<br />Organize areas of logical units by grouping HTML elements together|// 텍스트를 위한 컨테이너<br />Containers for text|
 |// 논리적으로 구분된 대량의 내용에 대해 CSS 스타일 지정 또는 전체 페이지의 공간을 분할하여 레이아웃을 구성하는데 사용<br />Use to style the CSS for a large amount of logically separated content or to organize the layout by dividing the space of the entire page|// 텍스트의 일부에 대해 CSS 스타일 지정 또는 자바스크립트에서 조작할 때 유용<br />Useful when styling CSS or manipulating in JavaScript for a portion of text|
    
 <br />
