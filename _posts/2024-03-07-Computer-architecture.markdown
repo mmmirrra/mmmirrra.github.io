@@ -23,6 +23,9 @@ Computer = Hardware + Software
 |:---:|
 |Control → Operation<br />↑ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓<br />Commands and Data<br />(Main Memory Device)<br />↑ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓<br />Input device &nbsp;&nbsp; Output device|
    
+![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/computerHardwareArchitecture.png)
+<br />
+<br />
 #### Software   
 // 소프트웨어   
    
