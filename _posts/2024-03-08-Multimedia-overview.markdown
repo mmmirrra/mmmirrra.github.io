@@ -32,7 +32,7 @@ categories: [Multimedia]
 // - 디지털 이미지, 디지털 비디오, 디지털 오디오 등   
 - Raw media   
   - Unprocessed media   
-  - Natural physical elements: paper, stone, ink, painting, music, etc.   
+  - Natural physical elements : paper, stone, ink, painting, music, etc.   
 - Digital media   
   - Computer dependence   
   - Digital images, digital videos, digital audio, etc.   
@@ -248,7 +248,7 @@ Representative Multimedia-Related Technologies
 - Multimedia information is shared by many users on the Internet   
   - Search sites and portals   
     - Gather and share information by bringing together vast amounts of data and providing them in a single bundle   
-  - Advances in the World Wide Web (www: World Wide Web, Web for short)   
+  - Advances in the World Wide Web (www : World Wide Web, Web for short)   
     - The concept of sharing information spreads further   
    
 // 팀 버너스 리 (Tim Berners-Lee)   
@@ -346,12 +346,12 @@ Representative Multimedia-Related Technologies
 // - 카피라이터 : 프로젝트에 들어갈 텍스트를 준비   
 // - 그래픽 디자이너 : 제품의 시각적인 효과를 위해 준비   
 - A member of the production team   
-  - Project Manager: Overall management and performance   
-  - Project designer: To carry out the technical aspects of the project   
-  - Content expert: From storyboard to content creation   
-  - Programmers: Complete prepared content into products using S/W   
-  - Copywriter: Prepare the text for the project   
-  - Graphic designer: Prepare the visual effects of the product   
+  - Project Manager : Overall management and performance   
+  - Project designer : To carry out the technical aspects of the project   
+  - Content expert : From storyboard to content creation   
+  - Programmers : Complete prepared content into products using S/W   
+  - Copywriter : Prepare the text for the project   
+  - Graphic designer : Prepare the visual effects of the product   
    
 // 제작 과정   
 // 1. 설계 단계   
