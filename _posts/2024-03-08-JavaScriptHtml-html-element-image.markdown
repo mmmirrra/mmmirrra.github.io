@@ -31,7 +31,7 @@ categories: [JavaScript Html]
 // 값 : 픽셀, %(브라우저 화면 크기에 대한 상대적인 크기)   
 // 폭과 높이 중 하나의 크기만 지정되면 나머지 하나의 값은 원본 크기에 비례해서 자동 지정   
 - Specify the width and height of the image : Default Size = Source Size   
-- Value: Pixel, % (relative size to browser screen size)   
+- Value : Pixel, % (relative size to browser screen size)   
 - Automatically specify the other value in proportion to the original size if only one of width and height is specified   
    
 #### Properties of alt   
