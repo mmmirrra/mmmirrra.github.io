@@ -57,7 +57,6 @@ categories: [JavaScript Html]
   - Available without end tag   
    
 ```html
-<body>
     <h3>Unordered List</h3>
     <ul>
         <li>item 1
@@ -65,12 +64,10 @@ categories: [JavaScript Html]
         ...
         <li>item n
     </ul>
-</body>
 ```
    
 #### Apply Source   
 `
-<!-- <body> -->
     <h3>Unordered List</h3>
     <ul>
         <li>item 1
@@ -78,7 +75,6 @@ categories: [JavaScript Html]
         ...
         <li>item n
     </ul>
-<!-- </body> -->
 `
    
 
