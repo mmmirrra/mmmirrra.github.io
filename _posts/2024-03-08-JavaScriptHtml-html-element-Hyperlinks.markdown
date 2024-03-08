@@ -47,8 +47,8 @@ Click on the flower illustration
 </a>
 to download the report document
 ```
-
-#### 
+   
+####   
 // id 속성을 활용한 특정 위치로의 이동   
    
 // 동일/다른 페이지의 특정 위치로 이동하는 경우   
@@ -67,7 +67,7 @@ to download the report document
       - d
   - d 
     - d
-
+   
 ```html
 <h3>Table of Contents</h3>
 <a href="#html"></a>HTML Link<br />
@@ -102,10 +102,10 @@ to download the report document
 <!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
 <a id="#top">To the top</a>
 `
-
-#### 
-// 다양한 형태의 링크 지정
-
+   
+####   
+// 다양한 형태의 링크 지정   
+   
 ```html
 Send an email
 <p><a href="mailto:adc@abc.com">Send an email</a></p><hr />
@@ -148,7 +148,7 @@ Download Compressed File (Execution File)
    
 // 하나의 이미지를 여러 개의 영역으로 나누어 각 영역마다 링크를 지정하는 것   
 - d 
-
+   
 ```html
 <img src="URL" usemap="#mapName">
 
@@ -159,7 +159,7 @@ Download Compressed File (Execution File)
     <!-- 영역의 개수만큼 area 요소를 반복 사용 -->
 </map>
 ```
-
+   
 
 
 
