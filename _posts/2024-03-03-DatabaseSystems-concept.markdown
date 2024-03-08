@@ -221,8 +221,10 @@ Language that enables users to access and manipulate structured data (search, in
     - Client-Server Database System   
       - Distribute the load on the application program   
       - Reduce software maintenance costs and increase portability   
-    - Layer 2 structure == Client-side (Users, Applications) ↔ Networks ↔ Server-side (Database Systems)   
-    - Layer 3 structure == Client-side (Users, Application Clients) ↔ Networks ↔ Server-side (Application Server, Database Systems)   
+   
+|Layer 2 structure|Layer 3 structure|
+|:---:|:---:|
+|Client-side<br />(Users, Applications)<br />↓↑<br />Networks<br />↓↑<br />Server-side<br />(Database Systems)|Client-side<br />(Users, Application Clients)<br />↓↑<br />Networks<br />↓↑<br />Server-side<br />(Application Server, Database Systems)   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
