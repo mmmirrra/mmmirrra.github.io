@@ -92,10 +92,22 @@ Computer = Hardware + Software
 |// 용량<br />capacity|// 작음<br />little|// 큼<br />big|
 |// 전원 차단 시<br />When the power is cut off|// ROM : 기억내용 보존<br />// RAM : 모든 내용 초기화<br />ROM : Preserving the contents of the memory<br />RAM : Initialize all content|// 기억내용 보존<br />Preserving the contents of the memory|
    
-// 기억(저장)장치의 종류 : ROM(주기억장치. 한번 저장하면 변경불가. mainboard), RAM(주기억장치. Random Access Memory. 임시저장. 전원이 꺼지면 정보 소실됨), 자기디스크(보조기억장치), 광학디스크(보조기억장치), 플래시 드라이브(보조기억장치)   
-// 특수기억(저장)장치 : SSD, nvm : Solid State Drive. RAM을 이용한 저장장치. 빠른 속도, 외부 충격에 강함, 적은 전력소모가 강점   
-- Types of memory (storage) devices : ROM (main memory device. cannot be changed once saved. mainboard), RAM (main memory device. Random Access Memory. Temporary storage. Information lost when powered off), magnetic disks (auxiliary memory device), optical disks (auxiliary memory device), flash drives (auxiliary memory device)   
-- Special memory (storage) device : SSD, nvm : Solid State Drive. A storage device using RAM. High speed, strong against external shocks and low power consumption   
+// 기억(저장)장치의 종류   
+// - ROM : 주기억장치. 한번 저장하면 변경불가. mainboard   
+// - RAM : 주기억장치. Random Access Memory. 임시저장. 전원이 꺼지면 정보 소실됨   
+// - 자기디스크 : 보조기억장치   
+// - 광학디스크 : 보조기억장치   
+// - 플래시 드라이브 : 보조기억장치   
+// 특수기억(저장)장치   
+// - SSD, nvm : Solid State Drive. RAM을 이용한 저장장치. 빠른 속도, 외부 충격에 강함, 적은 전력소모가 강점   
+- Types of memory (storage) devices   
+  - ROM : main memory device. cannot be changed once saved. mainboard   
+  - RAM : main memory device. Random Access Memory. Temporary storage. Information lost when powered off   
+  - magnetic disks : auxiliary memory device   
+  - optical disks : auxiliary memory device   
+  - flash drives : auxiliary memory device   
+- Special memory (storage) device   
+  - SSD, nvm : Solid State Drive. A storage device using RAM. High speed, strong against external shocks and low power consumption   
    
 #### Control device and Calculating device   
 // 제어장치와 연산장치   
@@ -158,16 +170,38 @@ CPU
 // 운영체제의 역할   
    
 // 컴퓨터의 자원(하드웨어)을 효율적으로 관리하고 응용 프로그램에 자원을 할당   
-// - 사용자 인터페이스 : 컴퓨터와 사용자를 매개하여 상호작용하는 방법을 제공 - CLI(Command Line Interface), GUI(Graphic User Interface) 등   
-// - 프로세스 관리 : 프로세스는 실행되고 있는 상태의 프로그램. 프로세스 관리를 자동적으로 해주는 운영체제. 여러 프로그램이 요청되면 한정된 자원(기억장치 등)을 효과적으로 사용하도록 조율 - MS Windows 11, Apple MacOS 12 에서 제공하는 프로세스 관리   
-// - 네트워크 관리, 네트워크 인터페이스 : 컴퓨터는 네트워크를 통해 상호 데이터 교환. 응용 프로그램이 통신할 수 있는 환경 제공 및 통신 장치(하드웨어) 관리 - MS Windows 11, Apple MacOS 12 에서 제공하는 네트워크 및 인터넷 관리   
-// - 기억·저장장치 관리 : 보조기억장치에 저장된 컴퓨터의 프로그램은 실행되기 위해서 주기억장치에 적재. 주기억장치의 크기는 보조기억장치의 크기보다 매우 작기 때문에 효율적 관리가 요구   
+// - 사용자 인터페이스   
+// -- 컴퓨터와 사용자를 매개하여 상호작용하는 방법을 제공   
+// -- CLI(Command Line Interface), GUI(Graphic User Interface) 등   
+// - 프로세스 관리   
+// -- 프로세스는 실행되고 있는 상태의 프로그램   
+// -- 프로세스 관리를 자동적으로 해주는 운영체제   
+// -- 여러 프로그램이 요청되면 한정된 자원(기억장치 등)을 효과적으로 사용하도록 조율   
+// -- MS Windows 11, Apple MacOS 12 에서 제공하는 프로세스 관리   
+// - 네트워크 관리, 네트워크 인터페이스   
+// -- 컴퓨터는 네트워크를 통해 상호 데이터 교환   
+// -- 응용 프로그램이 통신할 수 있는 환경 제공 및 통신 장치(하드웨어) 관리   
+// -- MS Windows 11, Apple MacOS 12 에서 제공하는 네트워크 및 인터넷 관리   
+// - 기억·저장장치 관리   
+// -- 보조기억장치에 저장된 컴퓨터의 프로그램은 실행되기 위해서 주기억장치에 적재   
+// -- 주기억장치의 크기는 보조기억장치의 크기보다 매우 작기 때문에 효율적 관리가 요구   
 // - 입출력장치 관리   
 - Efficient management of computer resources (hardware) and allocation of resources to applications   
-    - User interface : Provides a way for computers and users to interact - CLI(Command Line Interface), GUI(Graphic User Interface), etc.   
-    - Process Management : A process is a running program. An operating system that automatically manages processes. Coordinate to effectively use limited resources (such as storage devices) when multiple programs are requested - Process management provided by MS Windows 11, Apple MacOS 12   
-    - Network management, Network interface : Computers exchange data with each other over the network. Provides an environment for applications to communicate and manages communication devices (hardware) - Network and Internet management provided by MS Windows 11, Apple MacOS 12   
-    - Memory and storage device management : The program of the computer stored in the auxiliary memory device is loaded in the main memory device to be executed. Efficient management is required because the size of the main memory device is much smaller than that of the auxiliary memory device   
+    - User interface   
+      - Provides a way for computers and users to interact   
+      - CLI(Command Line Interface), GUI(Graphic User Interface), etc.   
+    - Process Management   
+      - A process is a running program   
+      - An operating system that automatically manages processes   
+      - Coordinate to effectively use limited resources (such as storage devices) when multiple programs are requested   
+      - Process management provided by MS Windows 11, Apple MacOS 12   
+    - Network management, Network interface   
+      - Computers exchange data with each other over the network   
+      - Provides an environment for applications to communicate and manages communication devices (hardware)   
+      - Network and Internet management provided by MS Windows 11, Apple MacOS 12   
+    - Memory and storage device management   
+      - The program of the computer stored in the auxiliary memory device is loaded in the main memory device to be executed   
+      - Efficient management is required because the size of the main memory device is much smaller than that of the auxiliary memory device   
     - Input/output device management   
    
 <br />
