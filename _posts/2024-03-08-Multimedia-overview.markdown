@@ -27,15 +27,14 @@ categories: [Multimedia]
 // 원시 미디어   
 // - 가공되지 않은 미디어   
 // - 자연 그대로의 물리적 요소 : 종이, 돌, 잉크, 그림, 음악 등   
-- Raw media   
-  - Unprocessed media   
-  - Natural physical elements: paper, stone, ink, painting, music, etc.   
-   
 // 디지털 미디어   
 // - 컴퓨터에 의존   
 // - 디지털 이미지, 디지털 비디오, 디지털 오디오 등   
+- Raw media   
+  - Unprocessed media   
+  - Natural physical elements: paper, stone, ink, painting, music, etc.   
 - Digital media   
-  - computer dependence   
+  - Computer dependence   
   - Digital images, digital videos, digital audio, etc.   
    
 #### Multimedia data   
