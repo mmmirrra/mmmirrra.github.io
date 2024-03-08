@@ -80,15 +80,17 @@ HTML == HTML + CSS + JavaScript
 // 웹 프로그래밍 과정 : 웹 사이트 또는 웹 페이지를 만드는 과정   
 The process of creating a website or webpage   
    
-- Front-end Programming (Client Side Programming)   
-  - HTML + CSS + JavaScript -> Create a page for all screens   
-  - Framework : React, Angular, Vue.js, etc.   
+#### Front-end Programming   
+- Client Side Programming   
+- HTML + CSS + JavaScript -> Create a page for all screens   
+- Framework : React, Angular, Vue.js, etc.   
    
-- Back-end Programming (Server Side Programming)   
-  // - 클라이언트에서의 동작/작업의 원활한 수행을 위한 처리 담당   
-  - Responsible for smooth operation/action on the client   
-  - C/C++, Java, Python, JSP, Perl, PHP, etc. Language   
-  - Framework : Node.js, Django, Spring, etc.   
+#### Back-end Programming   
+// 클라이언트에서의 동작/작업의 원활한 수행을 위한 처리 담당   
+- Responsible for smooth operation/action on the client   
+- Server Side Programming   
+- C/C++, Java, Python, JSP, Perl, PHP, etc. Language   
+- Framework : Node.js, Django, Spring, etc.   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
