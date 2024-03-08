@@ -57,24 +57,24 @@ categories: [JavaScript Html]
   - Available without end tag   
    
 ```html
-    <h3>Unordered List</h3>
-    <ul>
-        <li>item 1
-        <li>item 2
-        ...
-        <li>item n
-    </ul>
+<h3>Unordered List</h3>
+<ul>
+    <li>item 1
+    <li>item 2
+    ...
+    <li>item n
+</ul>
 ```
    
 #### Apply Source   
 `
-    <h3>Unordered List</h3>
-    <ul>
-        <li>item 1
-        <li>item 2
-        ...
-        <li>item n
-    </ul>
+<h3>Unordered List</h3>
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    ...
+    <li>item n</li>
+</ul>
 `
    
 
