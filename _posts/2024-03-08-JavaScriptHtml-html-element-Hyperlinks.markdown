@@ -14,7 +14,7 @@ categories: [JavaScript Html]
 // 하이퍼링크를 삽입하는 요소   
 // 링크의 클릭을 통해 특정한 다른 위치로 이동할 때 사용
 - Elements to insert hyperlinks
-  - Used to move to a particular different location by clicking on a link
+- Used to move to a particular different location by clicking on a link
    
 #### Basic format   
 // 기본 형식   
@@ -37,17 +37,15 @@ categories: [JavaScript Html]
 // a 요소의 기본적인 사용 예제   
    
 ```html
-<body>
-    <a href="http://...">Current window</a>    <!-- targert="_self" omitted -->
-    <br />
-    <a href="http://..." target="_blank">New window</a>
-    <br />
-    Click on the flower illustration 
-    <a href="report.hwp" download>
-        <img src="flower.jpg" width="100">
-    </a>
-    to download the report document
-</body>
+<a href="http://...">Current window</a>    <!-- targert="_self" omitted -->
+<br />
+<a href="http://..." target="_blank">New window</a>
+<br />
+Click on the flower illustration 
+<a href="report.hwp" download>
+    <img src="flower.jpg" width="100">
+</a>
+to download the report document
 ```
 
 #### 
@@ -71,42 +69,38 @@ categories: [JavaScript Html]
     - d
 
 ```html
-<body>
-    <h3>Table of Contents</h3>
-    <a href="#html"></a>HTML Link<br />
-    <a href="#css"></a>CSS Link<br />
-    <a href="#js"></a>JS Link<br />
-    <a href="html5Introduction.html#html5">HTML5 Document Link</a><br />
-    <br /><br />
-    <a id="html">HTML</a>
-    <p>Hyper Text Markup Language</p>
-    <a id="css">CSS</a>
-    <p>Cascading Style Sheet</p>
-    <a id="js">JS</a>
-    <p>JavaScript</p>
-    <!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
-    <a id="#top">To the top</a>    
-</body>
+<h3>Table of Contents</h3>
+<a href="#html"></a>HTML Link<br />
+<a href="#css"></a>CSS Link<br />
+<a href="#js"></a>JS Link<br />
+<a href="html5Introduction.html#html5">HTML5 Document Link</a><br />
+<br /><br />
+<a id="html">HTML</a>
+<p>Hyper Text Markup Language</p>
+<a id="css">CSS</a>
+<p>Cascading Style Sheet</p>
+<a id="js">JS</a>
+<p>JavaScript</p>
+<!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
+<a id="#top">To the top</a>
 ```
    
 #### Apply Source   
 `
-<body>
-    <h3>Table of Contents</h3>
-    <a href="#html">HTML Link</a><br />
-    <a href="#css">CSS Link</a><br />
-    <a href="#js">JS Link</a><br />
-    <a href="html5Introduction.html#html5">HTML5 Document Link</a><br />
-    <br /><br />
-    <a id="html">HTML</a>
-    <p>Hyper Text Markup Language</p>
-    <a id="css">CSS</a>
-    <p>Cascading Style Sheet</p>
-    <a id="js">JS</a>
-    <p>JavaScript</p>
-    <!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
-    <a id="#top">To the top</a>  
-</body>
+<h3>Table of Contents</h3>
+<a href="#html">HTML Link</a><br />
+<a href="#css">CSS Link</a><br />
+<a href="#js">JS Link</a><br />
+<a href="html5Introduction.html#html5">HTML5 Document Link</a><br />
+<br /><br />
+<a id="html">HTML</a>
+<p>Hyper Text Markup Language</p>
+<a id="css">CSS</a>
+<p>Cascading Style Sheet</p>
+<a id="js">JS</a>
+<p>JavaScript</p>
+<!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
+<a id="#top">To the top</a>
 `
 
 #### 
@@ -146,8 +140,31 @@ Connecting a video file
 Download Compressed File (Execution File)
 <p><a href="files.zip">Download Compressed File (Execution File)</a></p><hr />
 `
-
-
    
+<br />
+### Image Map   
+   
+// 이미지맵   
+   
+// 하나의 이미지를 여러 개의 영역으로 나누어 각 영역마다 링크를 지정하는 것   
+- d 
+
+```html
+<img src="URL" usemap="#mapName">
+
+<map name="mapName">
+    <area
+    
+    >
+    <!-- 영역의 개수만큼 area 요소를 반복 사용 -->
+</map>
+```
+
+
+
+
+
+
+
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
