@@ -114,11 +114,7 @@ Separate Data Usage from Data Management
    
 |Structure|
 |:---:|
-|Users/Programmers<br />↓|
-|Application Program 1, Application Program 2, Application Program n, ...<br />↓|
-|DBMS : Software that performs queries and programs<br />↓|
-|DBMS : Software to access stored data<br />↓↑|
-|Metadata (Defined stored Database),<br />Saved Database|
+|Users/Programmers<br />↓<br />Application Program 1, Application Program 2, Application Program n, ...<br />↓<br />DBMS : Software that performs queries and programs<br />↓<br />DBMS : Software to access stored data<br />↓↑<br />Metadata (Defined stored Database),<br />Saved Database|
    
 #### Value, Data, Metadata   
 // 값, 데이터, 메타데이터   
