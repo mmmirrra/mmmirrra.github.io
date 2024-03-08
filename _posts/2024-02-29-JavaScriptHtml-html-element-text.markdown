@@ -9,13 +9,13 @@ categories: [JavaScript Html]
 // 텍스트와 관련된 요소   
    
 // 줄 바꾸기 : 종료태그 없이 사용 가능. 편집기에서 엔터키와 동일   
-`<br>` : Change the line. Available without end tags. It's the same function as the Enter key in the editor   
+`<br>` : Change the line. Available without end tag. It's the same function as the Enter key in the editor   
    
 // 단락 나눔 : 문단을 나누어 독립된 단락을 생성. 단락 구분을 위해 단락 전후에 빈 줄이 자동으로 추가됨. 여러 번 사용해도 한 번 사용한 것과 같은 효과를 가짐   
 `<p>...</p>` : Divide paragraphs to create independent paragraphs. Empty lines are automatically added before and after paragraphs to distinguish paragraphs. Multiple uses have the same effect as a single use   
    
 // 수평선 그림 : 주제가 변경되는 콘테츠를 구분하는 용도. 자동 줄바꿈됨. 종료태그 없이 사용 가능   
-`<hr>` : Add horizontal line. Use to distinguish between content whose subject changes. Automatically change the line. Available without end tags   
+`<hr>` : Add horizontal line. Use to distinguish between content whose subject changes. Automatically change the line. Available without end tag   
    
 // 단락의 제목 지정 : 볼드체. 자동 줄바꿈   
 `<hn> n=1, ..., 6 --> h1, h2, h3, h4, h5, h6` : Specify the title of the paragraph. Boldface. Automatically change the line.   
@@ -81,6 +81,30 @@ Elements that simply specify the appearance of the output displayed in the web b
 <small>small : Smaller size - Incidental explanations, Terms of use, Legal announcement, etc.</small>
 ```
    
+#### Apply Source   
+`
+<!-- // 주목해야할 단어를 표시 -->
+<b>b : Bold - Show the words of interest</b>
+
+<!-- // 보통의 서술과 구분되는 다른 어조/분위기를 갖는 텍스트 -->
+<i>i : Italic type - Text with a different tone/ atmosphere than the usual description</i>
+
+<!-- // 더이상 정확하지 않거나 관련이 없는 내용 -->
+<s>s : Cancellation Line - Content that is no longer accurate or relevant</s>
+
+<!-- // 철자가 틀린 단어나 불충분한 내용을 표시 -->
+<u>u : Underlined - Mark words misspelled or insufficient content</u>
+
+<!-- // 윗첨자 -->
+<up>up : Superscript</up>
+
+<!-- // 아래첨자 -->
+<sub>sub : Subscript</sub>
+
+<!-- // 부수적인 해설이나 이용조건, 법적공지 등 -->
+<small>small : Smaller size - Incidental explanations, Terms of use, Legal announcement, etc.</small>
+`
+   
 <br />
 #### Logical Style Related Elements   
 // 논리적 스타일 관련 요소   
@@ -125,6 +149,45 @@ An element in which an element itself is used to have meaning rather than an out
 <!-- // 시각적/의미적으로 특정 문구나 단어를 강조. 형광색 배경 -->
 <mark>mark : Emphasize a particular phrase or word visually or meaningfully. The background is fluorescent</mark>
 ```
+   
+#### Apply Source   
+`
+<!-- // 책, 시, 그림, 영화 등의 작품 제목을 표시. 이탤릭체 -->
+<cite>cite : Display the title of the work of a book, poem, painting, film, etc. Italic type</cite>
+
+<!-- // 컴퓨터 코드를 표시. 다른것과 폰트가 다름 -->
+<code>code : Show computer code. The font is different from the other one</code>
+
+<!-- // 프로그램의 샘플 출력을 표시. 다른것과 폰트가 다름 -->
+<samp>samp : Display sample output from the program. The font is different from the other one</samp>
+
+<!-- // 변수를 표시. 이탤릭체 -->
+<var>var : Show variables. Italic type</var>
+
+<!-- // 용어에 대한 정의를 표시. 이탤릭체 -->
+<dfn>dfn : Show definition for term. Italic type</dfn>
+
+<!-- // 강조하는 내용을 표시. 이탤릭체 -->
+<em>em : Show highlights. Italic type</em>
+
+<!-- // 중요한 내용을 표시. 진하게 표시 -->
+<string>string : Show important content. Bold</string>
+
+<!-- // 축약형을 표시 -->
+<abbr>abbr : Display abbreviations</abbr>
+
+<!-- // 실제 우편물 주소를 표시. 이탤릭체. 자동 줄바꿈 -->
+<address>address : Display the actual mail address. Italic type. Automatically change the line</address>
+
+<!-- // 키보드로 입력한 내용임을 표시. 다른것과 폰트가 다름 -->
+<kbd>kbd : Show that this is entered by keyboard. The font is different from the other one</kbd>
+
+<!-- // 짧은 인용구를 표시. 큰따옴표가 자동으로 추가됨 -->
+<q>q : Show short quotes. Quotes added automatically</q>
+
+<!-- // 시각적/의미적으로 특정 문구나 단어를 강조. 형광색 배경 -->
+<mark>mark : Emphasize a particular phrase or word visually or meaningfully. The background is fluorescent</mark>
+`
    
 <br />   
 ### Block Element vs Inline Element   
