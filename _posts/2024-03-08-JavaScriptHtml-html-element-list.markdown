@@ -14,12 +14,14 @@ categories: [JavaScript Html]
 |// 순서 있는 리스트<br />ordered list|// - 순서(1, 2, 3)를 매겨서 리스트의 항목을 표시<br />// - 사용 요소 : ol ~ li<br />- Show items in the list in order (1, 2, 3)<br />- Using Elements : ol ~ li|
 |// 서술 리스트<br />description list|// - 어떤 용어나 이름에 대해서 서술하는 형식<br />// - 사용 요소 : dl ~ dt/dd<br />- A form of description of a term or name<br />- Using Elements : dl ~ dt/dd|
    
-#### ul   
+<br />
+### ul   
+   
 // 순서 없는 리스트를 지정 : 각 항목 앞에 순서를 나타내지 않는 기호를 붙여서 표시   
 // 기호 변경 : CSS list-style-type 속성   
 - Specify an unordered list : Mark each item with an unordering symbol before it   
 - Symbol Change : CSS list-style-type property   
-- Type of 'list-style-type' : none, disc(●), circle(○), square(■)   
+  - Type of 'list-style-type' : none, disc(●), circle(○), square(■)   
    
 ```html
 <ul>
@@ -40,7 +42,9 @@ categories: [JavaScript Html]
 </ul>
 `
    
-#### li   
+<br />
+### li   
+   
 // ul, ol 요소 내에서 공통으로 사용되는 자식 요소   
 // 리스트에서 각 항목의 내용을 표시할 때 사용   
 // - 들여쓰기   
@@ -77,7 +81,9 @@ categories: [JavaScript Html]
 </body>
 `
    
-#### ol   
+<br />
+### ol   
+   
 // 순서 있는 리스트를 지정 : 각 항목 앞에 순서를 나타내는 기호를 붙여서 표시   
 // 순서 있는 기호 : 숫자(기본값), 영문자, 로마자 등   
 - Specify an ordered list : Mark each item with an order symbol before it   
@@ -102,22 +108,24 @@ categories: [JavaScript Html]
 </ol>
 `
    
+#### Properties of ol Elements   
 // ol 요소의 속성   
-// - type= value" : 순서가 부여된 기호의 유형 지정   
-// - start="number" : 항목의 시작 번호 지정   
-// - reversed : 항목의 번호를 역순으로 지정   
-- Properties of ol Elements   
-  - type="value" : Specify the type of ordered symbol   
+   
+// type= value" : 순서가 부여된 기호의 유형 지정   
+// start="number" : 항목의 시작 번호 지정   
+// reversed : 항목의 번호를 역순으로 지정   
+- type="value" : Specify the type of ordered symbol   
   - Type of 'value' : 1(1, 2, 3, 4, ...(default)), a(a, b, c, d, ...), A(A, B, C, D, ...), ⅰ(ⅰ, ⅱ, ⅲ, ⅳ, ...), Ⅰ(Ⅰ, Ⅱ, Ⅲ, Ⅳ, ...)   
-  - start="number" : Specify the starting number of the item   
-  - reversed : Number items in reverse order   
+- start="number" : Specify the starting number of the item   
+- reversed : Number items in reverse order   
    
+#### Properties of li elements within ol elements   
 // ol 요소 내의 li 요소의 속성   
-// - value="number" : 항목 번호를 중간에 바꿀 때 사용   
-// -- ol 요소 내의 li 에서만 사용됨   
-- Properties of li elements within ol elements   
-  - value="number" : Used to change item numbers in between   
-    - Only used in li within ol element   
+   
+// value="number" : 항목 번호를 중간에 바꿀 때 사용   
+// - ol 요소 내의 li 에서만 사용됨   
+- value="number" : Used to change item numbers in between   
+  - Only used in li within ol element   
    
 ```html
 <body>
@@ -169,16 +177,22 @@ categories: [JavaScript Html]
 </body>
 `
    
-#### dl   
+<br />
+### dl   
+   
 // 용어/이름을 정의하고, 이에 대한 설명을 제공하는 리스트   
+- A list that defines a term/name and provides an explanation for it   
+   
+#### dt   
 // dt 요소 : 용어/이름을 나열   
 // - 자동 줄바꿈   
+- dt : List terms/names   
+  - Automatically change the line   
+   
+#### dd   
 // dd 요소 : 나열된 용어/이름에 대한 설명을 제공할 때 사용   
 // - 자동 줄바꿈   
 // - 자동 들여쓰기   
-- A list that defines a term/name and provides an explanation for it   
-- dt : List terms/names   
-  - Automatically change the line   
 - dd : Used to provide a description of the terms/names listed   
   - Automatically change the line   
   - Automatic indentation    
