@@ -119,9 +119,9 @@ Separate Data Usage from Data Management
 #### Value, Data, Metadata   
 // 값, 데이터, 메타데이터   
    
-- 12 --> Value   
-- 12 + Today + the highest temperature of the day --> Data   
-- Today, the highest temperature of the day --> Metadata   
+- 12 → Value   
+- 12 + Today + the highest temperature of the day → Data   
+- Today, the highest temperature of the day → Metadata   
    
 #### The three-step structure of the Database System   
 // 데이터베이스 시스템의 3단계 구조   
