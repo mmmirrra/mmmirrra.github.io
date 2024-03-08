@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript Html: html element hyperlink, img map, iframe"
+title:  "JavaScript Html: html element hyperlink, img map usemap, iframe"
 date:   2024-03-08 09:00:00 +0900
 categories: [JavaScript Html]
 ---
