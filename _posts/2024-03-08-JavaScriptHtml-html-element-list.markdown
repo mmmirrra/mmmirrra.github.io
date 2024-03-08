@@ -57,33 +57,29 @@ categories: [JavaScript Html]
   - Available without end tag   
    
 ```html
-<body>
-    <h3>Unordered List</h3>
-    <ul>
-        <li>item 1
-        <li>item 2
-        ...
-        <li>item n
-    </ul>
-</body>
+<h3>Unordered List</h3>
+<ul>
+    <li>item 1
+    <li>item 2
+    ...
+    <li>item n
+</ul>
 ```
    
 #### Apply Source   
 `
-<body>
-    <h3>Unordered List</h3>
-    <ul>
-        <li>item 1
-        <li>item 2
-        ...
-        <li>item n
-    </ul>
-</body>
+<h3>Unordered List</h3>
+<ul>
+    <li>item 1
+    <li>item 2
+    ...
+    <li>item n
+</ul>
 `
    
 
 <br />
-### ol   ㅇ
+### ol   
    
 // 순서 있는 리스트를 지정 : 각 항목 앞에 순서를 나타내는 기호를 붙여서 표시   
 // 순서 있는 기호 : 숫자(기본값), 영문자, 로마자 등   
