@@ -158,10 +158,10 @@ categories: [JavaScript Html]
 `
 <h3>Characteristics of elements</h3>
 <ol type="a" start="2">
-    <li>item 1</li>
-    <li value="6">item 2</li>
+    <li>item 1
+    <li value="6">item 2
     ...
-    <li>item n</li>
+    <li>item n
 </ol>
 `
    
