@@ -385,7 +385,7 @@ Example of a many-to-many mapping cardinality representation
    
 |Student|Relationship|Subject|Recursive relationship|
 |:---|:---:|:---|---:|
-|Student number<br />Student name<br />...|Application time<br />│<br />- ◇ -<br />Registration for courses|Subject code<br />Subject name<br />...<br />Preceding subject code<br />...|← Subject code<br />↑<br />↑<br />→ Preceding subject code → ◇<br /><br />|
+|Student number<br />Student name<br />...|Application time<br />│<br />- ◇ -<br />Registration<br />for courses|Subject code<br />Subject name<br />...<br />Preceding<br />subject code<br />...|← Subject code<br />│<br />│<br />- Preceding  - ◇<br />subject code &nbsp;&nbsp;&nbsp;<br /><br />|
    
 // 약한 개체 집합   
 // - 개체의 존재 유무가 관계를 맺고 있는 개체의 존재에 종속되는 개체 집합   
@@ -408,7 +408,7 @@ Example of a many-to-many mapping cardinality representation
    
 |Student|Relationship|Account|
 |:---|:---:|:---|
-|<u>Student number</u><br />Student name<br />...|← ◈ =><br />possession|Account number<br />...|
+|<u>Student number</u><br />Student name<br />...|← ◈ =><br />possession|Account number<br />Balance<br />...|
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
