@@ -383,7 +383,7 @@ Example of a many-to-many mapping cardinality representation
     - Special relationship with the special attributes that occur when you want to store the value of the application time that occurs when you register for a course   
     - If there is a prerequisite subject that is recommended to be studied first when taking a subject, a recursive relationship occurs in which the subject code should be referenced in the same object type called the subject   
    
-|Student|Relationship|Subject|Recursive relationship|
+|Student|Relationship|Subject|Recursive<br />relationship|
 |:---|:---:|:---|---:|
 |Student number<br />Student name<br />...|Application time<br />│<br />- ◇ -<br />Registration<br />for courses|Subject code<br />Subject name<br />...<br />Preceding<br />subject code<br />...|← Subject code<br />│<br />│<br />- Preceding  - ◇<br />subject code &nbsp;&nbsp;&nbsp;<br /><br />|
    
