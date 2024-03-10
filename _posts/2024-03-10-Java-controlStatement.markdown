@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java: Conditional Statement - Control Structure - if / swithc / for / break / continue"
+title:  "Java: Conditional Statement - Control Structure - if / switch / for / break / continue"
 date:   2024-03-10 09:00:00 +0900
 categories: [Java]
 ---
