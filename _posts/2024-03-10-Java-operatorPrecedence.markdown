@@ -18,8 +18,8 @@ Symbols for performing specific operations
 |arithmetic operator|*|2|number|// 곱셈 연산<br />Multiplication operation|
 |arithmetic operator|/|2|number|// 왼쪽 피연산자를 오른쪽 피연산자로 나눗셈 연산<br />Dividing left operand by right operand|
 |arithmetic operator|%|2|number|// 왼쪽 피연산자를 오른쪽 피연산자로 나눈 나머지를 구하는 연산<br />Operations to find the remainder of the left operand divided by the right operand|
-|code operator<br />(arithmetic operator)|+|1|number|// 음수 부호 : 피연산자의 부호 유지<br />Negative sign: Retain the sign of the operand|
-|code operator<br />(arithmetic operator)|-|1|number|// 양수 부호 : 피연산자의 부호 변경<br />Positive sign: Change the sign of the operand|
+|code operator<br />(arithmetic operator)|+|1|number|// 음수 부호 : 피연산자의 부호 유지<br />Negative sign : Retain the sign of the operand|
+|code operator<br />(arithmetic operator)|-|1|number|// 양수 부호 : 피연산자의 부호 변경<br />Positive sign : Change the sign of the operand|
 |increase operator<br />(arithmetic operator)|++operand|1|number|// 다른 연산 수행 전 1만큼 증가<br />Increase by 1 before performing other operations|
 |decrease operator<br />(arithmetic operator)|--operand|1|number|// 다른 연산 수행 전 1만큼 감소<br />Decrease by 1 before performing other operations|
 |increase operator<br />(arithmetic operator)|operand++|1|number|// 다른 연산 수행 후 1만큼 증가<br />Increase by 1 before performing other operations|

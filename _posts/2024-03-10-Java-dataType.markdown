@@ -201,7 +201,7 @@ categories: [Java]
 // 문법 : `(자료형)피연산자`   
 - Explicit type conversion is required when converting from large to small type   
 - Explicit conversion is forced conversion   
-- Grammar: `(data type) operand`   
+- Grammar : `(data type) operand`   
    
 // 예시   
 // - `float f = (float)5.5;`   
