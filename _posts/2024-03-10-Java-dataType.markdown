@@ -23,8 +23,8 @@ categories: [Java]
    
 |Type|Description|
 |:---:|:---|
-|// 데이터 필드<br />- 인스턴스 변수<br />Data Field<br />- Instance Variable|// 클래스 정의에서 non-static 필드<br />// 개별 객체가 소유한 변수<br />- In class definition, non-static fields<br />- Variables owned by individual objects|
-|// 데이터 필드<br />- 클래스 변수<br />(static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수(정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous objects (static variable)|
+|// 데이터 필드<br />// - 인스턴스 변수<br />Data Field<br />- Instance Variable|// 클래스 정의에서 non-static 필드<br />// 개별 객체가 소유한 변수<br />- In class definition, non-static fields<br />- Variables owned by individual objects|
+|// 데이터 필드<br />// - 클래스 변수<br />// (static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수(정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous objects (static variable)|
 |// 지역 변수<br />Local Variable|// 메소드 내부(또는 블록 내부)에서 선언된 변수<br />- Variables declared inside the method (or inside the block)|
 |// 파라미터<br />Parameter|// 메소드 호출 시 전달하는 값을 저장하기 위한 변수<br />- Variables to store the values that are passed on method calls|
    
