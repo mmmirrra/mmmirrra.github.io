@@ -48,7 +48,7 @@ public class GradeOutputFirst {
    
 #### Result   
    
-```java
+```cmd
 175
 160
 ```
@@ -95,7 +95,7 @@ public class GradeOutputSecond {
    
 #### Result   
    
-```java
+```cmd
 175
 160
 ```
