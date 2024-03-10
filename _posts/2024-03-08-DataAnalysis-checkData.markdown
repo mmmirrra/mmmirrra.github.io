@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Data Analysis: Check the Data Entered"
-date:   2024-03-06 09:00:00 +0900
+date:   2024-03-08 09:00:00 +0900
 categories: [Data Analysis]
 ---
 
