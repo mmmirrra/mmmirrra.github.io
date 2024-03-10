@@ -109,9 +109,9 @@ categories: [Java]
    
 // 소스 작성을 위해 텍스트 편집기 사용   
 // 명령 프롬프트 창에서 컴파일 명령은 javac   
-// - 예시 : Javac Hello.java   
+// - 예시 : `Javac Hello.java`   
 // 명령 프롬프트 창에서 실행 명령은 java   
-// - 예시 : java Hello   
+// - 예시 : `java Hello`   
 - Using a text editor to create a source   
   - Example : file name : Hello.java   
    
