@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Data Analysis: Level of measurement and data type"
+title:  "Introduction to Data Analysis: Level of Measurement and Data Type"
 date:   2024-03-06 09:00:00 +0900
 categories: [Data Analysis]
 ---

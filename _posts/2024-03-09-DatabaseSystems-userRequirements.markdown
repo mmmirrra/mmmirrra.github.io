@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Database Systems: Analysis of user requirements"
+title:  "Database Systems: Analysis of User Requirements"
 date:   2024-03-09 09:00:00 +0900
 categories: [Database Systems]
 ---

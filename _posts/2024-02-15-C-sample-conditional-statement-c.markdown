@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C: sample_conditional_statement.c"
+title:  "C: sample_conditional_statement.c - Control Structure - if / switch...case / for / while / do...while / goto / break / continue"
 date:   2024-02-15 09:00:00 +0900
 categories: [C]
 ---
