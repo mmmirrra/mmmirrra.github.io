@@ -43,10 +43,10 @@ Symbols for performing specific operations
 |bit logic<br />(bit operator)|a & b|2|number|// 비트 AND 논리곱 연산 : 두 비트 모두 1이면 1, 아니라면 0<br />- Bit AND : Both bits are 1 if they are 1, and 0 if they are not|
 |bit logic<br />(bit operator)|a \| b|2|number|// 비트 OR 논리합 연산 : 두 비트 모두 0이면 0, 아니라면 1<br />- Bit OR : Both bits are 0 if they are 0, and 1 if they are not|
 |bit logic<br />(bit operator)|a^b|2|number|// 비트 XOR 배타적 연산 : 두 비트가 다르면 1, 같으면 0<br />- Bit XOR : If the two bits are different, it's 1 and if it's the same, it's 0|
-|move the bit<br />(bit operator)|a << b|2|number|// 산술적 시프트 : a의 각 비트를 b번 왼쪽으로 이동, 오른쪽 빈자리는 0으로 채움, 2를 b번 곱한 결과<br />- Arithmetic shift : Move each bit of a to the left b times, and fill the right blank with zero. The result of multiplying 2 by b times|
-|move the bit<br />(bit operator)|a>>b|2|number|// 산술적 시프트 : a의 각 비트를 b번 오른쪽으로 이동, 왼쪽 빈자리는 최상위 부호비트와 같은 값으로 채움, 2를 b번 나눈 결과<br />- Arithmetic shift : Move each bit of a to the right b times, and fill the left blank with the same value as the most higtest code bit. The result of dividing 2 by b times|
-|move the bit<br />(bit operator)|a >>> b|2|number|// 논리적 산술적 시프트 : a의 각 비트를 b번 오른쪽으로 이동, 왼쪽 빈자리는 0으로 채움<br />- Logical Arithmetic shift : Move each bit of a to the right b times and fill the left blank with zero|
-|substitution operator|+, +=, -=, *=, /=, %=, &=, ^=, \|=, >>>=, <<=, >>>=|2|various|// 우변의 값을 좌변의 변수에 대입<br />- Substitute the value of the right variable into the left variable|
+|move the bit<br />(bit operator)|a＜＜b|2|number|// 산술적 시프트 : a의 각 비트를 b번 왼쪽으로 이동, 오른쪽 빈자리는 0으로 채움, 2를 b번 곱한 결과<br />- Arithmetic shift : Move each bit of a to the left b times, and fill the right blank with zero. The result of multiplying 2 by b times|
+|move the bit<br />(bit operator)|a＞＞b|2|number|// 산술적 시프트 : a의 각 비트를 b번 오른쪽으로 이동, 왼쪽 빈자리는 최상위 부호비트와 같은 값으로 채움, 2를 b번 나눈 결과<br />- Arithmetic shift : Move each bit of a to the right b times, and fill the left blank with the same value as the most higtest code bit. The result of dividing 2 by b times|
+|move the bit<br />(bit operator)|a ＞＞＞ b|2|number|// 논리적 산술적 시프트 : a의 각 비트를 b번 오른쪽으로 이동, 왼쪽 빈자리는 0으로 채움<br />- Logical Arithmetic shift : Move each bit of a to the right b times and fill the left blank with zero|
+|substitution operator|+, +=, -=, *=, /=, %=, &=, ^=, \|=, ＞＞=, ＜＜=, ＞＞＞=|2|various|// 우변의 값을 좌변의 변수에 대입<br />- Substitute the value of the right variable into the left variable|
 |Type conversion operator|(Data type)|1|converted data type|// 지정된 자료형으로 변환<br />- Converting to specified data type|
 |etc.|[], (), .||||
    
@@ -77,9 +77,9 @@ Operator has priority and direction of application
 |6|+|additive|Left-to-right|
 |6|-|additive|Left-to-right|
 |6|+|string concatenation|Left-to-right|
-|7|<<|shift|Left-to-right|
-|7|>>|shift|Left-to-right|
-|7|>>>|shift|Left-to-right|
+|7|＜＜|shift|Left-to-right|
+|7|＞＞|shift|Left-to-right|
+|7|＞＞＞|shift|Left-to-right|
 |8|<|relational|Left-to-right|
 |8|<=|relational|Left-to-right|
 |8|>|relational|Left-to-right|
@@ -102,9 +102,9 @@ Operator has priority and direction of application
 |16|&=|assignment|Right-to-left|
 |16|^=|assignment|Right-to-left|
 |16|\|=|assignment|Right-to-left|
-|16|<<=|assignment|Right-to-left|
-|16|>>=|assignment|Right-to-left|
-|16|>>>=|assignment|Right-to-left|
+|16|＜＜=|assignment|Right-to-left|
+|16|＞＞=|assignment|Right-to-left|
+|16|＞＞＞=|assignment|Right-to-left|
 |17|->|assignment|Right-to-left|
    
 <br />
