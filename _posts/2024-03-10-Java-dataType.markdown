@@ -65,7 +65,7 @@ categories: [Java]
 |integer|byte|1|-128 ~ 127|
 |integer|short|2|-32768 ~ 32767|
 |integer|int|4|-2³¹ ~ (2³¹ - 1)|
-|integer|long|8|-2<sub>63</sub> ~ (2<sub>63</sub> - 1)
+|integer|long|8|-2&#8310;³ ~ (2&#8310;³ - 1)
 |real number|float|4|(+/-)Approximately 1.4E-45 ~ 3.4E38|
 |real number|double|8|(+/-)Approximately 4.9E-324 ~ 1.8E308|
    
