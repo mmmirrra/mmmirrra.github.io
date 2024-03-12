@@ -150,12 +150,12 @@ truth table
 - Example   
   1. Write the logical sum of the following propositions and find the truth value.   
     ① p : 3 > 1 --> ∴ T   
-      q : 4 > 8 --> ∴ F   
-      --> p ∨ q --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; q : 4 > 8 --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ q --> ∴ T   
     ② p : 2 × 3 = 8 --> ∴ F   
-      q : 4 - 2 = 3 --> ∴ F   
-      r : Socrates is alive --> ∴ F   
-      --> p ∨ q ∨ r --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; q : 4 - 2 = 3 --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; r : Socrates is alive --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ q ∨ r --> ∴ F   
    
 #### conjunction (logical operation and, logical operator ∧)   
 // 논리곱 (논리연산 and, 논리연산자 ∧)   
@@ -184,12 +184,12 @@ truth table
 - Example   
   1. Write an argument for the following proposition and find the truth value.   
     ① p : Odd plus odd is even number --> ∴ T   
-      q : An even times an odd is an even number --> ∴ T   
-      --> p ∧ q --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; q : An even times an odd is an even number --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∧ q --> ∴ T   
     ② p : A keyboard is an input device --> ∴ T   
-      q : USB is memory device --> ∴ T   
-      r : A monitor is a memory device --> ∴ F   
-      --> p ∧ q ∧ r --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; q : USB is memory device --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; r : A monitor is a memory device --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∧ q ∧ r --> ∴ F   
    
 #### negation (logical operation not, logical operator ~ (&#65089;))   
 // 부정 (논리연산 not, 논리연산자 ~ (&#65089;))   
@@ -293,21 +293,21 @@ truth table
 - Example   
   1. Find the truth value of the conditional proposition for the following statement.   
     ① If 1 + 2 = 3, then 10 - 2 = 8.   
-      1 + 2 = 3 --> ∴ T   
-      10 - 2 = 8 --> ∴ T   
-      --> p → q --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; 1 + 2 = 3 --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; 10 - 2 = 8 --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ T   
     ② If 1 + 2 = 3, then 10 - 2 = 7.   
-      1 + 2 = 3 --> ∴ T   
-      10 - 2 = 7 --> ∴ F   
-      --> p → q --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; 1 + 2 = 3 --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; 10 - 2 = 7 --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ F   
     ③ If the capital of France is London, the capital of Italy is Rome.   
-      If the capital of France is London --> ∴ F   
-      the capital of Italy is Rome --> ∴ T   
-      --> p → q --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; If the capital of France is London --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; the capital of Italy is Rome --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ T   
     ④ If the capital of France is London, the capital of Korea is Colombo.   
-      If the capital of France is London --> ∴ F   
-      the capital of Korea is Colombo --> ∴ F   
-      --> p → q --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; If the capital of France is London --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; the capital of Korea is Colombo --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ T   
    
 ### conditional proposition (↔)   
 // 쌍조건명제 (↔)   
@@ -339,9 +339,9 @@ truth table
 - Example   
   1. Is the following conditional proposition true?   
     ① A man is alive ↔ A man breathes   
-      --> ∴ T ↔ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T ↔ T   
     ② 1 + 2 = 9 ↔ 1 × 2 = 9   
-      --> ∴ T ↔ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T ↔ T   
    
 ### logical equivalence (≡)   
 // 논리적 동치 (≡)   
@@ -377,8 +377,8 @@ truth table
   1. Show that the following two propositions are logically equivalent to each other.   
     ① p ∨ (q ∧ r)   
     ② (p ∨ q) ∧ (p ∨ r)   
-      Proof is possible by drawing up a truth table   
-      (※ distributive law)   
+      &nbsp;&nbsp;&nbsp;&nbsp; Proof is possible by drawing up a truth table   
+      &nbsp;&nbsp;&nbsp;&nbsp; (※ distributive law)   
    
 #### the law of logical equivalence   
 // 논리적 동치법칙   
@@ -459,11 +459,11 @@ truth table
 - Example   
   1. Use DeMorgan's law to express the negation of the following expression.   
     -2 < x < 3   
-    --> ~(-2 < x < 3)   
-    --> ~((-2 < x) ∧ (x < 3))   
-    --> (~(-2 < x)) ∨ (~(x < 3))   
-    --> (-2 ≥ x) ∨ (x ≥ 3)   
-    --> ∴ (x ≤ -2) ∨ (x ≥ 3)   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> ~(-2 < x < 3)   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> ~((-2 < x) ∧ (x < 3))   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> (~(-2 < x)) ∨ (~(x < 3))   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> (-2 ≥ x) ∨ (x ≥ 3)   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ (x ≤ -2) ∨ (x ≥ 3)   
    
 ### tautology proposition, contradiction proposition   
 // 항진명제, 모순명제   
@@ -514,7 +514,7 @@ truth table
 // &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> ∴ F   
 - Example   
   1. What is the truth value of p(1, 2) when the propositional function p(x, y) is x² + y² = 4?   
-    --> 1² + 2² = 5 --> ∴ F   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> ∴ F   
    
 ### quantification   
 // 한정화   
@@ -538,12 +538,12 @@ truth table
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∀xP(x) = F   
 - Example   
   1. If P(x) is "x is real number" and the domain of x is positive, then ∀xP(x) is true.   
-    --> Positive real numbers are always real numbers   
-    --> ∴ ∀xP(x) = T   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> Positive real numbers are always real numbers   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∀xP(x) = T   
   2. If P(x) is x² + x - 2 > 0, and the domain of x is real number, the ∀xP(x) is false.   
-    --> x² + x - 2 = (x - 1)(x + 2) = 0   
-    --> If -2 ≤ x ≤ 1, then x² + x -2 ≤ 0   
-    --> ∴ ∀xP(x) = F   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> x² + x - 2 = (x - 1)(x + 2) = 0   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> If -2 ≤ x ≤ 1, then x² + x -2 ≤ 0   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∀xP(x) = F   
    
 #### existential quantifier (∃)   
 // 존재한정자 (∃. 존재한다)   
@@ -560,8 +560,8 @@ truth table
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∃xP(x) = F   
 - Example   
   1. If P(x) is "x is irrational number" and the domain of x is rational number, then ∃xP(x) is false.   
-    --> A number cannot be rational number and irrational number at the same time   
-    --> ∴ ∃xP(x) = F   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> A number cannot be rational number and irrational number at the same time   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∃xP(x) = F   
    
 ###  a feasibility test   
 // 타당성 검사   
@@ -584,12 +584,12 @@ truth table
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
 - Example   
   1. Every parallelogram is a square.   
-    --> ∴ T   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
   2. syllogism   
     ① Young-hee is in Seoul   
     ② Seoul is in Korea   
     ③ Young-hee is in Korea   
-    --> ∴ T   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
    
 ### inference   
 // 추론   
@@ -609,7 +609,7 @@ truth table
    
 - Example   
   1. ((p → q) ∧ (q → r)) → (p → r)   
-    --> ∴ T   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
    
 #### rule of inference   
 // 추론규칙   
@@ -633,9 +633,9 @@ truth table
 // &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> F   
 - Example   
   1. Use the truth table to see if the following inference is valid inference.   
-    p → q --> T   
-    q --> T   
-    ∴ p ? --> F   
+    &nbsp;&nbsp;&nbsp;&nbsp; p → q --> T   
+    &nbsp;&nbsp;&nbsp;&nbsp; q --> T   
+    &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> F   
    
 |// 결론<br />conclusion|// 전제<br />premise|// 전제<br />premise|
 |:---:|:---:|:---:|
