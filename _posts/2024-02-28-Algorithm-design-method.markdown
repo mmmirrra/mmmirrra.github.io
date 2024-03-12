@@ -125,7 +125,7 @@ If an item splits
 (p1, p2, p3, p4) = (One weighs 3 and the profit is 15, Zero, One weighs 3 and the profit is 9, One weighs 4 and the profit is 14)
 -> Maximum profit is 38
 
---> This is an NP-complete problem that cannot be solved by the greedy method
+--> ∴ This is an NP-complete problem that cannot be solved by the greedy method
 ```   
    
 #### Minimum Spanning Tree (Kruskal's Algorithm, Prim's Algorithm)   
