@@ -21,41 +21,41 @@ categories: [Discrete Mathematics]
 // 명제의 예시   
 // 1. 다음 문장이 명제인지 아닌지 구분하시오.   
 // ① 6은 2의 배수다   
-// --> ∴ 명제이다. 진리값이 참임.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제이다. 진리값이 참임.   
 // ② 철수는 공부를 잘한다   
-// --> ∴ 명제가 아니다. 기준에 따라서 철수는 공부를 잘 할 수도 있고, 못 할 수도 있다.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제가 아니다. 기준에 따라서 철수는 공부를 잘 할 수도 있고, 못 할 수도 있다.   
 // ③ 2 + 3 = 7   
-// --> ∴ 명제이다. 진리값이 거짓임.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제이다. 진리값이 거짓임.   
 // ④ x + 2 = 0   
-// --> ∴ 명제가 아니다. 명제함수. x의 값에 따라서 참일 수도 있고, 거짓일 수도 있다.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제가 아니다. 명제함수. x의 값에 따라서 참일 수도 있고, 거짓일 수도 있다.   
 // 2. 다음 명제의 진리값을 구하시오.   
 // ① 2, 3, 6는 소수이다.   
-// --> ∴ 거짓. F.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 거짓. F.   
 // ② 소수의 개수는 무한하다.   
-// --> ∴ 참. T.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 참. T.   
 // ③ 126 = 2&#8310;   
-// --> ∴ 거짓. F.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 거짓. F.   
 // ④ 지구에서 가장 높은 산은 에베레스트이다.   
-// --> ∴ 참. T.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 참. T.   
 - Example of a proposition   
   1. Distinguish whether the following sentence is a proposition or not.   
     ① Six is a multiple of two   
-    --> ∴ It's a proposition. Truth is true.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's a proposition. Truth is true.   
     ② Chulsoo is good at studying   
-    --> ∴ It's not a proposition. Depending on the standard, Chul-soo may or may not study well.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's not a proposition. Depending on the standard, Chul-soo may or may not study well.   
     ③ 2 + 3 = 7   
-    --> ∴ It's a proposition. Truth is false.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's a proposition. Truth is false.   
     ④ x + 2 = 0   
-    --> ∴ It's not a proposition. propositional function. Depending on the value of x, it can be true or false.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's not a proposition. propositional function. Depending on the value of x, it can be true or false.   
   2. Find the truth value of the following proposition.   
     ① 2, 3 and 6 are prime numbers.   
-    --> ∴ false. F.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ false. F.   
     ② The number of prime numbers is infinite.   
-    --> ∴ true. T.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ true. T.   
     ③ 126 = 2&#8310;   
-    --> ∴ false. F.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ false. F.   
     ④ The highest mountain on Earth is Everest.   
-    --> ∴ true. T.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ true. T.   
    
 #### Type of proposition   
 // 명제의 종류   
