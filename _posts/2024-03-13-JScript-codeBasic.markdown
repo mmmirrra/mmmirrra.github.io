@@ -77,7 +77,7 @@ aGoodIdea = "Complete the comments"; // This is a one-line comment.
     - Values between quotes are called literal
     - Literals have explicit and direct information
     - In other words, it does not refer indirectly to the information
-    - Quotations are not part of a literal
+    - Quotation marks are not part of a literal
 */
 
 // 이것은 또다른 여러 줄 주석입니다. 한 줄 주석을 여러 개 썼습니다.
