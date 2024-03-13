@@ -43,9 +43,9 @@ categories: [Java]
 // 단어의 첫 글자는 대문자   
 // 나머지는 소문자   
 // 예시 : `Car, HelloWorld, MyClass, String`   
-- The first letter is capital letter   
-- The first letter of the word is capital letter   
-- The rest are lowercase letters   
+- The first character is capital character   
+- The first character of the word is capital character   
+- The rest are lowercase characters   
 - Example : `Car, HelloWorld, MyClass, String`   
    
 #### method, variable (field)   
@@ -56,9 +56,9 @@ categories: [Java]
 // 나머지는 소문자   
 // 변수 예시 : `speed, myCar`   
 // 메소드 예시 : `gearArea()`   
-- The first letter is lowercase   
-- The first letter of the word is capital letter   
-- The rest are lowercase letters   
+- The first character is lowercase   
+- The first character of the word is capital character   
+- The rest are lowercase characters   
 - Example of a variable : `speed, myCar`   
 - Example of a method : `gearArea()`   
    

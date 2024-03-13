@@ -11,7 +11,7 @@ categories: [Data Analysis]
 // 어떤 관심 있는 주제에 대해서 수집된 구조화된 정보(organized information)   
 // 일반적인 의미의 데이터는 수치, 문자, 그림 등의 표현양식과 관계없이 어떤 주제에 대한 구조화된 정보를 뜻함   
 - Structured information gathered on a topic of interest   
-- Data in the general sense refers to structured information on a subject regardless of expression patterns such as figures, letters, or pictures   
+- Data in the general sense refers to structured information on a subject regardless of expression patterns such as figures, characters, or pictures   
    
 ### Characteristics of the data   
 // 데이터의 특징   

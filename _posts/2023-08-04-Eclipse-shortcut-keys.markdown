@@ -222,7 +222,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 뒤로 찾기 (현재 라인 위로 찾기)   
 `Ctrl + Shift + K` : Find Previous   
 // 검색할 단어를 입력하면서 실시간으로 검색 : 이클립스 하단 상태 표시줄에 Incremental find 라고 표시되어 한 글자씩 누를 때 마다 코드내의 일치하는 문자열로 이동, 다시 Ctrl + J 를 누르면 그 문자열과 일치하는 부분을 위/아래 방향키로 탐색이 가능   
-`Ctrl + J` : Incremental Find : The status bar displays `Incremental find`, pressing one letter at a time moves to a matching string within the code, pressing Ctrl + J again to navigate to the matching string with the up/down arrow keys   
+`Ctrl + J` : Incremental Find : The status bar displays `Incremental find`, pressing one character at a time moves to a matching string within the code, pressing Ctrl + J again to navigate to the matching string with the up/down arrow keys   
 // 검색할 단어를 입력하면서 실시간으로 거꾸로 검색   
 `Ctrl + Shift + J` : Incremental Find Reverse   
    

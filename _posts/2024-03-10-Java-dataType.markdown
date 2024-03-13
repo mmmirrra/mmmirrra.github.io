@@ -189,7 +189,7 @@ categories: [Java]
   - `double d = 5;`   
     - substitute statement : int type 5 automatically converted to double type 5.0   
   - `System.out.println("j = " + 10);`   
-    - numeric expression : Automatically converted into character type 'j = 10' by combining letters 'j = 10' and numbers 10   
+    - numeric expression : Automatically converted into character type 'j = 10' by combining characters 'j = 10' and numbers 10   
   - `double res = Math.sqrt(2);`   
     - Type of parameter in method call : Int type 2 is automatically converted to double type 2.0   
    

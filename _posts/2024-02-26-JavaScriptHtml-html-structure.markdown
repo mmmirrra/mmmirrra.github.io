@@ -35,7 +35,7 @@ Tags used without end tags : `<br>`, `<img>`, etc.
 // 요소명과 속성명은 대소문자를 구분하지 않음   
 // - 소문자 표기를 권고   
 - The element name and property name are not case sensitive   
-  - Lowercase letters recommended   
+  - Lowercase characters recommended   
   - `<TITLE> == <Title> == <title>`   
    
 // 파일명 지정 : '파일명.htm' 또는 '파일명.html'   
