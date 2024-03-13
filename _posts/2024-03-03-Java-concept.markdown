@@ -171,8 +171,8 @@ Java Program
    
 ```java
 class Grade {
-  int e;                // Variables for English Grade
-  int m;                // Variables for Math Grade
+  int e;                  // Variables for English Grade
+  int m;                  // Variables for Math Grade
 
   void output_grade()     // a method of calculating the sum of grades
   {
