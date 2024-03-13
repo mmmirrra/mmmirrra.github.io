@@ -4,7 +4,7 @@ title:  "Discrete Mathematics: Logic, Proposition"
 date:   2024-03-12 09:00:00 +0900
 categories: [Discrete Mathematics]
 ---
-
+⊕
 ### logic
 // 논리   
 
