@@ -144,7 +144,7 @@ An element in which an element itself is used to have meaning rather than an out
 <kbd>kbd : Show that this is entered by keyboard. The font is different from the other one</kbd>
 
 <!-- // 짧은 인용구를 표시. 큰따옴표가 자동으로 추가됨 -->
-<q>q : Show short quotes. Quotes added automatically</q>
+<q>q : Show short quotes. Quotation Mark added automatically</q>
 
 <!-- // 시각적/의미적으로 특정 문구나 단어를 강조. 형광색 배경 -->
 <mark>mark : Emphasize a particular phrase or word visually or meaningfully. The background is fluorescent</mark>
@@ -183,7 +183,7 @@ An element in which an element itself is used to have meaning rather than an out
 <kbd>kbd : Show that this is entered by keyboard. The font is different from the other one</kbd>
 
 <!-- // 짧은 인용구를 표시. 큰따옴표가 자동으로 추가됨 -->
-<q>q : Show short quotes. Quotes added automatically</q>
+<q>q : Show short quotes. Quotation Mark added automatically</q>
 
 <!-- // 시각적/의미적으로 특정 문구나 단어를 강조. 형광색 배경 -->
 <mark>mark : Emphasize a particular phrase or word visually or meaningfully. The background is fluorescent</mark>

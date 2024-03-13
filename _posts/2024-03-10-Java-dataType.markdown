@@ -130,7 +130,7 @@ categories: [Java]
 // - '\u0000' ~ '\uffff'   
 // - 1개 문자는 (0 ~ 65535)의 수와 호환됨   
 - 1 character represented and encoded in 16-bit Unicode   
-- Single quotes and Unicode enabled   
+- Single quotes (Apostrophe) and Unicode enabled   
   - '\u0000' ~ '\uffff'   
   - One character is compatible with a number of '0 to 65535'   
    
