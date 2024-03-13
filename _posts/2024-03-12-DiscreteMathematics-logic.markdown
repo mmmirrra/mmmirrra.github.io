@@ -4,7 +4,7 @@ title:  "Discrete Mathematics: Logic, Proposition"
 date:   2024-03-12 09:00:00 +0900
 categories: [Discrete Mathematics]
 ---
-⊕
+
 ### logic
 // 논리   
 
@@ -118,13 +118,13 @@ categories: [Discrete Mathematics]
   - p, q --> variable. logical variable. proposition   
    
 // 논리연산, 논리연산자   
-// - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (&#65089;). <u>X</u>), &#8853; (xor), &#8857; (xnor)   
+// - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (&#65089;). <u>X</u>), ⊕ (xor), &#8857; (xnor)   
 // - or, and, not, xor --> 논리연산   
-// - ∨, ∧, ~ (&#65089;), &#8853;, &#8857; --> 논리연산자   
+// - ∨, ∧, ~ (&#65089;), ⊕, &#8857; --> 논리연산자   
 - logical operation, logical operator   
-  - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (&#65089;). <u>X</u>), &#8853; (xor), &#8857; (xnor)   
+  - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (&#65089;). <u>X</u>), ⊕ (xor), &#8857; (xnor)   
   - or, and, not, xor --> logical operation   
-  - ∨, ∧, ~ (&#65089;), &#8853;, &#8857; --> logical operator   
+  - ∨, ∧, ~ (&#65089;), ⊕, &#8857; --> logical operator   
    
 // 합성명제 (논리 연산식)   
 // - 논리연산을 논리집합에 적용하면 성질이 나옴   
@@ -216,10 +216,10 @@ truth table
 |T|F|
 |F|T|
    
-#### exclusive or (logical operation xor, logical operator &#8853;)   
-// 배타적 논리합 (논리연산 xor, 논리연산자 &#8853;)   
+#### exclusive or (logical operation xor, logical operator ⊕)   
+// 배타적 논리합 (논리연산 xor, 논리연산자 ⊕)   
    
-- p &#8853; q ≡ (p ∧ ~q) ∨ (~p ∧ q)   
+- p ⊕ q ≡ (p ∧ ~q) ∨ (~p ∧ q)   
    
 // p와 q의 진리값이 서로 다르면 T, 같으면 F   
 // 'or' 진리표에서 T, T 의 진리값을 F로 바꾼 것   
@@ -229,7 +229,7 @@ truth table
 truth table   
 // 진리표   
    
-|p|q|p ∧ ~q|~p ∧ q|(p ∧ ~q) ∨ (~p ∧ q)|p &#8853; q|
+|p|q|p ∧ ~q|~p ∧ q|(p ∧ ~q) ∨ (~p ∧ q)|p ⊕ q|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |T|T|F|F|F|F|
 |T|F|T|F|T|T|
@@ -237,18 +237,18 @@ truth table
 |F|F|F|F|F|F|
    
 // 예시   
-// 1. 합성명제 (p ∧ q) ∨ (p &#8853; q)의 진리표를 작성하시오.   
+// 1. 합성명제 (p ∧ q) ∨ (p ⊕ q)의 진리표를 작성하시오.   
 - Example   
-  1. Write a truth table of the compound proposition (p ∧ q) ∨ (p &#8853; q)   
+  1. Write a truth table of the compound proposition (p ∧ q) ∨ (p ⊕ q)   
    
-|p|q|p ∧ q|p &#8853; q|(p ∧ q) ∨ (p &#8853; q)|
+|p|q|p ∧ q|p ⊕ q|(p ∧ q) ∨ (p ⊕ q)|
 |:---:|:---:|:---:|:---:|:---:|
 |T|T|T|F|T|
 |T|F|F|T|T|
 |F|T|F|T|T|
 |F|F|F|F|F|
    
-|(p ∧ q) ∨ (p &#8853; q)|p ∨ q|
+|(p ∧ q) ∨ (p ⊕ q)|p ∨ q|
 |:---:|:---:|
 |T|T|
 |T|T|
@@ -258,8 +258,8 @@ truth table
 ### compound proposition   
 // 합성명제   
    
-// 하나 이상의 명제와 논리연산자 (∨, ∧, ~(&#65089;), &#8853;, &#8857;) 그리고 괄호로 이루어진 명제   
-- a proposition consisting of one or more propositions and logical operators (∨, ∧, ~(&#65089;), &#8853;, &#8857;) and parentheses   
+// 하나 이상의 명제와 논리연산자 (∨, ∧, ~(&#65089;), ⊕, &#8857;) 그리고 괄호로 이루어진 명제   
+- a proposition consisting of one or more propositions and logical operators (∨, ∧, ~(&#65089;), ⊕, &#8857;) and parentheses   
    
 ### conditional proposition (→)   
 // 조건명제 (→)   
@@ -340,7 +340,7 @@ truth table
 |F|T|T|F|F|
 |F|F|T|T|T|
    
-- p ↔ q ≡ ~(p &#8853; q)   
+- p ↔ q ≡ ~(p ⊕ q)   
    
 // 예시   
 // 1. 다음의 쌍조건명제는 참인가?   
