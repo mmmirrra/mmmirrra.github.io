@@ -94,9 +94,9 @@ categories: [Discrete Mathematics]
   - 0.5, √2 --> constant. real number constant   
   - x, y --> variable. real number variable   
    
-// 실수연산   
+// 실수연산자   
 // - +, -, ×, ÷   
-- real number operation   
+- real number operator   
   - +, -, ×, ÷   
    
 // 수식 (실수 연산식)   
@@ -341,6 +341,16 @@ truth table
 |F|F|T|T|T|
    
 - p ↔ q ≡ ~(p ⊕ q)   
+   
+truth table   
+// 진리표   
+   
+|p ↔ q|(p ⊕ q)|~(p ⊕ q)|
+|:---:|:---:|:---:|
+|T|F|T|
+|F|T|F|
+|F|T|F|
+|T|F|T|
    
 // 예시   
 // 1. 다음의 쌍조건명제는 참인가?   
