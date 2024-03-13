@@ -118,13 +118,13 @@ categories: [Discrete Mathematics]
   - p, q --> variable. logical variable. proposition   
    
 // 논리연산, 논리연산자   
-// - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁&#65089;). <u>X</u>), ⊕ (xor), ⊙&#8857; (xnor)   
+// - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁). <u>X</u>), ⊕ (xor), ⊙ (xnor)   
 // - or, and, not, xor --> 논리연산   
-// - ∨, ∧, ~ (﹁&#65089;), ⊕, ⊙&#8857; --> 논리연산자   
+// - ∨, ∧, ~ (﹁), ⊕, ⊙ --> 논리연산자   
 - logical operation, logical operator   
-  - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁&#65089;). <u>X</u>), ⊕ (xor), ⊙&#8857; (xnor)   
+  - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁). <u>X</u>), ⊕ (xor), ⊙ (xnor)   
   - or, and, not, xor --> logical operation   
-  - ∨, ∧, ~ (﹁&#65089;), ⊕, ⊙&#8857; --> logical operator   
+  - ∨, ∧, ~ (﹁), ⊕, ⊙ --> logical operator   
    
 // 합성명제 (논리 연산식)   
 // - 논리연산을 논리집합에 적용하면 성질이 나옴   
@@ -203,8 +203,8 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; r : A monitor is a memory device --> ∴ F   
       &nbsp;&nbsp;&nbsp;&nbsp; --> p ∧ q ∧ r --> ∴ F   
    
-#### negation (logical operation not, logical operator ~ (﹁&#65089;))   
-// 부정 (논리연산 not, 논리연산자 ~ (﹁&#65089;))   
+#### negation (logical operation not, logical operator ~ (﹁))   
+// 부정 (논리연산 not, 논리연산자 ~ (﹁))   
    
 - ~p   
    
@@ -258,8 +258,8 @@ truth table
 ### compound proposition   
 // 합성명제   
    
-// 하나 이상의 명제와 논리연산자 (∨, ∧, ~(﹁&#65089;), ⊕, ⊙&#8857;) 그리고 괄호로 이루어진 명제   
-- a proposition consisting of one or more propositions and logical operators (∨, ∧, ~(﹁&#65089;), ⊕, ⊙&#8857;) and parentheses   
+// 하나 이상의 명제와 논리연산자 (∨, ∧, ~(﹁), ⊕, ⊙) 그리고 괄호로 이루어진 명제   
+- a proposition consisting of one or more propositions and logical operators (∨, ∧, ~(﹁), ⊕, ⊙) and parentheses   
    
 ### conditional proposition (→)   
 // 조건명제 (→)   
