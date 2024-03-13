@@ -5,6 +5,18 @@ date:   2024-03-12 09:00:00 +0900
 categories: [Discrete Mathematics]
 ---
 
+### logic
+// 논리   
+
+// 명제논리   
+// - 명제   
+// 술어논리   
+// - 명제함수   
+- proposition logic   
+  - proposition   
+- predicate logic   
+  - propositional function   
+   
 ### proposition   
 // 명제   
    
@@ -376,9 +388,24 @@ truth table
 - Example   
   1. Show that the following two propositions are logically equivalent to each other.   
     ① p ∨ (q ∧ r)   
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ (q ∧ r) ⇔ (p ∨ q) ∧ (q ∧ r)
     ② (p ∨ q) ∧ (p ∨ r)   
       &nbsp;&nbsp;&nbsp;&nbsp; Proof is possible by drawing up a truth table   
       &nbsp;&nbsp;&nbsp;&nbsp; (※ distributive law)   
+   
+truth table   
+// 진리표   
+   
+|p|q|r|q ∧ r|p ∨ (q ∧ r)|p ∨ q|p ∨ r|(p ∨ q) ∧ (p ∨ r)|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|T|T|T|T|T|T|T|T|
+|T|T|F|F|T|T|T|T|
+|T|F|T|F|T|T|T|T|
+|T|F|F|F|T|T|T|T|
+|F|T|T|T|T|T|T|T|
+|F|T|F|F|F|T|F|F|
+|F|F|T|F|F|F|T|F|
+|F|F|F|F|F|F|F|F|
    
 #### the law of logical equivalence   
 // 논리적 동치법칙   
@@ -435,18 +462,46 @@ truth table
 - ~(p ∨ q) ≡ (~p) ∧ (~q) ⇔ (A∪B)&#11757; = A&#11757;∩B&#11757;   
 - ~(p ∧ q) ≡ (~p) ∨ (~q) ⇔ (A∩B)&#11757; = A&#11757;∪B&#11757;   
    
-// 흡수법치   
+// 흡수법칙   
 10. absorption law   
 - p ∨ (p ∧ q) ≡ p   
 - p ∧ (p ∨ q) ≡ p   
+   
+|p|q|p ∧ q|p ∨ (p ∧ q)|
+|:---:|:---:|:---:|:---:|
+|T|T|T|T|
+|T|F|F|T|
+|F|T|F|F|
+|F|F|F|F|
+   
+|p|q|p ∨ q|p ∧ (p ∨ q)|
+|:---:|:---:|:---:|:---:|
+|T|T|T|T|
+|T|F|T|T|
+|F|T|T|F|
+|F|F|F|F|
    
 // 함축법칙   
 11. implication law   
 - p → q ≡ ~p ∨ q   
    
+|p|q|p → q|~p|~p ∨ q|
+|:---:|:---:|:---:|:---:|:---:|
+|T|T|T|F|T|
+|T|F|F|F|F|
+|F|T|T|T|T|
+|F|F|T|T|T|
+   
 // 대우법칙   
 12. transposition law   
-- p → q ≡ ~q → p   
+- p → q ≡ ~q → ~p   
+   
+|p|q|p → q|~q|~p|~q → ~p|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|T|T|T|F|F|T|
+|T|F|F|T|F|F|
+|F|T|T|F|T|T|
+|F|F|T|T|T|T|
    
 // 예시   
 // 1. 드 모르간 법칙을 사용해 다음 식의 부정을 나타내시오.   
@@ -482,17 +537,6 @@ truth table
 ### predicate logic   
 // 술어논리   
    
-// 논리   
-// - 명제논리   
-// -- 명제   
-// - 술어논리   
-// -- 명제함수   
-- logic   
-  - proposition logic   
-    - proposition   
-  - predicate logic   
-    - propositional function   
-   
 #### predicate logic and propositional function   
 // 술어논리와 명제함수   
    
@@ -511,10 +555,10 @@ truth table
    
 // 예시   
 // 1. 명제함수 p(x, y)가 x² + y² = 4 일 때 p(1, 2)의 진리값은?   
-// &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> ∴ F   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> != 4 --> ∴ F   
 - Example   
   1. What is the truth value of p(1, 2) when the propositional function p(x, y) is x² + y² = 4?   
-    &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> ∴ F   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> != 4 --> ∴ F   
    
 ### quantification   
 // 한정화   
