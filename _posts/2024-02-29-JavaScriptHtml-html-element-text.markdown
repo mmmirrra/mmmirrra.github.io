@@ -24,7 +24,7 @@ categories: [JavaScript Html]
 `<pre>...</pre>` : Output text as it is. The format of the characters entered in the editor remains the same and is outputted. Within pre, the html element is applied without being treated as a character   
    
 // 인용문 작성 : 상하 빈 줄로 구분되는 인용문 단락의 생성 및 들여쓰기. 들여쓰기 간격의 인위적인 조정은 불가능. cite속성으로 인용된 부분의 URL 지정   
-`<blockquote cite="http://abc.com">...</blockquote>` : Writing Quotation. Creating and indenting quotation separated by upper and lower blank lines. Artificial adjustment of indent interval is not possible. Specify the URL of the part cited by the cite property   
+`<blockquote cite="http://abc.com">...</blockquote>` : Writing Quotation statement. Creating and indenting quotation statement separated by upper and lower blank lines. Artificial adjustment of indent interval is not possible. Specify the URL of the part cited by the cite property   
    
 <br />
 ### Enter spaces and special characters   

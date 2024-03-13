@@ -24,8 +24,8 @@ categories: [Java]
 // -- `try-catch 문`   
 // - 동기화문   
 // -- `synchronized { 블록문 }`   
-- method   
-  - The formula consists of variables, operators, function calls, etc., and calculates the resulting value   
+- numeric expression statement   
+  - The numeric expression of variables, operators, function calls, etc., and calculates the resulting value   
   - substitute statement, increment statement, function call statement, object creation statement, etc.   
 - variable declaration statement   
 - control statement   
@@ -68,12 +68,12 @@ Type of control statement
 #### if   
    
 // `if (boolean-수식) 문장`   
-`if (boolean-formal) sentence`   
+`if (boolean-numeric expression) sentence`   
    
 #### if-else   
    
 // `if (boolean-수식 문장) else 문장`   
-`if (boolean-formal sentence) else sentence`   
+`if (boolean-numeric expression sentence) else sentence`   
    
 #### matching if and else   
 // if와 else의 짝짓기   
@@ -122,7 +122,7 @@ switch (n) {
 }
 ```
    
-#### enhanced for loop   
+#### enhanced for loop statement   
 // 향상된 for문   
    
 // for-each문   
@@ -148,43 +148,43 @@ System.out.println();
 ```
    
 <br />
-### jumping sentence   
+### jumping statement   
 // 점프문   
    
-#### break   
+#### break statement   
 // break문   
    
 // break문을 포함하는 가장 가까운 switch문, for문, while문, do-while문의 실행을 끝냄   
 // - 반복문이나 switch문을 빠져나갈 때 사용   
 // 형식은 `break;`   
 - End execution of the nearest switch statement, for statement, while statement, do-while statement including break statement   
-  - Used to exit loop or switch statements   
+  - Used to exit loop statement or switch statements   
 - The format is `break;`   
    
 // 레이블을 사용하면 특정 블록 또는 특정 반복문을 빠져나갈 수 있음   
 // - 중첩 for문에서 바깥 for문을 종료하는 경우   
 // - 이 경우 형식은 `break 레이블;`   
 // -- 반복문에 레이블을 지정하려면 `레이블 : 반복분`   
-- Labels exit specific block or specific loop   
+- Labels exit specific block or specific loop statement   
   - To exit an outer for statement from a nested for statement   
   - The format is `break label;`   
     - To label loop statements : `label : loop`   
    
-#### continue   
+#### continue statement   
 // continue문   
    
 // 반복문 안에서 사용함   
 // 가장 가까이 있는 반복문의 다음 반복을 위한 조건식으로 즉시 제어를 이동하기 위한 것   
 // 형식은 `continue;`   
 - Used in a loop statement   
-- To move control immediately as a conditional expression for the next loop of the nearest loop statement   
+- To move control immediately as a conditional expression for the next loop statement of the nearest loop statement   
 - The format is `continue;`   
    
 // 레이블을 사용하여 특정 반복문의 다음 반복으로 이동할 수 있음   
 // - 중첩 for문에서 바깥 for문의 다음 반복으로 갈 때   
 // - 이 경우 형식은 `continue 레이블;`   
 // -- 반복문에 레이블을 지정하려면 `레이블 : 반복분`   
-- Use a label to move a particular loop to the next loop   
+- Use a label to move a particular loop statement to the next loop   
   - To go from nested for statements to the next loop of outer for statements   
   - The format is `continue label;`   
     - To label loop statements : `label : loop`   

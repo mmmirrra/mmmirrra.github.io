@@ -891,7 +891,7 @@ int main() {
 	addrbook["Kim"] = "서울시 성동구";				// "Kim" 값이 "서울시 성동구"로 변경됨
 	cout << "addrbook['Kim'] : " << addrbook["Kim"] << endl;
 
-	auto it1 = addrbook.find("Park");				// 반복자 선언. auto 는 map<string, string>::iterator 와 같음. it는 pair 객체("박영식", "대전시 동구")를 가리킴
+	auto it1 = addrbook.find("Park");				// 반복자 선언. auto 는 map<string, string>::iterator 와 같음. it는 pair 객체("Park", "대전시 동구")를 가리킴
 	auto it2 = addrbook.find("Lee");				// 찾을 키가 없으므로 it에 addrbook.end() 가 저장됨. end() 는 맨 끝의 데이터 다음 위치임. it의 값이 end()와 같다면 데이터가 검색되지 않았다는 것을 알 수 있음
 
 	addrbook.erase(it1);						// it1 이라는 반복자가 가리키는 데이터 삭제

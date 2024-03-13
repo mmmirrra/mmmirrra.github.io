@@ -95,7 +95,7 @@ Methodology : who, when, where, why, what tools and techniques should be used
    
 |tools of mathematics|techniques of mathematics|methodologies of mathematics|
 |:---|:---|:---|
-|// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법(일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식(2차, 3차 방정식)<br />Formula of the root (quadratic and cubic equations)<br />// 등<br />etc.|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
+|// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법(일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식(2차, 3차 방정식)<br />Quadratic formula(quadratic and cubic equations)<br />// 등<br />etc.|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
    
 #### Problem Solving   
 // 문제해결   
@@ -166,7 +166,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
    
 |// 할당문<br />Assignment Statement|// 제어문<br />Control Statement|
 |:---|:---|
-|ex) K = 100|// 순차문<br />Sequence<br /><br />// 조건문<br />Selection<br /><br />// 반복문<br />Iteration|
+|ex) K = 100|// 순차문<br />Sequence Statement<br /><br />// 조건문<br />Selection<br /><br />// 반복문<br />Iteration Statement|
    
 #### 3 Control Structures   
 // 3가지 제어구조   

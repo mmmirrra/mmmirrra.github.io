@@ -208,7 +208,7 @@ Developer → Abstract → [Data Structure] ← Concrete ← Computer
    
 // 추상화 : 그림이나 수식과 같이 의미를 표현하고 전달하는 방법   
 // 추상 자료형 : 전산학에서 사용되는 자료구조를 표현하는(공통의 의미를 추출하여 전달하는) 방법   
-- Abstraction : A way of expressing and conveying meaning, such as a picture or formula   
+- Abstraction : A way of expressing and conveying meaning, such as a picture or numeric expression   
 - Abstract Data Type : A method of expressing data structures used in computer science (Extracting common meanings and conveying them)   
    
 <br />

@@ -91,9 +91,9 @@ categories: [Discrete Mathematics]
 // - 실수연산을 실수집합에 적용하면 성질이 나옴   
 // - 실수집합에서 실수상수와 실수변수들을 실수연산들로 묶어놓으면 수식 (실수 연산식)이 됨   
 // - 예시 : √2x + y   
-- formula (real number operation formula)   
+- numeric expression (real number operation expression)   
   - Applying real number operations to real number sets results in properties   
-  - In a real number set, real number constants and real number variables are grouped into real number operations, resulting in a formula (real number operation formula)   
+  - In a real number set, real number constants and real number variables are grouped into real number operations, resulting in a numeric expression (real number operation expression)   
   - Example : √2x + y   
    
 // 논리집합   
@@ -118,9 +118,9 @@ categories: [Discrete Mathematics]
 // - 논리연산을 논리집합에 적용하면 성질이 나옴   
 // - 논리집합에서 논리상수와 논리변수들을 논리연산들로 묶어놓으면 합성명제(논리 연산식)이 됨   
 // - 예시 : p ∨ q   
-- compound proposition (logical operation formula)   
+- compound proposition (logical operation expression)   
   - Applying logical operations to logical sets results in properties   
-  - In a logical set, when logical numbers and logical variables are grouped into logical operations, it becomes a compound proposition (logical operation formula)   
+  - In a logical set, when logical numbers and logical variables are grouped into logical operations, it becomes a compound proposition (logical operation expression)   
   - Example : p ∨ q   
    
 #### disjunction (logical operation or, logical operator ∨)   
