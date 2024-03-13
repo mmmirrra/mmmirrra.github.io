@@ -32,7 +32,7 @@ categories: [Java]
   - Selective statements, loop statements, and jump statements   
 - etc.   
   - block statements   
-    - Blocks are the combination of multiple sentences in medium bracket   
+    - Blocks are the combination of multiple sentences in brace   
     - `{ ... }`   
   - label statement   
     - `label : sentence`   

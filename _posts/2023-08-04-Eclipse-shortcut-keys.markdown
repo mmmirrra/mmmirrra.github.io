@@ -239,7 +239,7 @@ Menu to register auto-complete keywords : `Window - Preferences - Java - Editor 
 // 이전 오류, 에러, 워닝, 북마크로 이동   
 `Ctrl + ,` : Previous Error or Warning or Annotation   
 // 일치하는 괄호 ( '{', '}' ) 여는/닫는 부분으로 이동   
-`Ctrl + Shift + P` : Go to Matching Bracket   
+`Ctrl + Shift + P` : Go to Matching Brace   
 // Java Editor의 클래스 내에서 다음 멤버로 이동   
 `Ctrl + Shift + arrow keys ↓ down` : Go to Next Member   
 // 변수나 메소드 선언부로 이동   
