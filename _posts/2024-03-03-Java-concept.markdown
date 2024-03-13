@@ -144,15 +144,15 @@ C Program
    
 ```c
 #include <stdio.h>
-int e[2];           // Variables for English Grade
-int m[2];           // Variables for Math Grade
+int e[2];             // Variables for English Grade
+int m[2];             // Variables for Math Grade
 
 void input_grade()         // a function that receives English and Math grades
 {
-  e[0] = 90;        // the first student's English grade
-  e[1] = 80;        // the second student's English grade
-  m[0] = 85;        // the first student's Math grade
-  m[1] = 80;        // the second student's Math grade
+  e[0] = 90;          // the first student's English grade
+  e[1] = 80;          // the second student's English grade
+  m[0] = 85;          // the first student's Math grade
+  m[1] = 80;          // the second student's Math grade
 }
 
 void output_grade()        // a Function that output total grade
@@ -171,8 +171,8 @@ Java Program
    
 ```java
 class Grade {
-  int e;          // Variables for English Grade
-  int m;          // Variables for Math Grade
+  int e;            // Variables for English Grade
+  int m;            // Variables for Math Grade
 
   void output_grade()     // a method of calculating the sum of grades
   {
@@ -182,10 +182,10 @@ class Grade {
 
 public class Main {
   public static void main(String[] args) {
-    Grade g1, g2;       // Object for expressing the grades of two people
+    Grade g1, g2;           // Object for expressing the grades of two people
     g1 = new Grade();       // Creating objects
     g2 = new Grade();
-    g1.e = 90;        // Enter the grade
+    g1.e = 90;            // Enter the grade
     g1.m = 85;
     g2.e = 80;
     g2.m = 80;
