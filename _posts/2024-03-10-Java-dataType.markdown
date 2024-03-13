@@ -22,7 +22,7 @@ categories: [Java]
 // 변수의 종류   
    
 |Type|Description|
-|:---:|:---|
+|:---|:---|
 |// 데이터 필드<br />// - 인스턴스 변수<br />Data Field<br />- Instance Variable|// 클래스 정의에서 non-static 필드<br />// 개별 객체가 소유한 변수<br />- In class definition, non-static fields<br />- Variables owned by individual objects|
 |// 데이터 필드<br />// - 클래스 변수<br />// (static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수(정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous objects (static variable)|
 |// 지역 변수<br />Local Variable|// 메소드 내부(또는 블록 내부)에서 선언된 변수<br />- Variables declared inside the method (or inside the block)|
