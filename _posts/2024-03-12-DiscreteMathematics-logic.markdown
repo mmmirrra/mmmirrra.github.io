@@ -462,8 +462,8 @@ truth table
 7 . double negation law   
 - ~(~p) ≡ p   
    
-// 멱등법칙   
-8 . idempotent law   
+// 멱등법칙 : 몇번을 연산하든 p의 값이 진리값임   
+8 . idempotent law : No matter how many operations are repeated, the value of p is the truth value   
 - p ∨ p ≡ p   
 - p ∧ p ≡ p   
    
@@ -685,12 +685,12 @@ truth table
 // 1. 다음 추론이 유효한 추론인지 진리표를 이용하여 보이시오.   
 // &nbsp;&nbsp;&nbsp;&nbsp; p → q --> T   
 // &nbsp;&nbsp;&nbsp;&nbsp; q --> T   
-// &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> F   
+// &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> T, F --> F   
 - Example   
   1. Use the truth table to see if the following inference is valid inference.   
     &nbsp;&nbsp;&nbsp;&nbsp; p → q --> T   
     &nbsp;&nbsp;&nbsp;&nbsp; q --> T   
-    &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> T, F   
+    &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> T, F --> F   
    
 |// 결론<br />conclusion|// 전제<br />premise|// 전제<br />premise|
 |:---:|:---:|:---:|
