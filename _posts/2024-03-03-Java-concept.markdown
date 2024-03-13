@@ -144,15 +144,15 @@ C Program
    
 ```c
 #include <stdio.h>
-int e[2];                 // Variables for English Grade
-int m[2];                 // Variables for Math Grade
+int e[2];                   // Variables for English Grade
+int m[2];                   // Variables for Math Grade
 
 void input_grade()         // a function that receives English and Math grades
 {
-  e[0] = 90;              // the first student's English grade
-  e[1] = 80;              // the second student's English grade
-  m[0] = 85;              // the first student's Math grade
-  m[1] = 80;              // the second student's Math grade
+  e[0] = 90;                // the first student's English grade
+  e[1] = 80;                // the second student's English grade
+  m[0] = 85;                // the first student's Math grade
+  m[1] = 80;                // the second student's Math grade
 }
 
 void output_grade()        // a Function that output total grade
