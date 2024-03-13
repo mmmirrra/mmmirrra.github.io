@@ -388,7 +388,7 @@ truth table
 - Example   
   1. Show that the following two propositions are logically equivalent to each other.   
     ① p ∨ (q ∧ r)   
-      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ (q ∧ r) ⇔ (p ∨ q) ∧ (q ∧ r)
+      &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ (q ∧ r) ⇔ (p ∨ q) ∧ (q ∧ r)   
     ② (p ∨ q) ∧ (p ∨ r)   
       &nbsp;&nbsp;&nbsp;&nbsp; Proof is possible by drawing up a truth table   
       &nbsp;&nbsp;&nbsp;&nbsp; (※ distributive law)   
@@ -411,23 +411,23 @@ truth table
 // 논리적 동치법칙   
    
 // 교환법칙   
-1. commutation law   
+1 . commutation law   
 - p ∨ q ≡ q ∨ p   
 - p ∧ q ≡ q ∧ p   
 - p ↔ q ≡ q ↔ p   
    
 // 결합법칙   
-2. associative law   
+2 . associative law   
 - (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)   
 - (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   
    
 // 분배법칙   
-3. distributive law   
+3 . distributive law   
 - p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)   
 - p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)   
    
 // 항등법칙   
-4. identity law   
+4 . identity law   
 - p ∨ F ≡ p   
 - p ∧ T ≡ p   
    
@@ -437,33 +437,33 @@ truth table
 |F|F|
    
 // 지배법칙   
-5. domination law   
+5 . domination law   
 - p ∨ T ≡ T   
 - p ∧ F ≡ F   
    
 // 부정법칙   
-6. negation law   
+6 . negation law   
 - ~T ≡ F   
 - ~F ≡ T   
 - p ∨ (~p) ≡ T   
 - p ∧ (~p) ≡ F   
    
 // 이중 부정 법칙   
-7. double negation law   
+7 . double negation law   
 - ~(~p) ≡ p   
    
 // 멱등법칙   
-8. idempotent law   
+8 . idempotent law   
 - p ∨ p ≡ p   
 - p ∧ p ≡ p   
    
 // 드 모르간 법칙   
-9. de Morgan's law   
+9 . de Morgan's law   
 - ~(p ∨ q) ≡ (~p) ∧ (~q) ⇔ (A∪B)&#11757; = A&#11757;∩B&#11757; 
 - ~(p ∧ q) ≡ (~p) ∨ (~q) ⇔ (A∩B)&#11757; = A&#11757;∪B&#11757;   
    
 // 흡수법칙   
-10. absorption law   
+10 . absorption law   
 - p ∨ (p ∧ q) ≡ p   
 - p ∧ (p ∨ q) ≡ p   
    
@@ -482,7 +482,7 @@ truth table
 |F|F|F|F|
    
 // 함축법칙   
-11. implication law   
+11 . implication law   
 - p → q ≡ ~p ∨ q   
    
 |p|q|p → q|~p|~p ∨ q|
@@ -493,7 +493,7 @@ truth table
 |F|F|T|T|T|
    
 // 대우법칙   
-12. transposition law   
+12 . transposition law   
 - p → q ≡ ~q → ~p   
    
 |p|q|p → q|~q|~p|~q → ~p|
