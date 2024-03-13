@@ -373,7 +373,7 @@ truth table
 - If two propositions p and q are logically equivalent, we call them logical equivalents, and we denote them with 'p ≡ q'   
   - Logically equivalent means that two propositions always have the same truth value   
    
-- p ↔ q (p ⇔ q, p ≡ q)   
+- p ≡ q (== p ↔ q, p ⇔ q)   
    
 #### converse, inverse, contrapositive   
 // 역, 이, 대우   
