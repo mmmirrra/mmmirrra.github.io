@@ -39,7 +39,7 @@ categories: [Discrete Mathematics]
 // ③ 2 + 3 = 7   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제이다. 진리값이 거짓임.   
 // ④ x + 2 = 0   
-// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제가 아니다. 명제함수. x의 값에 따라서 참일 수도 있고, 거짓일 수도 있다.   
+// &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 명제가 아니다. 명제함수이다. x의 값에 따라서 참일 수도 있고, 거짓일 수도 있다.   
 // 2. 다음 명제의 진리값을 구하시오.   
 // ① 2, 3, 6는 소수이다.   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ 거짓. F.   
@@ -58,7 +58,7 @@ categories: [Discrete Mathematics]
     ③ 2 + 3 = 7   
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's a proposition. Truth is false.   
     ④ x + 2 = 0   
-    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's not a proposition. propositional function. Depending on the value of x, it can be true or false.   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ It's not a proposition. It's a propositional function. Depending on the value of x, it can be true or false.   
   2. Find the truth value of the following proposition.   
     ① 2, 3 and 6 are prime numbers.   
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ false. F.   
