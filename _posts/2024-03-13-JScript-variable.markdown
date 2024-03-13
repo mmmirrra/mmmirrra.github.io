@@ -27,7 +27,8 @@ categories: [JScript]
 - In other cases, using var statements to declare variables does not change particularly   
    
 ```javascript
-var mim = "People, plans, canals, Panama!";  // The value stored in mim is in String format
+var mim = "People, plans, canals, Panama!";
+// The value stored in mim is in String format
 // The statement in the quotation marks specified in mim is a string literal
 
 var ror = 3;    // The value stored in the ror is in Number format
@@ -46,9 +47,9 @@ var fif = 2.718281828;   // The value stored in nen is in Number format.
 // - 이어지는 문자로는 영문자, 숫자, 밑줄, 달러 기호를 사용할 수 있음   
 // - 예약어와 같은 이름은 변수에 지정할 수 없음   
 - There is no limit to length, but variable names must follow the following rules   
-- The first character must be either alphabetic (case or lowercase) or underscore (_), or dollar sign ($)   
-- Subsequent characters can include English characters, numbers, underscores, and dollar signs   
-- Names such as reservation words cannot be specified in variables   
+  - The first character must be either alphabetic (case or lowercase) or underscore (_), or dollar sign ($)   
+  - Subsequent characters can include English characters, numbers, underscores, and dollar signs   
+  - Names such as reservation words cannot be specified in variables   
    
 // 유효한 변수 이름 예시   
 - Valid variable name example   
@@ -131,12 +132,12 @@ nowWhat += 1 + "10";
 // 5. 이 결과를 nowWhat에 저장   
 - Running this code will include "0110" in the nowWhat variable   
 - To achieve these results, take the following steps   
-  - 1. Look at the format of 1 and "10". Translate numbers into strings because "10" is a string and 1 is a number   
-  - 2. + Combine strings because there are strings on both sides of the operator. The result is "110"   
-  - 3. += View the format of the value on both sides of the operator. 
+  - 1 . Look at the format of 1 and "10". Translate numbers into strings because "10" is a string and 1 is a number   
+  - 2 . + Combine strings because there are strings on both sides of the operator. The result is "110"   
+  - 3 . += View the format of the value on both sides of the operator. 
 NowWhat contains a number, and "110" is a string, so we convert a number into a string   
-  - 4. += Combine strings because there are strings on both sides of the operator. The result is "0110"   
-  - 5. Save this result to nowWhat   
+  - 4 . += Combine strings because there are strings on both sides of the operator. The result is "0110"   
+  - 5 . Save this result to nowWhat   
    
 ```javascript
 var nowThen = 0;
