@@ -674,12 +674,12 @@ truth table
    
 |// 법칙이름<br />rule name|// 추론법칙<br />rule of inference|// 항진명제<br />tautology proposition|
 |:---|:---|:---|
-|// 선언적 부가<br />disjunctive addition|p<br />--> ∴ p ∨ q<br />※ If p is true, p ∨ q is true|p → (p ∨ q)|
-|// 단순화<br />simplication|p ∧ q<br />--> ∴ p<br />※ If p ∧ q is true, p is true|(p ∧ q) → p|
-|// 긍정논법<br />modus ponens|p<br />p → q<br />--> ∴ q<br />※ If p and p → q is true, q is true|(p ∧ (p → q)) → q|
-|// 부정논법<br />modus tollens|~q<br />p → q<br />--> ∴ ~p<br />※ If ~q and p → q is true, ~p is true|(~q ∧ (p → q)) → ~p|
-|// 선언적 삼단논법 또는 소거<br />disjunctive syllogism|p ∨ q<br />~p<br />--> ∴ q<br />※ If p ∨ q and ~p is true, q is true|((p ∨ q) ∧ ~p) → q|
-|// 가설적 삼단논법 또는 추이<br />hypothetical syllogism|p → q<br />q → r<br />--> ∴ p → r<br />--> ∴ q<br />※ If p → q and q → r is true, p → r is true|((p → q) ∧ (q → r)) → (p → r)|
+|// 선언적 부가<br />disjunctive addition|p<br />--> ∴ p ∨ q|p → (p ∨ q)<br />※ If p is true, p ∨ q is true|
+|// 단순화<br />simplication|p ∧ q<br />--> ∴ p|(p ∧ q) → p<br />※ If p ∧ q is true, p is true|
+|// 긍정논법<br />modus ponens|p<br />p → q<br />--> ∴ q|(p ∧ (p → q)) → q<br />※ If p and p → q is true, q is true|
+|// 부정논법<br />modus tollens|~q<br />p → q<br />--> ∴ ~p|(~q ∧ (p → q)) → ~p<br />※ If ~q and p → q is true, ~p is true|
+|// 선언적 삼단논법 또는 소거<br />disjunctive syllogism|p ∨ q<br />~p<br />--> ∴ q|((p ∨ q) ∧ ~p) → q<br />※ If p ∨ q and ~p is true, q is true|
+|// 가설적 삼단논법 또는 추이<br />hypothetical syllogism|p → q<br />q → r<br />--> ∴ p → r<br />--> ∴ q|((p → q) ∧ (q → r)) → (p → r)<br />※ If p → q and q → r is true, p → r is true|
    
 // 예시   
 // 1. 다음 추론이 유효한 추론인지 진리표를 이용하여 보이시오.   
