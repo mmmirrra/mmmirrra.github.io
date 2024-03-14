@@ -28,7 +28,7 @@ Symbols for performing specific operations
 |comparison operator|a > b|two-term|boolean|// 피연산자a가 큰지 검사<br />- Check if operand a is large|
 |comparison operator|a >= b|two-term|boolean|// 피연산자a가 크거나 같은지 검사<br />- Check operand a for greater or equal|
 |comparison operator|a < b|two-term|boolean|// 피연산자a가 작은지 검사<br />- Check if operand a is small|
-|comparison operator|a <= b|two-term|boolean|// 피연산자a가 작거나 같은지 검사<br />- Check if operand a is small or equal|
+|comparison operator|a <= b|two-term|boolean|// 피연산자a가 작거나 같은지 검사<br />- Check if operand a is smaller or equal|
 |comparison operator|==|two-term|boolean|// 두 피연산자의 값이 같은지 검사<br />- Check if the values of the two operands are the same|
 |comparison operator|!=|two-term|boolean|// 두 피연산자의 값이 다른지 검사<br />- Check if the values of the two operands are the different|
 |comparison operator|instanceof|two-term|boolean|// 값의 비교<br />- Comparison of values|
@@ -42,7 +42,7 @@ Symbols for performing specific operations
 |bit logic<br />(bit operator)|~|one-term|number|// 비트 NOT 논리부정 연산 : 1을 0으로, 0을 1로<br />- Bit NOT (logical denial) operation : 1 to 0 and 0 to 1|
 |bit logic<br />(bit operator)|a & b|two-term|number|// 비트 AND 논리곱 연산 : 두 비트 모두 1이면 1, 아니라면 0<br />- Bit AND : Both bits are 1 if they are 1, and 0 if they are not|
 |bit logic<br />(bit operator)|a \| b|two-term|number|// 비트 OR 논리합 연산 : 두 비트 모두 0이면 0, 아니라면 1<br />- Bit OR : Both bits are 0 if they are 0, and 1 if they are not|
-|bit logic<br />(bit operator)|a^b|two-term|number|// 비트 XOR 배타적 연산 : 두 비트가 다르면 1, 같으면 0<br />- Bit XOR : If the two bits are different, it's 1 and if it's the same, it's 0|
+|bit logic<br />(bit operator)|a ^ b|two-term|number|// 비트 XOR 배타적 연산 : 두 비트가 다르면 1, 같으면 0<br />- Bit XOR : If the two bits are different, it's 1 and if it's the same, it's 0|
 |move the bit<br />(bit operator)|a＜＜b|two-term|number|// 산술적 시프트 : a의 각 비트를 b번 왼쪽으로 이동, 오른쪽 빈자리는 0으로 채움, 2를 b번 곱한 결과<br />- Arithmetic shift : Move each bit of a to the left b times, and fill the right blank with zero. The result of multiplying 2 by b times|
 |move the bit<br />(bit operator)|a＞＞b|two-term|number|// 산술적 시프트 : a의 각 비트를 b번 오른쪽으로 이동, 왼쪽 빈자리는 최상위 부호비트와 같은 값으로 채움, 2를 b번 나눈 결과<br />- Arithmetic shift : Move each bit of a to the right b times, and fill the left blank with the same value as the most higtest code bit. The result of dividing 2 by b times|
 |move the bit<br />(bit operator)|a ＞＞＞ b|two-term|number|// 논리적 산술적 시프트 : a의 각 비트를 b번 오른쪽으로 이동, 왼쪽 빈자리는 0으로 채움<br />- Logical Arithmetic shift : Move each bit of a to the right b times and fill the left blank with zero|
