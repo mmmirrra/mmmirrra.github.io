@@ -126,10 +126,10 @@ for(key in myArray)
 var MyArray = {"a" : "Athens", "b" : "Belgrade", "c" : "Cairo"};
 ```
    
-// 이 배열에서는 배열 요소 번호(0, 1, 또는 2) 대신 키 문자열("a", "b", "c")을 사용하여 요소의 주소가 지정됨   
+// 이 배열에서는 배열 요소 번호(0, 1, 2) 대신 키 문자열("a", "b", "c")을 사용하여 요소의 주소가 지정됨   
 // 이것은 좀 더 직관적인 주소 지정 구성표를 지닌 배열을 만들어 사용할 수 있게 해줌   
 // 위에서 예시한 for...in 문 코드 또한 이 배열을 반복 수행하는데 사용할 수 있음   
-- In this array, elements are addressed using key strings ("a", "b", "c") instead of array element numbers (0, 1, or 2)   
+- In this array, elements are addressed using key strings ("a", "b", "c") instead of array element numbers (0, 1, 2)   
 - This makes it possible to create and use arrays with more intuitive addressing schemes   
 - The for...in statement code illustrated above can also be used to repeat this arrangement   
    
