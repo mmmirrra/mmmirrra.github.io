@@ -96,13 +96,13 @@ hours += (theHour >= 12) ? " 오후" : " 오전";
 #### Tip   
    
 // 여러 개의 조건을 함께 테스트해야 하고 테스트가 OR(\|\|)로 연결되는지 또는 AND(&&)로 연결되는지에 따라 한 조건이 다른 나머지 조건보다 실패 또는 성공할 가능성이 높다는 것을 알고 있는 경우, 해당 조건을 조건문의 처음에 두면 스크립트 실행 속도가 빨라질 수 있음   
-- If you need to test multiple conditions together, and you know that one condition is more likely to fail or succeed than the other, depending on whether the test is connected to OR(||) or AND(&&), you can speed up script execution if you put that condition expression at the beginning of the condition statement   
+- If you need to test multiple conditions together, and you know that one condition is more likely to fail or succeed than the other, depending on whether the test is connected to OR(\|\|) or AND(&&), you can speed up script execution if you put that condition expression at the beginning of the condition statement   
    
 // 예를 들어, 3가지 조건이 모두 true이어야 할 경우(&& 연산자 사용) 두번째 테스트에 실패하면 세번째 조건은 테스트되지 않음   
-// 이와 유사하게 여러 조건 중에 한 조건이 true 이어야 할 경우(|| 연산자 사용), 어느 하나의 조건이 테스트를 통과하게 되면 테스트는 멈추게 됨   
+// 이와 유사하게 여러 조건 중에 한 조건이 true 이어야 할 경우(\|\| 연산자 사용), 어느 하나의 조건이 테스트를 통과하게 되면 테스트는 멈추게 됨   
 // 이것은 테스트할 조건에 함수 호출 또는 다른 코드의 실행을 포함하고 있을 경우에 특히 효과적임   
 - For example, if all three conditions must be true (using && operators), if the second test fails, the third condition is not tested   
-- Similarly, if one of the conditions has to be true (using || operators), the test will stop if either condition passes the test   
+- Similarly, if one of the conditions has to be true (using \|\| operators), the test will stop if either condition passes the test   
 - This is particularly effective if the conditions to be tested include function calls or the execution of other codes   
    
 // 짧은 길이로 문을 구성하는데 따른 부작용은 아래 예제에서 runfirst()가 0 또는 false를 반환하면 runsecond가 실행되지 않는다는 것임   
