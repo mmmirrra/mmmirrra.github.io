@@ -11,8 +11,8 @@ categories: [Java]
 // 프로그램을 실행할 때 전달하는 인자   
 // main() 함수에 전달되는 인자   
 // 문자열로 전달됨   
-- Parameters passed when running a program   
-- Parameters passed to the main() function   
+- Arguments passed when running a program   
+- Arguments passed to the main() function   
 - Forwarded as a string   
    
 ```java

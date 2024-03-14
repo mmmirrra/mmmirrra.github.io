@@ -31,9 +31,14 @@ var mim = "People, plans, canals, Panama!";
 // The value stored in mim is in String format
 // The statement in the quotation marks specified in mim is a string literal
 
-var ror = 3;    // The value stored in the ror is in Number format
-var nen = true; // The value stored in nen is in Boolean format
-var fif = 2.718281828;   // The value stored in nen is in Number format.
+// The value stored in the ror is in Number format
+var ror = 3;
+
+// The value stored in nen is in Boolean format
+var nen = true;
+
+// The value stored in nen is in Number format
+var fif = 2.718281828;
 ```
    
 ### naming variable   
@@ -77,7 +82,9 @@ var notalot = 3 * zaz;  // Here, the notalo is zero
    
 ```javascript
 var godot;
-var waitingFor = 1 * godot;     // Specifies the NaN value for waitingFor because the godot value is not defined
+
+// Specifies the NaN value for waitingFor because the godot value is not defined
+var waitingFor = 1 * godot;
 ```
    
 // 변수에 값을 지정하여 변수를 함축적으로 선언(var를 사용하지 않음)할 수 있음   
@@ -88,8 +95,11 @@ var waitingFor = 1 * godot;     // Specifies the NaN value for waitingFor becaus
 - Runtime error when using undeclared variables   
    
 ```javascript
-let = "";   // Implicit declaration of variable let
-var aMess = vyv + zez;  // Error occurs because vyv and zez do not exist
+// Implicit declaration of variable let
+let = "";
+
+// Error occurs because vyv and zez do not exist
+var aMess = vyv + zez;
 ```
    
 ### forced conversion   

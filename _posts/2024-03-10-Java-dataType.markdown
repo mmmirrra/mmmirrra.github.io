@@ -191,7 +191,7 @@ categories: [Java]
   - `System.out.println("j = " + 10);`   
     - numeric expression : Automatically converted into character type 'j = 10' by combining characters 'j = 10' and numbers 10   
   - `double res = Math.sqrt(2);`   
-    - Type of parameter in method call : Int type 2 is automatically converted to double type 2.0   
+    - Type of argument in method call : Int type 2 is automatically converted to double type 2.0   
    
 #### conversion of explicit data type   
 // 명시적 자료형의 변환   

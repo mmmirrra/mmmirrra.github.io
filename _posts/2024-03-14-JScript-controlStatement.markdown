@@ -215,7 +215,10 @@ for (j in tagliatelleVerde)
    
 ```javascript
 var theMoments = "";
-var theCount = 42;  // Initializes the counter variable
+
+// Initializes the counter variable
+var theCount = 42;
+
 while (theCount >= 1) {
     if(theCount > 1) {
         theMoments = theCount + " element" + " is left";
@@ -223,7 +226,9 @@ while (theCount >= 1) {
     else {
         theMoments = "One element is left";
     }
-    theCount--; // Updates the counter variables
+
+    // Updates the counter variables
+    theCount--;
 }
 theMoments = "BLASTOFF!";
 ```
