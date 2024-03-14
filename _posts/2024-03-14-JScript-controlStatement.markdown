@@ -95,7 +95,7 @@ hours += (theHour >= 12) ? " 오후" : " 오전";
    
 #### Tip   
    
-// 여러 개의 조건을 함께 테스트해야 하고 테스트가 OR(||)로 연결되는지 또는 AND(&&)로 연결되는지에 따라 한 조건이 다른 나머지 조건보다 실패 또는 성공할 가능성이 높다는 것을 알고 있는 경우, 해당 조건을 조건문의 처음에 두면 스크립트 실행 속도가 빨라질 수 있음   
+// 여러 개의 조건을 함께 테스트해야 하고 테스트가 OR(\|\|)로 연결되는지 또는 AND(&&)로 연결되는지에 따라 한 조건이 다른 나머지 조건보다 실패 또는 성공할 가능성이 높다는 것을 알고 있는 경우, 해당 조건을 조건문의 처음에 두면 스크립트 실행 속도가 빨라질 수 있음   
 - If you need to test multiple conditions together, and you know that one condition is more likely to fail or succeed than the other, depending on whether the test is connected to OR(||) or AND(&&), you can speed up script execution if you put that condition expression at the beginning of the condition statement   
    
 // 예를 들어, 3가지 조건이 모두 true이어야 할 경우(&& 연산자 사용) 두번째 테스트에 실패하면 세번째 조건은 테스트되지 않음   
