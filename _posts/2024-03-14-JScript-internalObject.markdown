@@ -233,9 +233,9 @@ if(daysLeft == daysInYear)
    
 |Property|Description|
 |:---|:---|
-|MAX_VALUE|// 가능한 가장 큰 숫자<br />// 약 1.79E+308<br />// 양수일 수도 있고 음수일 수도 있음<br />// 시스템마다 약간씩 다름<br />- the greatest possible number<br />- Approximately 1.79E+308<br />- Can be positive or negative<br />- Slightly different from system to system|
-|MIN_VALUE|// 가능한 가장 작은 숫자<br />// 약 2.22E-308<br />// 양수일 수도 있고 음수일 수도 있음<br />// 시스템마다 약간씩 다름<br />- the smallest possible number<br />- Approximately 2.22E-308<br />- Can be positive or negative<br />- Slightly different from system to system|
-|NaN|// 숫자가 아닌 특별한 값<br />- a special value, not a number|
+|MAX_VALUE|// 가능한 가장 큰 숫자<br />// 약 1.79E+308<br />// 양수일 수도 있고 음수일 수도 있음<br />// 시스템마다 약간씩 다름<br />- The greatest possible number<br />- Approximately 1.79E+308<br />- Can be positive or negative<br />- Slightly different from system to system|
+|MIN_VALUE|// 가능한 가장 작은 숫자<br />// 약 2.22E-308<br />// 양수일 수도 있고 음수일 수도 있음<br />// 시스템마다 약간씩 다름<br />- The smallest possible number<br />- Approximately 2.22E-308<br />- Can be positive or negative<br />- Slightly different from system to system|
+|NaN|// 숫자가 아닌 특별한 값<br />- A special value, not a number|
 |POSITIVE_INFINITY|// Number.MAX_VALUE보다 큰 양수는 모두 자동으로 이 값으로 변환됨<br />// "Inf"로 표시됨<br />- Any positive number greater than Number.MAX_VALUE is automatically converted to this value<br />- Marked as "Inf"|
 |NEGATIVE_INFINITY|// -Number.MAX_VALUE보다 큰 음수는 모두 자동으로 이 값으로 변환됨<br />// "-Inf"로 표시됨<br />- Any negative number greater than -Number.MAX_VALUE is automatically converted to this value<br />- Marked as "-Inf"|
    
