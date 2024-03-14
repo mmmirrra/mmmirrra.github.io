@@ -17,7 +17,7 @@ categories: [JScript]
 // JScript 키워드   
    
 ```javascript
-break   false   in  this    void
+break   false   in      this    void
 continue    for     new     true    while
 delete  function    null    typeof  with
 else    if  return  var
@@ -27,7 +27,7 @@ else    if  return  var
 // JScript 예비 키워드   
    
 ```javascript
-case    debugger    export  super
+case    debugger    export      super
 catch   default     extends     switch
 class   do      finally     throw
 const   enum    import  try
