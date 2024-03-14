@@ -18,7 +18,7 @@ categories: [JScript]
    
 ```javascript
 break   false   in  this    void
-continue    for new true    while
+continue    for     new     true    while
 delete  function    null    typeof  with
 else    if  return  var
 ```
@@ -28,8 +28,8 @@ else    if  return  var
    
 ```javascript
 case    debugger    export  super
-catch   default extends switch
-class   do  finally throw
+catch   default     extends     switch
+class   do      finally     throw
 const   enum    import  try
 ```
    
