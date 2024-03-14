@@ -58,11 +58,11 @@ project 'FirstStep'
 // 가상함수로 정의된 소멸자를 가진 기초 클래스를 상속받는 상세 클래스 예제   
 `DrvClass.h` : Example of a detail Class that inherits a Base Class with an Destructor defined as a Virtual Function   
 // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - public 상속   
-`Drvd1.h` : Example of determining the range of availability based on permission settings during Class inheritance - public inheritance   
+`Drvd1.h` : Example of determining the scope of availability based on permission settings during Class inheritance - public inheritance   
 // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - protected 상속   
-`Drvd2.h` : Example of determining the range of availability based on permission settings during Class inheritance - protected inheritance   
+`Drvd2.h` : Example of determining the scope of availability based on permission settings during Class inheritance - protected inheritance   
 // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - private 상속   
-`Drvd3.h` : Example of determining the range of availability based on permission settings during Class inheritance - private inheritance   
+`Drvd3.h` : Example of determining the scope of availability based on permission settings during Class inheritance - private inheritance   
 // 추상 클래스 - 도형을 그릴 수 있는 클래스에 대한 추상 클래스   
 `Figure.h` : Abstract Class - Abstract Class for Class that can draw shapes   
 // 추상 클래스 - 도형의 그래픽 속성을 지정할 수 있는 클래스에 대한 추상 클래스   

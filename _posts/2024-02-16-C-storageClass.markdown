@@ -8,10 +8,10 @@ categories: [C]
 storage class : How to assign a variable to a specific area of storage space   
    
 #### Depending on where the variable is used   
- - local variable : Variables used only within a specific range. Only available within a declared block or function. Parameters used in the function are also local variable.   
+ - local variable : Variables used only within a specific scope. Only available within a declared block or function. Parameters used in the function are also local variable.   
  - global variable : Variables that are declared outside the function or in external files and used throughout the program.   
    
-#### Depending on the initialization, duration and range of validity of the variable   
+#### Depending on the initialization, duration and scope of validity of the variable   
  : Example of use : storageClass datatype variable   
    
 |Type of storage class for a variable|Example of use|Description|

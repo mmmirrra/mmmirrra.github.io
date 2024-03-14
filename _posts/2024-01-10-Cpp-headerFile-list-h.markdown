@@ -311,7 +311,7 @@ public:
    
 <br />
 // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - public 상속   
-`Drvd1.h` : Example of determining the range of availability based on permission settings during Class inheritance - public inheritance   
+`Drvd1.h` : Example of determining the scope of availability based on permission settings during Class inheritance - public inheritance   
    
 ```cpp
 #pragma once
@@ -332,7 +332,7 @@ public:
    
 <br />
 // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - protected 상속   
-`Drvd2.h` : Example of determining the range of availability based on permission settings during Class inheritance - protected inheritance   
+`Drvd2.h` : Example of determining the scope of availability based on permission settings during Class inheritance - protected inheritance   
    
 ```cpp
 #pragma once
@@ -353,7 +353,7 @@ public:
    
 <br />
 // 클래스 상속 시 권한 설정에 따른 사용가능범위 확인하는 예제 - private 상속   
-`Drvd3.h` : Example of determining the range of availability based on permission settings during Class inheritance - private inheritance   
+`Drvd3.h` : Example of determining the scope of availability based on permission settings during Class inheritance - private inheritance   
    
 ```cpp
 #pragma once

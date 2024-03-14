@@ -29,7 +29,7 @@ categories: [Java]
 |// 파라미터<br />Parameter|// 메소드 호출 시 전달하는 값을 저장하기 위한 변수<br />- Variables to store the values that are passed on method calls|
    
 <br />
-### Range of Use of Variables   
+### Scope of Use of Variables   
 // 변수의 사용 범위   
    
 #### Local Variable and Parameter   
