@@ -60,7 +60,7 @@ theFirstLine = theListing[1];
 - In the example below, two arrays are created   
 - One for name and the other for address, which uses a list of address books   
 - Each array has four properties   
-- For example, an instance of theName created in a property from [Name1] to [Naem4] in theListing can include "G.", "Edward", "Heatherington", "IV" or "George", or "Sand"   
+- For example, an instance of theName created in a property from [Name1] to [Naem4] in theListing can include "G.", "Edward", "Heatherington", "IV" or "George", "Sand"   
    
 ```javascript
 theListing = addressBook[entryNum];
