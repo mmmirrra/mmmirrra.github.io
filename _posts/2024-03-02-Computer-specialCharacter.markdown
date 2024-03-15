@@ -47,9 +47,9 @@ _ Underscore / Underline
 + Plus Sign
 
 <!-- 쿼테이션 마크 - 큰 따옴표 -->
-" Quotation Mark
+" Quotation Mark. Double quotation marks 
 <!-- 어퍼스트로피 - 작은 따옴표 -->
-` Apostrophe
+` Apostrophe. Single quotation marks
 <!-- 콤마 - 쉼표, 콤마 -->
 , Comma
 <!-- 피리어드 / 풀 스탑 - 점, 마침표 -->

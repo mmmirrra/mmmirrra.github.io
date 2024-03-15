@@ -18,11 +18,11 @@ categories: [JScript]
 ### String data format   
 // String 데이터 형식   
    
-// 문자열은 작은따옴표나 큰따움표를 사용하여 표현   
+// 문자열은 작은따옴표나 큰따옴표를 사용하여 표현   
 // 따옴표를 포함한 문자열을 표현하려면 작은따옴표를 사용함   
 // JScript에서는 문자열도 개체인데, 특별한 속성을 가지고 있으며 특별한 경우에 사용함   
-- A string is represented by a small quotation mark or big quotation Mark   
-- Use small quotation mark to express a string that contains big quotation Mark   
+- A string is represented by a single quotation marks or double quotation marks  
+- Use single quotation marks to express a string that contains quotation marks   
 - In JScript, strings are also objects, which have special properties and are used in special cases   
    
 // 문자열 예시   

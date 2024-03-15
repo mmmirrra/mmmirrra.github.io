@@ -74,7 +74,7 @@ aGoodIdea = "Complete the comments"; // This is a one-line comment.
     // 따옴표는 리터럴의 일부분이 아닙니다.
     - This is a multi-line comment that describes the code statement
     - This statement specifies a value for the aGoodIdea variable
-    - Values between quotes are called literal
+    - Values between quotation marks are called literal
     - Literals have explicit and direct information
     - In other words, it does not refer indirectly to the information
     - Quotation marks are not part of a literal
