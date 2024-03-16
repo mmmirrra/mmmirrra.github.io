@@ -37,7 +37,7 @@ categories: [JScript]
 - Therefore, values with different formats are not the same in the equation in the example below, but the result is true   
    
 ```javascript
-"1--" == 100
+"100" == 100
 false == 0
 ```
    
