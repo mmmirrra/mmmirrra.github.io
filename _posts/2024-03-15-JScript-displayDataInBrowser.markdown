@@ -36,7 +36,7 @@ document.write();
 // 이 함수는 사용자가 쓰려는 것이 정의되지 않았는지 여부를 알려주지는 않지만 `w();` 명령을 수행할 수는 있음   
 // `w();` 명령은 빈 줄을 표시함   
 - The simple function below shows how to enter `document.write` whenever there is something to display in the browser window   
-- This function does not confirm whether what the user is trying to write is defined, but it can execute the command 'w();'   
+- This function does not confirm whether what the user is trying to write is defined, but it can execute the command `w();`   
 - Command `w();` shows empty lines   
    
 ```javascript
