@@ -60,11 +60,11 @@ else window.alert("Goodbye!");
 // 프롬프트 메시지 상자는 프롬프트에 대한 답변을 입력할 수 있는 텍스트 필드를 제공함   
 // 이 메시지 상자에는 확인 단추와 취소 단추가 있음   
 // 사용자가 두번째 문자열 인수를 입력하면 프롬프트 메시지 상자는 텍스트 필드에 두번째 문자열을 기본 응답으로 표시함   
-// 그렇지 않으면 기본 텍스트는 "<undefined>"임   
+// 그렇지 않으면 기본 텍스트는 `<undefined>`임   
 - The prompt message box provides a text field for users to enter answers to prompts   
 - This message box has a confirmation button and a cancel button   
 - When a user enters a second string argument, the prompt message box displays the second string as the default response in the text field   
-- Otherwise, the default text is "<undefined>"   
+- Otherwise, the default text is `<undefined>`   
    
 // alert() 메서드 및 confirm() 메서드와 같이 prompt 메서드는 모달이므로, 작업을 계속하려면 프롬프트 메시지 상자를 닫아야 함   
 - As with the alert() method and confirm() method, the prompt message box must be closed to continue the operation because the prompt method is a modal   
