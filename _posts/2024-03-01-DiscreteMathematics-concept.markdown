@@ -166,7 +166,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
    
 |// 할당문<br />Assignment Statement|// 제어문<br />Control Statement|
 |:---|:---|
-|ex) K = 100|// 순차문<br />Sequence Statement<br /><br />// 조건문<br />Selection<br /><br />// 반복문<br />Iteration Statement|
+|e.g.) K = 100|// 순차문<br />Sequence Statement<br /><br />// 조건문<br />Selection<br /><br />// 반복문<br />Iteration Statement|
    
 #### 3 Control Structures   
 // 3가지 제어구조   

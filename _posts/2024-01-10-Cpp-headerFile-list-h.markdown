@@ -18,7 +18,7 @@ project 'FirstStep'
 #include <iostream>
 using namespace std;
 
-class AClass {		// 추상 클래스 - 객체를 만들 수 없음. ex. AClass objA; 컴파일 시 오류 발생
+class AClass {		// 추상 클래스 - 객체를 만들 수 없음. e.g. AClass objA; 컴파일 시 오류 발생
 public:
 	virtual void vf() const = 0;		// 순수가상함수
 	void f1() const {			// 일반함수
@@ -95,7 +95,7 @@ class Buffer {
 #include "AClass.h"
 using namespace std;
 
-class CClass : public AClass {	// 상세 클래스 - 순수가상함수를 포함하지 않는 클래스. 상위 클래스의 순수가상함수는 재정의 필요. 객체를 만들 수 있음. ex. CClass objC;
+class CClass : public AClass {	// 상세 클래스 - 순수가상함수를 포함하지 않는 클래스. 상위 클래스의 순수가상함수는 재정의 필요. 객체를 만들 수 있음. e.g. CClass objC;
 public:
 	void vf() const {		// 상위 클래스의 순수가상함수를 재정의 함
 		cout << "Implementing a Pure Virtual Function" << endl;
@@ -653,7 +653,7 @@ public:
 		buf = new char[len + 1];	// 문자열 길이만큼 저장공간 할당 - null 캐릭터가 들어갈 1 만큼의 저장공간 더해서 할당
 		strcpy(buf, str);		// 문자열 복사
 	}
-	// explicit MyString(const char* str) {}	// 이런식으로 맨 앞에 explicit를 넣으면 묵시적인 형변환을 금지할 수 있음. 이 경우 형변환을 하려면 반드시 명시적으로 구현해야 함 ex. str = MyString{ "Programming" }; str = static cast<MyString>("Programming");
+	// explicit MyString(const char* str) {}	// 이런식으로 맨 앞에 explicit를 넣으면 묵시적인 형변환을 금지할 수 있음. 이 경우 형변환을 하려면 반드시 명시적으로 구현해야 함 e.g. str = MyString{ "Programming" }; str = static cast<MyString>("Programming");
 	MyString(const MyString& mstr) : len(mstr.len), bufSize(mstr.len) {	// 복사 생성자 - 딮 카피 deep copy
 		buf = new char[len + 1];
 		strcpy(buf, mstr.buf);

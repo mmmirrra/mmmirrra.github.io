@@ -87,7 +87,7 @@ Used to represent different metadata for web documents
 ```html
 <base href="http://abc.com">
 <body>
-  <a href="ex.html"> ----> <a href="http://abc.com/ex.html">
+  <a href="eg.html"> ----> <a href="http://abc.com/eg.html">
 </body>
 ```
    
@@ -97,7 +97,7 @@ Used to represent different metadata for web documents
 ```html
 <base target="_blank">
 <body>
-  <a href="ex.html"> ----> Open in a new window
+  <a href="eg.html"> ----> Open in a new window
 </body>
 ```
    

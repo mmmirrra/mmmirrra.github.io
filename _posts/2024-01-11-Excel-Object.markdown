@@ -19,5 +19,5 @@ Large range of Object -->>> Small range of Object
    
 // 셀을 여러개 선택하면 range를 사용할 수 있음   
 - Multiple cells can be selected to use range   
-  // ex) range("1").Select 라고 하면 해당 셀의 위치로 이동   
-  ex) Type `range("1").Select` to move to the location of the cell   
+  // e.g.) range("1").Select 라고 하면 해당 셀의 위치로 이동   
+  e.g.) Type `range("1").Select` to move to the location of the cell   
