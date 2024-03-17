@@ -8,6 +8,7 @@ categories: [Computer]
 ### Encoding system   
 // 인코딩 체계   
    
+<br />
 ### ASCII   
 // 아스키코드   
    

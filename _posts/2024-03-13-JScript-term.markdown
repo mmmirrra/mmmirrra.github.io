@@ -17,6 +17,7 @@ categories: [JScript]
   - The JScript function carries the address of a newly created object through this keyword   
 - Use the Configurator when initializing a new object   
    
+<br />
 ### intrinsic object   
 // 내부 개체   
    
@@ -25,6 +26,7 @@ categories: [JScript]
 - Objects that are part of the standard JScript language, available for all scripts   
 - JScript intrinsic object types include Array, Boolean, Data, Function, Global, Math, Number, Object, RegExp, Regular Expression, String   
    
+<br />
 ### wrapper   
 // 래퍼   
    
@@ -33,12 +35,14 @@ categories: [JScript]
 - Objects created to provide object style interfaces to some other data formats   
 - Wrapper object types include Number and Boolean objects   
    
+<br />
 ### local time   
 // 로컬 시간   
    
 // 스크립트를 실행하는 클라이언트나 서버의 시스템 시간   
 - The system time of the client or server running the script   
    
+<br />
 ### locale   
 // 로케일   
    
@@ -54,6 +58,7 @@ categories: [JScript]
   - Load locale affects the language of terms such as keywords to define locale-specific settings such as decimal points, list delimiter, date format, and character sorting order   
   - System locale affects how locale recognition functions work. For example, displaying numbers or converting a string to a date. Use the control panel utility provided by the operating system to set up the system locale   
    
+<br />
 ### run-time error   
 // 런타임 오류   
    
@@ -62,6 +67,7 @@ categories: [JScript]
 - This is an error that occurs during code execution   
 - Runtime error occurs when a statement in a program attempts an incorrect operation   
    
+<br />
 ### string expression   
 // 문자식   
    
@@ -70,6 +76,7 @@ categories: [JScript]
 - An expression that evaluates a series of consecutive strings   
 - An element of a character expression can use a function that returns a string, a string literal, a string object, or a string variable   
    
+<br />
 ### string comparison   
 // 문자열 비교   
    
@@ -80,12 +87,14 @@ categories: [JScript]
 - All string comparisons are binary unless you specify a function that performs a comparison   
 - For English, binary comparisons are case sensitive, but text comparisons are not case sensitive   
    
+<br />
 ### character code   
 // 문자 코드   
    
 // ASCII 문자 집합과 같이 특정 문자 집합을 나타내는 일련의 숫자   
 - A series of numbers representing a particular set of characters, such as an ASCII character set   
    
+<br />
 ### scope   
 // 범위   
    
@@ -94,6 +103,7 @@ categories: [JScript]
 - Define the visibility of a variable, procedure, or object   
 - Variables that are declared in a function are visible only within that function and lose values between calls   
    
+<br />
 ### variable   
 // 변수   
    
@@ -102,6 +112,7 @@ categories: [JScript]
 - Where to store and adjust values by name   
 - JScript has fewer format restrictions, allowing multiple types of data formats to be used for one variable throughout the script   
    
+<br />
 ### compound statement   
 // 복합문   
    
@@ -110,6 +121,7 @@ categories: [JScript]
 - A series of statements bound by brace ({})   
 - Can be used when you need to do multiple things with one statement   
    
+<br />
 ### Boolean expression   
 // 부울식   
    
@@ -127,6 +139,7 @@ categories: [JScript]
   - null and undefined are considered false   
 - If there is a number or zero, it is considered false   
    
+<br />
 ### comparison operator   
 // 비교연산자   
    
@@ -135,18 +148,21 @@ categories: [JScript]
 - a character or symbol that represents a relationship between two or more values or expressions   
 - Comparison operators have smaller (<), smaller or equal (<=), larger (>), larger or equal (>=), not equal (!==), and equal (==)   
    
+<br />
 ### Bitwise comparison   
 // 비트 비교   
    
 // 두 수식에서 같은 위치에 있는 비트를 비트별로 비교함   
 - Bits in the same position are compared bit by bit in both equations   
    
+<br />
 ### user-defined object   
 // 사용자 정의 개체   
    
 // 원본 코드에서 사용자가 만드는 개체   
 - Object created by the user in the source code   
    
+<br />
 ### property   
 // 속성   
    
@@ -155,6 +171,7 @@ categories: [JScript]
 - Named Object Properties   
 - Attributes define an object's characteristics, such as size, color, screen location, and the state of the object, such as enabled or disabled   
    
+<br />
 ### numeric expression   
 // 수식   
    
@@ -165,6 +182,7 @@ categories: [JScript]
 - Elements of an expression include a combination of keywords, variables, literals, and operators that produce numbers   
 - In some cases, strings are also converted to numbers if possible   
    
+<br />
 ### expression   
 // 식   
    
@@ -173,6 +191,7 @@ categories: [JScript]
 - A combination of keywords, operators, variables, and literals that create a string, number, or object   
 - Calculate, adjust characters, call functions, or test data   
    
+<br />
 ### primitive   
 // 원시   
    
@@ -183,12 +202,14 @@ categories: [JScript]
 - Data formats considered primitive by JScript include Number, Boolean, String, and Function   
 - Objects and arrays are not in primitive data format   
    
+<br />
 ### Automation object   
 // 자동화 개체   
    
 // 자동화 인터페이스를 통해 다른 응용 프로그램이나 프로그래밍 도구에 노출되는 개체   
 - Objects exposed to other applications or programming tools via the automation interface   
    
+<br />
 ### comment   
 // 주석   
    
@@ -199,6 +220,7 @@ categories: [JScript]
 - Comment line in JScript usually begins with '//'   
 - Use ' /*' and ' */' delimiter to create multi-line comments   
    
+<br />
 ### class   
 // 클래스   
    
@@ -209,6 +231,7 @@ categories: [JScript]
 - Acting as a template for creating instances of objects at runtime   
 - Classes define the properties of an object and the methods used to control its behavior   
    
+<br />
 ### UTC (Universal Coordinated Time)   
 // 협정 세계 표준시   
    
@@ -217,6 +240,7 @@ categories: [JScript]
 - Time set by WTC (World Time Standard)   
 - Also known as GMT (Greenwich Standard Time)   
    
+<br />
 ### ASCII Character set   
 // ASCII 문자 집합   
    
@@ -225,6 +249,7 @@ categories: [JScript]
 - A set of seven-bit characters used to represent characters and symbols on a standard English keyboard with ASCII (American Standard Code for Information Exchange)   
 - ASCII character set is equal to 128 characters (0 ~ 127) in front of the ANSI character set   
    
+<br />
 ### Undefined   
 // 정의되지 않음   
    

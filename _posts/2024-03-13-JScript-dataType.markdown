@@ -15,6 +15,7 @@ categories: [JScript]
 - an important format : Number, String, Object, Boolean   
 - the rest of the format : null, undefined   
    
+<br />
 ### String data format   
 // String 데이터 형식   
    
@@ -39,6 +40,7 @@ categories: [JScript]
 - String can contain more than 0 Unicode characters   
 - When a string contains no Unicode characters, it is called an empty string ("")   
    
+<br />
 ### Number data format   
 // Number 데이터 형식   
    
@@ -149,6 +151,7 @@ categories: [JScript]
 0x3.45e2
 ```
 
+<br />
 ### Boolean   
 // 부울   
    
@@ -165,12 +168,14 @@ categories: [JScript]
 (false == 0)
 ```
    
+<br />
 ### undefined data format   
 // undefined 데이터 형식   
    
 // undefined 값은 변수가 작성된 후 변수에 값이 지정되기 전에 단순히 변수에 지정되는 값임   
 - The undefined value is simply the value specified in the variable after the variable is created before the value is specified in the variable   
    
+<br />
 ### null data format   
 // null 데이터 형식   
    

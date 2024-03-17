@@ -12,6 +12,7 @@ categories: [JScript]
 - Users can use the write() and writeIn() methods of document objects   
 - In addition, formatting information can be displayed in a form within a browser, as well as in a warning, forward, or confirmation message box   
    
+<br />
 ### Using document.write() and document.writeIn()   
 // document.write()와 document.writeIn() 사용   
    
@@ -106,6 +107,7 @@ window.alert(theHour + " hours, " + theMinute + " minutes, Coordinated Universal
 window.setTimeout("signOut();", 60000);
 ```
    
+<br />
 ### Clear current document   
 // 현재 문서 지우기   
    

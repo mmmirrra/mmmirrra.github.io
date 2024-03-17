@@ -12,6 +12,7 @@ categories: [JScript]
 - Nine internal objects are specifically Array, Boolean, Date, Function, Global, Math, Number, Object, String objects   
 - Each internal object has associated methods and properties   
    
+<br />
 ### Array   
 // Array 개체   
    
@@ -57,6 +58,7 @@ var theMonths = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"
 // Array 키워드로 만든 배열에 요소에 추가하면 JScript는 length 값을 자동으로 변경함   
 - When you add an element to an array created with the Array keyword, JScript automatically changes the length value   
    
+<br />
 ### String   
 // String 개체   
    
@@ -97,6 +99,7 @@ firstLetter = theMonths[5].substring(0, 1);
 var howLong = "Hello World".length;
 ```
    
+<br />
 ### Math   
 // Math 개체   
    
@@ -122,6 +125,7 @@ var circleArea = Math.PI * radius * radius;
 volume = (4/3) * (Math.PI * Math.pow(radius, 3));
 ```
    
+<br />
 ### Date Object   
 // Date 개체   
    
@@ -225,6 +229,7 @@ if(daysLeft == daysInYear)
 }
 ```
    
+<br />
 ### Number   
 // Number 개체   
    

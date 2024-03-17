@@ -8,6 +8,7 @@ categories: [JavaScript Html]
 ### Elements related to image   
 // 이미지와 관련된 요소   
    
+<br />
 ### img   
 // 이미지를 삽입하는 요소   
 // 웹 페이지에 이미지를 삽입할 때 사용   

@@ -65,6 +65,7 @@ var showFun = new pasta("rice", "", 3, "basic", , 12, false);
 */
 ```
    
+<br />
 ### Include methods in definition   
 // 정의에 메서드 포함하기   
    

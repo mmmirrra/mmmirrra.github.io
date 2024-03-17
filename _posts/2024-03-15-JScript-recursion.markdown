@@ -14,7 +14,8 @@ categories: [JScript]
 - The factorial of 0 and 1 is specifically defined as 1   
 - The factorial of any number above is multiplied by one until the number to be calculated is reached, such as '1 * 2 * ..'   
    
-#### Feature Description for Factorial Calculation   
+<br />
+### Feature Description for Factorial Calculation   
 // 계승 계산에 대한 기능 설명   
    
 // "수가 0보다 작으면 계산을 거부하고, 정수가 아니면 소수점 이하를 버린 후의 정수를 사용함. 계승 수가 0 또는 1이면 그 계승값은 1이고, 1보다 크면 그것보다 1 작은 수가 될 때까지 계승값을 곱함"   
@@ -45,7 +46,8 @@ categories: [JScript]
 - You can set up a function that aggregates the number of calls to a self function suspected of being infinite recursive   
 - Automatically shut down the function if the number of times is greater than specified   
    
-#### Another example of a factorial function   
+<br />
+### Another example of a factorial function   
 // 계승 함수의 또다른 예시   
    
 ```javascript

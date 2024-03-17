@@ -15,12 +15,14 @@ categories: [Data Analysis]
 - Continuous variables can be entered as they are because the observed values are numbers   
 - When multiple people participate in encoding, they create and use code book to ensure the consistency of encoding   
    
+<br />
 ### data coding design   
 // 데이터 코딩 설계   
    
 // 조사/실험을 통해서 얻은 데이터를 입력할 때 어떻게 입력해야 더 간편하고, 효과적으로 분석할 수 있는지를 구상하는 것   
 - Envisioning how to input data obtained from research/experiment in a simpler and more effective way to analyze it   
    
+<br />
 ### Examples of coding designs for data   
 // 데이터에 대한 코딩 설계의 예시   
    
@@ -86,6 +88,7 @@ categories: [Data Analysis]
     ⑥ Jeonbuk/Jeonnam   
     ⑦ Jeju   
    
+<br />
 ### Configuring the content of the questionnaire   
 // 설문지의 내용 구성   
    
@@ -121,6 +124,7 @@ categories: [Data Analysis]
   - free format : Variables and Variables Separated by Blank   
   - fixed format : Specify the column in which each variable will be located and enter it   
    
+<br />
 ### Enter as a spreadsheet or database file   
 // 스프레드시트나 데이터베이스 파일로 입력   
    
@@ -129,18 +133,21 @@ categories: [Data Analysis]
 - Easy data input from Excel, etc.   
 - Columns represent variables, rows represent cases   
    
+<br />
 ### Enter data in SPSS   
 // SPSS에서 데이터 입력   
    
 // 직접 데이터를 입력하거나 텍스트 파일, 엑셀 파일 등을 읽을 수 있음   
 - Enter data directly into SPSS. Read text files, Excel files, etc.   
    
+<br />
 ### Enter data in SAS   
 // SAS에서 데이터 입력   
    
 // SAS 편집기에 데이터를 직접 입력하거나 외부 입력 파일을 읽어 옴   
 - Enter data directly into SAS editor or read external input files   
    
+<br />
 ### Enter data in S-Link   
 // S-Link에서 데이터 입력   
    

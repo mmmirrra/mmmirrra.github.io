@@ -13,6 +13,7 @@ categories: [Data Analysis]
 - Structured information gathered on a topic of interest   
 - Data in the general sense refers to structured information on a subject regardless of expression patterns such as figures, characters, or pictures   
    
+<br />
 ### Characteristics of the data   
 // 데이터의 특징   
    
@@ -25,12 +26,14 @@ categories: [Data Analysis]
 - Converting to useful information through the analysis process   
 - Collected through an investigation or experiment and converted into a suitable form   
    
+<br />
 ### statistical data   
 // 통계적 데이터   
    
 // 수치적 계산과 통계적 분석에 알맞은 데이터   
 - Data for numerical calculation and statistical analysis   
    
+<br />
 ### Purpose of Data Analysis   
 // 데이터 분석의 목적   
    

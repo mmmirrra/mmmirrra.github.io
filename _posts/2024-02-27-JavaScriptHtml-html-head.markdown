@@ -8,12 +8,14 @@ categories: [JavaScript Html]
 ### Meta elements included in the head   
 // 헤드 부분에 포함되는 메타 요소   
    
+<br />
 ### title   
 // 브라우저 상단(탭)에 문서의 제목을 표시할 때 사용   
 // 즐겨찾기 제목, 검색 엔진의 출력된 결과 페이지 제목으로도 사용   
 - Use to display the title of a document at the top of your browser (tab)   
 - Favorite title, also used as the title of the results page printed by the search engine   
    
+<br />
 ### link   
 // CSS 스타일 파일(*.css)을 가져와 웹 문서에 적용할 때 사용   
 // 문서의 body 부분에 포함 가능   
@@ -24,6 +26,7 @@ categories: [JavaScript Html]
 <link rel="stylesheet" href="fileName.css">
 ``` 
    
+<br />
 ### style   
 // 웹 문서 전체에 적용할 CSS 스타일을 정의할 때 사용   
 Use to define the CSS style to apply to the entire web document   
@@ -34,6 +37,7 @@ Use to define the CSS style to apply to the entire web document
 </style>
 ```
    
+<br />
 ### script   
 // 자바스크립트 코드를 작성(또는 외부 코드 링크)할 때 사용   
 // 바디 부분에 포함 가능   
@@ -50,6 +54,7 @@ Use to define the CSS style to apply to the entire web document
 <script src="fileName.js"></script>
 ```
    
+<br />
 ### meta   
 // 웹 문서에 대한 다양한 메타 데이터를 나타낼 때 사용   
 Used to represent different metadata for web documents   
@@ -77,6 +82,7 @@ Used to represent different metadata for web documents
 <meta name="author" content="Author Name">
 ```
    
+<br />
 ### base   
 // 1. 웹 문서의 기본 URL 경로 지정   
 1 . Specify the default URL path for a Web document   

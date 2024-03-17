@@ -17,6 +17,7 @@ categories: [Data Analysis]
   - Example : When the weight, intelligence, or employment status of the sampled people are observed and expressed as figures   
 - → The entire data measured is referred to as data   
    
+<br />
 ### Basic Data Terminology   
 // 데이터 관련 기본용어   
    
@@ -49,6 +50,7 @@ Representation of matrix form of data
 - Each row becomes a case (record) and each column becomes a variable (field)   
 - In Case Lim, the "." of the degree of education means a missing value   
    
+<br />
 ### level of measurement   
 // 측정의 수준   
    
@@ -57,6 +59,7 @@ Representation of matrix form of data
   - Depending on the level of measurement, it is divided into nominal scale, ordinal scale, interval scale, and ratio scale   
   - The measurement scale varies the level of information provided and the analytical methods available for data analysis   
    
+<br />
 ### nominal scale   
 // 명목척도, 명명척도   
    
@@ -69,6 +72,7 @@ Representation of matrix form of data
   - Comparison of figures, calculations are meaningless   
   - Example : Gender (male (1), female (2)), athlete's uniform number, religion, support party, residence (large cities, small and medium-sized cities, and rural areas) have no meaning in calculations   
    
+<br />
 ### ordinal scale   
 // 순서척도, 서열척도   
    
@@ -79,6 +83,7 @@ Representation of matrix form of data
 - The figures themselves do not represent any absolute number, amount, size, etc., only the distinction between sequences and relationships is meaningful   
   - Example : a question about the quality of a product or service (very good (5), slightly good (4), usually (3), slightly bad (2), very bad (1))   
    
+<br />
 ### interval scale   
 // 구간척도, 등간척도   
    
@@ -91,6 +96,7 @@ Representation of matrix form of data
 - Absolute zero cannot be defined, only a randomly specified zero   
   - Example : Celsius temperature, IQ, stock index, aptitude test score, etc.   
    
+<br />
 ### ratio scale   
 // 비율척도   
    
@@ -101,6 +107,7 @@ Representation of matrix form of data
 - Absolute zero can be defined   
   - Example : income, weight, height, time, number of visitors, etc.   
    
+<br />
 ### data classification   
 // 데이터의 구분   
    

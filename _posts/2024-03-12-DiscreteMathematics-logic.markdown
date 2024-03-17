@@ -17,6 +17,7 @@ categories: [Discrete Mathematics]
 - predicate logic   
   - propositional function   
    
+<br />
 ### proposition   
 // 명제   
    
@@ -79,6 +80,7 @@ categories: [Discrete Mathematics]
 - conditional proposition (→), conditional proposition (↔)   
 - tautology proposition, contradiction proposition   
    
+<br />
 ### logical operation   
 // 논리 연산   
    
@@ -255,12 +257,14 @@ truth table
 |T|T|
 |F|F|
    
+<br />
 ### compound proposition   
 // 합성명제   
    
 // 하나 이상의 명제와 논리연산자 (∨, ∧, ~(﹁), ⊕, ⊙) 그리고 괄호로 이루어진 명제   
 - a proposition consisting of one or more propositions and logical operators (∨, ∧, ~(﹁), ⊕, ⊙) and parentheses   
    
+<br />
 ### conditional proposition (→)   
 // 조건명제 (→)   
    
@@ -321,6 +325,7 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; the capital of Korea is Colombo --> ∴ F   
       &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ T   
    
+<br />
 ### conditional proposition (↔)   
 // 쌍조건명제 (↔)   
    
@@ -365,6 +370,7 @@ truth table
     ② 1 + 2 = 9 ↔ 1 × 2 = 9   
       &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T ↔ T   
    
+<br />
 ### logical equivalence (≡)   
 // 논리적 동치 (≡)   
    
@@ -530,6 +536,7 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; --> (-2 ≥ x) ∨ (x ≥ 3)   
       &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ (x ≤ -2) ∨ (x ≥ 3)   
    
+<br />
 ### tautology proposition, contradiction proposition   
 // 항진명제, 모순명제   
    
@@ -544,6 +551,7 @@ truth table
   2. A proposition that is always false (F) is called a contradiction proposition   
       - p ∧ F   
    
+<br />
 ### predicate logic   
 // 술어논리   
    
@@ -570,6 +578,7 @@ truth table
   1. What is the truth value of p(1, 2) when the propositional function p(x, y) is x² + y² = 4?   
     &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> != 4 --> ∴ F   
    
+<br />
 ### quantification   
 // 한정화   
    
@@ -617,7 +626,8 @@ truth table
     &nbsp;&nbsp;&nbsp;&nbsp; --> A number cannot be rational number and irrational number at the same time   
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∃xP(x) = F   
    
-###  a feasibility test   
+<br />
+### a feasibility test   
 // 타당성 검사   
    
 #### the validity of a propositional function   
@@ -645,6 +655,7 @@ truth table
     ③ Young-hee is in Korea   
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
    
+<br />
 ### inference   
 // 추론   
    

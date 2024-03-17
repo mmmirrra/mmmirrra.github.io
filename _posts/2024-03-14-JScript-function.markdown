@@ -36,6 +36,7 @@ categories: [JScript]
 - JScript supports two types of functions   
 - In other words, it supports the functions that are built into the language and the functions that users create themselves   
    
+<br />
 ### Special built-in functions   
 // 특수 기본 제공 함수   
    
@@ -80,6 +81,7 @@ total eval(yetAnotherExpression);
 var totality = eval("It's surrounded by a lot of clams...");
 ```
    
+<br />
 ### Create your own function   
 // 함수 직접 만들기   
    

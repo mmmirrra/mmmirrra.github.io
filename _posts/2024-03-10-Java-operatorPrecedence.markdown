@@ -50,6 +50,7 @@ Symbols for performing specific operations
 |Type conversion operator|(Data type)|one-term|converted data type|// 지정된 자료형으로 변환<br />- Converting to specified data type|
 |etc.|[], (), .||||
    
+<br />
 ### Operator Precedence   
 // 연산자 우선 순위   
    

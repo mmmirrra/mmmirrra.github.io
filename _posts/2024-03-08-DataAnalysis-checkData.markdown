@@ -11,6 +11,7 @@ categories: [Data Analysis]
 // 입력오류나 또는 조사상 실수로 인한 오류(bug)를 찾아 수정할 목적으로 데이터 세트를 검토하고 분석하는 것   
 - Reviewing and analyzing data sets for the purpose of finding and correcting errors caused by input errors or investigative errors   
    
+<br />
 ### Check data input errors (if data is large)   
 // 데이터 입력 오류 점검(데이터가 큰 경우)   
    
@@ -19,6 +20,7 @@ categories: [Data Analysis]
 - To check the input range of each variable   
 - To check for logical consistency between variables   
    
+<br />
 ### To check the input range of each variable   
 // 각 변수의 입력 범위를 확인하는 방법   
    
@@ -29,6 +31,7 @@ categories: [Data Analysis]
   - When a variable representing the gender of the respondent is expressed as male (1) and female (2)   
   - → If the variable value is less than 1 or greater than 2, it can be considered an error in the input process or an incorrect response from the respondent or a mistake from the investigator   
    
+<br />
 ### To check for logical consistency between variables   
 // 변수들간의 논리적 일관성 여부를 확인하는 방법   
    

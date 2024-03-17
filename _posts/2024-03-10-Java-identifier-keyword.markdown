@@ -13,6 +13,7 @@ categories: [Java]
 - Name created by programmer   
 - Names of classes, variables, methods, labels, etc.   
    
+<br />
 ### The rules for naming identifiers   
 // 식별자 작명 규칙   
    
@@ -33,6 +34,7 @@ categories: [Java]
   - World Cup   
   - lee@abc   
    
+<br />
 ### Conventions for creating identifiers   
 // 식별자를 만들 때의 관례   
    

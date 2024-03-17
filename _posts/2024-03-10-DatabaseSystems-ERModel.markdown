@@ -27,6 +27,7 @@ categories: [Database Systems]
   - Relational sets   
   - Attributes   
    
+<br />
 ### Components of the ER model   
 // ER 모델 구성요소   
    

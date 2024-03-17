@@ -11,6 +11,7 @@ categories: [JavaScript Html]
 // 문서 작성을 위한 텍스트 편집기 → 문서 실행을 위한 웹 브라우저   
 Text editor for document creation → Web browser for document running   
    
+<br />
 ### Type of Text Editor   
 // 메모장   
 // 비주얼 스튜디오 코드   
@@ -31,6 +32,7 @@ Text editor for document creation → Web browser for document running
 - Aptana   
 - PhpStorm   
    
+<br />
 ### Types of Web browsers   
 // 크롬   
 // 엣지   

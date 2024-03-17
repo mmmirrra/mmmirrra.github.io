@@ -15,6 +15,7 @@ categories: [Database Systems]
   - Business Perspective : Data that needs to be stored?   
   - Computer Programmer's Perspective : Data that needs to be stored?   
    
+<br />
 ### Database System Implementation Process   
 // 데이터베이스 시스템 구현 과정   
    
@@ -22,6 +23,7 @@ categories: [Database Systems]
 |:---:|:---:|
 |Functional requirements : Functional Analysis<br />↓<br />Application Program Design<br />↓ Application Architecture<br />Application Program Implementation<br />↓<br />Application|Analysis of user requirements<br />↓<br />Conceptual data modeling<br />↓<br />Logical data modeling<br />↓<br />Conceptual Schema<br />↓<br />Physical data modeling<br />↓<br />Internal Schema|
    
+<br />
 ### Concept of Database Modeling   
 // 데이터베이스 모델링의 개념   
    
@@ -32,6 +34,7 @@ categories: [Database Systems]
 |:---:|
 |Analysis of user requirements<br />↓ → Data and Tasks<br />Conceptual data modeling<br />↓ → ER model<br />Logical data modeling<br />↓ → relational model<br />Conceptual Schema<br />↓<br />Physical data modeling<br />↓ → Physical Details<br />Internal Schema|
    
+<br />
 ### Data Model   
 // 데이터 모델   
    
@@ -42,6 +45,7 @@ categories: [Database Systems]
   - Data model : a set of concepts that can be used to specify meanings, data types, operations, etc.   
   - Data modeling : The process of representing part of the real-world in the form of a DBMS-supported data model   
    
+<br />
 ### Steps in Database Modeling   
 // 데이터베이스 모델링의 단계   
    

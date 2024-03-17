@@ -22,6 +22,7 @@ categories: [Database Systems]
   - Results are less complete and less reliable   
   - High additional costs are spent to correct errors that occur after development   
    
+<br />
 ### Concept of user requirement analysis   
 // 사용자 요구사항 분석의 개념   
    
@@ -37,6 +38,7 @@ categories: [Database Systems]
 - Take steps to derive, analyze, and record   
   - International standardization : IEEE-Std-830   
    
+<br />
 ### User Requirements Analysis Process   
 // 사용자 요구사항 분석 과정   
    

@@ -15,6 +15,7 @@ categories: [JScript]
 - A method is a function that is a member of an object, and an attribute is a value that is a member of an object or a set of values (in an array or form of an object)   
 - JScript supports three types of objects: internal objects, custom objects, and browser objects   
    
+<br />
 ### Objects used as arrays   
 // 배열로 사용되는 개체   
    

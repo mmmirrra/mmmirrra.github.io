@@ -11,6 +11,7 @@ categories: [Data Analysis]
 - Statistical (logical) thinking required   
 - Data analytics software needs to be well utilized   
    
+<br />
 ### Data Analysis Procedure   
 // 1. 문제의 정의   
 // 2. 조사, 실험의 계획 : 통계조사방법론, 표본조사론, 실험계획과 응용   
@@ -23,6 +24,7 @@ categories: [Data Analysis]
 4. Organizing and analyzing data : R Computing, Excel Data Analysis, Statistical Introduction, Regression Model, Multivariate Analysis   
 5. Evaluation of analysis results   
    
+<br />
 ### Data Analysis Software Types   
 - Excel   
 - SPSS   
@@ -52,6 +54,7 @@ categories: [Data Analysis]
   - program grammar is easy   
   - Excellent features for machine learning and deep learning   
    
+<br />
 ### SAS Module   
 // SAS 기본   
 `SAS/BASE` : SAS Basic   
@@ -76,6 +79,7 @@ categories: [Data Analysis]
 // 데이터마이닝   
 `SAS/E-Miner` : Data Mining   
    
+<br />
 ### R sample   
 ```r
 # 수학점수

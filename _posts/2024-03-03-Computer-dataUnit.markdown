@@ -27,6 +27,7 @@ The smallest unit with two states. Binary Digit. 2 state values can be expressed
 |4|Decimal 0 ~ 15|
 |8|Decimal 0 ~ 255|
    
+<br />
 ### Data Unit   
    
 |Data Unit|

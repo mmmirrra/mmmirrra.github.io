@@ -10,6 +10,7 @@ categories: [JScript]
 - JScript is written in text format and consists of blocks and comments consisting of statements, correlated statements   
 - Users can use direct execution data or expressions such as variables, strings, and numbers within the statements   
    
+<br />
 ### statement   
 // 문   
    
@@ -54,6 +55,7 @@ kradius = km;
 mradius = miles;
 ```
    
+<br />
 ### comment   
 // 주석   
    
@@ -90,6 +92,7 @@ aGoodIdea = "Complete the comments"; // This is a one-line comment.
 var extendedIdea = aGoodIdea + "text";
 ```
    
+<br />
 ### Same as designated   
 // 지정과 같음   
    
@@ -105,6 +108,7 @@ anInterger = 3;
 - This code statement means "Specify a value of 3 for the anInteger variable" or "anInteger has a value of 3."   
 - Use two equal signs (==) as symbols to compare if two values are equal   
    
+<br />
 ### expression   
 // 식   
    

@@ -8,6 +8,7 @@ categories: [JScript]
 ### Create advanced objects   
 // 고급 개체 작성   
    
+<br />
 ### Creating Objects Using Constructors   
 // 구성자를 사용하여 개체 작성   
    
@@ -63,6 +64,7 @@ for(j = 1; j < addressList[length]; j++)
 }
 ```
    
+<br />
 ### Using Constructors   
 // 구성자 쓰기   
    
@@ -99,6 +101,7 @@ function MakeStringArray(length)
 myStringArray = new MakeStringArray(63);
 ```
    
+<br />
 ### Create an object using the initial settings   
 // 초기 설정을 사용하여 개체 작성   
    

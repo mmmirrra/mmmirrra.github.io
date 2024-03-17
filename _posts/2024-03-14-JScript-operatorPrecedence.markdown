@@ -47,6 +47,7 @@ categories: [JScript]
 |etc. operator|typeof|Type|
 |etc. operator|void|No return value|
    
+<br />
 ### Operator Precedence   
 // 연산자 우선 순위   
    

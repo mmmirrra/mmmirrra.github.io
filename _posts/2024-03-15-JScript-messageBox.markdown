@@ -17,6 +17,7 @@ categories: [JScript]
 - The window object is at the top of the object hierarchy, so you don't actually need to use the full name of these message boxes like `window.alert()`   
 - However, it is recommended to use a full name because it helps you remember which object the message box belongs to   
    
+<br />
 ### Warning Message Box   
 // 경고 메시지 상자   
    
@@ -33,6 +34,7 @@ categories: [JScript]
 window.alert("Welcome! Press OK to continue");
 ```
    
+<br />
 ### Confirmation Message Box   
 // 확인 메시지 상자   
    
@@ -54,6 +56,7 @@ if(truthBeTold)
 else window.alert("Goodbye!");
 ```
    
+<br />
 ### Prompt Message Box   
 // 프롬프트 메시지 상자   
    

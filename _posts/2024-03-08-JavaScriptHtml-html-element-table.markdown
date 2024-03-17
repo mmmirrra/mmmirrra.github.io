@@ -8,6 +8,7 @@ categories: [JavaScript Html]
 ### Elements related to table   
 // 테이블과 관련된 요소   
    
+<br />
 ### Default format of table   
 // 테이블의 기본 형식   
    
@@ -72,6 +73,7 @@ categories: [JavaScript Html]
 </table>
 `
    
+<br />
 ### Basic Elements for Table Creation   
 // 테이블 생성을 위한 기본 요소   
    
@@ -133,6 +135,7 @@ categories: [JavaScript Html]
   - Align dark center at the top of the table   
     - Changeable to CSS properties (caption-side, text-align)   
    
+<br />
 ### Merging Cells   
 // 셀의 병합   
    
@@ -238,6 +241,7 @@ categories: [JavaScript Html]
 </table>
 `
    
+<br />
 ### Grouping per-line content   
 // 행 단위 콘텐츠의 그룹핑   
    
@@ -320,6 +324,7 @@ categories: [JavaScript Html]
 </table>
 `
    
+<br />
 ### Specify style in column units   
 // 열 단위의 스타일 지정   
    

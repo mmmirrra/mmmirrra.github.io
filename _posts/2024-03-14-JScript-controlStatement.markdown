@@ -27,6 +27,7 @@ categories: [JScript]
 - JScript provides a control structure with a variety of possibilities   
 - The simplest control structure is the conditional statement   
    
+<br />
 ### Using Conditional Statements   
 // 조건문 사용   
    
@@ -76,6 +77,7 @@ else
     theReaction = ("The cat there is big! <br>");
 ```
    
+<br />
 ### Condition Operator   
 // 조건연산자   
    
@@ -115,6 +117,7 @@ if ((runfirst() == 0) || (runsecond() == 0))
 }
 ```
    
+<br />
 ### Repeat enable or loop   
 // 반복 사용 또는 루프   
    
@@ -127,6 +130,7 @@ if ((runfirst() == 0) || (runsecond() == 0))
 - Looping is typically controlled by testing of several variables, whose values vary with each loop being executed   
 - Microsoft JScript supports many types of loops, such as for loop, for...in loop, while loop, do...while loop, switch loop   
    
+<br />
 ### Use for loop   
 // for 루프 사용   
    
@@ -184,6 +188,7 @@ for(var icount = 1; icount > 0; icount++)
 }
 ```
    
+<br />
 ### Use for...in Loop   
 // for...in 루프 사용   
    
@@ -203,6 +208,7 @@ for (j in tagliatelleVerde)
 }
 ```
    
+<br />
 ### Use while loop   
 // while 루프 사용   
    
@@ -240,6 +246,7 @@ theMoments = "BLASTOFF!";
 - Moreover, it is not easy to find out when and where the loop condition is updated, so it is easy to create while loops where the condition is not updated   
 - Therefore, considerable care must be taken when designing while loops   
    
+<br />
 ### Use break and continue statements   
 // break문과 continue문 사용   
    

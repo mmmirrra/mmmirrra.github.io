@@ -12,6 +12,7 @@ categories: [JScript]
 - Variables read and manipulate values by name   
 - Effective use of variables helps you understand the script   
    
+<br />
 ### variable declaration   
 // 변수 선언   
    
@@ -41,6 +42,7 @@ var nen = true;
 var fif = 2.718281828;
 ```
    
+<br />
 ### naming variable   
 // 변수 명명   
    
@@ -102,6 +104,7 @@ let = "";
 var aMess = vyv + zez;
 ```
    
+<br />
 ### forced conversion   
 // 강제 변환   
    

@@ -24,6 +24,7 @@ categories: [JScript]
 - In JScript, objects and arrangements are essentially identical to each other   
 - The real difference is not in the data, but the way you address the properties and methods of members or objects in the array   
    
+<br />
 ### Specify Array Addresses   
 // 배열 주소 지정   
    

@@ -13,6 +13,7 @@ categories: [JScript]
 - JScript has multiple reserved words   
 - These words are divided into three types: JScript reserved words, preliminary reserved words, and words to avoid   
    
+<br />
 ### JScript keywords   
 // JScript 키워드   
    
@@ -23,6 +24,7 @@ delete  function    null    typeof  with
 else    if  return  var
 ```
    
+<br />
 ### JScript preliminary keywords   
 // JScript 예비 키워드   
    
@@ -33,6 +35,7 @@ class   do      finally     throw
 const   enum    import  try
 ```
    
+<br />
 ### a word to avoid   
 // 피해야 할 단어   
    

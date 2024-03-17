@@ -42,6 +42,7 @@ categories: [JScript]
 - Capital letters precede lowercase letters in sequence order because of how ASCII and ANSI character sets are constructed   
 - For example, "Zoo" precedes "aardvark"   
    
+<br />
 ### Delivering parameters to a function   
 // 함수로 매개변수 전달   
    
@@ -50,6 +51,7 @@ categories: [JScript]
 - Delivering parameters to a function by value results in the creation of separate copies of parameters that exist only within the function   
 - Alternatively, if you pass a parameter to a function by 'transfer by reference' and then change the value of that parameter in the function, the value of that parameter changes in all parts of the script   
    
+<br />
 ### Data Test   
 // 데이터 테스트   
    

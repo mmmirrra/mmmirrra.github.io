@@ -10,6 +10,7 @@ categories: [JScript]
 - Problems may occur if you do not use it carefully in any programming language. This case varies from language to language   
 - Even for null values, null values in JScript act differently from null values in C or C++ languages   
    
+<br />
 ### Syntax error   
 // 구문 오류   
    
@@ -18,6 +19,7 @@ categories: [JScript]
 - Because the syntax of a programming language is much more stringent than that of a regular language, it is important to pay attention to the details when writing a script   
 - For example, if you try to string a particular parameter, you will get a syntax error if you enter it and then forget to quote that parameter   
    
+<br />
 ### Order of Script Interpretation   
 // 스크립트 해석 순서   
    
@@ -28,6 +30,7 @@ categories: [JScript]
 - Therefore, if you put a script inside the `<HEAD>` tag of the document, the script will be interpreted before any `<BODY>` tag   
 - If there are objects created from tags `<BODY>`, they do not exist at the time `<HEAD>` is being parsed and cannot be dealt with by scripts   
    
+<br />
 ### Automatic Type Compulsory Conversion   
 // 자동 형식 강제 변환   
    
@@ -41,6 +44,7 @@ categories: [JScript]
 false == 0
 ```
    
+<br />
 ### Operator Precedence   
 // 연산자 우선 순위   
    
@@ -53,6 +57,7 @@ false == 0
 theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 ```
    
+<br />
 ### Use objects and for...in loops together   
 // 개체와 for...in 루프를 함께 사용   
    
@@ -61,6 +66,7 @@ theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 - When working on an object's properties stepwise with a for...in loop, it is not necessary to anticipate or control the order in which the object fields are assigned to the loop counter variable   
 - In addition, the order may vary in other language implementations   
    
+<br />
 ### with Keyword   
 // with 키워드   
    
@@ -69,6 +75,7 @@ theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 - With statements are convenient to handle attributes that already exist in a given object, but they cannot be used to add attributes to an object   
 - To create a new property in an object, you must specifically reference the object   
    
+<br />
 ### this Keyword   
 // this 키워드   
    
@@ -77,6 +84,7 @@ theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 - To refer to the object itself, you can use this keyword inside the object definition. However, if the function is not an object definition, it is generally impossible to refer to the currently running function using this keyword or similar keyword   
 - Specifying a function to an object as a method allows the use of this keyword inside the function to reference the object   
    
+<br />
 ### Writing scripts to create scripts   
 // 스크립트를 작성하는 스크립트 쓰기   
    
@@ -87,6 +95,7 @@ theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 - To represent `</SCRIPT>` itself, it must be rewritten with two or more strings, such as `</SCR` and `IPT>`   
 - The statement using this string can then connect two strings `</SCR` and `IPT`   
    
+<br />
 ### Implicit window reference   
 // 함축적인 창 참조   
    
