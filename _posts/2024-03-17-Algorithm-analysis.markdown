@@ -353,7 +353,7 @@ BinarySearch(A[], key, Left, Right) {
 
     mid = ⌊(Left + Right)⌋ / 2;   // 1 time
 
-    // Find Success
+    // Search Success
     if(A[Mid] == key) return (Mid);   // 1 time
     // Circular call when search fails - number of runnings unknown
     else if(key < A[Mid]) BinarySearch(A, key, Left, Mid - 1)
