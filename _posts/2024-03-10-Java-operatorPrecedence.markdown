@@ -38,7 +38,7 @@ Symbols for performing specific operations
 |logical operator|^|two-term|boolean|// 논리적 XOR 배타적 논리합 연산 : 피연산자가 하나는 true이고 다른 하나가 false일 경우에만 연산 결과가 true, 아니면 false<br />- Logical XOR : The result of the operation is true only if one operand is true and the other is false|
 |logical operator|&&|two-term|boolean|// 논리적 AND 논리곱 연산 : 피연산자 모두가 true일 경우에만 연산 결과가 true, 아니면 false<br />- Logical AND : The result of the operation is true only if all operands are true|
 |logical operator|\|\||two-term|boolean|// 논리적 OR 논리합 연산 : 피연산자 중 하나만 true 이면 연산 결과는 true, 아니면 false<br />- Logical OR : If only one of the operands is true, the result of the operation is true|
-|condition operator<br />(logical operator)|(Condition)? A value or operation function : B value or operation function|three-term|various|// 조건식에 따라 참이면 A, 거짓이면 B<br />- Based on the results of the conditional expression, calculate A if true and B if false|
+|condition operator<br />(logical operator)|(Condition)? A value or operation function : B value or operation function|three-term, trinomial|various|// 조건식에 따라 참이면 A, 거짓이면 B<br />- Based on the results of the conditional expression, calculate A if true and B if false|
 |bit logic<br />(bit operator)|~|one-term|number|// 비트 NOT 논리부정 연산 : 1을 0으로, 0을 1로<br />- Bit NOT (logical denial) operation : 1 to 0 and 0 to 1|
 |bit logic<br />(bit operator)|a & b|two-term|number|// 비트 AND 논리곱 연산 : 두 비트 모두 1이면 1, 아니라면 0<br />- Bit AND : Both bits are 1 if they are 1, and 0 if they are not|
 |bit logic<br />(bit operator)|a \| b|two-term|number|// 비트 OR 논리합 연산 : 두 비트 모두 0이면 0, 아니라면 1<br />- Bit OR : Both bits are 0 if they are 0, and 1 if they are not|
@@ -93,7 +93,7 @@ Operator has priority and direction of application
 |12|\||bitwise OR|Left-to-right|
 |13|&&|logical AND|Left-to-right|
 |14|\|\||logical OR|Left-to-right|
-|15|? :|ternary|Right-to-left|
+|15|? :|ternary, trinomial|Right-to-left|
 |16|=|assignment|Right-to-left|
 |16|+=|assignment|Right-to-left|
 |16|-=|assignment|Right-to-left|

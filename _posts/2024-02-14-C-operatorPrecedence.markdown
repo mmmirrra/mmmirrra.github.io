@@ -41,7 +41,7 @@ categories: [C]
 |10|\||Bitwise OR (inclusive or)|Left-to-right|
 |11|&&|Logical AND|Left-to-right|
 |12|\|\||Logical OR|Left-to-right|
-|13|?:|Ternary conditional|Right-to-left|
+|13|?:|Ternary conditional, Trinomial|Right-to-left|
 |14|=|Simple assignment|Right-to-right|
 |14|+=|Assignment by sum|Right-to-right|
 |14|-=|Assignment by difference|Right-to-right|

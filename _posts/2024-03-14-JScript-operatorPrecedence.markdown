@@ -30,7 +30,7 @@ categories: [JScript]
 |logical operator|!=|Relational ≠ : Check if the values of the two operands are the differen|
 |logical operator|&&|Logical AND|
 |logical operator|\|\||Logical OR|
-|logical operator|? A : B|Based on the results of the conditional expression, calculate A if true and B if false (three-term)|
+|logical operator|? A : B|Based on the results of the conditional expression, calculate A if true and B if false (trinomial)|
 |logical operator|,|Comma|
 |logical operator|===|Equivalence|
 |logical operator|!==|Not Equivalence|
@@ -88,7 +88,7 @@ categories: [JScript]
 |10|\||// 비트 논리합<br />Bit OR|
 |11|&&|// 논리곱<br />Logical AND|
 |12|\|\||// 논리합<br />Logical OR|
-|13|? A : B|// 조건<br />Based on the results of the conditional expression, calculate A if true and B if false (three-term)|
+|13|? A : B|// 조건<br />Based on the results of the conditional expression, calculate A if true and B if false (trinomial)|
 |14|= OP=|// 지정, 복합 지정<br />Assignment, Compound Assignment|
 |15|,|// 다중 연산<br />Comma|
    
