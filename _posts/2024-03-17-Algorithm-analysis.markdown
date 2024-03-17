@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Algorithm: Analysis"
+title:  "Algorithm: Running time, Asymptotic Analysis, Recurrence Relation"
 date:   2024-03-17 09:00:00 +0900
 categories: [Algorithm]
 ---
@@ -189,6 +189,7 @@ SumAverage(A[], n)
 - For all n ≥ n<sub>0</sub>, if c<sub>1</sub> · g(n) ≤ f(n) ≤ c<sub>2</sub> · g(n), then f(n) = θ(g(n))   
 - f(n) = θ(g(n)) : best-to-worst running time   
    
+<br />
 #### Example 1   
 // 예시 1   
    
@@ -222,6 +223,7 @@ Function
 // O(n), Ω(n), θ(n) 에서 n은 f(n)의 최고차항인 n임   
 - In O(n), Ω(n), and θ(n), n is the highest degree term of f(n)   
    
+<br />
 #### Example   
 // 예시 2   
    
@@ -255,6 +257,7 @@ Function
 // O(n³), Ω(n³), θ(n³) 에서 n³은 f(n)의 최고차항인 n³임   
 - In O(n³), Ω(n³), and θ(n³), n³ is the highest degree term of f(n)   
    
+<br />
 #### Size relationship of operation time between key O-notation   
 // 주요 O-표기 간 연산 시간의 크기 관계   
    
@@ -363,6 +366,7 @@ BinarySearch(A[], key, Left, Right) {
 - O(1) is constant running time   
 - T(<sup>n</sup>/<sub>2</sub>) is if statement running time : <sup>1</sup>/<sub>2</sub> of n since only one of else...if and else is performed   
    
+<br />
 #### Obtaining the closed type of recurrence relation   
 // 점화식의 폐쇄형 구하기   
    
@@ -381,6 +385,7 @@ T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>
 = c<sub>1</sub> + c<sub>2</sub>log<sub>2</sub>n   
 = θ(log<sub>2</sub>n)   
    
+<br />
 #### Basic recurrence relation and closed type   
 // 기본 점화식과 폐쇄형   
    
@@ -409,6 +414,7 @@ T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>
   2T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
   → Closed type <b>T(n) = θ(nlogn)</b> (※ Merger sort. Quick sort - Best Case)   
    
+<br />
 #### Importance of Efficient Algorithm   
 // 효율적인 알고리즘의 중요성   
    
