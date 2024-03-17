@@ -299,10 +299,10 @@ Function
   - After calculating the sum f(n) of the number of runnings of the basic operation,   
   - Find function g(n) of minimum degree that satisfies f(n) = O(g(n))   
    
-// 실용적인 점근 방법   
+// 실용적인 접근 방법   
 // - 알고리즘의 모든 문장이 아닌 루프의 반복 횟수만을 조사하여 최고 차수를 시간 복잡도로 취합   
 // - → O(최고차수)   
-- Practical asymptotic methods   
+- Practical approach methods  
   - By examining only the number of iterations of loops rather than all expressions in the algorithm, the highest degree term is taken as time complexity   
   - → O(highest degree term)   
    
