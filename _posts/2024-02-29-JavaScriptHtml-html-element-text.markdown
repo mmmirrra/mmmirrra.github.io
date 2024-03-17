@@ -72,7 +72,7 @@ Elements that simply specify the appearance of the output displayed in the web b
 <u>u : Underlined - Mark words misspelled or insufficient content</u>
 
 <!-- // 윗첨자 -->
-<sup>up : Superscript</sup>
+<sup>sup : Superscript</sup>
 
 <!-- // 아래첨자 -->
 <sub>sub : Subscript</sub>
@@ -96,7 +96,7 @@ Elements that simply specify the appearance of the output displayed in the web b
 <u>u : Underlined - Mark words misspelled or insufficient content</u>
 
 <!-- // 윗첨자 -->
-<sup>up : Superscript</sup>
+<sup>sup : Superscript</sup>
 
 <!-- // 아래첨자 -->
 <sub>sub : Subscript</sub>
