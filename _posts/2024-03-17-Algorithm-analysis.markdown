@@ -391,29 +391,29 @@ T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>
 #### Basic recurrence relation and closed type   
 // 기본 점화식과 폐쇄형   
    
-1. Basic recurrence relation T(n) =    
-  θ(1), n = 1   
-  T(n - 1) + θ(1), n ≥ 2   
+1. Basic recurrence relation   
+  T(1) = θ(1), n = 1   
+  T(n) = T(n - 1) + θ(1), n ≥ 2   
   → Closed type T(n) = θ(n)   
-2. Basic recurrence relation T(n) =    
-  θ(1), n = 1   
-  T(n - 1) + θ(n), n ≥ 2   
+2. Basic recurrence relation   
+  T(1) = θ(1), n = 1   
+  T(n) = T(n - 1) + θ(n), n ≥ 2   
   → Closed type <b>T(n) = θ(n²)</b> (※ Quick Sort - Worst Case)   
-3. Basic recurrence relation T(n) =    
-  θ(1), n = 1   
-  T(<sup>n</sup>/<sub>2</sub>) + θ(1), n ≥ 2   
+3. Basic recurrence relation   
+  T(1) = θ(1), n = 1   
+  T(n) = T(<sup>n</sup>/<sub>2</sub>) + θ(1), n ≥ 2   
   → Closed type <b>T(n) = θ(logn)</b> (※ binary search)   
-4. Basic recurrence relation T(n) =   
-  θ(1), n = 1   
-  T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
+4. Basic recurrence relation   
+  T(1) = θ(1), n = 1   
+  T(n) = T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
   → Closed type T(n) = θ(n)   
-5. Basic recurrence relation T(n) =    
-  θ(1), n = 1   
-  2T(<sup>n</sup>/<sub>2</sub>) + θ(1), n ≥ 2   
+5. Basic recurrence relation   
+  T(1) = θ(1), n = 1   
+  T(n) = 2T(<sup>n</sup>/<sub>2</sub>) + θ(1), n ≥ 2   
   → Closed type T(n) = θ(n)   
-6. Basic recurrence relation T(n) =   
-  θ(1), n = 1   
-  2T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
+6. Basic recurrence relation   
+  T(1) = θ(1), n = 1   
+  T(n) = 2T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
   → Closed type <b>T(n) = θ(nlogn)</b> (※ Merger sort. Quick sort - Best Case)   
    
 <br />
