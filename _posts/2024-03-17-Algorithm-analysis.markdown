@@ -318,7 +318,7 @@ while(i <= n) {    // n + 1 times
 // → f(n) = 3n + 2
 
 // 반복문에서만 찾으면 n + 1번 수행하므로
-// If the number of times to running is found only in the iteration statement, n + 1 times
+// - If the number of times to running is found only in the iteration statement, n + 1 times
 // → O(n)
 ```
    
@@ -332,7 +332,7 @@ print count;    // 1 time
 // → f(n) = n² + 2n + 4
 
 // 반복문에서만 찾으면 n + 1번, n + 1번 수행 → n x n번 수행하므로
-// If the number of times to running is found only in the iteration statement, n + 1 times, n + 1 times → n x n times 
+// - If the number of times to running is found only in the iteration statement, n + 1 times, n + 1 times → n x n times 
 // → O(n²)
 ```
    
@@ -353,9 +353,9 @@ BinarySearch(A[], key, Left, Right) {
 
     mid = ⌊(Left + Right)⌋ / 2;   // 1 time
 
-    // 탐색 성공 시
+    // Find Success
     if(A[Mid] == key) return (Mid);   // 1 time
-    // 탐색 실패 시 순환 호출 - 수행 횟수 알 수 없음
+    // Circular call when search fails - number of runnings unknown
     else if(key < A[Mid]) BinarySearch(A, key, Left, Mid - 1)
         else BinarySearch(A, key, Mid + 1, Right);
 }
