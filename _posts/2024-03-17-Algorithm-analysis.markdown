@@ -295,9 +295,11 @@ Function
 // 알고리즘의 시간 복잡도를 구하려면   
 // - 기본 연산의 수행 횟수의 합 f(n)을 구한 후,   
 // - f(n) = O(g(n)) 을 만족하는 최소 차수의 함수 g(n)을 찾음   
+// -- 최소 차수의 함수 g(n) == f(n)의 최고 차수
 - To find the time complexity of an algorithm   
   - After calculating the sum f(n) of the number of runnings of the basic operation,   
   - Find function g(n) of minimum degree that satisfies f(n) = O(g(n))   
+  - Minimum degree of function g(n) == highest degree term of f(n)   
    
 // 실용적인 접근 방법   
 // - 알고리즘의 모든 문장이 아닌 루프의 반복 횟수만을 조사하여 최고 차수를 시간 복잡도로 취합   
