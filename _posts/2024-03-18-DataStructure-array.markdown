@@ -203,7 +203,7 @@ void store(int *a, int i, int e) {    // i = 3, e = 35
 |A[0]|A[1]|A[2]|A[3]|A[4]|
 |:---:|:---:|:---:|:---:|:---:|
 |A(L)|A(L + 1)|A(L + 2)|A(L + 3)|A(U)|
-|k|k||||
+|k|k|k|k|k|
    
 #### Address calculation in a one-dimensional array   
 // 1차원 배열에서의 주소 계산   
