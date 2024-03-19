@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Multimedia: Overview"
+title:  "Multimedia System: Overview"
 date:   2024-03-08 09:00:00 +0900
-categories: [Multimedia]
+categories: [Multimedia System]
 ---
 
 ### Define Multimedia   
