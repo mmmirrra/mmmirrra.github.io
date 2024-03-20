@@ -295,11 +295,11 @@ categories: [University Mathematics]
   - closed interval : [a, b] : Includes a and b   
   - open interval : (a, b) : Do not include a and b   
    
-- {x|a < x < b} ⇒ (a, b)   
-- {x|a ≤ x ≤ b} ⇒ [a, b]   
-- {x|a ≤ x < b} ⇒ [a, b)   
-- {x|a < x} ⇒ (a, +∞)   
-- {x|x ≤ b} ⇒ (-∞, b)   
+- {x\|a < x < b} ⇒ (a, b)   
+- {x\|a ≤ x ≤ b} ⇒ [a, b]   
+- {x\|a ≤ x < b} ⇒ [a, b)   
+- {x\|a < x} ⇒ (a, +∞)   
+- {x\|x ≤ b} ⇒ (-∞, b)   
    
 #### The characteristics of a real number straight line   
 // 실수 직선의 특징   
@@ -314,8 +314,8 @@ categories: [University Mathematics]
    
 // 상계와 하계   
 - Upper Bound or Lower Bound   
-  - S = {x|a ≤ x ≤ b}   
-  - S = {x|a ≤ x}   
+  - S = {x\|a ≤ x ≤ b}   
+  - S = {x\|a ≤ x}   
    
 // b보다 크거나 같은 실수 : 상계   
 // a보다 작거나 같은 실수 : 하계   
