@@ -11,7 +11,7 @@ categories: [JScript]
 // JScript에는 여러 개의 예약어가 있음   
 // 이들 단어는 JScript 예약어, 예비 예약어, 그리고 피해야 할 단어 등 세 종류로 나뉨   
 - JScript has multiple reserved words   
-- These words are divided into three types: JScript reserved words, preliminary reserved words, and words to avoid   
+- These words are divided into three types : JScript reserved words, preliminary reserved words, and words to avoid   
    
 <br />
 ### JScript keywords   

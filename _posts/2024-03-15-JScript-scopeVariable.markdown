@@ -8,7 +8,7 @@ categories: [JScript]
 // 두 가지 범위, 즉 전역과 지역이 있음   
 // 함수 정의의 외부에 변수를 선언하면 전역 변수가 되고, 그 값은 프로그램 전체에서 엑세스하거나 수정할 수 있음   
 // 함수 정의의 내부에 변수를 정의하면 이 변수는 지역 변수가 됨   
-- There are two ranges: global and local   
+- There are two ranges : global and local   
 - Declaring a variable outside a function definition becomes a global variable, and its value can be accessed or modified throughout the program   
 - Variables defined inside the function definition become local variables   
    

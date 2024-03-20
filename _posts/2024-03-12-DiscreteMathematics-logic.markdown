@@ -381,7 +381,7 @@ truth table
    
 - p ≡ q (== p ↔ q, p ⇔ q)   
    
-#### converse, inverse, contrapositive   
+#### converse, inverse, contraposition   
 // 역, 이, 대우   
    
 // 조건명제 p → q   
@@ -391,7 +391,7 @@ truth table
 - conditional proposition p → q   
   - converse : q → p   
   - inverse : ~p → ~q   
-  - contrapositive : ~q → ~p   
+  - contraposition : ~q → ~p   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/DiscreteMathematicsEquivalence.png)
    
@@ -427,7 +427,7 @@ truth table
 // 논리적 동치법칙   
    
 // 교환법칙   
-1 . commutation law   
+1 . commutative law   
 - p ∨ q ≡ q ∨ p   
 - p ∧ q ≡ q ∧ p   
 - p ↔ q ≡ q ↔ p   
@@ -509,7 +509,7 @@ truth table
 |F|F|T|T|T|
    
 // 대우법칙   
-12 . transposition law   
+12 . contraposition law   
 - p → q ≡ ~q → ~p   
    
 |p|q|p → q|~q|~p|~q → ~p|

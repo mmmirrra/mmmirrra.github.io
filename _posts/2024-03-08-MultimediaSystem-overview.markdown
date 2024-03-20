@@ -93,7 +93,7 @@ Memory Capacity by Multimedia Data Type
 // -- 용량은 DVD의 5배 정도   
 - Advances in Storage Media Technology   
   - CD(Compact Disc)   
-    - Approximately 650MB of data storage   
+    - About 650MB of data storage   
     - Very cheap storage compared to other memory devices   
   - DVD(Digital Video Disc)   
     - A storage medium with the capacity to store a high-resolution movie at the stereo sound level   

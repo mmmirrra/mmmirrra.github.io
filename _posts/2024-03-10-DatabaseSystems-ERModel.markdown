@@ -181,15 +181,15 @@ categories: [Database Systems]
 // 사상수   
 
 // 관계 집합에 참가한 개체 집합에 대해 한 개체가 다른 개체와 관계를 맺을 수 있는 수량을 명시   
-// - 일대일(1:1)   
-// - 일대다(1:N)   
-// - 다대일(N:1)   
-// - 다대다(N:N)   
+// - 일대일(1 : 1)   
+// - 일대다(1 : N)   
+// - 다대일(N : 1)   
+// - 다대다(N : N)   
 - Specify how many objects one can relate to another for a set of objects that participate in a relational set   
-  - One-to-One(1:1)   
-  - One-to-Many(1:N)   
-  - Many-to-One(N:1)   
-  - Many-to-Many(N:N)   
+  - One-to-One(1 : 1)   
+  - One-to-Many(1 : N)   
+  - Many-to-One(N : 1)   
+  - Many-to-Many(N : N)   
    
 Example of a one-to-one mapping cardinality representation   
 // 일대일 사상수 표현 예시   
@@ -277,7 +277,7 @@ Example of a many-to-many mapping cardinality representation
 // - 계좌 객체가 없어져도 학생 객체는 사라지지 않으므로 학생은 강한 개체 집합임   
 - A weak set of objects   
   - A set of objects whose existence depends on the existence of the object it is associated with   
-  - A weak set of objects must be associated to a strong set of objects through a 1:N relationship set, and a discriminator (or subkey) of a weak set of objects is a set of attributes that distinguish objects within a weak set of objects   
+  - A weak set of objects must be associated to a strong set of objects through a 1 : N relationship set, and a discriminator (or subkey) of a weak set of objects is a set of attributes that distinguish objects within a weak set of objects   
   - Therefore, the key setting of the weak object set must consist of the key of the parent object set and the subkey of the weak object set   
 - A strong set of objects   
   - General set of objects associated with a weak set of objects

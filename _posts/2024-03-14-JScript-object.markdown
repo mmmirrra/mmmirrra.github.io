@@ -13,7 +13,7 @@ categories: [JScript]
 // JScript는 내부 개체, 사용자 정의 개체, 브라우저 개체라는 3가지 종류의 개체를 지원함   
 - In JScript, an object is essentially a collection of attributes and methods   
 - A method is a function that is a member of an object, and an attribute is a value that is a member of an object or a set of values (in an array or form of an object)   
-- JScript supports three types of objects: internal objects, custom objects, and browser objects   
+- JScript supports three types of objects : internal objects, custom objects, and browser objects   
    
 <br />
 ### Objects used as arrays   

@@ -49,7 +49,7 @@ categories: [JScript]
 // 부동 소수점 숫자 : 소수점 또는 과학적 표기법에서 10의 거듭제곱을 나타내는 "e"(대문자 또는 소문자) 중 하나를 포함하거나 둘 다 포함할 수 있음   
 // 숫자 표현은 IEEE 754 표준을 따름   
 - JScript supports integer and floating point number   
-- integer: positive, 0, negative   
+- integer : positive, 0, negative   
 - floating point number : In decimal or scientific notation, it may contain one or both of the "e" (case or lowercase characters) representing a power of 10   
 - The numerical representation follows the IEEE 754 standard   
    

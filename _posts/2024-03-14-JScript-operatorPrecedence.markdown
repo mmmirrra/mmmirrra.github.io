@@ -68,7 +68,7 @@ categories: [JScript]
 // 3. 마지막으로 지정 연산이 수행되어 11232라는 값이 z에 지정됨   
    
 `z = 78 * (96 + 3 + 45)`   
-- There are five operators in this equation: =, *,(), +, +   
+- There are five operators in this equation : =, *,(), +, +   
 - These operators are calculated in the order of (), *, +, +, = based on operator precedence   
 1. The operator in parentheses is calculated first. Because the two addition operators in parentheses have the same precedence, they first add 96, then add 3, and then add 45, so the value is 144   
 2. Multiplication operations are then performed. That is, 78 and 144 are multiplied to 11232   

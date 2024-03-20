@@ -103,13 +103,13 @@ categories: [Multimedia System]
 // - 싱크(sink) : 출력 생성 (예시 : 스피커)   
 // - 필터(filter) : 특성 변환 (예시 : 오디오 믹서)   
 - Digital Media Equipment   
-  - Capture: Digital representation of raw data (e.g. scanners, digitizers, etc.)   
-  - Presentation: Reconstructing and presenting raw data (e.g. printers, monitors, etc.)   
-  - Processing: Processing digital signals and sounds and images (e.g. encoders, decoders, etc.)   
+  - Capture : Digital representation of raw data (e.g. scanners, digitizers, etc.)   
+  - Presentation : Reconstructing and presenting raw data (e.g. printers, monitors, etc.)   
+  - Processing : Processing digital signals and sounds and images (e.g. encoders, decoders, etc.)   
 - Analog Media Equipment   
-  - Source: Generating analog signals (e.g. microphones)   
-  - Sink: Create output (e.g. speaker)   
-  - Filter: Characteristic conversion (e.g. audio mixer)   
+  - Source : Generating analog signals (e.g. microphones)   
+  - Sink : Create output (e.g. speaker)   
+  - Filter : Characteristic conversion (e.g. audio mixer)   
    
 #### Examples of Media Processing Devices   
 // 미디어 처리장치의 예   
@@ -206,7 +206,7 @@ categories: [Multimedia System]
   - CD-ROM (CD-Read Only Memory)   
     - Read-only CD, unable to erase or add data   
   - CD-RW (CD-ReWritable)   
-    - Record and delete approximately 1,000 times. Used as a backup medium   
+    - Record and delete about 1,000 times. Used as a backup medium   
    
 // CD-ROM 배속   
 // - CD-ROM으로부터 주기억장치로의 데이터 전송속도   
@@ -558,7 +558,7 @@ categories: [Multimedia System]
   - IMT-2020   
   - 5G mobile communication network technology is needed due to the rapid change of mobile environment   
   - 5G is a next-generation mobile communication technology that is 1,000 times faster in data transmission than 4G LTE   
-    - LTE maximum speed: 75 Mbps   
+    - LTE maximum speed : 75 Mbps   
     - 5G : 75Gbps ~ 100Gbps (1Gbps Sensitive Speed Expected)   
   - Development Effects of 5G   
     - Providing futuristic services such as Internet of Things (IoT), augmented reality, and holograms   
@@ -566,7 +566,7 @@ categories: [Multimedia System]
     - METIS 2020 : Consortium of 9 European countries   
     - IMT-2020(5G) Promotion Group : China   
     - 2020 and Beyond Ad hoc : Japan   
-    - 5G Forum: Korea   
+    - 5G Forum : Korea   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

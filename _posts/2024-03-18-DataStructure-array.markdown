@@ -37,7 +37,7 @@ categories: [Data Structure]
 // 배열의 인덱스값 : 추상화된 값 = 컴퓨터의 내부구조나 메모리 주소와 무관하게 개발자에게 개념적으로 정의됨   
 // 메모리 주소값은 실제 메모리의 물리적인 위치값   
 // 배열의(추상화된) 인덱스값은 프로그래밍 언어와 컴파일 과정을 통해 메모리 주소값과 연결됨   
-- Index value of array: Abstract value = conceptually defined by the developer regardless of the internal structure or memory address of the computer   
+- Index value of array : Abstract value = conceptually defined by the developer regardless of the internal structure or memory address of the computer   
 - The memory address value is the physical location value of the actual memory   
 - Index values in an array (abstract) are associated with memory address values through programming languages and compilation processes   
    
