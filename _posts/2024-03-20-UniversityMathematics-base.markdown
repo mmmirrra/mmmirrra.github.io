@@ -264,11 +264,11 @@ categories: [University Mathematics]
 #### Absolute Value   
 // 절대값   
    
-- |a| = a, a ≥ 0   
-- |a| = -a, a < 0   
-- |a| ≥ 0, |a| = |-a|   
-- |ab| = |a||b|   
-- |<sup>a</sup>/<sub>b</sub>| = <sup>|a|</sup>/<sub>|b|</sub> (b ≠ 0)   
+- \|a\| = a, a ≥ 0   
+- \|a\| = -a, a < 0   
+- \|a\| ≥ 0, \|a\| = \|-a\|   
+- \|ab\| = \|a\|\|b\|   
+- \|<sup>a</sup>/<sub>b</sub>\| = <sup>\|a\|</sup>/<sub>\|b\|</sub> (b ≠ 0)   
    
 #### Theorem |a + 1| + |a - 2| according to the range of a   
 // |a + 1| + |a - 2|를 a의 범위에 따라 정리하시오   
