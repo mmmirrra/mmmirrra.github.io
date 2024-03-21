@@ -307,7 +307,7 @@ categories: [University Mathematics]
 // 실수 직선 R은 (-∞, +∞)로 표현   
 // 실수는 조밀함(dense)   
 - The real number straight line R is expressed as (-∞, +∞)   
-- real numbers anr dense   
+- real numbers are dense   
    
 #### Upper Bound or Lower Bound can be found in the interval   
 // 구간에서 상계 또는 하계를 찾을 수 있다   
