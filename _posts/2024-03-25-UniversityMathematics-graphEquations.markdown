@@ -103,7 +103,7 @@ categories: [University Mathematics]
   - x² + y² = a²   
   - ∴ It's a circle   
    
-// 예시 : 초점이 A(-1, 0), B(1, 0), A, B에 잇는 거리의 합이 4인 타원을 구하시오   
+// 예시 : 초점이 A(-1, 0), B(1, 0)이고, A, B를 잇는 거리의 합이 4인 타원을 구하시오   
 - Example : Find an ellipse with focal points A(-1, 0), B(1, 0), and the sum of the distances connecting A and B is 4   
   - √ ((x + 1)² + y²) + √ ((x - 1)² + y²) = 4 = 2a   
   - a = 2, c = 1   
