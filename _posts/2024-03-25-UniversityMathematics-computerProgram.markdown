@@ -5,7 +5,7 @@ date:   2024-03-25 09:00:00 +0900
 categories: [University Mathematics]
 ---
 
-### CAS   
+### CAS (Computer Algebra Systems)  
    
 // 수학 문제를 코드로 풀어가는 소프트웨어   
 - software for solving math problems with code   
