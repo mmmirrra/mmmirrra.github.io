@@ -16,16 +16,16 @@ categories: [JScript]
 |// 주석<br />- Comment|/* ... */ or //|
 |// 상수 / 리터럴<br />- Constant / Literary|NaN, null, true, false, Infinity, undefined|
 |// 흐름 제어<br />- Flow control|break, continue, for, for...in, if...else, return, while|
-|// 날짜와 시간<br />- Date and time|Date, getDate, getDay, getFullYear, getHours, getMilliseconds, getMinutes, getMonth, getSeconds, getTime, getTimezoneOffset, getYear, getUTCDate, getUTCDay, getUTCFullYear, getUTCHours, getUTCMilliseconds, getUTCMinutes, getUTCMonth, getUTCseconds, setDate, setFullYear, setHours, setMilliseconds, setMinutes, setMonth, setSeconds, setTime, setYear, setUTCDate, setUTCFullYear, setUTCHours, setUTCMilliseconds, setUTCMinutes, setUTCMonth, setUTCSeconds, toGMTString, toLocaleString, toUTCString, parse, UTC|
+|// 날짜와 시간<br />- Date and time|Date, <br />getDate, getDay, getFullYear, getHours, <br />getMilliseconds, getMinutes, getMonth, <br />getSeconds, getTime, <br />getTimezoneOffset,<br />getYear, <br />getUTCDate, getUTCDay, getUTCFullYear, <br />getUTCHours, getUTCMilliseconds, <br />getUTCMinutes, getUTCMonth, <br />getUTCseconds, <br />setDate, setFullYear, setHours, <br />setMilliseconds, setMinutes, setMonth, <br />setSeconds, <br />setTime, setYear, <br />setUTCDate, setUTCFullYear, setUTCHours, <br />setUTCMilliseconds, setUTCMinutes, <br />setUTCMonth, setUTCSeconds, <br />toGMTString, <br />toLocaleString, toUTCString, parse, UTC|
 |// 선언<br />- Declaration|function, new, this, var, with|
 |// 함수 작성<br />- Creating a Function|Function, arguments, length|
-|// 전역 메서드<br />- Local Method|Global, escape, unescape, eval, isFinite, isNaN, parseInt, parseFloat|
-|// 연산<br />- Operation|Math, abs, acos, asin, atan, atan2, ceil, cos, exp, floor, log, max, min, pow, random, round, sin, sqrt, tan, E, LN2, LN10, LOG2E, LOG10E, PI, SQRT1_2, SQRT2|
-|// 숫자<br />- Number|Number, MAX_VALUE, MIN_VALUE, NaN, NEGATIVE_INFINITY, POSITIVE_INFINITY|
-|// 개체 작성<br />- Creating Objects|Object, new, constructor, prototype, toString, valueOf|
-|// 연산자<br />- Operator|+, -, %, *, /, -, ==, !=, <, <=, >, >=, &&, \|\|, !, &, \|, ~, ∧, ＜＜＜, ＞＞, ＞＞＞, ? : , ',', delete, typeof, void, --, ++|
-|// 개체<br />- Object|Arrya, Boolean, Date, Function, Global, Math, Number, Object, String|
-|// 문자열<br />- String|String, charAt, charCodeAt, fromCharCode, indexOf, lastIndexOf, split, toLowerCase, toUpperCase, length|
+|// 전역 메서드<br />- Local Method|Global, escape, unescape, eval, <br />isFinite, <br />isNaN, <br />parseInt, parseFloat|
+|// 연산<br />- Operation|Math, <br />abs, acos, asin, atan, atan2, <br />ceil, cos, <br />exp, floor, log, max, min, <br />pow, random, round, <br />sin, sqrt, tan, <br />E, <br />LN2, LN10, LOG2E, LOG10E, <br />PI, SQRT1_2, SQRT2|
+|// 숫자<br />- Number|Number, <br />MAX_VALUE, MIN_VALUE, <br />NaN, <br />NEGATIVE_INFINITY, POSITIVE_INFINITY|
+|// 개체 작성<br />- Creating Objects|Object, <br />new, <br />constructor, prototype, <br />toString, <br />valueOf|
+|// 연산자<br />- Operator|+, -, %, *, /, <br />-, ==, !=, <br /><, <=, >, >=, <br />&&, \|\|, !, &, \|, ~, ∧, <br />＜＜＜, ＞＞, ＞＞＞, <br />? : , <br />',', <br />delete, <br />typeof, void, <br />--, ++|
+|// 개체<br />- Object|Arrya, Boolean, Date, Function, Global, <br />Math, Number, Object, String|
+|// 문자열<br />- String|String, charAt, charCodeAt, fromCharCode, <br />indexOf, lastIndexOf, <br />split, <br />toLowerCase, toUpperCase, <br />length|
    
 <br />
 ### Features not applicable to ECMA   
@@ -33,7 +33,7 @@ categories: [JScript]
    
 |Category|Functions, keywords|
 |:---|:---|
-|// 배열 처리<br />- Array processing|concat, slice, VBArray, dimensions, getItem, lbound, toArray, ubound|
+|// 배열 처리<br />- Array processing|concat, <br />slice, <br />VBArray, <br />dimensions, <br />getItem, <br />lbound, <br />toArray, <br />ubound|
 |// 조건부 컴파일<br />- Conditional Compilation|@cc_on, @if, @set,<br />// 조건부 컴파일 변수<br />- Conditional Compilation Variables|
 |// 흐름 제어<br />- Flow control|do...while, Labeled, switch|
 |// 날짜와 시간<br />- Date and time|getVarDate|
@@ -41,10 +41,10 @@ categories: [JScript]
 |// 오류 처리<br />- Error handling|Error, description, number, throw, try...catch|
 |// 함수 작성<br />- Creating a Function|caller|
 |// 연산자<br />- Operator|===, !==|
-|// 개체<br />- Object|Enumerator, RegExp, Regular Expression, VBArray, ActiveXObject, getObject|
-|// 정규식과 패턴 일치<br />- Match Regular Expressions and Patterns|RegExp, index, input, lastIndex, $1...$9, source, compile, exec, text,<br />// 정규식 구문<br />- Regular Expression Syntax|
-|// 스크립팅 엔진 확인<br />- Verifying Scripting Engine|ScriptEngine, ScriptEngineBuildVersion, ScriptEngineMajorVersion, ScriptEngineMinorVersion|
-|// 문자열<br />- String|concat, slice, match, replace, search, anchor, big, blink, bold, fixed, fontcolor, fontsize, italics, link, small, strike, sub, sup|
+|// 개체<br />- Object|Enumerator, <br />RegExp, Regular Expression, <br />VBArray, <br />ActiveXObject, getObject|
+|// 정규식과 패턴 일치<br />- Match Regular Expressions and Patterns|RegExp, index, input, lastIndex, <br />$1...$9, source, compile, exec, text,<br />// 정규식 구문<br />- Regular Expression Syntax|
+|// 스크립팅 엔진 확인<br />- Verifying Scripting Engine|ScriptEngine, <br />ScriptEngineBuildVersion, <br />ScriptEngineMajorVersion, <br />ScriptEngineMinorVersion|
+|// 문자열<br />- String|concat, slice, match, <br />replace, search, anchor, <br />big, blink, bold, fixed, <br />fontcolor, fontsize, italics, <br />link, small, strike, sub, sup|
    
 <br />
 ### Function   
