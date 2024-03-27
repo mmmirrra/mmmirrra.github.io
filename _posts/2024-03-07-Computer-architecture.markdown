@@ -139,6 +139,12 @@ CPU
 - Software is a set of instructions that directs procedures for when and how hardware performing unique functions can operate to troubleshoot problems   
 - Separated into application software, system software   
    
+#### Application software   
+// 응용 소프트웨어   
+   
+// 학사관리 프로그램, 급여관리 프로그램, 재고관리 프로그램 등 다양한 종류가 있음   
+- There are various types such as academic management programs, salary management programs, and inventory management programs   
+   
 #### System software   
 // 시스템 소프트웨어   
    
