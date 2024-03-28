@@ -164,7 +164,7 @@ categories: [Computer]
 - Small, inexpensive, powerful features and performance. GUI (Graphic User Interface) enhancements   
 - Desktop, Laptop, Notebook, Palmtop, PDA, Mobile Computer   
 - Equipped with one or more high-performance microprocessors. Various server systems with (supercomputer) performance are supplied   
-- advancements in the field of computer communication   
+- Advancements in the field of computer communication   
 - Establishment of information superhighway through LAN (Local Area Network) and WAN (Wide Area Network)   
    
 <br />
