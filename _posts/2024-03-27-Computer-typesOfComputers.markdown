@@ -30,12 +30,12 @@ categories: [Computer]
 // 팜톱(palmtop) PC, 핸드헬드(hand-held) PC, 펜으로 쉽게 데이터를 입력할 수 있는 펜(pen) PC 등   
 // PDF : 전용단말기. 전용 OS. Windows mobile/CE. Palm OS   
 // 휴대전화와 결합된 스마트폰 (smart phone)   
-- Laptops: Almost similar in performance and functionality to desktop PCs. Small and light, mobile but expensive   
-- Netbook: Emphasis on mobility. Lower performance, cheaper than laptop PCs. Lightweight, longer battery life   
-- Tablet PC: Emphasis on mobility. No keyboard, multi-touch screen. Based on existing OS. Based on mobile OS. iPad, Galaxy Tab, etc.   
-- Slate PC: Similar to tablet PC. Provides a separate keyboard. Fully compatible with desktop and laptop PCs   
+- Laptops : Almost similar in performance and functionality to desktop PCs. Small and light, mobile but expensive   
+- Netbook : Emphasis on mobility. Lower performance, cheaper than laptop PCs. Lightweight, longer battery life   
+- Tablet PC : Emphasis on mobility. No keyboard, multi-touch screen. Based on existing OS. Based on mobile OS. iPad, Galaxy Tab, etc.   
+- Slate PC : Similar to tablet PC. Provides a separate keyboard. Fully compatible with desktop and laptop PCs   
 - Palmtop PCs, hand-held PCs, pen PCs, etc., which allow you to easily enter data with a pen, etc.   
-- PDF: Dedicated terminal. Dedicated OS. Windows mobile/CE. Palm OS   
+- PDF : Dedicated terminal. Dedicated OS. Windows mobile/CE. Palm OS   
 - a smartphone coupled with a mobile phone   
    
 <br />
@@ -47,8 +47,8 @@ categories: [Computer]
 // 1990년 대 : 인텔사 Intel 80386, Intel 80486에서 펜티엄으로 발전   
 // 2000년 대 : 고성능의 멀티 코어 i2...i7, 2021년 i11(매시브 코어)으로 발전   
 // 고성능, 3D, 애니메이션, 이미지, 음성인식 등을 지원. 인터넷과 멀티미디어 시대 도래   
-- 1990s: Intel 80386, Intel 80486 to Pentium   
-- 2000s: High-performance multi-core i2...i7, advanced to i11 (Massive Core) in 2021   
+- 1990s : Intel 80386, Intel 80486 to Pentium   
+- 2000s : High-performance multi-core i2...i7, advanced to i11 (Massive Core) in 2021   
 - Supports high performance, 3D, animation, image, voice recognition, etc. Internet and multimedia era has arrived   
    
 #### operating system   
@@ -83,7 +83,7 @@ categories: [Computer]
 // - KISTI 국가슈퍼컴퓨팅센터 CRAY CS500   
 - Can handle large amounts of scientific calculations. About 50,000 times more processing speed than an ordinary personal computer. Very expensive   
 - Used for space development, nuclear calculations, defense and weapons, weather forecasting, scientific research, etc   
-- U.S. Summit 148PFLOPS (petaflops: 1,000 views per second). Fugaku, Japan (442 PFlops)   
+- U.S. Summit 148PFLOPS (petaflops : 1,000 views per second). Fugaku, Japan (442 PFlops)   
 - Established in some universities, research institutes, and state institutions in Korea   
   - Meteorological Administration Supercomputer CRAY XC40, LENOVO SD650 (No. 5)   
   - KISTI National Supercomputing Center CRAY CS500   

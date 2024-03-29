@@ -20,7 +20,7 @@ categories: [Computer]
 - In 1642, Adders of Blaise Pascal   
 - In 1674, Gottfried Leibniz's Multiplier   
 - In 1834, English mathematician Charles Babbage designed an analytical engine that automatically calculates mathematics   
-- It is similar to the five functions of modern computers: input, output, memory, control, and calculation devices. It is impossible to manufacture with the technology at the time   
+- It is similar to the five functions of modern computers : input, output, memory, control, and calculation devices. It is impossible to manufacture with the technology at the time   
    
 #### the advent of electronic calculators   
 // 전자식 계산기의 등장   
@@ -29,8 +29,8 @@ categories: [Computer]
 // ENIAC : 1946년 모클리(John W. Mauchly)와 에커트(J. Presper Eckert). 최초의 대형 전자식 디지털 컴퓨터. 포탄궤도 계산, 일기예보 등. 진공관 18,000개. 30톤. 6,000개의 스위치. 프로그램이 바뀔때마다 전선과 스위치 재연결   
 // EDVAC : 1946년 폰 노이만(John von Neumann). 프로그램 내장방식 컴퓨터(stored program concept computer). 프로그램과 주기억장치. 1951년 출시   
 // EDSAC : 1949년 영국 Maurice Wilkes   
-- ABC (Atanasoff - Berry Computer): John V. Atanasoff and Clifford Berry from 1937-1942. Using vacuum tubes. First electronic digital computer. Electronic. Not programmable. Patented 1973   
-- ENIAC: 1946 John W. Mauchly and J. Presper Eckert. The first large electronic digital computer. Calculation of the shell's trajectory, Weather Forecast, etc. 18,000 vacuum tubes. 30 tons. 6,000 switches. Reconnect wires to switches each time the program changes   
+- ABC (Atanasoff - Berry Computer) : John V. Atanasoff and Clifford Berry from 1937-1942. Using vacuum tubes. First electronic digital computer. Electronic. Not programmable. Patented 1973   
+- ENIAC : 1946 John W. Mauchly and J. Presper Eckert. The first large electronic digital computer. Calculation of the shell's trajectory, Weather Forecast, etc. 18,000 vacuum tubes. 30 tons. 6,000 switches. Reconnect wires to switches each time the program changes   
 - EDVAC : 1946 John von Neumann. Stored program concept computer. Programs and main memory. Released in 1951   
 - EDSAC : 1949 Maurice Wilkes, United Kingdom   
    
@@ -45,9 +45,9 @@ categories: [Computer]
 // UNIVAC 1 : 1951년 레밍턴 랜드사의 에커트-모클리가 완성. 조사통계국에서 데이터 처리용으로 사용   
 // 1944년 MARK 1 : IBM사와 하버드대학이 개발. 전기기계식. 명령어는 종이테이프에 저장. MARK 1 ~ MARK 4   
 // 1950년대 IBM과 레밍턴 랜드사는 컴퓨터 산업을 주도하는 양대 기업으로 등장   
-- 1946-1957: vacuum tube era. ENIAC, EDVAC (Program Embedded Method), EDSAC   
-- UNIVAC 1: Completed by Eckert-Mockley, Remington Land Co., 1951. Used by the Bureau of Survey Statistics for data processing   
-- 1944 MARK 1: Developed by IBM and Harvard University. Electromechanical. Command stored on paper tape. MARK 1 ~ MARK 4   
+- 1946-1957 : vacuum tube era. ENIAC, EDVAC (Program Embedded Method), EDSAC   
+- UNIVAC 1 : Completed by Eckert-Mockley, Remington Land Co., 1951. Used by the Bureau of Survey Statistics for data processing   
+- 1944 MARK 1 : Developed by IBM and Harvard University. Electromechanical. Command stored on paper tape. MARK 1 ~ MARK 4   
 - In the 1950s, IBM and Remington Land emerged as two leading companies in the computer industry   
    
 #### the second generation   
@@ -62,8 +62,8 @@ categories: [Computer]
 // 고급언어 : ALGOL, FORTRAN, COBOL   
 // 실시간 시스템과 운영체제 사용   
 // - 컴퓨터 속도가 더 빠르고 크기가 더 작고 비용이 더 저렴하여 많은 기업들이 컴퓨터를 사용할 수 있게 됨   
-- 1958 ~ 1964: the transistor era   
-- Disadvantages of vacuum tube: lots of heat generation. low reliability. lots of space requirements. slow data processing speed   
+- 1958 ~ 1964 : the transistor era   
+- Disadvantages of vacuum tube : lots of heat generation. low reliability. lots of space requirements. slow data processing speed   
 - 1947 transistor invention : Bell Labs, United States. Semiconductor devices that act as amplification and switching   
 - The first computer to use transistors in 1954 TRADIC   
 - In 1958, IBM 7090, 7070 using only transistors   
@@ -89,20 +89,20 @@ categories: [Computer]
 // CPU를 하나의 칩에 저장한 마이크로프로세서(microprocessor) 개발   
 // 하나의 칩에 마이크로프로세서, 메모리, 인터페이스 등의 기능을 구현한 마이크로컴퓨터 출현   
 // 1971년 IBM 시스템 370발표 : 메모리에 단일체 집적회로 기술을 전면적으로 도입한 최초의 컴퓨터   
-- 1965 to 1971: Integrated Circuit Era   
-- Integrated circuits (IC, chip, microchip): Combining many transistors and electronic circuits on a semiconductor substrate in a microcosm   
+- 1965 to 1971 : Integrated Circuit Era   
+- Integrated circuits (IC, chip, microchip) : Combining many transistors and electronic circuits on a semiconductor substrate in a microcosm   
 - Appeared since 1958. In 1958, Jack St. Clair Kilby and Robert Noyce invented the first Integrated Circuit (IC) on a silicon chip that combines many transistors and electronic circuits   
 - 1964 IBM Systems/360 Presented. For scientific and commercial use   
-- IBM's Solid Logic Technology (SLT): Embedded control circuit components into small chips   
-- 1965 Small Computer IBM 1130 Announcement: Rental computers under $1,000 per month. Electronic circuit elements (transistors, diodes, resistors, capacitors, etc.)   
+- IBM's Solid Logic Technology (SLT) : Embedded control circuit components into small chips   
+- 1965 Small Computer IBM 1130 Announcement : Rental computers under $1,000 per month. Electronic circuit elements (transistors, diodes, resistors, capacitors, etc.)   
 - Accelerate computer internal processing performance. Mass production of parts at a low cost   
 - Semiconductor memory is used instead of magnetic core memory   
-- Development of operating system: multiprogramming. Parallel processing   
-- Multi-programming: A method of increasing CPU utilization by allowing the CPU to always perform multiple programs loaded on the main memory device. When the operating system selects and executes one of the tasks in memory and the task becomes a situation where it has to wait for one, it immediately switches to another task. For example, when input comes on the keyboard, the CPU must wait until the input is complete, in which case the CPU is not idle, but switched to another task to perform it. If this process is repeated, the first task ends up waiting and takes up the CPU again. Therefore, as long as there is work to be done, the CPU will not be idle   
-- Parallel processing: Processing multiple commands or data at the same time. How to speed up by allocating different tasks on a program to multiple processors and processing them simultaneously. Several tens to hundreds of processors are connected to the network or bus to process commands and data simultaneously. Array processors and pipelines used in supercomputers have adopted parallel processing methods for a relatively long time   
+- Development of operating system : multiprogramming. Parallel processing   
+- Multi-programming : A method of increasing CPU utilization by allowing the CPU to always perform multiple programs loaded on the main memory device. When the operating system selects and executes one of the tasks in memory and the task becomes a situation where it has to wait for one, it immediately switches to another task. For example, when input comes on the keyboard, the CPU must wait until the input is complete, in which case the CPU is not idle, but switched to another task to perform it. If this process is repeated, the first task ends up waiting and takes up the CPU again. Therefore, as long as there is work to be done, the CPU will not be idle   
+- Parallel processing : Processing multiple commands or data at the same time. How to speed up by allocating different tasks on a program to multiple processors and processing them simultaneously. Several tens to hundreds of processors are connected to the network or bus to process commands and data simultaneously. Array processors and pipelines used in supercomputers have adopted parallel processing methods for a relatively long time   
 - Developing a microprocessor that stores the CPU on one chip   
 - Microcomputer with microprocessor, memory, interface, and more on one chip   
-- 1971 IBM System 370: the first computer to fully introduce monolithic integrated circuit technology to memory   
+- 1971 IBM System 370 : the first computer to fully introduce monolithic integrated circuit technology to memory   
    
 #### the fourth generation   
 // 제 4 세대   
@@ -120,13 +120,13 @@ categories: [Computer]
 - 1972 ~ ? : High and Ultra High Density Integrated Circuit (IC) Age   
 - LSI : Large Scale IC   
 - VLSI : Very Large Scale IC   
-- Intensity: Number of transistors in a single substrate. 1,000, 10,000...   
+- Intensity : Number of transistors in a single substrate. 1,000, 10,000...   
 - Improvements in computing speed and storage capacity. Diversification and advanced input/output devices, etc.   
 - Personal computers, intelligent terminals, data communication, distributed data processing, and databases have become commonplace. Computer performance and functions have improved and prices have developed in a way that lowers prices   
-- The first mini-computer announced by the U.S. DEC in 1965: It is smaller and cheaper than a general-purpose computer   
+- The first mini-computer announced by the U.S. DEC in 1965 : It is smaller and cheaper than a general-purpose computer   
 - Dec's VAX 11/780 and Data General's MV 8000 were widely used in the late 1970s   
-- Operating system: Most computer systems use time-sharing systems   
-- 1980s General purpose computers: FACOM's M-Series, IBM's 3090-Series   
+- Operating system : Most computer systems use time-sharing systems   
+- 1980s General purpose computers : FACOM's M-Series, IBM's 3090-Series   
    
 <br />
 ### the advancement of microprocessors and personal computers   
@@ -142,16 +142,16 @@ categories: [Computer]
 // 분산계산과 병렬계산, 클라이언트/서버시스템, 사용자 인터페이스 향상   
 // 컴퓨터 이용자가 일반 대중으로 변화   
 // 인터넷의 급속한 보급 : 무한한 가상공간에서 필요한 정보를 언제 어디서든 얻을 수 있음   
-- Early 1970 s: Dr Ted Hoff, Intel Corporation. Breakthrough change with microprocessor development   
+- Early 1970 s : Dr Ted Hoff, Intel Corporation. Breakthrough change with microprocessor development   
 - Since then, many computer manufacturers have released a variety of computers equipped with microprocesses   
-- Apple: Apple 1 in 1977 and Apple 2 since then, Macintosh computers   
-- IBM Corporation: Personal Computer (PC) Launched. Other companies also launch IBM compatible models   
+- Apple : Apple 1 in 1977 and Apple 2 since then, Macintosh computers   
+- IBM Corporation : Personal Computer (PC) Launched. Other companies also launch IBM compatible models   
 - Microprocessor : a processing device that integrates computer computing devices and control devices into a single small silicon chip   
 - Microprogramming : One of the control methods by which the computer's central processing unit generates control signals from machine instruction. Segmenting machine instruction into several levels of microinstruction and configuring the instructions corresponding to each machine instruction into microprograms   
-- 1990 s: microprocessor and network technology advances   
+- 1990 s : microprocessor and network technology advances   
 - Improved distributed and parallel computation, client/server systems, and user interface   
 - the change of the general public into computer users   
-- Rapid Internet penetration: Get the information you need anytime, anywhere in an infinite virtual space   
+- Rapid Internet penetration : Get the information you need anytime, anywhere in an infinite virtual space   
    
 #### computer development and network development   
 // 컴퓨터의 발전과 네트워크 발달   
@@ -176,7 +176,7 @@ categories: [Computer]
 // 자료처리방식의 변화 : 1970년대 일괄처리방식 → 거래지향방식 (예시 : 성적처리 후 우편전송 → 성적 열람 및 증명서 출력)   
 - With the development of computer communication lines, users can search for data using computers through remote terminals. Data communication   
 - Enables transaction-oriented data processing   
-- Changes in data processing methods: Batch processing method in the 1970s → transaction-oriented method (e.g., mail delivery after grade processing → grade reading and printing certificates)   
+- Changes in data processing methods : Batch processing method in the 1970s → transaction-oriented method (e.g., mail delivery after grade processing → grade reading and printing certificates)   
    
 #### development of computers and communication   
 // 컴퓨터와 통신의 발전   
@@ -220,11 +220,11 @@ categories: [Computer]
 - A small chip, which is the advantage of DRAM, and a memory mobile DRAM that satisfies the low power consumption, which is the advantage of SRAM, at the same time   
 - Convergence of smartphones and various wearable devices. Biometric functions. Customized information according to user's status, location, and taste is provided   
 - Low power consumption, faster processing, thin and light   
-- Data processing on computers: audio, video, animation, digital multimedia, big data   
+- Data processing on computers : audio, video, animation, digital multimedia, big data   
 - Global computer usage environment based on the Internet. Social change in all fields centered on virtual space. VR. AR. Metaverse   
 - AI (Artificial Intelligence) Computer. Learningable neural network computers. Machine learning   
 - In the future, light, superconductor-operated computers. A computer resembling a human neural network. Ultra-fast, ultra-small, ultra-light, ultra-low-cost computers that understand languages. Quantum computer   
-- Ubiquitous and Internet of Things (IoT): Smart Cities   
+- Ubiquitous and Internet of Things (IoT) : Smart Cities   
    
 #### Generational Characteristics of Computer Industry Development   
 // 컴퓨터산업 발전의 세대별 특징   
