@@ -246,8 +246,8 @@ categories: [Programming Language Theory]
    
 |// 프로그램 형태<br />Program Form|+|// 수행 과정<br />the course of performance|
 |:---:|:---:|:---:|
-|// 작성한 프로그램<br />// 데이터<br />// 연산<br />- a written program<br />- data<br />- operation||// 실행 시 프로세스<br />// 메모리<br />// 수행 흐름<br />- running Processes<br />-  memory<br />- performance Flow|
-|// 구문론<br />syntax||// 의미론<br />semantics|
+|// 작성한 프로그램<br />// 데이터<br />// 연산<br />- a written program<br />- data<br />- operation|+|// 실행 시 프로세스<br />// 메모리<br />// 수행 흐름<br />- running Processes<br />-  memory<br />- performance Flow|
+|// 구문론<br />syntax|+|// 의미론<br />semantics|
    
 #### How to learn a programming language   
 // 어떻게 프로그래밍 언어를 배워야 하나?   
