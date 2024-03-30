@@ -56,7 +56,7 @@ categories: [Programming Language Theory]
    
 // 소스 프로그램 : 프로그래머가 작성한 프로그램   
 // 목적 프로그램 : 컴퓨터 하드웨어가 수행할 수 있는 프로그램   
-- Source programs: Programs written by programmers   
+- Source programs : Programs written by programmers   
 - Purpose Program : Programs that computer hardware can perform   
    
 <br />
