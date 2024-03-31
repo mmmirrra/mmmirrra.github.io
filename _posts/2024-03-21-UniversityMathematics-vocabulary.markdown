@@ -983,6 +983,8 @@ Hemisphere : 반구
 
 Heptagon : 칠각형, 7각형
 
+Hexadecimal : 16진법, 십육진법, 16진수, 십육진수
+
 Hexagon : 육각형, 6각형
 
 hexahedron : 육면체 (여섯 면을 가진 입체도형)
@@ -1340,6 +1342,8 @@ obtuse angle : 둔각, obtuse : 무디다, 뭉툭하다
 obtuse triangle : 둔각삼각형, 한각이 둔각인 삼각형
 
 Octagon : 팔각형, 8각형
+
+Octal : 8진법, 팔진법, 8진수, 팔진수
 
 odd number : 홀수, 한자에서는 기수, 짝수는 우수 (even number)
 
