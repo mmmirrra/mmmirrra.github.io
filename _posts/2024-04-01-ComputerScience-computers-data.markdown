@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Computer Science: Computers and Data"
-date:   2024-03-30 09:00:00 +0900
+date:   2024-04-01 09:00:00 +0900
 categories: [Computer Science]
 ---
 
