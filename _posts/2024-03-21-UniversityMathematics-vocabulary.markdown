@@ -2135,6 +2135,8 @@ zeros (of a function) : 함수를 0으로 만드는 값
 
 공통현 : 두 개의 원에 공통인 현을 말한다
 
+과학적 표기법 : 과학적 표기법에서 M은 가수, B는 기저, E는 지수임. In scientific notation, M is the mantissa, B is the basis, and E is the exponent
+
 교각 (angle of intersection) : 두 직선 또는 두 곡선의 교각
 
 교선 (line of intersection) : 두 평면이 오직 한 직선을 공유할 때에 만난다라고 하며 그 직선을 두 평면의 교선이라고 한다
