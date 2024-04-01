@@ -44,7 +44,7 @@ categories: [Computer Science]
 // -- 너무 포괄적   
 // -- 어떤 형태의 작업을 처리할 수 있는지 불분명   
 - Data Processor   
-  - (data) input → (computer: data processing) processing → (result) output   
+  - (data) input → (computer : data processing) processing → (result) output   
   - Define only the functional measure of modern computers ("input-process-output")   
     - Too comprehensive   
     - It's unclear what types of tasks can be handled   
@@ -113,10 +113,10 @@ categories: [Computer Science]
 // -- 알고리즘 : 이산구조, 선형대수, 알고리즘, 인공지능   
 - Areas of computers, data, programs, and algorithms   
   - Data → (Alarm → Program →) Computer → Information   
-    - Data-related subjects: Data structure, database   
-    - Computer-related subjects: Digital logic circuit, computer structure   
-    - Program-related subjects: Operating system, compiler, programming language, information communication, computer graphics   
-    - Algorithms: Discrete structure, linear algebra, algorithms, artificial intelligence   
+    - Data-related subjects : Data structure, database   
+    - Computer-related subjects : Digital logic circuit, computer structure   
+    - Program-related subjects : Operating system, compiler, programming language, information communication, computer graphics   
+    - Algorithms : Discrete structure, linear algebra, algorithms, artificial intelligence   
    
 // 알고리즘과 관련된 이슈를 다루는 학문   
 // - 주어진 문제를 해결하기 위한 처리 과정을 절차적으로 나열한 명령어들의 집합   
@@ -191,7 +191,7 @@ categories: [Computer Science]
 - Arithmetic logic calculator : A device that performs direct data processing through arithmetic operations and performance   
 - Control devices : A device that controls the operation of a computer's memory, ALU, and I/O devices   
 - Input devices : Keyboard, mouse, microphone, etc.   
-- Output devices: monitors, printers, speakers, etc.   
+- Output devices : monitors, printers, speakers, etc.   
    
 // 폰 노이만 모델의 주요 개념   
 // - 내장 프로그램 (stored program)   
@@ -273,7 +273,7 @@ categories: [Computer Science]
 - I = P(D)   
 - Data D → Processor P (Data processing, information processing) → Information I   
   - Data D : Values/facts obtained simply from observations or measurements from the real world   
-  - Information I: Knowledge that enables you to make appropriate decisions about a situation   
+  - Information I : Knowledge that enables you to make appropriate decisions about a situation   
    
 #### The form of representation of the data   
 // 데이터의 표현 형태   
@@ -333,7 +333,7 @@ categories: [Computer Science]
 // 예시   
 // - '123' (일이삼) : 일백이십삼 (= 1 x 10<sup>2</sup> + 2 x 10<sup>1</sup> + 3 x 10<sup>0</sup>)   
 - Example   
-  - '123' (one two three): One hundred and twenty-three (= 1 x 10<sup>2</sup> + 2 x 10<sup>1</sup> + 3 x 10<sup>0</sup>)   
+  - '123' (one two three) : One hundred and twenty-three (= 1 x 10<sup>2</sup> + 2 x 10<sup>1</sup> + 3 x 10<sup>0</sup>)   
    
 |Binary system|1|0|1|1|1|.|0|1|1|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -627,7 +627,7 @@ output [0.result(0), result(1), ..., result(i)];
   - The number of bits in the exponent and mantissa is determined by the person designing the system according to the purpose of using the system   
     - exponent : Increasing the exponent widens the range of numbers   
       - You need to know about the excess notation to express the exponent   
-    - mantissa: Increasing the mantissa increases the number of significant digits and increases precision   
+    - mantissa : Increasing the mantissa increases the number of significant digits and increases precision   
       - You need to know about normalization to express the mantissa   
    
 #### Excess Notation   
@@ -694,7 +694,7 @@ output [0.result(0), result(1), ..., result(i)];
 // - ∴ 최종 비트 표기 [0(부호),10000100(지수),11100101100000000000000(가수)]   
 - Example   
   - 60.6875   
-  - 4 bytes in total: sign 1 bit, exponent 8 bits (magic number excess_127), mantissa 23 bits   
+  - 4 bytes in total : sign 1 bit, exponent 8 bits (magic number excess_127), mantissa 23 bits   
     - → 1 bit of sign is positive, so 0 notation   
     - → Connect the integer and decimal parts of 60.6875 by calculating them as binary digits, respectively 111100.1011   
     - → Binary real number 111100.1011 normalized 1.111001011 x 2<sup>5</sup>   
@@ -734,7 +734,7 @@ output [0.result(0), result(1), ..., result(i)];
 // 미국표준협회 (ANSI)   
 // 7비트 코드 : 128개(2<sup>7</sup>)의 서로 다른 문자 표현   
 - American National Standards Institute (ANSI)   
-- 7-bit code: 128 (2<sup>7</sup>) different character representations   
+- 7-bit code : 128 (2<sup>7</sup>) different character representations   
    
 // 확장된 아스키 Extended ASCII : 1비트 + 7비트   
 // - 1비트 : 0 또는 패러티 비트를 표기   
@@ -744,7 +744,7 @@ output [0.result(0), result(1), ..., result(i)];
 - Extended ASCII : 1 bit + 7 bit   
   - 1 bit : 0 or parity bit   
     - parity bit : Used to detect errors when transferring data occurs   
-      - Even Parity: Makes the number of 1s in the data to be transmitted even. Example 1001100 → 11001100   
+      - Even Parity : Makes the number of 1s in the data to be transmitted even. Example 1001100 → 11001100   
       - Odd Parity : Makes the number of 1s in the data to be transmitted an odd number. Example 1001100 → 01001100   
    
 #### Unicode   
