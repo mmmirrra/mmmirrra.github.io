@@ -287,7 +287,7 @@ Example of a many-to-many mapping cardinality representation
    
 |Student|Relationship|Account|
 |:---|:---:|:---|
-|<u>Student number</u><br />Student name<br />...|← ◈ =><br />possession|Account number<br />Balance<br />...|
+|<u>Student number</u><br />Student name<br />...|← ◈ →<br />possession|Account number<br />Balance<br />...|
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
