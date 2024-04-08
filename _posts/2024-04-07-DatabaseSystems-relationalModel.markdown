@@ -442,7 +442,8 @@ Q. Print out the name of the professor whose position is 'Associate Professor'
 - The operation of applying an Aggregate Function to a set of values or a set of records   
   - ℊ<sub>x(A)</sub>(R)   
     - <sub>x()</sub> : Aggregate Functions such as AVG, SUM, MIN, MAX, COUNT, etc.   
-    - <sub>A</sub> : Column to apply aggregate operations to    - (R) : Relation   
+    - <sub>A</sub> : Column to apply aggregate operations to   
+    - (R) : Relation   
    
 #### Examples of Aggregation Function 1   
 // 집계 함수의 예시 1   
