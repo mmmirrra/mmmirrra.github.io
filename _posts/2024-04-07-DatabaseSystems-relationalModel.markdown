@@ -260,9 +260,11 @@ categories: [Database Systems]
 // 조건 : a ⊝ b 또는 a ⊝ v   
 - Condition: a ⊝ b or a ⊝ v   
    
-|a, b|Property name|v|constant value|
-|:---:|:---:|:---:|:---:|
-|<b>⊝</b>|<b>Comparator {＝, ≠, ＜, ＞, ≤, ≥</b>}|<b>R</b>|<b>Relation</b>|
+|a, b|Property name|
+|:---:|:---|
+|<b>v</b>|<b>constant value</b>|
+|<b>⊝</b>|<b>Comparator {＝, ≠, ＜, ＞, ≤, ≥</b>}|
+|<b>R</b>|<b>Relation</b>|
    
 - Combination of conditions : ∧(and), ∨(or)   
    
