@@ -18,7 +18,7 @@ categories: [JScript]
     5. Option Explicit 문 앞 뒤에 <%...%> 태그를 추가하여 이 내용이 서버 측에서 실행되도록 합니다.   
     6. 아래 코드를 예제 코드 끝에 추가합니다.   
    
-```javascript
+```jscript
 Sub Print(x)
     Response.Write "<PRE><FONT FACE=""Courier New"" SIZE=""1"">"
     Response.Write x
@@ -29,7 +29,7 @@ Main
    
 - 위의 코드는 서버 측에서 실행한 후 결과를 클라이언트 측에 표시하는 인쇄 프로시저를 추가합니다. 이 코드를 Windows Scripting Host에서 실행하려면 예제 코드 끝에 아래 코드를 추가하십시오.   
    
-```javascript
+```jscript
 Sub Print(x)
     WScript.Echo x
 End Sub
@@ -67,7 +67,7 @@ Const TestFilePath = "C:\Test"
 <br />
 ### Drive.DriveType에서 반환하는 상수   
    
-```javascript
+```jscript
 Const DriveTypeRemovable = 1
 Const DriveTypeFixed = 2
 Const DriveTypeNetwork = 3
@@ -78,7 +78,7 @@ Const DriveTypeRAMDisk = 5
 <br />
 ### File.Attributes에서 반환하는 상수   
    
-```javascript
+```jscript
 Const FileAttrNormal = 0
 Const FileAttrReadOnly = 1
 Const FileAttrHidden = 2
@@ -93,7 +93,7 @@ Const FileAttrCompressed = 128
 <br />
 ### 파일을 여는 데 필요한 상수   
    
-```javascript
+```jscript
 Const OpenFileForReading = 1
 Const OpenFileForWriting = 2
 Const OpenFileForAppending = 8
@@ -106,7 +106,7 @@ Const OpenFileForAppending = 8
 - 다음을 보여줍니다.   
   - Drive.DriveType   
    
-```javascript
+```jscript
 Function ShowDriveType(Drive)
 
     Dim S
@@ -139,7 +139,7 @@ End Function
   - File.Attributes   
   - Folder.Attributes   
    
-```javascript
+```jscript
 Function ShowFileAttr(File) 'File은 파일 또는 폴더입니다.
 
     Dim S
@@ -186,7 +186,7 @@ End Function
   - Drive.TotalSize   
   - Drive.VolumeName   
    
-```javascript
+```jscript
 Function GenerateDriveInformation(FSO)
 
     Dim Drives
@@ -264,7 +264,7 @@ End Function
   - File.DateLastModified   
   - File.Size   
    
-```javascript
+```jscript
 Function GenerateFileInformation(File)
 
     Dim S
@@ -295,7 +295,7 @@ End Function
   - Folder.DateLastModified   
   - Folder.Size   
    
-```javascript
+```jscript
 Function GenerateFolderInformation(Folder)
 
     Dim S
@@ -322,7 +322,7 @@ End Function
   - Folder.SubFolders   
   - Folders.Count   
    
-```javascript
+```jscript
 Function GenerateAllFolderInformation(Folder)
 
     Dim S
@@ -384,7 +384,7 @@ End Function
   - FileSystemObject.FolderExists   
   - FileSystemObject.GetFolder   
    
-```javascript
+```jscript
 Function GenerateTestInformation(FSO)
 
     Dim TestFolder
@@ -411,7 +411,7 @@ End Function
   - Folder.Delete   
   - File.Delete   
    
-```javascript
+```jscript
 Sub DeleteTestDirectory(FSO)
 
     Dim TestFolder
@@ -446,7 +446,7 @@ End Sub
   - TextStream.WriteBlankLines   
   - TextStream.Close   
    
-```javascript
+```jscript
 Sub CreateLyrics(Folder)
     Dim TextStream
 
@@ -485,7 +485,7 @@ End Sub
   - TextStream.AtEndOfStream   
   - TextStream.ReadLine   
    
-```javascript
+```jscript
 Function GetLyrics(FSO)
 
     Dim TextStream
@@ -531,7 +531,7 @@ End Function
   - TextStream.WriteLine   
   - TextStream.Close   
    
-```javascript
+```jscript
 Function BuildTestDirectory(FSO)
 
     Dim TestFolder
@@ -573,7 +573,7 @@ End Function
    
 - 먼저 test 디렉터리, 하위폴더, 파일을 만듭니다. 그런 다음 사용할 수 있는 디스크 드라이브와 test 디렉터리에 관한 정보를 넣고 다시 모든 것을 지웁니다.   
    
-```javascript
+```jscript
 Sub Main
 
     Dim FSO
