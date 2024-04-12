@@ -56,7 +56,7 @@ Main
 <br />
 ### 편리한 전역 변수   
    
-```javascript
+```jscript
 Dim TabStop
 Dim NewLine
 
