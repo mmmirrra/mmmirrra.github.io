@@ -131,7 +131,7 @@ Sub CreateFolder
     Dim fso, fldr
     Set fso = CreateObject("Scripting.FileSystemObject")
     Set fldr = fso.CreateFolder("C:\MyTest")
-    Response.Write "만든 폴더: " & fldr.Nam;
+    Response.Write "만든 폴더 : " & fldr.Nam;
 End Sub
 ```
    
@@ -143,7 +143,7 @@ function CreateFolder()
     var fso, fldr;
     fso = new ActiveXObject("Scripting.FileSystemObject");
     fldr = fso.CreateFolder("C:\\MyTest");
-    Response.Write("만든 폴더: " + fldr.Name);
+    Response.Write("만든 폴더 : " + fldr.Name);
 }
 ```
    
@@ -168,13 +168,13 @@ var fldr = fso.GetFolder("C:\\");
 - VBScript에서 이 속성을 확인하려면 아래 코드를 사용함   
    
 ```vbscript
-Response.Write "폴더 이름: " & fldr.Name
+Response.Write "폴더 이름 : " & fldr.Name
 ```
    
 - JScript에서 Name 속성을 확인하려면 아래 구문을 사용함   
    
 ```javascript
-Response.Write("폴더 이름: " + fldr.Name);
+Response.Write("폴더 이름 : " + fldr.Name);
 ```
    
 - VBScript에서 파일을 마지막으로 수정한 시간을 찾으려면 아래 구문을 사용함   
@@ -185,7 +185,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 ' 쿼리에 사용할 File 개체를 가져옴
 Set f1 = fso.GetFile("C:\detlog.txt")
 ' 정보를 인쇄
-Response.Write "마지막으로 파일을 수정한 시간: " & f1.DateLastModified
+Response.Write "마지막으로 파일을 수정한 시간 : " & f1.DateLastModified
 ```
    
 - JScript에서 같은 내용을 찾으려면 아래 코드를 사용함   
@@ -196,7 +196,7 @@ fso = new AcriveXObject("Scripting.FileSystemObject");
 // 쿼리에 사용할 File 개체를 가져옴
 f1 = fso.GetFile("C:\\detlog.txt");
 // 정보를 인쇄
-Response.Write("마지막으로 파일을 수정한 시간: " + f1.DateLastModified);
+Response.Write("마지막으로 파일을 수정한 시간 : " + f1.DateLastModified);
 ```
    
 <br />
@@ -234,9 +234,9 @@ Sub ShowDriveInfo(drvPath)
     Set drv = fso.GetDrive(fso.GetDriveName(drvPath))
     s = "드라이브 " & UCase(drvPath) & " - "
     s = s & drv.VolumeName & "<br>"
-    s = s & "전체 공간: " & FormatNumber(drv.TotalSize / 1024, 0)
+    s = s & "전체 공간 : " & FormatNumber(drv.TotalSize / 1024, 0)
     s = s & " KB" & "<br>"
-    s = s & "사용 가능한 공간: " & FormatNumber(drv.FreeSpace / 1024, 0)
+    s = s & "사용 가능한 공간 : " & FormatNumber(drv.FreeSpace / 1024, 0)
     s = s & " KB" & "<br>"
     Response.Write s
 End Sub
@@ -252,9 +252,9 @@ function ShowDriveInfo(drvPath)
     drv = fso.GetDrive(fso.GetDriveName(drvPath));
     s += "드라이브 " + drvPath.toUpperCase() + " - ";
     s += drv.VolumeName + "<br>";
-    s += "전체 공간: " + drv.TotalSize / 1024;
+    s += "전체 공간 : " + drv.TotalSize / 1024;
     s += " KB" + "<br>";
-    s += "사용 가능한 공간: " + drv.FreeSpace / 1024;
+    s += "사용 가능한 공간 : " + drv.FreeSpace / 1024;
     s += " KB" + "<br>";
     Response.Write(s);
 }
@@ -288,9 +288,9 @@ Sub ShowFolderInfo()
     ' Drive 개체를 가져옴
     Set fldr = fso.GetFolder("C:")
     ' 상위 폴더 이름 인쇄
-    Response.Write "상위 폴더 이름: " & fldr & "<br>"
+    Response.Write "상위 폴더 이름 : " & fldr & "<br>"
     ' 드라이브 이름 인쇄
-    Response.Write "드라이브 이름: " & fldr.Drive & "<br>"
+    Response.Write "드라이브 이름 : " & fldr.Drive & "<br>"
     ' 루트 파일 이름 인쇄
     If fldr.IsRootFolder = true Then
         Response.Write "루트 폴더임" & "<br><br>"
@@ -319,9 +319,9 @@ function ShowFolderInfo()
     // Drive 개체를 가져옴
     Set fldr = fso.GetFolder("C:");
     // 상위 폴더 이름 인쇄
-    Response.Write("상위 폴더 이름: " + fldr + "<br>");
+    Response.Write("상위 폴더 이름 : " + fldr + "<br>");
     // 드라이브 이름 인쇄
-    Response.Write("드라이브 이름: " + fldr.Drive + "<br>");
+    Response.Write("드라이브 이름 : " + fldr.Drive + "<br>");
     // 루트 파일 이름 인쇄
     If(fldr.IsRootFolder)
         Response.Write("루트 폴더임");

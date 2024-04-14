@@ -145,13 +145,13 @@ categories: [Database Systems]
 // 단계 5. 다대다 관계 : 관계 릴레이션을 생성하고, 두 릴레이션의 기본키를 각각 참조하는 외래키를 복합키 형태의 컬럼으로 구성   
 // 단계 6. 다중값 속성 : 릴레이션의 기본키를 참조하는 외래키와 다중값 속성으로 별도의 릴레이션으로 구성   
 // 단계 7. 관계 집합의 속성 : 외래키가 위치한 릴레이션의 컬럼으로 삽입   
-- Step 1. Object Set: Convert object set to relation   
-- Step 2. Weak Object Set: Include key properties of strong object sets in the relation of weak object sets   
-- Step 3. One-to-one relationship: Refer to the primary key of one of the two relationships as the foreign key in the other   
-- Step 4. One-to-many or many-to-one relationship: Refer to the basic key on the 'one' side as a foreign key in the 'many' side reference   
-- Step 5. Many-to-many relationship: Create a relational relationship, and organize the foreign keys that refer to the primary keys of the two relationships into columns in the form of composite keys   
-- Step 6. Multi-value properties: Composes of a foreign key that refers to the primary key of the relationship and a separate relationship with a multi-value property   
-- Step 7. Properties of the relational set: Insert into the column of the relation where the foreign key is located   
+- Step 1. Object Set : Convert object set to relation   
+- Step 2. Weak Object Set : Include key properties of strong object sets in the relation of weak object sets   
+- Step 3. One-to-one relationship : Refer to the primary key of one of the two relationships as the foreign key in the other   
+- Step 4. One-to-many or many-to-one relationship : Refer to the basic key on the 'one' side as a foreign key in the 'many' side reference   
+- Step 5. Many-to-many relationship : Create a relational relationship, and organize the foreign keys that refer to the primary keys of the two relationships into columns in the form of composite keys   
+- Step 6. Multi-value properties : Composes of a foreign key that refers to the primary key of the relationship and a separate relationship with a multi-value property   
+- Step 7. Properties of the relational set : Insert into the column of the relation where the foreign key is located   
    
 #### Conversion Case of ER Diagram 1 - One-to-Many(1 : N) relationship   
 // ER 다이어그램의 변환 케이스 1 - 일대다(1 : N) 관계   
@@ -258,7 +258,7 @@ categories: [Database Systems]
   - σ <sub>condition</sub> (R)   
    
 // 조건 : a ⊝ b 또는 a ⊝ v   
-- Condition: a ⊝ b or a ⊝ v   
+- Condition : a ⊝ b or a ⊝ v   
    
 |a, b|v|⊝|R|
 |:---:|:---:|:---:|:---:|

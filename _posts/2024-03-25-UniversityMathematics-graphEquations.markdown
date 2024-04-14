@@ -51,7 +51,7 @@ categories: [University Mathematics]
 - equation : A straight line representation through any two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>)   
 - slope : The ratio of the change in y value to the change in x value   
   - slope β = <sup>y<sub>2</sub> - y<sub>1</sub></sup>/<sub>x<sub>2</sub> - x<sub>1</sub></sub>   
-- intercept: The point where the straight line meets the y-axis   
+- intercept : The point where the straight line meets the y-axis   
   - y = βx + b → When x = 0, the value of b is called the intercept   
    
 // 예시 : (2, 1)과 (4, 5)를 지나는 직선의 방정식을 구하시오   

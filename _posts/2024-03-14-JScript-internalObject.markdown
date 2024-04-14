@@ -200,8 +200,8 @@ var daysLeft = daysInYear - daysElapsed;
 var comment1 = daysElapsed + "days have passed";
 var comment2 = "This means that there are " + daysLeft + " days left in year " + thisYear + ".";
 
-// 특별한 경우도 포함합니다: 한 해의 시작과 마지막, 하루
-// - Special cases include: the beginning, the end, and the day of the year
+// 특별한 경우도 포함합니다 : 한 해의 시작과 마지막, 하루
+// - Special cases include : the beginning, the end, and the day of the year
 if(daysElapsed == 0)
 {
     comment1 = "January 1st, " + thisYear + ".";
@@ -233,7 +233,7 @@ if(daysLeft == daysInYear)
 ### Number   
 // Number 개체   
    
-// JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성(예: PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
+// JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성(예 : PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
 - JScript provides several other properties through Number objects, as well as special numeric properties (Example : PI) that can be used by Math objects   
    
 |Property|Description|
