@@ -142,7 +142,7 @@ function CreateFolder()
 {
     var fso, fldr;
     fso = new ActiveXObject("Scripting.FileSystemObject");
-    fldr = fso.CreateFolder("C"\\MyTest");
+    fldr = fso.CreateFolder("C:\\MyTest");
     Response.Write("만든 폴더: " + fldr.Name);
 }
 ```
@@ -519,12 +519,12 @@ function ReadFiles()
     var ForReading = 1;
     fso = new ActiveXObject("Scripting.FileSystemObject");
     f1 = fso.CreateTextFile("C:\\testfile.txt", true);
-    ' 줄을 씀
+    // 줄을 씀
     Response.Write("파일 쓰는 중 <br>");
     f1.WriteLine("안녕하십니까?");
     f1.WriteBlankLines(1);
     f1.Close();
-    ' 파일 내용을 읽음
+    // 파일 내용을 읽음
     Response.Write("파일 읽는 중 <br>");
     ts = fso.OpenTextFile("C:\\testfile.txt", ForReading);
     s = ts.ReadLine();
