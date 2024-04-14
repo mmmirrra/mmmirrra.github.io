@@ -40,7 +40,7 @@ categories: [Computer Science]
    
 // 데이터 처리기 (data processor)   
 // - (데이터) 입력 → (컴퓨터 : 데이터 처리) 처리 → (결과) 출력   
-// - 현대 컴퓨터의 기능적 측명 ("입력-처리-출력")만 정의   
+// - 현대 컴퓨터의 기능적 측명 ("입력-처리-출력") 만 정의   
 // -- 너무 포괄적   
 // -- 어떤 형태의 작업을 처리할 수 있는지 불분명   
 - Data Processor   
@@ -75,7 +75,7 @@ categories: [Computer Science]
 // 컴퓨터의 장점   
    
 // 신속한 처리   
-// - ms(10<sup>-3</sup>초), μs(10<sup>-6</sup>초), ns(10<sup>-9</sup>초), ps(10<sup>-12</sup>초)   
+// - ms (10<sup>-3</sup>초), μs (10<sup>-6</sup>초), ns (10<sup>-9</sup>초), ps (10<sup>-12</sup>초)   
 // 처리 결과의 정확성   
 // - 유효한 입력과 프로그램이 주어지면 항상 정확한 결과 생성   
 // 자동   
@@ -83,7 +83,7 @@ categories: [Computer Science]
 // 대용량   
 // - 대용량의 데이터 저장 및 처리   
 - Expedited processing   
-  - ms(10<sup>-3</sup>seconds), μs(10<sup>-6</sup>seconds), ns(10<sup>-9</sup>seconds), ps(10<sup>-12</sup>seconds)   
+  - ms (10<sup>-3</sup>seconds), μs (10<sup>-6</sup>seconds), ns (10<sup>-9</sup>seconds), ps (10<sup>-12</sup>seconds)   
 - Accuracy of processing results   
   - Always produce accurate results given valid inputs and programs   
 - Automatic   
@@ -197,7 +197,7 @@ categories: [Computer Science]
 // - 내장 프로그램 (stored program)   
 // -- 실행될 프로그램은 메모리에 저장되어야 함   
 // --- 초기 컴퓨터에서는 데이터만 메모리에 저장되고, 프로그램은 컴퓨터 외부에 표현   
-// -- "프로그램과 데이터가 동일한 형식(비트 패턴)으로 메모리에 표현된다"는 의미를 내포   
+// -- "프로그램과 데이터가 동일한 형식 (비트 패턴) 으로 메모리에 표현된다"는 의미를 내포   
 // - 프로그램은 유한 개의 명령어의 나열임   
 // -- 미리 정의된 기본 명령어의 유한 개의 조합으로 구성됨   
 // -- 메모리에서 한번에 하나씩 명령어를 가져와서 해석하고 실행함   
@@ -297,8 +297,8 @@ categories: [Computer Science]
 // - on = 기호 1   
 // 바이트 (byte)   
 // - 8bit   
-// - KB(2<sup>10</sup>≒10<sup>3</sup>), MB(2<sup>20</sup>≒10<sup>6</sup>), GB(2<sup>30</sup>≒10<sup>9</sup>), TB(2<sup>40</sup>≒10<sup>12</sup>), PB(2<sup>50</sup>≒10<sup>15</sup>)   
-// - EB(2<sup>60</sup>), ZB(2<sup>70</sup>), YB(2<sup>80</sup>)   
+// - KB (2<sup>10</sup>≒10<sup>3</sup>), MB (2<sup>20</sup>≒10<sup>6</sup>), GB (2<sup>30</sup>≒10<sup>9</sup>), TB (2<sup>40</sup>≒10<sup>12</sup>), PB (2<sup>50</sup>≒10<sup>15</sup>)   
+// - EB (2<sup>60</sup>), ZB (2<sup>70</sup>), YB (2<sup>80</sup>)   
 // 워드 (word)   
 // - 컴퓨터 연산의 기본 단위가 되는 정보의 양 → 32비트, 64비트   
 - binary digit   
@@ -306,8 +306,8 @@ categories: [Computer Science]
   - on = symbol 1   
 - byte   
   - 8bit   
-  - KB(2<sup>10</sup>≒10<sup>3</sup>), MB(2<sup>20</sup>≒10<sup>6</sup>), GB(2<sup>30</sup>≒10<sup>9</sup>), TB(2<sup>40</sup>≒10<sup>12</sup>), PB(2<sup>50</sup>≒10<sup>15</sup>)   
-  - EB(2<sup>60</sup>), ZB(2<sup>70</sup>), YB(2<sup>80</sup>)   
+  - KB (2<sup>10</sup>≒10<sup>3</sup>), MB (2<sup>20</sup>≒10<sup>6</sup>), GB (2<sup>30</sup>≒10<sup>9</sup>), TB (2<sup>40</sup>≒10<sup>12</sup>), PB (2<sup>50</sup>≒10<sup>15</sup>)   
+  - EB (2<sup>60</sup>), ZB (2<sup>70</sup>), YB (2<sup>80</sup>)   
 - word   
   - Amount of information that is the basic unit of computer operation → 32 bits, 64 bits   
    
@@ -327,7 +327,7 @@ categories: [Computer Science]
 |// 10진법<br />decimal system|0, 1, 2, ..., 9|99<sub>10</sub> 123<sub>d</sub>|
 |// 16진법<br />hexadecimal system|0, 1, 2, ..., 9, A, B, C, D, E, F|2CF<sub>16</sub> FF30<sub>h</sub>|
    
-// 각 위치에 따른 서로 다른 가중치(자릿값)가 존재   
+// 각 위치에 따른 서로 다른 가중치 (자릿값) 가 존재   
 - Different weights (place values) exist for each location   
    
 // 예시   
@@ -342,7 +342,7 @@ categories: [Computer Science]
 #### Binary → Decimal   
 // 2진수 → 10진수   
    
-// 10진수 = (각 비트값 x 해당 비트 위치의 가중치)의 합   
+// 10진수 = (각 비트값 x 해당 비트 위치의 가중치) 의 합   
 - Decimal = sum of (each bit value x the weight of that bit position)   
    
 |...|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|.|2<sup>-1</sup>|2<sup>-2</sup>|2<sup>-3</sup>|2<sup>-4</sup>|
@@ -361,7 +361,7 @@ categories: [Computer Science]
 #### Octal, Hexadecimal → Decimal   
 // 8진수, 16진수 → 10진수   
    
-// 10진수 = (각 숫자값 x 해당 위치의 가중치)의 합   
+// 10진수 = (각 숫자값 x 해당 위치의 가중치) 의 합   
 - Decimal = Sum of (each numeric value x the weight of the location)   
    
 // 예시   
@@ -388,18 +388,18 @@ categories: [Computer Science]
 // 10진수 정수 부분 → r진수 (r = 2, 8, 16) 변환 알고리즘   
    
 ```c
-// 입력값 = 10진수(정수 부분);
+// 입력값 = 10진수 (정수 부분);
 // i = 0;
 // 몫 = 입력값 / r; 나머지 = 입력값 mod r;
-// 결과(i) = 나머지;
-// while(몫 ≠ 0)
+// 결과 (i) = 나머지;
+// while (몫 ≠ 0)
 //     입력값 = 몫;
 //     i = i + 1;
 //     몫 = 입력값 / r;
 //     나머지 = 입력값 mod r;
-//     결과(i) = 나머지
+//     결과 (i) = 나머지
 // end
-// 출력[결과(i), 결과(i - 1), ..., 결과(0)];
+// 출력[결과 (i), 결과 (i - 1), ..., 결과 (0)];
 input value = decimal number (integer portion);
 i = 0;
 share = input value  /r; rest = input value mod r;
@@ -427,16 +427,16 @@ output [result (i), result (i - 1), ..., result (0)];
 // 10진수 소수 부분 → r진수 (r = 2, 8, 16) 변환 알고리즘   
    
 ```c
-// 입력값 = 10진수(소수 부분);
+// 입력값 = 10진수 (소수 부분);
 // i = 0;
-// while(입력값 ≠ 0)
+// while (입력값 ≠ 0)
 //     임시변수 = 입력값 x r;
-//     결과(i) = 임시변수의 정수 부분;
+//     결과 (i) = 임시변수의 정수 부분;
 //     i = i + 1;
 //     입력값 = 임시변수의 소수 부분;
 // end
-// 출력[0.결과(0), 결과(1), ..., 결과(i)];
-input value = decimal number(decimal part);
+// 출력[0.결과 (0), 결과 (1), ..., 결과 (i)];
+input value = decimal number (decimal part);
 i = 0;
 while (input value ≠ 0)
     temporary variable = input value x r;
@@ -444,7 +444,7 @@ while (input value ≠ 0)
     i = i + 1;
     input = decimal part of the temporary variable;
 end
-output [0.result(0), result(1), ..., result(i)];
+output [0.result (0), result (1), ..., result (i)];
 ```
    
 // 예시   
@@ -510,7 +510,7 @@ output [0.result(0), result(1), ..., result(i)];
    
 |// 부호화-크기<br />sign and magnitude|// 1의 보수<br />ones' complement|// 2의 보수<br />two's complement|
 |:---|:---|:---|
-|// 절대값으로 표현<br />Expression in absolute value|// 양수에 대한 보수로서 표현<br />Expression as complement for positive numbers|// (1의 보수 + 1)로 음수 표현<br />Negative expression as (ones' complement + 1)|
+|// 절대값으로 표현<br />Expression in absolute value|// 양수에 대한 보수로서 표현<br />Expression as complement for positive numbers|// (1의 보수 + 1) 로 음수 표현<br />Negative expression as (ones' complement + 1)|
 |-(2<sup>n-1</sup>-1) ~ +(2<sup>n-1</sup>-1)|-(2<sup>n-1</sup>-1) ~ +(2<sup>n-1</sup>-1)|-2<sup>n-1</sup> ~ +(2<sup>n-1</sup>-1)|
 |+0 (00000000)|+0 (00000000)||
 |-0 (10000000)|-0 (11111111)||
@@ -644,13 +644,13 @@ output [0.result(0), result(1), ..., result(i)];
    
 // 예시   
 // - (-1)<sup>0/1</sup> x 1010.0011 x 2<sup>-32</sup> 를 표기하는 방법   
-// -- 1비트(부호) + 지수(8비트) + 가수(n비트)   
-// --- 1비트(부호) 자리에 0 또는 1 표기   
-// --- 지수(8비트) 자리에는   
+// -- 1비트 (부호) + 지수 (8비트) + 가수 (n비트)   
+// --- 1비트 (부호) 자리에 0 또는 1 표기   
+// --- 지수 (8비트) 자리에는   
 // ---- 매직넘버를 127을 사용하는 경우   
 // ---- 지수 <sup>-32</sup> + 매직넘버 127 = 95 → 십진수 95를 이진수로 변환 01011111   
-// ---- 이진수로 변환된 값 01011111을 지수(8비트) 자리에 표기   
-// --- 가수(n비트) 자리에는 정규화를 이용하여 표기   
+// ---- 이진수로 변환된 값 01011111을 지수 (8비트) 자리에 표기   
+// --- 가수 (n비트) 자리에는 정규화를 이용하여 표기   
 - Example   
   - How to mark (-1)<sup>0/1</sup> x 1010.0011 x 2<sup>-32</sup>   
     - 1 bit (sign) + exponent (8 bit) + mantissa (n bit)   
@@ -685,7 +685,7 @@ output [0.result(0), result(1), ..., result(i)];
    
 // 예시   
 // - 60.6875   
-// - 총 4바이트 : 부호 1비트, 지수 8비트(매직넘버 초과_127), 가수 23비트   
+// - 총 4바이트 : 부호 1비트, 지수 8비트 (매직넘버 초과_127), 가수 23비트   
 // -- → 부호 1비트는 양수이므로 0 표기   
 // -- → 60.6875의 정수 부분과 소수 부분을 각각 2진수로 계산하여 연결 111100.1011   
 // -- → 2진수 실수 111100.1011를 정규화 1.111001011 x 2<sup>5</sup>   
@@ -706,9 +706,9 @@ output [0.result(0), result(1), ..., result(i)];
 // IEEE 부동소수점 방식의 표준 형식   
    
 // 단정도 single precision : 4바이트   
-// - 부호 1비트, 지수 8비트(매직넘버 초과_127), 가수 23비트   
+// - 부호 1비트, 지수 8비트 (매직넘버 초과_127), 가수 23비트   
 // 배정도 double precision : 8바이트   
-// - 부호 1비트, 지수 11비트(매직넘버 초과_1023), 가수 52비트   
+// - 부호 1비트, 지수 11비트 (매직넘버 초과_1023), 가수 52비트   
 - single precision : 4bytes   
   - 1 bit of sign, 8 bit of exponent (magic number excess_127), 23 bit of mantissa   
 - double precision : 8bytes   
@@ -732,13 +732,13 @@ output [0.result(0), result(1), ..., result(i)];
 // 아스키코드   
    
 // 미국표준협회 (ANSI)   
-// 7비트 코드 : 128개(2<sup>7</sup>)의 서로 다른 문자 표현   
+// 7비트 코드 : 128개 (2<sup>7</sup>) 의 서로 다른 문자 표현   
 - American National Standards Institute (ANSI)   
 - 7-bit code : 128 (2<sup>7</sup>) different character representations   
    
 // 확장된 아스키 Extended ASCII : 1비트 + 7비트   
 // - 1비트 : 0 또는 패러티 비트를 표기   
-// -- 패러티 비트(parity bit) : 데이터 전송 시 전송상의 오류가 발생하는 경우 오류를 검출하기 위한 용도로 사용   
+// -- 패러티 비트 (parity bit) : 데이터 전송 시 전송상의 오류가 발생하는 경우 오류를 검출하기 위한 용도로 사용   
 // --- 짝수 패러티 : 전송할 데이터 안에 있는 1의 개수를 짝수로 만들어줌. 예시 1001100 → 11001100   
 // --- 홀수 패러티 : 전송할 데이터 안에 있는 1의 개수를 홀수로 만들어줌. 예시 1001100 → 01001100   
 - Extended ASCII : 1 bit + 7 bit   
@@ -751,7 +751,7 @@ output [0.result(0), result(1), ..., result(i)];
 // 유니코드   
    
 // 세계의 모든 문자를 컴퓨터에서 일관되게 표현하고 다룰 수 있도록 설계된 산업 표준   
-// - 1990년 애플 컴퓨터, IBM, MS 등의 컨소시엄으로 설립한 유니코드(Unicode) 가 첫 버전 발표   
+// - 1990년 애플 컴퓨터, IBM, MS 등의 컨소시엄으로 설립한 유니코드 (Unicode) 가 첫 버전 발표   
 // -- 1995년 국제 표준으로 제정. 공식명칭은 ISO/IC 10646-1   
 // -- 사용중인 플랫폼, 프로그램, 언어에 무관   
 // -- 16비트 코드 체계   

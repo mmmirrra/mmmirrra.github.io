@@ -36,8 +36,8 @@ yarn cache clean --force
 ```
    
 <br />
-#### Upgrade the yarn version (-> This may clear the package settings)   
-// yarn 버전 업그레이드 (-> 이거하면 패키지 설정 날아갈 수 있음)   
+#### Upgrade the yarn version (→ This may clear the package settings)   
+// yarn 버전 업그레이드 (→ 이거하면 패키지 설정 날아갈 수 있음)   
    
 ```react
 yarn upgrade-interactive --latest
@@ -72,8 +72,8 @@ yarn storybook
 ```
    
 <br />
-#### Upgrade the Storybook version (-> will delete the main.js setting)   
-// Storybook 버전 업그레이드 (-> 이거하면 main.js 설정 날아감)   
+#### Upgrade the Storybook version (→ will delete the main.js setting)   
+// Storybook 버전 업그레이드 (→ 이거하면 main.js 설정 날아감)   
    
 ```react
 npx sb@next upgrade

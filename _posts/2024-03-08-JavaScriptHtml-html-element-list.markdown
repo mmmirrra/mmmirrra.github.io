@@ -10,8 +10,8 @@ categories: [JavaScript Html]
    
 |Type|Description|
 |:---|:---|
-|// 순서 없는 리스트<br />unordered list|// - 글머리기호(·)를 붙여 리스트의 항목을 표시<br />// - 사용 요소 : ul ~ li<br />- Display items in the list with bullet points (·)<br />- Using Elements : ul ~ li|
-|// 순서 있는 리스트<br />ordered list|// - 순서(1, 2, 3)를 매겨서 리스트의 항목을 표시<br />// - 사용 요소 : ol ~ li<br />- Show items in the list in order (1, 2, 3)<br />- Using Elements : ol ~ li|
+|// 순서 없는 리스트<br />unordered list|// - 글머리기호 (·) 를 붙여 리스트의 항목을 표시<br />// - 사용 요소 : ul ~ li<br />- Display items in the list with bullet points (·)<br />- Using Elements : ul ~ li|
+|// 순서 있는 리스트<br />ordered list|// - 순서 (1, 2, 3) 를 매겨서 리스트의 항목을 표시<br />// - 사용 요소 : ol ~ li<br />- Show items in the list in order (1, 2, 3)<br />- Using Elements : ol ~ li|
 |// 서술 리스트<br />description list|// - 어떤 용어나 이름에 대해서 서술하는 형식<br />// - 사용 요소 : dl ~ dt/dd<br />- A form of description of a term or name<br />- Using Elements : dl ~ dt/dd|
    
 <br />
@@ -21,7 +21,7 @@ categories: [JavaScript Html]
 // 기호 변경 : CSS list-style-type 속성   
 - Specify an unordered list : Mark each item with an unordering symbol before it   
 - Symbol Change : CSS list-style-type property   
-  - Type of 'list-style-type' : none, disc(●), circle(○), square(■)   
+  - Type of 'list-style-type' : none, disc (●), circle (○), square (■)   
    
 ```html
 <ul>
@@ -81,7 +81,7 @@ categories: [JavaScript Html]
 ### ol   
    
 // 순서 있는 리스트를 지정 : 각 항목 앞에 순서를 나타내는 기호를 붙여서 표시   
-// 순서 있는 기호 : 숫자(기본값), 영문자, 로마자 등   
+// 순서 있는 기호 : 숫자 (기본값), 영문자, 로마자 등   
 - Specify an ordered list : Mark each item with an order symbol before it   
 - An ordered symbol : Numbers (default), English characters, Roman characters, etc.   
    
@@ -111,7 +111,7 @@ categories: [JavaScript Html]
 // start="number" : 항목의 시작 번호 지정   
 // reversed : 항목의 번호를 역순으로 지정   
 - type="value" : Specify the type of ordered symbol   
-  - Type of 'value' : 1(1, 2, 3, 4, ...(default)), a(a, b, c, d, ...), A(A, B, C, D, ...), ⅰ(ⅰ, ⅱ, ⅲ, ⅳ, ...), Ⅰ(Ⅰ, Ⅱ, Ⅲ, Ⅳ, ...)   
+  - Type of 'value' : 1 (1, 2, 3, 4, ...(default)), a (a, b, c, d, ...), A (A, B, C, D, ...), ⅰ (ⅰ, ⅱ, ⅲ, ⅳ, ...), Ⅰ (Ⅰ, Ⅱ, Ⅲ, Ⅳ, ...)   
 - start="number" : Specify the starting number of the item   
 - reversed : Number items in reverse order   
    

@@ -12,7 +12,7 @@ categories: [JavaScript Html]
 <html>
     <head>
         <script>
-            for(let i=0; i<10; i++) {
+            for (let i=0; i<10; i++) {
                 console.log(i);
             };
         </script>
@@ -36,7 +36,7 @@ It can also be used for arrays, but is not recommended for array iterations.
                 name: 'NAME',
                 age: '20'
             }
-            for(const key in obj) {
+            for (const key in obj) {
                 console.log(key);                   // name // age
                 console.log(obj.name, obj.age);     // NAME, 20
                 console.log(`key: ${key}`);         // key: name // key: age
@@ -61,7 +61,7 @@ It is usually used for the array.
     <head>
         <script>
             const array = ['1', '2', '3'];
-            for(const element of array) {
+            for (const element of array) {
                 console.log(element);           // array[first] value ~ array[last] value
                 console.log(array);             // array full output
             };
@@ -95,7 +95,7 @@ Use the callback function in the factor.
    
 <br />
 ### while   
-If while(condition) is false, it does not run once.   
+If while (condition) is false, it does not run once.   
    
 ```html
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ If while(condition) is false, it does not run once.
     <head>
         <script>
             const array = ['1', '2', '3'];
-            while(array.length > 0) {               // condition
+            while (array.length > 0) {               // condition
                 array.forEach((element) => {
                     console.log(element);
                 };
@@ -131,7 +131,7 @@ After at least one execution, if the while condition is false, it is no longer e
                     console.log(element);
                 };
             }
-            while(array.length > 3)             // condition
+            while (array.length > 3)             // condition
         </script>
     </head>
     <body>

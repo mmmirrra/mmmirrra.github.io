@@ -62,8 +62,8 @@ Sub SendMail()
                 M_name = ""                                         '이름 초기화
     
                 '엑셀 셀 표기 방법 -> (1,1)=(1,A)=A1
-                M_Add = Sheet1.Cells(i, 1)                          '메일주소가져오기(2,1)=A2=(2,A)
-                M_name = Sheet1.Cells(i, 2)                         '이름가져오기(2,2)=B2=(2, B)
+                M_Add = Sheet1.Cells(i, 1)                          '메일주소가져오기 (2,1)=A2=(2,A)
+                M_name = Sheet1.Cells(i, 2)                         '이름가져오기 (2,2)=B2=(2, B)
     
                 '메일주소만 추출하기
                 pos = InStr(M_Add, "@")                             'abc@naver.com 메일주소에서 @가 있는 자리수 찾기
@@ -149,8 +149,8 @@ Sub SendMail()
                 M_name = ""                       '이름 초기화
 
                 '엑셀 셀 표기 방법 -> (1,1)=(1,A)=A1
-                M_Add = Sheet1.Cells(i, 1)        '메일주소가져오기(2,1)=A2=(2,A)
-                M_name = Sheet1.Cells(i, 2)       '이름가져오기(2,2)=B2=(2, B)
+                M_Add = Sheet1.Cells(i, 1)        '메일주소가져오기 (2,1)=A2=(2,A)
+                M_name = Sheet1.Cells(i, 2)       '이름가져오기 (2,2)=B2=(2, B)
 
                 '메일주소만 추출하기
                 pos = InStr(M_Add, "@")           'abc@naver.com 메일주소에서 @가 있는 자리수 찾기
@@ -171,7 +171,7 @@ Sub SendMail()
                         .Subject = "제목"                         '메일 제목
                         .Body = Sheet2.Cells(1, 1).Value          'Sheet2의 A1 셀의 내용 가져오기
                         If Response2 = vbYes Then
-                            If (FileChk(File_N)) Then            '첨부파일이 있을 경우 첨부(첨부파일이 없을 경우 첨부하지 않습니다.)
+                            If (FileChk(File_N)) Then            '첨부파일이 있을 경우 첨부 (첨부파일이 없을 경우 첨부하지 않습니다.)
                                 .Attachments.Add File_N           '첨부파일 첨부
                             End If
                         End If
@@ -267,8 +267,8 @@ Sub CDOMail()
                 M_name = ""                                         '이름 초기화
     
                 '엑셀 셀 표기 방법 -> (1,1)=(1,A)=A1
-                M_Add = Sheet1.Cells(i, 1)                          '메일주소가져오기(2,1)=A2=(2,A)
-                M_name = Sheet1.Cells(i, 2)                         '이름가져오기(2,2)=B2=(2, B)
+                M_Add = Sheet1.Cells(i, 1)                          '메일주소가져오기 (2,1)=A2=(2,A)
+                M_name = Sheet1.Cells(i, 2)                         '이름가져오기 (2,2)=B2=(2, B)
     
                 '메일주소만 추출하기
                 pos = InStr(M_Add, "@")                             'abc@naver.com 메일주소에서 @가 있는 자리수 찾기

@@ -9,39 +9,39 @@ categories: [Data Structure]
 // 배열의 정의   
    
 // 일정의 차례나 간격에 따라 벌여 놓음 (사전적 정의)   
-// '차례'(순서)와 관련된 기본적인 자료구조   
+// '차례' (순서) 와 관련된 기본적인 자료구조   
 - Set up according to the order or interval of a schedule (dictionary definition)   
 - Basic data structure related to order   
    
-// 원소의 메모리 공간(메인 메모리, DDR)의 물리적인 위치를 '순서'적으로 결정하는 특징   
+// 원소의 메모리 공간 (메인 메모리, DDR) 의 물리적인 위치를 '순서'적으로 결정하는 특징   
 // 배열의 순서는 메모리 공간에서 저장되는 '원소값의 물리적 순서'   
 - Features that 'orderly' determine the physical location of an element's memory space (Main memory, DDR)   
 - The order of the array is the 'physical order of element values' stored in memory space   
    
-// 인덱스와 원소값(`<index, value>`)의 쌍으로 구성된 집합   
+// 인덱스와 원소값 (`<index, value>`) 의 쌍으로 구성된 집합   
 - A set of pairs of index and element values (`<index, value>`)   
    
 #### Meaning of an array   
 // 배열의 의미   
    
-// '호수'(인덱스)로 표현되는 순서를 갖는 '아파트'   
+// '호수' (인덱스) 로 표현되는 순서를 갖는 '아파트'   
 // - 호수 : 인덱스 / 거주민 : 원소값   
 - 'Apartment' with an order expressed as 'Number' (index)   
   - Number : Index / Resident : Element value   
    
 // 원소들이 모두 같은 자료형과 같은 크기의 기억 공간을 가짐   
-// 배열의 인덱스값을 이용해서 원소값에 접근하기 때문에 직접 접근(direct access)이 가능함   
+// 배열의 인덱스값을 이용해서 원소값에 접근하기 때문에 직접 접근 (direct access) 이 가능함   
 - All elements have the same data type and the same size of memory   
 - Direct access is possible because the element values are accessed using the index values of the array   
    
 // 배열의 인덱스값 : 추상화된 값 = 컴퓨터의 내부구조나 메모리 주소와 무관하게 개발자에게 개념적으로 정의됨   
 // 메모리 주소값은 실제 메모리의 물리적인 위치값   
-// 배열의(추상화된) 인덱스값은 프로그래밍 언어와 컴파일 과정을 통해 메모리 주소값과 연결됨   
+// 배열의 (추상화된) 인덱스값은 프로그래밍 언어와 컴파일 과정을 통해 메모리 주소값과 연결됨   
 - Index value of array : Abstract value = conceptually defined by the developer regardless of the internal structure or memory address of the computer   
 - The memory address value is the physical location value of the actual memory   
 - Index values in an array (abstract) are associated with memory address values through programming languages and compilation processes   
    
-// 인덱스와 주소값의 관계(보통 배열의 인덱스는 0부터 시작)   
+// 인덱스와 주소값의 관계 (보통 배열의 인덱스는 0부터 시작)   
 - The relationship between index and address value (usually the index in the array starts at 0)   
    
 ||Address value|Value|Index||
@@ -61,7 +61,7 @@ categories: [Data Structure]
    
 // 자료형   
 // - 메모리 저장 할당을 위한 변수 선언   
-// - 자료구조의 구현 단계(프로그래밍 언어를 이용한 선언)   
+// - 자료구조의 구현 단계 (프로그래밍 언어를 이용한 선언)   
 - Data type   
   - Declare Variables for Memory Storage Allocation   
   - Implementation phase of data structure (declaration using programming language)   
@@ -86,20 +86,20 @@ categories: [Data Structure]
    
 ```c
 // 1. Array create(n) ::= 배열의 크기가 n인 빈 배열을 생성하고 배열을 반환한다;
-// 2. Element retrieve(a, i) ::= if(i∈Index)
+// 2. Element retrieve(a, i) ::= if (i∈Index)
 //    then {배열의 i번째에 해당하는 원소값 'e'를 반환한다;}
 //    else {에러 메시지를 반환한다;}
-// 3. Array store(a, i, e) ::= if(i∈Index)
+// 3. Array store(a, i, e) ::= if (i∈Index)
 //    then {배열 a의 i번째 위치에 원소값 'e'를 저장하고 배열 a를 반환한다;}
 //    else {인덱스 i가 배열 a의 크기를 벗어나면 에러 메시지를 반환한다;}
 1. 
     Array create(n) ::= Create an empty array with n array size and return the array;
 2. 
-    Element retrieve(a, i) ::= if(i∈Index)
+    Element retrieve(a, i) ::= if (i∈Index)
     then {Returns the element value 'e' corresponding to the i-th of the array;}
     else {Returns an error message;}
 3. 
-    Array store(a, i, e) ::= if(i∈Index)
+    Array store(a, i, e) ::= if (i∈Index)
     then {Store the element value 'e' in the i-th position of array a and return the array a;}
     else {Returns an error message if index i is outside the size of array a;}
 ```
@@ -111,7 +111,7 @@ categories: [Data Structure]
 #### Create Array (create operation)   
 // 배열의 생성 (create 연산)   
    
-// n개의 원소들을 저장할 수 있는 공백 배열(empty array)을 생성   
+// n개의 원소들을 저장할 수 있는 공백 배열 (empty array) 을 생성   
 // 배열을 생성할 때 n개의 원소들을 저장할 수 있는 공간은 만들어지지만 그 안에 채워진 원소값들이 아직은 없다는 것을 의미함   
 - Create an empty array that can store n elements   
 - When creating an array, a space is created to store n elements, but there are not yet filled element values in it   
@@ -120,7 +120,7 @@ categories: [Data Structure]
 void create(int n) {    // n = 5
     int a[n];
     Int i;
-    for(i = 0; i < n, i++) {
+    for (i = 0; i < n, i++) {
         a[i] = 0;
     }
 }
@@ -136,7 +136,7 @@ void create(int n) {    // n = 5
 #define array_size 5
 
 int retrieve(int *a, int i) {   // i = 2
-    if(i >= 0 && i < array_size)
+    if (i >= 0 && i < array_size)
         return a[i];
     else {
         printf("Error\n");
@@ -164,7 +164,7 @@ int retrieve(int *a, int i) {   // i = 2
 #define array_size 5
 
 void store(int *a, int i, int e) {    // i = 3, e = 35
-    if(i >= 0 && i < array_size)
+    if (i >= 0 && i < array_size)
         a[i] = e;
     else printf("Error\n");
 }
@@ -311,7 +311,7 @@ A[2, 3]
 |[1, 2]|2 Column|
    
 #### Two-dimensional array in C language (storing row priority order)   
-// C언어에서의 2차원 배열(행 우선 순서 저장)   
+// C언어에서의 2차원 배열 (행 우선 순서 저장)   
    
 // C언어에서 A[3][5]을 선언하면 다음과 같은 배열이 생성됨   
 - Declaring A[3][5] in C language produces the following array   

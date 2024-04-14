@@ -475,7 +475,7 @@ ON 테이블명 (컬럼1 [, 컬럼2, 컬럼3, ...])
 ```
 
 ### (e.g.) To create an index in reverse order of the title of the post (BUY_DT) on the bulletin board (TB_BUYLIST)   
-// (예제) 게시판(TB_BUYLIST)에 게시글제목(BUY_DT)의 역순으로 인덱스 생성하는 경우   
+// (예제) 게시판 (TB_BUYLIST) 에 게시글제목 (BUY_DT) 의 역순으로 인덱스 생성하는 경우   
 
 ```sql
 CREATE OR REPLACE INDEX IDX_BUYLIST 

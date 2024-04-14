@@ -28,7 +28,7 @@ categories: [JavaScript Html]
 |Property|Description|
 |:---|:---|
 |href="URL"|// 링크를 통해 이동하려는 곳의 경로/주소<br />- Path/url of the place you want to travel through the link|
-|target="windowName"|// 링크를 클릭하였을 때 링크된 내용이 출력될 창 지정<br />// 값 : _blank(새로운창), _self(기본값, 현재창), 창이름 등<br />- Specify a window in which linked content will be output when a link is clicked<br />- Value : _blank(new window), _self(default, current window), window name, etc.|
+|target="windowName"|// 링크를 클릭하였을 때 링크된 내용이 출력될 창 지정<br />// 값 : _blank (새로운창), _self (기본값, 현재창), 창이름 등<br />- Specify a window in which linked content will be output when a link is clicked<br />- Value : _blank (new window), _self (default, current window), window name, etc.|
 |download|// href 속성에 지정된 파일을 다운로드해서 저장<br />- Download and save the file specified in the href property|
    
 <br />
@@ -81,7 +81,7 @@ to download the report document
 <p>Cascading Style Sheet</p>
 <a id="js">JS</a>
 <p>JavaScript</p>
-<!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
+<!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified -->
 <a id="#top">To the top</a>
 ```
    
@@ -99,7 +99,7 @@ to download the report document
 <p>Cascading Style Sheet</p>
 <a id="js">JS</a>
 <p>JavaScript</p>
-<!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified-->
+<!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified -->
 <a id="#top">To the top</a>
 `
    
@@ -202,8 +202,8 @@ Download Compressed File (Execution File)
 |name="name"|// 창의 이름<br />// target 속성의 값으로 사용<br />- The name of the window<br />- Use as a value for target property|
 |src="URL"|// 창에 표시될 문서의 URL<br />- The URL of the document to be displayed in the window|
 |srcdoc="HTML code"|// 창에서 보여줄 HTML 콘텐츠<br />// srcdoc 속성이 지정되면 src 속성은 무시됨<br />- HTML content to show in the window<br />- When srcdoc attribute is specified, src attribute is ignored|
-|width="width"|// 창의 폭(픽셀)<br />- Window width (pixel)|
-|height="height"|// 창의 높이(픽셀)<br />- Window height (Pixel)|
+|width="width"|// 창의 폭 (픽셀)<br />- Window width (pixel)|
+|height="height"|// 창의 높이 (픽셀)<br />- Window height (Pixel)|
    
 ```html
 <iframe src="http://html..."

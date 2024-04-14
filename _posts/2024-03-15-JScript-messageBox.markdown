@@ -41,7 +41,7 @@ window.alert("Welcome! Press OK to continue");
 // 확인 메시지 상자는 사용자가 "예 또는 아니오"로 대답할 수 있도록 질문하고 사용자는 확인 단추 또는 취소 단추를 누르면 됨   
 // confirm 메서드는 true 또는 false 중 하나를 반환함   
 // 이 메시지 상자 역시 모달임   
-// 사용자는 반드시 메시지 상자에 응답해야하며(어느 단추든 눌러야 함), 상자를 닫은 후에야 작업을 계속할 수 있음   
+// 사용자는 반드시 메시지 상자에 응답해야하며 (어느 단추든 눌러야 함), 상자를 닫은 후에야 작업을 계속할 수 있음   
 - The confirmation message box asks the user to answer yes or no, and the user presses the confirmation button or the cancel button   
 - The confirm method returns either true or false   
 - This message box is also modal   
@@ -49,7 +49,7 @@ window.alert("Welcome! Press OK to continue");
    
 ```javascript
 var truthBeTold = window.confirm("Press OK to continue and Cancel to stop");
-if(truthBeTold)
+if (truthBeTold)
 {
     window.alert("Welcome to our web page!");
 }

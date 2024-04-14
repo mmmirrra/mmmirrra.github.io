@@ -10,14 +10,14 @@ categories: [JavaScript Html]
    
 <br />
 ### title   
-// 브라우저 상단(탭)에 문서의 제목을 표시할 때 사용   
+// 브라우저 상단 (탭) 에 문서의 제목을 표시할 때 사용   
 // 즐겨찾기 제목, 검색 엔진의 출력된 결과 페이지 제목으로도 사용   
 - Use to display the title of a document at the top of your browser (tab)   
 - Favorite title, also used as the title of the results page printed by the search engine   
    
 <br />
 ### link   
-// CSS 스타일 파일(*.css)을 가져와 웹 문서에 적용할 때 사용   
+// CSS 스타일 파일 (*.css) 을 가져와 웹 문서에 적용할 때 사용   
 // 문서의 body 부분에 포함 가능   
 - Used to import and apply CSS-style files (*.css) to web documents   
 - Can be included in body part of document   
@@ -39,7 +39,7 @@ Use to define the CSS style to apply to the entire web document
    
 <br />
 ### script   
-// 자바스크립트 코드를 작성(또는 외부 코드 링크)할 때 사용   
+// 자바스크립트 코드를 작성 (또는 외부 코드 링크) 할 때 사용   
 // 바디 부분에 포함 가능   
 - Used to write JavaScript code (or link external code)   
 - Can be included in body   

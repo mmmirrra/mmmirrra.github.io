@@ -10,7 +10,7 @@ categories: [Data Analysis]
    
 // 수집된 설문지의 응답결과나 관측결과 등을 통계적 분석이 가능하도록 일정한 원칙에 따라 각 응답에 숫자를 부여하는 과정   
 // 연속형 변수는 관측된 값이 숫자이기 때문에 그대로 입력 가능   
-// 여러 사람이 부호화 작업에 참여할 때는 부호화의 일관성이 유지되도록 부호화 지침서(code book)를 만들어 사용함   
+// 여러 사람이 부호화 작업에 참여할 때는 부호화의 일관성이 유지되도록 부호화 지침서 (code book) 를 만들어 사용함   
 - The process of assigning a number to each response according to a certain principle to enable statistical analysis of the response results or observations of the collected questionnaires   
 - Continuous variables can be entered as they are because the observed values are numbers   
 - When multiple people participate in encoding, they create and use code book to ensure the consistency of encoding   
@@ -103,21 +103,21 @@ categories: [Data Analysis]
 |No|Variable name|English variable name|Input column|Code and Description|
 |:---:|:---:|:---:|:---:|:---|
 ||serial number|ID|1~2||
-|1|regional development|C1|4|1, 2, 3, 4, 9(No response)|
-|2|regional economy|C2|6|1, 2, 3, 4, 9(No response)|
-|3|gender|P1|8|1(Male), 2(Female), 9(No response)|
-|4|age|P2|10|1, 2, 3, 4, 5, 6, 9(No response)|
-|5|a place of origin|P3|12|1, 2, 3, 4, 5, 6, 7, 9(No response)|
+|1|regional development|C1|4|1, 2, 3, 4, 9 (No response)|
+|2|regional economy|C2|6|1, 2, 3, 4, 9 (No response)|
+|3|gender|P1|8|1 (Male), 2 (Female), 9 (No response)|
+|4|age|P2|10|1, 2, 3, 4, 5, 6, 9 (No response)|
+|5|a place of origin|P3|12|1, 2, 3, 4, 5, 6, 7, 9 (No response)|
    
 <br />
 ### Enter as a text file   
 // 텍스트 파일로 입력   
    
 // ASCII 코드 형식으로 저장된 파일로 아스키 파일이라고 함   
-// 한글 2018에서 일정한 양식으로 데이터 입력 후, '파일 - 다른 이름으로 저장(A)'을 선택하고, 파일 형식을 '텍스트 파일'로 저장   
+// 한글 2018에서 일정한 양식으로 데이터 입력 후, '파일 - 다른 이름으로 저장 (A)'을 선택하고, 파일 형식을 '텍스트 파일'로 저장   
 // 자유형식과 고정형식으로 구분   
-// - 자유형식 : 변수와 변수 구분은 공란(blank)으로 구분   
-// - 고정형식 : 각 변수가 위치할 열(칼럼)을 정한 후 입력   
+// - 자유형식 : 변수와 변수 구분은 공란 (blank) 으로 구분   
+// - 고정형식 : 각 변수가 위치할 열 (칼럼) 을 정한 후 입력   
 - Files stored in ASCII code format called ASCII files   
 - After entering data in a certain format in Hangeul 2018, select 'File - Save as another name (A)' and save the file format as 'Text File'   
 - Divide free format and fixed format   

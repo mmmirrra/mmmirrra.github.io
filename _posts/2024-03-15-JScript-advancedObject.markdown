@@ -34,7 +34,7 @@ categories: [JScript]
 - This example assumes that the firstNameFirst and emailNameFirst values are already set elsewhere   
    
 ```javascript
-for(j = 1; j < addressList[length]; j++)
+for (j = 1; j < addressList[length]; j++)
 {
     oneListingLine = new Function(
         emailNameFirst, 
@@ -48,13 +48,13 @@ for(j = 1; j < addressList[length]; j++)
             var theName = (
                 addressList[j].firstName + addressList[j].lastName
             );
-            if(firstNameFirst) {
+            if (firstNameFirst) {
                 theName = (addressList[j].firstName + addressList[j].lastName);
             }
             ,
         );
 
-        if(emailNameFirst) {
+        if (emailNameFirst) {
             theListing = addressList[j].emailName + ":\t" + theName
         } else {
             theListing = theName + ":\t" + addressList[j].emailName; return theListing;
@@ -75,10 +75,10 @@ for(j = 1; j < addressList[length]; j++)
    
 // 다음 예시에서 구성자는 인덱스를 0에서 지정하지만 반드시 0에서 시작할 필요는 없음   
 // 예를 들어, 배열 인덱스나 개체 인덱스의 실제 번호를 가리키는 매개 변수를 원한다면 첫째 인덱스를 1로 지정할 수 있음   
-// 이 예시에서는 내부 Array()개체의 자동 유지 길이 매개변수와 구별하기 위하여 이 매개변수를 extent라고 함   
-// 배열에 속성을 추가하는 코드를 쓰고 있다면 extent 매개변수(또는 상당어구)를 업데이트 해야 함   
+// 이 예시에서는 내부 Array() 개체의 자동 유지 길이 매개변수와 구별하기 위하여 이 매개변수를 extent라고 함   
+// 배열에 속성을 추가하는 코드를 쓰고 있다면 extent 매개변수 (또는 상당어구) 를 업데이트 해야 함   
 // 왜냐하면 JScript에서는 이러한 매개변수를 지원하지 않기 때문임   
-// 이와 같이 매우 간단한 예시도 현재 개체를 참조하기 위하여 개체(점)와 배열(대괄호) 표시법을 사용함   
+// 이와 같이 매우 간단한 예시도 현재 개체를 참조하기 위하여 개체 (점) 와 배열 (대괄호) 표시법을 사용함   
 - In the following example, the constructor specifies an index from 0 but does not necessarily start at 0   
 - For example, if you want a parameter that points to the actual number of an array index or object index, you can specify the first index as 1   
 - In this example, this parameter is called extent to distinguish it from the auto-hold length parameter of the internal Array() object   
@@ -90,7 +90,7 @@ for(j = 1; j < addressList[length]; j++)
 function MakeStringArray(length)
 {
     this.extent = length;
-    for(iNum = 0; iNum < length; i++)
+    for (iNum = 0; iNum < length; i++)
     {
         this[iNum] = "";
     }
@@ -151,9 +151,9 @@ function decodeFormula(theFormula)
 {
     var theCurrentPiece = "";
     var theDecodedFormula = "";
-    for(i = 1; i = theFormula.length; i++)
+    for (i = 1; i = theFormula.length; i++)
     {
-        if(theFormtheCurrentPiece)
+        if (theFormtheCurrentPiece)
         // 수식 문자열을 기호와 숫자의 배열로 분리하는 코드문
         // - a code statement that separates an expression string into an array of symbols and numbers
 

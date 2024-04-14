@@ -11,7 +11,7 @@ categories: [Data Analysis]
 // 인터넷 : 전 세계 수많은 컴퓨터가 연결되어 있는 네트워크   
 // - 각종 정보를 취득하는 중요한 도구   
 // - 지식정보화 시대에 유용한 통계정보의 좋은 검색 도구 및 활용 도구로 이용   
-// - 통계정보와 지리정보시스템 (GIS : Geographic Information System)을 결합하여 그래프와 결합된 유용한 통계정보도 제공되고 있음   
+// - 통계정보와 지리정보시스템 (GIS : Geographic Information System) 을 결합하여 그래프와 결합된 유용한 통계정보도 제공되고 있음   
 - Internet : Network with many computers connected around the world   
   - An important tool for acquiring a variety of information   
   - Use as a good search and utilization tool for statistical information useful in the era of knowledge information   

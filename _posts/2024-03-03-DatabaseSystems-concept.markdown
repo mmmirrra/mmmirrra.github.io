@@ -64,7 +64,7 @@ Big Data Processing
 // -- 일관성 : 한 사실에 대해 한 개의 데이터 값을 유지   
 // -- 보안성 : 같은 데이터에 같은 수준의 보안 유지   
 // -- 경제성 : 데이터에 대해 최소한의 저장공간만을 점유   
-// - 무결성 훼손의 문제 : 실세계의 데이터는 데이터가 가질 수 있는 가능 범위를 포함함(제약조건)   
+// - 무결성 훼손의 문제 : 실세계의 데이터는 데이터가 가질 수 있는 가능 범위를 포함함 (제약조건)   
 // -- 데이터 무결성 : 데이터의 정확성 보장. 데이터의 값과 값에 대한 제약조건을 동시에 만족   
 // -- 파일 시스템은 데이터 무결성을 보장하기 위한 기능을 제공하지 않음   
 // - 동시 접근의 문제 : 동일 데이터에 다수 사용자의 접근 허용 시 일관성이 훼손   
@@ -93,7 +93,7 @@ Separate Data Usage from Data Management
 // 데이터베이스의 특징   
    
 // 1. 데이터베이스 시스템의 자기 기술성   
-// -- 데이터와 데이터의 정의 및 설명(메타데이터)을 포함   
+// -- 데이터와 데이터의 정의 및 설명 (메타데이터) 을 포함   
 // 2. 프로그램과 데이터의 격리 및 추상화   
 // -- 사용자에게 데이터에 대한 개념적인 표현을 제공하여 접근성을 향상   
 // 3. 다중 뷰 제공   
@@ -164,7 +164,7 @@ Separate Data Usage from Data Management
 // 역할에 따라 구분   
 // - DDL : 데이터 정의 언어   
 // - DML : 데이터 조작 언어   
-// 현대 데이터베이스 언어는 자연어와 유사한 형태의 SQL (Structured Query Language)로 표준화   
+// 현대 데이터베이스 언어는 자연어와 유사한 형태의 SQL (Structured Query Language) 로 표준화   
 - DBMS provides a language-type interface for users to easily use and handle databases   
 - Categorized by role   
     - DDL : Data Definition Language   

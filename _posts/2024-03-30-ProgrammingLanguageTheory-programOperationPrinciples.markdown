@@ -19,7 +19,7 @@ categories: [Programming Language Theory]
 #### Principles of Computer Operation   
 // 컴퓨터 동작 원리   
    
-// 전원 : 운영체제 적재(저장장치 → 메모리) → 수행   
+// 전원 : 운영체제 적재 (저장장치 → 메모리) → 수행   
 // CPU는 인출-해석-실행 주기를 반복하여 메모리의 명령어를 실행   
 - Power : Load the operating system (storage device → memory) → Running   
 - The CPU running instructions in memory by repeating the read-interpret-execute cycle   
@@ -75,7 +75,7 @@ categories: [Programming Language Theory]
 // 컴파일러   
    
 // 프로그램을 CPU가 수행할 수 있는 형태로 바꾸어서 CPU가 실행   
-// 인터프리터가 하는 해석 과정을 미리 모두 수행(효율적)   
+// 인터프리터가 하는 해석 과정을 미리 모두 수행 (효율적)   
 // 상용 프로그램은 컴파일 방식으로 번역한 후 판매   
 - CPU runs by changing the program to a form that the CPU can perform   
 - Performs all the interpretation processes of the interpreter in advance (efficiently)   

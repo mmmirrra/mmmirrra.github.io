@@ -32,7 +32,7 @@ Symbols for performing specific operations
 |comparison operator|==|two-term|boolean|// 두 피연산자의 값이 같은지 검사<br />- Check if the values of the two operands are the same|
 |comparison operator|!=|two-term|boolean|// 두 피연산자의 값이 다른지 검사<br />- Check if the values of the two operands are the different|
 |comparison operator|instanceof|two-term|boolean|// 값의 비교<br />- Comparison of values|
-|logical operator|!|one-term|boolean|// 논리적 NOT 논리부정 연산 : 피연산자 논리값 변경(true->false, false->true)<br />- Logical NOT (logical denial) operation : Change operand logic value|
+|logical operator|!|one-term|boolean|// 논리적 NOT 논리부정 연산 : 피연산자 논리값 변경 (true → false, false → true)<br />- Logical NOT (logical denial) operation : Change operand logic value|
 |logical operator|&|two-term|boolean|// 논리적 AND 논리곱 연산 : 피연산자 모두가 true일 경우에만 연산 결과가 true, 아니면 false<br />- Logical AND : The result of the operation is true only if all operands are true|
 |logical operator|\||two-term|boolean|// 논리적 OR 논리합 연산 : 피연산자 중 하나만 true 이면 연산 결과는 true, 아니면 false<br />- Logical OR : If only one of the operands is true, the result of the operation is true|
 |logical operator|^|two-term|boolean|// 논리적 XOR 배타적 논리합 연산 : 피연산자가 하나는 true이고 다른 하나가 false일 경우에만 연산 결과가 true, 아니면 false<br />- Logical XOR : The result of the operation is true only if one operand is true and the other is false|

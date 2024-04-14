@@ -95,14 +95,14 @@ categories: [JavaScript Html]
 // tr 요소 (table row)   
    
 // 테이블에서 하나의 줄에 해당하는 행을 정의하는 요소   
-// - td 요소 (또는 th 요소)를 포함해야만 사용 가능   
+// - td 요소 (또는 th 요소) 를 포함해야만 사용 가능   
 - Element that define rows corresponding to one row in the table   
   - Only available if td element (or th element) is included   
    
 #### td element (table data)   
 // td 요소 (table data)   
    
-// 데이터(텍스트, 이미지, 테이블 등)를 표시하는 표준 셀을 정의   
+// 데이터 (텍스트, 이미지, 테이블 등) 를 표시하는 표준 셀을 정의   
 // - 반드시 tr 요소 내에서 사용   
 // - 셀 내용 : 왼쪽 정렬   
 - Define standard cells that display data (text, images, tables, etc.)   
@@ -127,7 +127,7 @@ categories: [JavaScript Html]
 // - 반드시 table 요소의 시작태그 바로 다음에 위치시킴   
 // -- tr/td 요소 내에서 사용되면 caption 요소는 무시됨   
 // - 테이블 상단에 진하게 가운데 정렬   
-// -- CSS 속성(caption-side, text-align)으로 변경 가능   
+// -- CSS 속성 (caption-side, text-align) 으로 변경 가능   
 - Use to display titles for the entire table   
   - No effect on the layout of the table   
   - The capture element must be placed immediately after the start tag of the table element   

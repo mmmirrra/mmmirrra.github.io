@@ -20,8 +20,8 @@ categories: [JavaScript Html]
 |Property|Description|
 |:---|:---|
 |src="URL of the file"|// (필수) 문서에 표시할 이미지 파일의 경로/이름<br />(Required) Path/Name of the image file to be displayed in the document|
-|width="number"|// 이미지의 폭(픽셀, %)<br />Width of image (pixel, %)|
-|height="number"|// 이미지의 높이(픽셀, %)<br />Height of the image (pixel, %)|
+|width="number"|// 이미지의 폭 (픽셀, %)<br />Width of image (pixel, %)|
+|height="number"|// 이미지의 높이 (픽셀, %)<br />Height of the image (pixel, %)|
 |alt="text"|// 이미지가 표시되지 않을 때 대체 표시될 텍스트<br />Text to be displayed as an alternative when the image is not displayed|
 |usemap="#mapName"|// 클라이언트 측의 이미지 맵<br />Client side image map|
    
@@ -29,7 +29,7 @@ categories: [JavaScript Html]
 // width, height 속성   
    
 // 이미지의 폭과 높이 지정 : 기본크기 = 원본 크기   
-// 값 : 픽셀, %(브라우저 화면 크기에 대한 상대적인 크기)   
+// 값 : 픽셀, % (브라우저 화면 크기에 대한 상대적인 크기)   
 // 폭과 높이 중 하나의 크기만 지정되면 나머지 하나의 값은 원본 크기에 비례해서 자동 지정   
 - Specify the width and height of the image : Default Size = Source Size   
 - Value : Pixel, % (relative size to browser screen size)   

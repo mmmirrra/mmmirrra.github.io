@@ -12,7 +12,7 @@ Internet ≠ Web
 <br />
 ### Internet   
 - Derived by ARPANET   
-- <b>INTER</b>connected <b>NET</b>work -> <b>INTERNET</b>   
+- <b>INTER</b>connected <b>NET</b>work → <b>INTERNET</b>   
 - Worldwide Connected Computer Network System   
    
 <br />
@@ -29,7 +29,7 @@ Internet ≠ Web
 // 웹 관련 용어   
    
 // 웹 사이트 : 웹 페이지들의 의미 있는 묶음   
-// 웹 문서(HTML 문서) : 브라우저로 볼 수 있는 형식의 문서   
+// 웹 문서 (HTML 문서) : 브라우저로 볼 수 있는 형식의 문서   
 // 웹 페이지 : 각 브라우저 창에 표시되는 개별적인 문서   
 // - 하나의 웹 문서는 주제/내용에 따라 여러 웹 페이지 파일로 구분/작성   
 // 하이퍼텍스트 : 단위 텍스트들과 이를 결합하는 하이퍼링크로 구성된 텍스트   
@@ -82,7 +82,7 @@ The process of creating a website or webpage
    
 #### Front-end Programming   
 - Client Side Programming   
-- HTML + CSS + JavaScript -> Create a page for all screens   
+- HTML + CSS + JavaScript → Create a page for all screens   
 - Framework : React, Angular, Vue.js, etc.   
    
 #### Back-end Programming   

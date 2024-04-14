@@ -36,7 +36,7 @@ categories: [JScript]
 ```
    
 // 문자열은 0개 이상의 유니코드 문자를 포함할 수 있음   
-// 문자열이 유니코드 문자를 전혀 포함하고 있지 않을 때 이를 빈 문자열("")이라고 함   
+// 문자열이 유니코드 문자를 전혀 포함하고 있지 않을 때 이를 빈 문자열 ("") 이라고 함   
 - String can contain more than 0 Unicode characters   
 - When a string contains no Unicode characters, it is called an empty string ("")   
    
@@ -46,7 +46,7 @@ categories: [JScript]
    
 // JScript는 정수와 부동 소수점 숫자를 지원함   
 // 정수 : 양수, 0, 음수   
-// 부동 소수점 숫자 : 소수점 또는 과학적 표기법에서 10의 거듭제곱을 나타내는 "e"(대문자 또는 소문자) 중 하나를 포함하거나 둘 다 포함할 수 있음   
+// 부동 소수점 숫자 : 소수점 또는 과학적 표기법에서 10의 거듭제곱을 나타내는 "e" (대문자 또는 소문자) 중 하나를 포함하거나 둘 다 포함할 수 있음   
 // 숫자 표현은 IEEE 754 표준을 따름   
 - JScript supports integer and floating point number   
 - integer : positive, 0, negative   
@@ -74,7 +74,7 @@ categories: [JScript]
    
 // 8진수 정수는 "0"으로 시작하며 0부터 7까지의 숫자를 사용함   
 // 숫자가 "0"으로 시작되고 숫자 "8" 및 또는 "9"를 포함한다면 그 숫자는 10진수임   
-// 8진수이면서 문자 "e"(또는 "E")를 포함하는 숫자는 오류를 일으킴   
+// 8진수이면서 문자 "e" (또는 "E") 를 포함하는 숫자는 오류를 일으킴   
 - An octal integer starts with "0" and uses a number from 0 to 7   
 - If a number starts with "0" and contains numbers "8" and/or "9," the number is decimal   
 - Numbers that are octal and contain the character "e" (or "E") cause errors   
@@ -82,7 +82,7 @@ categories: [JScript]
 #### hexadecimal   
 // 16진수   
    
-// 16진수("hex") 정수는 "0x"("X"는 소문자 또는 대문자)로 시작하며 0부터 9까지의 숫자와 A부터 F(소문자 또는 대문자)까지의 문자를 사용함   
+// 16진수 ("hex") 정수는 "0x" ("X"는 소문자 또는 대문자) 로 시작하며 0부터 9까지의 숫자와 A부터 F (소문자 또는 대문자) 까지의 문자를 사용함   
 // 16진수 표기법에서는 "e"문자가 허용되지만 지수를 의미하지는 않음   
 // A부터 F까지의 문자는 10진수의 10부터 15까지의 숫자를 나타내기 위하여 사용됨   
 - The hexadecimal ("hex") integer starts with "0x" (where "X" is a lowercase or uppercase character) and uses numbers from 0 to 9 and characters from A to F (lower case or uppercase character)   

@@ -50,7 +50,7 @@ var fif = 2.718281828;
 - Because JScript is case sensitive, the variable names myCounter and MYCOUNTER are different   
    
 // 길이에는 제한이 없지만 변수 이름은 다음 규칙을 따라야 함   
-// - 처음 문자로는 영문자(대문자 또는 소문자)나 밑줄(_), 달러 기호($) 중 하나를 사용해야 함   
+// - 처음 문자로는 영문자 (대문자 또는 소문자) 나 밑줄 (_), 달러 기호 ($) 중 하나를 사용해야 함   
 // - 이어지는 문자로는 영문자, 숫자, 밑줄, 달러 기호를 사용할 수 있음   
 // - 예약어와 같은 이름은 변수에 지정할 수 없음   
 - There is no limit to length, but variable names must follow the following rules   
@@ -66,7 +66,7 @@ var fif = 2.718281828;
    
 // 잘못된 변수 이름 예시   
 // - 99Balloons --> 숫자로 시작하여 잘못됨   
-// - Smith&Wesson   --> 특수문자 앰퍼샌드(&)를 사용하여 잘못됨   
+// - Smith&Wesson   --> 특수문자 앰퍼샌드 (&) 를 사용하여 잘못됨   
 - Invalid variable name example   
   - 99Balloons --> Invalid starting with a number   
   - Smith&Wesson   --> Invalid using special character ampersand (&)   
@@ -89,7 +89,7 @@ var godot;
 var waitingFor = 1 * godot;
 ```
    
-// 변수에 값을 지정하여 변수를 함축적으로 선언(var를 사용하지 않음)할 수 있음   
+// 변수에 값을 지정하여 변수를 함축적으로 선언 (var를 사용하지 않음) 할 수 있음   
 // 하지만 선언되지 않은 변수를 사용할 수는 없음   
 // 선언하지 않은 변수를 사용하면 런타임 오류가 발생   
 - Variables can be implicitly declared (without var) by specifying values for them   
@@ -110,7 +110,7 @@ var aMess = vyv + zez;
    
 // JScript는 느슨한 형식의 언어이기 때문에 JScript 내의 변수는 기술적으로 고정된 형식이 없음   
 // 변수의 형식은 변수에 포함되어 있는 값의 형식과 같음   
-// 변수 또는 데이터의 일부를 다른 형식으로 자동 변환(강제)하는 경우도 있을 수 있음   
+// 변수 또는 데이터의 일부를 다른 형식으로 자동 변환 (강제) 하는 경우도 있을 수 있음   
 // 숫자는 문자열에 쉽게 포함될 수 있지만, 문자열은 직접 숫자에 포함될 수 없기 때문에 명시적 변환 함수 parseInt()와 parseFloat()를 사용함   
 - Because JScript is a loose format language, variables within JScript are not technically fixed   
 - The format of a variable is the same as the format of the value contained in the variable   

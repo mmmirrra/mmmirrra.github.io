@@ -7,14 +7,14 @@ categories: [JScript]
 
 ### FileSystemObject 개체 모델   
    
-- Active Server Pages, Windows Scripting Host, 또는 스크립팅을 사용할 수 있는 다른 응용 프로그램에서 스크립트를 쓸 경우 웹 서버 상에서 폴더(디렉터리)와 파일을 추가, 이동, 변동, 작성, 삭제하는 일이 중요함   
+- Active Server Pages, Windows Scripting Host, 또는 스크립팅을 사용할 수 있는 다른 응용 프로그램에서 스크립트를 쓸 경우 웹 서버 상에서 폴더 (디렉터리) 와 파일을 추가, 이동, 변동, 작성, 삭제하는 일이 중요함   
 - 웹 서버에 연결된 드라이브에 관한 정보를 보고 해당 드라이브를 조작하는 일이 필요한 경우도 있음   
-- 스크립팅으로 FileSystemObject(FSO) 개체 모델을 사용하여 드라이브, 폴더, 파일을 처리할 수 있음   
+- 스크립팅으로 FileSystemObject (FSO) 개체 모델을 사용하여 드라이브, 폴더, 파일을 처리할 수 있음   
    
 <br />
 ### FileSystemObject와 Scripting 런타임 라이브러리 참조   
    
-- FileSystemObject(FSO) 개체 모델을 사용하면 폴더와 파일을 처리하는데 사용할 수 있는 풍부한 속성, 메서드, 이벤트와 더블어 잘 알고 있는 object.method 구문을 사용할 수 있음   
+- FileSystemObject (FSO) 개체 모델을 사용하면 폴더와 파일을 처리하는데 사용할 수 있는 풍부한 속성, 메서드, 이벤트와 더블어 잘 알고 있는 object.method 구문을 사용할 수 있음   
    
 - 이 개체 기반 도구는 아래의 도구들과 함께 사용함   
   - 웹 페이지를 만드는 HTML   
@@ -34,13 +34,13 @@ categories: [JScript]
 - 데이터를 Access나 SQL Server 등의 데이터베이스에 저장하면 응용 프로그램에 상당한 양의 오버헤드를 추가하기 때문에 데이터는 이진 형식이나 텍스트 형식으로 저장하는 것이 가장 효율적임   
 - 사용자가 이런 오버헤드를 피할 수도 있고, 데이터 엑세스 요건에 기능을 모두 갖춘 데이터베이스에 연결된 추가 기능을 요청하지 않을 수도 있음   
    
-- Scripting 형식 라이브러리(Scrrun.dll)에 포함되어 있는 FSO 개체 모델은 TextStream 개체를 통해 텍스트 파일 작성과 조작 기능을 지원함   
+- Scripting 형식 라이브러리 (Scrrun.dll) 에 포함되어 있는 FSO 개체 모델은 TextStream 개체를 통해 텍스트 파일 작성과 조작 기능을 지원함   
 - 이진 파일 작성과 조작 기능은 지원하지 않음   
    
 <br />
 ### FileSystemObject 개체   
    
-- FileSystemObject(FSO) 개체 모델에는 아래 개체와 컬렉션이 포함됨   
+- FileSystemObject (FSO) 개체 모델에는 아래 개체와 컬렉션이 포함됨   
    
 |Object/Collection|Description|
 |:---|:---|
@@ -56,7 +56,7 @@ categories: [JScript]
 <br />
 ### FileSystemObject 프로그래밍   
    
-- FileSystemObject(FSO) 개체 모델로 프로그래밍하려면   
+- FileSystemObject (FSO) 개체 모델로 프로그래밍하려면   
   - CreateObject 메서드를 사용하여 FileSystemObject 개체를 만듦   
   - 새로 만든 개체에 적절한 메서드를 사용함   
   - 개체 속성에 엑세스함   
@@ -150,7 +150,7 @@ function CreateFolder()
 #### 개체 속성 엑세스   
    
 - 개체에 대한 핸들이 있으면 개체의 속성에 엑세스할 수 있음   
-- 예를 들어, 특정 폴더의 이름을 가져오려면 먼저 개체 인스턴스를 만든 후 적절한 메서드로(이 경우에는 폴더가 이미 존재하기 때문에 GetFolder 메서드임) 핸들을 가져옴   
+- 예를 들어, 특정 폴더의 이름을 가져오려면 먼저 개체 인스턴스를 만든 후 적절한 메서드로 (이 경우에는 폴더가 이미 존재하기 때문에 GetFolder 메서드임) 핸들을 가져옴   
    
 - VBScript에서 GetFolder 메서드에 대한 핸들을 가져오려면 아래 코드를 사용함   
    
@@ -202,28 +202,28 @@ Response.Write("마지막으로 파일을 수정한 시간 : " + f1.DateLastModi
 <br />
 ### 드라이브와 폴더 작업   
    
-- FileSystemObject(FSO) 개체 모델을 사용하면 Windows 탐색기에서 대화형으로 할 수 있는 작업을 프로그램에서 드라이브와 폴더로 할 수 있음   
+- FileSystemObject (FSO) 개체 모델을 사용하면 Windows 탐색기에서 대화형으로 할 수 있는 작업을 프로그램에서 드라이브와 폴더로 할 수 있음   
    
 #### 드라이브 정보 보기   
    
 - Drive 개체를 사용하면 실제로 또는 네트워크를 통해 시스템에 연결되어 있는 다양한 드라이브에 관한 정보를 볼 수 있음   
 - 이 개체의 속성을 사용하면 아래와 같은 정보를 볼 수 있음   
-  - 바이트 단위로 나타낸 드라이브 전체 크기(TotalSize 속성)   
-  - 바이트 단위로 나타낸 사용 가능한 드라이브 공간 크기(AvailableSpace 또는 FreeSpace 속성)   
-  - 드라이브에 지정한 문자(DriveLetter 속성)   
-  - 이동식, 고정식, 네트워크, CD-ROM, RAM 디스크 등의 드라이브 형식(DriveType 속성)   
-  - 드라이브 일련 번호(SerialNumber 속성)   
-  - FAT, FAT21, NTFS 등 드라이브에서 사용하는 파일 시스템 형식(FileSystem 속성)   
-  - 드라이브 사용 가능 여부(IsReady 속성)   
-  - 공유 이름 또는 볼륨 이름(ShareName과 VolumeName 속성)   
-  - 드라이브의 경로 또는 루트 폴더(Path와 RootFolder 속성)   
+  - 바이트 단위로 나타낸 드라이브 전체 크기 (TotalSize 속성)   
+  - 바이트 단위로 나타낸 사용 가능한 드라이브 공간 크기 (AvailableSpace 또는 FreeSpace 속성)   
+  - 드라이브에 지정한 문자 (DriveLetter 속성)   
+  - 이동식, 고정식, 네트워크, CD-ROM, RAM 디스크 등의 드라이브 형식 (DriveType 속성)   
+  - 드라이브 일련 번호 (SerialNumber 속성)   
+  - FAT, FAT21, NTFS 등 드라이브에서 사용하는 파일 시스템 형식 (FileSystem 속성)   
+  - 드라이브 사용 가능 여부 (IsReady 속성)   
+  - 공유 이름 또는 볼륨 이름 (ShareName과 VolumeName 속성)   
+  - 드라이브의 경로 또는 루트 폴더 (Path와 RootFolder 속성)   
    
 - 예제 코드를 보면 FileSystemObject에서 이런 속성을 사용하는 방법을 알 수 있음   
    
 #### Drive 개체 사용 예제   
    
 - Drive 개체는 드라이브에 관한 정보를 모으는데 사용함   
-- 아래 코드에서는 실제 Drive 개체에 대한 참조가 없는 대신 GetDrive 메서드를 사용하여 기존 Drive 개체(이 경우에는 drv)에 대한 참조를 가져옴   
+- 아래 코드에서는 실제 Drive 개체에 대한 참조가 없는 대신 GetDrive 메서드를 사용하여 기존 Drive 개체 (이 경우에는 drv) 에 대한 참조를 가져옴   
    
 - 아래 예제는 VBScript에서 Drive 개체를 사용하는 방법을 보여줌   
    
@@ -323,7 +323,7 @@ function ShowFolderInfo()
     // 드라이브 이름 인쇄
     Response.Write("드라이브 이름 : " + fldr.Drive + "<br>");
     // 루트 파일 이름 인쇄
-    If(fldr.IsRootFolder)
+    If (fldr.IsRootFolder)
         Response.Write("루트 폴더임");
     else
         Response.Write("루트 폴더 아님");
@@ -348,7 +348,7 @@ function ShowFolderInfo()
    
 #### 파일 만들기   
    
-- 빈 텍스트 파일("텍스트 스트림"이라고도 함)을 만드는 방법에는 세 가지가 있음   
+- 빈 텍스트 파일 ("텍스트 스트림"이라고도 함) 을 만드는 방법에는 세 가지가 있음   
    
 - 하나는 CreateTextFile 메서드를 사용하는 것임   
 - 아래 예제는 VBScript에서 이 메서드를 사용하여 텍스트 파일을 작성하는 방법을 보여줌   
@@ -434,7 +434,7 @@ ts = f1.OpenAsTextStream(ForWriting, true);
    
 - 예제 코드를 보면  FileSystemObject에서 Close 메서드를 사용하는 방법을 알 수 있음   
    
-- 줄 바꿈 문자에는 커서를 다음 줄의 시작 부분으로 넘기는 문자(운영 체제에 따라 다름)가 있음(캐리지 리턴/줄 바꿈)   
+- 줄 바꿈 문자에는 커서를 다음 줄의 시작 부분으로 넘기는 문자 (운영 체제에 따라 다름) 가 있음 (캐리지 리턴/줄 바꿈)   
 - 일부 문자열의 끝에는 이미 그런 인쇄되지 않는 문자가 있는 것도 있음   
    
 - 아래 VBScript 예제는 파일을 열고, 세 가지 쓰기 방법을 모두 사용하여 파일에 데이터를 추가하고, 파일을 닫는 방법을 보여줌   
@@ -480,13 +480,13 @@ function CreateFile()
 |Task|Method|
 |:---|:---|
 |파일에서 지정한 수의 문자를 읽음|Read|
-|한 줄 전체를 읽음(줄 바꿈 문자는 제외하고 줄 바꿈 문자까지)|ReadLine|
+|한 줄 전체를 읽음 (줄 바꿈 문자는 제외하고 줄 바꿈 문자까지)|ReadLine|
 |텍스트 파일의 전체 내용을 읽음|ReadAll|
    
 - 예제 코드를 보면 FileSystemObject에서 ReadAll 메서드와 ReadLine 메서드를 사용하는 방법을 알 수 있음   
    
 - Read 메서드나 ReadLine 메서드를 사용하면서 데이터의 특정 부분을 건너뛰려면 Skip 메서드 또는 SkipLine 메서드를 사용함   
-- 읽기 메서드의 결과로 나오는 텍스트는 문자열로 저장되며 컨트롤에 표시하거나, 문자열 함수(Left, Right, Mid)로 구문을 분석하거나, 연결하는 등의 조작을 할 수 있음   
+- 읽기 메서드의 결과로 나오는 텍스트는 문자열로 저장되며 컨트롤에 표시하거나, 문자열 함수 (Left, Right, Mid) 로 구문을 분석하거나, 연결하는 등의 조작을 할 수 있음   
    
 - 아래 VBScript 예제는 파일을 열고, 내용을 쓰고, 다시 읽는 방법을 보여줌   
    

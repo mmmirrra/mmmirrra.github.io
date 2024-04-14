@@ -8,7 +8,7 @@ categories: [JScript]
 ### Transmission by value and transmission by reference   
 // 값에 의한 전달과 참조에 의한 전달   
    
-// 숫자와 부울값(true와 false)는 값에 의한 전달로 복사, 전달, 비교됨   
+// 숫자와 부울값 (true와 false) 는 값에 의한 전달로 복사, 전달, 비교됨   
 - Numbers and Boolean values (true and false) are copied, transmitted, or compared as transfer by value   
    
 // 값에 의한 전달로 복사 또는 전달하면 컴퓨터 메모리에 공간을 지정한 후 원래 값을 그 공간 안에 넣음   

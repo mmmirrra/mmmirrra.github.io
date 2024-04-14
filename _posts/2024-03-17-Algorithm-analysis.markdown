@@ -46,7 +46,7 @@ categories: [Algorithm]
 #### Algorithm running time   
 // 알고리즘 수행시간   
    
-// 알고리즘 수행시간 = ∑{각 문장(연산)이 수행되는 횟수}   
+// 알고리즘 수행시간 = ∑{각 문장 (연산) 이 수행되는 횟수}   
 - Algorithm running time = ∑ {number of times each expression (operation) is performed}   
    
 // 수행시간에 영향을 미치는 요인   
@@ -64,7 +64,7 @@ categories: [Algorithm]
 // 입력 크기 n이 커질수록 수행시간도 증가   
    
 // 단순히 단위 연산이 수행되는 개수의 합으로 표현하는 것은 부적절   
-// - 입력 크기 n의 함수 f(n)으로 표현   
+// - 입력 크기 n의 함수 f(n) 으로 표현   
 - It is inappropriate to express simply as the sum of the number of unit operations performed   
   - Expressed as a function f(n) of input size n   
    
@@ -96,7 +96,7 @@ SumAverage(A[], n)
 {
     sum = 0;    // 1 time
     i = 0;    // 1 time
-    while(i < n) {    // n + 1 times
+    while (i < n) {    // n + 1 times
       sum = sum + A[i];   // n time
       i = i + 1;    // n time
     }
@@ -200,7 +200,7 @@ Function
 // c = 5, n<sub>0</sub> = 2 이면   
 // n ≥ 2 인 모든 n에 대하여   
 // f(n) ≤ c · g(n) 이면, 즉 3n + 3 ≤ 5 · n 을 만족하면   
-// f(n) = O(g(n)) = O(n)이다   
+// f(n) = O(g(n)) = O(n) 이다   
 - if c = 5, n<sub>0</sub> = 2   
   - For all n with n ≥ 2   
   - If f(n) ≤ c · g(n), that is, if 3n + 3 ≤ 5 · n is satisfied   
@@ -220,7 +220,7 @@ Function
 - If f(n) = O(n) and f(n) = Ω(n)   
   - f(n) = θ(n)   
    
-// O(n), Ω(n), θ(n) 에서 n은 f(n)의 최고차항인 n임   
+// O(n), Ω(n), θ(n) 에서 n은 f(n) 의 최고차항인 n임   
 - In O(n), Ω(n), and θ(n), n is the highest degree term of f(n)   
    
 <br />
@@ -234,7 +234,7 @@ Function
 // c = 7, n<sub>0</sub> = 1 이면   
 // n ≥ 1 에 대해서   
 // f(n) ≤ c · g(n) 이면, 즉 3n³ + 3n - 1 ≤ 5 · n³ 을 만족하면   
-// f(n) = O(g(n)) = O(n³)이다   
+// f(n) = O(g(n)) = O(n³) 이다   
 - if c = 7, n<sub>0</sub> = 1   
   - about n ≥ 1   
   - If f(n) ≤ c · g(n), that is, if 3n³ + 3n - 1 ≤ 5 · n³ is satisfied   
@@ -254,7 +254,7 @@ Function
 - If f(n) = O(n³) and f(n) = Ω(n³)   
   - f(n) = θ(n³)   
    
-// O(n³), Ω(n³), θ(n³) 에서 n³은 f(n)의 최고차항인 n³임   
+// O(n³), Ω(n³), θ(n³) 에서 n³은 f(n) 의 최고차항인 n³임   
 - In O(n³), Ω(n³), and θ(n³), n³ is the highest degree term of f(n)   
    
 <br />
@@ -293,9 +293,9 @@ Function
 // 알고리즘의 시간 복잡도 구하기   
    
 // 알고리즘의 시간 복잡도를 구하려면   
-// - 기본 연산의 수행 횟수의 합 f(n)을 구한 후,   
-// - f(n) = O(g(n)) 을 만족하는 최소 차수의 함수 g(n)을 찾음   
-// -- 최소 차수의 함수 g(n) == f(n)의 최고 차수
+// - 기본 연산의 수행 횟수의 합 f(n) 을 구한 후,   
+// - f(n) = O(g(n)) 을 만족하는 최소 차수의 함수 g(n) 을 찾음   
+// -- 최소 차수의 함수 g(n) == f(n) 의 최고 차수
 - To find the time complexity of an algorithm   
   - After calculating the sum f(n) of the number of runnings of the basic operation,   
   - Find function g(n) of minimum degree that satisfies f(n) = O(g(n))   
@@ -310,7 +310,7 @@ Function
    
 ```c
 i = 1;    // 1 time
-while(i <= n) {    // n + 1 times
+while (i <= n) {    // n + 1 times
     x = x + 1;    // 1 time
     i = i + 1;    // 1 time
 }
@@ -324,8 +324,8 @@ while(i <= n) {    // n + 1 times
    
 ```c
 count = 0;    // 1 time
-for(i = 0; i < n; i++)    // n + 1 times
-    for(j = 0; j < n; j++)    // n + 1 times
+for (i = 0; i < n; i++)    // n + 1 times
+    for (j = 0; j < n; j++)    // n + 1 times
         count ++;   // n² times
 print count;    // 1 time
 
@@ -354,9 +354,9 @@ BinarySearch(A[], key, Left, Right) {
     mid = ⌊(Left + Right)⌋ / 2;   // 1 time
 
     // Search Success
-    if(A[Mid] == key) return (Mid);   // 1 time
+    if (A[Mid] == key) return (Mid);   // 1 time
     // Circular call when search fails - number of runnings unknown
-    else if(key < A[Mid]) BinarySearch(A, key, Left, Mid - 1)
+    else if (key < A[Mid]) BinarySearch(A, key, Left, Mid - 1)
         else BinarySearch(A, key, Mid + 1, Right);
 }
 ```

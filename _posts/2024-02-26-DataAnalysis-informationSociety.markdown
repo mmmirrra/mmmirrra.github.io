@@ -6,7 +6,7 @@ categories: [Data Analysis]
 ---
 
 ### Information Society - Knowledge Informatization   
-- Big Data, Deep Learning, AI(Artificial Intelligence)   
+- Big Data, Deep Learning, AI (Artificial Intelligence)   
 - Computer utilization and data analytics capabilities are essential to efficiently process and analyze data   
 - Statistical (logical) thinking required   
 - Data analytics software needs to be well utilized   
@@ -29,7 +29,7 @@ categories: [Data Analysis]
 - Excel   
 - SPSS   
   - www.spss.co.kr   
-  - GUI(Graphic User Interface)   
+  - GUI (Graphic User Interface)   
   - Enter data in the form of a Spreadsheet   
   - Superior statistical graphics using the menu method   
   - It is possible to obtain a certificate of '사회조사분석사'   

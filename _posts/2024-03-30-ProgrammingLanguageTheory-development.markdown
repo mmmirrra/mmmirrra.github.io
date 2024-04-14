@@ -12,11 +12,11 @@ categories: [Programming Language Theory]
 // 컴퓨터 시스템의 발전   
    
 // 아이디어 시대   
-// - 계산 자동화를 위한 상상속의 기계 설계(튜링기계)   
+// - 계산 자동화를 위한 상상속의 기계 설계 (튜링기계)   
 // 전자식 컴퓨터 등장   
-// - 전자 신호를 통한 계산 기계(에니악, 콜로서스)   
+// - 전자 신호를 통한 계산 기계 (에니악, 콜로서스)   
 // 프로그램 저장 방식의 컴퓨터   
-// - 프로그램과 처리기를 분리(에드박)   
+// - 프로그램과 처리기를 분리 (에드박)   
 - The age of ideas   
   - Imaginary machine design for computational automation (turing machine)   
 - The advent of electronic computers   
@@ -28,11 +28,11 @@ categories: [Programming Language Theory]
 // 운영체제의 발전   
    
 // 일괄처리 운영체제   
-// - 관리자(operator)를 대신할 프로그램 등장   
+// - 관리자 (operator) 를 대신할 프로그램 등장   
 // 시분할 운영체제   
 // - 한 컴퓨터를 여러 사람이 사용   
 // DOS   
-// - IBM 컴퓨터, Apple 등 개인용 컴퓨터(PC) 등장   
+// - IBM 컴퓨터, Apple 등 개인용 컴퓨터 (PC) 등장   
 // PC 환경 운영체제 발전   
 // - GUI 운영체제와 Linux의 발전   
 - Batch Operating System   
@@ -51,25 +51,25 @@ categories: [Programming Language Theory]
 #### Fortran : The appearance of expressions, statements, and control statements   
 // Fortran :  수식과 문장, 제어문의 등장   
    
-// IBM의 존 배커스(John Backus)에 의해 개발됨   
-// 과학계산용 언어(Formula Translation)   
+// IBM의 존 배커스 (John Backus) 에 의해 개발됨   
+// 과학계산용 언어 (Formula Translation)   
 - Developed by John Backus of IBM   
 - Formula Translation   
    
 #### Algol : Advances in Structured Programming   
 // Algol : 구조화 프로그래밍의 발전   
    
-// 본래 이름 : IAL(International Algebraic Language)   
+// 본래 이름 : IAL (International Algebraic Language)   
 // 국제 위원회 ACM-GAMM을 통해 설계된 언어   
 // 알고리즘 기술 언어   
-- Original name : IAL(International Algebraic Language)   
+- Original name : IAL (International Algebraic Language)   
 - Language designed through the International Committee ACM-GAMM   
 - Algorithmic description language   
    
 #### LISP : Initial Functional Language   
 // LISP : 초기 함수형 언어   
    
-// MIT의 존 매카시(John McCarthy)가 설계함   
+// MIT의 존 매카시 (John McCarthy) 가 설계함   
 // 최초의 함수형 언어   
 - Designed by John McCarthy of MIT   
 - The first functional language   
@@ -81,7 +81,7 @@ categories: [Programming Language Theory]
 #### Cobol : Introduction to record types   
 // Cobol : 레코드 타입의 소개   
    
-// 미 해군에서 그레이스 호퍼(Grace Hopper)가 이끄는 팀에 의해 개발됨   
+// 미 해군에서 그레이스 호퍼 (Grace Hopper) 가 이끄는 팀에 의해 개발됨   
 // 사무용 언어   
 - Developed by a team led by Grace Hopper in the U.S. Navy   
 - An office language   
@@ -136,7 +136,7 @@ categories: [Programming Language Theory]
 #### Ada : A Long March for Safety   
 // Ada : 안전성을 위한 대장정   
    
-// 미 국방성(DoD) 공모   
+// 미 국방성 (DoD) 공모   
 // 매우 복잡한 언어로 1983년에 첫 컴파일러 등장   
 - US Department of Defense (DoD) conspiracy   
 - In a very complex language, the first compiler appeared in 1983   
@@ -216,7 +216,7 @@ categories: [Programming Language Theory]
 #### Haskell : Pure functional language   
 // Haskell : 순수 함수형 언어   
    
-// 모나드(monad)가 탑재되면서 점차 인기   
+// 모나드 (monad) 가 탑재되면서 점차 인기   
 // Scala에 영향을 줌   
 - Increasingly popular as monad is installed   
 - Affecting Scala   

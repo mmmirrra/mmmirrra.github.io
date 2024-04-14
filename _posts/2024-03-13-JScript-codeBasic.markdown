@@ -15,9 +15,9 @@ categories: [JScript]
 // 문   
    
 // JScript 코드문은 한 줄에 한 개 이상의 항목과 기호로 이루어져 있음   
-// 새 줄은 새 문으로 시작하지만 종결문자인 세미콜론(;)을 사용하여 명확히 종결짓는 것을 권장함   
+// 새 줄은 새 문으로 시작하지만 종결문자인 세미콜론 (;) 을 사용하여 명확히 종결짓는 것을 권장함   
 - JScript code statements consist of one or more items and symbols per line   
-- A new line begins with a new statement, but it is recommended to end clearly using the terminating character semicolon(;)   
+- A new line begins with a new statement, but it is recommended to end clearly using the terminating character semicolon (;)   
    
 // 예시   
 - Example   
@@ -27,7 +27,7 @@ aBird = "Robin";
 var today = new Data();
 ```
    
-// 중괄호 ({})로 둘러싸인 여러 줄의 JScript문을 블록이라고 함   
+// 중괄호 ({}) 로 둘러싸인 여러 줄의 JScript문을 블록이라고 함   
 // 블록은 함수나 조건문에 사용됨   
 - Multiple lines of JScript statements surrounded by brace ({}) are called blocks   
 - Blocks are used in functions or conditional statements   
@@ -59,8 +59,8 @@ mradius = miles;
 ### comment   
 // 주석   
    
-// 한 줄의 JScript 주석은 슬래시 두 개(//)로 시작함   
-// 여러 줄 주석은 슬래시와 별표의 조합( /* )으로 시작하며 시작 표시와는 반대 순서인 별표와 슬래시( */ )로 끝남   
+// 한 줄의 JScript 주석은 슬래시 두 개 (//) 로 시작함   
+// 여러 줄 주석은 슬래시와 별표의 조합 ( /* ) 으로 시작하며 시작 표시와는 반대 순서인 별표와 슬래시 ( */ ) 로 끝남   
 - One line of JScript comment starts with two slashes (//)   
 - Multiple line comments begin with a combination of slashes and asterisks ( /*) and end with asterisks and slashes ( */) in the opposite order to the start mark   
    
@@ -96,7 +96,7 @@ var extendedIdea = aGoodIdea + "text";
 ### Same as designated   
 // 지정과 같음   
    
-// JScript에서 등호(=)는 값을 지정하는 동작을 가리킬 때 사용됨   
+// JScript에서 등호 (=) 는 값을 지정하는 동작을 가리킬 때 사용됨   
 - In JScript, the equal sign (=) is used to indicate the action of specifying a value   
    
 ```javascript
@@ -104,7 +104,7 @@ anInterger = 3;
 ```
    
 // 이 코드문은 "3이라는 값을 anInteger 변수에 지정하십시오" 또는 "anInteger가 3이라는 값을 갖습니다"라는 의미임   
-// 두 값이 같은지 비교할 때 사용하는 기호로는 등호 두개(==)를 사용   
+// 두 값이 같은지 비교할 때 사용하는 기호로는 등호 두 개 (==) 를 사용   
 - This code statement means "Specify a value of 3 for the anInteger variable" or "anInteger has a value of 3."   
 - Use two equal signs (==) as symbols to compare if two values are equal   
    

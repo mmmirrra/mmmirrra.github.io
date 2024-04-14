@@ -64,7 +64,7 @@ function treak()
     // The following statement specifies the value of 42 for the aNumber region variable, implicitly declaring the aNumber region variable
     aNumber = 42;
 
-    if(false){
+    if (false){
         var aNumber;    // This statement does not run
         aNumber = "Hello!";  // This statement does not run
     }

@@ -8,7 +8,7 @@ categories: [Multimedia System]
 ### Define Multimedia   
 // 멀티미디어의 정의   
    
-// 여러(multi) 매체(media)라는 의미   
+// 여러 (multi) 매체 (media) 라는 의미   
 // 텍스트, 사운드, 이미지, 그래픽, 비디오, 애니메이션 등의 여러 미디어들을 이용하여 표현되는 정보   
 - the meaning of multiple media   
 - Information expressed using various media such as text, sound, images, graphics, video, animation, etc.   
@@ -76,26 +76,26 @@ Memory Capacity by Multimedia Data Type
 |One minute of CD audio-level music|10MB|
 |Video (Video) One second|27MB|
    
-// MPC(Multimedia PC) : 멀티미디어가 처리될 수 있는 PC   
-- MPC(Multimedia PC) : PC where Multimedia can be processed   
+// MPC (Multimedia PC) : 멀티미디어가 처리될 수 있는 PC   
+- MPC (Multimedia PC) : PC where Multimedia can be processed   
    
 #### Advancement of Multimedia-related technologies   
 // 멀티미디어 관련 기술의 발전   
    
 // 저장매체 기술의 발전   
-// - CD(Compact Disc)   
+// - CD (Compact Disc)   
 // -- 약 650MB의 데이터 저장용량   
 // -- 다른 기억장치에 비해 매우 값싼 저장장치   
-// - DVD(Digital Video Disc)   
+// - DVD (Digital Video Disc)   
 // -- 고해상도의 영화 한편을 스테레오 사운드 수준으로 저장할 수 있는 용량을 가진 저장매체   
-// - 블루레이 디스크(Blu-ray Disc)   
-// -- 고선명(HD) 비디오를 위한 디지털 데이터를 저장할 수 있는 광 기록방식 저장매체   
+// - 블루레이 디스크 (Blu-ray Disc)   
+// -- 고선명 (HD) 비디오를 위한 디지털 데이터를 저장할 수 있는 광 기록방식 저장매체   
 // -- 용량은 DVD의 5배 정도   
 - Advances in Storage Media Technology   
-  - CD(Compact Disc)   
+  - CD (Compact Disc)   
     - About 650MB of data storage   
     - Very cheap storage compared to other memory devices   
-  - DVD(Digital Video Disc)   
+  - DVD (Digital Video Disc)   
     - A storage medium with the capacity to store a high-resolution movie at the stereo sound level   
   - Blu-ray Disc   
     - An optical recording type storage medium capable of storing digital data for high definition (HD) videos   
@@ -133,24 +133,24 @@ Representative Multimedia-Related Technologies
 // - 컴퓨터를 이용하여 다양한 정보를 다루기 위해서는 컴퓨터의 사용이 쉽고 편리해야 함   
 // - 컴퓨터를 보다 편리하고 쉽게 이용할 수 있도록 인간과 컴퓨터의 상호작용에 관한 기술이 필요   
 // - 오늘날의 컴퓨터   
-// -- 사용자에게 편리한 다양한 인터페이스(interface)를 제공   
+// -- 사용자에게 편리한 다양한 인터페이스 (interface) 를 제공   
 - Advancement of human-computer interaction technology   
   - The computer should be easy and convenient to use to handle a variety of information using the computer   
   - Technology on human-computer interaction is needed to make computers more convenient and easy to use   
   - A recent computer   
     - Provides users with a variety of convenient interfaces   
    
-// 인간-컴퓨터 상호작용 기술 : HCI(Human Computer Interaction)   
+// 인간-컴퓨터 상호작용 기술 : HCI (Human Computer Interaction)   
 // - 멀티미디어 데이터는 다양하고 큰 용량을 가지므로 일반 사용자의 정보검색은 쉽지 않음   
 // - HCI 기술은 멀티미디어 데이터의 입력, 처리, 제어 등을 상호 대화 형태의 조작이 가능하도록 함으로써 인간과 컴퓨터 간의 상호작용을 쉽고 편리하게 개선하는데 목적   
-// -- GUI(Graphical User Interface) 기술   
+// -- GUI (Graphical User Interface) 기술   
 // --- 사용자의 편리성 제공을 위해 그래픽스 기술이 적용된 인터페이스   
 // --- GUI 기술을 이용하여 사용자에게 보다 나은 상호작용을 지원   
 // -- 음성 인식기술, 제스처 인식기술 등   
-- HCI(Human Computer Interaction)   
+- HCI (Human Computer Interaction)   
   - Multimedia data is diverse and has a large capacity, making it difficult for general users to retrieve information   
   - HCI technology aims to improve human-computer interaction easily and conveniently by enabling interactive manipulation of Multimedia data input, processing, and control   
-    - GUI(Graphical User Interface)   
+    - GUI (Graphical User Interface)   
       - Interface with graphics technology for user convenience   
       - Use GUI technology to better interact with users   
     - Speech recognition technology, gesture recognition technology, etc.   
@@ -193,7 +193,7 @@ Representative Multimedia-Related Technologies
 // 멀티미디어가 컴퓨터에서 처리되기 위해서는 정보가 디지털화되어야 함   
 - Information must be digitized in order for Multimedia to be processed on a computer   
    
-// 디지털화(digitization)   
+// 디지털화 (digitization)   
 // - 이미지나 사운드 등의 아날로그 신호를 컴퓨터의 입력으로 사용하기 위해 디지털 형태로 변환하는 것   
 - digitization   
   - converting analog signals, such as images and sounds, into digital forms for use as input to computers   
@@ -243,7 +243,7 @@ Representative Multimedia-Related Technologies
 // 멀티미디어 정보가 인터넷상에서 많은 사용자에 의하여 공유   
 // - 검색사이트와 포털   
 // -- 방대한 자료를 한데 모아서 하나의 묶으로 제공함으로써 많은 사용자들이 모이고, 정보를 공유   
-// - 월드 와이드 웹(www : World Wide Web, 줄여서 Web)의 발전   
+// - 월드 와이드 웹 (www : World Wide Web, 줄여서 Web) 의 발전   
 // -- 정보의 공유에 대한 개념이 더욱 확산됨   
 - Multimedia information is shared by many users on the Internet   
   - Search sites and portals   
@@ -287,7 +287,7 @@ Representative Multimedia-Related Technologies
 // 디지털 데이터   
 // - 기존의 콘텐츠가 아날로그 위주인데 반해 멀티미디어 콘텐츠는 디지털 데이터로 구성   
 // 정보의 상호 작용   
-// - 사용자와 정보 제공자가 양방향으로 정보를 주고 받는, 즉 생산소비자(프로슈머 : prosumer)의 경향을 보임   
+// - 사용자와 정보 제공자가 양방향으로 정보를 주고 받는, 즉 생산소비자 (프로슈머 : prosumer) 의 경향을 보임   
 // 시공간 제약의 완화   
 // - 인터넷의 발달로 인해 시간과 공간의 제약이 완화되어 정보의 확장이 가능   
 // 정보에 대한 비선형적인 접근   

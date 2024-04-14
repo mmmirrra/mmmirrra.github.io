@@ -9,7 +9,7 @@ categories: [JScript]
 // 개체 정의   
    
 // JScript에서 개체란 본질적으로 속성과 메서드의 컬렉션임   
-// 메서드는 개체의 한 구성원인 함수이고, 속성은 개체의 한 구성원인 하나의 값 또는 여러 값들의 집합임(하나의 배열이나 개체의 폼에서)   
+// 메서드는 개체의 한 구성원인 함수이고, 속성은 개체의 한 구성원인 하나의 값 또는 여러 값들의 집합임 (하나의 배열이나 개체의 폼에서)   
 // JScript는 내부 개체, 사용자 정의 개체, 브라우저 개체라는 3가지 종류의 개체를 지원함   
 - In JScript, an object is essentially a collection of attributes and methods   
 - A method is a function that is a member of an object, and an attribute is a value that is a member of an object or a set of values (in an array or form of an object)   
@@ -20,7 +20,7 @@ categories: [JScript]
 // 배열로 사용되는 개체   
    
 // JScript에서는 개체와 배열을 동일한 것으로 취급함   
-// 개체의 각 구성원(속성과 메서드)을 참조하려면 이름(개체명, 마침표(.), 속성명의 순서로 입력) 또는 배열 아래 첨자 인덱스를 사용하면 됨   
+// 개체의 각 구성원 (속성과 메서드) 을 참조하려면 이름 (개체명, 마침표 (.), 속성명의 순서로 입력) 또는 배열 아래 첨자 인덱스를 사용하면 됨   
 // JScript에서 아래 첨자는 0부터 번호를 매기기 시작함   
 // 사용자 편의를 위해 아래 첨자는 아래 첨자의 이름으로도 참조할 수 있음   
 - JScript treats objects and arrays as identical   
@@ -37,7 +37,7 @@ theWidth = spaghetti[3];    // [3] is the "width" index
 theWidth = spaghetti["width"];
 ```
    
-// 숫자 인덱스로 속성을 참조할 경우 대괄호는 사용할 수 있지만 점(.)은 사용할 수 없음   
+// 숫자 인덱스로 속성을 참조할 경우 대괄호는 사용할 수 있지만 점 (.) 은 사용할 수 없음   
 // 아래 문은 오류를 일으킴   
 - If you reference properties by numeric index, brackets are available, but dots (.) are not   
 - The statement below causes an error   
@@ -69,7 +69,7 @@ for (var j = 0; j < multTable.length; j++)
     // Create one row
     var aRow = new Array(17);
     // Sets the value for the row
-    for(var i = 0; i < aRow.length; i++)
+    for (var i = 0; i < aRow.length; i++)
     {
         // Create a value and substitute it
         aRow[i] = (i + " times " + j + " = " + i*j);

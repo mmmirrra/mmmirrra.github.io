@@ -6,7 +6,7 @@ categories: [Computer]
 ---
 
 ### Data   
-// 데이터 : 관찰이나 측정을 통해 얻은 수치, 문자 형태로 표현할 수 있는 질적(quality) 또는 양적(quantity) 값   
+// 데이터 : 관찰이나 측정을 통해 얻은 수치, 문자 형태로 표현할 수 있는 질적 (quality) 또는 양적 (quantity) 값   
 Numerical values obtained by Observation or Measurement, or a qualitative or quantitative value that can be expressed in characters   
    
 <br />
@@ -14,14 +14,14 @@ Numerical values obtained by Observation or Measurement, or a qualitative or qua
 // 정보   
    
 // 문제 또는 질문을 해결하기 위해 사용할 수 있는 데이터와 데이터의 집합   
-// 관찰과 측정을 통해 얻은 데이터를 처리(정렬, 합산, 군집화 등)하여 실제 문제 해결에 도움이 되는 데이터 또는 결과물   
+// 관찰과 측정을 통해 얻은 데이터를 처리 (정렬, 합산, 군집화 등) 하여 실제 문제 해결에 도움이 되는 데이터 또는 결과물   
 - A set of data and data that can be used to solve a problem or question   
 - Data or deliverables that process data from observations and measurements (Alignment, Summation, Clustering, etc.) to help solve real-world problems   
    
 <br />
 ### Information Processing Process   
-// 정보 처리 과정 : 현상 (관찰, 측정) -> 데이터 (처리, 가공) -> 정보   
-Phenomenon (Observation, Measurement) -> Data (Processing) -> Information   
+// 정보 처리 과정 : 현상 (관찰, 측정) → 데이터 (처리, 가공) → 정보   
+Phenomenon (Observation, Measurement) → Data (Processing) → Information   
    
 // 데이터는 현상에 대한 관찰과 측정으로 생성   
 // 데이터는 기록된 사실이지만, 직접적으로 문제를 해결하는데 도움이 되지 않음   
@@ -53,7 +53,7 @@ The process of generating information by converting data by sorting, clustering,
 // 컴퓨터와 2진법   
    
 // 컴퓨터는 트랜지스터를 통해 2진법 숫자로 데이터를 표현하여 저장 및 처리   
-// 트랜지스터는 이미터(전류입력), 베이스(전류흐름/중단선택), 콜렉터(전류출력)로 구성   
+// 트랜지스터는 이미터 (전류입력), 베이스 (전류흐름/중단선택), 콜렉터 (전류출력 )로 구성   
 - The computer stores and processes data in binary numbers through the transistor   
 - The transistor consists of an emitter (electrical input), a base (electrical flow/stop selection), and a collector (electrical output)   
    
@@ -99,8 +99,8 @@ The process of generating information by converting data by sorting, clustering,
 - Programmer write programs using language that computer can understand   
    
 #### Classification of Programming Languages   
-// 프로그래밍 언어의 분류 : 1세대 -> 2세대 -> 3세대 -> 4세대   
-1st Generation -> 2nd Generation -> 3rd Generation -> 4th Generation   
+// 프로그래밍 언어의 분류 : 1세대 → 2세대 → 3세대 → 4세대   
+1st Generation → 2nd Generation → 3rd Generation → 4th Generation   
    
 |Generation|Classification|Languages|Description|
 |:---:|:---:|:---|:---|

@@ -6,8 +6,8 @@ categories: [Discrete Mathematics]
 ---
 
 ### Knowledge?   
-// 지식? 데이터 -> 정보 -> 지식 -> 지혜   
-DATA -> INFORMATION -> KNOWLEDGE -> WISDOM   
+// 지식? 데이터 → 정보 → 지식 → 지혜   
+DATA → INFORMATION → KNOWLEDGE → WISDOM   
    
 <br />
 ### Mathematics?   
@@ -95,7 +95,7 @@ Methodology : who, when, where, why, what tools and techniques should be used
    
 |tools of mathematics|techniques of mathematics|methodologies of mathematics|
 |:---|:---|:---|
-|// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법(일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식(2차, 3차 방정식)<br />Quadratic formula(quadratic and cubic equations)<br />// 등<br />etc.|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
+|// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법 (일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식 (2차, 3차 방정식)<br />Quadratic formula (quadratic and cubic equations)<br />// 등<br />etc.|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
    
 #### Problem Solving   
 // 문제해결   

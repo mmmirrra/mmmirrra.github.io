@@ -5,8 +5,8 @@ date:   2024-01-16 09:00:00 +0900
 categories: [PuTTY]
 ---
 
-### You can access it by entering 'Host Name(or IP address)', 'Port' and selecting the 'Open' button. Select the remaining options based on the project situation.   
-// 'Host Name(or IP address)', 'Port' 입력 후 'Open' 버튼 선택하면 접속할 수 있음. 나머지 옵션은 프로젝트 상황에 따라 선택   
+### You can access it by entering 'Host Name (or IP address)', 'Port' and selecting the 'Open' button. Select the remaining options based on the project situation.   
+// 'Host Name (or IP address)', 'Port' 입력 후 'Open' 버튼 선택하면 접속할 수 있음. 나머지 옵션은 프로젝트 상황에 따라 선택   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/puttyConnect.png)
    

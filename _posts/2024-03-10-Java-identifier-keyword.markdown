@@ -51,7 +51,7 @@ categories: [Java]
 - Example : `Car, HelloWorld, MyClass, String`   
    
 #### method, variable (field)   
-// 메소드, 변수(필드)   
+// 메소드, 변수 (필드)   
    
 // 첫 자는 소문자   
 // 단어의 첫 글자는 대문자   

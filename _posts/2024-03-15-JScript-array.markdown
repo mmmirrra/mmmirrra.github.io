@@ -65,7 +65,7 @@ theFirstLine = theListing[1];
    
 ```javascript
 theListing = addressBook[entryNum];
-for(i = 1; i < 4; i++)
+for (i = 1; i < 4; i++)
 {
     theName[i] = theListing["Name" + i];
     theAddress[i] = theListing["Address" + i];
@@ -116,7 +116,7 @@ var myArray = new Array("Athens", "Belgrade", "Cairo");
 - For Example   
    
 ```javascript
-for(key in myArray)
+for (key in myArray)
     response.write("Element value is " + MyArray[key] + "<BR>");
 ```
    
@@ -127,7 +127,7 @@ for(key in myArray)
 var MyArray = {"a" : "Athens", "b" : "Belgrade", "c" : "Cairo"};
 ```
    
-// 이 배열에서는 배열 요소 번호(0, 1, 2) 대신 키 문자열("a", "b", "c")을 사용하여 요소의 주소가 지정됨   
+// 이 배열에서는 배열 요소 번호 (0, 1, 2) 대신 키 문자열 ("a", "b", "c") 을 사용하여 요소의 주소가 지정됨   
 // 이것은 좀 더 직관적인 주소 지정 구성표를 지닌 배열을 만들어 사용할 수 있게 해줌   
 // 위에서 예시한 for...in 문 코드 또한 이 배열을 반복 수행하는데 사용할 수 있음   
 - In this array, elements are addressed using key strings ("a", "b", "c") instead of array element numbers (0, 1, 2)   

@@ -37,8 +37,8 @@ a set of unambiguous, simple, clear, and computer-executable finite sets of inst
 ### Process of generating Algorithm   
 // 알고리즘 생성 과정   
    
-// 설계 -> 표현/기술 -> 정확성 분석 -> 효율성 분석   
-Design -> Representation/Technology -> Accuracy Analysis -> Efficiency Analysis   
+// 설계 → 표현/기술 → 정확성 분석 → 효율성 분석   
+Design → Representation/Technology → Accuracy Analysis → Efficiency Analysis   
    
 // 1. 설계 : 상향식 설계, 하향식 설계, 욕심쟁이 방법, 분할정복 방법, 동적 프로그래밍 방법 등   
 // 2. 표현/기술 : 일상 언어, 순서도, 의사코드, 프로그래밍 언어 등   

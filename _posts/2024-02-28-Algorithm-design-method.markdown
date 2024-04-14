@@ -79,16 +79,16 @@ categories: [Algorithm]
   // 동전의 액면가가 일반적인 경우에는 욕심쟁이 방법 적용 불가   
   - If the amount of coins is general, the greedy method cannot be applied   
    
-    // - 예시 : 120원이라는 동전이 존재한다고 가정하고, 거스름돈이 650원 이라면 500원 동전 1개, 120원 동전 1개, 10원 동전 3개 -> 총 5개의 동전 필요   
-    // - 예시 : 120원이라는 동전이 존재하지 않으면, 거스름돈이 650원 이라면 500원 동전 1개, 100원 동전 1개, 50원 동전 1개 -> 총 3개의 동전 필요   
-    - Example : Assuming that there are W120 coins, if the change is W650, one W500 coin, one W120 coin, and three W10 coins -> 5 coins in total are required   
-    - Example : Assuming that there is no W120 coin, if the change is W650, one W500 coin, one W100 coin, and one W50 coin -> 3 coins in total are required   
+    // - 예시 : 120원이라는 동전이 존재한다고 가정하고, 거스름돈이 650원 이라면 500원 동전 1개, 120원 동전 1개, 10원 동전 3개 → 총 5개의 동전 필요   
+    // - 예시 : 120원이라는 동전이 존재하지 않으면, 거스름돈이 650원 이라면 500원 동전 1개, 100원 동전 1개, 50원 동전 1개 → 총 3개의 동전 필요   
+    - Example : Assuming that there are W120 coins, if the change is W650, one W500 coin, one W120 coin, and three W10 coins → 5 coins in total are required   
+    - Example : Assuming that there is no W120 coin, if the change is W650, one W500 coin, one W100 coin, and one W50 coin → 3 coins in total are required   
    
 #### Knapsack Problem   
 // 배낭 문제   
    
   // 최대 용량 M인 하나의 배낭, n개의 물체가 있다고 가정하고, 각 물체 i에는 물체의 무게 Wi와 해당 물체를 배낭에 넣었을 때 얻을 수 있는 이익 Pi가 부여됨   
-  // 배낭의 용량을 초과하지 않는 범위에서 배낭에 들어있는 물체들의 이익의 합이 최대가 되도록 배낭에 물체를 넣는 방법(또는 최대 이익)을 찾아내는 문제   
+  // 배낭의 용량을 초과하지 않는 범위에서 배낭에 들어있는 물체들의 이익의 합이 최대가 되도록 배낭에 물체를 넣는 방법 (또는 최대 이익) 을 찾아내는 문제   
   - Assuming that there are 1 backpack (the maximum capacity of the backpack is M) and n items, each item (i) is given the weight of the item (Wi) and the profit (Pi) of putting that item in the backpack   
   - The problem of finding a way (or maximum profit) to put things in a backpack so that the sum of the profit of the items in the backpack is maximum within the backpack's capacity range   
    
@@ -195,7 +195,7 @@ Array of Input Values : 80, 70, 40, 20, 30, 10, 60, 50
 ```c
 i = 1;
 min = A[0];          // Data A[0..n-1]
-while(i < n) {
+while (i < n) {
   // A[i]가 min보다 작으면 min = A[i];
   if A[i] is less than min = A[i];
   i++;
@@ -206,7 +206,7 @@ Minimum min output;
    
 <br />
 ### Algorithm Example - Koenigsberg Bridge Problem - Euler Path   
-// 알고리즘 예시 - 퀘니히스베르크(퀘닉스버그) 다리 문제 - 오일러 경로   
+// 알고리즘 예시 - 퀘니히스베르크 (퀘닉스버그) 다리 문제 - 오일러 경로   
    
 // 그래프의 모든 간선을 오직 한번씩만 지나가는 경로 찾기   
 - Find the path that passes through every edge of the graph only once   
@@ -216,7 +216,7 @@ Minimum min output;
 1. Each vertex must have 0 or 2 vertices of which the order is odd.   
 2. If there are two odd points, it should start at the odd point.   
    
-// 퀘니히스베르크(퀘닉스버그) 다리는 정점 4개, 간선 7개, 차수가 홀수인 정점이 4개이므로 오일러 경로가 존재하지 않음   
+// 퀘니히스베르크 (퀘닉스버그) 다리는 정점 4개, 간선 7개, 차수가 홀수인 정점이 4개이므로 오일러 경로가 존재하지 않음   
 - No Euler path exists for the Quenichberg (Quenichberg) bridge because it has four vertices, seven edges, and four vertices with odd orders   
    
 <br />

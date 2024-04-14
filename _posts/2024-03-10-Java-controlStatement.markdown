@@ -99,7 +99,7 @@ else
 #### switch   
    
 // 다중 선택 구조   
-// case 조건은 정수(long형 제외)와 호환되거나 String 값   
+// case 조건은 정수 (long형 제외) 와 호환되거나 String 값   
 // default는 생략 가능하며, 어떤 case에도 해당되지 않는 경우 매칭됨   
 // 만족되는 case를 실행한 후, break문을 만날 때까지 계속 실행   
 - Multiple select structure   
@@ -127,10 +127,10 @@ switch (n) {
    
 // for-each문   
 // 배열이나 컬렉션의 원소들을 차례로 다룰 때 편리   
-// 형식은 `for(변수선언 : 배열) { 문장... }`   
+// 형식은 `for (변수선언 : 배열) { 문장... }`   
 - for-each   
 - Convenient to handle the elements of an array or collection in turn   
-- The format is `for(variable declaration : array) {sentence...}`   
+- The format is `for (variable declaration : array) {sentence...}`   
    
 ```java
 int[] arrayOfInts = { 32, 87, 3, 589, 12, 1076, 2000, 8};

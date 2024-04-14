@@ -6,7 +6,7 @@ categories: [JScript]
 ---
 
 // JScript에는 브라우저에 데이터를 직접 표시하는 방법이 두 가지 있음   
-// 사용자는 document 개체의 write()와 writeIn() 메서드를 사용할 수 있음   
+// 사용자는 document 개체의 write() 와 writeIn() 메서드를 사용할 수 있음   
 // 또한 형식을 갖춘 정보를 브라우저 안의 폼에 표시할 수 있을 뿐만 아니라 경고, 프론프트, 확인 메시지 상자에도 표시할 수 있음   
 - JScript has two ways to display data directly in your browser   
 - Users can use the write() and writeIn() methods of document objects   
@@ -14,7 +14,7 @@ categories: [JScript]
    
 <br />
 ### Using document.write() and document.writeIn()   
-// document.write()와 document.writeIn() 사용   
+// document.write() 와 document.writeIn() 사용   
    
 // 정보를 표시하는 데 가장 많이 사용하는 방법은 document 개체의 write() 메서드를 사용하는 것임   
 // 여기에는 브라우저에 표시할 인수 한 개, 즉 문자열 한 개가 필요함   
@@ -48,7 +48,7 @@ function w(m)
     m = "" + m + "";
     // 빈 내용이나 정의되지 않은 항목을 테스트
     // - Test for blanks or undefined items
-    if("undefined" != m)
+    if ("undefined" != m)
     {
         document.write("<br>");
     }
@@ -82,7 +82,7 @@ function w(m)
                 var theDisplacement = (theMoment.getTimezoneOffset() / 60);
                 theHour -= theDisplacement;
 
-                if(theHour > 23)
+                if (theHour > 23)
                 {
                     theHour -= 24;
                 }

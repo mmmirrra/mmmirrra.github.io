@@ -68,7 +68,7 @@ categories: [Multimedia System]
 ### Multimedia Computer System   
 // 멀티미디어 컴퓨터시스템   
    
-// 멀티미디어 콘덴츠를 제작하고 재생하는 하드웨어 환경과 소프트웨어 환경을 합쳐서 멀티미디어 컴퓨터 시스템 또는 멀티미디어 플랫폼(Multimedia Platform)이라고 함   
+// 멀티미디어 콘덴츠를 제작하고 재생하는 하드웨어 환경과 소프트웨어 환경을 합쳐서 멀티미디어 컴퓨터 시스템 또는 멀티미디어 플랫폼 (Multimedia Platform) 이라고 함   
 // 멀티미디어 컴퓨터시스템은 하나의 멀티미디어 콘텐츠를 제작하기 위해 필요한 하드웨어와 소프트웨어로 구성되어 있음   
 - The hardware and software environments that produce and play multimedia condensates are called multimedia computer systems or multimedia platforms   
 - A multimedia computer system consists of the hardware and software required to produce a single multimedia content   
@@ -99,9 +99,9 @@ categories: [Multimedia System]
 // - 프레젠테이션 : 원시자료를 재구성하여 보여주는 것 (예시 : 프린터, 모니터 등)   
 // - 프로세싱 : 디지털 신호와 사운드 및 이미지를 처리 (예시 : 인코더, 디코더 등)   
 // 아날로그 미디어 장비   
-// - 소스(source) : 아날로그 신호를 생성 (예시 : 마이크로폰)   
-// - 싱크(sink) : 출력 생성 (예시 : 스피커)   
-// - 필터(filter) : 특성 변환 (예시 : 오디오 믹서)   
+// - 소스 (source) : 아날로그 신호를 생성 (예시 : 마이크로폰)   
+// - 싱크 (sink) : 출력 생성 (예시 : 스피커)   
+// - 필터 (filter) : 특성 변환 (예시 : 오디오 믹서)   
 - Digital Media Equipment   
   - Capture : Digital representation of raw data (e.g. scanners, digitizers, etc.)   
   - Presentation : Reconstructing and presenting raw data (e.g. printers, monitors, etc.)   
@@ -222,7 +222,7 @@ categories: [Multimedia System]
     - 150 Kbps x 48 = 7,200 Kbps transmission speed   
    
 // 차세대 DVD   
-// - 블루레이(blu-ray) 디스크   
+// - 블루레이 (blu-ray) 디스크   
 // -- 최고 50GB 저장용량   
 // -- 삼성, LG, 소니 등이 주축으로 개발   
 // -- 2002년 표준규격 통일   
@@ -436,7 +436,7 @@ categories: [Multimedia System]
       - Digital transmission of high-speed, high-capacity data from 150Mbps to 600Mbps is available for video communication or multimedia communication   
    
 // 초고속 인터넷망   
-// - 디지털 가입자 회선방식(xDSL)을 사용하는 초고속 인터넷망   
+// - 디지털 가입자 회선방식 (xDSL) 을 사용하는 초고속 인터넷망   
 // -- 단선 디지털 가입자회선 (SDSL)   
 // -- 비대칭 디지털 가입자회선 (ADSL)   
 // -- 초고속 디지털 가입자회선 (VDSL)   
@@ -475,27 +475,27 @@ categories: [Multimedia System]
 // IMT-2000   
 // - 동일한 시스템이라도 지역별로 표준 및 주파수 대역이 다름   
 // - 따라서 다양한 무선 개인통신시스템을 통합하여 하나의 무선 구조로 통합 필요   
-// - IMT-2000 (International Mobile Telecommunication - 2000)이 등장   
-// -- 국제 전기통신연합(ITU)이 정의한 3세대 이동통신의 국제 표준   
+// - IMT-2000 (International Mobile Telecommunication - 2000) 이 등장   
+// -- 국제 전기통신연합 (ITU) 이 정의한 3세대 이동통신의 국제 표준   
 // -- 지상이나 위성에서 음성, 고속 데이터, 영상 등의 멀티미디어 서비스를 제공   
 // -- 글로벌 로밍 서비스를 제공하는 유무선 통합 차세대 통신서비스   
-// -- 미래 공중육상이동통신시스템(FPLMTS)라고도 부름   
+// -- 미래 공중육상이동통신시스템 (FPLMTS) 이라고도 부름   
 - IMT-2000   
   - Standard and frequency bands vary by region even with the same system   
   - Therefore, it is necessary to integrate various wireless personal communication systems into a single wireless structure   
-  - IMT-2000(International Mobile Telecommunication - 2000) appears   
+  - IMT-2000 (International Mobile Telecommunication - 2000) appears   
     - International standards for third-generation mobile communications as defined by the International Telecommunication Union (ITU)   
     - Provides multimedia services such as voice, high-speed data, and video on the ground or satellite   
     - Wired and Wired Integrated Next Generation Communication Services to Provide Global Roaming Services   
-    - Also called the Future Public Land Mobile Telecommunications System(FPLMTS)   
+    - Also called the Future Public Land Mobile Telecommunications System (FPLMTS)   
    
 // IMT-Advanced   
-// - 국제 전기 통신 연합(ITU)에서 채택한 4세대 이동 통신의 공식 명칭   
+// - 국제 전기 통신 연합 (ITU) 에서 채택한 4세대 이동 통신의 공식 명칭   
 - IMT-Advanced   
   - The official name of the 4th generation mobile communications adopted by the International Telecommunication Union (ITU)   
    
 // IMT-2020   
-// - 국제 전기 통신 연합(ITU)에서 채택한 5세대 이동 통신의 공식 명칭   
+// - 국제 전기 통신 연합 (ITU) 에서 채택한 5세대 이동 통신의 공식 명칭   
 - IMT-2020   
   - The official name of the 5th generation mobile communications adopted by the International Telecommunication Union (ITU)   
    
@@ -505,23 +505,23 @@ categories: [Multimedia System]
 #### The development process of mobile communication   
 // 이동통신의 발전 과정   
    
-// 1세대(1G) 이동통신   
+// 1세대 (1G) 이동통신   
 // - 음성통신만 가능한 아날로그 방식의 이동통신시스템   
 // - AMPS (Advaced Mobile Phone System)   
 - First Generation (1G) Mobile Communications   
   - An analog mobile communication system with only voice communication   
   - AMPS (Advaced Mobile Phone System)   
    
-// 2세대(2G) 이동통신   
+// 2세대 (2G) 이동통신   
 // - 디지털 방식의 이동통신시스템   
 // - 음성과 문자 서비스 제공   
-// - 유럽방식의 GSM (Global System for Mobile Communications)과 미국방식의 CDMA (Code Division Multiple Access)   
+// - 유럽방식의 GSM (Global System for Mobile Communications) 과 미국방식의 CDMA (Code Division Multiple Access)   
 - 2nd Generation (2G) Mobile Communications   
   - A digital mobile communication system   
   - Provides voice and text service   
-  - European GSM(Global System for Mobile Communications) and American CDMA(Code Division Multiple Access)   
+  - European GSM (Global System for Mobile Communications) and American CDMA (Code Division Multiple Access)   
    
-// 3세대(3G) 이동통신   
+// 3세대 (3G) 이동통신   
 // - IMT-2000   
 // - 동영상을 포함한 본격적인 멀티미디어 서비스   
 // - CDMA2000, WCDMA, HSDPA, LTE, Wibro   
@@ -530,7 +530,7 @@ categories: [Multimedia System]
   - Full-scale multimedia services, including video   
   - CDMA2000, WCDMA, HSDPA, LTE, Wibro   
    
-// 4세대(4G) 이동통신   
+// 4세대 (4G) 이동통신   
 // - IMT-Advanced   
 // - 데이터 이용량의 급속한 증가와 트래픽의 폭증으로 4G 기술 개발   
 // - 3G의 WCDMA에 기반한 LTE Advanced와 3G의 Wibro에 기반한 Wibro Advanced 기술   
@@ -541,17 +541,17 @@ categories: [Multimedia System]
   - LTE Advanced based on 3G's WCDMA, and Wibro Advanced based on 3G's Wibro   
   - The standard 4G transmission standard is 1Gbps   
    
-// 5세대(5G) 이동통신   
+// 5세대 (5G) 이동통신   
 // - IMT-2020   
 // - 모바일 환경의 급변으로 5G 이동통신 네트워크 기술 필요   
 // - 5G는 4세대 LTE보다 데이터 전송속도가 1000배 빠른 차세대 이동통신 기술   
 // -- LTE의 최고속도 : 75Mbps   
 // -- 5G : 75Gbps ~ 100Gbps (체감속도 1Gbps 예상)   
 // - 5G의 개발 효과   
-// -- 사물인터넷(IoT), 증강현실, 홀로그램 등 미래형 서비스 제공   
+// -- 사물인터넷 (IoT), 증강현실, 홀로그램 등 미래형 서비스 제공   
 // - 5G의 기술개발 현황   
 // -- METIS 2020 : 유럽 9개국 컨소시움   
-// -- IMT-2020(5G) Promotion Group : 중국   
+// -- IMT-2020 (5G) Promotion Group : 중국   
 // -- 2020 and Beyond Ad hoc : 일본   
 // -- 5G 포럼 : 한국   
 - 5th Generation (5G) Mobile Communications   
@@ -564,7 +564,7 @@ categories: [Multimedia System]
     - Providing futuristic services such as Internet of Things (IoT), augmented reality, and holograms   
   - 5G Technology Development Status   
     - METIS 2020 : Consortium of 9 European countries   
-    - IMT-2020(5G) Promotion Group : China   
+    - IMT-2020 (5G) Promotion Group : China   
     - 2020 and Beyond Ad hoc : Japan   
     - 5G Forum : Korea   
    

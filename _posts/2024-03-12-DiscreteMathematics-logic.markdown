@@ -103,7 +103,7 @@ categories: [Discrete Mathematics]
    
 // 수식 (실수 연산식)   
 // - 실수연산을 실수집합에 적용하면 성질이 나옴   
-// - 실수집합에서 실수상수와 실수변수들을 실수연산들로 묶어놓으면 수식 (실수 연산식)이 됨   
+// - 실수집합에서 실수상수와 실수변수들을 실수연산들로 묶어놓으면 수식 (실수 연산식) 이 됨   
 // - 예시 : √2x + y   
 - numeric expression (real number operation expression)   
   - Applying real number operations to real number sets results in properties   
@@ -130,7 +130,7 @@ categories: [Discrete Mathematics]
    
 // 합성명제 (논리 연산식)   
 // - 논리연산을 논리집합에 적용하면 성질이 나옴   
-// - 논리집합에서 논리상수와 논리변수들을 논리연산들로 묶어놓으면 합성명제(논리 연산식)이 됨   
+// - 논리집합에서 논리상수와 논리변수들을 논리연산들로 묶어놓으면 합성명제 (논리 연산식) 이 됨   
 // - 예시 : p ∨ q   
 - compound proposition (logical operation expression)   
   - Applying logical operations to logical sets results in properties   
@@ -541,9 +541,9 @@ truth table
 // 항진명제, 모순명제   
    
 // 합성명제를 구성하는 명제의 진리값과 상관없이   
-// 1. 항상 참(T)인 명제를 항진명제라고 함   
+// 1. 항상 참 (T) 인 명제를 항진명제라고 함   
 // - p ∨ T   
-// 2. 항상 거짓(F)인 명제를 모순명제라고 함   
+// 2. 항상 거짓 (F) 인 명제를 모순명제라고 함   
 // - p ∧ F   
 - Regardless of the truth value of the proposition that makes up the compound proposition   
   1. A proposition that is always true (T) is called an tautology proposition   
@@ -572,7 +572,7 @@ truth table
   - Present the range of variables (quantification : ∀, ∃)   
    
 // 예시   
-// 1. 명제함수 p(x, y)가 x² + y² = 4 일 때 p(1, 2)의 진리값은?   
+// 1. 명제함수 p(x, y) 가 x² + y² = 4 일 때 p(1, 2) 의 진리값은?   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> != 4 --> ∴ F   
 - Example   
   1. What is the truth value of p(1, 2) when the propositional function p(x, y) is x² + y² = 4?   
@@ -585,17 +585,17 @@ truth table
 #### universal quantifier (∀)   
 // 전체한정자 (∀. 임의의)   
    
-// 전체한정자는 "모든" 또는 "임의의"를 의미하며, 명제함수 ∀xP(x)와 같이 사용되었을 경우에는 정의역의 모든 [임의의] x에 대해서 P(x)가 참(T)임을 의미함   
+// 전체한정자는 "모든" 또는 "임의의"를 의미하며, 명제함수 ∀xP(x) 와 같이 사용되었을 경우에는 정의역의 모든 [임의의] x에 대해서 P(x) 가 참 (T) 임을 의미함   
 - An entire quantifier means "all" or "any" and, when used in conjunction with the propositional function ∀xP(x), means that P(x) is true (T) for every [any] x in the domain   
    
 // '∀x' 는 '임의의 x' 라는 의미   
 - '∀x' means 'anything x'   
    
 // 예시   
-// 1. P(x)가 "x는 실수이다"이고, x의 정의역이 양수일 경우 ∀xP(x)는 참이다.   
+// 1. P(x) 가 "x는 실수이다"이고, x의 정의역이 양수일 경우 ∀xP(x) 는 참이다.   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> 양의 실수값은 항상 실수임   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∀xP(x) = T   
-// 2. P(x)가 x² + x - 2 > 0 이고, x의 정의역이 실수일 경우 ∀xP(x)는 거짓이다.   
+// 2. P(x) 가 x² + x - 2 > 0 이고, x의 정의역이 실수일 경우 ∀xP(x) 는 거짓이다.   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> x² + x - 2 = (x - 1)(x + 2) = 0   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> -2 ≤ x ≤ 1 일 때 x² + x - 2 ≤ 0   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∀xP(x) = F   
@@ -611,14 +611,14 @@ truth table
 #### existential quantifier (∃)   
 // 존재한정자 (∃. 존재한다)   
    
-// 존재한정자는 "존재한다"를 의미하며, 명제함수 ∃xP(x)와 같이 사용되었을 때는 정의역의 어떤 x에 대해서 P(x)가 참(T)임을 의미함   
+// 존재한정자는 "존재한다"를 의미하며, 명제함수 ∃xP(x) 와 같이 사용되었을 때는 정의역의 어떤 x에 대해서 P(x) 가 참 (T) 임을 의미함   
 - An existential quantifier means "exist", and when used with the propositional function ∃xP(x), P(x) means true (T) for any x in the domain   
    
-// P(x)를 참으로 만들어주는 어떤 x가 정의역 안에 하나라도 존재하면 참임   
+// P(x) 를 참으로 만들어주는 어떤 x가 정의역 안에 하나라도 존재하면 참임   
 - There exists some x such that P(x) is true   
    
 // 예시   
-// 1. P(x)가 "x는 무리수이다"이고, x의 정의역이 유리수일 경우 ∃xP(x)는 거짓이다.   
+// 1. P(x) 가 "x는 무리수이다"이고, x의 정의역이 유리수일 경우 ∃xP(x) 는 거짓이다.   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> 유리수이면서 무리수인 수는 없음   
 // &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∃xP(x) = F   
 - Example   
@@ -660,8 +660,8 @@ truth table
 // 추론   
    
 // 참으로 알려진 명제를 기초로 하여 다른 명제를 유도해 내는 과정을 추론이라고 함   
-// - 결론의 근거를 제공하는 알려진 명제를 전제(premise)라고 함   
-// - 새로 유도된 명제는 결론(conclusion)임   
+// - 결론의 근거를 제공하는 알려진 명제를 전제 (premise) 라고 함   
+// - 새로 유도된 명제는 결론 (conclusion) 임   
 - The process of deriving another proposition based on a proposition known as true is called inference   
   - Known propositions that provide the basis for conclusions are referred to as premises   
   - The newly derived proposition is a conclusion   
@@ -669,7 +669,7 @@ truth table
 #### valid inference  
 // 유효추론   
    
-// 전제가 참(T)이라고 가정하였을 때 결론이 항상 참(T)이 되는 추론   
+// 전제가 참 (T) 이라고 가정하였을 때 결론이 항상 참 (T) 이 되는 추론   
 - Reasoning that the conclusion is always true (T) assuming that the premise is true (T)   
    
 - Example   
@@ -680,7 +680,7 @@ truth table
 #### rule of inference   
 // 추론규칙   
    
-// 기본적인 추론규칙은 논리적 동치(항진명제)를 이용함   
+// 기본적인 추론규칙은 논리적 동치 (항진명제) 를 이용함   
 - The basic rules of inference use logical equivalence (tautology proposition)   
    
 |// 법칙이름<br />rule name|// 추론법칙<br />rule of inference|// 항진명제<br />tautology proposition|

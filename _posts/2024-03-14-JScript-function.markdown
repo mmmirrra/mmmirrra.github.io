@@ -51,7 +51,7 @@ categories: [JScript]
 - "<" and ">" key brackets display HTML tags   
    
 // escape 함수는 모든 특수 문자를 인수로 사용하며, 해당 특수 문자에 대한 제어 코드를 반환함   
-// 각각의 제어 코드는 백분율 기호(%)와 그 뒤에 오는 두 자릿수로 구성됨   
+// 각각의 제어 코드는 백분율 기호 (%) 와 그 뒤에 오는 두 자릿수로 구성됨   
 - The escape function takes all special characters as arguments and returns a control code for that special character   
 - Each control code consists of a percentage symbol (%) followed by a double digit   
    
@@ -90,12 +90,12 @@ var totality = eval("It's surrounded by a lot of clams...");
 - Create your own function and use it whenever you need it   
 - Function definitions consist of function statements and JScript statements blocks   
    
-// 아래 예시에 나오는 checkTriplet 함수는 삼각형의 세 변의 길이를 인수로 사용하고, 세 숫자가 피타코라스 정리(직각 삼각형의 빗변을 제공한 값은 다른 두 변의 제곱을 합한 값과 같음)를 구성하는지를 확인하여 삼각형이 직각 삼각형인지를 계산함   
+// 아래 예시에 나오는 checkTriplet 함수는 삼각형의 세 변의 길이를 인수로 사용하고, 세 숫자가 피타코라스 정리 (직각 삼각형의 빗변을 제공한 값은 다른 두 변의 제곱을 합한 값과 같음) 를 구성하는지를 확인하여 삼각형이 직각 삼각형인지를 계산함   
 // checkTriplet 함수는 두 개의 다른 함수 중 하나를 호출하여 실직적인 테스트를 함   
 - The checkTriplet function in the example below uses the lengths of the three sides of a triangle as an argument and determines whether the three numbers comprise the Pythakoras Theorem (The value that provides the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides) to determine if the triangle is a right triangle   
 - The checkTriplet function calls one of two different functions to perform an unemployment test   
    
-// 부동 소수점 테스트에서 테스트 변수로 아주 작은 숫자("앱실론")를 사용함   
+// 부동 소수점 테스트에서 테스트 변수로 아주 작은 숫자 ("앱실론") 를 사용함   
 // 부동 소수점 계산의 불확실성 오류와 반올림 오류 때문에 논의되고 있는 세 값이 정수가 아니면 빗변을 제곱한 값이 다른 두 변의 제곱을 합한 값과 같은지를 직접 테스트한다는 것은 혅실적이지 못함   
 // 직접적인 테스트가 더 정확하므로, 아래 예제의 코드는 정수가 적절한지를 결정하고, 만일 정수가 적절하다면 그것을 사용함   
 - Floating point tests use very small numbers ("epsilon") as test variables   
@@ -110,7 +110,7 @@ var triplet = false;
 // - integer test function
 function integerCheck(a, b, c)
 {
-    if((a*a) == ((b*b) + (c*c)))
+    if ((a*a) == ((b*b) + (c*c)))
     {
         triplet = true;
     }
@@ -126,14 +126,14 @@ function floatCheck(a, b, c)
 
     // 테스트에는 절대값이 필요하므로, 음수일 경우에는 theCheck를 양수로 만듦
     // - The test requires an absolute value, so if it is negative, make the theCheck positive
-    if(theCheck < 0)
+    if (theCheck < 0)
     {
         theCheck *= -1;
     }
     
     // theCheck가 앱실론에 가깝다면 매우 가까움
     // - If theCheck is close to epsilon, it's very close
-    if(epsilon > theCheck)
+    if (epsilon > theCheck)
     {
         triplet = true;
     }
@@ -149,7 +149,7 @@ function checkTriplet(a, b, c)
 
     // c > b 이면 교환
     // - If it's "c > b", exchange it
-    if(c > b)
+    if (c > b)
     {
         d = c;
         c = b;
@@ -160,7 +160,7 @@ function checkTriplet(a, b, c)
 
     // b > a 이면 교환
     // - If it's "b > a", exchange it
-    if(b > a)
+    if (b > a)
     {
         d = b;
         b = a;
@@ -173,7 +173,7 @@ function checkTriplet(a, b, c)
     // 세 값을 모두 테스트함. 모두 정수?
     // - If there is one side, the "a" side is now an oblique side
     // - Tested all three values. All integers?
-    if(((a % 1) == 0) && ((b % 1) == 0) && ((c % 1) == 0))
+    if (((a % 1) == 0) && ((b % 1) == 0) && ((c % 1) == 0))
     {
         // 정수라면 정밀한 검사를 사용함
         // - If it is an integer, use a precise check

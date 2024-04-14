@@ -58,7 +58,7 @@ Tags used without end tags : `<br>`, `<img>`, etc.
 <!DOCTYPE html>
 <html>
   <head>
-    document title, meta data, javaScript, CSS(style, link), etc.
+    document title, meta data, javaScript, CSS (style, link), etc.
   </head>
   <body>
     The body content of the document (text, image, link, table, etc.)

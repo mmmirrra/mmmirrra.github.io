@@ -6,7 +6,7 @@ categories: [JScript]
 ---
 
 // 재귀는 중요한 프로그래밍 테크닉으로서 이것을 사용하여 함수 자체 내에서 그 함수를 다시 호출함   
-// 쉬운 예는 팩토리얼(계승)의 계산임   
+// 쉬운 예는 팩토리얼 (계승) 의 계산임   
 // 0과 1의 계승은 특별히 1로 정의되어 있음   
 // 그 이상의 수에 대한 계승은 1 * 2 * .. 와 같은 식으로, 계산하려는 숫자에 도달할 때까지 1씩 증가시켜서 곱함   
 - Recursion is an important programming technique that uses this to recall the function within the function itself   
@@ -33,7 +33,7 @@ categories: [JScript]
 // 물론 곤경에 처할 수도 있음   
 // 최종 결과값을 구하지도 못하고 종료지점에 이르지도 못하는 재귀 함수를 아주 쉽게 만들 수 있음   
 // 이러한 재귀 함수는 컴퓨터로 하여금 소위 "무한" 루프라는 것을 실행하도록 만듦   
-// 예를 들어, 계승 계산 설명에 있는 첫번째 규칙(음수 처리 방법)을 무시하고 임의 음수에 대한 계승 계산을 시도해 봅시다. 그러면 실패하게 되는데 그 이유는 예를 들어 -24의 계승을 계산하려면 그 전에 -25에 대한 것을 계산해야 하지만 또 그것을 계산하려면 마찬가지로 그 전에 -26에 대한 것을 계산해야 함. 따라서 이것은 영원히 종료지점에 이르지 못하게 됨   
+// 예를 들어, 계승 계산 설명에 있는 첫번째 규칙 (음수 처리 방법) 을 무시하고 임의 음수에 대한 계승 계산을 시도해 봅시다. 그러면 실패하게 되는데 그 이유는 예를 들어 -24의 계승을 계산하려면 그 전에 -25에 대한 것을 계산해야 하지만 또 그것을 계산하려면 마찬가지로 그 전에 -26에 대한 것을 계산해야 함. 따라서 이것은 영원히 종료지점에 이르지 못하게 됨   
 - Of course, this could be in trouble   
 - Makes it very easy to create recursive functions that do not obtain final results and do not reach termination points   
 - These recursive functions cause the computer to execute what is called an "infinite" loop   
@@ -56,12 +56,12 @@ function factorial(aNumber)
     // If it is not an integer, discard the prime number
     aNumber = Math.floor(aNumber);
     // Rejects if it is less than 0
-    if(aNumber < 0)
+    if (aNumber < 0)
     {
         return "not a defined quantity";
     }
     // If it is 0 or 1, the factorial value is 1    
-    if((anumber == 0) || (anumber == 1))
+    if ((anumber == 0) || (anumber == 1))
     {
         return 1;
     }

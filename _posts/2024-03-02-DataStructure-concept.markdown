@@ -21,9 +21,9 @@ P(D) → I
 ### Data   
 // 자료   
    
-// 현실 세계에서 관찰이나 측정을 통해서 수집된 값(value)이나 사실(fact)   
-// 관찰이나 측정을 통해 얻은 수치, 문자 형태로 표현할 수 있는 질적(quality) 또는 양적(quantity) 값   
-// 우리의 생활에서 실제로 만질 수 있거나 볼 수 있는 것(길이, 무게 부피 등을 측정할 수 있는 대상)에 대하여 물리적인 단위로 표현하여 얻어낼 수 있는 내용   
+// 현실 세계에서 관찰이나 측정을 통해서 수집된 값 (value) 이나 사실 (fact)   
+// 관찰이나 측정을 통해 얻은 수치, 문자 형태로 표현할 수 있는 질적 (quality) 또는 양적 (quantity) 값   
+// 우리의 생활에서 실제로 만질 수 있거나 볼 수 있는 것 (길이, 무게 부피 등을 측정할 수 있는 대상) 에 대하여 물리적인 단위로 표현하여 얻어낼 수 있는 내용   
 - Values or fact collected through observation or measurement in the real world   
 - Numerical values obtained by Observation or Measurement, or a qualitative or quantitative value that can be expressed in characters   
 - What can be achieved by expressing in physical units what we can actually touch or see in our lives (the object that can measure length, weight volume, etc.)   
@@ -80,12 +80,12 @@ P(D) → I
 // 알고리즘   
    
 // 컴퓨터에게 일을 시키기 위한 (추상화된) 명령어의 연속된 덩어리   
-// 사람(개발자)이 컴퓨터에게 일을 시키기 위한 사람의 의도와 명령을 전달해 줄 수 있는 방법(언어/글)   
+// 사람 (개발자) 이 컴퓨터에게 일을 시키기 위한 사람의 의도와 명령을 전달해 줄 수 있는 방법 (언어 / 글)   
 // 컴퓨터에게 시킬 일   
 // 컴퓨터가 수행할 명령어의 유한 집합이 사람의 머리속에 추상화되어 존재하는 것   
-// 컴퓨터에게 시킬 일(프로그램)을 머릿속에서 추상화시켜서 대략적으로 상상해 놓은 것   
+// 컴퓨터에게 시킬 일 (프로그램) 을 머릿속에서 추상화시켜서 대략적으로 상상해 놓은 것   
 - A successive set of instructions for making a computer work   
-- How a person(developer) can communicate a person's intentions and commands to make a computer do things (language/text)   
+- How a person (developer) can communicate a person's intentions and commands to make a computer do things (language/text)   
 - Algorithms are things that you're going to have computers do   
 - A finite set of instructions to be performed by a computer is abstracted in the human head   
 - Algorithms are an abstraction of a program to be given to a computer in your head and roughly imagining it   
@@ -118,8 +118,8 @@ Estimate the time and space required to running an Algorithm to analyze its perf
 - Estimate the prediction running time required to run the Algorithm to analyze the performance of the Algorithm   
    
 // 실행 시간의 예측   
-// - 알고리즘의 실행 횟수를 O(n)이라고 표현   
-// - 같은 O(n)을 가진다고 해서 같은 실행시간을 갖는 것이 아니라서 실행시간의 유사한 증가 경향에 대해서 표현하는 방법   
+// - 알고리즘의 실행 횟수를 O(n) 이라고 표현   
+// - 같은 O(n) 을 가진다고 해서 같은 실행시간을 갖는 것이 아니라서 실행시간의 유사한 증가 경향에 대해서 표현하는 방법   
 - Prediction of Running Time   
   - Express the number of runs of an Algorithm as O(n)   
   - To express a similar trend of increasing run time because having the same O(n) does not mean having the same run time   
@@ -127,7 +127,7 @@ Estimate the time and space required to running an Algorithm to analyze its perf
 #### Analyzing the Algorithm's Running Memory   
 // 알고리즘의 실행메모리 분석   
    
-// 알고리즘을 실행하는데 필요한 공간(메모리)을 추정하여 알고리즘의 성능을 분석함   
+// 알고리즘을 실행하는데 필요한 공간 (메모리) 을 추정하여 알고리즘의 성능을 분석함   
 - Estimate the space (memory) required to run the Algorithm to analyze its performance   
    
 // - 고정공간 : 프로그램의 크기나 입출력의 횟수와 관계없이 컴파일시에 결정되어 프로그램의 실행이 끝날때까지 고정적으로 필요한 메모리 공간   
@@ -153,7 +153,7 @@ Estimate the time and space required to running an Algorithm to analyze its perf
 // 실행시간의 측정   
    
 // 실제로 실행시간을 시계로 잰다는 것   
-// 실제로 실행될 수 있는 프로그램(실행파일)이 있어야 함   
+// 실제로 실행될 수 있는 프로그램 (실행파일) 이 있어야 함   
 // 시스템 시계를 이용   
 - Actually clocking the run time   
 - Must have a program (executive file) that can actually run   
@@ -182,7 +182,7 @@ Developer → Abstract → [Data Structure] ← Concrete ← Computer
 ### Abstracting/Concrete of Data Structure and Algorithm   
 // 자료구조와 알고리즘의 추상화/구체화   
    
-// 입력값을 머릿속에서 추상화된 형태(자료구조)로 구조화하고, 수행되어야 할 명령어를 머릿속에서 추상화된 형태(알고리즘)로 체계화됨   
+// 입력값을 머릿속에서 추상화된 형태 (자료구조) 로 구조화하고, 수행되어야 할 명령어를 머릿속에서 추상화된 형태 (알고리즘) 로 체계화됨   
 // 프로그래밍 언어 : 자료구조와 알고리즘을 구체화하는 방법   
 - Input values should be structured in an abstract form (Data Structure) in the head, and instructions to be performed should be structured in an abstract form (algorithm) in the head   
 - Programming Language : How to specify data structure and algorithm   
@@ -197,7 +197,7 @@ Developer → Abstract → [Data Structure] ← Concrete ← Computer
 // 추상 자료형   
    
 // 자료구조와 알고리즘의 중간쯤에 있는 자료의 복잡한 논리적 성격을 정의하는 형식   
-// 자료값의 집합과 연산 집합에 대한 정의(명세의 집합)로 구성됨   
+// 자료값의 집합과 연산 집합에 대한 정의 (명세의 집합) 로 구성됨   
 // 자료구조를 표현하는 가장 대표적인 방법   
 - A form that defines the complex logical nature of data halfway between data structure and algorithm   
 - Consists of a set of data values and definitions of a set of operations (a set of specifications)   
@@ -207,7 +207,7 @@ Developer → Abstract → [Data Structure] ← Concrete ← Computer
 // 추상화와 추상 자료형   
    
 // 추상화 : 그림이나 수식과 같이 의미를 표현하고 전달하는 방법   
-// 추상 자료형 : 전산학에서 사용되는 자료구조를 표현하는(공통의 의미를 추출하여 전달하는) 방법   
+// 추상 자료형 : 전산학에서 사용되는 자료구조를 표현하는 (공통의 의미를 추출하여 전달하는) 방법   
 - Abstraction : A way of expressing and conveying meaning, such as a picture or numeric expression   
 - Abstract Data Type : A method of expressing data structures used in computer science (Extracting common meanings and conveying them)   
    

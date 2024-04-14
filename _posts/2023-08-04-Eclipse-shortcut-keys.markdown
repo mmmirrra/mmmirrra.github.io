@@ -40,9 +40,9 @@ categories: [Eclipse]
 `Ctrl + Shift + Enter` : Insert Line Above Current Line   
 // 다음줄에 새줄 추가   
 `Shift + Enter` : Insert Line Below Current Line   
-// 현재라인(선택된 블럭)을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
+// 현재라인 (선택된 블럭) 을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
 `Alt + arrow keys ↑/↓ up/down` : Move Lines up/down   
-// 현재라인(선택된 블럭) 복사하여 위로/아래로 붙여넣기   
+// 현재라인 (선택된 블럭) 복사하여 위로/아래로 붙여넣기   
 `Ctrl + Alt + arrow keys ↑/↓ up/down` : Copy and Paste the Line (selected blocks) up/down   
 // 대문자로 변경   
 `Ctrl + Shift + X` : To Upper Case   
@@ -138,8 +138,8 @@ categories: [Eclipse]
 `Ctrl + Shift + /` : Apply Block Comment (`/* */`) : Block Comment to the selected blocks   
 // 블럭주석 해제   
 `Ctrl + Shift + \` : Remove Block Comment (`/* */`)   
-// 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석(공통 주석)을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
-`Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that Method/Class, or automatically apply the default Comment(common comment) you have set up (Press with focus on Method or Member variables)   
+// 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석 (공통 주석) 을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
+`Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that Method/Class, or automatically apply the default Comment (common comment) you have set up (Press with focus on Method or Member variables)   
    
 <br />
 ### Select Block   
@@ -161,7 +161,7 @@ categories: [Eclipse]
 ### How to Fix it   
 // 해결 방법   
    
-// 빨간줄(에러) 해결 방법 도우미 : 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시   
+// 빨간줄 (에러) 해결 방법 도우미 : 컴파일 에러가 발생한 곳에서 Ctrl + 1을 누르면 컴파일 에러에 대한 해결책을 제시   
 `Ctrl + 1` : Quick Fix : If you press `Ctrl + 1` in the code where the compilation error occurred, it will provide a solution to the compilation error   
 // 컴파일 에러 줄에 커서를 놓고 이 키를 누르면 에러 힌트 표시   
 `F2` : Show Tooltip Description : If you place the cursor on the code where the compilation error occurred and press this key, an error hint is displayed   
@@ -324,8 +324,8 @@ categories: [Eclipse]
 `F7` : Step Return   
 // 한 줄씩 디버깅 : 현재 명령문을 실행하고 다음 명령문 직전에 다시 멈춤   
 `F6` : Step over : Run the current function and stop again just before running the next function   
-// 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 : 자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크(Shift+F5) 하면 필터를 설정한 클래스에 대해서는 Step Over 기능과 같은 기능을 수행   
-`F5` : Step into : When debugging one line at a time, Debug it to the inside of the function if it is a function : Because it reaches the Java library Class level, checking `Use Step Filter` (Shift+F5) performs the same function as Step Over for the Class where you set the filter   
+// 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 : 자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크 (Shift + F5) 하면 필터를 설정한 클래스에 대해서는 Step Over 기능과 같은 기능을 수행   
+`F5` : Step into : When debugging one line at a time, Debug it to the inside of the function if it is a function : Because it reaches the Java library Class level, checking `Use Step Filter` (Shift + F5) performs the same function as Step Over for the Class where you set the filter   
 // 커서 줄에 중단점 설정/해제   
 `Ctrl + Shift + B` : Toggle Line Breakpoint   
 // 코드 재로딩을 위해 디버그 모드를 사용하고 모든 중단점을 건너뜀   
@@ -360,8 +360,8 @@ categories: [Eclipse]
 `Concept 2 : Push Up` : Raising a Member or Method of a lower Class to a higher Class   
 // 'Alt + Shift + 알파벳' : 리팩토링을 위한 단축키   
 `Alt + Shift + Alphabet` : Keys for Refactoring   
-// 상황에 맞는 실행 가능한 리펙토링 메뉴 보기(예시 : 디스플레이)   
-`Alt + Shift + T` : Show Refactor Quick Menu(e.g. : Display)   
+// 상황에 맞는 실행 가능한 리펙토링 메뉴 보기 (예시 : 디스플레이)   
+`Alt + Shift + T` : Show Refactor Quick Menu (e.g. : Display)   
    
 <br />
 ### Maven   

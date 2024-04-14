@@ -5,7 +5,7 @@ date:   2024-03-14 09:00:00 +0900
 categories: [JScript]
 ---
 
-// JScript는 9가지 내부(또는 "기본 제공") 개체를 제공함   
+// JScript는 9가지 내부 (또는 "기본 제공") 개체를 제공함   
 // 9가지 내부 개체란 구체적으로 Array, Boolean, Date, Function, Global, Math, Number, Object, String 개체를 말함   
 // 각 내부 개체는 연관되어 있는 메서드와 속성을 가지고 있음   
 - JScript provides nine internal (or "embedded") objects   
@@ -104,7 +104,7 @@ var howLong = "Hello World".length;
 // Math 개체   
    
 // Math 개체는 모두 미리 정의된 속성과 메서드를 가지고 있음   
-// 속성은 특정 숫자이며, 이 중의 하나가 pi값(약 3.14159)임   
+// 속성은 특정 숫자이며, 이 중의 하나가 pi값 (약 3.14159) 임   
 // 다음 예시에서 알 수 있는 것처럼 이것은 Math.PI 속성임   
 - Math objects all have predefined properties and methods   
 - Attributes are specific numbers, one of which is a pi value (About 3.14159)   
@@ -133,8 +133,8 @@ volume = (4/3) * (Math.PI * Math.pow(radius, 3));
 // 이 개체는 모두 미리 정의되어 있는 많은 속성과 메서드를 가지고 있음   
 // 일반적으로 Date개체는 요일, 일, 월, 연도, 시, 분, 초를 제공함   
 // 이 정보는 1970년 1월 1일, 00:00:00.000 GMT를 기준으로 하여 밀리초 단위까지 제공됨   
-// 여기서 GMT는 "그리니치 표준시(Greenwich Mean Time)"를 의미함   
-// 이 표현보다 좀 더 많이 사용하는 용어는 UTC 또는 "협정 세계 표준시"로, 이 시간은 WTS(World Time Standard-세계 시간 표준)에서 나오는 신호를 말함   
+// 여기서 GMT는 "그리니치 표준시 (Greenwich Mean Time)" 를 의미함   
+// 이 표현보다 좀 더 많이 사용하는 용어는 UTC 또는 "협정 세계 표준시"로, 이 시간은 WTS (World Time Standard-세계 시간 표준) 에서 나오는 신호를 말함   
 - Use the Date object to display today's date or to calculate the difference between dates   
 - This object all has many predefined properties and methods   
 - Typically, Date objects provide days, days, months, years, hours, minutes, and seconds   
@@ -202,28 +202,28 @@ var comment2 = "This means that there are " + daysLeft + " days left in year " +
 
 // 특별한 경우도 포함합니다 : 한 해의 시작과 마지막, 하루
 // - Special cases include : the beginning, the end, and the day of the year
-if(daysElapsed == 0)
+if (daysElapsed == 0)
 {
     comment1 = "January 1st, " + thisYear + ".";
 }
-if(daysElapsed == 1)
+if (daysElapsed == 1)
 {
     comment1 = "It's only been one day so far";
 }
-if(daysElapsed == daysInYear)
+if (daysElapsed == daysInYear)
 {
     comment1 = thisYear + " has just passed";
 }
 
-if(daysLeft == 0)
+if (daysLeft == 0)
 {
     comment2 = "I wish you all the best in the new year!";
 }
-if(daysLeft == 1)
+if (daysLeft == 1)
 {
     comment2 = "There's only one day left in " + thisYear + ".";
 }
-if(daysLeft == daysInYear)
+if (daysLeft == daysInYear)
 {
     comment2 = "I wish you a happy new year!";
 }
@@ -233,7 +233,7 @@ if(daysLeft == daysInYear)
 ### Number   
 // Number 개체   
    
-// JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성(예 : PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
+// JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성 (예 : PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
 - JScript provides several other properties through Number objects, as well as special numeric properties (Example : PI) that can be used by Math objects   
    
 |Property|Description|
@@ -244,7 +244,7 @@ if(daysLeft == daysInYear)
 |POSITIVE_INFINITY|// Number.MAX_VALUE보다 큰 양수는 모두 자동으로 이 값으로 변환됨<br />// "Inf"로 표시됨<br />- Any positive number greater than Number.MAX_VALUE is automatically converted to this value<br />- Marked as "Inf"|
 |NEGATIVE_INFINITY|// -Number.MAX_VALUE보다 큰 음수는 모두 자동으로 이 값으로 변환됨<br />// "-Inf"로 표시됨<br />- Any negative number greater than -Number.MAX_VALUE is automatically converted to this value<br />- Marked as "-Inf"|
    
-// Number.NaN은 "NaN(숫자 아님)"으로 정의되는 특별한 속성임   
+// Number.NaN은 "NaN (숫자 아님)" 으로 정의되는 특별한 속성임   
 // 예를 들어 0으로 나누면 NaN을 반환함    
 // 숫자로 구문 분석할 수 없는 문자열을 구문 분석할 때도 Number.NaN을 반환함   
 // NaN은 어떤 숫자와도 다르며 그 자신과도 다름   

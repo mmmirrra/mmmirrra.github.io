@@ -639,7 +639,7 @@ class MyString {					// 문자열을 정수처럼 계산할 수 있도록 연산
 	int		len;				// 문자열의 길이를 저장
 	int		bufSize;			// 최대로 저장할 수 있는 문자열의 길이를 저장
 	char*	buf;					// 문자열 저장 공간
-	MyString(int s) : len(s), bufSize(s) {	// 생성자(내부용으로만 사용하는 private 함수) - 저장공간 메모리 할당만 함
+	MyString(int s) : len(s), bufSize(s) {	// 생성자 (내부용으로만 사용하는 private 함수) - 저장공간 메모리 할당만 함
 		buf = new char[s + 1];
 		buf[s] = '\0';
 	}
@@ -925,7 +925,7 @@ public:
 		return limit;			// 저장 가능한 원소 개수 리턴
 	}
 	// 첨자 연산자를 다중정의 할 때는 값을 바꿀 수 있는 첨자 연산자와 값을 읽기만 하는 첨자 연산자를 모두 구현해야 함
-	int& operator [] (int i) {		// 값을 바꿀 수 있는(대입할 수 있는) 첨자 연산자 - i번 원소를 반환하는 멤버함수
+	int& operator [] (int i) {		// 값을 바꿀 수 있는 (대입할 수 있는) 첨자 연산자 - i번 원소를 반환하는 멤버함수
 		if (i < 0 || i >= limit) {
 			std::cout << "Exit the program because the subscript is out of range.";
 			exit(EXIT_FAILURE);

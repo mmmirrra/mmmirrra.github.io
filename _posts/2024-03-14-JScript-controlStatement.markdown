@@ -61,7 +61,7 @@ if (newShip)
 
 // 이 예시에서는 두 조건이 모두 true가 아니면 테스트는 실패
 // - In this example, if both conditions are not true, the test fails
-if(rind.color == "deep yellow" && rind.texture == "creases large and small")
+if (rind.color == "deep yellow" && rind.texture == "creases large and small")
 {
     theResponse = ("Is this Crenshaw melon? <br>");
 }
@@ -97,11 +97,11 @@ hours += (theHour >= 12) ? " 오후" : " 오전";
    
 #### Tip   
    
-// 여러 개의 조건을 함께 테스트해야 하고 테스트가 OR(\|\|)로 연결되는지 또는 AND(&&)로 연결되는지에 따라 한 조건이 다른 나머지 조건보다 실패 또는 성공할 가능성이 높다는 것을 알고 있는 경우, 해당 조건을 조건문의 처음에 두면 스크립트 실행 속도가 빨라질 수 있음   
-- If you need to test multiple conditions together, and you know that one condition is more likely to fail or succeed than the other, depending on whether the test is connected to OR(\|\|) or AND(&&), you can speed up script execution if you put that condition expression at the beginning of the condition statement   
+// 여러 개의 조건을 함께 테스트해야 하고 테스트가 OR (\|\|) 로 연결되는지 또는 AND (&&) 로 연결되는지에 따라 한 조건이 다른 나머지 조건보다 실패 또는 성공할 가능성이 높다는 것을 알고 있는 경우, 해당 조건을 조건문의 처음에 두면 스크립트 실행 속도가 빨라질 수 있음   
+- If you need to test multiple conditions together, and you know that one condition is more likely to fail or succeed than the other, depending on whether the test is connected to OR (\|\|) or AND (&&), you can speed up script execution if you put that condition expression at the beginning of the condition statement   
    
-// 예를 들어, 3가지 조건이 모두 true이어야 할 경우(&& 연산자 사용) 두번째 테스트에 실패하면 세번째 조건은 테스트되지 않음   
-// 이와 유사하게 여러 조건 중에 한 조건이 true 이어야 할 경우(\|\| 연산자 사용), 어느 하나의 조건이 테스트를 통과하게 되면 테스트는 멈추게 됨   
+// 예를 들어, 3가지 조건이 모두 true이어야 할 경우 (&& 연산자 사용) 두번째 테스트에 실패하면 세번째 조건은 테스트되지 않음   
+// 이와 유사하게 여러 조건 중에 한 조건이 true 이어야 할 경우 (\|\| 연산자 사용), 어느 하나의 조건이 테스트를 통과하게 되면 테스트는 멈추게 됨   
 // 이것은 테스트할 조건에 함수 호출 또는 다른 코드의 실행을 포함하고 있을 경우에 특히 효과적임   
 - For example, if all three conditions must be true (using && operators), if the second test fails, the third condition is not tested   
 - Similarly, if one of the conditions has to be true (using \|\| operators), the test will stop if either condition passes the test   
@@ -149,7 +149,7 @@ if ((runfirst() == 0) || (runsecond() == 0))
    
 ```javascript
 /*
-    // 업데이트 식(아래 예제의 "icount++")은 루프의 끝에서 실행되는데, 루프의 본문을 형성하는 문 블록이 실행된 후 조건이 테스트되기 전에 실행됨
+    // 업데이트 식 (아래 예제의 "icount++") 은 루프의 끝에서 실행되는데, 루프의 본문을 형성하는 문 블록이 실행된 후 조건이 테스트되기 전에 실행됨
     - The update expression ("icount++" in the example below) runs at the end of the loop. The update expression runs after the statement block that forms the body of the loop is executed before the condition is tested
 */
 
@@ -157,7 +157,7 @@ if ((runfirst() == 0) || (runsecond() == 0))
 // - Limit the loop to 11 repetitions
 var howFar = 11;
 
-// 11개의 구성원(0부터 10까지)을 가진 sum이라는 배열을 만듦
+// 11개의 구성원 (0부터 10까지) 을 가진 sum이라는 배열을 만듦
 // - Create an array called sum with 11 members (from 0 to 10)
 var sum = new Array(howFar);
 var theSum = 0;
@@ -165,7 +165,7 @@ sum[0] = 0;
 
 // 이 경우 1부터 10까지 셈
 // - In this case, count from 1 to 10
-for(var icount = 1; icount < howFar; icount++)
+for (var icount = 1; icount < howFar; icount++)
 {
     theSum += icount;
     sum[icount] = theSum;
@@ -174,7 +174,7 @@ for(var icount = 1; icount < howFar; icount++)
 var newSum = 0;
 // 전혀 실행되지 않음
 // - It doesn't run at all
-for(var icount = 1; icount > howFar; icount++)
+for (var icount = 1; icount > howFar; icount++)
 {
     newSum += icount;
 }
@@ -182,7 +182,7 @@ for(var icount = 1; icount > howFar; icount++)
 var sum = 0;
 // 무한 루프
 // - It's an infinite loop
-for(var icount = 1; icount > 0; icount++)
+for (var icount = 1; icount > 0; icount++)
 {
     sum += icount;
 }
@@ -226,7 +226,7 @@ var theMoments = "";
 var theCount = 42;
 
 while (theCount >= 1) {
-    if(theCount > 1) {
+    if (theCount > 1) {
         theMoments = theCount + " element" + " is left";
     }
     else {
@@ -264,10 +264,10 @@ var theComment = "";
 var theRemainder = 0;
 var theEscape = 3;
 var checkMe = 27;
-for(kcount = 1; kcount <= 10; kcount++)
+for (kcount = 1; kcount <= 10; kcount++)
 {
     theRemainder = checkMe % kcount;
-    if(theRemainder == theEscape)
+    if (theRemainder == theEscape)
     {
         // 나머지가 중지값과 같은 값이 처음 나오면 루프를 빠져 나감
         // - If the remainder first comes up with the same value as the stop value, it exits the loop
@@ -276,10 +276,10 @@ for(kcount = 1; kcount <= 10; kcount++)
     theComment = "The remainder of " + checkMe + " /(divide) " + kcount + "is " + theRemainder + ".";
 }
 
-for(kcount = 1; kcount <= 10; kcount++)
+for (kcount = 1; kcount <= 10; kcount++)
 {
     theRemainder = checkMe % kcount;
-    if(theRemainder != theEscape)
+    if (theRemainder != theEscape)
     {
         // 나머지와 중지값이 동일한 경우만을 선택하고 다른 경우는 모두 무시
         // - Select only if the rest and stop values are the same, and ignore all other cases.
@@ -293,15 +293,15 @@ var theMoments = "";
 // 카운터 초기화
 // - The counter is initialized
 var theCount = 42;
-while(theCount >= 1)
+while (theCount >= 1)
 {
-    if(theCount < 10)
+    if (theCount < 10)
         // Warning!
         // Fell into an infinite loop using continue as follows
         // continue;
         // }
     {
-        if(theCount > 1)
+        if (theCount > 1)
         {
             theMoments = "There's " + theCount + "left!";
         }

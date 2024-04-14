@@ -69,7 +69,7 @@ categories: [JScript]
 |anchor|개체의 특정 텍스트 양 끝에 NAME 특성을 가진 HTML앵커를 넣음|
 |asin|아크사인 값을 반환|
 |atan|아크탄젠트 값을 반환|
-|atan2|X축과 점(y, x) 사이의 각을 라디안값으로 반환|
+|atan2|X축과 점 (y, x) 사이의 각을 라디안값으로 반환|
 |atEnd|열거자가 컬렉션의 끝에 있는지 여부를 나타내는 부울값을 반환|
 |big|String 개체의 텍스트 양 끝에 `<BIG>` HTML 태그를 삽입|
 |blink|String 개체의 텍스트 양 끝에 `<BLINK>` HTML 태그를 삽입|
@@ -101,20 +101,20 @@ categories: [JScript]
 |getMonth|로컬 시간을 사용하여 Date 개체의 월 값을 반환|
 |getSeconds|로컬 시간을 사용하여 Date 개체의 초 값을 반환|
 |getTime|Date 개체의 시 값을 반환|
-|getTimezoneOffset|호스트 컴퓨터와 협정 세계 표준시(UTC) 사이의 시간차를 분으로 반환|
-|getUTCDate|협정 세계 표준시(UTC)를 사용하여 Date 개체의 날짜 값을 반환|
-|getUTCDay|협정 세계 표준시(UTC)를 사용하여 Date 개체의 요일 값을 반환|
-|getUTCFullYear|협정 세계 표준시(UTC)를 사용하여 Date 개체의 연도 값을 반환|
-|getUTCHours|협정 세계 표준시(UTC)를 사용하여 Date 개체의 시 값을 반환|
-|getUTCMilleseconds|협정 세계 표준시(UTC)를 사용하여 Date 개체의 밀리초 값을 반환|
-|getUTCMinutes|협정 세계 표준시(UTC)를 사용하여 Date 개체의 분 값을 반환|
-|getUTCMonth|협정 세계 표준시(UTC)를 사용하여 Date 개체의 월 값을 반환|
-|getUTCSeconds|협정 세계 표준시(UTC)를 사용하여 Date 개체의 초 값을 반환|
+|getTimezoneOffset|호스트 컴퓨터와 협정 세계 표준시 (UTC) 사이의 시간차를 분으로 반환|
+|getUTCDate|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 날짜 값을 반환|
+|getUTCDay|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 요일 값을 반환|
+|getUTCFullYear|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 연도 값을 반환|
+|getUTCHours|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 시 값을 반환|
+|getUTCMilleseconds|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 밀리초 값을 반환|
+|getUTCMinutes|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 분 값을 반환|
+|getUTCMonth|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 월 값을 반환|
+|getUTCSeconds|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 초 값을 반환|
 |getVarDate|Date 개체의 VT_DATE 값을 반환|
 |getYear|Date 개체의 연도 값을 반환|
 |indexOf|String 개체 안에서 부분 문자열이 처음 나오는 문자 위치를 반환|
 |isFinite|주어진 수가 유한한지 여부를 나타내는 부울값을 반환|
-|isNaN|어떤 값이 예약값이 NaN(숫자 아님)인지 여부를 나타내는 부울값을 반환|
+|isNaN|어떤 값이 예약값이 NaN (숫자 아님) 인지 여부를 나타내는 부울값을 반환|
 |italics|String 개체의 텍스트 양 끝에 `<I>` HTML 태그를 삽입|
 |item|컬렉션의 현재 항목을 반환|
 |join|배열 하나에 함께 연결된 모든 요소들로 구성된 String 개체를 반환|
@@ -144,13 +144,13 @@ categories: [JScript]
 |setMonth|로컬 시간을 사용하여 Date 개체의 월 값을 설정|
 |setSeconds|로컬 시간을 사용하여 Date 개체의 초 값을 설정|
 |setTime|Date 개체의 날짜와 시간 값을 설정|
-|setUTCDate|협정 세계 표준시(UTC)를 사용하여 Date 개체의 날짜 값을 설정|
-|setUTCFullYear|협정 세계 표준시(UTC)를 사용하여 Date 개체의 연도 값을 설정|
-|setUTCHours|협정 세계 표준시(UTC)를 사용하여 Date 개체의 시 값을 설정|
-|setUTCMilliseconds|협정 세계 표준시(UTC)를 사용하여 Date 개체의 밀리초 값을 설정|
-|setUTCMinutes|협정 세계 표준시(UTC)를 사용하여 Date 개체의 분 값을 설정|
-|setUTCMonth|협정 세계 표준시(UTC)를 사용하여 Date 개체의 월 값을 설정|
-|setUTCSeconds|협정 세계 표준시(UTC)를 사용하여 Date 개체의 초 값을 설정|
+|setUTCDate|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 날짜 값을 설정|
+|setUTCFullYear|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 연도 값을 설정|
+|setUTCHours|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 시 값을 설정|
+|setUTCMilliseconds|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 밀리초 값을 설정|
+|setUTCMinutes|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 분 값을 설정|
+|setUTCMonth|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 월 값을 설정|
+|setUTCSeconds|협정 세계 표준시 (UTC) 를 사용하여 Date 개체의 초 값을 설정|
 |setYear|Date 개체의 연도 값을 설정|
 |sin|사인 값을 반환|
 |slice (Array)|배열의 일정 부분을 반환|
@@ -167,15 +167,15 @@ categories: [JScript]
 |tan|탄젠트 값을 반환|
 |test|검색한 문자열에 패턴이 있는지 여부를 나타내는 부울값을 반환|
 |toArray|VBArray에서 변환된 JScript 표준 배열을 반환|
-|toGMTString|그리니치 표준시(GMT)를 사용하여 문자열로 변환된 날짜를 반환|
+|toGMTString|그리니치 표준시 (GMT) 를 사용하여 문자열로 변환된 날짜를 반환|
 |toLocaleString|현재 로케일을 사용하여 문자열로 변환된 날짜를 반환|
 |toLowerCase|모든 영문자가 대문자로 변환된 문자열을 반환|
 |toString|개체를 나타내는 문자열을 반환|
 |toUpperCase|모든 영문자가 대문자로 변환된 문자열을 반환|
-|toUTCString|협정 세계 표준시(UTC)를 사용하여 문자열로 변환된 날짜를 반환|
+|toUTCString|협정 세계 표준시 (UTC) 를 사용하여 문자열로 변환된 날짜를 반환|
 |ubound|차원이 지정된 VBArray에서 사용하는 최고 인덱스 값을 반환|
 |unescape|escape 메서드로 인코딩한 String 개체를 디코딩|
-|UTC|협정 세계 표준시(UTC) 또는 그리니치 표준시(GMT) 1970년 1월 1일 자정부터 주어진 날짜 사이의 시간을 밀리초로 반환|
+|UTC|협정 세계 표준시 (UTC) 또는 그리니치 표준시 (GMT) 1970년 1월 1일 자정부터 주어진 날짜 사이의 시간을 밀리초로 반환|
 |valueOf|지정한 개체의 원시 값을 반환|
    
 <br />
@@ -295,16 +295,16 @@ categories: [JScript]
 |length (String)|String 개체의 길이를 반환|
 |LN2|자연 로그 2를 반환|
 |LN10|자연 로그 10을 반환|
-|LOG2E|밑이 2인 로그 e(오일러 상수)를 반환|
-|LOG10E|밑이 10인 로그 e(오일러 상수)를 반환|
+|LOG2E|밑이 2인 로그 e (오일러 상수) 를 반환|
+|LOG10E|밑이 10인 로그 e (오일러 상수) 를 반환|
 |MAX_VALUE|JScript에서 나타낼 수 있는 가장 큰 수를 반환|
 |MIN_VALUE|JScript에서 나타낼 수 있는 0에 가장 가까운 수를 반환|
-|NaN (Global)|식이 숫자가 아님을 나타내는 특수 값 NaN을 반환|
-|NaN (Number)|식이 숫자가 아님을 나타내는 특수 값(NaN)을 반환|
-|NEGATIVE_INFINITY|JScript에서 나타낼 수 있는 가장 큰 음수(-Number.MAX_VALUE)보다 큰 음수 값을 반환|
+|NaN (Global)|식이 숫자가 아님을 나타내는 특수 값 (NaN) 을 반환|
+|NaN (Number)|식이 숫자가 아님을 나타내는 특수 값 (NaN) 을 반환|
+|NEGATIVE_INFINITY|JScript에서 나타낼 수 있는 가장 큰 음수 (-Number.MAX_VALUE) 보다 큰 음수 값을 반환|
 |number|특정 오류와 관련된 숫자 값을 반환하거나 설정|
 |PI|원주율의 근사치 3.141592653589793을 반환|
-|POSITIVE_INFINITY|JScript에서 나타낼 수 있는 가장 큰 양수(Number.MAX_VALUE)보다 큰 값을 반환|
+|POSITIVE_INFINITY|JScript에서 나타낼 수 있는 가장 큰 양수 (Number.MAX_VALUE) 보다 큰 값을 반환|
 |prototype|개체 클래스의 초기 설정에 대한 참조를 반환|
 |source|정규식 패턴의 텍스트 복사본을 반환|
 |SQRT1_2|0.5의 제곱근 또는 1을 2의 제곱근으로 나눈 값을 반환|
@@ -475,7 +475,7 @@ categories: [JScript]
   - Boolean : 두 가지 논리값 true와 false를 나타냄   
   - String : 작은따옴표 또는 큰 따움표 사이의 문자열은 0개 이상의 유니코드 문자를 갖음. 빈 문자열("")의 문자와 길이는 0임   
   - Number : 숫자는 IEEE 754 규칙에 따라 정수 또는 부동 소수점 숫자임. 또한 다음과 같은 특수값들도 있음   
-    - NaN, 숫자가 아님(Not a Number)   
+    - NaN, 숫자가 아님 (Not a Number)   
     - Positive Infinity   
     - Negative Infinity   
     - Positive 0   
@@ -487,7 +487,7 @@ categories: [JScript]
 |Output Data<br />↓|Input Data<br />→||||||
 |:---:|:---|:---|:---|:---|:---|:---|
 ||Undefined|null|Boolean|Number|String|Object|
-|boolean|false|false|변환 안됨|+0, -0, NaN 중 하나이면 false, 그렇지 않으면 true|빈 문자열("")이면 false, 그렇지 않으면 true|true|
+|boolean|false|false|변환 안됨|+0, -0, NaN 중 하나이면 false, 그렇지 않으면 true|빈 문자열 ("") 이면 false, 그렇지 않으면 true|true|
 |number|NaN|NaN|true이면 1, false이면 +0|변환 안됨|숫자로 해석될 수 없으며 NaN으로 해석됨|Number 개체|
 |string|"undefined"|"null"|"true" 또는 "false"|부호를 포함한 숫자의 절대값이며 아래 사항은 예외임<br />- NaN은 "NaN"을 반환함<br />- +0 또는 -0은 "0"을 반환함<br />- + 무한대는 "Infinity"를 반환함<br />- - 무한대는 "-Infinity"를 반환함|변환 안됨|String 개체|
 |object|런타임 오류|런타임 오류|새 Boolean 개체|새 Number 개체|새 String 개체|변환 안됨|
@@ -508,7 +508,7 @@ categories: [JScript]
 |+|앞에 오는 문자를 1번 이상 찾음. 예를 들어, "zo+"를 입력하면 "zoo"를 찾지만 "z"는 여기에 포함되지 않음|
 |?|앞에 오는 문자를 0번 이상 찾음. 예를 들어, "a? ve?"를 입력하면 "never"에 있는 "ve"를 찾음|
 |.|줄바꿈 문자를 제외한 단일 문자를 찾음|
-|(pattern)|pattern을 찾고 일치하는 내용을 기억함. 일치하는 부분 문자열은 Item[0]...[n]을 사용하여 결과로 나오는 Matches 컬렉션에서 검색할 수 있음. 괄호 문자 ()를 찾으려면 "\\(" 또는 "\\)"를 사용함|
+|(pattern)|pattern을 찾고 일치하는 내용을 기억함. 일치하는 부분 문자열은 Item[0]...[n]을 사용하여 결과로 나오는 Matches 컬렉션에서 검색할 수 있음. 괄호 문자 () 를 찾으려면 "\\(" 또는 "\\)"를 사용함|
 |x\|y|x 또는 y를 찾음. 예를 들어, "z\|food"는 "z" 또는 "food"를 찾음. "(z\|f)ood"로는 "zoo"나 "food"를 찾을 수 있음|
 |{n}|n은 음이 아닌 정수임. 정확하게 n번 일치하는 부분을 찾음. 예를 들어, "o{2}"는 "Bob"의 "o"를 찾지 않지만 "foooood"의 처음 두 o를 찾음|
 |{n,}|n은 음이 아닌 정수임. 적어도 n번 일치하는 부분을 찾음. 예를 들어, "o{2,}"는 "Bob"의 "o"를 찾지만 "foooood"의 o는 모두 찾음. "o{1,}"은 "o+"와 같음. "o{0,}"은 "o*"과 같음|
@@ -613,7 +613,7 @@ categories: [JScript]
 |FileSystemObject|Method|FileExists|지정한 파일이 있으면 true를, 그렇지 않으면 false를 반환|
 |FileSystemObject|Method|FolderExists|지정한 폴더가 있으면 true를, 그렇지 않으면 false를 반환|
 |FileSystemObject|Method|GetAbsolutePathName|주어진 경로에서 정확한 전체 경로를 반환|
-|FileSystemObject|Method|GetBaseName|주어진 경로에서 파일의 기본 이름(모든 파일 확장명 제외)이나 폴더를 포함한 문자열을 반환|
+|FileSystemObject|Method|GetBaseName|주어진 경로에서 파일의 기본 이름 (모든 파일 확장명 제외) 이나 폴더를 포함한 문자열을 반환|
 |FileSystemObject|Method|GetDrive|지정한 경로에서 드라이브에 해당하는 Drive 개체를 반환|
 |FileSystemObject|Method|GetDriveName|지정한 경로에서 드라이브 이름을 포함한 문자열을 반환|
 |FileSystemObject|Method|GetFile|지정한 경로에서 파일에 해당하는 File 개체를 반환|
@@ -661,7 +661,7 @@ categories: [JScript]
 |TextStream|Method|Close|열려있는 TextStream 파일을 닫음|
 |TextStream|Method|Read|TextStream 파일에서 지정한 수만큼 문자를 읽고 결과로 나오는 문자열을 반환|
 |TextStream|Method|ReadAll|TextStream 파일 전체를 읽고 결과로 나오는 문자열을 반환|
-|TextStream|Method|ReadLine|TextStream 파일에서 줄 전체(줄 바꿈 문자 앞까지, 줄 바꿈 문자는 제외)를 읽고 결과로 나오는 문자열을 반환|
+|TextStream|Method|ReadLine|TextStream 파일에서 줄 전체 (줄 바꿈 문자 앞까지, 줄 바꿈 문자는 제외) 를 읽고 결과로 나오는 문자열을 반환|
 |TextStream|Method|Skip|TextStream 파일을 읽을 때 지정한 문자 수만큼 건너뜀|
 |TextStream|Method|SkipLine|TextStream 파일을 읽을 때 다음 줄을 건너뜀|
 |TextStream|Method|Write|TextStream 파일에 지정한 문자열을 씀|
@@ -802,7 +802,7 @@ categories: [JScript]
 // 비교연산자   
    
 // 둘 이상의 값이나 식 사이의 관계를 나타내는 문자나 기호   
-// 비교연산자에는 보다 작다(<), 작거나 같다(<=), 보다 크다(>), 크거나 같다(>=), 같지 않다(!=), 같다(==)가 있음   
+// 비교연산자에는 보다 작다 (<), 작거나 같다 (<=), 보다 크다 (>), 크거나 같다 (>=), 같지 않다 (!=), 같다 (==)가 있음   
 - a character or symbol that represents a relationship between two or more values or expressions   
 - Comparison operators have smaller (<), smaller or equal (<=), larger (>), larger or equal (>=), not equal (!==), and equal (==)   
    
@@ -883,16 +883,16 @@ categories: [JScript]
 #### UTC (Universal Coordinated Time)   
 // 협정 세계 표준시   
    
-// WTS(세계 시간 표준)이 설정한 시간   
-// GMT(그리니치 표준시)라고도 함   
+// WTS (세계 시간 표준) 이 설정한 시간   
+// GMT (그리니치 표준시) 라고도 함   
 - Time set by WTC (World Time Standard)   
 - Also known as GMT (Greenwich Standard Time)   
    
 #### ASCII Character set   
 // ASCII 문자 집합   
    
-// ASCII(정보 교환용 미국 표준 코드)로 표준 영문 키보드에 있는 문자와 기호를 나타내는 데 사용하는 7비트 문자 집합   
-// ASCII 문자 집합은 ANSI 문자 집합의 앞 부분에 나오는 128자(0 ~ 127)와 같음   
+// ASCII (정보 교환용 미국 표준 코드) 로 표준 영문 키보드에 있는 문자와 기호를 나타내는 데 사용하는 7비트 문자 집합   
+// ASCII 문자 집합은 ANSI 문자 집합의 앞 부분에 나오는 128자 (0 ~ 127) 와 같음   
 - A set of seven-bit characters used to represent characters and symbols on a standard English keyboard with ASCII (American Standard Code for Information Exchange)   
 - ASCII character set is equal to 128 characters (0 ~ 127) in front of the ANSI character set   
    

@@ -24,7 +24,7 @@ categories: [JScript]
 |\ \ |Backslash|
    
 // 백슬래시 자체는 제어문자로 사용되므로 스크립트에서 직접 입력할 수 없음   
-// 백슬래시를 사용하려면 두 번 입력해야 함(\ \ )   
+// 백슬래시를 사용하려면 두 번 입력해야 함 (\ \ )   
 - Backslash itself is used as a control character and cannot be entered directly from the script   
 - To use a backslash, type twice (\ \ )   
    

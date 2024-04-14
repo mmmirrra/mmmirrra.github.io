@@ -58,7 +58,7 @@ Computer = Hardware + Software
 // 입력장치의 종류 : 키보드, 마우스, 스캐너, 터치스크린   
 - Type of input device : keyboard, mouse, scanner, touchscreen   
    
-// 특수 입력장치 : 마이오(Myo), 립 모션(Leap Motion)   
+// 특수 입력장치 : 마이오 (Myo), 립 모션 (Leap Motion)   
 - Special input Device : Myo, Leap Motion   
    
 #### Output device   
@@ -74,14 +74,14 @@ Computer = Hardware + Software
 // 출력장치의 종류 : 모니터, 스피커, 프린터, 초 지향성 스피커, 3D 프린터   
 - Type of output device : monitor, speaker, printer, ultra-directional speaker, 3D printer   
    
-// 특수 출력장치 : HUD(Head-Up Display) - AR(증강현실), HMD(Head-Mounted Display) - VR(가상현실)   
-- Special output device : HUD(Head-Up Display) - AR(Augmented Reality), HMD(Head-Mounted Display) - VR(Virtual Reality)   
+// 특수 출력장치 : HUD (Head-Up Display) - AR (증강현실), HMD (Head-Mounted Display) - VR (가상현실)   
+- Special output device : HUD (Head-Up Display) - AR (Augmented Reality), HMD (Head-Mounted Display) - VR (Virtual Reality)   
    
 #### Memory (storage) device   
-// 기억(저장)장치   
+// 기억 (저장) 장치   
    
-// 명령과 데이터를 기억(저장)하는 하드웨어   
-// 역할에 따라 주기억장치(기억장치), 보조기억장치(저장장치)로 구분   
+// 명령과 데이터를 기억 (저장) 하는 하드웨어   
+// 역할에 따라 주기억장치 (기억장치), 보조기억장치 (저장장치) 로 구분   
 - Hardware that stores (stores) commands and data   
 - Depending on the role, it is divided into main memory device (memory device) and auxiliary memory device (storage device)   
    
@@ -92,13 +92,13 @@ Computer = Hardware + Software
 |// 용량<br />capacity|// 작음<br />little|// 큼<br />big|
 |// 전원 차단 시<br />When the power is cut off|// ROM : 기억내용 보존<br />// RAM : 모든 내용 초기화<br />ROM : Preserving the contents of the memory<br />RAM : Initialize all content|// 기억내용 보존<br />Preserving the contents of the memory|
    
-// 기억(저장)장치의 종류   
+// 기억 (저장) 장치의 종류   
 // - ROM : 주기억장치. 한번 저장하면 변경불가. mainboard   
 // - RAM : 주기억장치. Random Access Memory. 임시저장. 전원이 꺼지면 정보 소실됨   
 // - 자기디스크 : 보조기억장치   
 // - 광학디스크 : 보조기억장치   
 // - 플래시 드라이브 : 보조기억장치   
-// 특수기억(저장)장치   
+// 특수기억 (저장) 장치   
 // - SSD, nvm : Solid State Drive. RAM을 이용한 저장장치. 빠른 속도, 외부 충격에 강함, 적은 전력소모가 강점   
 - Types of memory (storage) devices   
   - ROM : main memory device. cannot be changed once saved. mainboard   
@@ -119,16 +119,16 @@ Computer = Hardware + Software
    
 CPU   
 // 제어와 연산의 기능을 모두 수행하는 회로를 가지고 있음   
-// 대부분 3개의 서브유닛(레지스터, 제어 유닛, 연산 논리 유닛)으로 구성되어 있음   
+// 대부분 3개의 서브유닛 (레지스터, 제어 유닛, 연산 논리 유닛) 으로 구성되어 있음   
 - It has a circuit that performs both control and operation functions   
-- It consists mostly of three subunits(Register, Control Unit, ALU(Arithmetic Logic Unit))   
+- It consists mostly of three subunits (Register, Control Unit, ALU (Arithmetic Logic Unit))   
    
 // 레지스터 : 고속으로 동작하는 저장장치. CPU 내부에서 초고속으로 데이터를 저장하거나 읽어냄. 주기억장치 메모리보다 훨씬 비쌈   
 // 제어 유닛 : 레지스터의 명령어를 읽어서 연산 논리 유닛에 명령어 전달   
 // 연산 논리 유닛 : 제어 유닛으로부터 받은 명령어를 처리하기 위해 레지스터에서 값을 가지고 오고, 연산 결과를 레지스터에게 보내줌   
 - Register : A high-speed storage device. Store or read data inside the CPU at high speed. It's much more expensive than the main memory   
 - Control Unit : Read the commands in the register and pass the commands to the computational logic unit   
-- ALU(Arithmetic Logic Unit) : The value is taken from the register to process the instructions received from the control unit and the operation result is sent to the register   
+- ALU (Arithmetic Logic Unit) : The value is taken from the register to process the instructions received from the control unit and the operation result is sent to the register   
    
 <br />
 ### Understanding Software   
@@ -149,11 +149,11 @@ CPU
 // 시스템 소프트웨어   
    
 // 다양한 장치들을 서로 유기적으로 동작시켜 특정 작업을 수행할 수 있는 환경을 조성하는 프로그램   
-// 운영체제(커널), 컴파일러, 유틸리티로 구분함   
+// 운영체제 (커널), 컴파일러, 유틸리티로 구분함   
 - A program that creates an environment in which various devices can be operated organically with each other to perform specific tasks   
 - Separated into operating systems (kernel), compiler, and utility   
    
-// 운영체제(커널) : 사용자가 컴퓨터를 효율적으로 운영·관리·사용할 수 있도록 하드웨어를 제어하는 소프트웨어   
+// 운영체제 (커널) : 사용자가 컴퓨터를 효율적으로 운영·관리·사용할 수 있도록 하드웨어를 제어하는 소프트웨어   
 // 컴파일러 : 소스코드를 컴퓨터가 이해할 수 있는 기계어로 번역하는 소프트웨어   
 // 유틸리티 : 부가적인 기능을 제공하여 사용자가 컴퓨터를 효율적이고 편리하게 관리할 수 있도록 지원해주는 소프트웨어   
 - operating systems (kernel) : Software that controls hardware to enable users to operate, manage, and use computers efficiently   
@@ -175,18 +175,18 @@ CPU
 #### Role of the operating system   
 // 운영체제의 역할   
    
-// 컴퓨터의 자원(하드웨어)을 효율적으로 관리하고 응용 프로그램에 자원을 할당   
+// 컴퓨터의 자원 (하드웨어) 을 효율적으로 관리하고 응용 프로그램에 자원을 할당   
 // - 사용자 인터페이스   
 // -- 컴퓨터와 사용자를 매개하여 상호작용하는 방법을 제공   
-// -- CLI(Command Line Interface), GUI(Graphic User Interface) 등   
+// -- CLI (Command Line Interface), GUI (Graphic User Interface) 등   
 // - 프로세스 관리   
 // -- 프로세스는 실행되고 있는 상태의 프로그램   
 // -- 프로세스 관리를 자동적으로 해주는 운영체제   
-// -- 여러 프로그램이 요청되면 한정된 자원(기억장치 등)을 효과적으로 사용하도록 조율   
+// -- 여러 프로그램이 요청되면 한정된 자원 (기억장치 등) 을 효과적으로 사용하도록 조율   
 // -- MS Windows 11, Apple MacOS 12 에서 제공하는 프로세스 관리   
 // - 네트워크 관리, 네트워크 인터페이스   
 // -- 컴퓨터는 네트워크를 통해 상호 데이터 교환   
-// -- 응용 프로그램이 통신할 수 있는 환경 제공 및 통신 장치(하드웨어) 관리   
+// -- 응용 프로그램이 통신할 수 있는 환경 제공 및 통신 장치 (하드웨어) 관리   
 // -- MS Windows 11, Apple MacOS 12 에서 제공하는 네트워크 및 인터넷 관리   
 // - 기억·저장장치 관리   
 // -- 보조기억장치에 저장된 컴퓨터의 프로그램은 실행되기 위해서 주기억장치에 적재   
@@ -195,7 +195,7 @@ CPU
 - Efficient management of computer resources (hardware) and allocation of resources to applications   
     - User interface   
       - Provides a way for computers and users to interact   
-      - CLI(Command Line Interface), GUI(Graphic User Interface), etc.   
+      - CLI (Command Line Interface), GUI (Graphic User Interface), etc.   
     - Process Management   
       - A process is a running program   
       - An operating system that automatically manages processes   

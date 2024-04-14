@@ -60,7 +60,7 @@ void main() {
 	printf("Enter a number as negative or positive or zero.\n");
 	scanf("%d", &a3);
 	if (a3 >= 0)
-		if(a3 == 0)
+		if (a3 == 0)
 			printf("The value entered is 0\n");
 		else
 			printf("The value entered is positive\n");

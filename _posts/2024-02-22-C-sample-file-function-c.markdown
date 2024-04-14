@@ -23,7 +23,7 @@ void main() {
 
 	/* 파일 입출력 프로그램의 구조 예제 */
 	char ch1;
-	FILE* fp1;						// 파일포인터 선언 - 파일형(구조체형) 포인터변수를 선언
+	FILE* fp1;						// 파일포인터 선언 - 파일형 (구조체형) 포인터변수를 선언
 	fp1 = fopen("sample1.txt", "w");			// 파일 open - 스트림 stream 통로 생성됨 - 기존 파일이 없는 경우 프로젝트와 동일 폴더에 파일 생성됨
 
 	for (ch1 = 'A'; ch1 <= 'Z'; ch1++)
@@ -33,7 +33,7 @@ void main() {
 
 	/* 파일 열리지 않는 경우에 대한 예외 처리 예제 */
 	char ch2;
-	FILE* fp2;						// 파일포인터 선언 - 파일형(구조체형) 포인터변수를 선언
+	FILE* fp2;						// 파일포인터 선언 - 파일형 (구조체형) 포인터변수를 선언
 	if ((fp2 = fopen("sample2.txt", "w")) == NULL) {	// 파일 open - 스트림 stream 통로 생성됨
 		puts("Unable to open file!\n");
 		exit(1);					// 프로그램을 종료할 때 사용하는 함수
@@ -67,7 +67,7 @@ void main() {
 	printf("Enter a string. Enter 'end' to end the input\n");
 	gets(name4);
 	while (strcmp(name4, "end")) {				// 문자열 출력의 끝을 판별 - end 입력 시 끝이라고 판별함
-		strcat(name4, "\n");				// 하나의 문자열에 다른 것('\n')을 추가 - 레코드의 끝을 추가
+		strcat(name4, "\n");				// 하나의 문자열에 다른 것 ('\n') 을 추가 - 레코드의 끝을 추가
 		fputs(name4, fp4);				// 문자열을 파일로 출력
 		gets(name4);
 	}
@@ -98,7 +98,7 @@ void main() {
 		printf("Unable to open file!\n");
 		exit(1);					// 프로그램을 끝냄
 	}
-	while((c6=getc(fp6)) != EOF)				// 파일의 끝까지 읽음 - getc() 함수에 의해 한 문자씩 읽어와 c6에 전달
+	while ((c6=getc(fp6)) != EOF)				// 파일의 끝까지 읽음 - getc() 함수에 의해 한 문자씩 읽어와 c6에 전달
 		putchar(c6);					// 표준출력함수 putchar() - 모니터에 출력
 	fclose(fp6);						// 파일 close
 	
@@ -160,7 +160,7 @@ void main() {
 	printf("Enter a string. Enter 'end' to end the input\n");
 	gets(name11);
 	while (strcmp(name11, "end")) {			// 문자열 출력의 끝을 판별 - end 입력 시 끝이라고 판별함
-		fwrite(name11, 10, 1, fp11);			// fwrite(저장자료변수, 레코드길이, 레코드개수, 파일포인터); - 2진 파일 쓰기
+		fwrite(name11, 10, 1, fp11);			// fwrite (저장자료변수, 레코드길이, 레코드개수, 파일포인터); - 2진 파일 쓰기
 		gets(name11);
 	}
 	fclose(fp11);						// 파일 close
@@ -174,8 +174,8 @@ void main() {
 		exit(1);					// 프로그램을 끝냄
 	}
 	while (1) {						// 파일의 끝까지 읽음
-		if (fread(name12, 10, 1, fp12) != 1)		// fwrite(읽을자료변수, 레코드길이, 레코드개수, 파일포인터); - 2진 파일 읽기
-			break;					// 레코드 개수가 1이 아닌 경우 (==읽을 레코드가 없는 경우 == 파일의 끝인 경우) while 종료
+		if (fread(name12, 10, 1, fp12) != 1)		// fwrite (읽을자료변수, 레코드길이, 레코드개수, 파일포인터); - 2진 파일 읽기
+			break;					// 레코드 개수가 1이 아닌 경우 (== 읽을 레코드가 없는 경우 == 파일의 끝인 경우) while 종료
 		puts(name12);					// 문자열을 모니터에 출력
 	}
 	fclose(fp12);						// 파일 close

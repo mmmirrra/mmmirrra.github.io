@@ -9,9 +9,9 @@ categories: [Database Systems]
 // ER 모델의 개념   
    
 // 1976년 카네기 멜론 대학의 피터 첸 (Peter Chen) 박사 제안   
-// 실세계의 속성들로 이루어진 개체(entity)와 개체 사이의 관계(relationship)를 정형화시킨 모델   
+// 실세계의 속성들로 이루어진 개체 (entity) 와 개체 사이의 관계 (relationship) 를 정형화시킨 모델   
 // 개념적 모델링 단계에서 사용되는 데이터 모델   
-// 데이터 구조와 관계를 ER 다이어그램(ERD)으로 표현   
+// 데이터 구조와 관계를 ER 다이어그램 (ERD) 으로 표현   
 - Entity Relationship   
 - 1976 Proposed by Dr. Peter Chen of Carnegie Mellon University   
 - A model that formalized the relationship between objects and objects made up of real-world attributes   
@@ -34,12 +34,12 @@ categories: [Database Systems]
 #### Object set   
 // 개체 집합   
 
-// 개체(entity)   
+// 개체 (entity)   
 // - 실세계에 존재하는 다른 객체와 구별되는 유무형의 사물   
 // - 개체를 설명하는 여러 속성들로 구성   
 // - 예시   
 // -- 학생번호 20230101-010101, 이름 홍, 성별 여자, 나이 20   
-// 개체 집합(entity set)   
+// 개체 집합 (entity set)   
 // - 같은 속성을 공유하는 개체들의 모임   
 // - 예시   
 - entity   
@@ -181,15 +181,15 @@ categories: [Database Systems]
 // 사상수   
 
 // 관계 집합에 참가한 개체 집합에 대해 한 개체가 다른 개체와 관계를 맺을 수 있는 수량을 명시   
-// - 일대일(1 : 1)   
-// - 일대다(1 : N)   
-// - 다대일(N : 1)   
-// - 다대다(N : N)   
+// - 일대일 (1 : 1)   
+// - 일대다 (1 : N)   
+// - 다대일 (N : 1)   
+// - 다대다 (N : N)   
 - Specify how many objects one can relate to another for a set of objects that participate in a relational set   
-  - One-to-One(1 : 1)   
-  - One-to-Many(1 : N)   
-  - Many-to-One(N : 1)   
-  - Many-to-Many(N : N)   
+  - One-to-One (1 : 1)   
+  - One-to-Many (1 : N)   
+  - Many-to-One (N : 1)   
+  - Many-to-Many (N : N)   
    
 Example of a one-to-one mapping cardinality representation   
 // 일대일 사상수 표현 예시   
@@ -252,7 +252,7 @@ Example of a many-to-many mapping cardinality representation
 // 특수 속성과 특수 관계   
 
 // 관계 집합의 속성 : 두 개체 집합의 관계에서 생성되는 값을 저장하는 속성   
-// 재귀적 관계 : 한 개체 집합이 자기 자신과 관계 집합을 형성하는 관계. 관계에 참가하는 개체가 행하는 기능을 개체의 역할(role)이라고 함   
+// 재귀적 관계 : 한 개체 집합이 자기 자신과 관계 집합을 형성하는 관계. 관계에 참가하는 개체가 행하는 기능을 개체의 역할 (role) 이라고 함   
 // 예시   
 // - 수강신청 시 발생하는 신청시각 이라는 값을 저장하고자 하면 발생하는 특수 속성과 특수 관계   
 // - 과목 수강 시 먼저 학습하길 권장하는 선수과목이 있는 경우 과목이라는 동일한 객체 유형에서 과목코드를 참고해야하는 재귀적 관계가 발생함   
@@ -268,7 +268,7 @@ Example of a many-to-many mapping cardinality representation
    
 // 약한 개체 집합   
 // - 개체의 존재 유무가 관계를 맺고 있는 개체의 존재에 종속되는 개체 집합   
-// - 약한 개체 집합은 1：N 관계 집합을 통해 강한 개체 집합에 연결해야 하며, 약한 개체 집합의 구별자(또는 부분키)는 약한 개체 집합 내의 개체들을 구분하는 속성의 집합임   
+// - 약한 개체 집합은 1：N 관계 집합을 통해 강한 개체 집합에 연결해야 하며, 약한 개체 집합의 구별자 (또는 부분키)는 약한 개체 집합 내의 개체들을 구분하는 속성의 집합임   
 // - 따라서 약한 개체 집합의 키 설정은 반드시 지배 개체 집합의 키와 약한 개체 집합의 부분키로 구성되어야 함   
 // 강한 개체 집합   
 // - 약한 개체 집합과 연결되어 있는 일반 개체 집합   

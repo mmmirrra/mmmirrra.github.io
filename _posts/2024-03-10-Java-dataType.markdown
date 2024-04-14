@@ -24,8 +24,8 @@ categories: [Java]
 |Type|Description|
 |:---|:---|
 |// 데이터 필드<br />// - 인스턴스 변수<br />Data Field<br />- Instance Variable|// 클래스 정의에서 non-static 필드<br />// 개별 객체가 소유한 변수<br />- In class definition, non-static fields<br />- Variables owned by individual objects|
-|// 데이터 필드<br />// - 클래스 변수<br />// (static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수(정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous objects (static variable)|
-|// 지역 변수<br />Local Variable|// 메소드 내부(또는 블록 내부)에서 선언된 변수<br />- Variables declared inside the method (or inside the block)|
+|// 데이터 필드<br />// - 클래스 변수<br />// (static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수 (정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous objects (static variable)|
+|// 지역 변수<br />Local Variable|// 메소드 내부 (또는 블록 내부) 에서 선언된 변수<br />- Variables declared inside the method (or inside the block)|
 |// 파라미터<br />Parameter|// 메소드 호출 시 전달하는 값을 저장하기 위한 변수<br />- Variables to store the values that are passed on method calls|
    
 <br />
@@ -38,17 +38,17 @@ categories: [Java]
 // 선언된 곳부터 해당 블록이 종료될때까지 유효함   
 // - 메소드가 실행될 때 만들어지고 종료되면 없어짐   
 // 지역 변수는 초기값을 지정한 후 사용해야 함   
-// 지역 변수 선언에서는 접근 제어자(access modifier)를 사용하지 않음   
+// 지역 변수 선언에서는 접근 제어자 (access modifier) 를 사용하지 않음   
 - Valid from where it was declared until the block was terminated   
   - Created when the method runs and disappears when terminated   
 - Local variables must be used after initial values are specified   
 - Do not use access modifier in local variable declarations   
    
 #### Data field (instance variable or class variable)   
-// 데이터 필드(인스턴스 변수 or 클래스 변수)   
+// 데이터 필드 (인스턴스 변수 or 클래스 변수)   
    
 // 선언된 클래스 내부에서 사용 가능   
-// 클래스 외부에서의 사용 가능 여부는 접근 제어자(access modifier)에 따라 다름   
+// 클래스 외부에서의 사용 가능 여부는 접근 제어자 (access modifier) 에 따라 다름   
 // - 예시 : `class Circle { protected int radius; ... }`   
 - Available inside declared classes   
 - The availability outside the class depends on the access modifier   
@@ -58,7 +58,7 @@ categories: [Java]
 ### Java's default data type   
 // Java의 기본 자료형   
    
-|Type|Keyword|Length(byte)|The range of values|
+|Type|Keyword|Length (byte)|The range of values|
 |:---:|:---:|:---:|:---|
 |character|char<br />(use Unicode)|2|'\u0000' ~ '\uffff'|
 |logic|boolean|1|true or false|
@@ -102,7 +102,7 @@ categories: [Java]
    
 // 예시   
 // - long형 : 26L   
-// - int형 : 26(10진수), 0b11010(2진수), 032(8진수), 0x1a(16진수)   
+// - int형 : 26 (10진수), 0b11010 (2진수), 032 (8진수), 0x1a (16진수)   
 - Example   
   - long type : 26L   
   - int type : 26 (decimal), 0b11010 (binary), 032 (eight), 0x1a (heximal)   
@@ -128,7 +128,7 @@ categories: [Java]
 // 1개의 문자를 표현하고 16비트 Unicode로 인코딩됨   
 // 단일 따옴표를 사용하고 Unicode 사용 가능   
 // - '\u0000' ~ '\uffff'   
-// - 1개 문자는 (0 ~ 65535)의 수와 호환됨   
+// - 1개 문자는 (0 ~ 65535) 의 수와 호환됨   
 - 1 character represented and encoded in 16-bit Unicode   
 - Single quotes (Apostrophe) and Unicode enabled   
   - '\u0000' ~ '\uffff'   
@@ -146,11 +146,11 @@ categories: [Java]
 // 참조형   
    
 // 기본형을 제외한 모든 자료형   
-// 참조 값(주소 값)을 나타내는 자료형   
+// 참조 값 (주소 값) 을 나타내는 자료형   
 - All data types except default types   
 - Data type that represents the reference value (address value)   
    
-// 참조형 변수는 객체를 가리키는 변수로, 객체의 주소 값(참조 값)을 저장함   
+// 참조형 변수는 객체를 가리키는 변수로, 객체의 주소 값 (참조 값) 을 저장함   
 // - 실제 객체는 동적 메모리 공간에 저장됨   
 // - 기본형 변수는 저장 공간에 값 자체를 저장함   
 - A reference variable is a variable that points to an object and stores the object's address value (reference value)   
@@ -166,7 +166,7 @@ categories: [Java]
    
 <br />
 ### conversion of data type  
-// 자료형의 변환(형변환)   
+// 자료형의 변환 (형변환)   
    
 #### conversion of implied data type   
 // 묵시적 자료형의 변환   

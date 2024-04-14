@@ -13,9 +13,9 @@ categories: [Database Systems]
    
 // 1. DBMS에서 사용하는 데이터 모델에 맞추어 데이터를 표현하는 과정   
 // 2. 데이터 정의 언어로 기술된 개념 스키마 생성   
-// 3. 관계형 모델(relational model)   
+// 3. 관계형 모델 (relational model)   
 // -- 1969년 에드가 F.코드에 의해 제안   
-// -- 릴레이션(relation)으로 데이터를 표현하는 모델   
+// -- 릴레이션 (relation) 으로 데이터를 표현하는 모델   
 // -- 데이터 표현이 단순하고 직관적 구조화 모델   
 // -- 현재 대다수 DBMS의 기초   
 // --- 관계형 모델을 사용하는 관계형 DBMS (RDMBS)   
@@ -31,7 +31,7 @@ categories: [Database Systems]
       - Oracle, DB2, PostgreSQL, MySQL, MSSQL, etc.   
    
 // 논리적 데이터 모델링의 필요   
-// - 관계형 DBMS(RDBMS)의 구현 모델에 맞춰 데이터의 구조와 관계를 표현   
+// - 관계형 DBMS (RDBMS) 의 구현 모델에 맞춰 데이터의 구조와 관계를 표현   
 // - 작성된 ERD를 RDBMS가 수용 가능한 구조로 변환   
 - Why logical data modeling is necessary   
   - Express the structure and relationship of data in line with the implementation model of relational DBMS (RDBMS)   
@@ -76,7 +76,7 @@ categories: [Database Systems]
   - All values are indivisible, one meaning   
    
 #### Role of the Key   
-// 키(Key)의 역할   
+// 키 (Key) 의 역할   
    
 // 릴레이션의 레코드를 유일하게 식별할 수 있는 값을 가지고 있는 컬럼   
 - A column that has the only identifiable value for a relation's record   
@@ -105,11 +105,11 @@ categories: [Database Systems]
 // 관계형 모델의 제약조건   
    
 // 영역 제약조건   
-// - 컬럼에 정의된 영역(domain)에 속한 값으로만 컬럼값이 결정   
+// - 컬럼에 정의된 영역 (domain) 에 속한 값으로만 컬럼값이 결정   
 // 키 제약조건   
 // - 키는 레코드를 고유하게 구별하는 값으로 구성   
 // 개체 무결성 제약조건   
-// - 어떠한 기본키 값도 널(null)이 될 수 없음   
+// - 어떠한 기본키 값도 널 (null) 이 될 수 없음   
 // 참조 무결성 제약조건   
 // - 반드시 존재하는 레코드의 기본키만 참조 가능   
 - Area Constraints   
@@ -122,7 +122,7 @@ categories: [Database Systems]
   - Only the default keys of existing records can be referenced   
    
 #### The concept of NULL   
-// 널(NULL)의 개념   
+// 널 (NULL) 의 개념   
    
 // '없음' 또는 '0'이 아닌 미지의 값에 대한 표현   
 // - 입력된 적이 없는 값   
@@ -153,8 +153,8 @@ categories: [Database Systems]
 - Step 6. Multi-value properties : Composes of a foreign key that refers to the primary key of the relationship and a separate relationship with a multi-value property   
 - Step 7. Properties of the relational set : Insert into the column of the relation where the foreign key is located   
    
-#### Conversion Case of ER Diagram 1 - One-to-Many(1 : N) relationship   
-// ER 다이어그램의 변환 케이스 1 - 일대다(1 : N) 관계   
+#### Conversion Case of ER Diagram 1 - One-to-Many (1 : N) relationship   
+// ER 다이어그램의 변환 케이스 1 - 일대다 (1 : N) 관계   
    
 - ER Model   
    
@@ -174,8 +174,8 @@ categories: [Database Systems]
 |:---|:---|:---|:---|
 ||||
    
-#### Conversion Case of ER Diagram 2 - Many-to-Many(N : N) relationship   
-// ER 다이어그램의 변환 케이스 2 - 다대다(N : N) 관계   
+#### Conversion Case of ER Diagram 2 - Many-to-Many (N : N) relationship   
+// ER 다이어그램의 변환 케이스 2 - 다대다 (N : N) 관계   
    
 - ER Model   
    
@@ -202,8 +202,8 @@ categories: [Database Systems]
 |:---|:---|:---|
 ||||
    
-#### Conversion Case of ER Diagram 3 - One-to-One(1 : 1) relationship. A weak set of objects   
-// ER 다이어그램의 변환 케이스 3 - 일대일(1 : 1) 관계. 약한 개체 집합   
+#### Conversion Case of ER Diagram 3 - One-to-One (1 : 1) relationship. A weak set of objects   
+// ER 다이어그램의 변환 케이스 3 - 일대일 (1 : 1) 관계. 약한 개체 집합   
    
 - ER Model   
    
@@ -237,7 +237,7 @@ categories: [Database Systems]
    
 // 관계 대수 (relational algebra)   
 // - 관계 연산을 정의하는 방법   
-// - 주어진 릴레이션에서 필요한 릴레이션을 만드는 연산자(∪, ∩, －, σ, π, ×, ⋈, ÷, 집계함수 등)로 구성   
+// - 주어진 릴레이션에서 필요한 릴레이션을 만드는 연산자 (∪, ∩, －, σ, π, ×, ⋈, ÷, 집계함수 등) 로 구성   
 // - 관계 대수 연산자는 새로운 임시 릴레이션을 생성   
 // - 연산자를 중첩하여 연산 처리 절차를 표현   
 - relational algebra   
@@ -264,7 +264,7 @@ categories: [Database Systems]
 |:---:|:---:|:---:|:---:|
 |Property name|Constant value|Comparator<br />{＝, ≠, ＜, ＞, ≤, ≥}|Relation|
    
-- Combination of conditions : ∧(and), ∨(or)   
+- Combination of conditions : ∧ (and), ∨ (or)   
    
 #### Examples of Select Operation   
 // 셀렉트 연산의 예시   
