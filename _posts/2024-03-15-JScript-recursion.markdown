@@ -50,7 +50,7 @@ categories: [JScript]
 ### Another example of a factorial function   
 // 계승 함수의 또다른 예시   
    
-```jscript
+```javascript
 function factorial(aNumber)
 {
     // If it is not an integer, discard the prime number

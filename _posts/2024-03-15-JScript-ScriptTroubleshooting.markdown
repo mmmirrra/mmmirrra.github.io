@@ -39,7 +39,7 @@ categories: [JScript]
 - JScript is a relatively free-form language with automatic forced conversion   
 - Therefore, values with different formats are not the same in the equation in the example below, but the result is true   
    
-```jscript
+```javascript
 "100" == 100
 false == 0
 ```
@@ -53,7 +53,7 @@ false == 0
 - When performing certain operations, expression calculations are more closely related to operator precedence than to the position of the expression   
 - Therefore, subtraction is shown first in the example below, but multiplication is performed before subtraction according to operator precedence   
    
-```jscript
+```javascript
 theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 ```
    

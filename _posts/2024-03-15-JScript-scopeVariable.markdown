@@ -19,7 +19,7 @@ categories: [JScript]
 - In conclusion, changing the value of one variable does not affect the other variable   
 - Only the local variable has meaning inside the function where the local variable is defined   
    
-```jscript
+```javascript
 // Global definition of aCentaur
 var aCentaur = "a horse on which a rider is riding";
 
@@ -45,7 +45,7 @@ aCentaur += ", Like you're naively watching from afar";
 - Variables behave as if they were declared at the beginning of the range, whatever the range in which the variable exists   
 - As a result, sometimes unexpected behavior   
    
-```jscript
+```javascript
 var aNumber = 100;
 var withAdditive = 0;
 

@@ -28,7 +28,7 @@ categories: [JScript]
 - Backslash itself is used as a control character and cannot be entered directly from the script   
 - To use a backslash, type twice (\ \ )   
    
-```jscript
+```javascript
 document.write('The image path is C:\\webstuff\\mypage\\gifs\\garden.gif');
 document.write('The caption is "After the snow of \'. Grandma\'s house is covered."');
 ```

@@ -78,7 +78,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
    
 - JScript에서는 아래 코드를 사용하여 같은 결과가 나옴   
    
-```jscript
+```javascript
 var fso;
 fso = new ActiveXObject("Scripting.FileSystemObject");
 ```
@@ -115,7 +115,7 @@ Set f1 = fso.GetFile("c:\test.txt")
    
 - JScript에서 기존 파일에 엑세스하려면 아래 코드를 사용함   
    
-```jscript
+```javascript
 var fso, f1;
 fso = new ActiveXObject("Scripting.FileSystemObject");
 f1 = fso.GetFile("c:\\test.txt");
@@ -126,7 +126,7 @@ f1 = fso.GetFile("c:\\test.txt");
 - 새로 만든 폴더에 대한 핸들을 가져오려면 CreateFolder 함수에 변수를 설정한 후 속성, 메서드, 이벤트 등에 엑세스해야 함   
 - VBScript에서 이 작업을 하려면 아래 코드를 사용함   
    
-``` jscript
+```javascript
 Sub CreateFolder
     Dim fso, fldr
     Set fso = CreateObject("Scripting.FileSystemObject")
@@ -137,7 +137,7 @@ End Sub
    
 - JScript에서 CreateFolder 함수에 변수를 설정하려면 아래 구문을 사용함   
    
-```jscript
+```javascript
 function CreateFolder()
 {
     var fso, fldr;
@@ -160,7 +160,7 @@ Set fldr = fso.GetFolder("C:\")
    
 - JScript에서 같은 결과를 내려면 아래 코드를 사용함   
    
-```jscript
+```javascript
 var fldr = fso.GetFolder("C:\\");
 ```
    
@@ -173,7 +173,7 @@ Response.Write "폴더 이름: " & fldr.Name
    
 - JScript에서 Name 속성을 확인하려면 아래 구문을 사용함   
    
-```jscript
+```javascript
 Response.Write("폴더 이름: " + fldr.Name);
 ```
    
@@ -190,7 +190,7 @@ Response.Write "마지막으로 파일을 수정한 시간: " & f1.DateLastModif
    
 - JScript에서 같은 내용을 찾으려면 아래 코드를 사용함   
    
-```jscript
+```javascript
 var fso, f1;
 fso = new AcriveXObject("Scripting.FileSystemObject");
 // 쿼리에 사용할 File 개체를 가져옴
@@ -244,7 +244,7 @@ End Sub
    
 - 아래 코드는 JScript의 같은 기능을 보여줌   
    
-```jscript
+```javascript
 function ShowDriveInfo(drvPath)
 {
     var fso, drv, s = "";
@@ -310,7 +310,7 @@ End Sub
    
 - 아래 예제는 JScript에서 Folder 개체와 FileSystemObject 개체의 사용법을 보여줌   
    
-```jscript
+```javascript
 function ShowFolderInfo()
 {
     var fso, fldr, s = "";
@@ -353,7 +353,7 @@ function ShowFolderInfo()
 - 하나는 CreateTextFile 메서드를 사용하는 것임   
 - 아래 예제는 VBScript에서 이 메서드를 사용하여 텍스트 파일을 작성하는 방법을 보여줌   
    
-``` vbscript
+```vbscript
 Dim fso, f1
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set f1 = fso.CreateTextFile("C:\testfile.tet", true)
@@ -361,7 +361,7 @@ Set f1 = fso.CreateTextFile("C:\testfile.tet", true)
    
 - JScript에서 이 메서드를 사용하려면 아래 코드를 사용함   
    
-```jscript
+```javascript
 var fso, f1;
 fso = new ActiveXObject("Scripting.FileSystemObject");
 f1 = fso.CreateTextFile("C:\\testfile.txt", true);
@@ -381,7 +381,7 @@ Set ts = fso.OpenTextFile("c:\test.txt", ForWriting, true)
    
 - JScript에서 이 메서드를 사용하여 텍스트 파일을 만들려면 아래 코드를 사용함   
    
-```jscript
+```javascript
 var fso, ts;
 var ForWriting = 2;
 fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -402,7 +402,7 @@ Set ts = f1.OpenAsTextStream(ForWriting, true)
    
 - JScript에서는 아래 예제와 같은 코드를 사용함   
    
-```jscript
+```javascript
 var fso, f1, ts;
 var ForWriting = 2;
 fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -456,7 +456,7 @@ End Sub
    
 - 아래 예제는 JScript에서 세 가지 메서드의 사용법을 보여줌   
    
-```jscript
+```javascript
 function CreateFile()
 {
     var fso, tf;
@@ -512,7 +512,7 @@ End Sub
    
 - 아래 코드는 JScript에서 같은 작업을 하는 방법을 보여줌   
    
-```jscript
+```javascript
 function ReadFiles()
 {
     var fso, f1, ts, s;
@@ -580,7 +580,7 @@ End Sub
 
 - 아래 코드는 JScript에서 같은 작업을 하는 방법을 보여줌   
    
-```jscript
+```javascript
 function ManipFiles()
 {
     var fso, f1, f2, s;

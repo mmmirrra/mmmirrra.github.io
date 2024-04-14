@@ -30,7 +30,7 @@ categories: [JScript]
 - A warning message box has a confirmation button that allows users to close the message box   
 - And this box is modal, so you need to close the message box to continue working   
    
-```jscript
+```javascript
 window.alert("Welcome! Press OK to continue");
 ```
    
@@ -47,7 +47,7 @@ window.alert("Welcome! Press OK to continue");
 - This message box is also modal   
 - Users must respond to the message box (press any button) and can only continue working after closing the box   
    
-```jscript
+```javascript
 var truthBeTold = window.confirm("Press OK to continue and Cancel to stop");
 if(truthBeTold)
 {
@@ -72,7 +72,7 @@ else window.alert("Goodbye!");
 // alert() 메서드 및 confirm() 메서드와 같이 prompt 메서드는 모달이므로, 작업을 계속하려면 프롬프트 메시지 상자를 닫아야 함   
 - As with the alert() method and confirm() method, the prompt message box must be closed to continue the operation because the prompt method is a modal   
    
-```jscript
+```javascript
 var theResponse = window.prompt("Welcome!", "Please enter your name here");
 ```
    

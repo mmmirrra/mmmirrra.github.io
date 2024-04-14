@@ -31,7 +31,7 @@ categories: [JScript]
 // 따라서 여러가지 방법으로 속성을 참조할 수 있기 때문에 아래의 문은 동일한 효과를 나타냄   
 - Therefore, the statements below show the same effect because you can refer to properties in many ways   
    
-```jscript
+```javascript
 theWidth = spaghetti.width;
 theWidth = spaghetti[3];    // [3] is the "width" index
 theWidth = spaghetti["width"];
@@ -42,14 +42,14 @@ theWidth = spaghetti["width"];
 - If you reference properties by numeric index, brackets are available, but dots (.) are not   
 - The statement below causes an error   
    
-```jscript
+```javascript
 theWidth = spaghetti.3; // Error occurred
 ```
    
 // 한 개체가 다른 개체를 속성으로 사용할 경우 기존 명명 규칙을 그대로 적용함   
 - Applies an existing naming convention if one object uses another as a property   
    
-```jscript
+```javascript
 // An array of shoppingLists is a property of toDoToDay
 var init4 = toDoToday.shoppingList[3].substring(0, 1);
 ```
@@ -60,7 +60,7 @@ var init4 = toDoToday.shoppingList[3].substring(0, 1);
 // 아래 코드는 0 X 0부터 16 X 16까지의 곱셈표를 만듦   
 - The code below creates a multiplication table from 0 X 0 to 16 X 16   
    
-```jscript
+```javascript
 // Create a cell to be tabulated
 var multTable = new Array(17);
 // Set rows
@@ -82,14 +82,14 @@ for (var j = 0; j < multTable.length; j++)
 // 이런 종류의 배열 요소 중 하나를 참조하려면 대괄호를 여러 개 사용함   
 - Use multiple brackets to refer to one of these types of array elements   
    
-```jscript
+```javascript
 var multiply3x7 = multTable[3][7];
 ```
    
 // 다음 문은 오류를 일으킴   
 - The following statement causes an error   
    
-```jscript
+```javascript
 var multiply3x7 = multTable[3, 7];  // Error occurred
 ```
    

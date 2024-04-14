@@ -16,7 +16,7 @@ categories: [JScript]
 - The example below defines a pasta object   
 - This keyword is used to refer to the current object   
    
-```jscript
+```javascript
 function pasta(grain, grain2, width, shape, shapenum, extent, agg)
 {
     // The number of attributes in the object. length is not included in the number of attributes.
@@ -41,7 +41,7 @@ function pasta(grain, grain2, width, shape, shapenum, extent, agg)
 // 일단 개체를 정의하면 new 연산자를 사용하여 개체의 인스턴스를 만듦   
 - Once you have defined an object, use the new operator to create an instance of the object   
    
-```jscript
+```javascript
 var spaghetti = new pasta("wheat", "", 0.2, "circle", 9, 30, true);
 var linguine = new pasta("wheat", "", 0.3, "oval", 17, 30, true);
 ```
@@ -53,7 +53,7 @@ var linguine = new pasta("wheat", "", 0.3, "oval", 17, 30, true);
 - However, these properties cannot be part of the object definition, and they do not appear in other instances unless you specifically add them   
 - To ensure that additional properties appear on all instances of an object, you must add them to the object definition   
    
-```jscript
+```javascript
 // Additional Properties for Spaghetti
 spaghetti.color = "a light straw color";
 spaghetti.drycook = 7;
@@ -79,7 +79,7 @@ var showFun = new pasta("rice", "", 3, "basic", , 12, false);
 - The method adds a string to the array, increasing its size   
 - This allows the instance of an object to be expanded to infinity   
    
-```jscript
+```javascript
 // 목록을 확장시킬 함수를 정의함
 // - Define a function to expand the list
 function addItem(newItem)
