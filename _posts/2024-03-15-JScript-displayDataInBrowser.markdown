@@ -28,7 +28,7 @@ categories: [JScript]
 - String can be enclosed in single quotation marks or double quotation marks   
 - This way, you can quote the content that includes quotes or apostrophes   
    
-```javascript
+```jscript
 document.write("PI value is approximately " + Math.PI);
 document.write();
 ```
@@ -40,7 +40,7 @@ document.write();
 - This function does not confirm whether what the user is trying to write is defined, but it can execute the command `w();`   
 - Command `w();` shows empty lines   
    
-```javascript
+```jscript
 function w(m)
 {
     // m 변수가 문자열임을 확인
@@ -102,7 +102,7 @@ function w(m)
 // document.write() 대신 창 개체의 alert() 메서드를 사용할 경우 이 스크립트는 정상적으로 사용됨   
 - If you use the alert() method of a window object instead of document.write(), this script is used normally   
    
-```javascript
+```jscript
 window.alert(theHour + " hours, " + theMinute + " minutes, Coordinated Universal Time");
 window.setTimeout("signOut();", 60000);
 ```
@@ -116,7 +116,7 @@ window.setTimeout("signOut();", 60000);
 - Clear() method of document object cleared current document   
 - This method should be used with caution because it also clears the script along with the rest of the document   
    
-```javascript
+```jscript
 document.clear();
 ```
    

@@ -39,7 +39,7 @@ categories: [JScript]
 - In brackets, you can enter an expression that yields an integer that is not a number or a negative number   
 - The example below presupposes that an entryNum variable is defined and that the value is specified elsewhere in the script   
    
-```javascript
+```jscript
 theListing = addressBook[entryNum];
 theFirstLine = theListing[1];
 ```
@@ -63,7 +63,7 @@ theFirstLine = theListing[1];
 - Each array has four properties   
 - For example, an instance of theName created in a property from [Name1] to [Naem4] in theListing can include "G.", "Edward", "Heatherington", "IV" or "George", "Sand"   
    
-```javascript
+```jscript
 theListing = addressBook[entryNum];
 for(i = 1; i < 4; i++)
 {
@@ -83,7 +83,7 @@ for(i = 1; i < 4; i++)
 - For example, if you sort an addressBook array by last name instead of a numbered list, you can type a name "in progress" to find people while running a script   
 - The example below presupposes that there is an appropriate function definition somewhere in the script   
    
-```javascript
+```jscript
 theListing = addressBook[getName()];
 theIndivListing = theListing[getFirstName()];
 ```
@@ -102,7 +102,7 @@ theIndivListing = theListing[getFirstName()];
 // 아래 코드는 가장 많이 사용되는 형식의 배열을 만들고 초기화함   
 - The code below creates and initializes the most commonly used array   
    
-```javascript
+```jscript
 var myArray = new Array("Athens", "Belgrade", "Cairo");
 ```
    
@@ -115,7 +115,7 @@ var myArray = new Array("Athens", "Belgrade", "Cairo");
 - This array can be repeated starting at 0 and ending at 2 using for...in statement   
 - For Example   
    
-```javascript
+```jscript
 for(key in myArray)
     response.write("Element value is " + MyArray[key] + "<BR>");
 ```
@@ -123,7 +123,7 @@ for(key in myArray)
 // 아래 코드는 요소 3개를 포함하는 연상식 배열을 만들고 초기화함   
 - The code below creates and initializes an associative array containing three elements   
    
-```javascript
+```jscript
 var MyArray = {"a" : "Athens", "b" : "Belgrade", "c" : "Cairo"};
 ```
    

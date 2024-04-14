@@ -33,7 +33,7 @@ categories: [JScript]
 - The anonymous function checks the value of the firstNameFirst variable to determine which of the first name and the first name, and checks the value of the emailNameFirst variable to determine which of the email addresses and names to write first   
 - This example assumes that the firstNameFirst and emailNameFirst values are already set elsewhere   
    
-```javascript
+```jscript
 for(j = 1; j < addressList[length]; j++)
 {
     oneListingLine = new Function(
@@ -86,7 +86,7 @@ for(j = 1; j < addressList[length]; j++)
 - Because JScript does not support these parameters   
 - This very simple example also uses object (point) and array (bracket) representations to refer to the current object   
    
-```javascript
+```jscript
 function MakeStringArray(length)
 {
     this.extent = length;
@@ -121,7 +121,7 @@ myStringArray = new MakeStringArray(63);
 - These principles allow you to further define properties for objects that are part of the JScript language, i.e. any object that has an initial setting   
 - For example, if a user wants a special constant for making calculations, but the Math object and the Number object do not provide that constant, the user can define the constant himself and assign it to the initial setting properties of each object or object class   
    
-```javascript
+```jscript
 Math.prototype.Avogadro = 6.0232E23;
 function howManyMolecules(wtGrams, molWt)
 {
@@ -139,7 +139,7 @@ document.write("There are " + howManyMolecules(window.prompt("How many grams?", 
 - The example below assumes that there is an array of periodic tables called "theElements" defined elsewhere in the script   
 - Of course, these periodic tables contain atom symbols, atom names, atomic weights, and other atom-related information   
    
-```javascript
+```jscript
 function atomName(theSymbol)
 {
     return (theElements[theSymbol].fullName);

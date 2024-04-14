@@ -27,7 +27,7 @@ categories: [JScript]
 - A local variable is one that is only used within a function   
 - In other cases, using var statements to declare variables does not change particularly   
    
-```javascript
+```jscript
 var mim = "People, plans, canals, Panama!";
 // The value stored in mim is in String format
 // The statement in the quotation marks specified in mim is a string literal
@@ -74,7 +74,7 @@ var fif = 2.718281828;
 // 특정한 값을 지정하지 않고 변수를 선언하여 초기화할 때는 특정 값으로 null을 지정할 수 있음   
 - You can specify null as a specific value when you initialize a variable by declaring it without specifying a specific value   
    
-```javascript
+```jscript
 var zaz = null;
 var notalot = 3 * zaz;  // Here, the notalo is zero
 ```
@@ -82,7 +82,7 @@ var notalot = 3 * zaz;  // Here, the notalo is zero
 // 아무런 값도 지정하지 않고 변수를 선언하면 해당 변수는 존재하기는 하지만 undefined 상태가 됨   
 - Declaring a variable without specifying any value results in an undefined state, although it exists   
    
-```javascript
+```jscript
 var godot;
 
 // Specifies the NaN value for waitingFor because the godot value is not defined
@@ -96,7 +96,7 @@ var waitingFor = 1 * godot;
 - But, undeclared variables cannot be used   
 - Runtime error when using undeclared variables   
    
-```javascript
+```jscript
 // Implicit declaration of variable let
 let = "";
 
@@ -117,7 +117,7 @@ var aMess = vyv + zez;
 - JScript may automatically convert (enforce) a variable or part of the data into another format   
 - Numbers can easily be included in strings, but strings cannot be included in direct numbers, so explicit transformation functions paradeInt() and paradeFloat() are used   
    
-```javascript
+```jscript
 var theFrom = 1;
 var theTo = 10;
 var doWhat = "The calculation is from ";
@@ -129,7 +129,7 @@ doWhat += theFrom + "to " + theTo + ".";
 - Running this code will include "The calculation is from 1 to 10" in the doWhat variable   
 - Number data is forcibly included in string format   
    
-```javascript
+```jscript
 var nowWhat = 0;
 nowWhat += 1 + "10";
 // 이 경우 "10"이 문자열이기 때문에 "+=" 연산자는 두 문자열을 연결함
@@ -152,7 +152,7 @@ NowWhat contains a number, and "110" is a string, so we convert a number into a 
   - 4 . += Combine strings because there are strings on both sides of the operator. The result is "0110"   
   - 5 . Save this result to nowWhat   
    
-```javascript
+```jscript
 var nowThen = 0;
 nowThen += 1 + parseInt("10");  // In this case, "+=" runs the addition
 ```

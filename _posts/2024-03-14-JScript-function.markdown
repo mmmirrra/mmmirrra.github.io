@@ -67,7 +67,7 @@ categories: [JScript]
 - This function calculates all valid mathematical expressions used in string format   
 - The eval() function uses one argument and that argument is the expression to be calculated   
    
-```javascript
+```jscript
 var anExpression = "6 * 9 %7";
 
 // Specify a value of 5 for the total variable
@@ -102,7 +102,7 @@ var totality = eval("It's surrounded by a lot of clams...");
 - Because of the uncertainty and rounding errors in floating point calculations, it is not practical to directly test whether the squared value of the hypotenuse is equal to the sum of the squares of the other two sides if the three values being discussed are not integers   
 - Since the direct test is more accurate, the code in the example below determines whether an integer is appropriate and uses it if it is appropriate   
    
-```javascript
+```jscript
 var epsilon = 0.0000000000001;  // Very small number to test
 var triplet = false;
 

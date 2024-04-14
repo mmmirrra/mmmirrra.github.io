@@ -51,7 +51,7 @@ categories: [JScript]
   - The first example shows the simplest Boolean test   
   - If the entry in parentheses is true, the statement or statement block after if is executed   
    
-```javascript
+```jscript
 // smash() 함수는 코드의 다른 곳에 정의되어 있음
 // - The smash() function is defined elsewhere in the code
 if (newShip)
@@ -88,7 +88,7 @@ else
 - JScript does not use the word 'if' before the condition, but a question mark after the condition to be tested. Two alternatives are specified, one to be used if the condition is satisfied and the other to be used if the condition is not satisfied   
 - The two alternatives are separated by colon   
    
-```javascript
+```jscript
 var hours = "";
 // 시간이 theHour 또는 theHour - 12 의 의미를 포함한다는 것을 나타내는 코드
 // - Code indicating that time contains the meaning of theHour or theHour - 12
@@ -110,7 +110,7 @@ hours += (theHour >= 12) ? " 오후" : " 오전";
 // 짧은 길이로 문을 구성하는데 따른 부작용은 아래 예제에서 runfirst()가 0 또는 false를 반환하면 runsecond가 실행되지 않는다는 것임   
 -  A side effect of constructing a statement with a short length is that runsecond will not run if runfirst() returns 0 or false in the example below   
    
-```javascript
+```jscript
 if ((runfirst() == 0) || (runsecond() == 0))
 {
     code...
@@ -147,7 +147,7 @@ if ((runfirst() == 0) || (runsecond() == 0))
 - An infinite loop occurs when the test conditions are always satisfied   
 - Care should be taken when creating a loop condition, as it is partially desirable if no loop is running at all, but not if infinite loop occurs   
    
-```javascript
+```jscript
 /*
     // 업데이트 식(아래 예제의 "icount++")은 루프의 끝에서 실행되는데, 루프의 본문을 형성하는 문 블록이 실행된 후 조건이 테스트되기 전에 실행됨
     - The update expression ("icount++" in the example below) runs at the end of the loop. The update expression runs after the statement block that forms the body of the loop is executed before the condition is tested
@@ -199,7 +199,7 @@ for(var icount = 1; icount > 0; icount++)
 - Loop counters in for...in loop work stepwise on all indexes in array   
 - This is a string, not a number   
    
-```javascript
+```jscript
 // tagliatelleVerde 는 몇 가지 속성을 가진 개체임
 // - A tagliatelleVerde is an object with several attributes
 for (j in tagliatelleVerde)
@@ -219,7 +219,7 @@ for (j in tagliatelleVerde)
 - The difference between the two loops is that the while loop has no internal counter variable or update expression   
 - There are already several change conditions that are reflected in the value specified in the variable and use the while loop to control the repetitive running of a statement or statement block   
    
-```javascript
+```jscript
 var theMoments = "";
 
 // Initializes the counter variable
@@ -259,7 +259,7 @@ theMoments = "BLASTOFF!";
 // continue문은 다음 반복 계산으로 즉시 이동하는데 사용되며, 코드 블록의 나머지 부분은 건너뛰지만 for 루프 또는 for...in 루프처럼 카운터 변수는 업데이트됨   
 - The continue statement is used to move immediately to the next iterative calculation. Skip the rest of the code block but the counter variable is updated, such as for loop or for...in loop   
    
-```javascript
+```jscript
 var theComment = "";
 var theRemainder = 0;
 var theEscape = 3;

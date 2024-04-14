@@ -17,7 +17,7 @@ categories: [JScript]
 ### JScript keywords   
 // JScript 키워드   
    
-```javascript
+```jscript
 break   false   in      this    void
 continue    for     new     true    while
 delete  function    null    typeof  with
@@ -28,7 +28,7 @@ else    if  return  var
 ### JScript preliminary keywords   
 // JScript 예비 키워드   
    
-```javascript
+```jscript
 case    debugger    export      super
 catch   default     extends     switch
 class   do      finally     throw
@@ -51,7 +51,7 @@ const   enum    import  try
 - Using a third category of reserved words might cause behavior problems when trying to use both variables and original items with the same name in the same script   
 - For example, the following script shows unexpected results   
    
-```javascript
+```jscript
 var String;
 var text = new String("String object");
 ```

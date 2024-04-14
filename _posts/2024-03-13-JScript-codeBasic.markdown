@@ -22,7 +22,7 @@ categories: [JScript]
 // 예시   
 - Example   
    
-```javascript
+```jscript
 aBird = "Robin";
 var today = new Data();
 ```
@@ -39,7 +39,7 @@ var today = new Data();
   - The first statement is the statement that starts the definition of a function, which consists of a block of five statements   
   - The last 3 statements without brace are not blocks and are not part of a function   
    
-```javascript
+```jscript
 function convert(inches) {
     // These three statements are one block
     feet = inches / 12;
@@ -64,7 +64,7 @@ mradius = miles;
 - One line of JScript comment starts with two slashes (//)   
 - Multiple line comments begin with a combination of slashes and asterisks ( /*) and end with asterisks and slashes ( */) in the opposite order to the start mark   
    
-```javascript
+```jscript
 aGoodIdea = "Complete the comments"; // This is a one-line comment.
 
 /*
@@ -99,7 +99,7 @@ var extendedIdea = aGoodIdea + "text";
 // JScript에서 등호(=)는 값을 지정하는 동작을 가리킬 때 사용됨   
 - In JScript, the equal sign (=) is used to indicate the action of specifying a value   
    
-```javascript
+```jscript
 anInterger = 3;
 ```
    
@@ -119,7 +119,7 @@ anInterger = 3;
 - Expression contains symbols such as "+" rather than words such as "plus"   
 - Values, variables, operators, and expressions are properly combined to construct expressions   
    
-```javascript
+```jscript
 var anExpression = "3 * (4 / 5)";
 var aSecondExpression = "MAth.PI * radius * 2";
 var aThirdExpression = aSecondExpression + "%" + anExpression;

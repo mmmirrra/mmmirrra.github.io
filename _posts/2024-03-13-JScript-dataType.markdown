@@ -29,7 +29,7 @@ categories: [JScript]
 // 문자열 예시   
 - String Example   
    
-```javascript
+```jscript
 "The cow jumped over the moon"
 '"Guys, stop!" cried the technician.'
 "42"
@@ -109,7 +109,7 @@ categories: [JScript]
 // 숫자에 관한 예시   
 - Example of a number   
    
-```javascript
+```jscript
 // 네 개의 부동 소수점 숫자, 모두 같은 숫자입니다
 // The four floating-point numbers are all the same
 .0001, 0.0001, 1e-4, 1.0e-4
@@ -160,7 +160,7 @@ categories: [JScript]
 - Boolean values are true or false   
 - Boolean values are special values and are not used as 1 and 0   
    
-```javascript
+```jscript
 /* 
     // 비교문에서 값이 0인 표현식은 false로 간주되고, 0이 아닌 숫자로 평가되는 문장은 true로 간주됩니다. 따라서 다음식은 true 입니다.
     - In comparison statement, an expression with a value of 0 is considered false, and a statement with a nonzero number is considered true. Therefore, the following expression is true.

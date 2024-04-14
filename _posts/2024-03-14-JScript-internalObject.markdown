@@ -24,7 +24,7 @@ categories: [JScript]
 // 새 배열을 만들려면 아래 예시와 같이 new 연산자와 Array() 구성자를 사용함   
 - To create a new array, use the new operator and the Array() configuration as in the example below   
    
-```javascript
+```jscript
 var theMonths = new Array(12)
 {
     theMonths[0] = "Jan";
@@ -51,7 +51,7 @@ var theMonths = new Array(12)
 - When a number is specified, the length is specified by the specified number   
 - If more than one parameter is specified, the parameter is used as an item in the array, and the number of parameters is specified in the length property as shown in the example below, which is the same as the previous code   
    
-```javascript
+```jscript
 var theMonths = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
 ```
    
@@ -73,7 +73,7 @@ var theMonths = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"
 - One of these is a substring method that returns a portion of the string   
 - This method uses two numbers as arguments for the method   
    
-```javascript
+```jscript
 aString = "0123456789";
 
 // Specifies the achunk to "456"
@@ -94,7 +94,7 @@ firstLetter = theMonths[5].substring(0, 1);
 - This property contains the number of characters in a string, where 0 means an empty string   
 - This is a numeric value and can be used directly for calculation   
    
-```javascript
+```jscript
 // Specifies the howLong variable to 11
 var howLong = "Hello World".length;
 ```
@@ -110,7 +110,7 @@ var howLong = "Hello World".length;
 - Attributes are specific numbers, one of which is a pi value (About 3.14159)   
 - This is the Math.PI attribute, as shown in the following example   
    
-```javascript
+```jscript
 // The first letters of Math and PI are capital characters
 var circleArea = Math.PI * radius * radius;
 ```
@@ -120,7 +120,7 @@ var circleArea = Math.PI * radius * radius;
 - One of the internal methods of the Math object is an exponent method, i.e., a pow that places powers on a number as a superscript   
 - In the examples below, pi and exponents are used   
    
-```javascript
+```jscript
 // The formula calculates the volume of a sphere with a given radius
 volume = (4/3) * (Math.PI * Math.pow(radius, 3));
 ```
@@ -154,7 +154,7 @@ volume = (4/3) * (Math.PI * Math.pow(radius, 3));
 - New operator must be used to create a new Date object   
 - The example below calculates the number of past and remaining dates for the current year   
    
-```javascript
+```jscript
 /*
     This example uses an array of previously defined month names.
     The first statement specifies today's date as "Day Month Date 00:00:00 Year" in the thisIsToday variable.
