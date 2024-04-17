@@ -401,8 +401,8 @@ print("The sum is" + sum)
     - Qihoo 360 Secure Browser : Chinese Web Browser   
     - Samsung Internet : The first Chromium-based browser included in the Galaxy S4 released in 2013   
     - Sleipnir : Chromium Derived Browser for Windows and macOS   
-    - SlimJet: Chrome-based Web Browser   
-    - SRWare Iron: Chromium of Freeware Version   
+    - SlimJet : Chrome-based Web Browser   
+    - SRWare Iron : Chromium of Freeware Version   
     - Torch : Chromium-based browser for Windows   
     - Vivaldi : Browser for Windows, macOS, and Linux   
     - Yandex Browser : Browser developed by Russian software company Yandex   
