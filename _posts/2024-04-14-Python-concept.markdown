@@ -39,7 +39,7 @@ categories: [Python]
 // - 명령형 프로그래밍, 절차적 프로그래밍, 객체지향 프로그래밍, 함수형 프로그래밍 지원   
 // -- 패러다임 (Paradigm) : 현실 세계를 어떠한 방식으로 모델링하는 것에 대한 여러 관점들이 있고, 그 관점들을 규칙화하여 만든 것이 패러다임임   
 - Multi-programming paradigm adoption   
-  - Definition: Approaches to creating programs   
+  - Definition : Approaches to creating programs   
   - Imperative programming, Procedural programming, Object-oriented programming, Functional programming support   
     - Paradigm : There are many perspectives on modeling the real world in some way, and it is a paradigm created by regularizing those perspectives   
    
@@ -93,7 +93,7 @@ categories: [Python]
 - Speed : Multiple libraries and frameworks can be brought in and programmed and used immediately   
 - Intuitive : You can code your thoughts immediately without difficulty   
    
-#### Open Source: Proposals for Python-Related Improvements (PEP : Python Enhance Proposal)   
+#### Open Source : Proposals for Python-Related Improvements (PEP : Python Enhance Proposal)   
 // 오픈소스 : 파이썬 관련 개선을 위한 제안 (PEP : Python Enhance Proposal)   
    
 // 많은 개발자의 의견을 수용하고 토론하며 발전한 언어   
@@ -133,7 +133,7 @@ if 3 in[1, 3, 5, 7]: print("There is 3 in it")
 int i, n;
 int sum = 0;
 
-printf("Input :");
+printf("Input : ");
 scanf("%d", &n);
 
 for(i = 0; i < n; i++)
@@ -148,7 +148,7 @@ print("The sum is %d", sum);
 - Python code   
    
 ```python
-n = int(input("Input :"))
+n = int(input("Input : "))
 sum = 0
 
 for i in range(1, n+1)
@@ -214,7 +214,7 @@ print("The sum is" + sum)
   - Runs on a variety of operating systems (platforms) including Windows, Linux, Unix, and macOS without separate compilation   
 - Interpreter-style   
   - Available in various interpreter environments such as CPython, PyPy, Cython and Jython. Use according to purpose   
-- object-oriented   
+- Object-oriented   
   - Modelling a program as an object   
 - Dynamically Typed   
   - Do not specify a data type for a variable   
@@ -241,7 +241,7 @@ print("The sum is" + sum)
 // 2. 소스 대 소스 컴파일러 : 타 언어로 작성한 컴파일러   
 - Two Types of Compilers   
     1. Self-Hosting Compiler : Compilers written in their own language through bootstrapping steps   
-    2. Source-to-source compiler: Compiler written in another language   
+    2. Source-to-source compiler : Compiler written in another language   
    
 // 오픈소스이며 커뮤니티의 기여로 지속적 발전   
 // - https://github.com/python/cpython   
@@ -290,7 +290,7 @@ print("The sum is" + sum)
 // - 파이썬을 비롯한 40여개의 프로그래밍 언어 지원   
 // - 전통적인 소스코드-컴파일-실행 방식에서 벗어나 웹 기반 대화형 개발 및 실행 환경   
 // - 문서화하여 다른 사람과 공유하기가 편리   
-// - 마트다운(Markdown)을 이용하여 코드 관련 타이틀, 설명 등 작성 가능   
+// - 마크다운(Markdown)을 이용하여 코드 관련 타이틀, 설명 등 작성 가능   
 - Open source-based web platform   
   - Support for more than 40 programming languages, including Python   
   - Web-based interactive development and execution environment away from the traditional source code-compile-execution method   
