@@ -290,7 +290,7 @@ print("The sum is" + sum)
 // - 파이썬을 비롯한 40여개의 프로그래밍 언어 지원   
 // - 전통적인 소스코드-컴파일-실행 방식에서 벗어나 웹 기반 대화형 개발 및 실행 환경   
 // - 문서화하여 다른 사람과 공유하기가 편리   
-// - 마크다운(Markdown)을 이용하여 코드 관련 타이틀, 설명 등 작성 가능   
+// - 마크다운 (Markdown) 을 이용하여 코드 관련 타이틀, 설명 등 작성 가능   
 - Open source-based web platform   
   - Support for more than 40 programming languages, including Python   
   - Web-based interactive development and execution environment away from the traditional source code-compile-execution method   
@@ -320,6 +320,84 @@ print("The sum is" + sum)
    
 // 사용자 ↔ 웹 브라우저 ↔ Colab (↔ 구글 클라우드) ↔ 구글 드라이브 저장공간 제공   
 - User ↔ Web Browser ↔ Colab (↔ Google Cloud) ↔ Google Drive Storage   
+   
+// 권장하는 웹 브라우저 : Google Chrome, Microsofr Edge 등 크로미움 (chromium) 기반의 브라우저   
+- Recommended Web Browser : Chromium-based browsers such as Google Chrome and Microsoft Edge   
+   
+// 크로미움 (chromium) 기반의 브라우저   
+// - 크로미엄 (영어 : Chromium, /ˈkroʊmiəm/) 또는 크로미움, 크로뮴은 브라우저 이름인 동시에 크롬에서 사용하는 소스 코드를 생성하는 오픈소스 프로젝트의 이름이기도 함   
+// - 오픈소스이긴 하지만, 크로미움의 주요 지원자는 구글 (Google) 임   
+// - 2008년 9월 프로젝트 자체를 시작한 것도 구글임   
+// - 오픈소스 프로젝트이기 때문에 구글 직원이 아닌 사람들도 크로미움 프로젝트에 참가할 수 있음   
+// - 구글 크롬은 크로미엄 코드를 사용하여 개발됨   
+// - 기존 크로미움 소스 코드에서 컴파일 된 브라우저가 크로미움임   
+// - 크로미엄은 주로 최신 기술을 시험하는 가늠터의 역할을 하며, 윈도우, macOS, 리눅스, 안드로이드를 지원함   
+// - 구글 크롬에는 있지만 크로미엄에는 없는 것은 다음과 같음   
+// -- 사용자 식별 인증키 설정 요구사항   
+// -- 자동 업데이트   
+// -- 사용 정보 및 오류 보고서를 구글로 보내기 선택하기   
+// -- 사용 정보 추적   
+// -- 구글 크롬과는 다른 별도의 오픈소스 내장 PDF 뷰어   
+// -- 구글 크롬과는 다른 별도의 내장 인쇄 미리보기와 인쇄 시스템   
+// -- 내장 어도비 플래시 플레이어   
+// -- 구글 계정 로그인   
+// - 크로미엄 기반의 다른 브라우저   
+// -- 구글 크롬 : 구글의 크로미움 공식 버전   
+// -- 블리스크 : 윈도우 7용 브라우저   
+// -- 브레이브 : 오픈 소스 웹 브라우저   
+// -- 코드위버스 크로스오버 크로미엄 : 와인 파생의 비공식 번들   
+// -- 코모도 드래곤 : 윈도우 8.1, 8, 윈도우 7, 비스타 32비트 버전의 크로미엄 리브랜드 버전   
+// -- Cốc Cốc : 베트남 시장에 주안을 둔 프리웨어 웹 브라우저   
+// -- Dartium : 크로미엄 브라우저의 특별한 빌드   
+// -- 마이크로소프트 엣지 : 마이크로소프트의 공식 크로미움 릴리즈   
+// -- 에픽 브라우저 : 인도의 히든 리플렉스가 개발한 웹 브라우저   
+// -- 오페라 : 버전 15부터 크로미엄의 웹 브라우저에 기반을 두기 시작함   
+// -- 치후 360 시큐어 브라우저 : 중국 웹 브라우저   
+// -- 삼성 인터넷 : 2013년 출시된 갤럭시 S4에 포함된 최초의 크로미엄 기반 브라우저   
+// -- 슬레이프니르 : 윈도우와 macOS용 크로미엄 파생 브라우저   
+// -- 슬림젯 : 크롬 기반 웹 브라우저   
+// -- SR웨어 아이언 : 프리웨어 버전의 크로미엄   
+// -- Torch : 윈도우용 크로미엄 기반 브라우저   
+// -- 비발디 : 윈도우, macOS, 리눅스용 브라우저   
+// -- 얀덱스 브라우저 : 러시아의 소프트웨어 기업 얀덱스가 개발한 브라우저   
+// -- 네이버 웨일 : 대한민국의 기업 네이버가 개발한 웹 브라우저   
+- Chromium-based browser   
+  - Chromium (English : Chromium, /ˈkroʊmiəm/) is both a browser name and also the name of an open-source project that generates the source code used by Chromium   
+  - Although open source, the main supporter of Chromium is Google   
+  - Google started the project itself in September 2008   
+  - Since it is an open-source project, non-Google employees can participate in the Chromium project   
+  - Google Chrome is developed using Chromium code   
+  - Chromium is the browser compiled from the existing Chromium source code   
+  - Chromium primarily serves as a gauge to test the latest technologies, and supports Windows, macOS, Linux, and Android   
+  - Here's what's on Google Chrome but not on Chromium   
+    - User identification authentication key setting requirements   
+    - Automatic updates   
+    - Select to send usage information and error reports to Google   
+    - Tracking usage information   
+    - PDF viewer with a separate open-source embedded, unlike Google Chrome   
+    - Separate embedded print previews and printing systems from Google Chrome   
+    - Embedded Adobe Flash Player   
+    - Log in to Google account   
+  - Other Chromium-based browsers   
+    - Google Chrome : The official version of Google's Chromium   
+    - Blisk : Browser for Windows 7   
+    - Brave : Open Source Web Browser   
+    - Code Weverse Crossover Cromium : The Unofficial Bundle of Wine Derivatives   
+    - Komodo Dragon : Chromium rebrand versions of Windows 8.1, 8, Windows 7, Vista 32-bit versions   
+    - Cốc Cốc : Freeware Web browser focused on Vietnam market   
+    - Dartium : Special Builds of a Chromium Browser   
+    - Microsoft Edge : Microsoft's Official Chromium Release   
+    - Epic Browser : Web Browser Developed by India's Hidden Reflex   
+    - Opera : version 15 starts to be based on Chromium's web browser   
+    - Qihoo 360 Secure Browser : Chinese Web Browser   
+    - Samsung Internet : The first Chromium-based browser included in the Galaxy S4 released in 2013   
+    - Sleipnir : Chromium Derived Browser for Windows and macOS   
+    - SlimJet: Chrome-based Web Browser   
+    - SRWare Iron: Chromium of Freeware Version   
+    - Torch : Chromium-based browser for Windows   
+    - Vivaldi : Browser for Windows, macOS, and Linux   
+    - Yandex Browser : Browser developed by Russian software company Yandex   
+    - Naver Whale : Web browser developed by South Korean company Naver   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
