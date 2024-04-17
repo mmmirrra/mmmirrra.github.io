@@ -321,6 +321,9 @@ print("The sum is" + sum)
 // 사용자 ↔ 웹 브라우저 ↔ Colab (↔ 구글 클라우드) ↔ 구글 드라이브 저장공간 제공   
 - User ↔ Web Browser ↔ Colab (↔ Google Cloud) ↔ Google Drive Storage   
    
+// 구글의 클라우드 서비스 GCP로부터 자원을 할당받는 데 시간이 소요됨   
+- Resource allocation from Google's cloud service GCP takes time   
+   
 // 권장하는 웹 브라우저 : Google Chrome, Microsofr Edge 등 크로미움 (chromium) 기반의 브라우저   
 - Recommended Web Browser : Chromium-based browsers such as Google Chrome and Microsoft Edge   
    
