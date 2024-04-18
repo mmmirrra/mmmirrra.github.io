@@ -71,7 +71,7 @@ categories: [Database Systems]
    
 |Student|Relationship|Department|
 |:---|:---:|:---|
-|Student number<br />Student name<br />Gender<br />Age()<br />...|- ◇ -<br />Major|Department name<br />A college of law<br />...|
+|Student number<br />Student name<br />Gender<br />Age()<br />...|── ◇ ──<br />Major|Department name<br />A college of law<br />...|
    
 #### Attributes   
 // 속성   
@@ -196,21 +196,21 @@ Example of a one-to-one mapping cardinality representation
    
 |Student|Relationship|Account|
 |:---|:---:|:---|
-|Student number<br />Student name<br />...|← ◇ →<br />possession|Account number<br />...|
+|Student number<br />Student name<br />...|←─ ◇ ─→<br />possession|Account number<br />...|
    
 Example of a one-to-many mapping cardinality representation   
 // 일대다 사상수 표현 예시   
    
 |Professor|Relationship|Subject|
 |:---|:---:|:---|
-|Professor number<br />Professor name<br />...|← ◇ -<br />Lecture|Subject code<br />Subject name<br />...|
+|Professor number<br />Professor name<br />...|←─ ◇ ─<br />Lecture|Subject code<br />Subject name<br />...|
    
 Example of a many-to-many mapping cardinality representation   
 // 다대다 사상수 표현 예시   
    
 |Student|Relationship|Subject|
 |:---|:---:|:---|
-|Student number<br />Student name<br />...|- ◇ -<br />Registration for courses|Subject code<br />Subject name<br />...|
+|Student number<br />Student name<br />...|── ◇ ──<br />Registration for courses|Subject code<br />Subject name<br />...|
    
 #### participation constraints   
 // 참가 제약조건   
@@ -264,7 +264,7 @@ Example of a many-to-many mapping cardinality representation
    
 |Student|Relationship|Subject|Recursive<br />relationship|
 |:---|:---:|:---|---:|
-|Student number<br />Student name<br />...|Application time<br />│<br />- ◇ -<br />Registration<br />for courses|Subject code<br />Subject name<br />...<br />Preceding<br />subject code<br />...|← Subject code<br />│<br />│<br />- Preceding  - ◇<br />subject code &nbsp;&nbsp;&nbsp;<br /><br />|
+|Student number<br />Student name<br />...|Application time<br />│<br />── ◇ ──<br />Registration<br />for courses|Subject code<br />Subject name<br />...<br />Preceding<br />subject code<br />...|← Subject code<br />│<br />│<br />─ Preceding ─ ◇<br />subject code &nbsp;&nbsp;&nbsp;<br /><br />|
    
 // 약한 개체 집합   
 // - 개체의 존재 유무가 관계를 맺고 있는 개체의 존재에 종속되는 개체 집합   

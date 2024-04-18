@@ -414,7 +414,7 @@ T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>
 6. Basic recurrence relation   
   T(1) = θ(1), n = 1   
   T(n) = 2T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
-  → Closed type <b>T(n) = θ(nlogn)</b> (※ Merger sort. Quick sort - Best Case)   
+  → Closed type <b>T(n) = θ(nlogn)</b> (※ Merger Sort. Quick Sort - Best Case)   
    
 <br />
 #### Importance of Efficient Algorithm   

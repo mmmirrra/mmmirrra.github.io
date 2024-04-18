@@ -152,7 +152,7 @@ Relationship between Binary Search Algorithm and Divide-and-Conquer Method
 - Conquest : If the search key is smaller than the middle element, circular calls binary search for the left subarray; if it is larger, circular calls for binary search for the right subarray   
 - Combination : no combination is required as search results for partial arrangement are returned directly   
    
-#### Quick sort   
+#### Quick Sort   
 // 퀵 정렬   
    
 #### Merge Sort   
