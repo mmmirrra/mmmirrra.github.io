@@ -102,7 +102,7 @@ categories: [University Mathematics]
     - → the circumference of the earth = 46,250km   
   - The recent measurements of the earth's circumference were 40,077 kilometers   
    
-#### Mathematics can be defined in broad and narrow terms   
+#### Can define Mathematics broad or in a narrow terms   
 // 수학은 광의적, 협의적 정의 가능   
    
 // 수학의 정의   
