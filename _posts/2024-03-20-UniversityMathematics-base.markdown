@@ -88,7 +88,7 @@ categories: [University Mathematics]
 // - 지구는 360˚로 둥근 형태이므로 이 정보를 가지고 비례식을 만들었음   
 // - 7.2˚ : 360˚ = 925km : 지구둘레   
 // -- → 지구둘레 x 7.2˚ = 360˚ x 925km   
-// -- → 지구둘레 = <sup>360˚ x 925km</sup>/<sub>7.2˚</sub>   
+// -- → 지구둘레 = <sup>360˚ x 925km</sup> / <sub>7.2˚</sub>   
 // -- → 지구둘레 = 46,250km   
 // - 최근 실제로 지구둘레는 측정해본 결과 40,077km 였음   
 - Measurement of Earth's circumference of Eratosthenes   
@@ -98,7 +98,7 @@ categories: [University Mathematics]
   - The Earth is rounded at 360°, so he created a proportional equation with this information   
   - 7.2˚ : 360˚ = 925km : the circumference of the earth   
     - → the circumference of the earth x 7.2˚ = 360˚ x 925km   
-    - → the circumference of the earth = <sup>360˚ x 925km</sup>/<sub>7.2˚</sub>   
+    - → the circumference of the earth = <sup>360˚ x 925km</sup> / <sub>7.2˚</sub>   
     - → the circumference of the earth = 46,250km   
   - The recent measurements of the earth's circumference were 40,077 kilometers   
    
@@ -129,8 +129,8 @@ categories: [University Mathematics]
 - Theorem   
   - Theorem : The proposition "assumption → conclusion" (P → Q)   
   - Proof of theorem : If P is true, it shows that Q is true (Proof with contraposition ~Q → ~P)   
-  - P → Q is true : P is the sufficient condition for Q, and Q is the requirement condition for P   
-  - Necessary and sufficient conditions : P ↔ Q   
+  - P → Q is true : P is the sufficient condition for Q, and Q is the necessity condition for P   
+  - Necessity and sufficient conditions : P ↔ Q   
    
 #### Proof of Proposition : Deductive reasoning, Inductive reasoning, and Mathematical Induction   
 // 명제의 증명 : 연역법, 귀류법과 수학적 귀납법   
@@ -161,7 +161,7 @@ categories: [University Mathematics]
 // 귀류법으로 증명   
 - Proof by inductive method   
    
-- √2 = <sup>a</sup>/<sub>b</sub>   
+- √2 = <sup>a</sup> / <sub>b</sub>   
   - a and b are coprime   
   - b ≠ 0   
    
@@ -170,7 +170,7 @@ categories: [University Mathematics]
 - Assumption   
   - Assume that √ 2 is a rational number   
    
-- 2 = <sup>a²</sup>/<sub>b²</sub>   
+- 2 = <sup>a²</sup> / <sub>b²</sub>   
   - → a² = 2b²   
   - → a² is an even number   
   - → a is an even number   
@@ -191,18 +191,18 @@ categories: [University Mathematics]
   - → √2 is not a rational number   
   - → ∴ √2 is irrational number   
    
-#### Show that 1 + 2 + ... + n = <sup>n(n+1)</sup>/<sub>2</sub> for a natural number n   
-// 자연수 n에 대하여 1 + 2 + ... + n = <sup>n(n+1)</sup>/<sub>2</sub> 임을 보이시오   
+#### Show that 1 + 2 + ... + n = <sup>n(n+1)</sup> / <sub>2</sub> for a natural number n   
+// 자연수 n에 대하여 1 + 2 + ... + n = <sup>n(n+1)</sup> / <sub>2</sub> 임을 보이시오   
    
 // 수학적 귀납법으로 증명   
 - Proof by mathematical induction   
    
-- If n = 1 → 1 = <sup>1(1+1)</sup>/<sub>2</sub> = 1 → establishment   
-- If n = k → 1 + 2 + ... + k = <sup>k(k+1)</sup>/<sub>2</sub> → Assuming it is established   
-- If n = k + 1 → 1 + 2 + ... + k + (k + 1)= <sup>k(k+1)</sup>/<sub>2</sub> + (k + 1)   
-- = <sup>1</sup>/<sub>2</sub>k² + <sup>1</sup>/<sub>2</sub>k + k + 1   
-- = <sup>1</sup>/<sub>2</sub>(k² + 3k + 2)   
-- = <sup>1</sup>/<sub>2</sub>(k + 1)(k + 2)   
+- If n = 1 → 1 = <sup>1(1+1)</sup> / <sub>2</sub> = 1 → establishment   
+- If n = k → 1 + 2 + ... + k = <sup>k(k+1)</sup> / <sub>2</sub> → Assuming it is established   
+- If n = k + 1 → 1 + 2 + ... + k + (k + 1)= <sup>k(k+1)</sup> / <sub>2</sub> + (k + 1)   
+- = <sup>1</sup> / <sub>2</sub>k² + <sup>1</sup> / <sub>2</sub>k + k + 1   
+- = <sup>1</sup> / <sub>2</sub>(k² + 3k + 2)   
+- = <sup>1</sup> / <sub>2</sub>(k + 1)(k + 2)   
 - → n = k establishment → n = k + 1 establishment   
 - → ∴ Established for all natural numbers   
    
@@ -258,8 +258,8 @@ categories: [University Mathematics]
    
 - a > b, b > c ⇒ a > c   
 - a > b ⇒ a + c > b + c, a - c > b -c   
-- a > b, c > 0 ⇒ ac > bc, <sup>a</sup>/<sub>c</sub> > <sup>b</sup>/<sub>c</sub>   
-- a > b, c < 0 ⇒ ac < bc, <sup>a</sup>/<sub>c</sub> < <sup>b</sup>/<sub>c</sub>   
+- a > b, c > 0 ⇒ ac > bc, <sup>a</sup> / <sub>c</sub> > <sup>b</sup> / <sub>c</sub>   
+- a > b, c < 0 ⇒ ac < bc, <sup>a</sup> / <sub>c</sub> < <sup>b</sup> / <sub>c</sub>   
    
 #### Absolute Value   
 // 절대값   
@@ -268,7 +268,7 @@ categories: [University Mathematics]
 - \|a\| = -a, a < 0   
 - \|a\| ≥ 0, \|a\| = \|-a\|   
 - \|ab\| = \|a\|\|b\|   
-- \|<sup>a</sup>/<sub>b</sub>\| = <sup>\|a\|</sup>/<sub>\|b\|</sub> (b ≠ 0)   
+- \|<sup>a</sup> / <sub>b</sub>\| = <sup>\|a\|</sup> / <sub>\|b\|</sub> (b ≠ 0)   
    
 #### Theorem |a + 1| + |a - 2| according to the range of a   
 // |a + 1| + |a - 2|를 a의 범위에 따라 정리하시오   

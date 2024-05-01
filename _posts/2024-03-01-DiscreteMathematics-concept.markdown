@@ -56,7 +56,7 @@ You have to train yourself to build a knowledge system
    
 |Types|Types|Types|
 |:---|:---|:---|
-|// 논리<br />Logic|// 증명<br />Proofs|// 귀납법<br />Induction|
+|// 논리<br />Logic|// 증명<br />Proof|// 귀납법<br />Induction|
 |// 집합<br />Sets|// 행렬<br />Matrices|// 관계<br />Relations|
 |// 함수<br />Functions|// 부울대수<br />Boolean Algebra|// 그래프<br />Graphs|
 |// 트리<br />Trees|// 조합이론<br />Combinatorial Theory|// 재귀식<br />Recursion|
@@ -248,7 +248,7 @@ print "fire";
 |이산수학 주제|컴퓨터 응용 분야|
 |:---|:---|
 |Logic|// 전문가 시스템<br />Expert System|
-|Proofs|// 컴퓨터 프로그램의 효과성 및 효율성 입증<br />Performance Evaluation|
+|Proof|// 컴퓨터 프로그램의 효과성 및 효율성 입증<br />Performance Evaluation|
 |Sets|// 계산 이론, 데이터베이스 등<br />Data Structure, DB|
 |Matrices|// 2차원 그래픽, 3차원 그래픽, 기계학습<br />Graphics, Robotics|
 |Relations|// 관계형 데이터베이스<br />DB|

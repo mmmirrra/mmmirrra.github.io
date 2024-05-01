@@ -40,23 +40,23 @@ categories: [University Mathematics]
    
 // 예시 : 두 점 (3, 2) 와 (4, 3) 을 지나는 직선   
 - Example : A straight line passing through two points (3, 2) and (4, 3)   
-  - slope =  <sup>change in y</sup>/<sub>change in x</sub> = <sup>3 - 2</sup>/<sub>4 - 3</sub> = 1   
+  - slope =  <sup>change in y</sup> / <sub>change in x</sub> = <sup>3 - 2</sup> / <sub>4 - 3</sub> = 1   
   - equation : y - 2 = x - 3 → y = x - 1   
    
 // 방정식 : 임의의 두 점 (x<sub>1</sub>, y<sub>1</sub>) 과 (x<sub>2</sub>, y<sub>2</sub>) 를 지나는 직선 표현   
 // 기울기 : x값의 변화에 대한 y값의 변화의 비   
-// - 기울기 β = <sup>y<sub>2</sub> - y<sub>1</sub></sup>/<sub>x<sub>2</sub> - x<sub>1</sub></sub>   
+// - 기울기 β = <sup>y<sub>2</sub> - y<sub>1</sub></sup> / <sub>x<sub>2</sub> - x<sub>1</sub></sub>   
 // 절편 : 직선이 y축과 만나는 점   
 // - y = βx + b → x = 0일 때의 b의 값을 절편이라고 함   
 - equation : A straight line representation through any two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>)   
 - slope : The ratio of the change in y value to the change in x value   
-  - slope β = <sup>y<sub>2</sub> - y<sub>1</sub></sup>/<sub>x<sub>2</sub> - x<sub>1</sub></sub>   
+  - slope β = <sup>y<sub>2</sub> - y<sub>1</sub></sup> / <sub>x<sub>2</sub> - x<sub>1</sub></sub>   
 - intercept : The point where the straight line meets the y-axis   
   - y = βx + b → When x = 0, the value of b is called the intercept   
    
 // 예시 : (2, 1) 과 (4, 5) 를 지나는 직선의 방정식을 구하시오   
 - Example : Find an equation of the straight line passing through (2, 1) and (4, 5)   
-  - slope β = <sup>5 - 1</sup>/<sub>4 - 2</sub> = <sup>4</sup>/<sub>2</sub> = 2   
+  - slope β = <sup>5 - 1</sup>  <sub>4 - 2</sub> = <sup>4</sup> / <sub>2</sub> = 2   
   - y = 2x + b   
   - 1 = 2·2 + b   
   - b = -3   
@@ -94,12 +94,12 @@ categories: [University Mathematics]
 - two fixed points : A(-c, 0), B(c, 0)   
 - a point away from two fixed points : C(x, y)   
   - √ ((x + c)² + y²) + √ ((x - c)² + y²) = 2a   
-  - ∴ <sup>x²</sup>/<sub>a²</sub> + <sup>y²</sup>/<sub>b²</sub> = 1   
+  - ∴ <sup>x²</sup> / <sub>a²</sub> + <sup>y²</sup> / <sub>b²</sub> = 1   
   - b² = a² - c²   
   - ∴ It's an ellipse   
    
 - if a = b   
-  - <sup>x²</sup>/<sub>a²</sub> + <sup>y²</sup>/<sub>a²</sub> = 1   
+  - <sup>x²</sup> / <sub>a²</sub> + <sup>y²</sup> / <sub>a²</sub> = 1   
   - x² + y² = a²   
   - ∴ It's a circle   
    
@@ -108,7 +108,7 @@ categories: [University Mathematics]
   - √ ((x + 1)² + y²) + √ ((x - 1)² + y²) = 4 = 2a   
   - a = 2, c = 1   
   - b² =  a² - c² = 4 - 1 = 3   
-  - <sup>x²</sup>/<sub>a²</sub> + <sup>y²</sup>/<sub>b²</sub> = <sup>x²</sup>/<sub>4</sub> + <sup>y²</sup>/<sub>3</sub> = 1   
+  - <sup>x²</sup> / <sub>a²</sub> + <sup>y²</sup> / <sub>b²</sub> = <sup>x²</sup> / <sub>4</sub> + <sup>y²</sup> / <sub>3</sub> = 1   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

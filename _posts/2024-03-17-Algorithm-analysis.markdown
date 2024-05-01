@@ -117,7 +117,7 @@ SumAverage(A[], n)
    
 ||expression 1|expression 2|
 |:---|:---:|:---:|
-||f<sub>1</sub>(n) = 10n + 9|f<sub>2</sub>(n) = <sup>n²</sup>/<sub>2</sub> + 3n|
+||f<sub>1</sub>(n) = 10n + 9|f<sub>2</sub>(n) = <sup>n²</sup> / <sub>2</sub> + 3n|
 |n=5|59|27.5|
 |n=10|109|80|
 |n=15|159|157.5|
@@ -263,7 +263,7 @@ Function
    
 ||expression 1|expression 2|expression 3|
 |:---:|:---:|:---:|:---:|
-||f<sub>1</sub>(n) = 10n + 9|f<sub>2</sub>(n) = <sup>n²</sup>/<sub>2</sub> + 3n|f<sub>3</sub>(n) = 3n³ + 3n + 2|
+||f<sub>1</sub>(n) = 10n + 9|f<sub>2</sub>(n) = <sup>n²</sup> / <sub>2</sub> + 3n|f<sub>3</sub>(n) = 3n³ + 3n + 2|
 |Asymptotic analysis|O(n)|O(n²)|O(n³)|
    
 |O(1) < O(logn) < O(n) < O(nlogn) < O(n²) < O(n³) < O(2n)|
@@ -361,28 +361,28 @@ BinarySearch(A[], key, Left, Right) {
 }
 ```
    
-// 이진 탐색의 수행 시간 T(n) = T(<sup>n</sup>/<sub>2</sub>) + O(1), T(1) = c<sub>1</sub>   
+// 이진 탐색의 수행 시간 T(n) = T(<sup>n</sup> / <sub>2</sub>) + O(1), T(1) = c<sub>1</sub>   
 // O(1) 은 상수 수행 시간   
-// T(<sup>n</sup>/<sub>2</sub>) 은 if문 수행 시간 : else...if 와 else 중 하나만 수행하므로 n의 <sup>1</sup>/<sub>2</sub> 임   
-- Time to running binary search T(n) = T(<sup>n</sup>/<sub>2</sub>) + O(1), T(1) = c<sub>1</sub>   
+// T(<sup>n</sup> / <sub>2</sub>) 은 if문 수행 시간 : else...if 와 else 중 하나만 수행하므로 n의 <sup>1</sup>/<sub>2</sub> 임   
+- Time to running binary search T(n) = T(<sup>n</sup> / <sub>2</sub>) + O(1), T(1) = c<sub>1</sub>   
 - O(1) is constant running time   
-- T(<sup>n</sup>/<sub>2</sub>) is if statement running time : <sup>1</sup>/<sub>2</sub> of n since only one of else...if and else is performed   
+- T(<sup>n</sup> / <sub>2</sub>) is if statement running time : <sup>1</sup> / <sub>2</sub> of n since only one of else...if and else is performed   
    
 <br />
 #### Obtaining the closed type of recurrence relation   
 // 점화식의 폐쇄형 구하기   
    
 // Recurrence Relation   
-T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>   
+T(n) = T(<sup>n</sup> / <sub>2</sub>) + c<sub>2</sub>   
 T(1) = c<sub>1</sub>   
    
 // The process of solving a problem   
-T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>   
-= T(<sup>n</sup>/<sub>4</sub>) + c<sub>2</sub> + c<sub>2</sub> = T(<sup>n</sup>/<sub>2²</sub>) + 2c<sub>2</sub>  
-= T(<sup>n</sup>/<sub>8</sub>) + c<sub>2</sub> + c<sub>2</sub> + c<sub>2</sub> = T(<sup>n</sup>/<sub>2³</sub>) + 3c<sub>2</sub>   
+T(n) = T(<sup>n</sup> / <sub>2</sub>) + c<sub>2</sub>   
+= T(<sup>n</sup> / <sub>4</sub>) + c<sub>2</sub> + c<sub>2</sub> = T(<sup>n</sup> / <sub>2²</sub>) + 2c<sub>2</sub>  
+= T(<sup>n</sup> / <sub>8</sub>) + c<sub>2</sub> + c<sub>2</sub> + c<sub>2</sub> = T(<sup>n</sup> / <sub>2³</sub>) + 3c<sub>2</sub>   
 ...   
-= T(<sup>n</sup>/<sub>2<sup>k-1</sup></sub>) + (k - 1)c<sub>2</sub>   
-= T(<sup>n</sup>/<sub>2<sup>k</sup></sub>) + kc<sub>2</sub>   
+= T(<sup>n</sup> / <sub>2<sup>k-1</sup></sub>) + (k - 1)c<sub>2</sub>   
+= T(<sup>n</sup> / <sub>2<sup>k</sup></sub>) + kc<sub>2</sub>   
 = T(1) + kc<sub>2</sub> (Defined only when n = 2<sup>k</sup>, k = log<sub>2</sub>n)   
 = c<sub>1</sub> + c<sub>2</sub>log<sub>2</sub>n   
 = θ(log<sub>2</sub>n)   
@@ -401,19 +401,19 @@ T(n) = T(<sup>n</sup>/<sub>2</sub>) + c<sub>2</sub>
   → Closed type <b>T(n) = θ(n²)</b> (※ Quick Sort - Worst Case)   
 3. Basic recurrence relation   
   T(1) = θ(1), n = 1   
-  T(n) = T(<sup>n</sup>/<sub>2</sub>) + θ(1), n ≥ 2   
+  T(n) = T(<sup>n</sup> / <sub>2</sub>) + θ(1), n ≥ 2   
   → Closed type <b>T(n) = θ(logn)</b> (※ binary search)   
 4. Basic recurrence relation   
   T(1) = θ(1), n = 1   
-  T(n) = T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
+  T(n) = T(<sup>n</sup> / <sub>2</sub>) + θ(n), n ≥ 2   
   → Closed type T(n) = θ(n)   
 5. Basic recurrence relation   
   T(1) = θ(1), n = 1   
-  T(n) = 2T(<sup>n</sup>/<sub>2</sub>) + θ(1), n ≥ 2   
+  T(n) = 2T(<sup>n</sup> / <sub>2</sub>) + θ(1), n ≥ 2   
   → Closed type T(n) = θ(n)   
 6. Basic recurrence relation   
   T(1) = θ(1), n = 1   
-  T(n) = 2T(<sup>n</sup>/<sub>2</sub>) + θ(n), n ≥ 2   
+  T(n) = 2T(<sup>n</sup> / <sub>2</sub>) + θ(n), n ≥ 2   
   → Closed type <b>T(n) = θ(nlogn)</b> (※ Merger Sort. Quick Sort - Best Case)   
    
 <br />

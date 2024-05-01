@@ -276,7 +276,7 @@ truth table
 // - q는 p의 필요조건   
 - p → q (p ⇒ q)   
   - p is a sufficient condition of q   
-  - q is the requirement condition of p   
+  - q is the necessity condition of p   
    
 truth table   
 // 진리표   
