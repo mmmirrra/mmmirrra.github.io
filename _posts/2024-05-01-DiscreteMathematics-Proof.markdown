@@ -395,7 +395,7 @@ categories: [Discrete Mathematics]
         - ⇒ a<sup>b</sup> = (√2<sup>√2</sup>)<sup>√2</sup> = √2<sup>(√2√2)</sup> = √2<sup>2</sup> = 2   
         - ⇒ a<sup>b</sup> is a rational number   
         - ∴ The proposition is true. ■   
-    - ∴ The proposition is true. ■   
+  - ∴ The proposition is true. ■   
    
 <br />
 ### a variety of proof methods   
