@@ -241,7 +241,7 @@ categories: [Discrete Mathematics]
         - ⇒ <sup>k(k + 1) + 2(k + 1)</sup> / <sub>2</sub>   
         - ⇒ <sup>(k + 1)(k + 2)</sup> / <sub>2</sub>   
         - ⇒ <sup>(k + 1)((k + 1) + 1)</sup> / <sub>2</sub>   
-  - ∴ Based on proof by mathematical induction, the proposition given is true. ■   
+- ∴ Based on proof by mathematical induction, the proposition given is true. ■   
    
 <br />
 ### indirect proof   
