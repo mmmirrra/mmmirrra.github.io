@@ -382,7 +382,7 @@ categories: [Multimedia System]
 - Developed with the development of a new editing system called DTP (Desk Top Publishing) (1985, USA) and the advent of the electronic publication CD-ROM   
 - Also known as online publication or web publication   
    
-// DTP   
+- DTP   
 // - 탁상출판   
 // - 컴퓨터로 단행본이나 사전 등의 출판물을 디자인하는 작업   
   - Desk Top Publishing   
