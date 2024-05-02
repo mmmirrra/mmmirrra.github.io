@@ -73,14 +73,14 @@ categories: [Computer]
 // 진법   
    
 // 10진법 : 10은 기저 (base) 를 나타냄   
-// -- 253 = 2 x 100 + 5 x 10 + 3 x 1 = 2 x 10² + 5 x 10¹ + 3 x 10<sup>0</sup>   
-// -- 10 = 1 x 10¹ + 0 x 10<sup>0</sup>   
+// - 253 = 2 x 100 + 5 x 10 + 3 x 1 = 2 x 10² + 5 x 10¹ + 3 x 10<sup>0</sup>   
+// - 10 = 1 x 10¹ + 0 x 10<sup>0</sup>   
 // 2진법 : 2는 기저 (base) 를 나타냄   
 // - 2진수를 10진수로 바꿀 수 있음   
 // -- (1010)₂ = 1 x 2³ + 0 x 2² + 1 x 2¹ + 0 x 2<sup>0</sup> = 1 x 8 + 0 x 4 + 1 x 2 + 0 x 1 = 8 + 0 + 2 + 0 = (10)<sub>10</sub>   
 - Decimal system : 10 represents the base   
-    - 253 = 2 x 100 + 5 x 10 + 3 x 1 = 2 x 10² + 5 x 10¹ + 3 x 10<sup>0</sup>   
-    - 10 = 1 x 10¹ + 0 x 10<sup>0</sup>   
+  - 253 = 2 x 100 + 5 x 10 + 3 x 1 = 2 x 10² + 5 x 10¹ + 3 x 10<sup>0</sup>   
+  - 10 = 1 x 10¹ + 0 x 10<sup>0</sup>   
 - Binary system : 2 represents the base   
   - Binary numbers can be changed to decimal numbers   
     - (1010)₂ = 1 x 2³ + 0 x 2² + 1 x 2¹ + 0 x 2<sup>0</sup> = 1 x 8 + 0 x 4 + 1 x 2 + 0 x 1 = 8 + 0 + 2 + 0 = (10)<sub>10</sub>   
