@@ -63,7 +63,7 @@ categories: [Computer]
 // 실시간 시스템과 운영체제 사용   
 // - 컴퓨터 속도가 더 빠르고 크기가 더 작고 비용이 더 저렴하여 많은 기업들이 컴퓨터를 사용할 수 있게 됨   
 - 1958 ~ 1964 : the transistor era   
-- Disadvantages of vacuum tube : lots of heat generation. low reliability. lots of space requirements. slow data processing speed   
+- Weaknesses of vacuum tube : lots of heat generation. low reliability. lots of space requirements. slow data processing speed   
 - 1947 transistor invention : Bell Labs, United States. Semiconductor devices that act as amplification and switching   
 - The first computer to use transistors in 1954 TRADIC   
 - In 1958, IBM 7090, 7070 using only transistors   

@@ -139,7 +139,7 @@ categories: [Multimedia System]
   - Combination type : Based on the principle of making Hangul, code is assigned to the initial sound, middle sound, and final sound, respectively   
   - Complete Type : Assign codes to complete characters such as '가' and '각'   
 - The complete Korean code is Korean standard plan   
-  - The completion type has the disadvantage of not being able to express all Korean characters, but the standard is adopted as an advantage of less problems in computer communication   
+  - The completion type has the weakness of not being able to express all Korean characters, but the standard is adopted as an strength of less problems in computer communication   
    
 #### Unicode   
 // 유니코드   
@@ -256,8 +256,8 @@ categories: [Multimedia System]
 // TXT 형식에 비해 그래픽 효과, 그리기 및 특수기호, 수식과 같은 다양한 문자열 서식과 문자열 맞춤, 탭, 줄 간격 등을 지원하는 장점   
 // 같은 텍스트를 저장하더라도 파일 용량이 커지는 단점   
 - Microsoft's MS Word Document Format   
-- Compared to TXT format, it is advantageous to support various character string formats such as graphic effects, drawing and special symbols, and formulas, as well as character string customization, tap, and line spacing   
-- Saving the same text has the disadvantage of increasing file capacity   
+- Compared to TXT format, it is strength to support various character string formats such as graphic effects, drawing and special symbols, and formulas, as well as character string customization, tap, and line spacing   
+- Saving the same text has the weakness of increasing file capacity   
    
 #### HWP (Hangul Word Processor)   
    
@@ -301,7 +301,7 @@ categories: [Multimedia System]
 - page description language proposed and standardized by W3C   
 - Text format designed to transfer structured documents over the web   
 - The file is TXT format and can be edited using a regular editor   
-- Have the advantages of both HTML and SGML   
+- Have the strengths of both HTML and SGML   
    
 - W3C (World Wide Web Consortium)   
 // - 웹 표준을 제공하는 등 웹의 장기적인 발전을 위해 1994년에 창립된 인터넷 관련 국제 컨소시엄   
@@ -329,7 +329,7 @@ categories: [Multimedia System]
 // - 대부분의 문서가 표현 가능   
 // - 암호화 및 압축기술로 인해 변조의 어려움   
 // - 다양한 프로그램에서 지원 가능   
-- Advantages over other document formats   
+- Strengths over other document formats   
   - Most documents can be represented   
   - Encryption and compression technology make modulation difficult   
   - Available in a wide range of programs   
@@ -354,7 +354,7 @@ categories: [Multimedia System]
   - A system that improves TeX's uncomfortable user interface   
    
 // TeX/LaTeX는 간단한 명령어 (태그) 를 문법에 맞게 작성한 다음 이 파일을 컴파일하게 되면 글씨체나 수학적인 공식을 아주 예쁘게 작성할 수 있다는 장점이 있음   
-- TeX/LaTeX has the advantage of being able to write simple commands (tags) according to grammar and then compile these files to make very pretty handwriting or mathematical formulas   
+- TeX/LaTeX has the strength of being able to write simple commands (tags) according to grammar and then compile these files to make very pretty handwriting or mathematical formulas   
    
 <br />
 ### Electronic Book and publishing   
@@ -399,7 +399,7 @@ categories: [Multimedia System]
 // - 기존의 종이로 만든 출판물에 비해 신속성, 검색의 용이성, 보관의 편리성, 원가 절감, 상호작용성 등의 장점   
 - Characteristics of Online Electronic Publishing   
   - Since it provides information through the network, it provides various information from text and pictures as well as moving images and human voices   
-  - It has advantages over traditional paper-based publications such as speed, ease of search, ease of storage, cost reduction, and interactivity   
+  - It has strengths over traditional paper-based publications such as speed, ease of search, ease of storage, cost reduction, and interactivity   
    
 // 온라인 전자출판의 예   
 // - 웹진 (webzine)   
@@ -420,7 +420,7 @@ categories: [Multimedia System]
 // - PDF 방식 역시 다양한 편집 레이아웃의 장점을 갖고 있고, 다양한 멀티미디어를 구현할 수 있어서 많이 사용   
 - HTML, PDF, XML, etc. are used   
   - XML or HTML5 is used as an alternative as HTML shows limitations in multimedia data processing   
-  - The PDF method also has the advantages of various editing layouts and is widely used because it can implement various multimedia   
+  - The PDF method also has the strengths of various editing layouts and is widely used because it can implement various multimedia   
    
 #### Terms related to electronic publication   
 // 전자출판에 관련된 용어   

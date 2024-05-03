@@ -71,7 +71,7 @@ categories: [Computer Science]
   - ① Find solutions and procedures for the given problem → "Algorithm"   
   - ② Express it in a form that a computer can understand using an appropriate programming language   
    
-#### Advantages of computers   
+#### Strengths of computers   
 // 컴퓨터의 장점   
    
 // 신속한 처리   

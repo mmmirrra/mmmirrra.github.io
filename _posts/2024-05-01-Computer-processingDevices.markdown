@@ -276,7 +276,7 @@ categories: [Computer]
 - Compared to the magnetic-core, semiconductor memory devices require a constant supply of current   
    
 // 단점 : 전기가 꺼지거나 방해를 받는 경우 데이터를 잃어버림   
-- Disadvantage : Loss of data if electricity is turned off or interrupted   
+- Weakness : Loss of data if electricity is turned off or interrupted   
    
 #### RAM (Random Access Memory)   
    
