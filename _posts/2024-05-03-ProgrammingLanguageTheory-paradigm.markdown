@@ -26,7 +26,7 @@ categories: [Programming Language Theory]
 // 프로그램을 작성하는 전형적인 방식   
 // 특정 언어에 종속적인 것이 아닌 프로그래머가 추구하는 프로그램 작성 방식   
 - A typical way of coding a program   
-- the method of writing a program that is not dependent on a particular language and is pursued by a programmer   
+- The method of writing a program that is not dependent on a particular language and is pursued by a programmer   
    
 #### A shift in the programming paradigm   
 // 프로그래밍 패러다임의 변화   
@@ -85,7 +85,7 @@ categories: [Programming Language Theory]
 // - 해당 프로그래밍 언어가 지원하는 프로그래밍 패러다임   
 // - 일반적으로 프로그래밍 언어는 여러 프로그래밍 패러다임을 지원   
 - Programming Paradigm   
-  - the way or style of coding a program   
+  - The way or style of coding a program   
 - Programming Language Paradigm   
   - Programming paradigm supported by that programming language   
   - In general, programming languages support multiple programming paradigms   
@@ -323,7 +323,7 @@ igcd a b = igcd (abs b) (a `mod` (abs b))
 // 논리식은 명제나 술어로 나타냄   
 // - 술어는 인수를 받을 수 있음   
 - Program   
-  - logical set   
+  - Logical set   
 - A logical expression is represented by a proposition or predicate   
   - Predicate can take argument   
    
