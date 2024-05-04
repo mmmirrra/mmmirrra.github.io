@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java: Scanner Class"
-date:   2024-05-04 09:00:00 +0900
+date:   2024-05-03 09:00:00 +0900
 categories: [Java]
 ---
 
