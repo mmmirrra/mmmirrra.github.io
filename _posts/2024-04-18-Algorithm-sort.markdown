@@ -22,7 +22,7 @@ categories: [Algorithm]
   - Internal Sort   
     - To store the entire data in the main memory and then perform sorting   
   - External Sort   
-    - If all data cannot be stored in the main memory, all data is stored in the secondary memory, and only some of the data is repeatedly moved to the main memory to perform sorting   
+    - If all data cannot be stored in the main memory, all data is stored in the auxiliary memory, and only some of the data is repeatedly moved to the main memory to perform sorting   
    
 #### Internal sorting algorithm   
 // 내부 정렬 알고리즘   

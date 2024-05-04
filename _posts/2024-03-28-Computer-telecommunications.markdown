@@ -213,7 +213,7 @@ categories: [Computer]
 // 향후 빛, 초전도체로 작동하는 컴퓨터. 인간의 신경회로망을 닮은 컴퓨터. 언어를 이해하는 초고속, 초소형, 초경량, 초저가의 컴퓨터. 양자컴퓨터   
 // 유비쿼터스와 사물 인터넷 (IoT) : 스마트 시티   
 - Lower computer prices. Smaller. Big improvements in performance and functionality   
-- Large-scale integrated circuitry (GSI) of memory using parallel processing technology, optical element, Josephson element, gallium arsenide element and etc. Auxiliary storage using optical or RAM disks. Cloud   
+- Large-scale integrated circuitry (GSI) of memory using parallel processing technology, optical element, Josephson element, gallium arsenide element and etc. Auxiliary memory using optical or RAM disks. Cloud   
 - The development of the mobile communication market. Smartphone   
 - 5G based photography, video, music, multimedia capabilities   
 - Memory mobile DRAM that simultaneously satisfies low power consumption, which is the advantage of DRAM and small chip, which is the advantage of DRAM   
