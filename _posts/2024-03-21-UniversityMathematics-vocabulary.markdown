@@ -129,6 +129,8 @@ relative error : 상대 오차 (the absolute error divided by the measured value
 
 ## 사칙연산
 
+elementary arithmetic, four fundamental rules of arithmetics, four arithmetic operations : 사칙연산
+
 addition : 덧셈
 
 division : 나눗셈
