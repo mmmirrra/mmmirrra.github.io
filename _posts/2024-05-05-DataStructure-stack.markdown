@@ -108,7 +108,7 @@ Boolean StackIsEmpty(stack) ::=
 // 컴파일러, 순환 호출 관리   
 - System stack for allocating and collecting memory for variables   
 - Stack for managing subroutine calls   
-- Calculate equations whose order of calculation is determined by priorities between operators   
+- Calculation of a expression whose order of calculation is determined by priorities between operators   
 - Stack to store the processing of interrupts and the point of command execution to return to   
 - Compilers, Managing Recurisive Call   
    
