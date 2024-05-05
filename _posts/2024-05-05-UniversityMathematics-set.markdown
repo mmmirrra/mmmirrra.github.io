@@ -227,7 +227,7 @@ categories: [University Mathematics]
    
 // 사건 A가 발생할 고전적 의미의 확률   
 // - P(A) = <sup>사건A에 속하는 원소의 개수</sup> / <sub>표본공간의 전체 원소의 개수</sub>   
-- the probability of occurrence of event A in the classical definition   
+- The probability of occurrence of event A in the classical definition   
   - P(A) = <sup>Number of elements belonging to event A</sup> / <sub>Total number of elements in the sample space</sub>   
    
 <br />
