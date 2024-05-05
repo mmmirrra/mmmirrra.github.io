@@ -423,12 +423,12 @@ if not empty(Q) then dequeue(Q)
    
 // 깊이가 k인 이진 트리 중에서 노드의 개수가 2<sup>k</sup> - 1 개인 이진 트리   
 // 깊이가 k인 이진 트리가 가질 수 있는 노드의 최대 개수는 2<sup>k</sup> - 1 개   
-// 단말 노드의 개수가 2<sup>k</sup> - 1 개   
+// 단말 노드의 개수가 2<sup>k - 1</sup> - 1 개   
 // 각 레벨에서 빈자리가 없이 노드를 모두 가지고 있음   
 // 모든 내부 노드들은 2개의 자식 노드를 가짐   
 - Binary trees with 2<sup>k</sup> - 1 nodes among binary trees with depth k   
 - The maximum number of nodes that a binary tree with depth k can have is 2<sup>k</sup> - 1   
-- 2<sup>k</sup> - 1 terminal nodes   
+- 2<sup>k - 1</sup> - 1 terminal nodes   
 - Have all nodes, no vacancies at each level   
 - All internal nodes have two offspring nodes   
    
@@ -479,7 +479,9 @@ if not empty(Q) then dequeue(Q)
    
 ```c
 V(G1) = {1, 2, 3, 4}
-E(G1) = {(1, 2), (1, 3), (1, 4), (2, 1), (2, 3), (2, 4), (3, 1), (3, 2), (3, 4), (4, 1), (4, 2), (4, 3)}
+// 간선은 중복되지 않도록 한번씩만 작성
+// Write the edges only once so that they don't overlap
+E(G1) = {(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)}
 
 V(G2) = {1, 2, 3, 4}
 E(G2) = {<1, 2>, <1, 3>, <3, 2>, <3, 4>, <4, 1>, <4, 2>}
