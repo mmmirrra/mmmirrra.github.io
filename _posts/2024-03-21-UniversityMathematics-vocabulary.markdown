@@ -1791,8 +1791,6 @@ set : 집합
 
 set builder form : 조건 제시법, 집합을 나타낼 때 각 원소를 나열하는 대신 공통성질을 제시하는 방법
 
-set : 집합
-
 shaded region : 빗금친 부분
 
 side : 변
