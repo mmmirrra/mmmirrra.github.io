@@ -29,7 +29,7 @@ categories: [University Mathematics]
     - Example : A = {1, 2, 3, 4, ...}   
   - set-builder notation   
     - Expressing in terms of conditions or relational expressions that satisfy an element   
-    - Example : A = {x\|x are natural numbers}   
+    - Example : A = {x\|x is a natural number}   
    
 #### Subset   
 // 부분집합   
