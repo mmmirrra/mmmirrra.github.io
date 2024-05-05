@@ -26,10 +26,12 @@ categories: [University Mathematics]
 - Methods of representing a set include tabular form and set-builder notation   
   - tabular form   
     - List all elements that belong to the elements of the set   
-    - Example : A = {1, 2, 3, 4, ...}   
+    - Example
+      - A = {1, 2, 3, 4, ...}   
   - set-builder notation   
     - Expressing in terms of conditions or relational expressions that satisfy an element   
-    - Example : A = {x|x are natural numbers}   
+    - Example
+      - A = {x|x are natural numbers}   
    
 #### Subset   
 // 부분집합   
