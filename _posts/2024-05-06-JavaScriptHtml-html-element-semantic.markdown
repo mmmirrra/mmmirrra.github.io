@@ -160,20 +160,22 @@ Content Area
             <li><a href="...">blog</a></li>
             <li><a href="...">map</a></li>
         </ol>
-    <nav>
+    </nav>
 </body>
 ```
    
 #### Apply Source   
    
-<nav>
-    <ol>
-        <li><a>mail</a></li>
-        <li><a>cafe</a></li>
-        <li><a>blog</a></li>
-        <li><a>map</a></li>
-    </ol>
-<nav>
+<body>
+    <nav>
+        <ol>
+            <li><a>mail</a></li>
+            <li><a>cafe</a></li>
+            <li><a>blog</a></li>
+            <li><a>map</a></li>
+        </ol>
+    </nav>
+</body>
 <br /><br />
    
 <br />
