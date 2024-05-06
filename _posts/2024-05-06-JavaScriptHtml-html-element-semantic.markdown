@@ -166,16 +166,14 @@ Content Area
    
 #### Apply Source   
    
-<body>
-    <nav>
-        <ol>
-            <li><a>mail</a></li>
-            <li><a>cafe</a></li>
-            <li><a>blog</a></li>
-            <li><a>map</a></li>
-        </ol>
-    <nav>
-</body>
+<nav>
+    <ol>
+        <li><a>mail</a></li>
+        <li><a>cafe</a></li>
+        <li><a>blog</a></li>
+        <li><a>map</a></li>
+    </ol>
+<nav>
 <br /><br />
    
 <br />
