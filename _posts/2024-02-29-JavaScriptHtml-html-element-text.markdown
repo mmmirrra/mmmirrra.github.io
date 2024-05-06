@@ -103,6 +103,7 @@ Elements that simply specify the appearance of the output displayed in the web b
 
 <!-- // 부수적인 해설이나 이용조건, 법적공지 등 -->
 <small>small : Smaller size - Incidental explanations, Terms of use, Legal announcement, etc.</small>
+<br /><br />
    
 <br />
 #### Logical Style Related Elements   
@@ -186,6 +187,7 @@ An element in which an element itself is used to have meaning rather than an out
 
 <!-- // 시각적/의미적으로 특정 문구나 단어를 강조. 형광색 배경 -->
 <mark>mark : Emphasize a particular phrase or word visually or meaningfully. The background is fluorescent</mark>
+<br /><br />
    
 <br />   
 ### Block Element vs Inline Element   

@@ -86,7 +86,7 @@ to download the report document
 ```
    
 #### Apply Source   
-`
+   
 <h3>Table of Contents</h3>
 <a href="#html">HTML Link</a><br />
 <a href="#css">CSS Link</a><br />
@@ -101,7 +101,7 @@ to download the report document
 <p>JavaScript</p>
 <!-- #top : When selected, it moves to the top of the current screen because the function called top is already promised even if id is not specified -->
 <a id="#top">To the top</a>
-`
+<br /><br />
    
 #### Specify different types of links   
 // 다양한 형태의 링크 지정   
@@ -124,7 +124,7 @@ Download Compressed File (Execution File)
 ```
    
 #### Apply Source   
-`
+   
 Send an email
 <p><a href="mailto:adc@abc.com">Send an email</a></p><hr />
 
@@ -139,7 +139,7 @@ Connecting a video file
 
 Download Compressed File (Execution File)
 <p><a href="files.zip">Download Compressed File (Execution File)</a></p><hr />
-`
+<br /><br />
    
 <br />
 ### Image Map   
