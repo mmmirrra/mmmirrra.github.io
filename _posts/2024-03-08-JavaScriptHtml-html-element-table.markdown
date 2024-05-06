@@ -52,7 +52,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <table border="1">
     <caption>score by subject</caption>
     <tr>
@@ -71,7 +71,7 @@ categories: [JavaScript Html]
         <td>50</td>
     </tr>
 </table>
-`
+<br /><br />
    
 <br />
 ### Basic Elements for Table Creation   
@@ -201,7 +201,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <table border="1">
     <tr>
         <td>1-1</td>
@@ -222,9 +222,7 @@ categories: [JavaScript Html]
         <td>3-4</td>
     </tr>
 </table>
-`
    
-`
 <table border="1">
     <tr>
         <td colspan="4">1-1 ~ 1-4</td>
@@ -239,7 +237,7 @@ categories: [JavaScript Html]
         <td colspan="2">3-3, 3-4</td>
     </tr>
 </table>
-`
+<br /><br />
    
 <br />
 ### Grouping per-line content   
@@ -293,7 +291,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <table border="1">
     <thead>
         <tr>
@@ -322,7 +320,7 @@ categories: [JavaScript Html]
         </tr>
     </tfoot>
 </table>
-`
+<br /><br />
    
 <br />
 ### Specify style in column units   
@@ -393,7 +391,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <style>
     .subject{background-color: lightblue}
     .score{background-color: lightyellow}
@@ -431,7 +429,6 @@ categories: [JavaScript Html]
             <td>90.0</td>
         </tr>
 </table>
-`
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
