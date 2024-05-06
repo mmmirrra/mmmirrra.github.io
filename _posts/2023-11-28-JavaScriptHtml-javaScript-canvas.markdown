@@ -6,7 +6,7 @@ categories: [JavaScript Html]
 ---
 
 ### example   
-`
+
 <script>
     function callCanvas() {
         let canvas = document.getElementById('myCanvas');
@@ -24,7 +24,7 @@ categories: [JavaScript Html]
         This browser does not support the canvas element in HTML5.   
     </canvas>
 </body>
-`
+
    
 ```html
 <!DOCTYPE html>
