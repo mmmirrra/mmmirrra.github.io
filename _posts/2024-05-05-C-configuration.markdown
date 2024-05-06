@@ -52,7 +52,7 @@ called function ()
 // main() 함수가 반드시 존재해야 함   
 // 함수의 시작과 끝을 알리는 중괄호 {} 를 사용해야 함   
 // 중괄호 안에는 변수선언문, 치환문, 연산문, 함수 등의 명령을 기입해야 함   
-// 선행처리기 (preprocessor)를 제외하고 문장의 끝에는 세미콜론 (;) 을 붙임   
+// 선행처리기 (preprocessor) 를 제외하고 문장의 끝에는 세미콜론 (;) 을 붙임   
 - C program must contain at least one function   
 - main() function must exist   
 - C programs must use brackets {} to indicate the beginning and end of a function   
