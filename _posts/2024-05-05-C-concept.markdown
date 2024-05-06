@@ -25,8 +25,8 @@ categories: [C]
 - C language : Compiler required   
   - Compiler   
       - A translator that translates programs written in a programming language into machine language so that the computer can understand them   
-      - assembler : A translator that translates symbolically represented assembly codes into machine language   
-      - interpreter : Unlike compilers that convert source programs into machine language at once, a 'language processing program' that interprets and executes programs one step at a time in machine language   
+        - assembler : A translator that translates symbolically represented assembly codes into machine language   
+        - interpreter : Unlike compilers that convert source programs into machine language at once, a 'language processing program' that interprets and executes programs one step at a time in machine language   
    
 <br />
 ### History of C language   
