@@ -33,14 +33,14 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <ul>
     <li>item 1</li>
     <li>item 2</li>
     ...
     <li>item n</li>
 </ul>
-`
+<br /><br />
    
 <br />
 ### li   
@@ -67,7 +67,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <h3>Unordered List</h3>
 <ul>
     <li>item 1</li>
@@ -75,7 +75,7 @@ categories: [JavaScript Html]
     ...
     <li>item n</li>
 </ul>
-`
+<br /><br />
    
 <br />
 ### ol   
@@ -95,14 +95,14 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <ol>
     <li>item 1</li>
     <li>item 2</li>
     ...
     <li>item n</li>
 </ol>
-`
+<br /><br />
    
 #### Properties of ol Elements   
 // ol 요소의 속성   
@@ -134,7 +134,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <h3>ordered List</h3>
 <ol reversed>
     <li>item 1</li>
@@ -142,7 +142,7 @@ categories: [JavaScript Html]
     ...
     <li>item n</li>
 </ol>
-`
+<br /><br />
    
 ```html
 <h3>Characteristics of elements</h3>
@@ -155,7 +155,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <h3>Characteristics of elements</h3>
 <ol type="a" start="2">
     <li>item 1</li>
@@ -163,7 +163,7 @@ categories: [JavaScript Html]
     ...
     <li>item n</li>
 </ol>
-`
+<br /><br />
    
 <br />
 ### dl   
@@ -198,7 +198,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <dl>
     <dt>name 1</dt>
     <dd>description 1</dd>
@@ -208,7 +208,6 @@ categories: [JavaScript Html]
     <dt>name n</dt>
     <dd>description n</dd>
 </dl>
-`
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
