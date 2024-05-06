@@ -67,7 +67,7 @@ categories: [C]
 // 내부적으로는 해당 문자의 ASCII 코드값이 사용   
 // - 예를 들어 'A'는 내부적으로 65 (ASCII 코드값) 가 사용됨   
 // Escape 문자 : 키보드에 나타나 있지 않은 문자   
-- One English character or numeric character enclosed by a single quotation mark ('')   
+- One English character or numeric character enclosed by a single quotation mark (' ')   
 - Internally, the ASCII code value for that character is used   
   - For example, 'A' is used internally with 65 (ASCII code value)   
 - Escape characters : Characters not shown on the keyboard   
@@ -87,7 +87,7 @@ categories: [C]
    
 // 이중 인용부호 (" ") 로 묶여 있는 복수개의 영문자나 숫자   
 // 기억공간에 보관될 때는 문자열 끝에 null 문자 (`\0`) 가 추가   
-- Multiple English characters or numbers enclosed by double quotation marks ("")   
+- Multiple English characters or numbers enclosed by double quotation marks (" ")   
 - When stored in storage, a null character (`\0`) is added at the end of the string   
    
 <br />
