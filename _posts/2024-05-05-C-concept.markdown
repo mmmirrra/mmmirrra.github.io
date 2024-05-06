@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "C: Concept of C Language"
+date:   2024-05-05 09:00:00 +0900
+categories: [C]
+---
+
+### Definition of C language   
+// C 언어의 정의   
+   
+// C 언어 : 프로그래밍 언어   
+// - 프로그래밍 언어   
+// -- 사람과 컴파일러 (compiler)가 이해할 수 있도록 약속된 형태의 언어   
+// --- 기계어, 어셈블리어, C, C++, C#, JAVA, PHP 등   
+- C language : Programming language   
+  - Programming language   
+    - a promised form of language for people and compilers to understand   
+       - Machine language, assembly, C, C++, C#, JAVA, PHP, etc.   
+   
+// C 언어 : 컴파일러가 필요   
+// - 컴파일러   
+// -- 프로그래밍 언어로 작성된 프로그램을 컴퓨터가 이해할 수 있도록 기계어로 번역해주는 번역기   
+// --- 어셈블러 (assembler) : 기호로 표현된 어셈블리 코드를 기계어로 번역하는 번역기   
+// --- 인터프리터 (interpreter) : 소스 프로그램을 한번에 기계어로 변환시키는 컴파일러와는 달리 프로그램을 한 단계씩 기계어로 해석하여 실행하는 '언어처리 프로그램'   
+- C language : Compiler required   
+  - Compiler   
+      - A translator that translates programs written in a programming language into machine language so that the computer can understand them   
+      - assembler : A translator that translates symbolically represented assembly codes into machine language   
+      - interpreter : Unlike compilers that convert source programs into machine language at once, a 'language processing program' that interprets and executes programs one step at a time in machine language   
+   
+<br />
+### History of C language   
+// C 언어의 역사   
+   
+// Denis Ritchie (1972년)   
+// UNIX 운영체제 구현에 사용할 목적으로 개발   
+// - 컴퓨터 기종간 호환성을 가진 고급이면서, 하드웨어를 제어할 수 있는 새로운 언어가 필요했음   
+// 어셈블리 언어로 된 UNIX 운영체제가 거의 C 언어로 대체됨   
+- Denis Ritchie (in 1972)   
+- Developed for use in implementing UNIX operating systems   
+  - Needed a new language that is advanced and capable of controlling hardware with compatibility between computer models   
+- UNIX operating system in assembly language is almost replaced by C language   
+   
+<br />
+### Characteristics of C language   
+// C 언어의 특징   
+   
+// 프로그램 이식성이 높음   
+// 간단한 문법표현으로 함축적인 프로그램 작성이 용이함   
+// 저급언어 특성을 가진 고급언어임   
+- High program portability   
+- Simple grammar expressions make it easy to write implicit programs   
+- It is a high-end language with low-level language characteristics   
+   
+<br />
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
