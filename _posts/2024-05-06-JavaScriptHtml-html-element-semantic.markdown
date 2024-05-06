@@ -242,8 +242,9 @@ Content Area
   - Implicit determination based on the level of the heading element   
    
 // 1. 같은 레벨의 헤딩 요소 사용   
+1. Using the same level of heading elements   
+   
 // - 같은 레벨의 section 요소로 구분되어 해석됨   
-1.Using the same level of heading elements   
 - Interpreted as section elements of the same level   
    
 ```html
@@ -267,8 +268,9 @@ Content Area
 ```
    
 // 2. 다른 레벨의 헤딩 요소 사용   
-// - 중첩된 section 요소로 구분   
 2.Use other levels of heading elements   
+   
+// - 중첩된 section 요소로 구분   
 - Separated by nested section elements   
    
 ```html
