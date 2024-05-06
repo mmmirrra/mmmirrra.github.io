@@ -122,15 +122,15 @@ categories: [C]
 // 변수명의 정의 규칙   
    
 // 모든 변수는 사용되기 전에 선언되어야 함   
-// 변수명은 반드시 영문자나 밑줄 (_) 로 시작해야 함   
-// 변수명은 중간에 숫자, 밑줄 (_) 을 섞어서 명명할 수 있음   
-// 변수명은 중간에 밑줄 (_) 이외의 특수문자 ($, #, ?, ...) 를 섞어서 명명할 수 없음   
+// 변수명은 반드시 영문자나 밑줄 ( _ ) 로 시작해야 함   
+// 변수명은 중간에 숫자, 밑줄 ( _ ) 을 섞어서 명명할 수 있음   
+// 변수명은 중간에 밑줄 ( _ ) 이외의 특수문자 ($, #, ?, ...) 를 섞어서 명명할 수 없음   
 // 변수명은 대소문자를 구별하여 사용해야 함   
 // 변수명은 예약어들을 사용할 수 없음   
 - All variables must be declared before they are used   
-- Variable names must begin with an English or an underscore (_)   
-- Variable names can be named by mixing numbers and underscores (_) in the middle   
-- Variable names cannot be mixed with special characters ($, #, ?, ...) other than the underscore (_) in the middle   
+- Variable names must begin with an English or an underscore ( _ )   
+- Variable names can be named by mixing numbers and underscores ( _ ) in the middle   
+- Variable names cannot be mixed with special characters ($, #, ?, ...) other than the underscore ( _ ) in the middle   
 - Variable names must be case sensitive   
 - Variable names cannot use reserved words   
    

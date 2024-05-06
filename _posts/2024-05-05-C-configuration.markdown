@@ -99,16 +99,16 @@ called function ()
    
 // 명칭을 만들 때의 규칙   
 // - 영문자와 숫자의 조합으로 만듦   
-// - 명칭의 첫 문자는 영문자나 밑줄 (_) 이어야 함   
-// - 특수문자를 사용해서는 안됨 (단, 밑줄 (_) 사용 가능)   
+// - 명칭의 첫 문자는 영문자나 밑줄 ( _ ) 이어야 함   
+// - 특수문자를 사용해서는 안됨 (단, 밑줄 ( _ ) 사용 가능)   
 // - 문자 사이에 공백이 있어서는 안됨   
 // - 예약어를 사용할 수 없음   
 // - 영문자 대문자와 소문자는 서로 구별하여 사용함   
 // - 명칭의 길이는 컴파일러에 따라 차이가 있음 (일반적으로 32자까지 인식 가능)   
 - Rules for naming names   
   - Made from a combination of English letters and numbers   
-  - The first letter of the name must be English or underscore (_)   
-  - Do not use special characters (but underline (_) is available)   
+  - The first letter of the name must be English or underscore ( _ )   
+  - Do not use special characters (but underline ( _ ) is available)   
   - There must be no spaces between characters   
   - Reservation word not available   
   - Use uppercase and lowercase letters separately   
@@ -122,7 +122,7 @@ called function ()
 |sun10|English and numeric combinations available|
 |SUN10|Name different from sun10|
 |For|Different from the reserved word for|
-|_sum|Underline (_) Available|
+|_sum|Underline ( _ ) Available|
    
 |misnomer|notes|
 |:---:|:---|
