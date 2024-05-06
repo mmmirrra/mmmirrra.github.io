@@ -54,7 +54,7 @@ categories: [JavaScript Html]
 ```
    
 #### Apply Source   
-`
+   
 <body>
     <img src="flower.jpg"><br />
     <img src="flower.jpg" width="100" height="100">
@@ -62,7 +62,6 @@ categories: [JavaScript Html]
     <img src="flower.jpg" widht="30%" border="5">
     <img src="flower.jpg" alt="It's flower" border="3">
 </body>
-`
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
