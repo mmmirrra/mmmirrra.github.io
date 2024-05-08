@@ -133,7 +133,7 @@ void main() {
    
 - Result   
    
-```c
+```
 address : seoul jongro 86
 phone : o1o-1111-oooo
 ```
@@ -186,7 +186,7 @@ void main() {
    
 - Result   
    
-```c
+```
 h1=34, h2=70
 g1=11, g2=21
 ```
@@ -234,7 +234,7 @@ void main() {
    
 - Result   
    
-```c
+```
 Compiling Program A
 ```
    

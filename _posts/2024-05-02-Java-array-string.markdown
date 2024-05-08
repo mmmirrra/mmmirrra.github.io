@@ -175,7 +175,7 @@ System.out.println("A" + 0);    // "A" is a string
    
 - Result   
    
-```java
+```
 result= XXX
 65
 A0

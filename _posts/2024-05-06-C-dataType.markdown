@@ -209,7 +209,7 @@ void main() {
    
 - Result   
    
-```c
+```
 ch = 65
 in = 65
 
@@ -242,7 +242,7 @@ void main() {
    
 - Result   
    
-```c
+```
 The value stored in enumeration d1 is 3
 The value stored in enumeration d2 is 5
 ```
@@ -308,7 +308,7 @@ void main() {
    
 - Result   
    
-```c
+```
 num1 = -32768
 num2 = 32767
 ```
@@ -328,7 +328,7 @@ void main() {
    
 - Result   
    
-```c
+```
 num1 = 32768
 num2 = -32769
 ```
@@ -388,7 +388,7 @@ int main() {
    
 - Result   
    
-```c
+```
 the value of a in main() ==> 100
 the value of a in func() ==> 200
 ```
@@ -408,7 +408,7 @@ void main() {
    
 - Result   
    
-```c
+```
 sum from 1 to 10 = 4556
 ```
    

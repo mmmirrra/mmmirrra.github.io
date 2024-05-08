@@ -158,7 +158,7 @@ categories: [Programming Language Theory]
    
 - Result   
    
-```basic
+```
 Enter A: 126
 Enter B: 312
 GCD is 6
@@ -195,7 +195,7 @@ main:(
    
 - Result   
    
-```algol
+```
 The gcd of +126 and +312 is +6
 ```
    
@@ -233,7 +233,7 @@ int main() {
    
 - Result   
    
-```c
+```
 Enter a and b: 126 312
 gcd: 6
 ```
@@ -280,7 +280,7 @@ igcd := [ :a :b |
    
 - Result   
    
-```smalltalk
+```
 6
 ```
    
@@ -311,7 +311,7 @@ igcd a b = igcd (abs b) (a `mod` (abs b))
    
 - Result   
    
-```haskell
+```
 6
 ```
    
@@ -338,7 +338,7 @@ pet(X) :- puppy(X), safe(X).
    
 - Result   
    
-```prolog
+```
 ?- pet(X).
 X = happy.
 ```
@@ -353,7 +353,7 @@ gcd(U, V, X) :- V > 0, Y is U mod V, gcd(V, Y, X).
    
 - Result   
    
-```prolog
+```
 ?- gcd(126, 312, X).
 X = 6
 ```

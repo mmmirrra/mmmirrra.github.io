@@ -229,7 +229,7 @@ void store(int *a, int i, int e) {    // i = 3, e = 35
 // 행렬을 컴퓨터에서 표현하기에는 2차원 배열이 적합함   
 - Two-dimensional arrays are suitable for representing matrices on computers   
    
-```c
+```
 5   2   6   2
 7   2   0   0
 0   1   1   9
