@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Excel: importing characters from the html source"
+title:  "Excel: Importing characters from the html source"
 date:   2024-01-12 09:00:00 +0900
 categories: [Excel]
 ---
