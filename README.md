@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @mmmirrra
 - 👀 I’m interested in Programming
-- 🌱 I’m currently learning Spring and React
+- 🌱 I’m currently learning Spring
 - 💞️ I’m looking to collaborate on Spring Project
 - 📫 If you have any questions, send an email to 'mirakimok82@gmail.com'
 
