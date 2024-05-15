@@ -90,7 +90,7 @@ categories: [Algorithm]
 // 알고리즘의 수행시간 예시   
    
 ```c
-// A[0...n-1]
+// A[0..n-1]
 // n : Input Array and Number of Data
 SumAverage(A[], n)
 {

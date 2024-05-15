@@ -1133,7 +1133,7 @@ Iteration : 반복
 
 ## k
 
-known number : 기지수, known quantity : 수에 한정하지 않는 것....
+known number : 기지수, known quantity : 수에 한정하지 않는 것...
 
 known quantity : 기지수
 
@@ -1283,7 +1283,7 @@ multiply : 곱하기
 
 ## n
 
-natural number : 자연수, '1, 2, 3, 4, ....'
+natural number : 자연수, '1, 2, 3, 4, ...'
 
 negation : 부정, 음의
 
@@ -1927,7 +1927,7 @@ table of square roots : 제곱근 표
 
 Tables : 표
 
-tabular form : 원소나열법, 예) {1, 2, 3, .....}
+tabular form : 원소나열법, 예) {1, 2, 3, ...}
 
 tangent : 접선, 접하다, tangens (접촉하다), 원 O 의 외부의 한점 P에서 이 원에 그을 수 있는 접선은 두 개, 탄젠트, 접촉, '해시계 바늘의 그림자' 를 의미, 그림자의 길이는 바늘의 길이를 반지름으로 하는 원의 접선의 일부, 기울기
 
@@ -2399,7 +2399,7 @@ zeros (of a function) : 함수를 0으로 만드는 값
 
 음의 유리수 : 유리수 중에서 음수인 수
 
-음의 정수 (negative integer) : 음의 정수 -1, -2, -3, ....을 말하는 정수 중에 음수를 말함
+음의 정수 (negative integer) : 음의 정수 -1, -2, -3, ...을 말하는 정수 중에 음수를 말함
 
 이진법 (binary notation) : 숫자 0, 1만을 사용하여 2개씩을 묶어서 윗자리로 올리는 표기법이다
 

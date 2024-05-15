@@ -77,11 +77,11 @@ categories: [Computer]
    
 // 반도체 메모리 집적도의 발전   
 // - 칩 (chip) 속에 미국의 도로망만큼 복잡한 논리적 패턴이 가능   
-// - 64MB DRAM (Dynamic Random Access Memory), 256MB DRAN, 512MB DRAM ... 128GB... 512GB DRAM   
+// - 64MB DRAM (Dynamic Random Access Memory), 256MB DRAN, 512MB DRAM ... 128GB ... 512GB DRAM   
 // - 영화 1편 1~5GB, MP3 음악 4~8MB, 도서 100MB 이하   
 - Development of Semiconductor Memory Intensity   
   - A logical pattern as complex as the U.S. road network can be in the chip   
-  - 64MB DRAM (Dynamic Random Access Memory), 256MB DRAN, 512MB DRAM ... 128GB... 512GB DRAM   
+  - 64MB DRAM (Dynamic Random Access Memory), 256MB DRAN, 512MB DRAM ... 128GB ... 512GB DRAM   
   - Movie 1 movie 1~5GB, MP3 music 4~8MB, book 100MB or less   
    
 // 의료시스템, 위성통신, 개인휴대통신, 고화질 TV 등 미래 산업의 각종 디지털 멀티미디어 제품에 사용   
