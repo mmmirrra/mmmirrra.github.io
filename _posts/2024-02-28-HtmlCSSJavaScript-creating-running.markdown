@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: Creating and Running Documents"
+title:  "Html CSS JavaScript: Creating and Running Documents"
 date:   2024-02-28 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Creating and Running HTML Documents   

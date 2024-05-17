@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: html element media"
+title:  "Html CSS JavaScript: html element media"
 date:   2024-05-06 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Elements related to media   

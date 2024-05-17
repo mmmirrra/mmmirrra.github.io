@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: javaScript geolocation"
+title:  "Html CSS JavaScript: javaScript geolocation"
 date:   2023-11-30 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Example   

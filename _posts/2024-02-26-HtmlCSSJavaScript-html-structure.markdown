@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: html structure"
+title:  "Html CSS JavaScript: html structure"
 date:   2024-02-26 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Components of HTML documents   

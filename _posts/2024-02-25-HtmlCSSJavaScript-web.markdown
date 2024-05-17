@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: Web"
+title:  "Html CSS JavaScript: Web"
 date:   2024-02-25 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Internet? Web?   

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: html element text"
+title:  "Html CSS JavaScript: html element text"
 date:   2024-02-29 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Elements related to text   

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: javaScript Conditional Statement - Control Structure - for / for...in / for...of / forEach() / while / do...while"
+title:  "Html CSS JavaScript: javaScript Conditional Statement - Control Structure - for / for...in / for...of / forEach() / while / do...while"
 date:   2023-12-13 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### for   

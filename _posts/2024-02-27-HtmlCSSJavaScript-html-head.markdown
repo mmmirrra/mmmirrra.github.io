@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "JavaScript Html: html head"
+title:  "Html CSS JavaScript: html head"
 date:   2024-02-27 09:00:00 +0900
-categories: [JavaScript Html]
+categories: [Html CSS JavaScript]
 ---
 
 ### Meta elements included in the head   
