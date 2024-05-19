@@ -147,21 +147,18 @@ C Program
 int e[2];                   // Variables for English Grade
 int m[2];                   // Variables for Math Grade
 
-void input_grade()         // a function that receives English and Math grades
-{
+void input_grade() {        // a function that receives English and Math grades
   e[0] = 90;                // the first student's English grade
   e[1] = 80;                // the second student's English grade
   m[0] = 85;                // the first student's Math grade
   m[1] = 80;                // the second student's Math grade
 }
 
-void output_grade()        // a Function that output total grade
-{
+void output_grade() {       // a Function that output total grade
   printf("%d,%d", e[0] + m[0], e[1] + m[1]);
 }
 
-void main(void) 
-{
+void main(void) {
   input_grade();
   output_grade();
 }
@@ -174,8 +171,7 @@ class Grade {
   int e;                  // Variables for English Grade
   int m;                  // Variables for Math Grade
 
-  void output_grade()     // a method of calculating the sum of grades
-  {
+  void output_grade() {    // a method of calculating the sum of grades
     System.out.println(e + m);
   }
 }
