@@ -85,13 +85,10 @@ Type of control statement
 int a = 2;
 int b = 2;
 
-if (a == 1)
-{
+if (a == 1) {
     if (b == 2)
         System.out.println("a was 1 and b was 2");
-}
-else
-{
+} else {
     System.out.println("a wasn't 1");
 }
 ```
