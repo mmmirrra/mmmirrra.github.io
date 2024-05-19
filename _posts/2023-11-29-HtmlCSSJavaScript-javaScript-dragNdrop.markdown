@@ -12,9 +12,19 @@ categories: [Html CSS JavaScript]
 <html>
     <head>
         <style>
-            #div1, #div2 { width: 100px; height: 100px; border: 1px solid; padding: 10px; margin: 5px; }
-            #div1 { background-color: lightyellow; }
-            #div2 { background-color: lightgreen; }
+            #div1, #div2 {
+                width: 100px;
+                height: 100px;
+                border: 1px solid;
+                padding: 10px;
+                margin: 5px;
+            }
+            #div1 {
+                background-color: lightyellow;
+            }
+            #div2 {
+                background-color: lightgreen;
+            }
         </style>
         <script>
             function dragstart(event) {
@@ -65,9 +75,19 @@ categories: [Html CSS JavaScript]
     };
 </script>
 <style>
-    #div1, #div2 { width: 100px; height: 100px; border: 1px solid; padding: 10px; margin: 5px; }
-    #div1 { background-color: lightyellow; }
-    #div2 { background-color: lightgreen; }
+    #div1, #div2 {
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        padding: 10px;
+        margin: 5px;
+    }
+    #div1 {
+        background-color: lightyellow;
+    }
+    #div2 {
+        background-color: lightgreen;
+    }
 </style>
 <body>
     <div id="div1" ondrop="drop(event)" ondragover="dragover(event)">
