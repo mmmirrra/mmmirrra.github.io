@@ -9,9 +9,9 @@ categories: [Algorithm]
 // 알고리즘 설계   
    
 // 주어진 문제와 조건 등이 매우 다양함   
-// 일반적/범용적인 설계 기법은 미존재   
+// 일반적 / 범용적인 설계 기법은 미존재   
 - The problems and conditions given vary widely   
-- No general/universal design techniques exist   
+- No general / universal design techniques exist   
    
 <br />
 ### Representative Algorithmic Design Techniques   
@@ -24,12 +24,12 @@ categories: [Algorithm]
   // 해를 구하는 일련의 선택 과정에서 전후 단계의 선택과는 상관없이 각 단계마다 가장 최선이라고 여겨지는 국부적인 최적해를 선택해 나가면 결과적으로 전체적인 최적해를 구할 수 있을 것이라는 희망적인 전략을 취하는 방법   
   // 각 단계마다 선택한 국부적인 최적해가 항상 전체적인 최적해를 구성하지 못하는 경우도 있음   
   // 간단하면서 효율적인 알고리즘을 만들 수 있는 강력한 기법   
-  // 최소값/최대값을 구하는 최적화 문제에 주로 사용   
+  // 최소값 / 최대값을 구하는 최적화 문제에 주로 사용   
   - Greed Algorithm   
   - How to take a hopeful strategy that the selection of a local optimal solution, which is considered the best for each step, will result in the overall optimal solution, regardless of the selection of the solution in a series of choices   
   - The local optimal solution selected at each stage may not always make up the overall optimal solution   
   - Powerful techniques to create simple and efficient Algorithm   
-  - Mainly used for optimization problems to obtain minimum/maximum values   
+  - Mainly used for optimization problems to obtain minimum / maximum values   
    
 #### Divide-and-Conquer Method   
 // 분할정복 방법   
@@ -144,11 +144,11 @@ If an item splits
 // 이진 탐색 알고리즘과 분할정복 방법의 관계   
 Relationship between Binary Search Algorithm and Divide-and-Conquer Method   
    
-// 분할 : 배열의 가운데 원소를 기준으로 왼쪽과 오른쪽 부분배열로 절반씩 분할. 탐색 키와 가운데 원소가 같으면 해당 원소의 배열 인덱스를 반환/종료   
+// 분할 : 배열의 가운데 원소를 기준으로 왼쪽과 오른쪽 부분배열로 절반씩 분할. 탐색 키와 가운데 원소가 같으면 해당 원소의 배열 인덱스를 반환 / 종료   
 // 정복 : 탐색 키가 가운데 원소보다 작으면 왼쪽 부분배열을 대상으로 이진 탐색을 순환 호출, 크면 오른쪽 부분배열을 대상으로 이진 탐색을 순환 호출   
 // 결합 : 부분배열에 대한 탐색 결과가 직접 반환되므로 결합이 불필요   
    
-- Split : Split into left and right subarrays based on the middle element of the array. Returns/terminates the array index of that element if the search key and the middle element are the same   
+- Split : Split into left and right subarrays based on the middle element of the array. Returns / terminates the array index of that element if the search key and the middle element are the same   
 - Conquest : If the search key is smaller than the middle element, circular calls binary search for the left subarray; if it is larger, circular calls for binary search for the right subarray   
 - Combination : no combination is required as search results for partial arrangement are returned directly   
    
@@ -175,8 +175,8 @@ Relationship between Binary Search Algorithm and Divide-and-Conquer Method
    
 Array of Input Values : 80, 70, 40, 20, 30, 10, 60, 50   
    
-// - 일상 언어로 표현/기술하는 경우   
-- Expressions/descriptions with Everyday Language   
+// - 일상 언어로 표현 / 기술하는 경우   
+- Expressions / descriptions with Everyday Language   
    
 // 1. 첫번째 데이터를 최소값 [0]로 저장한다.   
 // 2. 다음 숫자 [1]을 읽고, 이것과 저장된 최소값과 비교한다.   
@@ -189,8 +189,8 @@ Array of Input Values : 80, 70, 40, 20, 30, 10, 60, 50
 4. If there is any data left to process next, go to [2].   
 5. The stored minimum value is output as a result.   
    
-// - 의사코드로 표현/기술하는 경우   
-- Expressions/descriptions with Pseudo Code   
+// - 의사코드로 표현 / 기술하는 경우   
+- Expressions / descriptions with Pseudo Code   
    
 ```c
 i = 1;

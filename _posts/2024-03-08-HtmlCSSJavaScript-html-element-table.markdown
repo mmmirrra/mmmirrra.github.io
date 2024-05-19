@@ -352,9 +352,15 @@ categories: [Html CSS JavaScript]
    
 ```html
 <style>
-    .subject{background-color: lightblue}
-    .score{background-color: lightyellow}
-    .average{background-color: lightgreen}
+    .subject {
+        background-color: lightblue;
+    }
+    .score {
+        background-color: lightyellow;
+    }
+    .average {
+        background-color: lightgreen;
+    }
 </style>
 
 <table border="1">
@@ -393,9 +399,15 @@ categories: [Html CSS JavaScript]
 #### Apply Source   
    
 <style>
-    .subject{background-color: lightblue}
-    .score{background-color: lightyellow}
-    .average{background-color: lightgreen}
+    .subject {
+        background-color: lightblue;
+    }
+    .score {
+        background-color: lightyellow;
+    }
+    .average {
+        background-color: lightgreen;
+    }
 </style>
 
 <table border="1">

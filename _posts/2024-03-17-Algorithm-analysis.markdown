@@ -19,8 +19,8 @@ categories: [Algorithm]
 #### Efficiency Analysis   
 // 효율성 분석   
    
-// 알고리즘 수행에 필요한 컴퓨터 자원의 양을 측정/평가   
-- Measure/assess the amount of computer resources required to perform an algorithm   
+// 알고리즘 수행에 필요한 컴퓨터 자원의 양을 측정 / 평가   
+- Measure / assess the amount of computer resources required to perform an algorithm   
    
 // 공간 복잡도   
 // - 메모리의 양 = 정적 공간 + 동적 공간   
