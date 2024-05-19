@@ -127,7 +127,7 @@ switch (n) {
 // 형식은 `for (변수선언 : 배열) { 문장... }`   
 - for-each   
 - Convenient to handle the elements of an array or collection in turn   
-- The format is `for (variable declaration : array) {sentence...}`   
+- The format is `for (variable declaration : array) { sentence... }`   
    
 ```java
 int[] arrayOfInts = { 32, 87, 3, 589, 12, 1076, 2000, 8};
