@@ -83,7 +83,7 @@ Use the callback function in the factor.
     <head>
         <script>
             const array = ['1', '2', '3'];
-            array.forEach((element) => {
+            array.forEach(element) => {
                 console.log(element);           // array[first] value ~ array[last] value
             };
         </script>
@@ -104,7 +104,7 @@ If while (condition) is false, it does not run once.
         <script>
             const array = ['1', '2', '3'];
             while (array.length > 0) {               // condition
-                array.forEach((element) => {
+                array.forEach(element) => {
                     console.log(element);
                 };
             }
@@ -127,7 +127,7 @@ After at least one execution, if the while condition is false, it is no longer e
         <script>
             const array = ['1', '2', '3'];
             do{                                 // do{} is executed at least once.
-                array.forEach((element) => {
+                array.forEach(element) => {
                     console.log(element);
                 };
             }
