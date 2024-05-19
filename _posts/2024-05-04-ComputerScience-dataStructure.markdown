@@ -478,13 +478,13 @@ if not empty(Q) then dequeue(Q)
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/dataStructureGraph.png)
    
 ```c
-V(G1) = {1, 2, 3, 4}
+V(G1) = { 1, 2, 3, 4 }
 // 간선은 중복되지 않도록 한번씩만 작성
 // Write the edges only once so that they don't overlap
-E(G1) = {(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)}
+E(G1) = { (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4) }
 
-V(G2) = {1, 2, 3, 4}
-E(G2) = {<1, 2>, <1, 3>, <3, 2>, <3, 4>, <4, 1>, <4, 2>}
+V(G2) = { 1, 2, 3, 4 }
+E(G2) = { <1, 2>, <1, 3>, <3, 2>, <3, 4>, <4, 1>, <4, 2> }
 ```
    
 // 두 정점이 간선으로 직접 연결되어 있으면 두 정점은 인접 (adjacent) 해 있다고 하며, 해당 간선은 두 정점에 부수 (incident) 되었다고 함   

@@ -17,8 +17,7 @@ categories: [JScript]
 - This keyword is used to refer to the current object   
    
 ```javascript
-function pasta(grain, grain2, width, shape, shapenum, extent, agg)
-{
+function pasta(grain, grain2, width, shape, shapenum, extent, agg) {
     // The number of attributes in the object. length is not included in the number of attributes.
     this.length = 7;
     // What kind of grain is the pasta made of? (String)
@@ -82,8 +81,7 @@ var showFun = new pasta("rice", "", 3, "basic", , 12, false);
 ```javascript
 // 목록을 확장시킬 함수를 정의함
 // - Define a function to expand the list
-function addItem(newItem)
-{
+function addItem(newItem) {
     // 배열의 길이를 늘림
     // - Increase the length of the array
     this.length += 1;
@@ -94,8 +92,7 @@ function addItem(newItem)
 
 // "shopping list" 개체를 정의
 // - Define the "shopping list" object
-function shoppingList(firstItem)
-{
+function shoppingList(firstItem) {
     // 개체의 속성 수. length는 속성 수에 포함되지 않음
     // - The number of attributes in the object. length is not included in the number of attributes
     this.length = 2;

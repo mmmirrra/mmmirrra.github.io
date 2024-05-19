@@ -138,8 +138,7 @@ End Sub
 - JScript에서 CreateFolder 함수에 변수를 설정하려면 아래 구문을 사용함   
    
 ```javascript
-function CreateFolder()
-{
+function CreateFolder() {
     var fso, fldr;
     fso = new ActiveXObject("Scripting.FileSystemObject");
     fldr = fso.CreateFolder("C:\\MyTest");
@@ -245,8 +244,7 @@ End Sub
 - 아래 코드는 JScript의 같은 기능을 보여줌   
    
 ```javascript
-function ShowDriveInfo(drvPath)
-{
+function ShowDriveInfo(drvPath) {
     var fso, drv, s = "";
     fso = new ActiveXObject("Scripting.FileSystemObject");
     drv = fso.GetDrive(fso.GetDriveName(drvPath));
@@ -311,8 +309,7 @@ End Sub
 - 아래 예제는 JScript에서 Folder 개체와 FileSystemObject 개체의 사용법을 보여줌   
    
 ```javascript
-function ShowFolderInfo()
-{
+function ShowFolderInfo() {
     var fso, fldr, s = "";
     // FileSystemObject의 인스턴스를 가져옴
     fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -457,8 +454,7 @@ End Sub
 - 아래 예제는 JScript에서 세 가지 메서드의 사용법을 보여줌   
    
 ```javascript
-function CreateFile()
-{
+function CreateFile() {
     var fso, tf;
     fso = new ActiveXObject("Scripting.FileSystemObject");
     tf = fso.CreateTextFile("C:\\testfile.txt", true);
@@ -513,8 +509,7 @@ End Sub
 - 아래 코드는 JScript에서 같은 작업을 하는 방법을 보여줌   
    
 ```javascript
-function ReadFiles()
-{
+function ReadFiles() {
     var fso, f1, ts, s;
     var ForReading = 1;
     fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -581,8 +576,7 @@ End Sub
 - 아래 코드는 JScript에서 같은 작업을 하는 방법을 보여줌   
    
 ```javascript
-function ManipFiles()
-{
+function ManipFiles() {
     var fso, f1, f2, s;
     fso = new ActiveXObject("Scripting.FileSystemObject");
     f1 = fso.CreateTextFile("C:\\textfile.txt", true);

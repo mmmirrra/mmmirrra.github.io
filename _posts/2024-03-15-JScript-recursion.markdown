@@ -51,22 +51,19 @@ categories: [JScript]
 // 계승 함수의 또다른 예시   
    
 ```javascript
-function factorial(aNumber)
-{
+function factorial(aNumber) {
     // If it is not an integer, discard the prime number
     aNumber = Math.floor(aNumber);
     // Rejects if it is less than 0
-    if (aNumber < 0)
-    {
+    if (aNumber < 0) {
         return "not a defined quantity";
     }
     // If it is 0 or 1, the factorial value is 1    
-    if ((anumber == 0) || (anumber == 1))
-    {
+    if ((anumber == 0) || (anumber == 1)) {
         return 1;
-    }
+    } else
     // Otherwise, it will be recursive until the end point is reached
-    else return (anumber * factorial(anumber - 1));
+        return (anumber * factorial(anumber - 1));
 }
 ```
    

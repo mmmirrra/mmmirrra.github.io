@@ -25,8 +25,7 @@ categories: [JScript]
 - To create a new array, use the new operator and the Array() configuration as in the example below   
    
 ```javascript
-var theMonths = new Array(12)
-{
+var theMonths = new Array(12) {
     theMonths[0] = "Jan";
     theMonths[1] = "Feb";
     theMonths[2] = "Mar";
@@ -202,29 +201,23 @@ var comment2 = "This means that there are " + daysLeft + " days left in year " +
 
 // 특별한 경우도 포함합니다 : 한 해의 시작과 마지막, 하루
 // - Special cases include : the beginning, the end, and the day of the year
-if (daysElapsed == 0)
-{
+if (daysElapsed == 0) {
     comment1 = "January 1st, " + thisYear + ".";
 }
-if (daysElapsed == 1)
-{
+if (daysElapsed == 1) {
     comment1 = "It's only been one day so far";
 }
-if (daysElapsed == daysInYear)
-{
+if (daysElapsed == daysInYear) {
     comment1 = thisYear + " has just passed";
 }
 
-if (daysLeft == 0)
-{
+if (daysLeft == 0) {
     comment2 = "I wish you all the best in the new year!";
 }
-if (daysLeft == 1)
-{
+if (daysLeft == 1) {
     comment2 = "There's only one day left in " + thisYear + ".";
 }
-if (daysLeft == daysInYear)
-{
+if (daysLeft == daysInYear) {
     comment2 = "I wish you a happy new year!";
 }
 ```

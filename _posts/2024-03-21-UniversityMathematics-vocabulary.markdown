@@ -263,7 +263,7 @@ variable : 변수
 
 ## a
 
-about : 약, 예) 49.5 는 약 50
+about : 약. 예시 : 49.5 는 약 50
 
 abscissa : 횡좌표, 좌표
 
@@ -353,7 +353,7 @@ ascending order : 오름순
 
 associate law : 결합법칙
 
-associative law : 결합법칙, 예) 덧셈의 결합법칙 a + (b + c) = (a + b) + c
+associative law : 결합법칙. 예시 : 덧셈의 결합법칙 a + (b + c) = (a + b) + c
 
 Associative properties (axioms) : 결합법칙
 
@@ -505,7 +505,7 @@ circumscribed : 외접한
 
 circumscription : 외접 (주위에 경계선을 긋다), 어떤 원의 외부에서 그 원이 다각형의 모든 변에 접하고 있을 때
 
-class : 계급, 예) 통계에서 변량을 나눈 구간
+class : 계급. 예시 : 통계에서 변량을 나눈 구간
 
 class interval : 계급의 크기
 
@@ -517,7 +517,7 @@ codomain : 공역, y 가 x 의 함수일 때 변수 x 가 취할 수 있는 값�
 
 codomain : 공역, 정의역
 
-coefficient : 계수, 예) 2x 에서 2 는 문자 x 의 계수
+coefficient : 계수. 예시 : 2x 에서 2 는 문자 x 의 계수
 
 combination : 조합
 
@@ -535,7 +535,7 @@ common multiple : 공배수
 
 common ratio : 공비
 
-commutative law : 교환법칙, 예) a + b = b + a
+commutative law : 교환법칙. 예시 : a + b = b + a
 
 Commutative property : 교환법칙
 
@@ -605,7 +605,7 @@ constant rate : 일정속도
 
 construction : 작도, 자와 컴퍼스만을 이용하여 도형을 그리다
 
-continued ratio : 연비 (3 개 이상의 양의 비), 예) 3 : 4 : 5
+continued ratio : 연비 (3 개 이상의 양의 비). 예시 : 3 : 4 : 5
 
 continuous : 연속의 불연속
 
@@ -631,7 +631,7 @@ correlation : 상관관계, 두 변량 x, y 가 있을 때 x 가 커짐에 따�
 
 correlation diagram (or table) : 두 변량 x, y 의 상관관계를 순서쌍 (x, y) 를 이용하여 좌표평면에 그림으로 나타낸 것
 
-correspondence : 대응, 예) 집합 X 의 한 원소 x 가 집합 Y 의 한 원소 y 와 짝지어 진다면 x 와 y 가 대응
+correspondence : 대응. 예시 : 집합 X 의 한 원소 x 가 집합 Y 의 한 원소 y 와 짝지어 진다면 x 와 y 가 대응
 
 correspondence angle (for lines) : 동위각
 
@@ -677,7 +677,7 @@ decimal : 소수의, 십진법의
 
 decimal 1 : 소수 (=decimal fraction)
 
-decimal expansion : 십진법 전개식, 예) 237 = 2 x 102 + 3 x 10 + 7 x 1
+decimal expansion : 십진법 전개식. 예시 : 237 = 2 x 102 + 3 x 10 + 7 x 1
 
 decimal fraction : 소수 (小數, 작은수), 원래의 의미는 십진분수, 소수점 (decimal point)
 
@@ -697,7 +697,7 @@ Deductive reasoning : 연역법
 
 definition : 뜻, 정의
 
-degree : 도, 각도, 차수, '계속 이어진 횟수', 예) 5 x3 에서 지수 3 은 x 가 3 회 곱해짐, 따라서 이 단항식의 차수는 3 이다. '사다리에서 발을 디디는 곳' 의 의미
+degree : 도, 각도, 차수, '계속 이어진 횟수'. 예시 :  5 x3 에서 지수 3 은 x 가 3 회 곱해짐, 따라서 이 단항식의 차수는 3 이다. '사다리에서 발을 디디는 곳' 의 의미
 
 degree measure : 도수
 
@@ -721,7 +721,7 @@ derive : 도출하다
 
 descending order : 내림순
 
-determination condition : 결정조건, 예) 삼각형의 결정조건
+determination condition : 결정조건. 예시 : 삼각형의 결정조건
 
 develop : 전개하다
 
@@ -789,7 +789,7 @@ Division property for inequality : 부등식 분배법칙
 
 Division property of equality : 등식의 분배 법칙
 
-divisor (or measure) : 약수 (간략히 하는 수), divisor (약수도 결국은 나누는 수), 예) 6 의 약수는 1, 2, 3, 6
+divisor (or measure) : 약수 (간략히 하는 수), divisor (약수도 결국은 나누는 수). 예시 : 6 의 약수는 1, 2, 3, 6
 
 divisor : 제수, 나눗셈, 분모, 어떤 수를 나누는 수, 제수 dotted line 점선
 
@@ -883,7 +883,7 @@ extreme values : 극 값
 
 face : 면
 
-factor : 인수 (약수), 예) 6 = 2 x 3에서 2 와 3 을 6 의 인수라고 한다. factorization : 인수분해
+factor : 인수 (약수). 예시 : 6 = 2 x 3에서 2 와 3 을 6 의 인수라고 한다. factorization : 인수분해
 
 factorable : 인수분해 가능한
 
@@ -895,9 +895,9 @@ Fahrenheit temperature scale : 화씨온도
 
 Fahrenheit : 화씨
 
-figure : 도형, 예) 평명도형, 입체도형
+figure : 도형. 예시 : 평명도형, 입체도형
 
-finite decimal : 유한 소수, 예) 1/4 는 소수로 나타내면 0.25 로 유한한 소수
+finite decimal : 유한 소수. 예시 : 1/4 는 소수로 나타내면 0.25 로 유한한 소수
 
 finite set : 유한 집합
 
@@ -933,7 +933,7 @@ Functional notation : 함수, 표기
 
 GCF (Greatest common factor) : 최대공약수
 
-generating line : 모선, 예) 원뿔에서 꼭지점과 밑면을 이루는 원의 한점을 이은 선, 이 선이 움직여서 원뿔이 만들어짐
+generating line : 모선. 예시 : 원뿔에서 꼭지점과 밑면을 이루는 원의 한점을 이은 선, 이 선이 움직여서 원뿔이 만들어짐
 
 geometric mean : 기하평균
 
@@ -1017,7 +1017,7 @@ identical : 상등, 서로 같은
 
 Identify : 지적하다. 알아내다
 
-identity : 항등식, 예) 3x = x + 2x 는 x 가 어떤 값을 갖더라도 항상 참이 된다. 이와같은 등식이 항등식이다
+identity : 항등식. 예시 : 3x = x + 2x 는 x 가 어떤 값을 갖더라도 항상 참이 된다. 이와같은 등식이 항등식이다
 
 If and only If : 필요충분조건
 
@@ -1065,17 +1065,17 @@ inequality sign : 부등호, <, >, ≤, ≥ 등
 
 Inequality symbol : 부등호
 
-infinite decimal : 무한소수, 소수점 아래로 0 이 아닌 숫자가 무한히 많은 소수, 예) 1/3, 3.141592.. (순환하지 않는 무한소수)
+infinite decimal : 무한소수, 소수점 아래로 0 이 아닌 숫자가 무한히 많은 소수. 예시 : 1/3, 3.141592.. (순환하지 않는 무한소수)
 
 infinite set : 무한집합
 
-inner opposite angle : 내대각, 예) 사각형에서 내각의 반대쪽에 있는 것
+inner opposite angle : 내대각. 예시 : 사각형에서 내각의 반대쪽에 있는 것
 
 inscribed circle : 내접원
 
 inscribed : 내접하는
 
-inscription : 내접, 예) 다각형이 원에 내접하다. inscribe : 새기다
+inscription : 내접. 예시 : 다각형이 원에 내접하다. inscribe : 새기다
 
 Insert : 대입하다
 
@@ -1105,7 +1105,7 @@ Interval : 구간
 
 invalid : 무효의
 
-inverse (number) : 역수, 예) 분수 3/4 의 역수는 4/3
+inverse (number) : 역수. 예시 : 분수 3/4 의 역수는 4/3
 
 inverse (or converse) : 역원, 역, "p 이면 q 이다" 의 역은 "q 이면 p 이다"
 
@@ -1189,7 +1189,7 @@ linear function : 일차함수, 함수 y = f(x) 에서 y 가 x 에 관한 일차
 
 Linear graphs : 일차함수의 그래프
 
-linear inequality : 일차부등식, 예) (일차식) > 0, (일차식) ≥ 0, (일차식) < 0, (일차식) ≤ 0 의 하나로 표현
+linear inequality : 일차부등식. 예시 : (일차식) > 0, (일차식) ≥ 0, (일차식) < 0, (일차식) ≤ 0 의 하나로 표현
 
 Locus : 자취
 
@@ -1265,7 +1265,7 @@ mixed number : 대분수
 
 Mode : 최빈값 (모드), 최빈도수
 
-monomial : 단항, 단항식, 예) 3x , 4ab
+monomial : 단항, 단항식. 예시 : 3x , 4ab
 
 multiple : 배수
 
@@ -1429,7 +1429,7 @@ percentage : 백분율, 퍼센티지
 
 perfect square : 완전제곱
 
-perfect square expression : 완전 제곱식, 다항식 전체가 완전하게 제곱의 형태, 예) 3(a + b)2, (x + 1)2
+perfect square expression : 완전 제곱식, 다항식 전체가 완전하게 제곱의 형태. 예시 : 3(a + b)2, (x + 1)2
 
 perimeter : 둘레, 도형의 가장자리를 따라 한 바퀴 돈 길이, 다각형의 둘레 길이
 
@@ -1521,11 +1521,11 @@ power : 제곱, 거듭제곱, 자기 자신의수를 곱하는 것, square : 제
 
 price : 가격
 
-prime divisor (or factor) : 소인수 (素數 인 인수), 예) 8 의 인수는 1, 2, 4, 8 이며 소수는 2 뿐이므로 2 가 8 의 소인수
+prime divisor (or factor) : 소인수 (素數 인 인수). 예시 : 8 의 인수는 1, 2, 4, 8 이며 소수는 2 뿐이므로 2 가 8 의 소인수
 
 prime factor : 소인수
 
-prime factorization : 소인수 분해, 소인수로 분해하기, 예) 30 = 2 x 3 x 5
+prime factorization : 소인수 분해, 소인수로 분해하기. 예시 : 30 = 2 x 3 x 5
 
 prime number : 소수 (素數, 바탕이 되는수), prime (첫째의, 근본적인), 다른 어떤수의 곱으로 표현되지 않는 근본적인 수
 
@@ -1559,7 +1559,7 @@ proportion : 비율, 비례, inverse proportion : 반비례
 
 proportional distribution : 비례배분, 10 을 3 : 2 로 비례배분하면 각각 6 과 4 가 된다
 
-proportional expression : 비례식, 비의 값이 같은 두 비를 등식으로 나타낸 것, 예) 2 : 3 = 4 : 6
+proportional expression : 비례식, 비의 값이 같은 두 비를 등식으로 나타낸 것. 예시 : 2 : 3 = 4 : 6
 
 proportional factor (or constant) : 비례상수, 정비례 y = ax, 반비례 y = a/x 에서 상수 a 가 비례상수이다
 
@@ -1659,7 +1659,7 @@ rectangular solid : 직육면체
 
 reduce to simplest form : 약분하다
 
-reduction of fraction : 약분 (약분수, 간략히 하다), 예) 분수 2/8 을 약분하면 1/4
+reduction of fraction : 약분 (약분수, 간략히 하다). 예시 : 분수 2/8 을 약분하면 1/4
 
 reduction to common denominator : 통분, 공통분모, 분수를 서로 통하게 하려고 분모를 같게 만드는 것
 
@@ -1701,7 +1701,7 @@ repeating (or periodic, recurring) decimal : 순환소수
 
 represent : 나타내다
 
-representative value : 대표값, 예) 평균은 대표값의 하나이다
+representative value : 대표값. 예시 : 평균은 대표값의 하나이다
 
 reverse : 역수
 
@@ -1813,7 +1813,7 @@ Similar polygons : 닮은 다각형
 
 Similar solids : 닮은 입체
 
-similar terms : 동류항, 같은 무리에 속하는 항, 예) 3x 와 2x
+similar terms : 동류항, 같은 무리에 속하는 항. 예시 : 3x 와 2x
 
 Similar triangles : 닮은 삼각형
 
@@ -1847,7 +1847,7 @@ slope : 기울기, 경사지다, gradient (도로나 철도의 기울기) 와 �
 
 solid : 입체, 입체물, 원래의 뜻인 고체는 입체적이므로
 
-solid figure : 입체도형, 예) 정사면체, 회전체 등과 같이 "~체" 로 끝나는 것은 입체도형이다
+solid figure : 입체도형. 예시 : 정사면체, 회전체 등과 같이 "~체" 로 끝나는 것은 입체도형이다
 
 solid line : 실선
 
@@ -1881,7 +1881,7 @@ Strictly self-similar : 위치, 크기에 상관없이 부분이 전체와 같�
 
 subset : 부분집합
 
-substitution : 치환, 대입, 예) 수를 문자에 대입
+substitution : 치환, 대입. 예시 : 수를 문자에 대입
 
 subtract = deduct : 빼다
 
@@ -1927,7 +1927,7 @@ table of square roots : 제곱근 표
 
 Tables : 표
 
-tabular form : 원소나열법, 예) {1, 2, 3, ...}
+tabular form : 원소나열법. 예시 : { 1, 2, 3, ... }
 
 tangent : 접선, 접하다, tangens (접촉하다), 원 O 의 외부의 한점 P에서 이 원에 그을 수 있는 접선은 두 개, 탄젠트, 접촉, '해시계 바늘의 그림자' 를 의미, 그림자의 길이는 바늘의 길이를 반지름으로 하는 원의 접선의 일부, 기울기
 
@@ -1945,7 +1945,7 @@ tens digit : 십의 자리
 
 tenths digit : 소수점 첫째자리의 수
 
-term : 항, 예) 2x - 4x2 에서 2x, -4x2 이 항이다
+term : 항. 예시 : 2x - 4x2 에서 2x, -4x2 이 항이다
 
 the volume of a cube : 정육면체의 부피
 

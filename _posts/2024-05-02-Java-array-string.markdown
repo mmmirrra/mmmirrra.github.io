@@ -48,16 +48,16 @@ int f[10]; // Error
 - Example   
    
 ```java
-int a[] = {2, 3, 5, 7, 11};    // Initialize upon declaration
+int a[] = { 2, 3, 5, 7, 11 };    // Initialize upon declaration
 ```
    
 ```java
-int anArray[][] = { {1, 2, 3}, {4, 5, 6} };
+int anArray[][] = { { 1, 2, 3 }, { 4, 5, 6 } };
 ```
    
 ```java
 int b[];
-b = {4, 5, 6};    // Error
+b = { 4, 5, 6 };    // Error
 ```
    
 #### Creating an Array   
@@ -102,7 +102,7 @@ int anArray4[][] = new int[3][2];
 ```java
 public class Main {
     public static void main(String args[]) {
-        int twoArray[][] = { {0, 1}, {10, 11, 12} };
+        int twoArray[][] = { { 0, 1 }, { 10, 11, 12 } };
         for (int i = 0; i < twoArray.length; i++)
             for (int j = 0; j < twoArray[i].length; j++)
                 System.out.println(twoArray[i][j]);

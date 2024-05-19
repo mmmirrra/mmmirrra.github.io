@@ -219,10 +219,10 @@ ch = d
    
 // 열거형   
 // - 숫자 대신 단어를 사용   
-// - enum 태그명 {열거자1, 열거자2, ...}   
+// - enum 태그명 { 열거자1, 열거자2, ... }   
 - enumerated type   
   - Use words instead of numbers   
-  - `enum tagName {SUN, MON, TUE, WED, ...} e1`   
+  - `enum tagName { SUN, MON, TUE, WED, ... } e1`   
     - e1 = SUN; ---> e1 == 0   
     - SUN == 0, MON == 1, TUE == 2, WED == 3, ...   
    
@@ -231,8 +231,8 @@ ch = d
 ```c
 #include <stdio.h>
 void main() {
-    enum day1 {SUN, MON, TUE, WED, THU, FRI, SAT} d1;
-    enum day2 {sun = 2, mon, tue, wed, thu, fri, sat} d2;
+    enum day1 { SUN, MON, TUE, WED, THU, FRI, SAT } d1;
+    enum day2 { sun = 2, mon, tue, wed, thu, fri, sat } d2;
     d1 = WED;
     d2 = wed;
     printf("The value stored in enumeration d1 is %d \n", d1);

@@ -898,8 +898,8 @@ int main() {
 	addrbook.erase("Kim");						// 키가 가리키는 항목 삭제
 
 	map<string, string, LESS_T<string>> pBook{			// LESS_T 기준으로 정렬
-		{"Han", "o1o-0000-0000"},
-		{"Park", "o1o-0000-0001"}
+		{ "Han", "o1o-0000-0000" },
+		{ "Park", "o1o-0000-0001" }
 	};
 	pBook["Kim"] = "o1o-0000-0002";					// 기존 항목이 없으므로 새로운 항목 추가됨
 	pBook.insert(make_pair("Choi", "o1o-0000-0003"));		// 새로운 항목 추가됨
@@ -971,8 +971,7 @@ void SwapValues(int& x, int& y) {
 }
 
 // const 한정어로 실 매개변수 보호 - SaleRec 구조체는 main 함수보다 먼저 정의되어 있어야 함
-void PrSalesRec(const SalesRec& srec)
-{
+void PrSalesRec(const SalesRec& srec) {
 	cout << "Item code : " << srec.pID << endl;
 	cout << "Delivery date : " << " Year : " << srec.dYear;
 	cout << " / Month : " << srec.dMonth;

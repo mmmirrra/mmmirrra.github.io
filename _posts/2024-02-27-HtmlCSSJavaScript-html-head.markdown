@@ -33,7 +33,7 @@ Use to define the CSS style to apply to the entire web document
    
 ```html
 <style>
-    Define CSS Style (Example : h1{ color: red; })
+    Define CSS Style (Example : h1 { color: red; })
 </style>
 ```
    

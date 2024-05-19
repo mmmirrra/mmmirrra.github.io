@@ -136,8 +136,7 @@ int sum = 0;
 printf("Input : ");
 scanf("%d", &n);
 
-for(i = 0; i < n; i++)
-{
+for (i = 0; i < n; i++) {
     sum += i;
 }
 

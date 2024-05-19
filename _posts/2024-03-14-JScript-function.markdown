@@ -108,49 +108,42 @@ var triplet = false;
 
 // 정수 테스트 함수
 // - integer test function
-function integerCheck(a, b, c)
-{
-    if ((a*a) == ((b*b) + (c*c)))
-    {
+function integerCheck(a, b, c) {
+    if ((a*a) == ((b*b) + (c*c))) {
         triplet = true;
     }
 }
 
 // 부동 소수점 숫자 테스트 함수
 // - Floating point number test function
-function floatCheck(a, b, c)
-{
+function floatCheck(a, b, c) {
     // 테스트 숫자를 만듦
     // - Create test numbers
     var theCheck = ((a*a) - ((b*b) + (c*c)))
 
     // 테스트에는 절대값이 필요하므로, 음수일 경우에는 theCheck를 양수로 만듦
     // - The test requires an absolute value, so if it is negative, make the theCheck positive
-    if (theCheck < 0)
-    {
+    if (theCheck < 0) {
         theCheck *= -1;
     }
     
     // theCheck가 앱실론에 가깝다면 매우 가까움
     // - If theCheck is close to epsilon, it's very close
-    if (epsilon > theCheck)
-    {
+    if (epsilon > theCheck) {
         triplet = true;
     }
 }
 
 // triplet 검사 함수. 먼저 가장 긴 변을 "a" 위치로 옮김
 // - triplet check function, first move the longest side to the "a" position
-function checkTriplet(a, b, c)
-{
+function checkTriplet(a, b, c) {
     // 임시 저장소를 만듦
     // - Create a temporary repository
     var d = 0;
 
     // c > b 이면 교환
     // - If it's "c > b", exchange it
-    if (c > b)
-    {
+    if (c > b) {
         d = c;
         c = b;
         b = d;
@@ -160,8 +153,7 @@ function checkTriplet(a, b, c)
 
     // b > a 이면 교환
     // - If it's "b > a", exchange it
-    if (b > a)
-    {
+    if (b > a) {
         d = b;
         b = a;
         a = d;
@@ -173,13 +165,11 @@ function checkTriplet(a, b, c)
     // 세 값을 모두 테스트함. 모두 정수?
     // - If there is one side, the "a" side is now an oblique side
     // - Tested all three values. All integers?
-    if (((a % 1) == 0) && ((b % 1) == 0) && ((c % 1) == 0))
-    {
+    if (((a % 1) == 0) && ((b % 1) == 0) && ((c % 1) == 0)) {
         // 정수라면 정밀한 검사를 사용함
         // - If it is an integer, use a precise check
         integerCheck(a, b, c);
-    }
-    else 
+    } else 
         // 아니면 합리적으로 가능한 근사치를 가져옴
         // - Or get a reasonably possible approximation
         floatCheck(a, b, c);

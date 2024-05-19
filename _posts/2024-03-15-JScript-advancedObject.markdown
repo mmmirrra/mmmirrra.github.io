@@ -34,8 +34,7 @@ categories: [JScript]
 - This example assumes that the firstNameFirst and emailNameFirst values are already set elsewhere   
    
 ```javascript
-for (j = 1; j < addressList[length]; j++)
-{
+for (j = 1; j < addressList[length]; j++) {
     oneListingLine = new Function(
         emailNameFirst, 
         firstNameFirst, 
@@ -87,11 +86,9 @@ for (j = 1; j < addressList[length]; j++)
 - This very simple example also uses object (point) and array (bracket) representations to refer to the current object   
    
 ```javascript
-function MakeStringArray(length)
-{
+function MakeStringArray(length) {
     this.extent = length;
-    for (iNum = 0; iNum < length; i++)
-    {
+    for (iNum = 0; iNum < length; i++) {
         this[iNum] = "";
     }
 }
@@ -123,8 +120,7 @@ myStringArray = new MakeStringArray(63);
    
 ```javascript
 Math.prototype.Avogadro = 6.0232E23;
-function howManyMolecules(wtGrams, molWt)
-{
+function howManyMolecules(wtGrams, molWt) {
     return ((wtGrams/molWt) * Math.prototype.Avogadro);
 }
 
@@ -140,19 +136,16 @@ document.write("There are " + howManyMolecules(window.prompt("How many grams?", 
 - Of course, these periodic tables contain atom symbols, atom names, atomic weights, and other atom-related information   
    
 ```javascript
-function atomName(theSymbol)
-{
+function atomName(theSymbol) {
     return (theElements[theSymbol].fullName);
 }
 
 String.prototype.atomName = atomName;
 
-function decodeFormula(theFormula)
-{
+function decodeFormula(theFormula) {
     var theCurrentPiece = "";
     var theDecodedFormula = "";
-    for (i = 1; i = theFormula.length; i++)
-    {
+    for (i = 1; i = theFormula.length; i++) {
         if (theFormtheCurrentPiece)
         // 수식 문자열을 기호와 숫자의 배열로 분리하는 코드문
         // - a code statement that separates an expression string into an array of symbols and numbers

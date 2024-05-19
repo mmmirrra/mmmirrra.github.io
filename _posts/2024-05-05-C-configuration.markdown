@@ -22,8 +22,7 @@ categories: [C]
   - The main() function is the first function to be called and must exist in all programs   
    
 ```c
-void main()
-{
+void main() {
     declaration statement
     substitution statement
     control statement
@@ -38,8 +37,7 @@ void main()
   - Definition of the function called in the main() function   
    
 ```c
-called function ()
-{
+called function () {
     ...
 }
 ```

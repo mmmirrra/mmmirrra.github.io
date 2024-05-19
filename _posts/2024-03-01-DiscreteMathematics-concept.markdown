@@ -231,7 +231,7 @@ print "fire";
 #### Example of Pseudo Code using Iteration Structure foreach   
 // 반복구조 foreach문을 사용한 의사코드 예시   
 ```c
-foreach x in {5, 4, 3, 2, 1, 0} {
+foreach x in { 5, 4, 3, 2, 1, 0 } {
   print x;
 }
 print "fire";

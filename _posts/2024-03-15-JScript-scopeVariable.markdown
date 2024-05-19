@@ -24,8 +24,7 @@ categories: [JScript]
 var aCentaur = "a horse on which a rider is riding";
 
 // Local aCentaur variable is declared in this function
-function antiquities()
-{
+function antiquities() {
     var aCentaur = "Kentauros would be a skitai warrior on horseback";
     // Add to a local variable
     aCentaur += ", It is incorrectly reported as follows";
@@ -53,8 +52,7 @@ withAdditive += aNumber;    // withAdditive is currently 100
 tweak();
 withAdditive += aNumber;    // withAdditive is currently 200
 
-function treak()
-{
+function treak() {
     // Explicit declaration of newThing variable
     var newThing = 0;
     
@@ -64,7 +62,7 @@ function treak()
     // The following statement specifies the value of 42 for the aNumber region variable, implicitly declaring the aNumber region variable
     aNumber = 42;
 
-    if (false){
+    if (false) {
         var aNumber;    // This statement does not run
         aNumber = "Hello!";  // This statement does not run
     }

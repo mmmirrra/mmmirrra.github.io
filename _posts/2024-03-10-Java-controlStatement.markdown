@@ -130,7 +130,7 @@ switch (n) {
 - The format is `for (variable declaration : array) { sentence... }`   
    
 ```java
-int[] arrayOfInts = { 32, 87, 3, 589, 12, 1076, 2000, 8};
+int[] arrayOfInts = { 32, 87, 3, 589, 12, 1076, 2000, 8 };
 for (int element : arrayOfInts) {
     System.out.print(element + " ");
 }

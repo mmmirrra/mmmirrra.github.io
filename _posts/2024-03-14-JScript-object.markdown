@@ -64,13 +64,11 @@ var init4 = toDoToday.shoppingList[3].substring(0, 1);
 // Create a cell to be tabulated
 var multTable = new Array(17);
 // Set rows
-for (var j = 0; j < multTable.length; j++)
-{
+for (var j = 0; j < multTable.length; j++) {
     // Create one row
     var aRow = new Array(17);
     // Sets the value for the row
-    for (var i = 0; i < aRow.length; i++)
-    {
+    for (var i = 0; i < aRow.length; i++) {
         // Create a value and substitute it
         aRow[i] = (i + " times " + j + " = " + i*j);
     }

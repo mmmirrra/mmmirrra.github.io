@@ -86,15 +86,15 @@ Element Pop(stack) ::=
 ```c
 Boolean StackIsFull(stack, maxStackSize) ::=
     if((Number of elements in the stack) == maxStackSize)
-        then {Return 'TRUE';}
-    else {Return 'FALSE';}
+        then { Return 'TRUE'; }
+    else { Return 'FALSE'; }
 ```
    
 ```c
 Boolean StackIsEmpty(stack) ::=
     if (stack == CreateStack(maxStackSize))
-        then {Return 'TRUE';}
-    else {Return 'FALSE';}
+        then { Return 'TRUE'; }
+    else { Return 'FALSE'; }
 ```
    
 <br />

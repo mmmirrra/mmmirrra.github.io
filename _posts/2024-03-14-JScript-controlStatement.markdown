@@ -61,19 +61,16 @@ if (newShip)
 
 // 이 예시에서는 두 조건이 모두 true가 아니면 테스트는 실패
 // - In this example, if both conditions are not true, the test fails
-if (rind.color == "deep yellow" && rind.texture == "creases large and small")
-{
+if (rind.color == "deep yellow" && rind.texture == "creases large and small") {
     theResponse = ("Is this Crenshaw melon? <br>");
 }
 
 // 이 예시에서는 두 조건 중 하나만 true이어도 테스트는 성공
 // - In this example, the test is successful even if only one of the two conditions is true
 var theReaction = "";
-if ((lbsWeight > 15) || (lbsWeight > 45))
-{
+if ((lbsWeight > 15) || (lbsWeight > 45)) {
     theReaction = ("Oh, cute kitten! <br>");
-}
-else
+} else
     theReaction = ("The cat there is big! <br>");
 ```
    
@@ -111,8 +108,7 @@ hours += (theHour >= 12) ? " 오후" : " 오전";
 -  A side effect of constructing a statement with a short length is that runsecond will not run if runfirst() returns 0 or false in the example below   
    
 ```javascript
-if ((runfirst() == 0) || (runsecond() == 0))
-{
+if ((runfirst() == 0) || (runsecond() == 0)) {
     code...
 }
 ```
@@ -165,8 +161,7 @@ sum[0] = 0;
 
 // 이 경우 1부터 10까지 셈
 // - In this case, count from 1 to 10
-for (var icount = 1; icount < howFar; icount++)
-{
+for (var icount = 1; icount < howFar; icount++) {
     theSum += icount;
     sum[icount] = theSum;
 }
@@ -174,16 +169,14 @@ for (var icount = 1; icount < howFar; icount++)
 var newSum = 0;
 // 전혀 실행되지 않음
 // - It doesn't run at all
-for (var icount = 1; icount > howFar; icount++)
-{
+for (var icount = 1; icount > howFar; icount++) {
     newSum += icount;
 }
 
 var sum = 0;
 // 무한 루프
 // - It's an infinite loop
-for (var icount = 1; icount > 0; icount++)
-{
+for (var icount = 1; icount > 0; icount++) {
     sum += icount;
 }
 ```
@@ -202,8 +195,7 @@ for (var icount = 1; icount > 0; icount++)
 ```javascript
 // tagliatelleVerde 는 몇 가지 속성을 가진 개체임
 // - A tagliatelleVerde is an object with several attributes
-for (j in tagliatelleVerde)
-{
+for (j in tagliatelleVerde) {
     // Various JScript code statements
 }
 ```
@@ -228,8 +220,7 @@ var theCount = 42;
 while (theCount >= 1) {
     if (theCount > 1) {
         theMoments = theCount + " element" + " is left";
-    }
-    else {
+    } else {
         theMoments = "One element is left";
     }
 
@@ -264,11 +255,9 @@ var theComment = "";
 var theRemainder = 0;
 var theEscape = 3;
 var checkMe = 27;
-for (kcount = 1; kcount <= 10; kcount++)
-{
+for (kcount = 1; kcount <= 10; kcount++) {
     theRemainder = checkMe % kcount;
-    if (theRemainder == theEscape)
-    {
+    if (theRemainder == theEscape) {
         // 나머지가 중지값과 같은 값이 처음 나오면 루프를 빠져 나감
         // - If the remainder first comes up with the same value as the stop value, it exits the loop
         break;
@@ -276,11 +265,9 @@ for (kcount = 1; kcount <= 10; kcount++)
     theComment = "The remainder of " + checkMe + " /(divide) " + kcount + "is " + theRemainder + ".";
 }
 
-for (kcount = 1; kcount <= 10; kcount++)
-{
+for (kcount = 1; kcount <= 10; kcount++) {
     theRemainder = checkMe % kcount;
-    if (theRemainder != theEscape)
-    {
+    if (theRemainder != theEscape) {
         // 나머지와 중지값이 동일한 경우만을 선택하고 다른 경우는 모두 무시
         // - Select only if the rest and stop values are the same, and ignore all other cases.
         continue;
@@ -293,20 +280,15 @@ var theMoments = "";
 // 카운터 초기화
 // - The counter is initialized
 var theCount = 42;
-while (theCount >= 1)
-{
-    if (theCount < 10)
+while (theCount >= 1) {
+    if (theCount < 10) {
         // Warning!
         // Fell into an infinite loop using continue as follows
         // continue;
         // }
-    {
-        if (theCount > 1)
-        {
+        if (theCount > 1) {
             theMoments = "There's " + theCount + "left!";
-        }
-        else 
-        {
+        } else {
             theMoments = "There's only one left!";
         }
         // 카운터 업데이트

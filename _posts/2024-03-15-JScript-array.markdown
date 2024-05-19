@@ -65,8 +65,7 @@ theFirstLine = theListing[1];
    
 ```javascript
 theListing = addressBook[entryNum];
-for (i = 1; i < 4; i++)
-{
+for (i = 1; i < 4; i++) {
     theName[i] = theListing["Name" + i];
     theAddress[i] = theListing["Address" + i];
 }
@@ -124,7 +123,9 @@ for (key in myArray)
 - The code below creates and initializes an associative array containing three elements   
    
 ```javascript
-var MyArray = {"a" : "Athens", "b" : "Belgrade", "c" : "Cairo"};
+var MyArray = {
+    "a" : "Athens", "b" : "Belgrade", "c" : "Cairo"
+};
 ```
    
 // 이 배열에서는 배열 요소 번호 (0, 1, 2) 대신 키 문자열 ("a", "b", "c") 을 사용하여 요소의 주소가 지정됨   

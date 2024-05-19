@@ -87,21 +87,21 @@ categories: [Data Structure]
 ```c
 // 1. Array create(n) ::= 배열의 크기가 n인 빈 배열을 생성하고 배열을 반환한다;
 // 2. Element retrieve(a, i) ::= if (i∈Index)
-//    then {배열의 i번째에 해당하는 원소값 'e'를 반환한다;}
-//    else {에러 메시지를 반환한다;}
+//    then { 배열의 i번째에 해당하는 원소값 'e'를 반환한다; }
+//    else { 에러 메시지를 반환한다; }
 // 3. Array store(a, i, e) ::= if (i∈Index)
-//    then {배열 a의 i번째 위치에 원소값 'e'를 저장하고 배열 a를 반환한다;}
-//    else {인덱스 i가 배열 a의 크기를 벗어나면 에러 메시지를 반환한다;}
+//    then { 배열 a의 i번째 위치에 원소값 'e'를 저장하고 배열 a를 반환한다; }
+//    else { 인덱스 i가 배열 a의 크기를 벗어나면 에러 메시지를 반환한다; }
 1. 
     Array create(n) ::= Create an empty array with n array size and return the array;
 2. 
     Element retrieve(a, i) ::= if (i∈Index)
-    then {Returns the element value 'e' corresponding to the i-th of the array;}
-    else {Returns an error message;}
+    then { Returns the element value 'e' corresponding to the i-th of the array; }
+    else { Returns an error message; }
 3. 
     Array store(a, i, e) ::= if (i∈Index)
-    then {Store the element value 'e' in the i-th position of array a and return the array a;}
-    else {Returns an error message if index i is outside the size of array a;}
+    then { Store the element value 'e' in the i-th position of array a and return the array a; }
+    else { Returns an error message if index i is outside the size of array a; }
 ```
    
 <br />

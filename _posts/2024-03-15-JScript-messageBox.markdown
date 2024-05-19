@@ -49,11 +49,9 @@ window.alert("Welcome! Press OK to continue");
    
 ```javascript
 var truthBeTold = window.confirm("Press OK to continue and Cancel to stop");
-if (truthBeTold)
-{
+if (truthBeTold) {
     window.alert("Welcome to our web page!");
-}
-else window.alert("Goodbye!");
+} else window.alert("Goodbye!");
 ```
    
 <br />

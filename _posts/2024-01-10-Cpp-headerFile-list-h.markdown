@@ -114,7 +114,7 @@ public:
 #pragma once
 
 class CharStack {		// 스택 공간 확인 예제
-	enum {size=20};
+	enum { size=20 };
 	int top;
 	char buf[size];
 public:

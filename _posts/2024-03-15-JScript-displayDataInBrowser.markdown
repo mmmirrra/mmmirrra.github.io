@@ -41,15 +41,13 @@ document.write();
 - Command `w();` shows empty lines   
    
 ```javascript
-function w(m)
-{
+function w(m) {
     // m 변수가 문자열임을 확인
     // - Verify that m variable is a string
     m = "" + m + "";
     // 빈 내용이나 정의되지 않은 항목을 테스트
     // - Test for blanks or undefined items
-    if ("undefined" != m)
-    {
+    if ("undefined" != m) {
         document.write("<br>");
     }
 
@@ -74,16 +72,14 @@ function w(m)
 <HTML>
     <HEAD>
         <SCRIPT LANGUAGE = "JScript">
-            function singOut()
-            {
+            function singOut() {
                 var theMoment = new Date();
                 var theHour = theMoment.getHours();
                 var theMinute = theMoment.getMinutes();
                 var theDisplacement = (theMoment.getTimezoneOffset() / 60);
                 theHour -= theDisplacement;
 
-                if (theHour > 23)
-                {
+                if (theHour > 23) {
                     theHour -= 24;
                 }
                 document.write(theHour + " hours, " + theMinute + " minutes, Coordinated Universal Time");

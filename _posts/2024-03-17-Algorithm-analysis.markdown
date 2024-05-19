@@ -46,8 +46,8 @@ categories: [Algorithm]
 #### Algorithm running time   
 // 알고리즘 수행시간   
    
-// 알고리즘 수행시간 = ∑{각 문장 (연산) 이 수행되는 횟수}   
-- Algorithm running time = ∑ {number of times each expression (operation) is performed}   
+// 알고리즘 수행시간 = ∑{ 각 문장 (연산) 이 수행되는 횟수 }   
+- Algorithm running time = ∑{ number of times each expression (operation) is performed }   
    
 // 수행시간에 영향을 미치는 요인   
 // - 입력 크기   
@@ -92,8 +92,7 @@ categories: [Algorithm]
 ```c
 // A[0..n-1]
 // n : Input Array and Number of Data
-SumAverage(A[], n)
-{
+SumAverage(A[], n) {
     sum = 0;    // 1 time
     i = 0;    // 1 time
     while (i < n) {    // n + 1 times

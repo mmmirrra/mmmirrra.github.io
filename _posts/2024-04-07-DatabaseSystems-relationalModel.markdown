@@ -262,7 +262,7 @@ categories: [Database Systems]
    
 |a, b|v|⊝|R|
 |:---:|:---:|:---:|:---:|
-|Property name|Constant value|Comparator<br />{＝, ≠, ＜, ＞, ≤, ≥}|Relation|
+|Property name|Constant value|Comparator<br />{ ＝, ≠, ＜, ＞, ≤, ≥ }|Relation|
    
 - Combination of conditions : ∧ (and), ∨ (or)   
    
