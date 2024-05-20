@@ -46,9 +46,9 @@ public class GradeOutputFirst {
 }
 ```
    
-#### Result   
+- Result   
    
-```cmd
+```
 175
 160
 ```
@@ -94,9 +94,9 @@ public class GradeOutputSecond {
 }
 ```
    
-#### Result   
+- Result   
    
-```cmd
+```
 175
 160
 ```

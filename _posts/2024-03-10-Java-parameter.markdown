@@ -33,9 +33,9 @@ public class Main {
 java Main test1 test2
 ```
    
-#### Result   
+- Result   
    
-```cmd
+```
 Hello
 test, test2
 ```

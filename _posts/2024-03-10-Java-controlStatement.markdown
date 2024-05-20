@@ -137,9 +137,9 @@ for (int element : arrayOfInts) {
 System.out.println();
 ```
    
-#### Result   
+- Result   
    
-```java
+```
 32 87 3 589 12 1076 2000 8
 
 ```
@@ -200,9 +200,9 @@ public class Main {
 }
 ```
    
-#### Result   
+- Result   
    
-```java
+```
 25
 ```
    
