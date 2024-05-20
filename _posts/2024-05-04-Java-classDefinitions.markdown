@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Java: Class definitions"
+title:  "Java: Class Definition"
 date:   2024-05-04 09:00:00 +0900
 categories: [Java]
 ---
 
-### Class definitions   
+### Class Definition   
 // 클래스 정의   
    
 // 동종 객체를 표현하기 위한 데이터 필드(멤버 변수)와 메소드를 정의함   
