@@ -25,6 +25,7 @@ Scanner sc = new Scanner(System.in);
 String name = sc.next();
 ```
    
+<br />
 ### Input using the scanner class   
 // Scanner 클래스를 사용한 입력   
    
