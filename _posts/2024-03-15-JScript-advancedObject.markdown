@@ -9,19 +9,19 @@ categories: [JScript]
 // 고급 개체 작성   
    
 <br />
-### Creating Objects Using Constructors   
+### Creating Objects Using Constructor   
 // 구성자를 사용하여 개체 작성   
    
 // JScript에서는 구성자를 사용하여 개체 클래스를 만들 수 있음   
 // new문으로 구성자를 불러오며, 구성자는 문이 구성하는 모든 것을 반환함   
-- In JScript, object classes can be created using constructors   
+- In JScript, object class can be created using constructor   
 - The constructor is imported into a new statement, and the constructor returns everything the statement comprises   
    
 // 특별한 Function 구성자를 사용하면 익명의 함수를 만들 수 있음   
 // 익명의 함수는 이름이 없는 함수임   
 // 예를 들어, 다른 함수 내부에 있는 지시자의 하나로 Function 구성자를 사용하여 함수를 "진행 중에" 만들 수 있음   
 // 이러한 함수는 한 위치에서만 사용되므로 이름이 필요 없음   
-- Using special Function constructors, anonymous functions can be created   
+- Using special Function constructor, anonymous functions can be created   
 - An anonymous function is an unnamed function   
 - For example, a function can be created in progress using the Function constructor as one of the indicators inside another function   
 - These functions are only used in one location, so no names are required   
@@ -64,7 +64,7 @@ for (j = 1; j < addressList[length]; j++) {
 ```
    
 <br />
-### Using Constructors   
+### Using Constructor   
 // 구성자 쓰기   
    
 // 구성자를 직접 쓰려면 구성자 내에서 this 키워드를 사용하여 새로 만들어진 개체를 참조해야 함   

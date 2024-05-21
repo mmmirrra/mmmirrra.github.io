@@ -14,7 +14,7 @@ categories: [Java]
 // `abstract`와 `final`은 사용 범위를 제한하는 접근 제어자는 아님 (비접근 제어자)   
 - Limiting the scope of use of a class   
   - omit, public, private, protected   
-  - `Private` and `protected` are only used in internal classes   
+  - `Private` and `protected` are only used in internal class   
 - `abstract` and `final` are not access modifiers that limit the scope of use (non-access modifier)   
    
 <br />

@@ -878,7 +878,7 @@ categories: [JScript]
 // 클래스는 개체의 속성과 그 개체의 동작을 제어하는 데 사용하는 메서드를 정의함   
 - Define the type of object   
 - Acting as a template for creating instances of objects at runtime   
-- Classes define the properties of an object and the methods used to control its behavior   
+- Class define the properties of an object and the methods used to control its behavior   
    
 #### UTC (Universal Coordinated Time)   
 // 협정 세계 표준시   

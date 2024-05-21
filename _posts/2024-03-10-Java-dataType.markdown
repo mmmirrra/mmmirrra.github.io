@@ -50,7 +50,7 @@ categories: [Java]
 // 선언된 클래스 내부에서 사용 가능   
 // 클래스 외부에서의 사용 가능 여부는 접근 제어자 (access modifier) 에 따라 다름   
 // - 예시 : `class Circle { protected int radius; ... }`   
-- Available inside declared classes   
+- Available inside declared class   
 - The availability outside the class depends on the access modifier   
   - Example : `class Circle { protected int radius; ... }`   
    
