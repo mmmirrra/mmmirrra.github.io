@@ -64,14 +64,14 @@ b = { 4, 5, 6 };    // Error
 // 배열의 생성   
    
 // 배열의 원소가 사용할 메모리 공간의 생성   
-// - new 연산자를 이용   
+// - `new` 연산자를 이용   
 // -- 배열의 크기를 정하고 메모리 공간을 확보   
-// -- new 연산자는 메모리의 주소값을 리턴함   
+// -- `new` 연산자는 메모리의 주소값을 리턴함   
 // -- 원소가 숫자인 경우 0, 참조형인 경우 null로 자동 초기화   
 - Creating memory space for the elements in the array to use   
-  - Using the new operator   
+  - Using the `new` operator   
     - Size the array and free up memory space   
-    - The new operator returns the address value of the memory   
+    - The `new` operator returns the address value of the memory   
     - Auto-initialize elements to 0 if they are numbers or null if they are references   
    
 - Example   
@@ -92,9 +92,9 @@ int anArray4[][] = new int[3][2];
 #### The size of Array   
 // 배열의 크기   
    
-// 배열은 크기를 가지는 내장 속성 length를 가짐   
+// 배열은 크기를 가지는 내장 속성 `length`를 가짐   
 // - 사용법은 `배열이름.length`   
-- Array has built-in property length with size   
+- Array has built-in property `length` with size   
   - The method of use is `arrayName.length`   
    
 - Example   
@@ -158,12 +158,12 @@ if (s1 != null) {
 - (String + Base Type) or (String + Other Reference Type) is also possible   
    - When using + operator, the base type (or other reference type) value can be automatically transformed into a string   
    
-// print() 나 println() 에서 자주 사용됨   
+// `print()` 나 `println()` 에서 자주 사용됨   
 // - 1개 매개변수를 문자열로 바꾸어 출력함   
-// - System.out은 화면 출력을 위한 객체   
-- Frequently used in print() or println()   
+// - `System.out`은 화면 출력을 위한 객체   
+- Frequently used in `print()` or `println()`   
   - Outputs one parameter by replacing it with a string   
-  - System.out is an object for screen output   
+  - `System.out` is an object for screen output   
    
 - Example   
    

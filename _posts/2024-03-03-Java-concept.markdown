@@ -90,13 +90,13 @@ Java API (Application Programming Interface)
 Java Source File (HelloWorld.java) → Compiler → Java bytecode (HelloWorld.class) → Java VM → Running a Program (Running HelloWorld)   
    
 // Java 소스와 바이트코드   
-// - Java 소스는 파일 확장자가 .java   
-// - 바이트코드는 파일 확장자가 .class인 파일 (클래스 파일)   
+// - Java 소스는 파일 확장자가 '.java'   
+// - 바이트코드는 파일 확장자가 '.class'인 파일 (클래스 파일)   
 // -- Java 소스를 컴파일한 결과물   
 // -- Java 플랫폼의 Java VM에서 실행 가능한 코드   
 - Java source and bytecode   
-  - Java source has a file extension of .java   
-  - Bytecode has a file extension of .class (class file)   
+  - Java source has a file extension of '.java'   
+  - Bytecode has a file extension of '.class' (class file)   
     - Results from compiling Java sources   
     - Code executable on Java VM on Java platform   
    

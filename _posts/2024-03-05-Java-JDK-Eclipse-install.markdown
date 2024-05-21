@@ -64,9 +64,9 @@ categories: [Java]
    
 // JDK 예전 버전은 환경변수를 설정해야 사용할 수 있음. 최신 버전은 환경변수 설정을 하지 않아도 사용 가능   
 // PATH 변수에 아래 경로를 추가   
-// - C:\Program Files\Java\jdk-21\bin   
+// - `C:\Program Files\Java\jdk-21\bin`   
 // JDK_HOME 변수에 JDK 설치 폴더 경로를 추가   
-// - C:\Program Files\Java\jdk-21   
+// - `C:\Program Files\Java\jdk-21`   
 - JDK older versions were available with environmental variables set. The latest version is available without setting environment variables   
 - Add the path below to the PATH variable   
   - `C:\Program Files\Java\jdk-21\bin`   
@@ -113,7 +113,7 @@ categories: [Java]
 // 명령 프롬프트 창에서 실행 명령은 java   
 // - 예시 : `java Hello`   
 - Using a text editor to create a source   
-  - Example : file name : Hello.java   
+  - Example : file name : `Hello.java`   
    
     ```java
     public class Hello {
@@ -145,7 +145,7 @@ categories: [Java]
 // 이클립스   
    
 // 무료 오픈소스 프로그램 개발도구   
-// Eclipse IDE for Java Developers를 설치해야 함   
+// 'Eclipse IDE for Java Developers'를 설치해야 함   
 // 이클립스 홈페이지에서 다운로드하여 설치할 수 있음   
 // - 설치용 파일 (.exe) 또는 압축 파일 (.zip) 을 다운로드함   
 // - 압축만 풀면 설치가 완료되는 것임   
@@ -191,19 +191,19 @@ categories: [Java]
 // 3. 패키지 안에 클래스를 생성   
 // - Java 프로그램은 클래스 단위로 작성함   
 // - 탐색기에 있는 패키지 이름에 마우스 오른쪽 버튼으로 'New → Class' 선택   
-// - 클래스의 이름으로 파일 이름 (.java) 이 정해짐   
+// - 클래스의 이름으로 '파일 이름 (.java)' 이 정해짐   
 // 4. Java 소스를 저장하면 컴파일이 자동으로 실행됨. 컴파일 시 클래스마다 .class 파일이 자동으로 생성됨   
-// 5. main() 메소드를 가진 클래스를 실행   
+// 5. `main()` 메소드를 가진 클래스를 실행   
 1. Creating a Java Project in Eclipse   
-    - Select 'Menu : File → New → Java Project'   
-2. Select 'Menu : Window → Show View → Package Explorer' to open the Explorer, and create a package in Explorer for class to be stored   
-    - Right-click the project in Explorer and select 'New → Package'   
+    - Select `Menu : File → New → Java Project`   
+2. Select `Menu : Window → Show View → Package Explorer` to open the Explorer, and create a package in Explorer for class to be stored   
+    - Right-click the project in Explorer and select `New → Package`   
 3. Create class in a package   
     - Java program is written on a class-by-class basis   
-    - Right-click the package name in Explorer and select 'New → Class'   
-    - Set file name (.java) as class name   
+    - Right-click the package name in Explorer and select `New → Class`   
+    - Set 'file name (.java)' as class name   
 4. Saving a Java source causes compilation to run automatically. Class (.class) files are automatically created for each class during compilation   
-5. Run a class that contains the main() method   
+5. Run a class that contains the `main()` method   
    
 <br />
 #### Try developing Java program   

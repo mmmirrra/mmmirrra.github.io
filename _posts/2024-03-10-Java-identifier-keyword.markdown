@@ -105,14 +105,14 @@ class   finally   long    strictfp**    volatile
 const*    float   native    super   while
 ```
    
-// goto, const는 현재 사용하지 않음   
-// strictfp는 java2부터 사용할 수 있음   
-// assert는 java3부터 사용할 수 있음   
-// enum은 java4부터 사용할 수 있음   
-- goto, const is not currently used   
-- strictfp is available from java2   
-- assert is available from java3   
-- enum is available from java4   
+// `goto, const`는 현재 사용하지 않음   
+// `strictfp`는 java2부터 사용할 수 있음   
+// `assert`는 java3부터 사용할 수 있음   
+// `enum`은 java4부터 사용할 수 있음   
+- `goto, const` is not currently used   
+- `strictfp` is available from java2   
+- `assert` is available from java3   
+- `enum` is available from java4   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

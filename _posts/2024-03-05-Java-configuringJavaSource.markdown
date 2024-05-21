@@ -45,8 +45,8 @@ public class Main {
 }
 ```
    
-// public class의 이름이 A이면, A.java 파일에 저장되어야 함   
-If the name of the public class is A, it must be saved in the A.java file   
+// `public class`의 이름이 `A`이면, `A.java` 파일에 저장되어야 함   
+If the name of the `public class` is `A`, it must be saved in the `A.java` file   
    
 ```java
 package Apkg;
@@ -97,14 +97,14 @@ public class Main {
    
 // 3. 배포   
 // - 개발된 Java 프로그램을 묶어서 외부에서 실행 가능하게 내보내는 것   
-// -- 실행에 필요한 클래스 파일을 묶어서 .jar 파일을 만들 수 있음   
+// -- 실행에 필요한 클래스 파일을 묶어서 '.jar' 파일을 만들 수 있음   
 // - 프로젝트에서 마우스 오른쪽 버튼으로 'Export...' 선택   
 // -- export 유형 (Runnable JAR file), jar 파일의 경로와 이름 등을 지정   
 // - 명령프롬프트에서 jar 파일 실행   
    
 3 . Export   
 - To bundle and export a developed Java program so it can run externally   
-  - Create .jar file by grouping the class files required to run   
+  - Create '.jar' file by grouping the class files required to run   
 - Right-click on Project to select 'Export...'   
   - Specify the export type (Runnable JAR file), path and name of the jar file, etc   
 - Execute jar file from command prompt   

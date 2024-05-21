@@ -10,24 +10,24 @@ categories: [Java]
    
 // 클래스의 사용 범위를 제한하는 것   
 // - 생략, public, private, protected   
-// - private과 protected는 내부 클래스에서만 사용함   
-// abstract와 final은 사용 범위를 제한하는 접근 제어자는 아님 (비접근 제어자)   
+// - `private`과 `protected`는 내부 클래스에서만 사용함   
+// `abstract`와 `final`은 사용 범위를 제한하는 접근 제어자는 아님 (비접근 제어자)   
 - Limiting the scope of use of a class   
   - omit, public, private, protected   
-  - Private and protected are only used in internal classes   
-- Abstract and final are not access modifiers that limit the scope of use (non-access modifier)   
+  - `Private` and `protected` are only used in internal classes   
+- `abstract` and `final` are not access modifiers that limit the scope of use (non-access modifier)   
    
 <br />
-### Difference between omitted and public classes   
+### Difference between omitted and public class   
 // 생략된 경우와 public 클래스의 차이   
    
-// 클래스 선언에서 접근 제어자가 생략된 class   
+// 클래스 선언에서 접근 제어자가 생략된 `class`   
 // - 같은 패키지에 있는 다른 클래스에서 사용 가능 (패키지 접근 수준)   
-// public class로 선언된 경우   
+// `public class`로 선언된 경우   
 // - 모든 클래스에서 즉, 어디서나 사용 가능   
-- class with access modifier omitted from class declaration   
+- `class` with access modifier omitted from class declaration   
   - Available from different classes in the same package (package access level)   
-- Declared as public class   
+- Declared as `public class`   
   - All classes—anywhere   
    
 <br />
@@ -45,14 +45,14 @@ categories: [Java]
 ### Meaning the access modifier for data fields and methods   
 // 데이터 필드, 메소드에서 접근 제어자의 의미   
    
-// private은 같은 클래스에서만 사용 가능   
+// `private`은 같은 클래스에서만 사용 가능   
 // 접근 제어자가 생략된 필드는 같은 패키지에 있는 다른 클래스에서도 사용 가능   
-// protected는 같은 패키지와 자식 클래스에서 사용 가능   
-// public은 모든 클래스에서 사용 가능   
-- Private is only available in the same class   
+// `protected`는 같은 패키지와 자식 클래스에서 사용 가능   
+// `public`은 모든 클래스에서 사용 가능   
+- `private` is only available in the same class   
 - Fields omitted by access modifier are also available in other classes in the same package   
-- Protected is available in the same package and child class   
-- Public is available in all classes   
+- `protected` is available in the same package and child class   
+- `public` is available in all classes   
    
 |Declare members of the Alpha class|Alpha<br />(public class)|Beta<br />(Classes in the same package as Alpha)|AlphaSub<br />(Alpha's child class in a different package than Alpha's)|Gamma<br />(Classes in a different package than Alpha)|
 |:---:|:---:|:---:|:---:|:---:|

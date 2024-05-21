@@ -13,10 +13,10 @@ categories: [Java]
 - A method that runs automatically when an object is created   
   - Actions such as initializing the field value of an object or allocating memory   
    
-// 객체 생성 방법은 new 클래스이름(인자 ...)   
-// - new 연산자를 이용하여 객체를 생성 (메모리 할당) 하고 생성자가 호출 (데이터 필드의 초기화) 되면서 객체의 참조값을 변수에 대입 (=)   
-- The object creation method is a new className(argument...)   
-  - Create an object (memory allocation) using the new operator and substitute the object's reference value into the variable (=) as the constructor calls (initializes the data field)   
+// 객체 생성 방법은 `new 클래스이름(인자 ...)`   
+// - `new` 연산자를 이용하여 객체를 생성 (메모리 할당) 하고 생성자가 호출 (데이터 필드의 초기화) 되면서 객체의 참조값을 변수에 대입 (=)   
+- The object creation method is a `new className(argument...)`   
+  - Create an object (memory allocation) using the `new` operator and substitute the object's reference value into the variable (=) as the constructor calls (initializes the data field)   
    
 - Example   
    
@@ -32,9 +32,9 @@ Circle c = new Circle(5);
 // 생성자의 정의   
    
 // 보통의 메소드와 정의 방법이 다름   
-// - 생성자는 new를 사용하여 객체를 생성할 때 호출됨   
+// - 생성자는 `new`를 사용하여 객체를 생성할 때 호출됨   
 - Different from the usual methods and how they are defined   
-  - Constructor is called when creating objects using new   
+  - Constructor is called when creating objects using `new`   
    
 <br />
 ### How to define a Constructor   
@@ -44,12 +44,12 @@ Circle c = new Circle(5);
 // 반환형을 지정할 수 없음   
 // 한 클래스에서 여러 생성자를 정의할 수 있음 (생성자 오버로딩)   
 //  - 매개변수의 개수와 매개변수의 자료형으로 구분   
-// 접근 제어자는 보통 public   
+// 접근 제어자는 보통 `public`   
 - The constructor name is the same as the class name   
 - Cannot specify a return type   
 - Multiple constructors can be defined in one class (constructor Overloading)   
   - Separated by number of parameters and data types of parameters   
-- Access modifiers are usually public   
+- Access modifiers are usually `public`   
    
 - Example   
    

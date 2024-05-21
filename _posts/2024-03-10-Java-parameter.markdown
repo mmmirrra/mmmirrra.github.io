@@ -9,10 +9,10 @@ categories: [Java]
 // 명령행 매개변수   
    
 // 프로그램을 실행할 때 전달하는 인자   
-// main() 함수에 전달되는 인자   
+// `main()` 함수에 전달되는 인자   
 // 문자열로 전달됨   
 - Arguments passed when running a program   
-- Arguments passed to the main() function   
+- Arguments passed to the `main()` function   
 - Forwarded as a string   
    
 ```java
