@@ -22,14 +22,14 @@ categories: [University Mathematics]
 // -- 예시 : A = {1, 2, 3, 4, ...}   
 // - 조건 제시법   
 // -- 원소가 만족하는 조건이나 관계식으로 표현   
-// -- 예시 : A = {x\|x는 자연수}   
+// -- 예시 : A = {x \| x는 자연수}   
 - Methods of representing a set include tabular form and set-builder notation   
   - tabular form   
     - List all elements that belong to the elements of the set   
     - Example : A = {1, 2, 3, 4, ...}   
   - set-builder notation   
     - Expressing in terms of conditions or relational expressions that satisfy an element   
-    - Example : A = {x\|x is a natural number}   
+    - Example : A = {x \| x is a natural number}   
    
 #### Subset   
 // 부분집합   
@@ -43,12 +43,12 @@ categories: [University Mathematics]
    
 // 집합 A, B가 주어졌을 때, 'x ∈ B 이면 x ∈ A 이다'가 성립하면서 A ≠ B 일 경우, 집합 B는 집합 A의 진부분집합   
 // - 예시 : 다음 두 집합 사이의 포함관계를 가장 잘 표현한 것은?   
-// -- ① A = {n\|n은 자연수}, B = {n\|n은 짝수}   
-// -- ② A = {x\|x > 1}, B = {x\|x² > 1}   
+// -- ① A = {n \| n은 자연수}, B = {n \| n은 짝수}   
+// -- ② A = {x \| x > 1}, B = {x \| x² > 1}   
 - Given sets A and B, if 'If x ∈ B is x ∈ A' is established and 'A ≠ B' then set B is the true subset of set A   
   - Example : Which best expresses the inclusion relationship between the following two sets?   
-    - ① A = {n\|n is a natural number}, B = {n\|n is a even number}   
-    - ② A = {x\|x > 1}, B = {x\|x² > 1}   
+    - ① A = {n \| n is a natural number}, B = {n \| n is a even number}   
+    - ② A = {x \| x > 1}, B = {x \| x² > 1}   
    
 // 두 집합이 모두 같은 원소로 구성되어 있을 때, '두 집합은 같다'고 하고 다음과 같이 표현함   
 // - A = B   
@@ -80,9 +80,9 @@ categories: [University Mathematics]
 // 합집합   
    
 // 합집합 A ∪ B   
-// - 집합 A, B가 주어졌을 때, A ∪ B = {x\|x ∈ A 또는 x ∈ B}   
+// - 집합 A, B가 주어졌을 때, A ∪ B = {x \| x ∈ A 또는 x ∈ B}   
 - Union set A ∪ B   
-  - Given sets A and B, A ∪ B = {x\|x ∈ A or x ∈ B}   
+  - Given sets A and B, A ∪ B = {x \| x ∈ A or x ∈ B}   
    
 // 합집합의 기본 성질   
 // 1. A ∪ A = A   
@@ -104,17 +104,17 @@ categories: [University Mathematics]
     8. (A ∪ B) ∪ C = A ∪ (B ∪ C) = A ∪ B ∪ C (associative property)   
    
 // A, B, C의 합집합은 A ∪ B ∪ C 로 쓰고, 다음과 같이 정의   
-// - A ∪ B ∪ C = {x\|x ∈ A 또는 x ∈ B 또는 x ∈ C}   
+// - A ∪ B ∪ C = {x \| x ∈ A 또는 x ∈ B 또는 x ∈ C}   
 - The combination of A, B, C is written as A ∪ B ∪ C and defined as   
-  - A ∪ B ∪ C = {x\|x ∈ A or x ∈ B or x ∈ C}   
+  - A ∪ B ∪ C = {x \| x ∈ A or x ∈ B or x ∈ C}   
    
 #### Intersection set   
 // 교집합   
    
 // 교집합 A ∩ B   
-// - 집합 A, B가 주어졌을 때, A ∩ B = {x\|x ∈ A 이고 x ∈ B}   
+// - 집합 A, B가 주어졌을 때, A ∩ B = {x \| x ∈ A 이고 x ∈ B}   
 - Intersection set A ∩ B   
-  - Given sets A and B, A ∩ B = {x\|x ∈ A and x ∈ B}   
+  - Given sets A and B, A ∩ B = {x \| x ∈ A and x ∈ B}   
    
 // 교집합의 기본 성질   
 // 1. A ∩ A = A   
@@ -136,19 +136,19 @@ categories: [University Mathematics]
     8. (A ∩ B) ∩ C = A ∩ (B ∩ C) = A ∩ B ∩ C (associative property)   
    
 // A, B, C의 교집합은 A ∩ B ∩ C 로 나타내고, 다음과 같이 정의   
-// - A ∩ B ∩ C = {x\|x ∈ A 이고 x ∈ B 이고 x ∈ C}   
+// - A ∩ B ∩ C = {x \| x ∈ A 이고 x ∈ B 이고 x ∈ C}   
 - The intersection of A, B, C is indicated by A ∩ B ∩ C and is defined as   
-  - A ∩ B ∩ C = {x\|x ∈ A and x ∈ B and x ∈ C}   
+  - A ∩ B ∩ C = {x \| x ∈ A and x ∈ B and x ∈ C}   
    
 #### Complement   
 // 여집합   
    
 // 여집합 A<sup>c</sup>   
 // 전체집합 U에 속하지만 A에는 속하지 않는 모든 원소의 집합   
-// - A<sup>c</sup> = {x ∈ U\|x ∉ A}   
+// - A<sup>c</sup> = {x ∈ U \| x ∉ A}   
 - Complement A<sup>c</sup>   
 - The set of all elements that belong to the entire set U but not to A   
-  - A<sup>c</sup> = {x ∈ U\|x ∉ A}   
+  - A<sup>c</sup> = {x ∈ U \| x ∉ A}   
    
 // 여집합의 기본 성질   
 // 1. A ∪ A<sup>c</sup> = U   
@@ -169,10 +169,10 @@ categories: [University Mathematics]
 // 차집합   
    
 // 차집합 A - B   
-// 집합 A, B가 주어졌을 때, 집합 A - B = {x\|x ∈ A 이고, x ∉ B}   
+// 집합 A, B가 주어졌을 때, 집합 A - B = {x \| x ∈ A 이고, x ∉ B}   
 // - A - B = A ∩ B<sup>c</sup> = A - (A ∩ B)   
 - Difference set A - B   
-- Given sets A and B, set A - B = {x\|x ∈ A and x ∉ B}   
+- Given sets A and B, set A - B = {x \| x ∈ A and x ∉ B}   
   - A - B = A ∩ B<sup>c</sup> = A - (A ∩ B)   
    
 <br />
@@ -206,11 +206,11 @@ categories: [University Mathematics]
 // 순서쌍 (ordered pair) 과 곱집합 (Cartesian product)   
 // - 임의의 실수 a, b를 짝을 지어 표현한 것을 순서쌍이라고 함   
 // - 집합 A와 B의 모든 순서쌍 집합 A, B가 주어졌을 때, (a, b)의 집합을 곱집합이라고 하며 다음과 같이 표현   
-// -- A x B = {(a, b)\|a ∈ A, b ∈ B}   
+// -- A x B = {(a, b) \| a ∈ A, b ∈ B}   
 - Ordered pair and Cartesian product   
   - An ordered pair is the expression of any real number a, b   
   - Given all ordered pairs of sets A and B, the set of (a, b) is called a cartesian product and is expressed as follows   
-    - A x B = {(a, b)\|a ∈ A, b ∈ B}   
+    - A x B = {(a, b) \| a ∈ A, b ∈ B}   
    
 // A = B 일 경우 A x B = A x A = A²   
 // n(A x B) = n(A)n(B)   
