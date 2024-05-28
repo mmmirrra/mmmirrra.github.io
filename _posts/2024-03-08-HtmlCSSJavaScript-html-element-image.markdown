@@ -45,22 +45,22 @@ categories: [Html CSS JavaScript]
    
 ```html
 <body>
-    <img src="flower.jpg"><br />
-    <img src="flower.jpg" width="100" height="100">
-    <img src="flower.jpg" width="100" border="1">
-    <img src="flower.jpg" widht="30%" border="5">
-    <img src="flower.jpg" alt="It's flower" border="3">
+    <img src="coffee.png"><br />
+    <img src="coffee.png" width="100" height="100">
+    <img src="coffee.png" width="100" border="1">
+    <img src="coffee.png" widht="30%" border="5">
+    <img src="coffee.png" alt="It's coffee" border="3">
 </body>
 ```
    
 #### Apply Source   
    
 <body>
-    <img src="flower.jpg"><br />
-    <img src="flower.jpg" width="100" height="100">
-    <img src="flower.jpg" width="100" border="1">
-    <img src="flower.jpg" widht="30%" border="5">
-    <img src="flower.jpg" alt="It's flower" border="3">
+    <img src="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample02.png"><br />
+    <img src="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample02.png" width="100" height="100">
+    <img src="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample02.png" width="100" border="1">
+    <img src="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample02.png" widht="30%" border="5">
+    <img src="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample02.png" alt="It's flower" border="3">
 </body>
    
 <br />

@@ -405,8 +405,8 @@ Content Area
 <body>
     <p>figure elements are used to block independent content, such as pictures, diagrams, photos, source codes, videos, etc., inserted into the content</p>
     <figure>
-        <img src="flower.jpg" alt="Yellow Tulip" width="300" height="200">
-        <figcaption>Figure 1. Pretty Yellow Tulips</figcaption>
+        <img src="coffee.png" alt="Sweet Coffee" width="300" height="200">
+        <figcaption>Figure 1. Sweet Coffee</figcaption>
     </figure>
 </body>
 ```
@@ -416,8 +416,8 @@ Content Area
 <body>
     <p>figure elements are used to block independent content, such as pictures, diagrams, photos, source codes, videos, etc., inserted into the content</p>
     <figure>
-        <img src="flower.jpg" alt="Yellow Tulip" width="300" height="200">
-        <figcaption>Figure 1. Pretty Yellow Tulips</figcaption>
+        <img src="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample02.png" alt="Sweet Coffee" width="300" height="200">
+        <figcaption>Figure 1. Sweet Coffee</figcaption>
     </figure>
 </body>
 <br /><br />

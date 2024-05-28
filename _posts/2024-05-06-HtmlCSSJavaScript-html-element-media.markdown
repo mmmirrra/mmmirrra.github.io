@@ -130,7 +130,7 @@ Audio Play : <br /><br />
    
 ```html
 Video Play : <br /><br />
-<video controls width="600" height="300" poster="poster.jpg">
+<video controls width="600" height="300" poster="poster.png">
     <source src="movie.mp4" type="video/mp4">
     <source src="movie.webm" type="video/webm">
     <source src="movie.ogv" type="video/ogg">
@@ -141,7 +141,7 @@ Video Play : <br /><br />
 #### Apply Source   
    
 Video Play : <br /><br />
-<video controls width="600" height="300" poster="poster.jpg">
+<video controls width="600" height="300" poster="https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/sample01.png">
     <source src="movie.mp4" type="video/mp4">
     <source src="movie.webm" type="video/webm">
     <source src="movie.ogv" type="video/ogg">
