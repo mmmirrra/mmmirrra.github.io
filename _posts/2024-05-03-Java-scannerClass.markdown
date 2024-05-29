@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java: Scanner Class"
+title:  "Java: java.util Package - Scanner Class"
 date:   2024-05-03 09:00:00 +0900
 categories: [Java]
 ---
