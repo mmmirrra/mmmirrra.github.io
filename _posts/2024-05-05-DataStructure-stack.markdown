@@ -44,10 +44,10 @@ Stack CreateStack(maxStackSize) ::=
 ```
    
 // stack은 0개 이상의 원소를 갖는 스택   
-// itme은 스택에 삽입되는 원소   
+// item은 스택에 삽입되는 원소   
 // maxStackSize는 스택의 최대 크기를 정의하는 정수   
 - stack is a stack with zero or more elements   
-- itme is an element that is inserted into the stack   
+- item is an element that is inserted into the stack   
 - maxStackSize is an integer that defines the maximum size of the stack   
    
 #### Push operation   
@@ -195,7 +195,7 @@ int pop() {
 - The operation of adding one element to the top of the stack   
    
 ```c
-void push(int itme) {
+void push(int item) {
     if (top >= STACK_SIZE - 1)
         return STackIsFull;
     else stack[++top] = item;
