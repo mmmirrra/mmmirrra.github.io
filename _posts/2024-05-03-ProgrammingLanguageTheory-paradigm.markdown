@@ -159,8 +159,8 @@ categories: [Programming Language Theory]
 - Result   
    
 ```
-Enter A: 126
-Enter B: 312
+Enter A: 126 [Enter]
+Enter B: 312 [Enter]
 GCD is 6
 ```
    
@@ -234,7 +234,7 @@ int main() {
 - Result   
    
 ```
-Enter a and b: 126 312
+Enter a and b: 126 312 [Enter]
 gcd: 6
 ```
    
