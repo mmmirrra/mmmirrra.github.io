@@ -38,7 +38,7 @@ categories: [Java]
 // - 데이터 필드를 사용할 수 있는 범위를 제한하는 것 (정보 은닉)   
 // - 메소드의 접근 제어자도 의미가 같음   
 - Access modifiers are also used to define data fields or methods in class definitions   
-  - Limiting the extent to which data fields can be used (information hidden)   
+  - Limiting the extent to which data fields can be used (information hiding)   
   - The method's access modifier has the same meaning   
    
 <br />
