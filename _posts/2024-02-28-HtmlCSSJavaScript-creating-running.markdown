@@ -8,8 +8,12 @@ categories: [Html CSS JavaScript]
 ### Creating and Running HTML Documents   
 // HTML 문서의 작성과 실행   
    
+// 'WYSIWYG' 이 지원되는 웹 저작도구 사용   
+// 저장할 때 'htm' 이나 'html' 로 지정   
 // 문서 작성을 위한 텍스트 편집기 → 문서 실행을 위한 웹 브라우저   
-Text editor for document creation → Web browser for document running   
+- Use 'WYSIWYG' supported web authoring tools   
+- Specify 'htm' or 'html' when saving   
+- Text editor for document creation → Web browser for document running   
    
 <br />
 ### Type of Text Editor   
