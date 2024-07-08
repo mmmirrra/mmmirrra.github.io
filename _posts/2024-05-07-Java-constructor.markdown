@@ -43,7 +43,7 @@ Circle c = new Circle(5);
 // 생성자 이름은 클래스 이름과 같음   
 // 반환형을 지정할 수 없음   
 // 한 클래스에서 여러 생성자를 정의할 수 있음 (생성자 오버로딩)   
-//  - 매개변수의 개수와 매개변수의 자료형으로 구분   
+// - 매개변수의 개수와 매개변수의 자료형으로 구분   
 // 접근 제어자는 보통 `public`   
 - The constructor name is the same as the class name   
 - Cannot specify a return type   
