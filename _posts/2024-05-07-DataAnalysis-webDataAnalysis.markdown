@@ -15,11 +15,11 @@ categories: [Data Analysis]
 // - 그래프를 이용한 데이터의 이해 효과   
 // - free   
 - Web is very active   
-  - The rapid development of the Internet   
-  - Advances in Data Analysis Methods Using the Web   
-    - Increased statistical education effect   
-    - The effect of understanding data using graphs   
-    - free   
+- The rapid development of the Internet   
+- Advances in Data Analysis Methods Using the Web   
+  - Increased statistical education effect   
+  - The effect of understanding data using graphs   
+  - free   
    
 <br />
 ### StatPages.net (http://statpages.org)   
