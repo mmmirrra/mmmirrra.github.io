@@ -1,0 +1,103 @@
+---
+layout: post
+title:  "Java: Enum"
+date:   2024-05-15 09:00:00 +0900
+categories: [Java]
+---
+
+### Enum   
+// 열거 자료형   
+   
+// 미리 정의된 상수값의 집합을 만들기 위한 자료형   
+// - `enum` 을 사용하여 정의   
+// - 열거형으로 선언된 변수에는 미리 지정된 값만 대입 가능   
+// - 상수값을 배열로 리턴하는 static 메소드인 `values()` 를 제공   
+- Data types to create a set of predefined constant values   
+  - Define using `enum`   
+  - Only pre-specified values can be substituted for variables declared as enumeration   
+  - Provides `values()` which is a static method of returning constant values to an array   
+   
+```java
+enum Day {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}
+
+public class Main {
+    public static void main(String args[]) {
+        Day day = Day.MONDAY;
+        for (Day d : Day.values()) {
+            System.out.println(d);
+        }
+    }
+}
+```
+   
+- Result   
+   
+```
+SUNDAY
+MONDAY
+TUESDAY
+WEDNESDAY
+THURSDAY
+FRIDAY
+SATURDAY
+```
+   
+<br />
+### Defining Enum   
+// 열거형 정의하기   
+   
+// 열거형 정의에 필드와 메소드를 포함할 수 있음   
+// 상수 선언이 필드나 메소드보다 먼저 정의되어야 하며 이때 세미콜론 ( ; ) 으로 끝나야 함   
+// 열거형에서 상수값은 마치 하나의 객체와 같음   
+// - `열거형이름.상수값`의 형식을 사용   
+// - `열거형이름.상수값`은 그 자체가 열거형의 인스턴스임   
+// 생성자는 열거형과 같은 이름을 가지며 접근 제어자는 생략 또는 `private` 이어야 함   
+// 열거형의 생성자는 열거형 상수 (객체) 에 대한 초기화를 수행함   
+// - 생성자는 상수가 사용될 때 한꺼번에 자동 호출됨   
+- Enum definitions can contain fields and methods   
+- Constants declaration must be defined before a field or method, where it must end with a semicolon ( ; )   
+- In an Enum, the constant value is like an object   
+  - Use the format of `enumName.constantValue`   
+  - `enumName.constantValue` is itself an instance of an enum   
+- The constructor has the same name as the enum and the access controller must be omitted or `private`   
+- The constructor of an enum performs initialization for an enum constant (object)   
+  - The constructor is automatically called all at once when a constant is used   
+   
+#### Enum Use Example   
+// 열거형 사용 예시   
+   
+```java
+enum BaseballTeam {
+    LG(40, 30), SS(30, 40), KT(20, 50), SK(35, 35), NC(55, 15);
+
+    private final int win;
+    private final int lose;
+
+    private BaseballTeam(int win, int lose) {
+        this.win = win;
+        this.lose = lose;
+    }
+
+    public double winsRate() {
+        return (win * 100.0) / (win + lose);
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        BaseballTeam bt = BaseballTeam.LG;
+        System.out.println(bt.winsRate());
+    }
+}
+```
+   
+- Result   
+   
+```
+57.142857142857146
+```
+   
+<br />
+<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
