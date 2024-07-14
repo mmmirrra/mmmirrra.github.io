@@ -40,9 +40,9 @@ categories: [Eclipse]
 `Ctrl + Shift + Enter` : Insert Line Above Current Line   
 // 다음줄에 새줄 추가   
 `Shift + Enter` : Insert Line Below Current Line   
-// 현재라인 (선택된 블럭) 을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
+// 현재라인 (선택된 블록) 을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
 `Alt + arrow keys ↑/↓ up/down` : Move Lines up/down   
-// 현재라인 (선택된 블럭) 복사하여 위로/아래로 붙여넣기   
+// 현재라인 (선택된 블록) 복사하여 위로/아래로 붙여넣기   
 `Ctrl + Alt + arrow keys ↑/↓ up/down` : Copy and Paste the Line (selected blocks) up/down   
 // 대문자로 변경   
 `Ctrl + Shift + X` : To Upper Case   
@@ -50,7 +50,7 @@ categories: [Eclipse]
 `Ctrl + Shift + Y` : To Lower Case   
 // 폰트 사이즈 한단계 크게/작게 수정   
 `Ctrl + +/-` : Modify font size one step larger/smaller   
-// 세로 블럭 드래그 가능한 편집모드 집입/해제   
+// 세로 블록 드래그 가능한 편집모드 집입/해제   
 `Alt + Shift + A` : Enter edit mode to select vertical blocks   
 // 같은 변수의 이름을 한번에 변경 : 변경되는 변수를 Preview로 미리볼 수 있음   
 `Alt + Shift + R` : Rename - Refactoring : Rename the same variable at once : Preview allows you to preview variables that change   
@@ -67,7 +67,7 @@ categories: [Eclipse]
    
 // 코드 자동 정리 : 코드 내용을 문법 템플릿에 맞게 포맷팅 함 : 들여쓰기 등 자동 코드 정렬   
 `Ctrl + Shift + F` : Format : Format the contents of the code according to the grammar template : Automatic code alignment, such as indent   
-// 선택된 블럭내 코드 자동 들여쓰기   
+// 선택된 블록 내 코드 자동 들여쓰기   
 `Ctrl + i` : Indent Line   
    
 <br />
@@ -132,11 +132,11 @@ categories: [Eclipse]
 ### Comment   
 // 주석   
    
-// 라인주석 ('//') : 현재 라인(선택된 블럭)에 주석 적용/해제   
+// 라인주석 ('//') : 현재 라인(선택된 블록)에 주석 적용/해제   
 `Ctrl + /` : Toggle Line Comment (`//`) : Comment to the current line   
-// 블럭주석 ('/* */') : 현재 선택된 블럭에 블럭주석 적용   
+// 블록주석 ('/* */') : 현재 선택된 블록에 블록주석 적용   
 `Ctrl + Shift + /` : Apply Block Comment (`/* */`) : Block Comment to the selected blocks   
-// 블럭주석 해제   
+// 블록주석 해제   
 `Ctrl + Shift + \` : Remove Block Comment (`/* */`)   
 // 해당 메서드/클래스에 대한 주석 템플릿 생성, 설정해 둔 기본주석 (공통 주석) 을 자동으로 달기 (메소드나 멤버변수에 포커스를 두고 실행)   
 `Alt + Shift + J` : Add Javadoc Comment : Create an Comment template for that Method/Class, or automatically apply the default Comment (common comment) you have set up (Press with focus on Method or Member variables)   

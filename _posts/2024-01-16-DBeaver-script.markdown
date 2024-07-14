@@ -25,7 +25,7 @@ The table to run the query can be found in the table tree on the left
    
 <br />
 // 'SELECT * FROM' 테이블명 입력 후 문장 위에 커서를 둔 상태로 'Ctrl + Enter' 키를 누르면 쿼리가 실행되어 전체 테이블 목록을 볼 수 있음   
-// 여러 줄의 쿼리를 입력한 후 일부 쿼리만 실행하려면 해당 부분만 블럭으로 선택한 후 'Ctrl + Enter' 키를 누름   
+// 여러 줄의 쿼리를 입력한 후 일부 쿼리만 실행하려면 해당 부분만 블록으로 선택한 후 'Ctrl + Enter' 키를 누름   
    
 After entering the `SELECT * FROM` table name, press `Ctrl + Enter` with the cursor over the sentence to run the query and view the full table list   
 To enter multiple lines of queries and then run only some queries, select them as blocks and press `Ctrl + Enter`   

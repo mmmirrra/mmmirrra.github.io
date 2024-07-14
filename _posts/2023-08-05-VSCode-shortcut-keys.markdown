@@ -42,7 +42,7 @@ If you type `Ctrl + S`, `Ctrl + K` in sequence as a shortcut, you will be taken 
 ### Editing   
 // 편집   
    
-// 현재라인 (선택된 블럭) 을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
+// 현재라인 (선택된 블록) 을 한단계 위로/아래로 이동 : 위/아래 줄과 바꾸기   
 `Alt + arrow keys ↑/↓ up/down` : Move Lines up/down   
 // 코드 맨 아래로 이동   
 `Ctrl + End` : Move to the bottom of the Code   
@@ -81,9 +81,9 @@ If you type `Ctrl + S`, `Ctrl + K` in sequence as a shortcut, you will be taken 
 ### Comment   
 // 주석   
    
-// 라인주석 : 현재 라인 (선택된 블럭) 에 주석 적용/해제   
+// 라인주석 : 현재 라인 (선택된 블록) 에 주석 적용/해제   
 `Ctrl + /` : Toggle Line Comment : Comment to the current line   
-// 블럭주석 : 현재 선택된 블럭에 블럭주석 적용/해제   
+// 블록주석 : 현재 선택된 블록에 블록주석 적용/해제   
 `Shift + Alt + A` : Apply/Remove Block Comment : Block/Remove Comment to the selected blocks   
 
 <br />
