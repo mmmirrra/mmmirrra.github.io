@@ -40,7 +40,7 @@ void main() {
 		max2 = b2;
 	printf("max2=%d\n", max2);	
 	// 출력결과 --> max2=입력된값 중 큰 값. 두 값이 같다면 먼저 입력된 값
-    // Output Results --> max2=Larger of the values entered. If the two values are equal, the value entered first
+	// Output Results --> max2=Larger of the values entered. If the two values are equal, the value entered first
 
 	/* Example of multi 'if ~ else' */
 	int a3;
@@ -97,7 +97,7 @@ void main() {
 			c5++;
 		}
 	}
-    // goto가 이동해 올 레이블
+	// goto가 이동해 올 레이블
 	// Label to which the goto will move
 	end5:
 	printf("\n\n The End \n");
