@@ -14,13 +14,13 @@ categories: [Java]
 // - 생략 가능함   
 // - `this.필드이름`   
 // - `this.메소드이름(인자)`   
-- When calling the method, `this` is delivered to the method as a hidden argument
-  - `this` has a reference value for the current object
-  - That's why the results of `c1.display()` and `c2.display()` are different
-- Available when referencing a field or calling a method in an instance method or constructor
-  - Can be omitted
-  - `this.fieldName`
-  - `this.methodName(argument)` 
+- When calling the method, `this` is delivered to the method as a hidden argument   
+  - `this` has a reference value for the current object   
+  - That's why the results of `c1.display()` and `c2.display()` are different   
+- Available when referencing a field or calling a method in an instance method or constructor   
+  - Can be omitted   
+  - `this.fieldName`   
+  - `this.methodName(argument)`   
    
 - Example   
    
@@ -37,25 +37,24 @@ class Circle {
     }
 }
 ```
-
+   
 <br />
 ### super   
    
-// `this`와 같으나 자료형이 부모 클래스 유형임
-// 자식 클래스의 인스턴스 메소드나 생성자에서 사용됨
-// - `this`와 마찬가지로 static 메소드에서는 사용할 수 없음
-// 부모 클래스에서 오버로딩 당한 메소드를 호출하거나, 상속되었으나 감춰진 필드에 접근할 때 필요함
-// - `super.필드이름`
-// - `super.메소드이름(인자)`
-- Same as `this`, but data type is parent class type
-- Used by instance method or constructor of child class
-  - Not available in static methods like `this`
-- Required for calling overloaded methods in parent class, or accessing inherited but hidden fields
-  - `super.fieldName`
-  - `super.methodName(argument)`
-
+// `this`와 같으나 자료형이 부모 클래스 유형임   
+// 자식 클래스의 인스턴스 메소드나 생성자에서 사용됨   
+// - `this`와 마찬가지로 static 메소드에서는 사용할 수 없음   
+// 부모 클래스에서 오버로딩 당한 메소드를 호출하거나, 상속되었으나 감춰진 필드에 접근할 때 필요함   
+// - `super.필드이름`   
+// - `super.메소드이름(인자)`   
+- Same as `this`, but data type is parent class type   
+- Used by instance method or constructor of child class   
+  - Not available in static methods like `this`   
+- Required for calling overloaded methods in parent class, or accessing inherited but hidden fields   
+  - `super.fieldName`   
+  - `super.methodName(argument)`   
+   
 ```java
-// 부모 클래스
 // Parent class
 class CSuper {
     public double x = 0;
@@ -65,7 +64,6 @@ class CSuper {
     }
 }
 
-// 자식 클래스
 // Child class
 class CSub extends CSuper {
     public double x = 1;
@@ -86,10 +84,10 @@ class CSub extends CSuper {
     }
 }
 ```
-
-#### Example of the use of 'this' and 'super'
-// 'this'와 'super'의 사용 예시
-
+   
+#### Example of the use of 'this' and 'super'   
+// 'this'와 'super'의 사용 예시   
+   
 ```java
 class CSuper {
     public double x;
@@ -126,42 +124,40 @@ public class Main {
 100.0
 10.0
 ```
-
+   
 <br />
-### Inheritance and Constructor
-// 상속과 생성자
-
-// `this()`
-// - 클래스의 생성자 내에서 같은 클래스의 다른 생성자를 호출하는 것
-// `super()`
-// - 자식 클래스의 생성자에서 부모 클래스의 생성자를 호출하는 것
-// -- 상속받은 데이터 필드를 초기화하기 위해 사용
-// - 자식 클래스의 생성자 몸체에서 부모 클래스 생성자의 명시적 호출이 없다면, 인자가 없는 생성자인 `super()` 가 자동 호출됨
-// `this()` 와 `super()` 는 생성자 몸체의 맨 앞에 위치해야 함
-- `this()`
-  - Calling another constructor of the same class within the constructor of the class
-- `super()`
-  - Calling the constructor of the parent class from the constructor of the child class
-    - Used to initialize inherited data fields
-  - If there is no explicit call from the parent class constructor in the child class constructor body, the constructor `super()` without arguments is automatically called
-- `this()` and `super()` must be placed at the beginning of the constructor's body
-
-#### Example of using 'super' and 'super()'
-// 'super' 와 'super()' 의 사용 예시
-
+### Inheritance and Constructor   
+// 상속과 생성자   
+   
+// `this()`   
+// - 클래스의 생성자 내에서 같은 클래스의 다른 생성자를 호출하는 것   
+// `super()`   
+// - 자식 클래스의 생성자에서 부모 클래스의 생성자를 호출하는 것   
+// -- 상속받은 데이터 필드를 초기화하기 위해 사용   
+// - 자식 클래스의 생성자 몸체에서 부모 클래스 생성자의 명시적 호출이 없다면, 인자가 없는 생성자인 `super()` 가 자동 호출됨   
+// `this()` 와 `super()` 는 생성자 몸체의 맨 앞에 위치해야 함   
+- `this()`   
+  - Calling another constructor of the same class within the constructor of the class   
+- `super()`   
+  - Calling the constructor of the parent class from the constructor of the child class   
+    - Used to initialize inherited data fields   
+  - If there is no explicit call from the parent class constructor in the child class constructor body, the constructor `super()` without arguments is automatically called   
+- `this()` and `super()` must be placed at the beginning of the constructor's body   
+   
+#### Example of using 'super' and 'super()'   
+// 'super' 와 'super()' 의 사용 예시   
+   
 ```java
 class Cylinder extends Circle {
     private double height;
     static final double PI = 3.14;
 
-    // 생성자 1
     // Constructor 1
     public Cylinder() {
         super();
         height = 1.0;
     }
 
-    // 생성자 2
     // Constructor 2
     public Cylinder (double radius, double h) {
         super(radius);
