@@ -109,7 +109,7 @@ categories: [Data Analysis]
 // 특히 분산분석, 회귀, 기술통계 관련 자료들을 다양하게 제공   
 - StRD (Statistical Reference Datasets) provided by NIST (National Institute of Standards and Technology)   
 - Provide useful data regarding statistical analysis, etc.   
-- In particular, various data related to analysis of variance, regression, and technical statistics are provided   
+- In particular, various data related to analysis of variance, regression, and descriptive statistics are provided   
    
 #### DASL (The Data And Story Library) (http://dasl.datadescription.com/)   
 // 카네기 멜론 통계학과 (DASL : The Data And Story Library) (http://dasl.datadescription.com/)   
