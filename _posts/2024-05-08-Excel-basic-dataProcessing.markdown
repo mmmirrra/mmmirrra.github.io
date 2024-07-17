@@ -338,7 +338,7 @@ If A1 is "Computer", A2 is "Science", then → "ComputerScience"
 // 기술통계량 (descriptive statistics)   
 // - 데이터의 전반적인 분포 형태와 특성을 쉽게 파악하기 위한 목적으로 데이터를 정리, 요약한 수치   
 // - `[데이터] 탭 - [분석] 그룹 - [데이터 분석] - [기술 통계법]` 이용   
-- descriptive statistics   
+- Descriptive statistics   
   - Figures organized and summarized data for the purpose of easily identifying the overall distribution and characteristics of the data   
   - Using the `[Data] tab - [Analysis] group - [Data Analysis] - [Descriptive Statistics]`   
    
@@ -393,9 +393,9 @@ If A1 is "Computer", A2 is "Science", then → "ComputerScience"
   - Histogram   
   - Random number generation   
   - Rank and percentage   
-  - regression   
+  - Regression   
   - t-test   
-  - sampling   
+  - Sampling   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
