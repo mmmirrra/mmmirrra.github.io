@@ -367,8 +367,6 @@ Auxiliary line : 보조선
 
 average : 평균, 어떤 손해를 보았을 때 그 손해를 여러 소유주가 똑같이 분담한 그 양을 의미한다
 
-average : 산술평균
-
 average rate : 평균 요금
 
 average speed : 평균 속도
