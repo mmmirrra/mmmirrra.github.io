@@ -57,7 +57,7 @@ categories: [Programming Language Theory]
 // 효율성 : 작성된 프로그램이 효율적으로 수행될 수 있도록 하는가   
 // 유연성 : 프로그래머가 표현하고 싶은 내용을 유연하게 수용하는가   
 // 이식성 : 프로그램을 다른 실행 환경으로 이전할 수 있는가   
-- Writing ability : Is it easy to express program formulas, sentences, and functions   
+- Writing ability : Is it easy to express program expression statement, sentences, and functions   
 - Readability : Does it make it easier to see and understand the written program   
 - Reliability : Does the written program reduce the likelihood of falling into error   
 - Orthogonality : Can language functions be freely combined without interfering with each other   
