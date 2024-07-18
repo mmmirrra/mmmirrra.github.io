@@ -75,7 +75,7 @@ Integer.parseInt("120");
 // 상수 데이터   
 // 선언할 때 초기값을 지정해야 함   
 // 자주 static과 함께 사용됨   
-- constant data   
+- Constant data   
 - Initial value must be specified when declaring   
 - Often used with static   
    
@@ -161,19 +161,16 @@ class IniTest {
 import java.awt.Point;
 
 class Rectangle {
-    // 데이터 필드
     // data fields
     public int width = 0;
     public int height = 0;
     public Point origin;
 
-    // 생성자1
     // constructor 1
     public Rectangle() {
         origin = new Point(0, 0);
     }
 
-    // 생성자2
     // constructor 2
     public Rectangle(Point p, int w, int h) {
         origin = p;
