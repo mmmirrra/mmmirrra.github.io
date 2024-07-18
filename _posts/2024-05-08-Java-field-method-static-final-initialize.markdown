@@ -44,7 +44,7 @@ class Circle {
 // - 객체와 무관하므로 클래스 이름으로 호출 가능   
 // - `객체변수.정적메소드()`도 가능   
 - Called and executed independently of objects, unlike non-static methods   
-  - `This` is not available on method body   
+  - `this` is not available on method body   
   - The static method covers the static field   
 - The call method is `className.staticMethod()`   
   - Can be called by class name because it is independent of the object   
