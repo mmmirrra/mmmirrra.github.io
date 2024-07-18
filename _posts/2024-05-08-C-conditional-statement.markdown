@@ -410,8 +410,8 @@ for (Initial Expression; Conditional Expression; Increase/Decrease Expression) {
 #include <stdio.h>
 
 void main() {
-	// 루프변수 i6은 정수형이어야 함
-	// Loop variable i6 must be integer type
+    // 루프변수 i6은 정수형이어야 함
+    // Loop variable i6 must be integer type
     int i6, sum6 = 0;
     for (i6 = 0; i6 <= 10; ++i6)
         // i6값이 11이 되면 조건식이 거짓이 되어 루프를 빠져 나옴
@@ -515,7 +515,7 @@ void main() {
     int i8 = 0;
     int sum8 = 0;
     // i8 <= 100 을 만족하는 동안 반복 수행
-	// Repeat while i8 <= 100 is satisfied
+    // Repeat while i8 <= 100 is satisfied
     while (i8 <= 100) {
         sum8 = sum8 + i8;
         i8++;
