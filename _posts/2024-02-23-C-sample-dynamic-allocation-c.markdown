@@ -42,7 +42,7 @@ void main() {
 		exit(1);
 	}
 	*a3 = 20;
-	printf("Variable a3 stored in heap: %d\n", *a3);	// 출력결과 --> Variable a3 stored in heap: 20
+	printf("Variable a3 stored in heap: %d\n", *a3);	// Output Results --> Variable a3 stored in heap: 20
 	free(a3);					// 할당받은 기억공간 해제
 
 	/* 메모리 동적할당 malloc() 예제 2 */
@@ -65,7 +65,7 @@ void main() {
 	int* a5;					// 동적할당을 위한 포인터변수 선언
 	a5 = (int*)calloc(5, sizeof(int));		// a5와 자료형을 일치시키기 위해 강제 형변환 - 힙 영역에 할당 - free() 함수 실행 전까지 존재 - int형 크기의 기억공간 5개 할당
 	for (i5 = 0; i5 < 5; i5++) {
-		printf("%d\n", a5[i5]);			// 출력결과 --> 0 \n 0 \n 0 \n 0 \n 0 \n
+		printf("%d\n", a5[i5]);			// Output Results --> 0 \n 0 \n 0 \n 0 \n 0 \n
 	}
 	free(a5);					// 할당받은 기억공간 해제
 
@@ -80,24 +80,24 @@ void main() {
 	char* s72 = "bbb";
 	int stat7;
 	stat7 = memcmp(s71, s72, 3);			// s71과 s72의 내용을 3byte만큼 비교하여 그 결과를 stat에 저장
-	printf("%d\n", stat7);				// 출력결과 --> -1
+	printf("%d\n", stat7);				// Output Results --> -1
 
 	/* 기억공간 관리함수 memcpy() 예제 */
 	char src8[] = "1234567890";
 	char dest8[] = "abcdefghijklmnopqrstuvwxyz";
 	char* stat8;
-	printf("Data from dest8 before memcpy() runs: %s\n", dest8);		// 출력결과 --> abcdefghijklmnopqrstuvwxyz
+	printf("Data from dest8 before memcpy() runs: %s\n", dest8);		// Output Results --> abcdefghijklmnopqrstuvwxyz
 	stat8 = (char*)memcpy(dest8, src8, strlen(src8));			// src8의 첫 부분에서부터 문자열의 길이(strlen())만큼의 자료를 dest8에 복사
 	if (stat8)
-		printf("Data from dest8 after memcpy() runs: %s\n", dest8);	// 출력결과 --> 1234567890klmnopqrstuvwxyz
+		printf("Data from dest8 after memcpy() runs: %s\n", dest8);	// Output Results --> 1234567890klmnopqrstuvwxyz
 	else
 		printf("Copy failed\n");
 
 	/* 기억공간 관리함수 memset() 예제 */
 	char s9[] = "1234567890";
-	printf("Data from s9 before memset() runs: %s\n", s9);			// 출력결과 --> 1234567890
+	printf("Data from s9 before memset() runs: %s\n", s9);			// Output Results --> 1234567890
 	memset(s9, '*', strlen(s9));						// 배열 s9의 데이터를 '*'로 문자열의 길이만큼 (strlen()) 채움
-	printf("Data from s9 after memset() runs: %s\n", s9);			// 출력결과 --> **********
+	printf("Data from s9 after memset() runs: %s\n", s9);			// Output Results --> **********
 }
 
 /* 메모리 정적할당 예제 - 3. 함수 정의 */
