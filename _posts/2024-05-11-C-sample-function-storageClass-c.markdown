@@ -322,7 +322,7 @@ void swap7(int* x7, int* y7) {
 void fcn8() {
 	int i8;
 	i8 = 20;
-	printf("\nfcn8 i8=%d\n", i8);	// Output Results --> fcn8 i8=20
+	printf("\nfcn8 i8=%d\n", i8);			// Output Results --> fcn8 i8=20
 }
 
 void fcn9() {
