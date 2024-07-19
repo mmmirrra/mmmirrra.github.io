@@ -730,7 +730,7 @@ categories: [JScript]
    
 // 코드 실행 중 발생하는 오류임   
 // 프로그램의 문이 잘못된 연산을 시도할 때 발생함   
-- This is an error that occurs during code execution   
+- This is an error that occurs during code run   
 - Runtime error occurs when a statement in a program attempts an incorrect operation   
    
 #### string expression   

@@ -13,7 +13,7 @@ categories: [Algorithm]
 // 알고리즘의 조건 : (입출력, 명확성, 유한성, 유효성) + (실용적 관점에서의 효율성)   
 - Limitations of computers : Depending on the existence of an Algorithm, if an Algorithm does not exist, it cannot be implemented as a computer.   
 - Computer science : A study to solve a given problem using computers. Problem solving procedures / methods are needed to solve problems.   
-- Computer science == Algorithm science : Limitations of Algorithm, Analysis of Algorithm, Development of Algorithm, Execution of Algorithm, Communication between Algorithms, Representation of Algorithm   
+- Computer science == Algorithm science : Limitations of Algorithm, Analysis of Algorithm, Development of Algorithm, Run of Algorithm, Communication between Algorithms, Representation of Algorithm   
 - Algorithm concept : Problem solving procedures / methods == a step-by-step list of instructions to follow in order to solve a given problem or calculate a function   
 - Conditions of Algorithm : (Input / Output, Clarity, Finiteness, Effectiveness) + (Efficiency from a practical point of view)   
    
@@ -31,7 +31,7 @@ a set of unambiguous, simple, clear, and computer-executable finite sets of inst
 2. Clarity : Each command should be unambiguous, simple and clear   
 3. Finiteness : It must be terminated after a limited number of steps   
 4. Effectiveness : All commands must be able to be performed on the computer   
-5. Efficiency from a practical point of view : Algorithm must be efficient (Unable to execute if execution takes an unusually long time)   
+5. Efficiency from a practical point of view : Algorithm must be efficient (Unable to execute if run takes an unusually long time)   
    
 <br />
 ### Process of generating Algorithm   

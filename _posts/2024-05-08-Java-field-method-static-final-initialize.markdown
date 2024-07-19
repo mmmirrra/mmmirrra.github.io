@@ -115,7 +115,7 @@ final static double PI=3.141592;
 // 3. non-static 필드의 선언문에서 초기화   
 // 4. non-static 초기화 블록 실행   
 // 5. 생성자 실행   
-- Order of execution of field initialization methods   
+- Order of run of field initialization methods   
     1. Initialize from declaration in static field   
     2. Run static initialization blocks   
     3. Initialize from declaration in non-static field   

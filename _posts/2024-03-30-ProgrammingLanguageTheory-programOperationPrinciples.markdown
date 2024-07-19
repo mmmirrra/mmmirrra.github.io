@@ -69,7 +69,7 @@ categories: [Programming Language Theory]
 // 프로그래밍 언어로 작성된 고수준의 명령을 하나씩 해석하여 수행하는 프로그램   
 // 인터프리터는 CPU의 인출-해석-실행 주기를 흉내 냄   
 - A program that interprets and executes high-level commands one by one written in a programming language   
-- Interpreter mimics the CPU's withdrawal-interpretation-execution cycle   
+- Interpreter mimics the CPU's withdrawal-interpretation-run cycle   
    
 #### Compiler   
 // 컴파일러   

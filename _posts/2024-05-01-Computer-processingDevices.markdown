@@ -196,7 +196,7 @@ categories: [Computer]
    
 // 고급 언어로 작성한 프로그램의 실행 순서   
 // - 기계어로 번역 (컴파일러) → 주기억장치에 저장 → 처리기 전자회로가 해석하고 실행   
-- Order of execution of programs written in high-level languages   
+- Order of run of programs written in high-level languages   
   - Translated into machine code (compiler) → Stored in main memory → Interpreted and executed by processor electronic circuit   
    
 #### The format of a Machine Code   

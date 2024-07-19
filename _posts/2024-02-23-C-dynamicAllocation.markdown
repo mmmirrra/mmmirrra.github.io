@@ -9,7 +9,7 @@ categories: [C]
 // 프로그램 실행을 위해 기억공간 필요   
 // 기억공간은 운영체제에서 할당   
 // 할당되는 기억공간 영역의 종류 : 데이터 영역, 힙 영역, 스택 영역   
-- Memory space required for program execution   
+- Memory space required for program run   
 - Memory is assigned by the operating system   
 - Type of memory space to be allocated : Data, Heap, Stack   
    
@@ -39,7 +39,7 @@ categories: [C]
 // 설명 : 기억공간의 힙 영역 이용. 프로그램 실행 중에 입력되는 자료에 맞게 기억공간의 크기를 결정   
 // 장점 : 많은 자료를 처리하는 배열의 크기를 실행 시간에 정의해야 하는 경우에 특히 유용함. 프로그램 실행 시 기억공간의 크기를 지정할 수 있고, 재조정이 가능   
 // 단점 : 시간이 지체되는 단점이 있음   
-- Description : Using the heap of memory space. Determine the size of the storage space to match the data input during program execution   
+- Description : Using the heap of memory space. Determine the size of the storage space to match the data input during program run   
 - Strengths : Especially useful when you need to define the size of an array that processes a lot of data at run time. You can specify the size of the memory space when the program runs, and it can be readjusted   
 - Weaknesses : There is a disadvantage of time delay   
    

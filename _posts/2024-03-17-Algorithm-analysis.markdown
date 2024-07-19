@@ -29,7 +29,7 @@ categories: [Algorithm]
 - space complexity   
   - Amount of memory = static space + dynamic space   
 - time complexity   
-  - Running time = The time from execution to completion of the algorithm   
+  - Running time = The time from run to completion of the algorithm   
    
 <br />
 ### Time Complexity   

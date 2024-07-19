@@ -112,7 +112,7 @@ The process of generating information by converting data by sorting, clustering,
 // 저급언어는 기계에 가깝고, 고급언어는 사람에 가까움   
 Low-Level Language is close to machines, High-Level Language is close to humans   
    
-#### Execution of a Program   
+#### Run of a Program   
 // 프로그램의 실행   
    
 // 고급 언어로 작성된 프로그램은 기계어 밖에 인식할 수 없는 컴퓨터에 의해 실행 불가능함   

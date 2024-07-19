@@ -52,7 +52,7 @@ categories: [Java]
 // Java 플랫폼은 Java 프로그램의 개발과 실행을 위한 환경   
 // 사용중인 운영체제에 맞는 Java 플랫폼을 설치해야 함   
 // JDK에 Java 플랫폼이 포함되어 있음   
-- Java platform is an environment for the development and execution of Java program   
+- Java platform is an environment for the development and run of Java program   
 - Install the Java platform based on the operating system used   
 - JDK contains Java platform   
    
@@ -72,7 +72,7 @@ Java VM (Virtual Machine)
 // Java 프로그램의 구동 엔진   
 // 실행에 필요한 사항을 관리   
 // 메모리 정리를 자동으로 수행   
-- Virtual machines that provide the execution environment for Java program   
+- Virtual machines that provide the run environment for Java program   
 - Software Platform   
 - Java program's drive engine   
 - Managing what's needed to run a program   

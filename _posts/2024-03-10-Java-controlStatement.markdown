@@ -154,7 +154,7 @@ System.out.println();
 // break문을 포함하는 가장 가까운 switch문, for문, while문, do-while문의 실행을 끝냄   
 // - 반복문이나 switch문을 빠져나갈 때 사용   
 // 형식은 `break;`   
-- End execution of the nearest switch statement, for statement, while statement, do-while statement including break statement   
+- End run of the nearest switch statement, for statement, while statement, do-while statement including break statement   
   - Used to exit loop statement or switch statements   
 - The format is `break;`   
    

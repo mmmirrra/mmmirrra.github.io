@@ -8,7 +8,7 @@ categories: [JScript]
 // JScript는 텍스트 형식으로 작성되며, 문, 상호관련이 있는 문으로 이루어진 블록 및 주석으로 구성됨   
 // 사용자는 문 내에서 변수, 문자열과 숫자와 같은 직접 실행 데이터, 식을 사용할 수 있음   
 - JScript is written in text format and consists of blocks and comments consisting of statements, correlated statements   
-- Users can use direct execution data or expressions such as variables, strings, and numbers within the statements   
+- Users can use direct run data or expressions such as variables, strings, and numbers within the statements   
    
 <br />
 ### statement   
