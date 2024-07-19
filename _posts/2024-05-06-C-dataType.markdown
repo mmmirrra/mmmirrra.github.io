@@ -99,7 +99,7 @@ categories: [C]
    
 // 변수는 프로그램 실행 도중 변할 수 있는 값이 저장되는 기억공간임   
 // - 예를 들어 `i = 10;` 은 i 는 변수 (변수명) 이고, 10이란 값을 i라는 이름으로 정의된 기억공간에 저장한다는 의미임   
-- Variable is a storage space where values that can change during program execution are stored   
+- Variable is a storage space where values that can change during program run are stored   
   - For example, `i = 10;` means that i is a variable (variable name), and 10 means that the value is stored in a memory space defined by the name i   
    
 // 이러한 변수 속에 들어가는 값은 수시로 변경될 수 있음   
