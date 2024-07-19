@@ -109,7 +109,7 @@ Boolean StackIsEmpty(stack) ::=
 - System stack for allocating and collecting memory for variables   
 - Stack for managing subroutine calls   
 - Calculation of a expression whose order of calculation is determined by priorities between operators   
-- Stack to store the processing of interrupts and the point of command execution to return to   
+- Stack to store the processing of interrupts and the point of command run to return to   
 - Compilers, Managing Recurisive Call   
    
 // 시스템 스텍 (system stack)   
