@@ -63,12 +63,12 @@ if (Condition) {
 
 void main() {
     int a1 = 10, b1 = 20;
-	// 조건을 만족하지 않으므로 중괄호 밖의 명령문을 수행함
-	// Performs an out-of-brace command statement because the condition is not met
+    // 조건을 만족하지 않으므로 중괄호 밖의 명령문을 수행함
+    // Performs an out-of-brace command statement because the condition is not met
     if (a1 > b1) {
         a1 = a1 + 20;
         // 조건에 맞지 않기 때문에 출력 안됨
-		// Not output because it does not meet the conditions
+        // Not output because it does not meet the conditions
         printf("a1=%d", a1);
     }
     b1 = b1 + 20;
@@ -333,7 +333,7 @@ void main() {
     while (1) {
         printf("\n How many times?\n");
         scanf("%d", &n5);
-		// n5회 반복하는 for 반복문
+        // n5회 반복하는 for 반복문
         // Repeating for repeate statement n5 times
         for (i5 = 1; i5 <= n5; i5++) {
             printf("%c ", c5);
@@ -345,7 +345,7 @@ void main() {
         }
     }
     // goto가 이동해 올 레이블 Label. 레이블명 뒤에는 콜론 ( : ) 을 붙임
-	// Label to be moved by goto. Label name followed by colon ( : )
+    // Label to be moved by goto. Label name followed by colon ( : )
     end5:
     printf("\n\n The End");
 }
