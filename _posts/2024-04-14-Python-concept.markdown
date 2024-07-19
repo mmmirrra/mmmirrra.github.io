@@ -247,7 +247,7 @@ print("The sum is" + sum)
 - Open source and continuous development with community contributions   
   - https://github.com/python/cpython   
    
-#### Python program execution process   
+#### Python program run process   
 // 파이썬 프로그램 실행과정   
    
 // 파이썬 애플리케이션은 소스 코드 형태로 배포   
@@ -326,7 +326,7 @@ print("The sum is" + sum)
 // - 텍스트 셀을 추가하여 마크다운 언어로 텍스트 입력 가능   
 - Colab Features   
   - Resource allocation from Google's cloud service GCP takes time   
-  - Colab can create a block of code to check execution results while writing   
+  - Colab can create a block of code to check run results while writing   
   - Add text cells to enter text in Markdown language   
    
 // 권장하는 웹 브라우저 : Google Chrome, Microsofr Edge 등 크로미움 (chromium) 기반의 브라우저   
