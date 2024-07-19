@@ -190,13 +190,13 @@ void main() {
 	fp13 = fopen("sample8.txt", "rt");
 	fseek(fp13, 7, SEEK_SET);
 	fgets(str13, 4, fp13);
-	printf("Outputs 3 characters from the 7th character: %s \n", str13);					// 7번째 글자부터 3글자 출력 - 출력결과 --> 890
+	printf("Outputs 3 characters from the 7th character: %s \n", str13);					// 7번째 글자부터 3글자 출력 - Output Results --> 890
 	fseek(fp13, -2, SEEK_CUR);
 	fgets(str13, 3, fp13);
-	printf("Outputs 2 characters to 2 characters in front of the current location: %s \n", str13);		// 현재 위치에서 앞에 2글자부터 2글자 출력 - 출력결과 --> 90
+	printf("Outputs 2 characters to 2 characters in front of the current location: %s \n", str13);		// 현재 위치에서 앞에 2글자부터 2글자 출력 - Output Results --> 90
 	fseek(fp13, -9, SEEK_END);
 	fgets(str13, 6, fp13);
-	printf("Outputs 5 characters from the beginning of the 9th character at the end: %s \n", str13);	// 맨 뒤에서 9번째 앞부터 5글자 출력 - 출력결과 --> 23456
+	printf("Outputs 5 characters from the beginning of the 9th character at the end: %s \n", str13);	// 맨 뒤에서 9번째 앞부터 5글자 출력 - Output Results --> 23456
 	fclose(fp13);
 }
 ```
