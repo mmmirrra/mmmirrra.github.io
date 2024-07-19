@@ -320,7 +320,7 @@ goto Label;
 // 기능   
 // - 프로그램 수행 도중에 원하는 곳으로 제어를 무조건적으로 옮김   
 - Function   
-  - goto unconditionally moves control to desired location during program execution   
+  - goto unconditionally moves control to desired location during program run   
    
 - Example   
    
@@ -339,7 +339,7 @@ void main() {
             printf("%c ", c5);
             if (c5 == 'Q')
                 // 레이블명 end5로 무조건 실행을 옮김
-                // Unconditionally moved execution to label name 'end5'
+                // Unconditionally moved run to label name 'end5'
                 goto end5;
             c5++;
         }
@@ -632,7 +632,7 @@ Sum from Initial value of i10 to 10=55
    
 // break 문은 반복 명령의 실행 도중에 강제적으로 반복문을 빠져 나오는데 사용   
 // - for 루프, while 루프, do ~ while 루프, switch 블록 등을 강제로 종료시키고자 할 때 사용   
-- break statements are used to force a repeat statement to exit during the execution of a repeat command   
+- break statements are used to force a repeat statement to exit during the run of a repeat command   
   - break can be used to force for loop, while loop, do ~ while loop, switch block and etc.   
    
 // break 문은 자신이 포함된 반복문만 빠져 나옴   
@@ -677,7 +677,7 @@ sum11=60
    
 // continue 문은 루프 실행 중에 루프를 다시 실행하고자 할 때 사용   
 // - switch ~ case 문에서는 사용하지 않고, 반복문에만 국한되어 사용   
-- Use the continue statement when you want to run the loop again during loop execution   
+- Use the continue statement when you want to run the loop again during loop run   
   - Use only for repeat statements, not for switch ~ case statements   
    
 // continue 문은 그 루프의 선두로 제어를 옮겨 다음 반복을 실행   
