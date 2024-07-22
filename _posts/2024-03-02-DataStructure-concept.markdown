@@ -46,7 +46,7 @@ P(D) → I
 // 공통적인 개념을 이용하여 같은 종류의 다양한 객체를 정의하는 것   
 // 추상화를 통해 간결하게 말하는 사람의 의사를 전달할 수 있게 되는 것   
 // 물리적이며 전기적인 동작과는 무관하게 자료를 생각하고 바라보는 사람의 상상   
-- Defining different objects of the same kind using common concepts   
+- Defining different object of the same kind using common concepts   
 - To be able to convey the speaker's intentions concisely through abstraction   
 - the imagination of a person thinking and looking at data, regardless of physical and electrical motion   
    
@@ -60,7 +60,7 @@ P(D) → I
 // 개발자들 사이의 의사를 전달하기 위해 사용되는 방법   
 - Abstracting data is necessary to apply the logical relationship between data to computers or programs   
 - Structuring the logical relationship of data through abstraction is called a data structure   
-- In order to store and process various objects on a computer, it is defined by extracting only common characteristics of the meaning and structure of the objects   
+- In order to store and process various object on a computer, it is defined by extracting only common characteristics of the meaning and structure of the object   
 - It is conceptualized as if drawing a picture in the developer's head without including the method of expressing binary numbers inside the computer, storage location, etc.   
 - Methods used to communicate among developers   
    

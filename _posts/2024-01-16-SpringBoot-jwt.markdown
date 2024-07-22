@@ -12,7 +12,7 @@ categories: [SpringBoot]
 // 2. '페이로드 Payload'에는 '클라임 Claim'이라는 사용자 또는 토큰 property를 key-value 형태로 저장   
 // 3. '시그니처 Signature'에는 jwt 정보 저장   
    
-1. `Header` stores token types and signature algorithms   
+1. `Header` stores token type and signature algorithms   
 2. `Payload` stores a user named `Claim` or token property in key-value format   
 3. Save jwt information in `Signature`   
    

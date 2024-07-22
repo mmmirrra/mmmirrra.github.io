@@ -22,7 +22,7 @@ categories: [JScript]
 |// 전역 메서드<br />- Local Method|Global, escape, unescape, eval, <br />isFinite, <br />isNaN, <br />parseInt, parseFloat|
 |// 연산<br />- Operation|Math, <br />abs, acos, asin, atan, atan2, <br />ceil, cos, <br />exp, floor, log, max, min, <br />pow, random, round, <br />sin, sqrt, tan, <br />E, <br />LN2, LN10, LOG2E, LOG10E, <br />PI, SQRT1_2, SQRT2|
 |// 숫자<br />- Number|Number, <br />MAX_VALUE, MIN_VALUE, <br />NaN, <br />NEGATIVE_INFINITY, POSITIVE_INFINITY|
-|// 개체 작성<br />- Creating Objects|Object, <br />new, <br />constructor, prototype, <br />toString, <br />valueOf|
+|// 개체 작성<br />- Creating Object|Object, <br />new, <br />constructor, prototype, <br />toString, <br />valueOf|
 |// 연산자<br />- Operator|+, -, %, *, /, <br />-, ==, !=, <br /><, <=, >, >=, <br />&&, \|\|, !, &, \|, ~, ∧, <br />＜＜＜, ＞＞, ＞＞＞, <br />? : , <br />',', <br />delete, <br />typeof, void, <br />--, ++|
 |// 개체<br />- Object|Arrya, Boolean, Date, Function, Global, <br />Math, Number, Object, String|
 |// 문자열<br />- String|String, charAt, charCodeAt, fromCharCode, <br />indexOf, lastIndexOf, <br />split, <br />toLowerCase, toUpperCase, <br />length|
@@ -693,7 +693,7 @@ categories: [JScript]
    
 // 표준 JScript 언어의 일부인 개체로, 모든 스크립트에서 사용할 수 있음   
 // JScript 내부 개체에는 Array, Boolean, Data, Function, Global, Math, Number, Object, RegExp, Regular Expression, String이 있음   
-- Objects that are part of the standard JScript language, available for all scripts   
+- Object that are part of the standard JScript language, available for all scripts   
 - JScript intrinsic object types include Array, Boolean, Data, Function, Global, Math, Number, Object, RegExp, Regular Expression, String   
    
 #### wrapper   
@@ -701,8 +701,8 @@ categories: [JScript]
    
 // 일부 다른 데이터 형식에 개체 스타일 인터페이스를 제공하기 위해 만든 개체   
 // 래퍼 개체에는 Number 개체와 Boolean 개체가 있음   
-- Objects created to provide object style interfaces to some other data formats   
-- Wrapper object types include Number and Boolean objects   
+- Object created to provide object style interface to some other data formats   
+- Wrapper object types include Number and Boolean object   
    
 #### local time   
 // 로컬 시간   
@@ -793,7 +793,7 @@ categories: [JScript]
 // - null 및 undefined는 false로 간주함   
 // 숫자가 있거나 0인 경우에는 false로 간주함   
 - Non-boolecular expressions are converted to Boolean values, if necessary, according to the following rules   
-  - All objects are considered true   
+  - All object are considered true   
   - String is considered false only when empty   
   - null and undefined are considered false   
 - If there is a number or zero, it is considered false   
@@ -852,13 +852,13 @@ categories: [JScript]
 // 개체와 배열은 원시 데이터 형식이 아님   
 - Data type that is part of the JScript language and is adjusted according to the value   
 - Data formats considered primitive by JScript include Number, Boolean, String, and Function   
-- Objects and arrays are not in primitive data format   
+- Object and array are not in primitive data format   
    
 #### Automation object   
 // 자동화 개체   
    
 // 자동화 인터페이스를 통해 다른 응용 프로그램이나 프로그래밍 도구에 노출되는 개체   
-- Objects exposed to other applications or programming tools via the automation interface   
+- Object exposed to other applications or programming tools via the automation interface   
    
 #### comment   
 // 주석   
@@ -877,7 +877,7 @@ categories: [JScript]
 // 런타임 시 개체의 인스턴스를 만드는 템플릿 역할을 함   
 // 클래스는 개체의 속성과 그 개체의 동작을 제어하는 데 사용하는 메서드를 정의함   
 - Define the type of object   
-- Acting as a template for creating instances of objects at runtime   
+- Acting as a template for creating instances of object at runtime   
 - Class define the properties of an object and the methods used to control its behavior   
    
 #### UTC (Universal Coordinated Time)   

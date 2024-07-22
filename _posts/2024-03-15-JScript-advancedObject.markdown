@@ -5,11 +5,11 @@ date:   2024-03-15 09:00:00 +0900
 categories: [JScript]
 ---
 
-### Create advanced objects   
+### Create advanced object   
 // 고급 개체 작성   
    
 <br />
-### Creating Objects Using Constructor   
+### Creating Object Using Constructor   
 // 구성자를 사용하여 개체 작성   
    
 // JScript에서는 구성자를 사용하여 개체 클래스를 만들 수 있음   
@@ -69,8 +69,8 @@ for (j = 1; j < addressList[length]; j++) {
    
 // 구성자를 직접 쓰려면 구성자 내에서 this 키워드를 사용하여 새로 만들어진 개체를 참조해야 함   
 // 구성자는 개체를 초기화 함   
-- To use the constructor directly, you must refer to newly created objects using the this keyword within the constructor   
-- Constructor initializes objects   
+- To use the constructor directly, you must refer to newly created object using the this keyword within the constructor   
+- Constructor initializes object   
    
 // 다음 예시에서 구성자는 인덱스를 0에서 지정하지만 반드시 0에서 시작할 필요는 없음   
 // 예를 들어, 배열 인덱스나 개체 인덱스의 실제 번호를 가리키는 매개 변수를 원한다면 첫째 인덱스를 1로 지정할 수 있음   
@@ -107,15 +107,15 @@ myStringArray = new MakeStringArray(63);
 // 따라서 prototype 속성들은 클래스의 모든 개체에 대해 같은 값을 가짐   
 // 그러나 사용자는 한 개체에서 prototype 속성 값을 변경할 수 있으며, 변경된 새로운 값은 기본값을 재정의함   
 // 그러나 이러한 변경사항은 해당 인스턴스에만 적용되므로 클래스의 구성원인 다른 개체는 변경으로 인한 영향을 받지 않음   
-- When you define an object, you can use prototype properties to create properties that are commonly valid for all objects created by the definition   
+- When you define an object, you can use prototype properties to create properties that are commonly valid for all object created by the definition   
 - Prototype properties are copied to each object in the class for reference   
-- Therefore, prototype attributes have the same value for all objects in the class   
+- Therefore, prototype attributes have the same value for all object in the class   
 - However, users can change the prototype property value on one object, and the new value that has been changed overrides the default value   
-- However, these changes only apply to that instance, so other objects that are members of the class are not affected by the changes   
+- However, these changes only apply to that instance, so other object that are members of the class are not affected by the changes   
    
 // 이러한 원칙을 사용하면 JScript 언어의 일부분인 개체, 즉 초기 설정을 가지고 있는 모든 개체에 대한 속성을 추가로 정의할 수 있음   
 // 예를 들어, 계산을 하기 위한 특별한 상수를 원하지만 Math개체와 Number 개체에서 그 상수가 제공되지 않을 경우, 사용자는 스스로 상수를 정의하여 각각의 개체 초기 설정 또는 개체 클래스의 초기 설정 속성에 할당할 수 있음   
-- These principles allow you to further define properties for objects that are part of the JScript language, i.e. any object that has an initial setting   
+- These principles allow you to further define properties for object that are part of the JScript language, i.e. any object that has an initial setting   
 - For example, if a user wants a special constant for making calculations, but the Math object and the Number object do not provide that constant, the user can define the constant himself and assign it to the initial setting properties of each object or object class   
    
 ```javascript

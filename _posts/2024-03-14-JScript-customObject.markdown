@@ -5,7 +5,7 @@ date:   2024-03-14 09:00:00 +0900
 categories: [JScript]
 ---
 
-### Create objects yourself   
+### Create object yourself   
 // 개체 직접 만들기   
    
 // 개체의 인스턴스를 만들려면 개체에 속성과 필요에 따라 메서드를 지정하여 개체를 정의해야 함   

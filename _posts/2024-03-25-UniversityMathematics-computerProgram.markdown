@@ -14,7 +14,7 @@ categories: [University Mathematics]
   - paid : Mathematica, Maple, Wolflam Alpha   
    
 - Maxima : Software created in 1987 based on Macsyma   
-- wxMaxima : Software in the form of graphical user interfaces (GUI) to make Maxima easy to use   
+- wxMaxima : Software in the form of graphical user interface (GUI) to make Maxima easy to use   
    
 #### wxMaxima practice   
    

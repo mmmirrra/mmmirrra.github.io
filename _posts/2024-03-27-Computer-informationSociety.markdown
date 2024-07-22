@@ -163,7 +163,7 @@ categories: [Computer]
 - Software technologies and hardware technologies are further advanced   
 - Digital video imaging technology, virtual shopping systems, interactive TV technology   
 - Optical fiber network technology and wireless LAN technology   
-- Internet of Things (IoT) : Intelligent information communication between objects   
+- Internet of Things (IoT) : Intelligent information communication between object   
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

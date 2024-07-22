@@ -72,8 +72,8 @@ categories: [Java]
 - For variables, prefixes are also attached to indicate the type of data   
   - Hungarian notation   
   - Example   
-    - n before variable names to display int-type data types : `int nSpeed;`   
-    - sz before variable names to display String-type data types : `String szStr1;`   
+    - n before variable names to display int-type data type : `int nSpeed;`   
+    - sz before variable names to display String-type data type : `String szStr1;`   
    
 #### constant   
 // 상수   

@@ -33,7 +33,7 @@ public class GradeOutputFirst {
 
 	public static void main(String[] args) {
 		Grade g1, g2;			// Expressing the grades of two people
-		g1 = new Grade();		// Creating objects
+		g1 = new Grade();		// Creating object
 		g2 = new Grade();
 		
 		g1.input_grade(90, 85);		// Enter grade
@@ -81,7 +81,7 @@ public class GradeOutputSecond {
 
 	public static void main(String[] args) {
 		GradeOutputSecond g1, g2;		// Expressing the grades of two people
-		g1 = new GradeOutputSecond();		// Creating objects
+		g1 = new GradeOutputSecond();		// Creating object
 		g2 = new GradeOutputSecond();
 		
 		g1.input_grade(90, 85);			// Enter grade

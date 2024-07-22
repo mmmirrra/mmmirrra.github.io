@@ -55,7 +55,7 @@ Runnable runnable = () -> {
 - Only object generation parts of the anonymous implementation class are represented in a lambda expression   
   - Object creation in anonymous subclass cannot be lambda expression   
 - The interface must have only one abstract method at this time   
-  - Interfaces containing more than one abstract method are not available   
+  - Interface containing more than one abstract method are not available   
 - lambda expression's result type is called the target type   
   - We can deduce a number of things from the target type   
 - An interface containing one abstract method is called a functional interface   
@@ -74,7 +74,7 @@ Runnable runnable = () -> {
 // - 단, 실행문이 return 문 뿐이라면 return 과 (수식 다음의) 세미콜론, 중괄호를 동시에 생략하고 1개의 수식만 적어야 함   
 // -- 예시 : `f1 = (a, b) -> { return a + b; };` → `f2 = (a, b) -> a + b;`   
 - `Interface object variable = (parameter list) -> {executive statement list };`   
-  - In the parameter list, datatypes are known from the interface (target type) definition, so you can skip datatypes and use only variable names   
+  - In the parameter list, data type is known from the interface (target type) definition, so you can skip data type is use only variable name   
   - If there is one parameter, parentheses can also be omitted, leaving only one variable name   
     - Example : `f1 = a -> { ...; };`   
   - If there is no parameter, only parentheses remain   
@@ -185,7 +185,7 @@ public class Main {
 - functional interface   
   - A simple interface with only one abstract method is called a functional interface   
   - A standard functional interface is provided as a generic interface in the package java.util.function   
-  - Anonymous class definitions can be used to define classes that implement functional interfaces, but lambda expressions are efficient   
+  - Anonymous class definitions can be used to define classes that implement functional interface, but lambda expressions are efficient   
    
 #### Example of a Standard Functional Interface   
 // 표준 함수형 인터페이스의 예시   

@@ -8,8 +8,8 @@ categories: [JScript]
 // JScript는 9가지 내부 (또는 "기본 제공") 개체를 제공함   
 // 9가지 내부 개체란 구체적으로 Array, Boolean, Date, Function, Global, Math, Number, Object, String 개체를 말함   
 // 각 내부 개체는 연관되어 있는 메서드와 속성을 가지고 있음   
-- JScript provides nine internal (or "embedded") objects   
-- Nine internal objects are specifically Array, Boolean, Date, Function, Global, Math, Number, Object, String objects   
+- JScript provides nine internal (or "embedded") object   
+- Nine internal object are specifically Array, Boolean, Date, Function, Global, Math, Number, Object, String object   
 - Each internal object has associated methods and properties   
    
 <br />
@@ -18,7 +18,7 @@ categories: [JScript]
    
 // JScript에서 개체는 배열로 다루고 배열은 개체로 다룸   
 // 개체의 속성과 완전히 일치하는 배열의 아래 첨자는 숫자에 의해 참조될 수 있으며, 이름을 배열의 아래 첨자에 지정하면 이름에 의해 참조될 수 있음   
-- In JScript, objects are treated as arrays and arrays are treated as objects   
+- In JScript, object are treated as array and array are treated as object   
 - Subscripts in an array that completely match the properties of an object can be referenced by a number, and giving a name to a subscript in an array can be referenced by a name   
    
 // 새 배열을 만들려면 아래 예시와 같이 new 연산자와 Array() 구성자를 사용함   
@@ -105,7 +105,7 @@ var howLong = "Hello World".length;
 // Math 개체는 모두 미리 정의된 속성과 메서드를 가지고 있음   
 // 속성은 특정 숫자이며, 이 중의 하나가 pi값 (약 3.14159) 임   
 // 다음 예시에서 알 수 있는 것처럼 이것은 Math.PI 속성임   
-- Math objects all have predefined properties and methods   
+- Math object all have predefined properties and methods   
 - Attributes are specific numbers, one of which is a pi value (About 3.14159)   
 - This is the Math.PI attribute, as shown in the following example   
    
@@ -136,7 +136,7 @@ volume = (4/3) * (Math.PI * Math.pow(radius, 3));
 // 이 표현보다 좀 더 많이 사용하는 용어는 UTC 또는 "협정 세계 표준시"로, 이 시간은 WTS (World Time Standard-세계 시간 표준) 에서 나오는 신호를 말함   
 - Use the Date object to display today's date or to calculate the difference between dates   
 - This object all has many predefined properties and methods   
-- Typically, Date objects provide days, days, months, years, hours, minutes, and seconds   
+- Typically, Date object provide days, days, months, years, hours, minutes, and seconds   
 - This information is available in milliseconds as of 01 Jan 1970 00:00:00.000 GMT   
 - GMT stands for "Greenwich Mean Time."   
 - The term used more often than this is UTC or "Agreement World Standard Time", which is a signal from the World Time Standard (WTS)   
@@ -227,7 +227,7 @@ if (daysLeft == daysInYear) {
 // Number 개체   
    
 // JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성 (예 : PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
-- JScript provides several other properties through Number objects, as well as special numeric properties (Example : PI) that can be used by Math objects   
+- JScript provides several other properties through Number object, as well as special numeric properties (Example : PI) that can be used by Math object   
    
 |Property|Description|
 |:---|:---|

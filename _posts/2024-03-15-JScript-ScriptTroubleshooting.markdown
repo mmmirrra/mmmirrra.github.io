@@ -28,7 +28,7 @@ categories: [JScript]
 // `<BODY>` 태그에서 만들어진 개체들이 있을 경우 그러한 개체들은 `<HEAD>`가 구문 분석되고 있는 시간에는 존재하지 않으며 스크립트에 의해 다루어질 수 없음   
 - JScript interpretation is part of the HTML parsing process performed by a web browser   
 - Therefore, if you put a script inside the `<HEAD>` tag of the document, the script will be interpreted before any `<BODY>` tag   
-- If there are objects created from tags `<BODY>`, they do not exist at the time `<HEAD>` is being parsed and cannot be dealt with by scripts   
+- If there are object created from tags `<BODY>`, they do not exist at the time `<HEAD>` is being parsed and cannot be dealt with by scripts   
    
 <br />
 ### Automatic Type Compulsory Conversion   
@@ -58,7 +58,7 @@ theRadius = aPerimeterPoint - theCenterpoint * theCorrectionFactor;
 ```
    
 <br />
-### Use objects and for...in loops together   
+### Use object and for...in loops together   
 // 개체와 for...in 루프를 함께 사용   
    
 // for...in 루프를 사용하여 개체의 속성을 단계적으로 작업할 경우 개체 필드가 루프 카운터 변수에 지정되는 순서를 예상하거나 제어할 필요는 없음   

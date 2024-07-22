@@ -42,7 +42,7 @@ categories: [Database Systems]
 // - 데이터 모델 : 의미, 데이터 타입, 연산 등을 명시하기 위해 사용할 수 있는 개념들의 집합   
 // - 데이터 모델링 : 실세계의 일부분을 DBMS가 지원하는 데이터 모델의 형태로 나타내는 과정   
 - Need a method to select the data to use and systematically structure it in the database to store and use it   
-  - Data model : a set of concepts that can be used to specify meanings, data types, operations, etc.   
+  - Data model : a set of concepts that can be used to specify meanings, data type, operations, etc.   
   - Data modeling : The process of representing part of the real-world in the form of a DBMS-supported data model   
    
 <br />
@@ -59,7 +59,7 @@ categories: [Database Systems]
 // - 데이터베이스 파일의 내부 저장구조, 파일 구성, 인덱스, 접근 경로 등을 결정하는 과정   
 1. Conceptual data modeling   
     - Avoid interpretation errors of requirements   
-    - The process of conceptually generalizing real-world data to derive data structures, data types, attributes, relationships, constraints, etc.   
+    - The process of conceptually generalizing real-world data to derive data structures, data type, attributes, relationships, constraints, etc.   
 2. Logical data modeling   
     - The process of representing data according to the implementation model of a specific DBMS   
     - Creating a conceptual schema described in a data-defined language   

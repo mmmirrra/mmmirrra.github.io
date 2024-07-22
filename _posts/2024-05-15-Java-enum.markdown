@@ -12,7 +12,7 @@ categories: [Java]
 // - `enum` 을 사용하여 정의   
 // - 열거형으로 선언된 변수에는 미리 지정된 값만 대입 가능   
 // - 상수값을 배열로 리턴하는 static 메소드인 `values()` 를 제공   
-- Data types to create a set of predefined constant values   
+- Data type to create a set of predefined constant values   
   - Define using `enum`   
   - Only pre-specified values can be substituted for variables declared as enumeration   
   - Provides `values()` which is a static method of returning constant values to an array   

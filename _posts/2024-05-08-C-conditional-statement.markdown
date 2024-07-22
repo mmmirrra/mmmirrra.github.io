@@ -379,7 +379,7 @@ The End
 // 반복 제어문   
    
 // 반복 제어문의 종류   
-- Types of iterative control statements   
+- Types of iterative control statement   
   - for   
   - while   
   - do ~ while   
@@ -619,11 +619,11 @@ Sum from Initial value of i10 to 10=55
 ```
    
 <br />
-### Other control statements   
+### Other control statement   
 // 기타 제어문   
    
 // 기타 제어문의 종류   
-- Types of other control statements   
+- Types of other control statement   
   - break   
   - continue   
    
@@ -632,7 +632,7 @@ Sum from Initial value of i10 to 10=55
    
 // break 문은 반복 명령의 실행 도중에 강제적으로 반복문을 빠져 나오는데 사용   
 // - for 루프, while 루프, do ~ while 루프, switch 블록 등을 강제로 종료시키고자 할 때 사용   
-- break statements are used to force a repeat statement to exit during the run of a repeat command   
+- break statement is used to force a repeat statement to exit during the run of a repeat command   
   - break can be used to force for loop, while loop, do ~ while loop, switch block and etc.   
    
 // break 문은 자신이 포함된 반복문만 빠져 나옴   

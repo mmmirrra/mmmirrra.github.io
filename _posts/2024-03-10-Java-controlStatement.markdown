@@ -100,7 +100,7 @@ if (a == 1) {
 // default는 생략 가능하며, 어떤 case에도 해당되지 않는 경우 매칭됨   
 // 만족되는 case를 실행한 후, break문을 만날 때까지 계속 실행   
 - Multiple select structure   
-- Case conditions are compatible with integers (excluding long types) or are string values   
+- Case conditions are compatible with integers (excluding long type) or are string values   
 - The default is optional and is matched if it does not apply to any case   
 - After executing the satisfied case, continue until the break statement is met   
    

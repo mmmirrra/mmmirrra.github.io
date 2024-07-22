@@ -9,7 +9,7 @@ categories: [JScript]
 // 사용자는 document 개체의 write() 와 writeIn() 메서드를 사용할 수 있음   
 // 또한 형식을 갖춘 정보를 브라우저 안의 폼에 표시할 수 있을 뿐만 아니라 경고, 프론프트, 확인 메시지 상자에도 표시할 수 있음   
 - JScript has two ways to display data directly in your browser   
-- Users can use the write() and writeIn() methods of document objects   
+- Users can use the write() and writeIn() methods of document object   
 - In addition, formatting information can be displayed in a form within a browser, as well as in a warning, forward, or confirmation message box   
    
 <br />

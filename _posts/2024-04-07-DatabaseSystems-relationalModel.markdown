@@ -202,7 +202,7 @@ categories: [Database Systems]
 |:---|:---|:---|
 ||||
    
-#### Conversion Case of ER Diagram 3 - One-to-One (1 : 1) relationship. A weak set of objects   
+#### Conversion Case of ER Diagram 3 - One-to-One (1 : 1) relationship. A weak set of object   
 // ER 다이어그램의 변환 케이스 3 - 일대일 (1 : 1) 관계. 약한 개체 집합   
    
 - ER Model   

@@ -23,8 +23,8 @@ categories: [Java]
    
 |Type|Description|
 |:---|:---|
-|// 데이터 필드<br />// - 인스턴스 변수<br />Data Field<br />- Instance Variable|// 클래스 정의에서 non-static 필드<br />// 개별 객체가 소유한 변수<br />- In class definition, non-static fields<br />- Variables owned by individual objects|
-|// 데이터 필드<br />// - 클래스 변수<br />// (static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수 (정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous objects (static variable)|
+|// 데이터 필드<br />// - 인스턴스 변수<br />Data Field<br />- Instance Variable|// 클래스 정의에서 non-static 필드<br />// 개별 객체가 소유한 변수<br />- In class definition, non-static fields<br />- Variables owned by individual object|
+|// 데이터 필드<br />// - 클래스 변수<br />// (static 변수, 정적 변수)<br />Data Field<br />- Class Variable<br />(static variable)|// 클래스 정의에서 static 필드<br />// 동종 객체 간 공유 변수 (정적 변수)<br />- In class definition, static fields<br />- Shared variables between homogeneous object (static variable)|
 |// 지역 변수<br />Local Variable|// 메소드 내부 (또는 블록 내부) 에서 선언된 변수<br />- Variables declared inside the method (or inside the block)|
 |// 파라미터<br />Parameter|// 메소드 호출 시 전달하는 값을 저장하기 위한 변수<br />- Variables to store the values that are passed on method calls|
    
@@ -147,18 +147,18 @@ categories: [Java]
    
 // 기본형을 제외한 모든 자료형   
 // 참조 값 (주소 값) 을 나타내는 자료형   
-- All data types except default types   
+- All data types except default type   
 - Data type that represents the reference value (address value)   
    
 // 참조형 변수는 객체를 가리키는 변수로, 객체의 주소 값 (참조 값) 을 저장함   
 // - 실제 객체는 동적 메모리 공간에 저장됨   
 // - 기본형 변수는 저장 공간에 값 자체를 저장함   
 - A reference variable is a variable that points to an object and stores the object's address value (reference value)   
-  - Real objects are stored in dynamic memory space   
+  - Real object are stored in dynamic memory space   
   - The default variable stores the value itself in the storage space
    
 // 대표적 참조형은 클래스, 배열, 인터페이스, 열거형 등   
-- Representative reference types include classes, arrays, interfaces, enumeration, etc.   
+- Representative reference types include class, array, interface, enumeration, etc.   
 - Example   
   - `Person p1;`   
   - `String szStr;`   

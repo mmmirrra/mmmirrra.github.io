@@ -24,7 +24,7 @@ categories: [JScript]
 // 반대의 경우도 마찬가지임   
 // 실제로 항목은 하나만 존재함   
 // 즉, "복사본"은 실제로 복사본이 아니라 항목에 대한 또다른 참조일 뿐임   
-- In most cases, objects, arrangements, and functions are copied, transferred, and compared by transfer by reference   
+- In most cases, object, arrangement, and function are copied, transferred, and compared by transfer by reference   
 - Copying or passing by reference creates a pointer to the original item and uses that pointer as a copy   
 - Then changing the original changes both the original and the copy   
 - It's the same effect in the opposite case   
@@ -32,7 +32,7 @@ categories: [JScript]
 - In other words, "copy" is actually just another reference to an item, not a copy   
    
 // assign() 메서드를 사용하면 개체와 배열의 이런 동작을 변경할 수 있음   
-- The assign() method allows you to change this behavior of objects and arrays   
+- The assign() method allows you to change this behavior of object and array   
    
 // 문자열을 복사, 전달할 때는 참조에 의한 전달만 사용하지만 비교할 때는 값에 의한 전달을 사용함   
 - Use only forwarding by reference when copying and forwarding a string, but forwarding by value when comparing   

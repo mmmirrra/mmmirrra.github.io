@@ -316,7 +316,7 @@ categories: [Multimedia System]
 - What Metadata Can Do   
   - Accessing and Exploring Information Resources   
   - Summary of object content   
-  - Semantic interconnectivity between objects   
+  - Semantic interconnectivity between object   
   - Resource management   
   - Method of user interface   
    

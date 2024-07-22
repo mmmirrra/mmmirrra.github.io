@@ -177,7 +177,7 @@ categories: [Eclipse]
 // 클래스 계층 보기 : 클래스명을 선택하고 F4를 누르면 해당 클래스의 상속 계층 확인   
 `F4` : Open Type Hierarchy : Select the Class and press F4 to see the inheritance hierarchy for that Class   
 // 상속 계층 팝업 창 보기 : 인터페이스 구현 클래스간 이동 시 편리   
-`Ctrl + T` : Quick Hierarchy : Convenient for moving between Classes with interfaces   
+`Ctrl + T` : Quick Hierarchy : Convenient for moving between Class with interface   
 // 해당 소스의 클래스 구조 트리 Outline 창 보기   
 `Ctrl + O` : Quick Outline   
 // 메소드 괄호에 커서를 놓고 이 키를 누르면 파라미터 힌트 보여줌   
@@ -341,7 +341,7 @@ categories: [Eclipse]
 // '창 - 보기표시 - 기타 - 디버그 - 표시' 선택하여 소스상에서 필요한 부분을 선택해서 실행시켜 볼 수 있음 : 한 순간의 값만 필요할 때 볼 수 있음   
 `Display view` : `Window - Show View - Other - Debug - Display` Lets you select the required parts of the source and try to run them : Can be viewed when only one moment's value is needed   
 // 표현식 창에서 '마우스 오른쪽 버튼 - 감시 표시식 추가' 선택하여 복잡한 식 혹은 객체를 디버깅 하면서 값이 변하는 것을 계속 볼 수 있음. '환경설정 - 자바 - 디버그 - 세부사항 포멧터' 선택 후 보기 편한 식으로 편집하면 Expression View 에서 결과를 실시간으로 확인 할 수 있음   
-`Expression view` : Select `Right mouse button - Add Watch Expression` in the Expressions window to continue to see values changing while debugging complex expressions or objects. Select `Preferences - Java - Debug - Detail Formatters` and edit it in a viewable way to view the results in real time in Expression View   
+`Expression view` : Select `Right mouse button - Add Watch Expression` in the Expressions window to continue to see values changing while debugging complex expressions or object. Select `Preferences - Java - Debug - Detail Formatters` and edit it in a viewable way to view the results in real time in Expression View   
    
 <br />
 ### Scrapbook   

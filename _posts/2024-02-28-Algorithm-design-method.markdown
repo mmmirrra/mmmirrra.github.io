@@ -148,7 +148,7 @@ Relationship between Binary Search Algorithm and Divide-and-Conquer Method
 // 정복 : 탐색 키가 가운데 원소보다 작으면 왼쪽 부분배열을 대상으로 이진 탐색을 순환 호출, 크면 오른쪽 부분배열을 대상으로 이진 탐색을 순환 호출   
 // 결합 : 부분배열에 대한 탐색 결과가 직접 반환되므로 결합이 불필요   
    
-- Split : Split into left and right subarrays based on the middle element of the array. Returns / terminates the array index of that element if the search key and the middle element are the same   
+- Split : Split into left and right subarray based on the middle element of the array. Returns / terminates the array index of that element if the search key and the middle element are the same   
 - Conquest : If the search key is smaller than the middle element, circular calls binary search for the left subarray; if it is larger, circular calls for binary search for the right subarray   
 - Combination : no combination is required as search results for partial arrangement are returned directly   
    

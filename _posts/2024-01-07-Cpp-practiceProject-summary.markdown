@@ -40,7 +40,7 @@ project 'FirstStep'
 // 기초 클래스의 소멸자를 가상함수로 만드는 예제   
 `BaseClass.h` : Example of creating a Virtual Function of a Destructor in a Base Class   
 // 템플릿 생성 시 매개변수로 자료형과 정수를 받는 예제   
-`Buffer.h` : Example of receiving data types and integer as parameters when creating a template   
+`Buffer.h` : Example of receiving data type and integer as parameters when creating a template   
 // 상세 클래스 - 객체를 만들 수 있음   
 `CClass.h` : Detail Class - Able to create object   
 // 스택 공간 확인 예제   
@@ -68,7 +68,7 @@ project 'FirstStep'
 // 추상 클래스 - 도형의 그래픽 속성을 지정할 수 있는 클래스에 대한 추상 클래스   
 `GrAttrib.h` : Abstract Class - Abstract Class for Class that specify graphic properties of a shapes   
 // 함수객체를 포함한 클래스 - 함수처럼 사용될 수 있는 객체   
-`Greater.h` : Class with function objects - Object that can be used as function   
+`Greater.h` : Class with function object - Object that can be used as function   
 // 사용자 정의 객체 오류 처리 예제 - 오류가 발생한 첨자 리턴   
 `IntArray1.h` : Example of error handling of a custom object - Returns a subscript with an error   
 // 사용자 정의 객체 오류 처리 예제 - exception() 사용   
@@ -94,7 +94,7 @@ project 'FirstStep'
 // ++연산자 전위 표기, 후위 표기 예제 - 연필 묶음과 낱개의 개수 계산   
 `Pencils.h` : Example of prefix and postfix for ++ operator - Calculate the number of pencil bundles and individuals   
 // 메모리 동적 할당 예제 - 이름과 주소를 가진 객체 생성자에 동적 할당 적용   
-`Person.h` : Example of dynamically allocating memory - Dynamic assignment of memory to the Constructors of objects with names and addresses   
+`Person.h` : Example of dynamically allocating memory - Dynamic assignment of memory to the Constructors of object with names and addresses   
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   
 `Person1.h` : Examples of Base Class and Derived Class - Base Class - Without Virtual Function   
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   

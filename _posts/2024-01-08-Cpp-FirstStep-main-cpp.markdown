@@ -503,13 +503,13 @@ int main() {
 	vec2.print();
 	cout << endl;
 
-	cout << "Number of objects in the NamedObj class : " << NamedObj::nObj() << endl;
+	cout << "Number of object in the NamedObj class : " << NamedObj::nObj() << endl;
 	NamedObj namedA("First");
 	NamedObj namedB("Second");
 	fff();
 	NamedObj namedC("Fourth");
 	namedC.display();
-	cout << "Number of objects in the NamedObj class : " << NamedObj::nObj() << endl;
+	cout << "Number of object in the NamedObj class : " << NamedObj::nObj() << endl;
 
 	CharStack chStack;			// 20개의 문자를 저장할 수 있는 스택
 	char str[20];
@@ -777,7 +777,7 @@ int main() {
 	vector<float> fVector(10);		// 10개의 float 값을 저장하는 vector 객체 선언
 	fVector[2] = 10.0f;			// 객체의 첨자에 직접 접근
 	// fVector[12] = 10.0f;			// 범위를 벗어난 첨자이므로 실행 중 에러 발생함 - 예외처리 못함
-	cout << "direct access to subscripts of objects using STL sequential container vectors : " << fVector[2] << endl;		// STL 순차 컨테이너 vector를 이용한 객체의 첨자 직접 접근
+	cout << "direct access to subscripts of object using STL sequential container vectors : " << fVector[2] << endl;		// STL 순차 컨테이너 vector를 이용한 객체의 첨자 직접 접근
 
 	vector<int> iVector = { 1, 2, 3, 4 };
 	iVector.at(2) = 10;			// vecotr의 멤버함수 at()은 첨자에 직접접근 할 수 있는 []와 같은 결과를 가져올 수 있지만 첨자의 범위를 벗어난 경우 [] 와는 다르게 예외처리를 할 수 있음

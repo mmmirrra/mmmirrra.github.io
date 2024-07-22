@@ -38,8 +38,8 @@ categories: [Programming Language Theory]
   - The functionality of the language must be well combined   
   - Generality, Orthogonality, Consistency   
 - Support of abstraction   
-  - Programming languages must be able to abstract and represent real-world objects and perform certain operations on them   
-  - Data abstraction, control abstraction, defining abstract data types   
+  - Programming languages must be able to abstract and represent real-world object and perform certain operations on them   
+  - Data abstraction, control abstraction, defining abstract data type   
 - Complexity control   
   - Programming languages must be able to control complex targets and how they are handled   
   - Encapsulation, modularization   

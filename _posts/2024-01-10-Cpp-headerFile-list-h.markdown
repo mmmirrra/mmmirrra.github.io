@@ -74,7 +74,7 @@ public:
    
 <br />
 // 템플릿 생성 시 매개변수로 자료형과 정수를 받는 예제   
-`Buffer.h` : Example of receiving data types and integer as parameters when creating a template   
+`Buffer.h` : Example of receiving data type and integer as parameters when creating a template   
    
 ```cpp
 #pragma once
@@ -433,7 +433,7 @@ extern GrAttrib curAttrib;		// 전역변수 선언임. 실제 정의는 다른 �
    
 <br />
 // 함수객체를 포함한 클래스 - 함수처럼 사용될 수 있는 객체   
-`Greater.h` : Class with function objects - Object that can be used as function   
+`Greater.h` : Class with function object - Object that can be used as function   
    
 ```cpp
 #pragma once
@@ -802,7 +802,7 @@ public:
    
 <br />
 // 메모리 동적 할당 예제 - 이름과 주소를 가진 객체 생성자에 동적 할당 적용   
-`Person.h` : Example of dynamically allocating memory - Dynamic assignment of memory to the Constructors of objects with names and addresses   
+`Person.h` : Example of dynamically allocating memory - Dynamic assignment of memory to the Constructor of object with names and addresses   
    
 ```cpp
 #pragma once PERSON_H_INCLUDED

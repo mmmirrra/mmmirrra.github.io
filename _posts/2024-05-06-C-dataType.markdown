@@ -10,7 +10,7 @@ categories: [C]
    
 // 프로그램에서 사용하는 자료의 형태   
 // 자료형은 상수와 변수로 구분하여 사용함   
-- Types of data used by programs   
+- Type of data used by program   
 - Data type are divided into constant and variable   
    
 // 프로그램에서 자료 (data) 처리를 위해서는   
@@ -26,7 +26,7 @@ categories: [C]
   - Need accurate processing and efficient use of these data   
    
 // C 언어는 여러 가지 종류의 자료형 (data type) 을 지원함   
-- Language C supports many types of data types   
+- Language C supports many types of data type   
    
 <br />
 ### Constant   
@@ -115,7 +115,7 @@ categories: [C]
 // 모든 변수는 정해진 자료형이 있음   
 // 모든 변수는 할당된 값을 갖음   
 - All variables have names (variable names)   
-- All variables have predetermined data types   
+- All variables have predetermined data type   
 - All variables have assigned values   
    
 #### Rules for defining variable names   
@@ -135,7 +135,7 @@ categories: [C]
 - Variable names cannot use reserved words   
    
 <br />
-### Declaration of Data Types and Variables   
+### Declaration of Data Type and Variable   
 // 자료형과 변수 선언   
    
 // 변수   
@@ -147,7 +147,7 @@ categories: [C]
   - Having a memory space to store the data and naming it   
 - Declaration of Variable   
   - Giving a name to a secured memory space   
-- Data types are required for these variable declarations   
+- Data type is required for these variable declarations   
    
 #### Type of data type   
 // 자료형의 종류   

@@ -86,7 +86,7 @@ categories: [Programming Language Theory]
 // 추상화 : 어떤 대상을 간략하게 추려 나타내는 방법   
 // 모듈화 : 복잡한 대상을 나누어 구성할 수 있는 방법   
 - Abstract : A brief summary of an object   
-- Modularization : How complex objects can be divided up   
+- Modularization : How complex object can be divided up   
    
 #### Characteristics of Programming Languages   
 // 프로그래밍 언어의 특성   
@@ -235,7 +235,7 @@ categories: [Programming Language Theory]
 // - 변수, 함수, 타입 등 프로그래밍 언어에서 제공하는 거 모든 것을 포함하는 단위   
 - Characteristics   
   - Distinguish between inside and outside and occupy a unique name space   
-  - A unit that contains everything that a programming language provides, such as variables, functions, and types   
+  - A unit that contains everything that a programming language provides, such as variable, function, and type   
    
 <br />
 ### How to learn a programming language   

@@ -24,7 +24,7 @@ categories: [JScript]
 // JScript에서는 문자열도 개체인데, 특별한 속성을 가지고 있으며 특별한 경우에 사용함   
 - A string is represented by a single quotation marks or double quotation marks  
 - Use single quotation marks to express a string that contains quotation marks   
-- In JScript, strings are also objects, which have special properties and are used in special cases   
+- In JScript, strings are also object, which have special properties and are used in special cases   
    
 // 문자열 예시   
 - String Example   

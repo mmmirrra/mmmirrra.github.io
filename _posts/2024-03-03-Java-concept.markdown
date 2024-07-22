@@ -42,7 +42,7 @@ categories: [Java]
 - Independent of operating system and independent of hardware platform   
 - Perfect object-oriented programming language   
 - Can program the web or network in addition to desktop applications   
-- a rigorous examination of data types in the use of variables   
+- a rigorous examination of data type in the use of variables   
 - Provides exception handling capabilities   
 - Multi-threading support   
    
@@ -120,8 +120,8 @@ Java Source File (HelloWorld.java) → Compiler → Java bytecode (HelloWorld.cl
 // - 객체는 특정 클래스의 인스턴스임. 클래스의 변수 또는 클래스가 실체화 된 것   
 - Class   
   - The result of the abstraction process is class   
-  - Class are models or frameworks for creating objects   
-  - means for abstracting objects with common characteristics   
+  - Class are models or frameworks for creating object   
+  - means for abstracting object with common characteristics   
   - Object states are implemented as fields (data) and actions are implemented as methods   
   - The object is an instance of a particular class. Object is a class's variable or class materialized   
    
@@ -135,7 +135,7 @@ Java Source File (HelloWorld.java) → Compiler → Java bytecode (HelloWorld.cl
 - Class is the basic unit of program configuration   
 - Create object with class   
 - The object's data (fields) and the object's function (methods) are encapsulated in a class structure   
-- Objects (instances) are created from class definitions and programs operate as interactions between objects   
+- Object (instances) are created from class definitions and programs operate as interactions between object   
    
 #### Example of comparing a C Program with a Java Program - Grades Processing Program   
 // C 프로그램과 Java 프로그램의 비교 예제 - 성적처리 프로그램   
@@ -179,7 +179,7 @@ class Grade {
 public class Main {
   public static void main(String[] args) {
     Grade g1, g2;           // Object for expressing the grades of two people
-    g1 = new Grade();       // Creating objects
+    g1 = new Grade();       // Creating object
     g2 = new Grade();
     g1.e = 90;              // Enter the grade
     g1.m = 85;

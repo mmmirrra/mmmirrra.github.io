@@ -49,14 +49,14 @@ categories: [Data Structure]
 |Computer|00ffff00<br />00ffff04<br />00ffff08<br />00ffff0c<br />00ffff10|100<br />200<br />300<br />400<br />500|1<br />2<br />3<br />4<br />5|Developer|
    
 <br />
-### Abstract data types for arrays   
+### Abstract data type for array   
 // 배열의 추상 자료형   
    
 // 추상자료형   
 // - 객체 및 관련된 연산의 정의로 구성됨   
 // - 자료구조 구현전의 설계 단계   
 - Abstract data type   
-  - Consists of definitions of objects and associated operations   
+  - Consists of definitions of object and associated operations   
   - Design stage prior to data structure implementation   
    
 // 자료형   
@@ -147,7 +147,7 @@ int retrieve(int *a, int i) {   // i = 2
    
 // 배열의 검색 결과   
 // 다음과 같은 원소값이 저장되어 있다고 가정하면, a[2]인 '30'이 출력됨   
-- Search Results for Arrays   
+- Search Results for Array   
 - Assuming that the following element values are stored, output value of '30' for a[2]   
    
 ||a[0]|a[1]|a[2]|a[3]|a[4]|
@@ -197,7 +197,7 @@ void store(int *a, int i, int e) {    // i = 3, e = 35
    
 // A[i]는 배열의 첫 번째 원소 A[0]이 저장된 메모리 주소인 a로부터 시작하여, A[0]부터 A[i - 1]개까지 i개의 배열 A[]를 지나서 저장됨   
 // 따라서, A[]의 메모리 시작주소를 a라고 가정하면, A[i]의 메모리 저장 주소는 [a + i * k]가 됨   
-- A[i] is stored through i arrays A[] from A[0] to A[i-1] starting with the memory address where the first element A[0] of an array is stored   
+- A[i] is stored through i array A[] from A[0] to A[i-1] starting with the memory address where the first element A[0] of an array is stored   
 - Thus, assuming that the memory start address of A[] is a, the memory storage address of A[i] is [a + i * k]   
    
 |A[0]|A[1]|A[2]|A[3]|A[4]|
@@ -227,7 +227,7 @@ void store(int *a, int i, int e) {    // i = 3, e = 35
 // 행렬의 배열 표현   
    
 // 행렬을 컴퓨터에서 표현하기에는 2차원 배열이 적합함   
-- Two-dimensional arrays are suitable for representing matrices on computers   
+- Two-dimensional array are suitable for representing matrices on computers   
    
 ```
 5   2   6   2
@@ -250,7 +250,7 @@ void store(int *a, int i, int e) {    // i = 3, e = 35
 // 행 우선 배열   
    
 // 1차원 배열을 여러 개 쌓아 놓은 것이 2차원 배열   
-- A two-dimensional array of stacked one-dimensional arrays   
+- A two-dimensional array of stacked one-dimensional array   
    
 // 행 우선 할당   
 // - 가로의 1차원 배열 단위로 메모리 영역을 우선 할당함   
@@ -282,7 +282,7 @@ A[2, 3]
 // 열 우선 배열   
    
 // 1차원 배열을 여러 개 세워 놓은 것이 2차원 배열   
-- Two-dimensional array with multiple verticals of one-dimensional arrays   
+- Two-dimensional array with multiple verticals of one-dimensional array   
    
 // 열 우선 할당   
 // - 세로의 1차원 배열 단위로 메모리 영역을 우선 할당함   

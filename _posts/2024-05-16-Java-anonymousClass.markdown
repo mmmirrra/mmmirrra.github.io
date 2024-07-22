@@ -13,7 +13,7 @@ categories: [Java]
 // 부모 클래스를 상속받거나 인터페이스를 구현하도록 익명 클래스를 정의함   
 - Classes for creating one object at a time   
   - Allows creating objects at the same time as anonymous class definitions   
-- Define anonymous classes to inherit parent classes or to implement interfaces   
+- Define anonymous classes to inherit parent classes or to implement interface   
    
 <br />
 ### How to define an anonymous class   

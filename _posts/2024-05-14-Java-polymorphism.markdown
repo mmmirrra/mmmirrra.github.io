@@ -70,7 +70,7 @@ Animal animal = (Animal) new Dog();
     - Method names, parameters, and return types are the same, but body implementations are different   
   - Different children perform different functions using the same name method   
 - Polymorphism of the Interface   
-  - Differently implemented methods of parent interfaces in child classes   
+  - Differently implemented methods of parent interface in child classes   
    
 #### Class Inheritance and Polymorphism Example 1   
 // 클래스 상속과 다형성 예시 1   

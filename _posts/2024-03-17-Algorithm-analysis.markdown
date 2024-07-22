@@ -56,7 +56,7 @@ categories: [Algorithm]
 // - 입력 데이터의 상태   
 - Factors affecting running time   
   - Input Size   
-    - "Size of data input", "Number of objects the problem is trying to resolve"   
+    - "Size of data input", "Number of object the problem is trying to resolve"   
       - For example : the number of list elements, the size of the matrix, the number of vertices in the graph, etc.   
   - Status of input data   
    

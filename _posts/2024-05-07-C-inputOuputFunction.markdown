@@ -115,7 +115,7 @@ i=10, j=20, k=30
 
 void main() {
     // 문자형 출력
-    // Output character types
+    // Output character type
     printf("%c\n", 'a');
     // 정수형 10진수 출력
     // Output integer decimal number

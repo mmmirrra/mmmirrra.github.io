@@ -21,8 +21,8 @@ categories: [JScript]
    
 // JScript에서는 개체와 배열이 본질적으로 서로 동일함   
 // 실질적인 차이점은 데이터에 있는 것이 아니라 배열의 구성원 또는 개체의 속성과 메서드에 주소를 지정하는 방식이 있음   
-- In JScript, objects and arrangements are essentially identical to each other   
-- The real difference is not in the data, but the way you address the properties and methods of members or objects in the array   
+- In JScript, object and arrangements are essentially identical to each other   
+- The real difference is not in the data, but the way you address the properties and methods of members or object in the array   
    
 <br />
 ### Specify Array Addresses   
@@ -58,7 +58,7 @@ theFirstLine = theListing[1];
 // - 예를 들어 theListing의 [Name1]에서 [Naem4]까지의 속성에 작성된 theName의 인스턴스는 "G.", "Edward", "Heatherington", "IV" 또는 "George", "Sand"를 포함할 수 있음   
    
 2 . How to create an object/array with a numbered property and then generate that number from a rope   
-- In the example below, two arrays are created   
+- In the example below, two array are created   
 - One for name and the other for address, which uses a list of address books   
 - Each array has four properties   
 - For example, an instance of theName created in a property from [Name1] to [Naem4] in theListing can include "G.", "Edward", "Heatherington", "IV" or "George", "Sand"   
@@ -77,7 +77,7 @@ for (i = 1; i < 4; i++) {
 // 예를 들어, addressBook 배열을 번호가 지정되어 있는 목록 대신에 성으로 정렬하면 스크립트를 실행하면서 사람을 찾기 위해 "진행 중에" 이름을 입력할 수 있음   
 // 아래 예시는 스크립트 내의 어딘가에 적절한 함수 정의가 있다는 것을 전제함   
 - Because these particular instances are short, they can be written in a notation that uses a "dot."   
-- This means that you can address theListing, theName, and theAddress as objects rather than arrays, but this is not always possible   
+- This means that you can address theListing, theName, and theAddress as object rather than array, but this is not always possible   
 - Sometimes a particular attribute may not exist until runtime and it is not known in advance what attribute a particular attribute will be   
 - For example, if you sort an addressBook array by last name instead of a numbered list, you can type a name "in progress" to find people while running a script   
 - The example below presupposes that there is an appropriate function definition somewhere in the script   
@@ -94,7 +94,7 @@ theIndivListing = theListing[getFirstName()];
 // 배열 표시로 JScript 개체의 구성원에 액세스할 수 있으므로 JScript 개체를 연상식 배열로 사용할 수 있음   
 - This is an associated addressing   
 - In other words, addressing using any string   
-- Unemploymentally, JScript objects are associated arrays   
+- Unemploymentally, JScript object are associated array   
 - "Dots" can be used to address, and even though they are specified so often, they are not necessarily required to use that method   
 - You can use the JScript object as an associative array because the array display provides access to members of the JScript object   
    
@@ -132,7 +132,7 @@ var MyArray = {
 // 이것은 좀 더 직관적인 주소 지정 구성표를 지닌 배열을 만들어 사용할 수 있게 해줌   
 // 위에서 예시한 for...in 문 코드 또한 이 배열을 반복 수행하는데 사용할 수 있음   
 - In this array, elements are addressed using key strings ("a", "b", "c") instead of array element numbers (0, 1, 2)   
-- This makes it possible to create and use arrays with more intuitive addressing schemes   
+- This makes it possible to create and use array with more intuitive addressing schemes   
 - The for...in statement code illustrated above can also be used to repeat this arrangement   
    
 <br />

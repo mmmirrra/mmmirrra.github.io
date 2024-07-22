@@ -138,7 +138,7 @@ Representative Multimedia-Related Technologies
   - The computer should be easy and convenient to use to handle a variety of information using the computer   
   - Technology on human-computer interaction is needed to make computers more convenient and easy to use   
   - A recent computer   
-    - Provides users with a variety of convenient interfaces   
+    - Provides users with a variety of convenient interface   
    
 // 인간-컴퓨터 상호작용 기술 : HCI (Human Computer Interaction)   
 // - 멀티미디어 데이터는 다양하고 큰 용량을 가지므로 일반 사용자의 정보검색은 쉽지 않음   

@@ -13,17 +13,17 @@ categories: [JScript]
 // JScript는 내부 개체, 사용자 정의 개체, 브라우저 개체라는 3가지 종류의 개체를 지원함   
 - In JScript, an object is essentially a collection of attributes and methods   
 - A method is a function that is a member of an object, and an attribute is a value that is a member of an object or a set of values (in an array or form of an object)   
-- JScript supports three types of objects : internal objects, custom objects, and browser objects   
+- JScript supports three types of object : internal object, custom object, and browser object   
    
 <br />
-### Objects used as arrays   
+### Object used as array   
 // 배열로 사용되는 개체   
    
 // JScript에서는 개체와 배열을 동일한 것으로 취급함   
 // 개체의 각 구성원 (속성과 메서드) 을 참조하려면 이름 (개체명, 마침표 (.), 속성명의 순서로 입력) 또는 배열 아래 첨자 인덱스를 사용하면 됨   
 // JScript에서 아래 첨자는 0부터 번호를 매기기 시작함   
 // 사용자 편의를 위해 아래 첨자는 아래 첨자의 이름으로도 참조할 수 있음   
-- JScript treats objects and arrays as identical   
+- JScript treats object and array as identical   
 - To reference each member of an object (Properties and Methods), use a subscript index under the name (Enter object name, period (.), and attribute name in order) or array   
 - In JScript, subscripts below begin to number from 0   
 - For user convenience, subscripts below can also be referred to by the name of subscripts below   

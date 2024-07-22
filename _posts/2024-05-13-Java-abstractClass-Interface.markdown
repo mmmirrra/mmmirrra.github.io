@@ -23,7 +23,7 @@ categories: [Java]
   - Only declaration exists for return type, method name, and argument   
   - When inherited to a child class, the implementation of the body is required   
   - Cannot be used with conflicting meanings of `final`   
-  - Abstract methods must be declared in abstract classes or interfaces   
+  - Abstract methods must be declared in abstract classes or interface   
    
 - Example   
    
@@ -80,7 +80,7 @@ Shape s = new Shape("red");    // compile error
   - Need to implement abstract methods in child classes   
   - Then, the child class can create objects   
   - If the child class does not implement the abstract method, the child class must also continue to be an abstract class   
-- Abstract classes have an intermediate nature between normal classes and interfaces   
+- Abstract classes have an intermediate nature between normal class and interface   
    
 <br />
 ### Interface   
@@ -142,7 +142,7 @@ Shape s = new Shape("red");    // compile error
 // 인터페이스를 상속받아 자식 인터페이스를 정의할 수 있음   
 // - 인터페이스의 상속 또는 확장   
 - Inherited (implemented) and used by child classes, as with abstract classes   
-- Interfaces can be used to group classes that are not semantically relevant but functionally similar   
+- Interface can be used to group classes that are not semantically relevant but functionally similar   
   - Example : Classes with large and small comparisons (squares, people, ... mode sizes comparable)   
 - Allows you to inherit an interface to define a child interface   
   - Inheritance or extension of an interface   
@@ -175,9 +175,9 @@ class Box implements Comparable<Box> {
 // -- `interface 자식인터페이스 extends 부모인터페이스 { ... }`   
 // - 여러 부모 인터페이스를 상속받는 다중 상속도 가능   
 - The child interface inherits the parent interface   
-  - Use the keyword 'extends' to inherit existing interfaces and define new interfaces   
+  - Use the keyword 'extends' to inherit existing interface and define new interface   
     - `interface childInterface extends parentInterface { ... }`   
-  - Multiple inheritances that inherit multiple parent interfaces are possible   
+  - Multiple inheritances that inherit multiple parent interface are possible   
    
 ```java
 // 인터페이스 정의
@@ -292,7 +292,7 @@ interface DoIt {
 ```
    
 <br />
-### Conversion of abstract classes, interfaces, and classes   
+### Conversion of abstract classes, interface, and class   
 // 추상 클래스, 인터페이스, 클래스의 형변환   
    
 // 인터페이스와 클래스는 모두 사용자 정의형임   
@@ -300,9 +300,9 @@ interface DoIt {
 // 상위 유형의 변수는 하위 객체의 참조값을 가질 수 있음   
 // 상위 유형의 변수가 가리키는 객체의 실제 유형에 따라 수행되는 메소드가 결정됨 (동적 바인딩)   
 // - 실행 중 메소드 호출 시, 변수의 선언 유형으로 정하지 않음   
-- Both interfaces and classes are customized   
+- Both interface and classes are customized   
 - Higher/lower data type relationship is established according to `extends` and `implements`   
-- Higher types of variables can have reference values of lower objects   
+- Higher type of variable can have reference values of lower object   
 - Depending on the actual type of object the higher type of variable points to, the method performed is determined (dynamic binding)   
   - When calling a method during execution, do not specify the declaration type of the variable   
    

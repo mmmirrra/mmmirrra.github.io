@@ -132,7 +132,7 @@ Internet ≠ Web
   - Openness and engagement   
   - The use of collective intelligence   
   - A light programming model   
-  - Many user interfaces   
+  - Many user interface   
    
 // 웹 2.0 기술과 활용   
 // - 콘텐츠 신디케이션 (contents syndication)   
@@ -332,7 +332,7 @@ Internet ≠ Web
     - It means "semantic web"   
     - Semantic Web is a framework and technology that expresses the relationship (meaning information) between resources and information about resources such as web documents, various files, and services in a computer-processed ontology form in a distributed environment such as the current Internet, and allows computers to process them   
       - Ontology   
-        - Representation of existing objects and their relationships and various concepts in a form that computers can process   
+        - Representation of existing object and their relationships and various concepts in a form that computers can process   
         - Use in artificial intelligence, semantic web, natural language processing, etc   
         - Representative languages used for ontology writing : RDF, OWL, etc   
    

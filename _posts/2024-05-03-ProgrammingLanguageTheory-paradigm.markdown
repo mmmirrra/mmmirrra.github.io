@@ -246,7 +246,7 @@ gcd: 6
 // GUI 개발에 큰 획 (Smalltalk)   
 // 프로그램 재사용 편의로 S/W 생산성에 크게 기여   
 - Program   
-  - A set of objects that can communicate with each other   
+  - A set of object that can communicate with each other   
 - A big stroke in GUI development (Smalltalk)   
 - Program reuse convenience contributes significantly to S/W productivity   
    

@@ -18,7 +18,7 @@ categories: [Java]
 // 키보드에서 입력을 받는 Scanner 객체 만들기   
 // - System.in을 이용하여 Scanner 객체를 만들고 사용함   
 - Create a scanner object that receives input from the keyboard   
-  - Create and use scanner objects using System.in   
+  - Create and use scanner object using System.in   
    
 ```java
 Scanner sc = new Scanner(System.in);

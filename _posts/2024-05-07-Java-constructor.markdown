@@ -48,7 +48,7 @@ Circle c = new Circle(5);
 - The constructor name is the same as the class name   
 - Cannot specify a return type   
 - Multiple constructors can be defined in one class (constructor Overloading)   
-  - Separated by number of parameters and data types of parameters   
+  - Separated by number of parameter and data type of parameter   
 - Access modifiers are usually `public`   
    
 - Example   

@@ -175,7 +175,7 @@ Separate Data Usage from Data Management
 // 데이터 정의 언어   
    
 // 데이터베이스 객체를 생성, 수정, 삭제하기 위한 언어   
-Language for creating, modifying, and deleting Database objects   
+Language for creating, modifying, and deleting Database object   
    
 // DDL의 요구 기능   
 // - 데이터 모델에 따라 애플리케이션 프로그램이 요구하는 데이터의 논리적 구성이나 특징을 규정   
