@@ -29,11 +29,11 @@ categories: [Excel]
 // 3. B2 셀에 첫 날의 저금액인 '1'을 입력하고, C2 셀에 '=B2'를 입력, B3 셀에 '=2* B2'를 입력, C3 셀에 '=C2 + B3'를 입력   
 // 4. B3:C3 의 셀 범위를 선택하고 채우기 핸들을 '드래그 & 드롭' 해서 30일째 되는 날까지 채우기 실행   
 // 5. 누적액이 처음으로 1억원을 넘는 날짜는 27일째임을 확인   
-1. Enter 'Date' in A1 cell, 'Savings' in B1 cell, and 'Cumulative Savings' in C1 cell   
-2. Enter 1 and 2 in A2 and A3 cells respectively and 'drag & drop' using the auto-filling function to fill up to 30   
-3. Enter '1' which is the storage amount of the first day in the B2 cell, '=B2' in the C2 cell, '=2*B2' in the B3 cell, and '=C2 + B3' in the C3 cell   
-4. Select the cell range for B3:C3 and 'drag & drop' the fill handle to fill by day 30th   
-5. Confirmation that the date of accumulation exceeding KRW 100 million for the first time is the 27th day   
+1 . Enter 'Date' in A1 cell, 'Savings' in B1 cell, and 'Cumulative Savings' in C1 cell   
+2 . Enter 1 and 2 in A2 and A3 cells respectively and 'drag & drop' using the auto-filling function to fill up to 30   
+3 . Enter '1' which is the storage amount of the first day in the B2 cell, '=B2' in the C2 cell, '=2*B2' in the B3 cell, and '=C2 + B3' in the C3 cell   
+4 . Select the cell range for B3:C3 and 'drag & drop' the fill handle to fill by day 30th   
+5 . Confirmation that the date of accumulation exceeding KRW 100 million for the first time is the 27th day   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelDragFill1.png)
    
@@ -65,10 +65,10 @@ categories: [Excel]
 // 3. E2 셀을 선택하고 '드래그 & 드롭'으로 E6 셀까지 채움. 이 과정을 통해서 각 과목에 대한 '학점 x 평점' 계산   
 // 4. E7 셀에 '=SUM(E2:E6)/B7' 입력하여 평점평균 계산   
 // - 평점평균 = <sup>(학점 x 평점)의 합계</sup> / <sub>학점의 합계</sub> = <sup>∑학점 x 평점</sup> / <sub>∑학점</sub>   
-1. Enter each GPA corresponding to the grade of the subject   
-2. Enter 'Credit * GPA' in E1 cell, and function '=B2 * D2' in E2 cell   
-3. Select the E2 cell and fill it up to the E6 cell with 'drag & drop'. Calculate 'Credit x GPA' for each subject through this course   
-4. Enter '=SUM(E2:E6)/B7' in E7 cell to calculate the average GPA   
+1 . Enter each GPA corresponding to the grade of the subject   
+2 . Enter 'Credit * GPA' in E1 cell, and function '=B2 * D2' in E2 cell   
+3 . Select the E2 cell and fill it up to the E6 cell with 'drag & drop'. Calculate 'Credit x GPA' for each subject through this course   
+4 . Enter '=SUM(E2:E6)/B7' in E7 cell to calculate the average GPA   
     - an average GPA = <sup>the sum of (credit x GPA)</sup> / <sub>the sum of one's credits</sub> = <sup>∑credit x GPA</sup> / <sub>∑credit</sub>   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelSum1.png)
@@ -173,10 +173,10 @@ categories: [Excel]
 // - 원금은 절대참조 이용   
 // - 연이율과 경과년수는 혼합참조 이용   
 // 2. B5:E5 까지 선택하고 '드래그 & 드롭'으로 20년이 경과한 후까지 채움   
-1. Enter `=$B$1*(1+B$2)^$A5` in the B5 cell and fill up to E5 using the fill function   
+1 . Enter `=$B$1*(1+B$2)^$A5` in the B5 cell and fill up to E5 using the fill function   
     - Use absolute reference for principal   
     - Annual rate and number of years elapsed use mixed reference   
-2. Choose B5:E5 and fill it up after 20 years with 'drag & drop'   
+2 . Choose B5:E5 and fill it up after 20 years with 'drag & drop'   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelTotalPrincipalAndInterest1.png)
    
@@ -195,19 +195,19 @@ categories: [Excel]
    
 // 함수의 그래프 개형을 구간 (-3, 3) 에서 그려보고, 그 구간에서 'fx() = 0' 을 만족하는 근사적인 해를 찾으시오   
 // - `f(x) = -x³ + 2x² - 2x + 3`   
-// 1. -3.0 부터 3.0 까지 0.1 간격으로 채우기 기능 실행   
-// 2. B2 셀에는 `=-A2^3+2*A2^2-2*A2+3` 입력   
-// 3. 나머지 셀들에 대해서 '드래그 & 드롭'으로 채워 넣음   
-// 4. (-3, 3) 범위에서 함수의 그래프 그리기   
-// - `[삽입] 탭 - [차트] 그룹 - [분산형(X, Y) 또는 거품형 차트 삽입] - [곡선이 있는 분산형]` 선택   
+// -- 1. -3.0 부터 3.0 까지 0.1 간격으로 채우기 기능 실행   
+// -- 2. B2 셀에는 `=-A2^3+2*A2^2-2*A2+3` 입력   
+// -- 3. 나머지 셀들에 대해서 '드래그 & 드롭'으로 채워 넣음   
+// -- 4. (-3, 3) 범위에서 함수의 그래프 그리기   
+// --- `[삽입] 탭 - [차트] 그룹 - [분산형(X, Y) 또는 거품형 차트 삽입] - [곡선이 있는 분산형]` 선택   
 // ∴ 근사적인 해 = 1.80   
 - Draw a graph of the function in interval (-3, 3) and find an approximate solution that satisfies 'fx() = 0' in that interval   
   - `f(x) = -x³ + 2x² - 2x + 3`   
-1. Perform fill function from -3.0 to 3.0 at 0.1 intervals   
-2. Enter `=-A2^3+2*A2^2-2*A2+3` in B2 cells   
-3. Fill the remaining cells by 'drag & drop'   
-4. Draw a graph of a function in the range (-3, 3)   
-    - Select `[Insert] Tab - [Chart] Group - [Insert Distributed (X, Y) or Bubble Chart] - [Distributed with Curves]`   
+    - 1 . Perform fill function from -3.0 to 3.0 at 0.1 intervals   
+    - 2 . Enter `=-A2^3+2*A2^2-2*A2+3` in B2 cells   
+    - 3 . Fill the remaining cells by 'drag & drop'   
+    - 4 . Draw a graph of a function in the range (-3, 3)   
+      - Select `[Insert] Tab - [Chart] Group - [Insert Distributed (X, Y) or Bubble Chart] - [Distributed with Curves]`   
 ∴ an approximate solution = 1.80   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelFunctionGraph1.png)
@@ -225,16 +225,16 @@ categories: [Excel]
 - You can see that the approximate solution obtained by drawing a function graph is a value near 1.80   
    
 // 목표값 찾기 기능 이용   
-// 1. 워크시트에 구하고자 하는 함수식에 대한 근사적인 해 입력   
-// - 이 문제에서는 편의상 A2 셀에 1.80 입력   
-// 2. B2 셀에 `=-A2^3+2*A2^2-2*A2+3` 입력   
-// 3. `[데이터] 탭 - [예측] 그룹 - [가상분석] - [목표값 찾기]` 선택   
+// - 1. 워크시트에 구하고자 하는 함수식에 대한 근사적인 해 입력   
+// -- 이 문제에서는 편의상 A2 셀에 1.80 입력   
+// - 2. B2 셀에 `=-A2^3+2*A2^2-2*A2+3` 입력   
+// - 3. `[데이터] 탭 - [예측] 그룹 - [가상분석] - [목표값 찾기]` 선택   
 // ∴ 목표값 = 1.8105   
 - Use the Find Target feature   
-1. Enter an approximate solution to the function expression you want to obtain in the worksheet   
+  - 1 . Enter an approximate solution to the function expression you want to obtain in the worksheet   
     - For convenience, enter 1.80 in A2 cell   
-2. Enter `=-A2^3+2*A2^2-2*A2+3` in B2 cells   
-3. Select `[Data] Tab - [Prediction] Group - [Virtual Analysis] - [Find Target]'   
+  - 2 . Enter `=-A2^3+2*A2^2-2*A2+3` in B2 cells   
+  - 3 . Select `[Data] Tab - [Prediction] Group - [Virtual Analysis] - [Find Target]'   
 ∴ Target = 1.8105   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelFindTarget1.png)
