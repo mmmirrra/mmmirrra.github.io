@@ -394,7 +394,7 @@ public class Main {
 // - 그러나 Data＜Number＞ 와 Data＜Integer＞ 사이는 상속 관계가 없고, 아무 상관 없음   
 - There must be an inheritance relationship to have a higher/lower data type relationship   
   - Integrer or Double is the child class of Number   
-  - However, there is no inheritance relationship between Data<Number> and Data<Integer> and nothing to do with it   
+  - However, there is no inheritance relationship between Data＜Number＞ and  Data＜Integer＞ and nothing to do with it   
    
 ```java
 class Data<T> {
