@@ -60,15 +60,15 @@ categories: [Excel]
 |인터넷서비스<br />Internet service|3|B+|
 |계<br />Sum|15||
    
-// 1. 해당 과목의 성적에 대응하는 평점을 각각 입력   
-// 2. E1 셀에 '학점 * 평점' 입력, E2 셀에 함수 '=B2 * D2' 입력   
-// 3. E2 셀을 선택하고 '드래그 & 드롭'으로 E6 셀까지 채움. 이 과정을 통해서 각 과목에 대한 '학점 x 평점' 계산   
-// 4. E7 셀에 '=SUM(E2:E6)/B7' 입력하여 평점평균 계산   
-// - 평점평균 = <sup>(학점 x 평점)의 합계</sup> / <sub>학점의 합계</sub> = <sup>∑학점 x 평점</sup> / <sub>∑학점</sub>   
-1 . Enter each GPA corresponding to the grade of the subject   
-2 . Enter 'Credit * GPA' in E1 cell, and function '=B2 * D2' in E2 cell   
-3 . Select the E2 cell and fill it up to the E6 cell with 'drag & drop'. Calculate 'Credit x GPA' for each subject through this course   
-4 . Enter '=SUM(E2:E6)/B7' in E7 cell to calculate the average GPA   
+// - 1. 해당 과목의 성적에 대응하는 평점을 각각 입력   
+// - 2. E1 셀에 '학점 * 평점' 입력, E2 셀에 함수 '=B2 * D2' 입력   
+// - 3. E2 셀을 선택하고 '드래그 & 드롭'으로 E6 셀까지 채움. 이 과정을 통해서 각 과목에 대한 '학점 x 평점' 계산   
+// - 4. E7 셀에 '=SUM(E2:E6)/B7' 입력하여 평점평균 계산   
+// -- 평점평균 = <sup>(학점 x 평점)의 합계</sup> / <sub>학점의 합계</sub> = <sup>∑학점 x 평점</sup> / <sub>∑학점</sub>   
+- 1 . Enter each GPA corresponding to the grade of the subject   
+- 2 . Enter 'Credit * GPA' in E1 cell, and function '=B2 * D2' in E2 cell   
+- 3 . Select the E2 cell and fill it up to the E6 cell with 'drag & drop'. Calculate 'Credit x GPA' for each subject through this course   
+- 4 . Enter '=SUM(E2:E6)/B7' in E7 cell to calculate the average GPA   
     - an average GPA = <sup>the sum of (credit x GPA)</sup> / <sub>the sum of one's credits</sub> = <sup>∑credit x GPA</sup> / <sub>∑credit</sub>   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelSum1.png)
