@@ -204,7 +204,7 @@ interface SubInterface extends SuperInterface {
 // -- `class 자식클래스 extends 부모클래스 implements 부모인터페이스1, 부모인터페이스2 { ... }`   
 - If the child class inherits (implements) the parent interface   
   - Children must implement functions listed by their parents (abstract methods)   
-  - When defining a class by implementation, use 'implements'   
+  - When defining a class by implementation, use `implements`   
     - `class childClass extends parentClass implements parentInterface1, parentInterface2 { ... }`   
    
 ```java
