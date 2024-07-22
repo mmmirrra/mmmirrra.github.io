@@ -169,14 +169,14 @@ categories: [Excel]
 // 원금이 1,000만원인 경우 연 4.5%, 5.0%, 5.5%, 6.0% 로 주어진 경우에 향후 20년이 경과하였을 때 원리합계가 얼마나 차이가 생기는지 계산하시오   
 - If the principal amount is KRW 10 million, calculate the difference in the sum of principal and interest over the next 20 years if interest is given at 4.5%, 5.0, 5.5%, or 6.0 percent per annum   
    
-// 1. B5 셀에 `=$B$1*(1+B$2)^$A5` 을 입력하고, 채우기 기능을 이용하여 E5 까지 채움   
-// - 원금은 절대참조 이용   
-// - 연이율과 경과년수는 혼합참조 이용   
-// 2. B5:E5 까지 선택하고 '드래그 & 드롭'으로 20년이 경과한 후까지 채움   
-1 . Enter `=$B$1*(1+B$2)^$A5` in the B5 cell and fill up to E5 using the fill function   
+// - 1. B5 셀에 `=$B$1*(1+B$2)^$A5` 을 입력하고, 채우기 기능을 이용하여 E5 까지 채움   
+// -- 원금은 절대참조 이용   
+// -- 연이율과 경과년수는 혼합참조 이용   
+// - 2. B5:E5 까지 선택하고 '드래그 & 드롭'으로 20년이 경과한 후까지 채움   
+- 1 . Enter `=$B$1*(1+B$2)^$A5` in the B5 cell and fill up to E5 using the fill function   
     - Use absolute reference for principal   
     - Annual rate and number of years elapsed use mixed reference   
-2 . Choose B5:E5 and fill it up after 20 years with 'drag & drop'   
+- 2 . Choose B5:E5 and fill it up after 20 years with 'drag & drop'   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelTotalPrincipalAndInterest1.png)
    
