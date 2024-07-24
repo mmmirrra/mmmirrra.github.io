@@ -47,16 +47,16 @@ categories: [Discrete Mathematics]
 // ---  예시 : S = {1, 2, 3}   
 // -- 조건나열법   
 // --- 예시 : S = {x \| 0 ＜ x ＜ 4인 자연수}   
-// - 집합의 크기 : |S|   
-// -- 예시 : |S| = 3   
+// - 집합의 크기 : \|S\|   
+// -- 예시 : \|S\| = 3   
 - How to mark a set   
   - S in brackets ( { , } )   
     - Tabular form   
       - Example : S = {1, 2, 3}   
     - Set-builder notation   
       - Example : S = {x \| A natural number of 0 ＜ x ＜ 4}   
-  - Set Size : |S|   
-    - Example : |S| = 3   
+  - Set Size : \|S\|   
+    - Example : \|S\| = 3   
    
 #### Subset   
 // 부분집합   
