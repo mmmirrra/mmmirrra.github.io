@@ -12,10 +12,10 @@ categories: [Discrete Mathematics]
 // - 공리 (axiom)   
 // - 증명 (proof)   
 // - 정리 (theorem)   
-- definition   
-  - axiom   
-  - proof   
-  - theorem   
+- Definition   
+  - Axiom   
+  - Proof   
+  - Theorem   
    
 // 증명 방법   
 // - 직접 증명법 : 공리와 정의, 그리고 정리를 논리적으로 직접 연결하여 증명함   
@@ -24,15 +24,15 @@ categories: [Discrete Mathematics]
 // - 간접 증명법 : 증명해야 할 명제를 증명하기 쉬운 형태로 변형하여 증명하는 방법   
 // -- 대우 증명법, 모순 증명법, 반례 증명법, 존재 증명법 등   
 // - 그 외 : 전수 증명법, 조합적 증명법, 컴퓨터 이용 증명법   
-- proof method   
-  - direct proof : proving axioms, definitions, and theorems by connecting them logically and directly   
-  - proof by mathematical induction : a useful method of proof to prove the nature of a proposition for a natural number n   
+- Proof method   
+  - Direct proof : Proving axioms, definitions, and theorems by connecting them logically and directly   
+  - Proof by mathematical induction : A useful method of proof to prove the nature of a proposition for a natural number n   
     - Basic steps, inductive assumptions, and inductive steps are used   
-  - indirect proof : It is a method of proving the proposition to be proved by transforming it into a form that is easy to prove   
-    - proof by transposition, proof by contradiction, proof by counter-example, existence proof, etc.   
-  - other methods of proof : proof by exhaustion, combinatorial proof, computer-assisted proof   
+  - Indirect proof : It is a method of proving the proposition to be proved by transforming it into a form that is easy to prove   
+    - Proof by transposition, proof by contradiction, proof by counter-example, existence proof, etc.   
+  - Other methods of proof : Proof by exhaustion, combinatorial proof, computer-assisted proof   
    
-#### axiom   
+#### Axiom   
 // 공리   
    
 // 어떤 다른 명제들을 증명하기 위해 전제로 사용되는 가장 기본적인 가정으로, 별도의 증명 없이 참으로 이용되는 명제를 공리라고 함   
@@ -47,13 +47,13 @@ categories: [Discrete Mathematics]
   - Any natural number has the next number (Peano’s axioms)   
   - There is a set that does not contain anything (axiomatic set theory)   
    
-#### proof   
+#### Proof   
 // 증명   
    
 // 증명이란 특정한 공리들을 가정하고, 그 가정하에 제안된 명제가 참임을 입증하는 작업임   
 - Proof is the work of presuming specific axioms and proving that the proposed proposition is true under that assumption   
    
-#### theorem   
+#### Theorem   
 // 정리   
    
 // 공리로부터 증명된 명제를 정리라고 함   
@@ -61,17 +61,17 @@ categories: [Discrete Mathematics]
    
 // 보조정리 (lemma)   
 // - 정리를 증명하는 과정 중에 사용되는 증명된 명제   
-- lemma   
-  - a lemma is a proven proposition which is used as a stepping stone to a larger result   
+- Lemma   
+  - A lemma is a proven proposition which is used as a stepping stone to a larger result   
    
 // 따름정리 (corollary)   
 // - 정리로부터 쉽게 도출되는 부가적인 명제   
-- corollary   
-  - an additional proposition easily derived from a theorem   
-  - a corollary typically follows a theorem   
+- Corollary   
+  - An additional proposition easily derived from a theorem   
+  - A corollary typically follows a theorem   
    
 <br />
-### direct proof   
+### Direct proof   
 // 직접 증명법   
    
 // 다른 말로 연역법 (deduction) 이라고도 함   
@@ -79,7 +79,7 @@ categories: [Discrete Mathematics]
 // 명제를 변형하지 않고 증명함   
 // 주로 공리와 정의, 그리고 이미 증명된 정리를 논리적으로 직접 연결해 증명하는 형식을 따름   
 - In other words, deduction   
-  - deduction : To draw a conclusion to a new proposition on the premise of one or more propositions that have already been proven   
+  - Deduction : To draw a conclusion to a new proposition on the premise of one or more propositions that have already been proven   
 - Proving proposition without transformation   
 - It mainly follows the form of proof by logically connecting axioms with definitions and theorems that have already been proven   
    
@@ -127,7 +127,7 @@ categories: [Discrete Mathematics]
     - Since <sub>bd</sub> is integer × integer, the multiplication is also integer. b ≠ 0, d ≠ 0, so b × d ≠ 0   
       - ⇒ <sub>bd</sub> is a nonzero integer   
     - <sup>ad</sup> is an integer because it is a multiplication of an integer. <sup>bc</sup> is an integer because it is a multiplication of an integer. <sup>ad + bc</sup> is an integer because it is an addition to an integer   
-  - rational numbers can be expressed as <sup>any integer</sup> / <sub>nonzero integer</sub>   
+  - Rational numbers can be expressed as <sup>any integer</sup> / <sub>nonzero integer</sub>   
     - ⇒ <sup>ad + bc</sup> and <sub>bd</sub> are integers, and <sub>bd</sub> ≠ 0   
   - ∴ The sum of the two rational numbers is a rational number. ■   
    
@@ -154,7 +154,7 @@ categories: [Discrete Mathematics]
 // 이항정리   
 // - (x + y)<sup>n</sup> = ∑<sup>n</sup><sub>k = 0</sub> C(n, k) x<sup>n - k</sup>y<sup>k</sup>   
 // - C(n, k) 는 계수임   
-- binomial theorem   
+- Binomial theorem   
   - (x + y)<sup>n</sup> = ∑<sup>n</sup><sub>k = 0</sub> C(n, k) x<sup>n - k</sup>y<sup>k</sup>   
   - C(n, k) is a coefficient   
    
@@ -163,7 +163,7 @@ categories: [Discrete Mathematics]
 // - C 는 조합 Combination 의 약자임. 순서에 상관 없음. 전체 n 개 중 k 개를 꺼내는 것   
 // - ! 는 자연수의 계승, 팩토리얼 factorial 임. 팩토리얼은 그 수보다 작거나 같은 모든 양의 정수의 곱임   
 // - 위의 파스칼 삼각형 중 (1 5 10 10 5 1) 행의 첫번째 10에 대한 이항계수는 C(5, 2) = C(4, 2) + C(4, 1)   
-- binomial coefficient   
+- Binomial coefficient   
   - C(n, k) ≡ <sub>n</sub>C<sub>k</sub> ≡ (<sup>n</sup><sub>k</sub>) = <sup>n!</sup> / <sub>k!(n - k)!</sub>   
   - C stands for combination. It doesn't matter the order. Taking out k out of all n   
   - ! is the factual of natural numbers. Factorial is a multiplication of all positive integers less than or equal to that number   
@@ -185,7 +185,7 @@ categories: [Discrete Mathematics]
   - ∴ C(n + 1, k). ■   
       
 <br />
-### proof by mathematical induction   
+### Proof by mathematical induction   
 // 수학적 귀납법   
    
 // 모든 자연수 n에 대해 명제를 증명하는 데 유용   
@@ -199,13 +199,13 @@ categories: [Discrete Mathematics]
 // - n = k 일 때 명제가 성립한다고 가정   
 // 3. 귀납단계 (inductive step)   
 // - n = k + 1 일 때도 명제가 성립함을 증명   
-- a three-step process   
-  1. basis   
+- A three-step process   
+  1. Basis   
       - Check whether the proposition is established at the starting point of n   
         - Sometimes n is 0   
-  2. inductive assumption   
+  2. Inductive assumption   
       - Assume that the proposition is established when n = k   
-  3. inductive step   
+  3. Inductive step   
       - Prove that the proposition holds even when n = k + 1   
    
 #### Example 1   
@@ -230,12 +230,12 @@ categories: [Discrete Mathematics]
 // -- ⇒ <sup>(k + 1)((k + 1) + 1)</sup> / <sub>2</sub>   
 // - ∴ 수학적 귀납법에 의해 주어진 명제는 참. ■   
 - [Solving] Let S(n) be 1 + 2 + ... + n = <sup>n(n + 1)</sup> / <sub>2</sub>   
-  1. basis   
+  1. Basis   
       - S(1) is established because 1 = <sup>1(1 + 1)</sup> / <sub>2</sub>   
-  2. inductive assumption   
+  2. Inductive assumption   
       - Assume that S(k) is true   
         - 1 + 2 + ... + k = <sup>k(k + 1)</sup> / <sub>2</sub>   
-  3. inductive step   
+  3. Inductive step   
       - S(k + 1) : 1 + 2 + ... + k + (k + 1) = <sup>(k + 1)((k + 1) + 1)</sup> / <sub>2</sub>   
         - ⇒ <sup>k(k + 1)</sup> / <sub>2</sub> + (k + 1)   
         - ⇒ <sup>k(k + 1) + 2(k + 1)</sup> / <sub>2</sub>   
@@ -244,7 +244,7 @@ categories: [Discrete Mathematics]
 - ∴ Based on proof by mathematical induction, the proposition given is true. ■   
    
 <br />
-### indirect proof   
+### Indirect proof   
 // 간접 증명법   
    
 // 증명해야 할 명제를 증명하기 쉬운 형태로 변형하여 증명하는 방법   
@@ -253,12 +253,12 @@ categories: [Discrete Mathematics]
 // - 반례 증명법   
 // - 존재 증명법   
 - How to prove a proposition by transforming it into a form that is easy to prove   
-  - proof by transposition   
-  - proof by contradiction   
-  - proof by counter-example   
-  - existence proof   
+  - Proof by transposition   
+  - Proof by contradiction   
+  - Proof by counter-example   
+  - Existence proof   
    
-#### proof by transposition   
+#### Proof by transposition   
 // 대우 증명법   
    
 - P → Q ⇔ ~Q → ~P   
@@ -278,7 +278,7 @@ categories: [Discrete Mathematics]
     - ⇒ 2k² is also an integer, so x² is even   
     - ∴ The proposition given by the Daewoo Proof Law is true. ■   
    
-#### proof by contradiction   
+#### Proof by contradiction   
 // 모순 증명법   
    
 // P → Q 를 증명할 때 ~P를 가정하면 모순이 발생함을 보임   
@@ -288,8 +288,8 @@ categories: [Discrete Mathematics]
 // - 귀류법 (歸謬法) : 오류로 귀착된다는 것을 보임   
 // - 배리법 (背理法) : 이치에 어긋나게 된다는 것을 보임   
 - Another name for the proof by contradiction   
-  - proof by contradiction : showing that it results in error   
-  - indirect proof : showing that it goes against the grain of reason   
+  - Proof by contradiction : Showing that it results in error   
+  - Indirect proof : Showing that it goes against the grain of reason   
    
 // 예시   
 // - √2가 유리수가 아님을 증명하시오   
@@ -320,7 +320,7 @@ categories: [Discrete Mathematics]
     - a is even and b is even, so that are disjoint from each other ⇒ a contradiction   
     - ∴ √2 is not a rational number. ■   
    
-#### proof by counter-example   
+#### Proof by counter-example   
 // 반례 증명법   
    
 // 한정자 (quantifer) 가 포함된 명제의 증명   
@@ -341,7 +341,7 @@ categories: [Discrete Mathematics]
     - ⇒ It satisfies a² = b², but it is a ≠ b   
     - ∴ false. ■   
    
-#### existence proof   
+#### Existence proof   
 // 존재 증명법   
    
 // 한정자 (quantifer) 가 포함된 명제의 증명   
@@ -350,10 +350,10 @@ categories: [Discrete Mathematics]
 // -- 비구성적 존재 증명법   
 - Proof of propositions containing quantifier   
   - Proof that the proposition used by the existential quantifier (∃) is true → existence proof   
-    - constructive proof of existence   
-    - nonconstructive proof of existence   
+    - Constructive proof of existence   
+    - Nonconstructive proof of existence   
    
-#### constructive proof of existence   
+#### Constructive proof of existence   
 // 구성적 존재 증명법   
    
 // 명제함수 ∃xP(x) 를 증명할 때 P(x) 를 참으로 만드는 x를 찾거나 찾는 과정을 제시함   
@@ -370,7 +370,7 @@ categories: [Discrete Mathematics]
     - ⇒ a<sup>b</sup> = 2<sup><sup>1</sup> / <sub>2</sub></sup> = √2 (irrational numbers)   
     - ∴ true. ■   
    
-#### nonconstructive proof of existence   
+#### Nonconstructive proof of existence   
 // 비구성적 존재 증명법   
    
 // 명제함수 ∃xP(x) 를 증명할 때 P(x) 를 참으로 만드는 x를 찾지 않고 우회적으로 명제가 타당함을 보이는 방법   
@@ -398,10 +398,10 @@ categories: [Discrete Mathematics]
   - ∴ The proposition is true. ■   
    
 <br />
-### a variety of proof methods   
+### A variety of proof methods   
 // 다양한 증명 방법   
    
-#### proof by exhaustion   
+#### Proof by exhaustion   
 // 전수 증명법   
    
 // 명제에서 유도될 수 있는 경우의 수가 적을 때 일일이 모든 경우의 수를 조사하는 방법   
@@ -426,7 +426,7 @@ categories: [Discrete Mathematics]
     - When n = 5 ⇒ (5 + 1)<sup>2</sup> ≥ 2<sup>5</sup>   
     - ∴ When n is a natural number of 5 or less (n + 1)<sup>2</sup> ≥ 2<sup>n</sup> is established. ■   
    
-#### combinatorial proof   
+#### Combinatorial proof   
 // 조합적 증명법   
    
 // 두 집합의 원소의 개수가 동일함을 증명할 때 사용됨   
@@ -436,12 +436,12 @@ categories: [Discrete Mathematics]
 // - 원소가 n개인 집합 A와 원소가 m개인 집합 B를 찾은 후, 두 집합이 일대일 관계를 보여 n = m 임을 증명함   
 // 2. 중복산정   
 // - 동일한 집합의 원소를 두 가지 서로 다른 방법으로 센 다음, 그 결과가 각각 n과 m이라면 n = m 임을 증명함   
-1. bijective proof   
+1. Bijective proof   
     - After finding the set A with n elements and the set B with m elements, the two sets show a one-to-one relationship, proving that n = m   
-2. double counting proof   
+2. Double counting proof   
     - Count the same set of elements in two different ways, and prove that if the result is n and m, respectively, then n = m   
    
-#### computer-assisted proof   
+#### Computer-assisted proof   
 // 컴퓨터를 이용한 증명 방법   
    
 // 증명하기가 복잡한 경우 컴퓨터의 데이터 처리능력을 이용하여 증명함   

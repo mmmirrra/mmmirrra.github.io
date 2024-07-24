@@ -5,20 +5,20 @@ date:   2024-03-12 09:00:00 +0900
 categories: [Discrete Mathematics]
 ---
 
-### logic
+### Logic
 // 논리   
 
 // 명제논리   
 // - 명제   
 // 술어논리   
 // - 명제함수   
-- proposition logic   
-  - proposition   
-- predicate logic   
-  - propositional function   
+- Proposition logic   
+  - Proposition   
+- Predicate logic   
+  - Propositional function   
    
 <br />
-### proposition   
+### Proposition   
 // 명제   
    
 // 참과 거짓을 구별할 수 있는 문장이나 수학적 식을 명제라고 함   
@@ -27,7 +27,7 @@ categories: [Discrete Mathematics]
 // 명제의 진리값   
 // - 참, True, T : 명제가 타당한 경우   
 // - 거짓, False, F : 명제가 타당하지 않은 경우   
-- truth value   
+- Truth value   
   - True, T : If the proposition is valid   
   - False, F : If the proposition is not valid   
    
@@ -76,73 +76,73 @@ categories: [Discrete Mathematics]
 // 합성명제   
 // 조건명제 (→), 쌍조건명제 (↔)   
 // 항진명제, 모순명제   
-- compound proposition   
-- conditional proposition (→), conditional proposition (↔)   
-- tautology proposition, contradiction proposition   
+- Compound proposition   
+- Conditional proposition (→), Conditional proposition (↔)   
+- Tautology proposition, Contradiction proposition   
    
 <br />
-### logical operation   
+### Logical Operation   
 // 논리 연산   
    
-#### logical operator   
+#### Logical Operator   
 // 논리 연산자   
    
 // 실수집합   
 // - 0.5, √2, x, y, ...   
 // - 0.5, √2 --> 상수. 실수상수   
 // - x, y --> 변수. 실수변수   
-- real number set   
+- Real number set   
   - 0.5, √2, x, y, ...   
-  - 0.5, √2 --> constant. real number constant   
-  - x, y --> variable. real number variable   
+  - 0.5, √2 --> Constant. Real number constant   
+  - x, y --> Variable. Real number variable   
    
 // 실수연산자   
 // - +, -, ×, ÷   
-- real number operator   
+- Real number operator   
   - +, -, ×, ÷   
    
 // 수식 (실수 연산식)   
 // - 실수연산을 실수집합에 적용하면 성질이 나옴   
 // - 실수집합에서 실수상수와 실수변수들을 실수연산들로 묶어놓으면 수식 (실수 연산식) 이 됨   
 // - 예시 : √2x + y   
-- numeric expression (real number operation expression)   
+- Numeric expression (Real number operation expression)   
   - Applying real number operations to real number sets results in properties   
-  - In a real number set, real number constants and real number variables are grouped into real number operations, resulting in a numeric expression (real number operation expression)   
+  - In a real number set, real number constants and real number variables are grouped into real number operations, resulting in a numeric expression (Real number operation expression)   
   - Example : √2x + y   
    
 // 논리집합   
 // - T, F, p, q, ...   
 // - T, F --> 상수. 논리상수   
 // - p, q --> 변수. 논리변수. 명제   
-- logical set   
+- Logical set   
   - T, F, p, q, ...   
-  - T, F --> constant. logical constant   
-  - p, q --> variable. logical variable. proposition   
+  - T, F --> Constant. Logical constant   
+  - p, q --> Variable. Logical variable. Proposition   
    
 // 논리연산, 논리연산자   
 // - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁). <u>X</u>), ⊕ (xor), ⊙ (xnor)   
 // - or, and, not, xor --> 논리연산   
 // - ∨, ∧, ~ (﹁), ⊕, ⊙ --> 논리연산자   
-- logical operation, logical operator   
+- Logical Operation, Logical Operator   
   - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁). <u>X</u>), ⊕ (xor), ⊙ (xnor)   
-  - or, and, not, xor --> logical operation   
-  - ∨, ∧, ~ (﹁), ⊕, ⊙ --> logical operator   
+  - or, and, not, xor --> Logical Operation   
+  - ∨, ∧, ~ (﹁), ⊕, ⊙ --> Logical Operator   
    
 // 합성명제 (논리 연산식)   
 // - 논리연산을 논리집합에 적용하면 성질이 나옴   
 // - 논리집합에서 논리상수와 논리변수들을 논리연산들로 묶어놓으면 합성명제 (논리 연산식) 이 됨   
 // - 예시 : p ∨ q   
-- compound proposition (logical operation expression)   
+- Compound Proposition (Logical Operation Expression)   
   - Applying logical operations to logical sets results in properties   
-  - In a logical set, when logical numbers and logical variables are grouped into logical operations, it becomes a compound proposition (logical operation expression)   
+  - In a logical set, when logical numbers and logical variables are grouped into logical operations, it becomes a compound proposition (Logical Operation Expression)   
   - Example : p ∨ q   
    
-#### disjunction (logical operation or, logical operator ∨)   
+#### Disjunction (Logical Operation or, Logical Operator ∨)   
 // 논리합 (논리연산 or, 논리연산자 ∨)   
    
 - p ∨ q   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|q|p ∨ q|
@@ -171,12 +171,12 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; r : Socrates is alive --> ∴ F   
       &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ q ∨ r --> ∴ F   
    
-#### conjunction (logical operation and, logical operator ∧)   
+#### Conjunction (Logical Operation and, Logical Operator ∧)   
 // 논리곱 (논리연산 and, 논리연산자 ∧)   
    
 - p ∧ q   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|q|p ∧ q|
@@ -205,12 +205,12 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; r : A monitor is a memory device --> ∴ F   
       &nbsp;&nbsp;&nbsp;&nbsp; --> p ∧ q ∧ r --> ∴ F   
    
-#### negation (logical operation not, logical operator ~ (﹁))   
+#### Negation (Logical Operation Not, Logical Operator ~ (﹁))   
 // 부정 (논리연산 not, 논리연산자 ~ (﹁))   
    
 - ~p   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|~p|
@@ -218,7 +218,7 @@ truth table
 |T|F|
 |F|T|
    
-#### exclusive or (logical operation xor, logical operator ⊕)   
+#### Exclusive or (Logical Operation XOR, Logical operator ⊕)   
 // 배타적 논리합 (논리연산 xor, 논리연산자 ⊕)   
    
 - p ⊕ q ≡ (p ∧ ~q) ∨ (~p ∧ q)   
@@ -226,9 +226,9 @@ truth table
 // p와 q의 진리값이 서로 다르면 T, 같으면 F   
 // 'or' 진리표에서 T, T 의 진리값을 F로 바꾼 것   
 - If the truth values of p and q are different, it is T, and if it is the same, it is F   
-- the change of the truth values of T and T to F in the truth table of 'or'   
+- The change of the truth values of T and T to F in the truth table of 'or'   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|q|p ∧ ~q|~p ∧ q|(p ∧ ~q) ∨ (~p ∧ q)|p ⊕ q|
@@ -258,14 +258,14 @@ truth table
 |F|F|
    
 <br />
-### compound proposition   
+### Compound Proposition   
 // 합성명제   
    
 // 하나 이상의 명제와 논리연산자 (∨, ∧, ~(﹁), ⊕, ⊙) 그리고 괄호로 이루어진 명제   
-- a proposition consisting of one or more propositions and logical operators (∨, ∧, ~(﹁), ⊕, ⊙) and parentheses   
+- A proposition consisting of one or more propositions and logical operators (∨, ∧, ~(﹁), ⊕, ⊙) and parentheses   
    
 <br />
-### conditional proposition (→)   
+### Conditional Proposition (→)   
 // 조건명제 (→)   
    
 // 명제 p와 q가 있을 때, 명제 p가 조건의 역할을 수행하고 명제 q가 결론의 역할을 수행하는 경우   
@@ -278,7 +278,7 @@ truth table
   - p is a sufficient condition of q   
   - q is the necessity condition of p   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|q|p → q|
@@ -318,15 +318,15 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ F   
     ③ If the capital of France is London, the capital of Italy is Rome.   
       &nbsp;&nbsp;&nbsp;&nbsp; If the capital of France is London --> ∴ F   
-      &nbsp;&nbsp;&nbsp;&nbsp; the capital of Italy is Rome --> ∴ T   
+      &nbsp;&nbsp;&nbsp;&nbsp; The capital of Italy is Rome --> ∴ T   
       &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ T   
     ④ If the capital of France is London, the capital of Korea is Colombo.   
       &nbsp;&nbsp;&nbsp;&nbsp; If the capital of France is London --> ∴ F   
-      &nbsp;&nbsp;&nbsp;&nbsp; the capital of Korea is Colombo --> ∴ F   
+      &nbsp;&nbsp;&nbsp;&nbsp; The capital of Korea is Colombo --> ∴ F   
       &nbsp;&nbsp;&nbsp;&nbsp; --> p → q --> ∴ T   
    
 <br />
-### conditional proposition (↔)   
+### Conditional Proposition (↔)   
 // 쌍조건명제 (↔)   
    
 // 명제 p와 q가 있을 때, 명제 p와 q가 조건의 역할과 결론의 역할을 동시에 수행하는 경우   
@@ -335,7 +335,7 @@ truth table
 - p ↔ q (p ⇔ q)   
   - (p → q) ∧ (q → p)   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|q|p → q|q → p|p ↔ q|
@@ -347,7 +347,7 @@ truth table
    
 - p ↔ q ≡ ~(p ⊕ q)   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p ↔ q|(p ⊕ q)|~(p ⊕ q)|
@@ -371,7 +371,7 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T ↔ T   
    
 <br />
-### logical equivalence (≡)   
+### Logical Equivalence (≡)   
 // 논리적 동치 (≡)   
    
 // 두 명제 p와 q가 논리적으로 동등하면 논리적 동치라고 하고, p ≡ q로 표시함   
@@ -381,17 +381,17 @@ truth table
    
 - p ≡ q (== p ↔ q, p ⇔ q)   
    
-#### converse, inverse, contraposition   
+#### Converse, Inverse, Contraposition   
 // 역, 이, 대우   
    
 // 조건명제 p → q   
 // - 역 : q → p   
 // - 이 : ~p → ~q   
 // - 대우 : ~q → ~p   
-- conditional proposition p → q   
-  - converse : q → p   
-  - inverse : ~p → ~q   
-  - contraposition : ~q → ~p   
+- Conditional Proposition p → q   
+  - Converse : q → p   
+  - Inverse : ~p → ~q   
+  - Contraposition : ~q → ~p   
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/DiscreteMathematicsEquivalence.png)
    
@@ -407,9 +407,9 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ (q ∧ r) ⇔ (p ∨ q) ∧ (q ∧ r)   
     ② (p ∨ q) ∧ (p ∨ r)   
       &nbsp;&nbsp;&nbsp;&nbsp; Proof is possible by drawing up a truth table   
-      &nbsp;&nbsp;&nbsp;&nbsp; (※ distributive law)   
+      &nbsp;&nbsp;&nbsp;&nbsp; (※ Distributive law)   
    
-truth table   
+Truth Table   
 // 진리표   
    
 |p|q|r|q ∧ r|p ∨ (q ∧ r)|p ∨ q|p ∨ r|(p ∨ q) ∧ (p ∨ r)|
@@ -423,27 +423,27 @@ truth table
 |F|F|T|F|F|F|T|F|
 |F|F|F|F|F|F|F|F|
    
-#### the law of logical equivalence   
+#### The law of Logical Equivalence   
 // 논리적 동치법칙   
    
 // 교환법칙   
-1 . commutative law   
+1 . Commutative law   
 - p ∨ q ≡ q ∨ p   
 - p ∧ q ≡ q ∧ p   
 - p ↔ q ≡ q ↔ p   
    
 // 결합법칙   
-2 . associative law   
+2 . Associative law   
 - (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)   
 - (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   
    
 // 분배법칙   
-3 . distributive law   
+3 . Distributive law   
 - p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)   
 - p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)   
    
 // 항등법칙   
-4 . identity law   
+4 . Identity law   
 - p ∨ F ≡ p   
 - p ∧ T ≡ p   
    
@@ -453,33 +453,33 @@ truth table
 |F|F|
    
 // 지배법칙   
-5 . domination law   
+5 . Domination law   
 - p ∨ T ≡ T   
 - p ∧ F ≡ F   
    
 // 부정법칙   
-6 . negation law   
+6 . Negation law   
 - ~T ≡ F   
 - ~F ≡ T   
 - p ∨ (~p) ≡ T   
 - p ∧ (~p) ≡ F   
    
 // 이중 부정 법칙   
-7 . double negation law   
+7 . Double negation law   
 - ~(~p) ≡ p   
    
 // 멱등법칙 : 몇번을 연산하든 p의 값이 진리값임   
-8 . idempotent law : No matter how many operations are repeated, the value of p is the truth value   
+8 . Idempotent law : No matter how many operations are repeated, the value of p is the truth value   
 - p ∨ p ≡ p   
 - p ∧ p ≡ p   
    
 // 드 모르간 법칙   
-9 . de Morgan's law   
+9 . De Morgan's law   
 - ~(p ∨ q) ≡ (~p) ∧ (~q) ⇔ (A∪B) ⷭ = A ⷭ∩B ⷭ   
 - ~(p ∧ q) ≡ (~p) ∨ (~q) ⇔ (A∩B) ⷭ = A ⷭ∪B ⷭ   
    
 // 흡수법칙   
-10 . absorption law   
+10 . Absorption law   
 - p ∨ (p ∧ q) ≡ p   
 - p ∧ (p ∨ q) ≡ p   
    
@@ -498,7 +498,7 @@ truth table
 |F|F|F|F|
    
 // 함축법칙   
-11 . implication law   
+11 . Implication law   
 - p → q ≡ ~p ∨ q   
    
 |p|q|p → q|~p|~p ∨ q|
@@ -509,7 +509,7 @@ truth table
 |F|F|T|T|T|
    
 // 대우법칙   
-12 . contraposition law   
+12 . Contraposition law   
 - p → q ≡ ~q → ~p   
    
 |p|q|p → q|~q|~p|~q → ~p|
@@ -537,7 +537,7 @@ truth table
       &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ (x ≤ -2) ∨ (x ≥ 3)   
    
 <br />
-### tautology proposition, contradiction proposition   
+### Tautology Proposition, Contradiction Proposition   
 // 항진명제, 모순명제   
    
 // 합성명제를 구성하는 명제의 진리값과 상관없이   
@@ -552,24 +552,24 @@ truth table
       - p ∧ F   
    
 <br />
-### predicate logic   
+### Predicate Logic   
 // 술어논리   
    
-#### predicate logic and propositional function   
+#### Predicate Logic and Propositional Function   
 // 술어논리와 명제함수   
    
-#### propositional function   
+#### Propositional Function   
 // 명제함수   
    
 // 변수의 값에 의해 함수의 진리값이 결정되는 문장이나 식   
-- a sentence or expression in which the truth value of a function is determined by the value of a variable   
+- A sentence or expression in which the truth value of a function is determined by the value of a variable   
    
 // 변수의 명세   
 // - 변수의 값을 적시   
 // - 변수의 범위를 제시 (한정화 : ∀, ∃)   
-- specification of variables   
+- Specification of variables   
   - Specify the value of the variable   
-  - Present the range of variables (quantification : ∀, ∃)   
+  - Present the range of variables (Quantification : ∀, ∃)   
    
 // 예시   
 // 1. 명제함수 p(x, y) 가 x² + y² = 4 일 때 p(1, 2) 의 진리값은?   
@@ -579,10 +579,10 @@ truth table
     &nbsp;&nbsp;&nbsp;&nbsp; --> 1² + 2² = 5 --> != 4 --> ∴ F   
    
 <br />
-### quantification   
+### Quantification   
 // 한정화   
    
-#### universal quantifier (∀)   
+#### Universal Quantifier (∀)   
 // 전체한정자 (∀. 임의의)   
    
 // 전체한정자는 "모든" 또는 "임의의"를 의미하며, 명제함수 ∀xP(x) 와 같이 사용되었을 경우에는 정의역의 모든 [임의의] x에 대해서 P(x) 가 참 (T) 임을 의미함   
@@ -608,7 +608,7 @@ truth table
     &nbsp;&nbsp;&nbsp;&nbsp; --> If -2 ≤ x ≤ 1, then x² + x -2 ≤ 0   
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∀xP(x) = F   
    
-#### existential quantifier (∃)   
+#### Existential Quantifier (∃)   
 // 존재한정자 (∃. 존재한다)   
    
 // 존재한정자는 "존재한다"를 의미하며, 명제함수 ∃xP(x) 와 같이 사용되었을 때는 정의역의 어떤 x에 대해서 P(x) 가 참 (T) 임을 의미함   
@@ -627,16 +627,16 @@ truth table
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ ∃xP(x) = F   
    
 <br />
-### a feasibility test   
+### A feasibility test   
 // 타당성 검사   
    
-#### the validity of a propositional function   
+#### The validity of a propositional function   
 // 명제함수의 타당성   
    
 // 벤 다이어그램   
 // - 한정자가 사용된 명제함수의 타당성을 직관적으로 검사함   
-- Venn diagram   
-  - Venn diagram intuitively check the validity of the propositional functions used by the quantifier   
+- Venn Diagram   
+  - Venn Diagram intuitively check the validity of the propositional functions used by the quantifier   
    
 // 예시   
 // 1. 모든 평행사변형은 사각형이다.   
@@ -656,7 +656,7 @@ truth table
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
    
 <br />
-### inference   
+### Inference   
 // 추론   
    
 // 참으로 알려진 명제를 기초로 하여 다른 명제를 유도해 내는 과정을 추론이라고 함   
@@ -666,7 +666,7 @@ truth table
   - Known propositions that provide the basis for conclusions are referred to as premises   
   - The newly derived proposition is a conclusion   
    
-#### valid inference  
+#### Valid Inference  
 // 유효추론   
    
 // 전제가 참 (T) 이라고 가정하였을 때 결론이 항상 참 (T) 이 되는 추론   
@@ -675,22 +675,22 @@ truth table
 - Example   
   1. ((p → q) ∧ (q → r)) → (p → r)   
     &nbsp;&nbsp;&nbsp;&nbsp; --> ∴ T   
-    &nbsp;&nbsp;&nbsp;&nbsp; --> syllogism   
+    &nbsp;&nbsp;&nbsp;&nbsp; --> Syllogism   
    
-#### rule of inference   
+#### Rule of Inference   
 // 추론규칙   
    
 // 기본적인 추론규칙은 논리적 동치 (항진명제) 를 이용함   
 - The basic rules of inference use logical equivalence (tautology proposition)   
    
-|// 법칙이름<br />rule name|// 추론법칙<br />rule of inference|// 항진명제<br />tautology proposition|
+|// 법칙이름<br />Rule name|// 추론법칙<br />Rule of inference|// 항진명제<br />Tautology proposition|
 |:---|:---|:---|
-|// 선언적 부가<br />disjunctive addition|p<br />--> ∴ p ∨ q|p → (p ∨ q)<br />※ If p is true, p ∨ q is true|
-|// 단순화<br />simplication|p ∧ q<br />--> ∴ p|(p ∧ q) → p<br />※ If p ∧ q is true, p is true|
-|// 긍정논법<br />modus ponens|p<br />p → q<br />--> ∴ q|(p ∧ (p → q)) → q<br />※ If p and p → q is true, q is true|
-|// 부정논법<br />modus tollens|~q<br />p → q<br />--> ∴ ~p|(~q ∧ (p → q)) → ~p<br />※ If ~q and p → q is true, ~p is true|
-|// 선언적 삼단논법 또는 소거<br />disjunctive syllogism|p ∨ q<br />~p<br />--> ∴ q|((p ∨ q) ∧ ~p) → q<br />※ If p ∨ q and ~p is true, q is true|
-|// 가설적 삼단논법 또는 추이<br />hypothetical syllogism|p → q<br />q → r<br />--> ∴ p → r<br />--> ∴ q|((p → q) ∧ (q → r)) → (p → r)<br />※ If p → q and q → r is true, p → r is true|
+|// 선언적 부가<br />Disjunctive addition|p<br />--> ∴ p ∨ q|p → (p ∨ q)<br />※ If p is true, p ∨ q is true|
+|// 단순화<br />Simplication|p ∧ q<br />--> ∴ p|(p ∧ q) → p<br />※ If p ∧ q is true, p is true|
+|// 긍정논법<br />Modus ponens|p<br />p → q<br />--> ∴ q|(p ∧ (p → q)) → q<br />※ If p and p → q is true, q is true|
+|// 부정논법<br />Modus tollens|~q<br />p → q<br />--> ∴ ~p|(~q ∧ (p → q)) → ~p<br />※ If ~q and p → q is true, ~p is true|
+|// 선언적 삼단논법 또는 소거<br />Disjunctive syllogism|p ∨ q<br />~p<br />--> ∴ q|((p ∨ q) ∧ ~p) → q<br />※ If p ∨ q and ~p is true, q is true|
+|// 가설적 삼단논법 또는 추이<br />Hypothetical syllogism|p → q<br />q → r<br />--> ∴ p → r<br />--> ∴ q|((p → q) ∧ (q → r)) → (p → r)<br />※ If p → q and q → r is true, p → r is true|
    
 // 예시   
 // 1. 다음 추론이 유효한 추론인지 진리표를 이용하여 보이시오.   
@@ -703,7 +703,7 @@ truth table
     &nbsp;&nbsp;&nbsp;&nbsp; q --> T   
     &nbsp;&nbsp;&nbsp;&nbsp; ∴ p ? --> T, F --> F   
    
-|// 결론<br />conclusion|// 전제<br />premise|// 전제<br />premise|
+|// 결론<br />Conclusion|// 전제<br />Premise|// 전제<br />Premise|
 |:---:|:---:|:---:|
 |p|q|p → q|
 |T|T|T|

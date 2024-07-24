@@ -93,7 +93,7 @@ You have to train yourself to build a knowledge system
 // 방법론 : 누가, 언제 어디서, 왜, 어떠한 도구와 기법을 사용해야 하는가에 관한 내용   
 Methodology : who, when, where, why, what tools and techniques should be used   
    
-|tools of mathematics|techniques of mathematics|methodologies of mathematics|
+|Tools of mathematics|Techniques of mathematics|Methodologies of mathematics|
 |:---|:---|:---|
 |// 정의, 정리<br />- Definition, Theorem|// 가우스 소거법 (일차연립 방정식)<br />Gaussian elimination method (first-order serial equation)<br />// 근의 공식 (2차, 3차 방정식)<br />Quadratic formula (quadratic and cubic equations)<br />// 등<br />etc.|// 상황에 따라 가장 효과적이고 효율적인 도구와 기법을 선택하는 것<br />Choosing the most effective and efficient tools and techniques depending on the situation|
    
