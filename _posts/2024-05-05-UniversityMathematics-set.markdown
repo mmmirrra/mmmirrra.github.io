@@ -105,7 +105,7 @@ categories: [University Mathematics]
    
 // A, B, C의 합집합은 A ∪ B ∪ C 로 쓰고, 다음과 같이 정의   
 // - A ∪ B ∪ C = {x \| x ∈ A 또는 x ∈ B 또는 x ∈ C}   
-- The combination of A, B, C is written as A ∪ B ∪ C and defined as   
+- The union set of A, B, C is written as A ∪ B ∪ C and defined as   
   - A ∪ B ∪ C = {x \| x ∈ A or x ∈ B or x ∈ C}   
    
 #### Intersection set   
@@ -140,13 +140,13 @@ categories: [University Mathematics]
 - The intersection of A, B, C is indicated by A ∩ B ∩ C and is defined as   
   - A ∩ B ∩ C = {x \| x ∈ A and x ∈ B and x ∈ C}   
    
-#### Complement   
+#### Complement set   
 // 여집합   
    
 // 여집합 A<sup>c</sup>   
 // 전체집합 U에 속하지만 A에는 속하지 않는 모든 원소의 집합   
 // - A<sup>c</sup> = {x ∈ U \| x ∉ A}   
-- Complement A<sup>c</sup>   
+- Complement set A<sup>c</sup>   
 - The set of all elements that belong to the entire set U but not to A   
   - A<sup>c</sup> = {x ∈ U \| x ∉ A}   
    
@@ -157,7 +157,7 @@ categories: [University Mathematics]
 // 4. A<sup>c</sup> = ∅ ⇔ A = U   
 // 5. A<sup>c</sup> = U ⇔ A = ∅   
 // 6. (A<sup>c</sup>)<sup>c</sup> = A   
-- Basic properties of complement   
+- Basic properties of complement set   
     1. A ∪ A<sup>c</sup> = U   
     2. A ∩ A<sup>c</sup> = ∅   
     3. If A<sup>c</sup> = B<sup>c</sup> then A = B   

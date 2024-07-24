@@ -194,9 +194,9 @@ If A1 is "Computer", A2 is "Science", then → "ComputerScience"
 // - 예시 : `=SUM(A1:A6 A5:A10)` : 중복되는 값들만 합함   
 - `:` (scope)   
   - Example : `=SUM(A1:A10)`   
-- `,` (union)   
+- `,` (union set)   
   - Example : `=SUM(A1:A3, B1:B5)` : Sum all values   
-- `space` (intersection)   
+- `space` (intersection set)   
   - Example : `=SUM(A1:A6 A5:A10)` : Sum of duplicate values only   
    
 #### Formality of a common function   
