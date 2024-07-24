@@ -148,7 +148,7 @@ categories: [Discrete Mathematics]
    
 // 멱집합의 원소의 개수   
 - Number of elements in a power set   
-  - |S| = n → |P(S)| = 2<sup>n</sup>   
+  - \|S\| = n → \|P(S)\| = 2<sup>n</sup>   
    
 <br />
 ### Set Operator   
@@ -231,53 +231,53 @@ categories: [Discrete Mathematics]
 // 합집합의 크기   
 // - 정리   
 // -- 집합 A, B가 유한집합이면 다음이 성립한다   
-// --- |A ∪ B| = |A| + |B| - |A ∩ B|   
+// --- \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\|   
 // - 증명   
 // -- → A ∪ B = A ∪ (B - A) 이고, A와 B - A는 서로소이므로   
-// -- → ① |A ∪ B| = |A| + |B - A|   
+// -- → ① \|A ∪ B\| = \|A\| + \|B - A\|   
 // -- → B = (B - A) ∪ (A ∩ B) 이고, B - A와 A ∩ B는 서로소이므로   
-// -- → |B| = |B - A| + |A ∩ B|   
-// -- → ② |B - A| = |B| - |A ∩ B|   
+// -- → \|B\| = \|B - A\| + \|A ∩ B\|   
+// -- → ② \|B - A\| = \|B\| - \|A ∩ B\|   
 // -- → ②번 식을 ①번 식에 대입하면   
-// -- → |A ∪ B| = |A| + |B| - |A ∩ B| 이므로 증명되었다   
+// -- → \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\| 이므로 증명되었다   
 - Size of the union set   
   - Theorem   
     - If the sets A and B are finite set, then the following holds true   
-      - |A ∪ B| = |A| + |B| - |A ∩ B|   
+      - \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\|   
   - Proof   
     - → A ∪ B = A ∪ (B - A), and A and B - A are disjoint   
-    - → ① |A ∪ B| = |A| + |B - A|   
+    - → ① \|A ∪ B\| = \|A\| + \|B - A\|   
     - → B = (B - A) ∪ (A ∩ B), and B - A and A ∩ B are disjoint   
-    - → |B| = |B - A| + |A ∩ B|   
-    - → ② |B - A| = |B| - |A ∩ B|   
+    - → \|B\| = \|B - A\| + \|A ∩ B\|   
+    - → ② \|B - A\| = \|B\| - \|A ∩ B\|   
     - → If substitute equation ② into equation ①   
-    - → |A ∪ B| = |A| + |B| - |A ∩ B|, so it's proof   
+    - → \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\|, so it's proof   
    
 // 따름정리   
 // - 정리   
 // -- 집합 A, B, C 가 유한집합이면   
-// --- |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|   
+// --- \|A ∪ B ∪ C\| = \|A\| + \|B\| + \|C\| - \|A ∩ B\| - \|A ∩ C\| - \|B ∩ C\| + \|A ∩ B ∩ C\|   
 - Corollary   
   - Theorem   
     - If the sets A, B and C are finite set   
-      - |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|   
+      - \|A ∪ B ∪ C\| = \|A\| + \|B\| + \|C\| - \|A ∩ B\| - \|A ∩ C\| - \|B ∩ C\| + \|A ∩ B ∩ C\|   
    
 // 서로소인 집합의 합집합의 크기   
 // - 정리   
 // -- 집합 A, B가 유한집합이면서 서로소이면   
-// --- |A ∪ B| = |A| + |B| 이다   
+// --- \|A ∪ B\| = \|A\| + \|B\| 이다   
 // - 증명   
-// -- 합집합의 크기 정리 : |A ∪ B| = |A| + |B| - |A ∩ B|   
-// -- 그런데 A와 B는 서로소이므로 |A ∩ B| = 0 이다   
-// -- 따라서 |A ∪ B| = |A| + |B| 이다   
+// -- 합집합의 크기 정리 : \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\|   
+// -- 그런데 A와 B는 서로소이므로 \|A ∩ B\| = 0 이다   
+// -- 따라서 \|A ∪ B\| = \|A\| + \|B\| 이다   
 - Size of the union set of disjoint sets   
   - Theorem   
     - If the sets A and B are finite set and disjoint   
-      - then |A ∪ B| = |A| + |B|   
+      - then \|A ∪ B\| = \|A\| + \|B\|   
   - Proof   
-    - Theorem the size of the union set : |A ∪ B| = |A| + |B| - |A ∩ B|   
-    - But since A and B are disjoint, |A ∩ B| = 0   
-    - Therefore, |A ∪ B| = |A| + |B|   
+    - Theorem the size of the union set : \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\|   
+    - But since A and B are disjoint, \|A ∩ B\| = 0   
+    - Therefore, \|A ∪ B\| = \|A\| + \|B\|   
    
 #### Inclusion relationships and Identity   
 // 포함관계 및 항등식   
