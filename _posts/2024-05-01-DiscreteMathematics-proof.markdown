@@ -5,7 +5,7 @@ date:   2024-05-01 09:00:00 +0900
 categories: [Discrete Mathematics]
 ---
 
-### basic information   
+### Basic Information   
 // 기본사항   
    
 // 정의   
