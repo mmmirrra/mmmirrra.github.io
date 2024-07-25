@@ -422,18 +422,18 @@ B : Constant matrix
    
 ```
 일차연립방정식            확대행렬
-      L            →        A
-                            ↓
-                      행제형 행렬
-                            A'
+      L           →         A
+                             ↓
+                        행제형 행렬
+                              A'
 ```
    
 ```
 System of linear equations         Augmented coefficient matrix
             L                 →                 A
-                                                ↓
+                                                 ↓
                                         Row echelon matrix
-                                                A'
+                                                  A'
 ```
    
 #### Gauss-Jordan Elimination method   
@@ -442,7 +442,7 @@ System of linear equations         Augmented coefficient matrix
 ```
 일차연립방정식            확대행렬
       L            →        A
-                            ↓
+                             ↓
 소거 행제형 행렬       행제형 행렬
       A''          ←        A'
 ```
@@ -450,7 +450,7 @@ System of linear equations         Augmented coefficient matrix
 ```
 system of linear equations           Augmented coefficient matrix
             L                  →                  A
-                                                  ↓
+                                                   ↓
 Reduced row-echelon matrix                Row echelon matrix
             A''                ←                  A'
 ```
@@ -729,8 +729,8 @@ x₁         = -1.4
 ```
 ┌ a ₁₁   a ₁₂   ...   a ₁n ┐
 │ a ₂₁   a ₂₂   ...   a ₂n │
-│  ...    ...   ...    ... │
-└ a n₁   a n₂   ...   a nn ┘
+│  ...      ...         ...    ... │
+└ a n₁     a n₂   ...   a nn  ┘
 ```
    
 // 정방행렬의 a₁₁, a₂₂, ..., a<sub>nn</sub> 원소를 대각원소라고 함   
