@@ -913,7 +913,7 @@ frequency distribution : 도수분포
 
 frequency distribution polygon : 다각형, 도수분포를 히스토그램으로 나타낸 다음 각 직사각형의 윗변의 중점을 선으로 연결
 
-Frequency table : 도수분포표
+Frequency table, Frequency distribution table : 도수분포표
 
 Frequency : 도수, 빈도
 

@@ -94,8 +94,8 @@ categories: [Data Analysis]
    
 // 설문 1, 2 : 지방자치제도의 역할을 묻는 문항   
 // 설문 3, 4, 5 : 응답자의 속성을 묻는 문항   
-- questionnaire 1, 2 : Questions about the role of the local government system   
-- questionnaire 3, 4, 5 : Questions about the attributes of the respondent   
+- Questionnaire 1, 2 : Questions about the role of the local government system   
+- Questionnaire 3, 4, 5 : Questions about the attributes of the respondent   
    
 #### Encoding Guidelines for Questionnaires   
 // 질문지에 대한 부호화 지침   
