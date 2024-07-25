@@ -366,7 +366,7 @@ x
    ┌ 1 2 -1 ┐┌ x ┐    ┌ 2  ┐
 ⇒ │ 2 5  1 ││ y │  = │ 3  │
    └ 3 4 -4 ┘└ z ┘    └ 13 ┘
-        A         X           B
+        A         X          B
 // ⇒ 행렬방정식 AX = B
 // A : 계수행렬
 // X : 미지수행렬
@@ -424,17 +424,17 @@ B : Constant matrix
 ```
 일차연립방정식            확대행렬
       L           →         A
-                             ↓
+                            ↓
                         행제형 행렬
-                              A'
+                             A'
 ```
    
 ```
 System of linear equations         Augmented coefficient matrix
             L                 →                 A
-                                                 ↓
+                                                ↓
                                         Row echelon matrix
-                                                  A'
+                                                 A'
 ```
    
 #### Gauss-Jordan Elimination method   
@@ -443,7 +443,7 @@ System of linear equations         Augmented coefficient matrix
 ```
 일차연립방정식            확대행렬
       L            →        A
-                             ↓
+                            ↓
 소거 행제형 행렬       행제형 행렬
       A''          ←        A'
 ```
@@ -451,7 +451,7 @@ System of linear equations         Augmented coefficient matrix
 ```
 system of linear equations           Augmented coefficient matrix
             L                  →                  A
-                                                   ↓
+                                                  ↓
 Reduced row-echelon matrix                Row echelon matrix
             A''                ←                  A'
 ```
@@ -730,7 +730,7 @@ x₁         = -1.4
 ```
 ┌ a ₁₁   a ₁₂   ...   a ₁n ┐
 │ a ₂₁   a ₂₂   ...   a ₂n │
-│  ...      ...         ...    ... │
+│  ...      ...      ...    ... │
 └ a n₁     a n₂   ...   a nn  ┘
 ```
    
