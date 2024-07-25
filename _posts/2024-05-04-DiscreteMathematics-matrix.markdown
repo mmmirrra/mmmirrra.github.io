@@ -370,12 +370,12 @@ x
 // A : 계수행렬
 // X : 미지수행렬
 // B : 상수행렬
-// (A\|B) : 확대행렬
+// (A|B) : 확대행렬
 ⇒ Matrix Equation AX = B
 A : Counting matrix
 X : Unknowns matrix
 B : Constant matrix
-(A\|B) : Augmented coefficient matrix
+(A|B) : Augmented coefficient matrix
 ```
    
 // 만일 A의 역행렬 A<sup>-1</sup> 가 존재한다면 AX = B 의 양 변에 A<sup>-1</sup> 를 곱하면 A<sup>-1</sup>AX = IX = X = A<sup>-1</sup>B 와 같이 방정식의 해를 구할 수 있음   
