@@ -56,7 +56,7 @@ void main() {
 	printf("Hello C Programming\n");
 
 	/* 매크로 macro 함수 정의 예제 */
-	/* Example macro function definition */
+	/* Example of macro function definition */
 	int h1, h2, g1, g2;
 	h1 = 10 * Hap1(3, 4);
 	h2 = 10 * Hap2(3, 4);
@@ -66,7 +66,7 @@ void main() {
 	printf("g1=%d, g2=%d\n", g1, g2);	// Output Results --> g1=11, g2=21
 
 	/* 조건부 컴파일 예제 */
-	/* Conditional Compilation Example */
+	/* Example of Conditional Compilation */
 #if CONDITION
 	printf("\n Compile A program \n");
 #else
@@ -74,7 +74,7 @@ void main() {
 #endif
 
 	/* printf() 표준출력함수 예제 */
-	/* printf() : Standard Output Function Example */
+	/* printf() : Example of Standard Output Function */
 	char c = 'A';
 	int i = 10, j = 20, k = 30;
 	printf("a simple output program\n");		// Output Results --> a simple output program
@@ -90,7 +90,7 @@ void main() {
 	printf("%s\n", "abcdefg");			// String type : Output Results --> abcdefg
 
 	/* 출력양식 편집 예제 */
-	/* Edit Output Form Example */
+	/* Example of Edit Output Form */
 
 	// 숫자의 길이만큼 출력 폭이 자동 지정됨
 	// Output width is automatically specified by the length of the number
@@ -174,7 +174,7 @@ void main() {
 	printf("%s\n", s2);	// String connection output : Output Results --> ComputerScience
 
 	/* 산술연산자 예제 - 이항연산자 */
-	/* Example Arithmetic Operator - Binary Operator */
+	/* Example of Arithmetic Operator - Binary Operator */
 	int x, y;
 	x = 10;
 	y = 3;
@@ -185,7 +185,7 @@ void main() {
 	printf("y%%x=%d\n", y % x);	// Output Results --> y%x=3
 
 	/* 산술연산자 예제 - 단항연산자 */
-	/* Example Arithmetic Operator - Unary Operator */
+	/* Example of Arithmetic Operator - Unary Operator */
 	int x1 = 5, a1, b1;
 	a1 = ++x1 * x1--;				// Order of run 1. ++x1 --> 2. ++x1*x1 --> 3. x1--
 	b1 = x1 * 10;
@@ -202,7 +202,7 @@ void main() {
 	printf("d2=%d\n", d2);		// Output Results --> d2=1
 
 	/* 논리연산자 예제 */
-	/* Logical Operator Example */
+	/* Example of Logical Operator */
 	int a3 = 4, b3 = 7, c3, d3, e3;
 
 	// 논리곱 && : 참 && 참 == 참
@@ -221,7 +221,7 @@ void main() {
 	printf("e3=%d\n", e3);		// Output Results --> e3=0
 
 	/* 대입연산자 예제 */
-	/* Example of substitution operator */
+	/* Example of Substitution Operator */
 	int a4;
 
 	// a4에 5를 대입
@@ -292,7 +292,7 @@ void main() {
 	printf("a5=%d b5=%d c5=%d\n", a5, b5, c5);	// Output Results --> a5=20 b5=1 c5=13
 
 	/* 조건연산자 예제 */
-	/* Example Conditional Operator */
+	/* Example of Conditional Operator */
 	int a6 = 10, b6;
 	// 조건을 만족하지 않으므로 (a6 - 1) 을 수행
 	// Perform (a6 - 1) because it does not satisfy the conditions
@@ -300,7 +300,7 @@ void main() {
 	printf("b6=%d\n", b6);			// Output Results --> b6=9
 
 	/* 비트연산자 예제 */
-	/* Example of bit operator */
+	/* Example of Bit Operator */
 	printf("a bit of x == 10110011\n");
 	printf("a bit of y == if 01001001\n");
 	printf("the result of x&y == 00000001 (If both bits are 1 (true), it is 1 (true). The rest is 0 (false))\n");
