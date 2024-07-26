@@ -16,7 +16,7 @@ categories: [C]
 // 연산자의 종류   
    
 |Type|Operator|
-|:---:|:---|
+|:---|:---|
 |// 산술 연산자<br />- Arithmetic Operator|+ - * / % ++ --|
 |// 관계 연산자<br />- Relational Operator|＞ ＜ ＞= ＜= == !=|
 |// 논리 연산자<br />- Logical Operator|& \|\| !|
@@ -113,7 +113,7 @@ a1=36 b1=50 x1=5
 |:---:|:---|:---|
 |==|// 같은가의 여부를 비교<br />- Compare whether it is the same or not|// a==b : a와 b는 같다<br />a==b : a and b are the same|
 |!=|// 다른가의 여부를 비교<br />- Compare of differences|// a!=b : a와 b는 같지 않다<br />a!=b : a and b are not the same|
-|＞＞= ＜＜=|// 대, 소 관계를 비교<br />- Compare relation large/ small|// a＞=b : a는 b보다 크거나 같다<br />a＞=b : a is greater than or equal to b|
+|＞＞=<br />＜＜=|// 대, 소 관계를 비교<br />- Compare relation large/ small|// a＞=b : a는 b보다 크거나 같다<br />a＞=b : a is greater than or equal to b|
    
 // 사용 예시   
 - Examples of Use   
@@ -373,12 +373,12 @@ b6=9
    
 |Operator|Example of use|Function|
 |:---:|:---:|:---|
-|& (bit AND)|a&b|// 대응되는 두 bit가 모두 1일 때만 결과는 1<br />- The result is 1 only when both corresponding bits are 1|
-|\| (bit OR)|a\|b|// 대응되는 두 bit 중 하나라도 1이면 결과는 1<br />- If either of the two corresponding bits is 1, the result is 1|
-|∧ (bit XOR)|a∧b|// 대응되는 두 bit가 서로 다를 때만 결과는 1<br />- The result is 1 only when two corresponding bits are different from each other|
-|~ (bit NOT)|~a|// 1은 0으로, 0은 1로 함<br />- Change 1 to 0 and 0 to 1|
-|＜＜ (Move the bit to the left)|a＜＜b|// a의 값에 대해 2비트 왼쪽으로 이동<br />- Move 2 bits to the left for the value of a|
-|＞＞ (Move the bit to the right)|a＞＞b|// a의 값에 대해 2비트 오른쪽으로 이동<br />- Move 2 bits to the right for the value of a|
+|&<br />(bit AND)|a&b|// 대응되는 두 bit가 모두 1일 때만 결과는 1<br />- The result is 1 only when both corresponding bits are 1|
+|\|<br />(bit OR)|a\|b|// 대응되는 두 bit 중 하나라도 1이면 결과는 1<br />- If either of the two corresponding bits is 1, the result is 1|
+|∧<br />(bit XOR)|a∧b|// 대응되는 두 bit가 서로 다를 때만 결과는 1<br />- The result is 1 only when two corresponding bits are different from each other|
+|~<br />(bit NOT)|~a|// 1은 0으로, 0은 1로 함<br />- Change 1 to 0 and 0 to 1|
+|＜＜<br />(Move the bit to the left)|a＜＜b|// a의 값에 대해 2비트 왼쪽으로 이동<br />- Move 2 bits to the left for the value of a|
+|＞＞<br />(Move the bit to the right)|a＞＞b|// a의 값에 대해 2비트 오른쪽으로 이동<br />- Move 2 bits to the right for the value of a|
    
 // 사용 예시   
 - Examples of Use   
