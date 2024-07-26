@@ -51,7 +51,7 @@ abstract class Shape {
     - It means an incomplete class that is not specific   
    
 // 오류 예시   
-- An example of an error   
+- Example of an error   
    
 ```java
 // Shape이 추상 클래스라 가정

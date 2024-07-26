@@ -706,7 +706,7 @@ httpd 도움말 서버를 시작합니다 ... 완료
 - x %*% y : Multiplication of two matrices   
 - solve(x) : Inverse matrix   
    
-#### Examples of matrix multiplication and apply functions   
+#### Example of matrix multiplication and apply functions   
 // 행렬의 곱 및 apply 함수 예시   
    
 ```r

@@ -23,7 +23,7 @@ categories: [Data Analysis]
 - Envisioning how to input data obtained from research/experiment in a simpler and more effective way to analyze it   
    
 <br />
-### Examples of coding designs for data   
+### Example of coding designs for data   
 // 데이터에 대한 코딩 설계의 예시   
    
 #### A case of conducting a sample survey to examine the impact of the local government system on regional development   

@@ -69,7 +69,7 @@ categories: [Java]
 ### User Packages   
 // 사용자 정의 패키지   
    
-#### Examples of User Package Definitions   
+#### Example of User Package Definitions   
 // 사용자 패키지 정의 예시   
    
 ```java

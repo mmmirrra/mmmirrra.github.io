@@ -116,7 +116,7 @@ a1=36 b1=50 x1=5
 |＞＞=<br />＜＜=|// 대, 소 관계를 비교<br />- Compare relation large/ small|// a＞=b : a는 b보다 크거나 같다<br />a＞=b : a is greater than or equal to b|
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #include <stdio.h>
@@ -166,7 +166,7 @@ d2=1
 |!|// 논리부정 (NOT) : 오른쪽이 참이면 거짓, 거짓이면 참<br />- Negation (NOT) : If the right side is true, it's false. If the right side is false, it's true.|!a|
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #include <stdio.h>
@@ -224,7 +224,7 @@ e3=0
 |＞＞=|a＞＞=5|// a=a＞＞5 : a의 값을 5 bit 우로 이동 후 결과를 a에 대입<br />- a=a＞＞5 : Move the value of a to the right of 5 bits and substitute the result into a|
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #include <stdio.h>
@@ -338,7 +338,7 @@ a5=20 b5=1 c5=13
   - If the condition is met (true), perform Expression statement 1, if the condition is not met (false), perform Expression statement 2   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 x=(5>2)? 1 : 0;
@@ -381,7 +381,7 @@ b6=9
 |＞＞<br />(Move the bit to the right)|a＞＞b|// a의 값에 대해 2비트 오른쪽으로 이동<br />- Move 2 bits to the right for the value of a|
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #include <stdio.h>
@@ -435,7 +435,7 @@ sizeof(Data type or expression statement or variable or constant)
   - Find the size (byte) of memory space occupied by the specified data type, expression statement, and variable   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 sizeof(int)
@@ -477,7 +477,7 @@ Size of float type variable a7 is =4 bytes
   - Forced to change the data type of the already specified data to another data type   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 (float)i/j

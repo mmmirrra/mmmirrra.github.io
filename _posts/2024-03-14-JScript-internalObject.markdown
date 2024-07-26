@@ -116,8 +116,8 @@ var circleArea = Math.PI * radius * radius;
    
 // Math 개체의 내부 메서드 중 하나는 지수 메서드, 즉, 어떤 숫자에 거듭제곱을 위첨자로 올려 놓는 pow 임   
 // 아래 예시에서는 pi와 지수를 사용함   
-- One of the internal methods of the Math object is an exponent method, i.e., a pow that places powers on a number as a superscript   
-- In the examples below, pi and exponents are used   
+- One of the internal methods of the Math object is an exponential method, i.e., a pow that places powers on a number as a superscript   
+- In the example below, pi and exponent are used   
    
 ```javascript
 // The formula calculates the volume of a sphere with a given radius
@@ -226,7 +226,7 @@ if (daysLeft == daysInYear) {
 ### Number   
 // Number 개체   
    
-// JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성 (예 : PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
+// JScript는 Math 개체에서 사용할 수 있는 특별한 숫자 속성 (예시 : PI) 뿐만 아니라 Number 개체를 통하여 몇 가지 다른 속성들을 제공함   
 - JScript provides several other properties through Number object, as well as special numeric properties (Example : PI) that can be used by Math object   
    
 |Property|Description|

@@ -122,7 +122,7 @@ categories: [Programming Language Theory]
   - Command-type paradigm, Procedural paradigm support → Functional paradigm, Object-oriented paradigm included   
    
 <br />
-### Examples of programs of different kinds of paradigms   
+### Example of programs of different kinds of paradigms   
 // 여러 패러다임의 프로그램 예시   
    
 #### Command-type programming   

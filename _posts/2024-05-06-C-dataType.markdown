@@ -271,7 +271,7 @@ The value stored in enumeration d2 is 5
    
 ```c
 Formats : Datatype VariableName;
-Examples of Use
+Example of Use
     integer → int VariableName;
     short integer → short int VariableName;
     long integer → long int VariableName;

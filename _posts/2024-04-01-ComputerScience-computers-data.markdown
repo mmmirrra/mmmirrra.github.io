@@ -681,7 +681,7 @@ output [0.result (0), result (1), ..., result (i)];
   - 10111010.0101 x 2<sup>0</sup> → Normalization 1.01110100101 x 2<sup>7</sup>   
    
 #### An example of a real number representation   
-// 실수 표현의 예   
+// 실수 표현의 예시   
    
 // 예시   
 // - 60.6875   

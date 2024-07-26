@@ -31,7 +31,7 @@ categories: [Java]
   - `new interface() { ... }`   
    
 <br />
-### Example object creation in anonymous sub classes   
+### Example of object creation in anonymous sub classes   
 // 익명 서브 클래스의 객체 생성 예시   
    
 ```java
@@ -83,7 +83,7 @@ super2
 ```
    
 <br />
-### Example object creation in anonymous implementation classes   
+### Example of object creation in anonymous implementation classes   
 // 익명 구현 클래스의 객체 생성 예시   
    
 ```java

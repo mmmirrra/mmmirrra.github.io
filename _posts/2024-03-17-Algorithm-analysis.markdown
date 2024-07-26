@@ -57,7 +57,7 @@ categories: [Algorithm]
 - Factors affecting running time   
   - Input Size   
     - "Size of data input", "Number of object the problem is trying to resolve"   
-      - For example : the number of list elements, the size of the matrix, the number of vertices in the graph, etc.   
+      - Example : the number of list elements, the size of the matrix, the number of vertices in the graph, etc.   
   - Status of input data   
    
 #### The larger the input size n, the more time it takes to running   
@@ -223,7 +223,7 @@ Function
 - In O(n), Ω(n), and θ(n), n is the highest degree term of f(n)   
    
 <br />
-#### Example   
+#### Example 2   
 // 예시 2   
    
 Function   

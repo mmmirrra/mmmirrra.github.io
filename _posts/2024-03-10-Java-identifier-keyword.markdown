@@ -26,7 +26,7 @@ categories: [Java]
 - Can't start with a number   
 - Keywords, true, false, null are not allowed   
    
-// 잘못 작명된 식별자의 예   
+// 잘못 작명된 식별자의 예시   
 - Example of a misnamed identifier   
   - 2002WorldCup   
   - my#class   

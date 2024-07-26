@@ -111,8 +111,8 @@ categories: [Multimedia System]
   - Sink : Create output (e.g. speaker)   
   - Filter : Characteristic conversion (e.g. audio mixer)   
    
-#### Examples of Media Processing Devices   
-// 미디어 처리장치의 예   
+#### Example of Media Processing Devices   
+// 미디어 처리장치의 예시   
    
 // 그래픽 카드   
 // - 컴퓨터와 모니터를 연결하는 장치   
@@ -181,8 +181,8 @@ categories: [Multimedia System]
   - Use large storage devices such as CD and DVD   
   - DVD-RW is installed as the default specification for the PC   
    
-#### Examples of Storage Device   
-// 저장장치의 예   
+#### Example of Storage Device   
+// 저장장치의 예시   
    
 // CD (Compact Disk)   
 // - 지름 12cm의 원반에 650MB 정도의 저장 용량   
@@ -299,7 +299,7 @@ categories: [Multimedia System]
 // 메타 데이터   
 // - 데이터에 관한 데이터 (data about data)   
 // - 정보 자원을 설명하는 요소들의 집합   
-// - 도서관의 카드, 인덱스, 카탈로그 등이 하나의 예   
+// - 도서관의 카드, 인덱스, 카탈로그 등이 하나의 예시   
 // -- 도서관의 카드에는 메타 데이터인 제목, 저자, 주제분류, 책꽂이 마크 등의 정보가 포함   
 - Meta Data   
   - Data about Data   

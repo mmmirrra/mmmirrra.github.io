@@ -81,7 +81,7 @@ void main() {
 	printf("cos(10)=%f\n", cos(10));	// Output Results --> cos(10)=-0.839072
 
 	// 지수값
-	// Exponential
+	// Exponent value
 	printf("exp(2)=%.f\n", exp(j1));	// Output Results --> exp(2)=7
 
 	// 주어진 값 미만의 최대 정수값

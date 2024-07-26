@@ -96,11 +96,11 @@ project 'FirstStep'
 // 메모리 동적 할당 예제 - 이름과 주소를 가진 객체 생성자에 동적 할당 적용   
 `Person.h` : Example of dynamically allocating memory - Dynamic assignment of memory to the Constructors of object with names and addresses   
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   
-`Person1.h` : Examples of Base Class and Derived Class - Base Class - Without Virtual Function   
+`Person1.h` : Example of Base Class and Derived Class - Base Class - Without Virtual Function   
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   
-`Person2.h` : Examples of Base Class and Derived Class - Base Class - Without Virtual Function   
+`Person2.h` : Example of Base Class and Derived Class - Base Class - Without Virtual Function   
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 포함   
-`Person3.h` : Examples of Base Class and Derived Class - Base Class - Include Virtual Function   
+`Person3.h` : Example of Base Class and Derived Class - Base Class - Include Virtual Function   
 // 데이터 저장공간에 따른 첨자 접근 가능여부를 확인하는 예제   
 `SafeIntArray.h` : Example of verifying that subscripts are accessible by data storage space   
 // 버블 정렬 알고리즘 함수 템플릿   
@@ -108,11 +108,11 @@ project 'FirstStep'
 // 클래스 템플릿 예제 - 스택이라는 자료형을 조작할 수 있는 함수 정의   
 `StackT.h` : Example of a Class template - Definition of functions that can manipulate stack data type   
 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함   
-`Student1.h` : Examples of Base Class and Derived Class - Derived Class - Without Virtual Function   
+`Student1.h` : Example of Base Class and Derived Class - Derived Class - Without Virtual Function   
 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함 - Person2 생성자를 통해 데이터멤버 초기화   
-`Student2.h` : Examples of Base Class and Derived Class - Derived Class - Without Virtual Function - Initialize data Members through the Constructor of Person2   
+`Student2.h` : Example of Base Class and Derived Class - Derived Class - Without Virtual Function - Initialize data Members through the Constructor of Person2   
 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 포함   
-`Student3.h` : Examples of Base Class and Derived Class - Derived Class - Include Virtual Function   
+`Student3.h` : Example of Base Class and Derived Class - Derived Class - Include Virtual Function   
 // 함수 템플릿 예제 - 값을 서로 교환하는 함수   
 `SwapFunc.h` : Example of a Function Template - a function that exchanges values   
 // 상세 클래스 - 삼각형을 그리는 삼각형 클래스 예제   

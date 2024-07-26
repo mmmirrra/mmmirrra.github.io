@@ -34,6 +34,7 @@ You have to train yourself to build a knowledge system
 <br />
 ### Discrete Mathematics?   
 // 이산수학이란?   
+   
 // 이산적인 수학구조에 대해서 연구하는 학문   
 // 이산적 데이터를 처리하기 위해 필요한 수학   
 - The study of discrete mathematical structures   
@@ -120,6 +121,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
    
 <br />
 ### Algorithm   
+   
 // 어떠한 문제를 해결하기 위한 여러 동작들의 유한한 모임   
 - An algorithm is a set of instructions, sometimes called a procedure or a function, that is used to perform a certain task.   
 - <cite>a set of instructions, sometimes called a procedure or a function, that is used to perform a certain task</cite> [Wikipedia]   
@@ -139,6 +141,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
 - Pseudo Code (Basic Control Structure)   
    
 #### Computer Programming Language   
+   
 // 컴퓨터 작동을 위한 동작을 세밀하게 지시   
 // 알고리즘의 핵심요소가 잘 드러나지 않음   
 // 중요하지 않은 부차적인 표현에 신경써야 함   
@@ -149,12 +152,14 @@ Abstraction is a process by which concepts are derived from the usage and classi
 - No unified language exists   
    
 #### Flow Chart   
+   
 // 장점 : 알고리즘의 작동방식을 도식화함   
 // 단점 : 내용이 복잡하거나 프로그램의 크기가 클 경우에 표현하기 어려움   
 - Strengths : Schematic how the algorithm works   
 - Weaknesses : Difficult to express when the content is complex or the program is large   
    
 #### Pseudo Code   
+   
 // 모호한 부분은 프로그래밍 언어의 문법을 채용하여 명확하게 기술   
 // 구체적으로 표현할 필요가 없는 부분은 자연어를 통해 설명식으로 기술   
 // 알고리즘의 작동방식을 설명하는 용도로만 사용   
@@ -178,6 +183,7 @@ Abstraction is a process by which concepts are derived from the usage and classi
    
 #### Example of Pseudo Code using Sequential Structure   
 // 순차구조를 사용한 의사코드 예시   
+   
 ```c
 x ← 0;
 x ← x + 1;
@@ -186,6 +192,7 @@ x ← x + 2;
    
 #### Example of Pseudo Code using Selective Structure if   
 // 선택구조 if문을 사용한 의사코드 예시   
+   
 ```c
 if (x > 0) print "pos";
 else if (x < 0) print "neg";
@@ -194,6 +201,7 @@ else print "zero";
    
 #### Example of Pseudo Code using Selective Structure switch   
 // 선택구조 switch문을 사용한 의사코드 예시   
+   
 ```c
 switch (x) {
   case 0;
@@ -210,6 +218,7 @@ switch (x) {
    
 #### Example of Pseudo Code using Iteration Structure for   
 // 반복구조 for문을 사용한 의사코드 예시   
+   
 ```c
 for x ← 5 to 0 {
   print x;
@@ -219,6 +228,7 @@ print "fire";
    
 #### Example of Pseudo Code using Iteration Structure while   
 // 반복구조 while문을 사용한 의사코드 예시   
+   
 ```c
 x ← 5;
 while x >= 0 do {
@@ -230,6 +240,7 @@ print "fire";
    
 #### Example of Pseudo Code using Iteration Structure foreach   
 // 반복구조 foreach문을 사용한 의사코드 예시   
+   
 ```c
 foreach x in { 5, 4, 3, 2, 1, 0 } {
   print x;

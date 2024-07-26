@@ -52,7 +52,7 @@ printf("Output form", Variable 1, Variable 2, ...);
   - Outputs data in a given output form   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 printf("This is an example\n");
@@ -208,7 +208,7 @@ printf("Input form", &Variable1, &Variable2, ...);
   - Enter data in a given form and store it in a designated memory space (variable)   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 scanf("%d", &a);
@@ -270,7 +270,7 @@ getchar();
   - Enter one character through keyboard   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 a = getchar();
@@ -313,7 +313,7 @@ putchar(character);
   - Output one character to the screen   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 putchar('A');
@@ -370,7 +370,7 @@ gets(Variable);
   - String received from keyboard   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 char s[50];
@@ -425,7 +425,7 @@ puts(Variable);
   - Output a string to the screen   
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 char s[50] = "seoul";

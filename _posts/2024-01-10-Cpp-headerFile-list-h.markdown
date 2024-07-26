@@ -820,7 +820,7 @@ public:
    
 <br />
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   
-`Person1.h` : Examples of Base Class and Derived Class - Base Class - Without Virtual Function   
+`Person1.h` : Example of Base Class and Derived Class - Base Class - Without Virtual Function   
    
 ```cpp
 #pragma once
@@ -845,7 +845,7 @@ public:
    
 <br />
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 미포함   
-`Person2.h` : Examples of Base Class and Derived Class - Base Class - Without Virtual Function   
+`Person2.h` : Example of Base Class and Derived Class - Base Class - Without Virtual Function   
    
 ```cpp
 #pragma once
@@ -877,7 +877,7 @@ public:
    
 <br />
 // 기초 클래스와 파생 클래스 예제 - 기초 클래스 - 가상함수 포함   
-`Person3.h` : Examples of Base Class and Derived Class - Base Class - Include Virtual Function   
+`Person3.h` : Example of Base Class and Derived Class - Base Class - Include Virtual Function   
    
 ```cpp
 #pragma once
@@ -1015,7 +1015,7 @@ template <typename T> T&& Stack<T>::pop() {
    
 <br />
 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함   
-`Student1.h` : Examples of Base Class and Derived Class - Derived Class - Without Virtual Function   
+`Student1.h` : Example of Base Class and Derived Class - Derived Class - Without Virtual Function   
    
 ```cpp
 #pragma once
@@ -1039,7 +1039,7 @@ public:
    
 <br />
 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 미포함 - Person2 생성자를 통해 데이터멤버 초기화   
-`Student2.h` : Examples of Base Class and Derived Class - Derived Class - Without Virtual Function - Initialize data Members through the Constructor of Person2   
+`Student2.h` : Example of Base Class and Derived Class - Derived Class - Without Virtual Function - Initialize data Members through the Constructor of Person2   
    
 ```cpp
 #pragma once
@@ -1070,7 +1070,7 @@ public:
    
 <br />
 // 기초 클래스와 파생 클래스 예제 - 파생 클래스 - 가상함수 포함   
-`Student3.h` : Examples of Base Class and Derived Class - Derived Class - Include Virtual Function   
+`Student3.h` : Example of Base Class and Derived Class - Derived Class - Include Virtual Function   
    
 ```cpp
 #pragma once

@@ -92,21 +92,21 @@ Separate Data Usage from Data Management
 ### Features of the Database   
 // 데이터베이스의 특징   
    
-// 1. 데이터베이스 시스템의 자기 기술성   
+// ① 데이터베이스 시스템의 자기 기술성   
 // -- 데이터와 데이터의 정의 및 설명 (메타데이터) 을 포함   
-// 2. 프로그램과 데이터의 격리 및 추상화   
+// ② 프로그램과 데이터의 격리 및 추상화   
 // -- 사용자에게 데이터에 대한 개념적인 표현을 제공하여 접근성을 향상   
-// 3. 다중 뷰 제공   
+// ③ 다중 뷰 제공   
 // -- 각 사용자가 관심을 갖는 데이터베이스의 일부만을 표현할 수 있는 기능 제공   
-// 4. 데이터 공유와 다수 사용자 트랜잭션 처리   
+// ④ 데이터 공유와 다수 사용자 트랜잭션 처리   
 // -- 다수의 데이터 조작 요청을 동시성 제어 기능을 통해 데이터의 일관성을 보장하면서 동시에 작업을 수행   
-1. Self-technicality of Database Systems   
+① Self-technicality of Database Systems   
     - Include data and data definition and description (Metadata)   
-2. Isolation and abstraction of programs and data   
+② Isolation and abstraction of programs and data   
     - Provides users with conceptual representation of data to improve accessibility   
-3. Provide multiple views   
+③ Provide multiple views   
     - Provides the ability to represent only a portion of the Database that each user is interested in   
-4. Data sharing and multi-user transactions   
+④ Data sharing and multi-user transactions   
     - Simultaneous control for multiple data manipulation requests ensures data consistency while simultaneously performing tasks   
    
 #### Configuring a Database System   
@@ -204,19 +204,19 @@ Language that enables users to access and manipulate structured data (search, in
 #### Database System Architecture   
 // 데이터베이스 시스템 아키텍처   
    
-// 1. 중앙집중식 방식   
+// ① 중앙집중식 방식   
 // - 단일 서버가 다수의 클라이언트 장치를 대신하여 작동   
 // - 중앙 컴퓨터의 과부하로 전체적인 성능 저하   
-// 2. 분산 시스템 방식   
+// ② 분산 시스템 방식   
 // - 클라이언트 장치의 성능 향상으로 자체적인 처리 능력 보유   
 // - 클라이언트-서버 데이터베이스 시스템   
 // -- 애플리케이션 프로그램의 부하를 분산   
 // -- 소프트웨어의 유지보수 비용을 절감 및 이식성 증가   
    
-1. centralized method   
+① centralized method   
     - Single server works on behalf of multiple client devices   
     - Overall performance degrades due to central computer overload   
-2. Distributed system method   
+② Distributed system method   
     - Increase client device performance to enable its own processing capabilities   
     - Client-Server Database System   
       - Distribute the load on the application program   

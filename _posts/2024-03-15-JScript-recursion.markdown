@@ -6,7 +6,7 @@ categories: [JScript]
 ---
 
 // 재귀는 중요한 프로그래밍 테크닉으로서 이것을 사용하여 함수 자체 내에서 그 함수를 다시 호출함   
-// 쉬운 예는 팩토리얼 (계승) 의 계산임   
+// 쉬운 예시는 팩토리얼 (계승) 의 계산임   
 // 0과 1의 계승은 특별히 1로 정의되어 있음   
 // 그 이상의 수에 대한 계승은 1 * 2 * .. 와 같은 식으로, 계산하려는 숫자에 도달할 때까지 1씩 증가시켜서 곱함   
 - Recursion is an important programming technique that uses this to recall the function within the function itself   

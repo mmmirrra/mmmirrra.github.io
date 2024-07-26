@@ -112,7 +112,7 @@ called function () {
   - Use uppercase and lowercase letters separately   
   - The length of the name varies depending on the compiler (usually up to 32 characters)   
    
-// 사용자 정의 명칭의 예   
+// 사용자 정의 명칭의 예시   
 - Example of a custom name   
    
 |correct name|notes|

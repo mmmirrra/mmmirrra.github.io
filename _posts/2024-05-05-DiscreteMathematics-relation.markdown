@@ -340,7 +340,7 @@ MR2 = b │ 0 0 1 │ ⊙ │ 0 0 1 │ = │ 0 0 0 │
 - For example, let the set A be A = {1, 2, 3} and the relation R for A be R = {(1, 2), (2, 3)}. Relation R<sub>1</sub> is R<sub>1</sub> = {(1, 2), (2, 3)}, and relation R<sub>2</sub> is R<sub>2</sub> = {(1, 3)}. R<sub>3</sub> is R<sub>3</sub> = ∅ because no element can arrive at it three times   
 - Therefore, for a given relation R to be transitive, it must be R<sub>1</sub> and R<sub>2</sub> ⊆ R, but R<sub>2</sub> is not transitive because R<sub>2</sub> is not included in R   
    
-#### Examples of relation property and Boolean matrices   
+#### Example of relation property and Boolean matrices   
 // 관계의 성질과 부울행렬 예시   
    
 // A = {1, 2, 3, 4}   

@@ -234,7 +234,7 @@ categories: [Computer]
 |Year|1946 ~ 1957|1958 ~ 1964|1965 ~ 1971|1972 ~ current|-|
 |Hardware such as logic circuit elements and memory devices|Vacuum tubes, Relay, magnetic drum|Transistors, diodes, magnetic cores|Integrated circuits (ICs), semiconductor memory, magnetic disks, microprocessors|Multiprocessor, ultra-high-density direct circuit, optical disk, RAM disk, user-oriented input/output|Josephson, element, photo element, gallium arsenide element|
 |Software|Embedded programming, machine language|High-level language : COBOL, FORTRAN, ALGOL|Top High-level language, PASCAL, time division method|Windows, UNIX, LINUX, Object-oriented language, World Wide Web|Functionalized language, natural language, and figure processing|
-|Examples of computers|ENIAC, UNIVAC|IBM 7094, TRADIC|IBM 360, IBM 370|Personal computer, server system, mainframe, supercomputer|Quantum computer|
+|Example of computers|ENIAC, UNIVAC|IBM 7094, TRADIC|IBM 360, IBM 370|Personal computer, server system, mainframe, supercomputer|Quantum computer|
    
 <br />
 <cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>

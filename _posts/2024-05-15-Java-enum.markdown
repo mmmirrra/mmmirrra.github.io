@@ -65,7 +65,7 @@ SATURDAY
 - The constructor of an enum performs initialization for an enum constant (object)   
   - The constructor is automatically called all at once when a constant is used   
    
-#### Enum Use Example   
+#### Example of Enum Use   
 // 열거형 사용 예시   
    
 ```java

@@ -401,12 +401,12 @@ categories: [Multimedia System]
   - Since it provides information through the network, it provides various information from text and pictures as well as moving images and human voices   
   - It has strengths over traditional paper-based publications such as speed, ease of search, ease of storage, cost reduction, and interactivity   
    
-// 온라인 전자출판의 예   
+// 온라인 전자출판의 예시   
 // - 웹진 (webzine)   
 // -- 인터넷 상에서 발간되는 잡지   
 // - POD (Publishing On Demand)   
 // -- 고객이 원하는 대로 주문을 받아 책을 제작해 주는 서비스   
-- Examples of Online Electronic Publishing   
+- Example of Online Electronic Publishing   
   - Webzine   
     - A magazine published on the Internet   
   - POD (Publishing On Demand)   

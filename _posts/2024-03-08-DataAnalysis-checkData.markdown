@@ -35,8 +35,8 @@ categories: [Data Analysis]
 ### To check for logical consistency between variables   
 // 변수들간의 논리적 일관성 여부를 확인하는 방법   
    
-Example : Create a cross-table between the patient's gender and the type of cancer   
 // 예시 : 환자의 성별과 암의 종류간에 교차표 작성   
+Example : Create a cross-table between the patient's gender and the type of cancer   
    
 |gender|stomach cancer|lung cancer|breast cancer|uterine cancer|others|total|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|

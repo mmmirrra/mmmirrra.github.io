@@ -266,7 +266,7 @@ categories: [Database Systems]
    
 - Combination of conditions : ∧ (and), ∨ (or)   
    
-#### Examples of Select Operation   
+#### Example of Select Operation   
 // 셀렉트 연산의 예시   
    
 - Professor Relation   
@@ -304,7 +304,7 @@ categories: [Database Systems]
 // ＜컬럼리스트＞ : A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub>와 같이 R에 존재하는 컬럼을 ,(콤마)로 분리하여 기술   
 - ＜column list＞ : Describes the columns present in R as commas(,), such as A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub>   
    
-#### Examples of Project Operation   
+#### Example of Project Operation   
 // 프로젝트 연산의 예시   
    
 - Professor Relation   
@@ -395,7 +395,7 @@ Q. Print out the name of the professor whose position is 'Associate Professor'
   - R ⋈ <sub>A ⊝ B</sub> S   
     - σ <sub>A ⊝ B</sub> (R × S)   
    
-#### Examples of Join Operation   
+#### Example of Join Operation   
 // 조인 연산의 예시   
    
 - Professor Relation   
@@ -445,7 +445,7 @@ Q. Print out the name of the professor whose position is 'Associate Professor'
     - <sub>A</sub> : Column to apply aggregate operations to   
     - (R) : Relation   
    
-#### Examples of Aggregation Function 1   
+#### Example of Aggregation Function 1   
 // 집계 함수의 예시 1   
    
 - Subject Relation   
@@ -477,7 +477,7 @@ Q. Print out the name of the professor whose position is 'Associate Professor'
     - <sub>A</sub> : Column to apply aggregate operations to   
     - (R) : Relation   
    
-#### Examples of Aggregation Function 2   
+#### Example of Aggregation Function 2   
 // 집계 함수의 예시 2   
    
 - Professor Relation   

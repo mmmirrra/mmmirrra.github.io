@@ -72,7 +72,7 @@ Animal animal = (Animal) new Dog();
 - Polymorphism of the Interface   
   - Differently implemented methods of parent interface in child classes   
    
-#### Class Inheritance and Polymorphism Example 1   
+#### Example 1 of Class Inheritance and Polymorphism   
 // 클래스 상속과 다형성 예시 1   
    
 ```java
@@ -111,7 +111,7 @@ B
 C
 ```
    
-#### Class Inheritance and Polymorphism Example 2   
+#### Example of 2 Class Inheritance and Polymorphism   
 // 클래스 상속과 다형성 예시 2   
    
 ```java

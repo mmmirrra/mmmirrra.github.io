@@ -130,7 +130,7 @@ categories: [Excel]
 // 산술 연산자   
    
 // `+` (더하기), `-` (빼기), `/` (나누기), `*` (곱셈), `^` (지수)   
-- `+` (plus), `-` (subtraction), `/` (sharing), `*` (multiplication), `^` (exponential)   
+- `+` (Addition), `-` (Subtraction), `/` (Division), `*` (Multiplication), `^` (Exponent)   
    
 - Example   
    
@@ -232,7 +232,7 @@ If A1 is "Computer", A2 is "Science", then → "ComputerScience"
   - Example : `$A1, D$3, = AVERAGE($A2:$G2)`   
    
 <br />
-### Examples of using IF functions   
+### Example of using IF functions   
 // IF 함수 사용 예시   
    
 // 통계학 점수가 60점 이상이면 '합격', 60점 미만이면 '불합격'으로 표시하시오   

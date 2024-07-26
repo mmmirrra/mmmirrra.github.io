@@ -31,11 +31,11 @@ categories: [JScript]
 // 배열 구성원의 주소를 지정하는 방식에는 크게 두 가지가 있음   
 - There are two main ways to address an array member   
    
-// 1. 대괄호를 사용하여 배열에 주소를 지정하는 방식   
+// ① 대괄호를 사용하여 배열에 주소를 지정하는 방식   
 // - 대괄호 안에는 숫자 값이나 음수가 아닌 정수를 산출하는 식을 입력할 수 있음   
 // - 아래 예시는 entryNum 변수를 정의하고 스크립트의 다른 곳에서 그 값을 지정한 것을 전제로 하고 있음   
    
-1 . How to address an array using brackets   
+① How to address an array using brackets   
 - In brackets, you can enter an expression that yields an integer that is not a number or a negative number   
 - The example below presupposes that an entryNum variable is defined and that the value is specified elsewhere in the script   
    
@@ -51,13 +51,13 @@ theFirstLine = theListing[1];
 - However, when you specify an object address, you must enter the actual property name after the period   
 - Code will fail if no properties are entered   
    
-// 2. 번호가 지정되어 있는 속성을 가진 개체/배열을 만든 후 로프에서 그 번호를 생성하는 방식   
+// ② 번호가 지정되어 있는 속성을 가진 개체/배열을 만든 후 로프에서 그 번호를 생성하는 방식   
 // - 아래 예시는 두 개의 배열을 생성함   
 // - 하나는 이름용이고 다른 하나는 주소용으로 이것은 주소록의 목록을 이용함   
 // - 각 배열에는 4가지 속성이 있음   
 // - 예를 들어 theListing의 [Name1]에서 [Naem4]까지의 속성에 작성된 theName의 인스턴스는 "G.", "Edward", "Heatherington", "IV" 또는 "George", "Sand"를 포함할 수 있음   
    
-2 . How to create an object/array with a numbered property and then generate that number from a rope   
+② How to create an object/array with a numbered property and then generate that number from a rope   
 - In the example below, two array are created   
 - One for name and the other for address, which uses a list of address books   
 - Each array has four properties   

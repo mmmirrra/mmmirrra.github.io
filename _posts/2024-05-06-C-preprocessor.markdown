@@ -52,7 +52,7 @@ categories: [C]
 ```
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #include <stdio.h>
@@ -105,7 +105,7 @@ categories: [C]
 ```
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #define PI 3.141592
@@ -150,7 +150,7 @@ phone : o1o-1111-oooo
 ```
    
 // 사용 예시   
-- Examples of Use   
+- Example of Use   
    
 ```c
 #define AREA(x) (3.141592*(x)*(x))
