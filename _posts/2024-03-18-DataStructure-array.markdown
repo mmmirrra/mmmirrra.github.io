@@ -106,7 +106,7 @@ categories: [Data Structure]
    
 <br />
 ### Implementation of Array Operations   
-// 배열연산의 구현   
+// 배열 연산의 구현   
    
 #### Create Array (create operation)   
 // 배열의 생성 (create 연산)   

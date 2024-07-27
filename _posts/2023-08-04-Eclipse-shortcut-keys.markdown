@@ -323,7 +323,7 @@ categories: [Eclipse]
 // 현재 메소드에서 리턴한 직후에 다시 멈춤   
 `F7` : Step Return   
 // 한 줄씩 디버깅 : 현재 명령문을 실행하고 다음 명령문 직전에 다시 멈춤   
-`F6` : Step over : Run the current function and stop again just before running the next function   
+`F6` : Step over : Run the current command statement and stop again just before running the next command statement   
 // 한 줄씩 디버깅할 때 함수인 경우 함수 내부까지 디버깅 : 자바 라이브러리 클래스 수준까지 들어가므로 단계필터 사용을 체크 (Shift + F5) 하면 필터를 설정한 클래스에 대해서는 Step Over 기능과 같은 기능을 수행   
 `F5` : Step into : When debugging one line at a time, Debug it to the inside of the function if it is a function : Because it reaches the Java library Class level, checking `Use Step Filter` (Shift + F5) performs the same function as Step Over for the Class where you set the filter   
 // 커서 줄에 중단점 설정/해제   

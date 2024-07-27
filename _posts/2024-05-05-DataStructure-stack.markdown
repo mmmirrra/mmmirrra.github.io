@@ -204,7 +204,7 @@ void push(int item) {
    
 <br />
 ### Prefix, Postfix and Infix notations of the four arithmetic operations   
-// 사칙연산식의 전위·후위·중위 표현   
+// 사칙 연산식의 전위·후위·중위 표현   
    
 #### The calculation of expressions   
 // 수식의 계산   

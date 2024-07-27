@@ -34,7 +34,7 @@ categories: [Python]
 - Whether it's just one or more characters, Python processes everything as a character type   
    
 #### Basic Operator and Expression   
-// 기본연산자와 표현식   
+// 기본 연산자와 표현식   
    
 // 피연산자와 연산자를 이용한 표현식은 파이썬 인터프리터에 의해 자동 계산됨   
 - Expression using operands and operators is automatically calculated by the Python interpreter   
@@ -248,8 +248,8 @@ Python is Fun
 - Example when comment   
    
 ```python
-#학점 계산
-#Calculation of credits
+# 학점 계산
+# Calculation of credits
 print((4.5 * 2 + 4.0 * 3) / 2)
 ```
    
@@ -273,17 +273,17 @@ print((4.5 * 2 + 4.0 * 3) / 2)
     - Surface area = πr² + πrh   
    
 ```python
-#반지름, 높이 값 할당
-#Assign radius, height value
+# 반지름, 높이 값 할당
+# Assign radius, height value
 rad = 20
 hei = 30
-#부피 출력
-#Volume Output
-#print(1 / 3 * 3.14 * 20 ** 2 * hei)
+# 부피 출력
+# Volume Output
+# print(1 / 3 * 3.14 * 20 ** 2 * hei)
 print(1 / 3 * 3.14 * rad * rad * hei)
-#겉넓이 출력
-#Surface area Output
-#print(3.14 * 20 ** 2 + 3.14 * 20 * 30)
+# 겉넓이 출력
+# Surface area Output
+# print(3.14 * 20 ** 2 + 3.14 * 20 * 30)
 print(3.14 * rad * rad + 3.14 * rad * hei)
 ```
    
@@ -292,7 +292,7 @@ print(3.14 * rad * rad + 3.14 * rad * hei)
    
 // 명령형 패러다임 언어의 특징   
 // - 처리할 데이터와 처리된 결과를 임시적 저장   
-// - 변수의 값을 변경하는 할당연산자 (=) 를 이용   
+// - 변수의 값을 변경하는 할당 연산자 (=) 를 이용   
 - Characteristics of imperative paradigm language   
   - Temporarily store data to be processed and results processed   
   - Use the assignment operator (=) to change the value of the variable   
@@ -367,15 +367,15 @@ print(3.14 * 20 ** 2 + 3.14 * 20 * 30)
 - Example   
    
 ```python
-#반지름, 높이 값 할당
-#Assign radius, height value
+# 반지름, 높이 값 할당
+# Assign radius, height value
 rad = 20
 hei = 30
-#부피 출력
-#Volume Output
+# 부피 출력
+# Volume Output
 print(1 / 3 * 3.14 * rad ** 2 * hei )
-#겉넓이 출력
-#Surface area Output
+# 겉넓이 출력
+# Surface area Output
 print(3.14 * rad ** 2 + 3.14 * rad * hei)
 ```
    
@@ -475,8 +475,8 @@ pow(2, 3)
 - Example   
    
 ```python
-#정수 나눗셈 연산자
-#Integer division operator
+# 정수 나눗셈 연산자
+# Integer division operator
 5 // 2
 ```
    

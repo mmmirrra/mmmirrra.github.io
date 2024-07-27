@@ -102,7 +102,7 @@ categories: [Computer Science]
 // - 컴퓨터 : 프로그램을 통해서 데이터를 입력하여 처리, 저장, 검색, 출력하는 전자적 장치   
 // - 데이터를 획득 (acquisition), 표현 (representation), 처리 (processing), 저장 (storage), 통신 (communication), 접근 (access) 을 위한 방법들을 실행 가능성, 구조화, 표현, 기계화에 관련된 내용을 다루는 분야   
 - Areas closely related to data representation, storage, manipulation, and retrieval   
-  - Computer : an electronic device that inputs, processes, stores, retrieves, and outputs data through a program   
+  - Computer : an electronic device that inputs, processes, stores, searches, and outputs data through a program   
   - The area that covers methods for acquisition, representation, processing, storage, communication, and access data related to feasibility, structuring, representation, and mechanization   
    
 // 컴퓨터, 데이터, 프로그램, 알고리즘에 대한 분야   

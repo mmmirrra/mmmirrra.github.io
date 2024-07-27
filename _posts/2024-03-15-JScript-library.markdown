@@ -242,7 +242,7 @@ categories: [JScript]
 |new|새 개체를 만듦|
 |typeof|식의 데이터 형식을 나타내는 문자열을 반환|
 |void|식이 값을 반환하지 않도록 함|
-
+   
 <br />
 ### 복합 지정 연산자   
    
@@ -259,9 +259,10 @@ categories: [JScript]
 |＞＞=|부호를 바꾸지 않고 식을 비트 단위로 오른쪽으로 옮김|
 |-=|변수에서 식의 값을 뺌|
 |＞＞＞=|부호 없이 변수를 비트 단위로 오른쪽으로 옮김|
-
+   
 <br />
-### 비교 연산자   
+### Comparison operator   
+// 비교 연산자   
    
 - 비교 결과를 나타내는 부울값을 반환   
 - JScript에서 문자열을 비교할 때는 해당 문자식의 유니코드 문자 값을 사용함   
@@ -309,7 +310,7 @@ categories: [JScript]
 |source|정규식 패턴의 텍스트 복사본을 반환|
 |SQRT1_2|0.5의 제곱근 또는 1을 2의 제곱근으로 나눈 값을 반환|
 |SQRT2|2의 제곱근을 반환|
-
+   
 <br />
 ### Statement   
 // 문   
@@ -422,7 +423,7 @@ categories: [JScript]
 |5021|문자 집합의 범위가 틀립니다|
 |5022|예외가 발생하여 해결할 수 없습니다|
 |5023|함수에 유효한 프로토타입 개체가 없습니다|
-
+   
 <br />
 ### Syntax Error List   
 // 구문 오류 목록   
@@ -798,11 +799,11 @@ categories: [JScript]
   - null and undefined are considered false   
 - If there is a number or zero, it is considered false   
    
-#### comparison operator   
-// 비교연산자   
+#### Comparison operator   
+// 비교 연산자   
    
 // 둘 이상의 값이나 식 사이의 관계를 나타내는 문자나 기호   
-// 비교연산자에는 보다 작다 (<), 작거나 같다 (<=), 보다 크다 (>), 크거나 같다 (>=), 같지 않다 (!=), 같다 (==)가 있음   
+// 비교 연산자에는 보다 작다 (<), 작거나 같다 (<=), 보다 크다 (>), 크거나 같다 (>=), 같지 않다 (!=), 같다 (==)가 있음   
 - a character or symbol that represents a relationship between two or more values or expressions   
 - Comparison operators have smaller (<), smaller or equal (<=), larger (>), larger or equal (>=), not equal (!==), and equal (==)   
    

@@ -70,7 +70,7 @@ Internet ≠ Web
 // 서버와 접속하여 HTTP 서버에 이용할 수 있도록 만든 하이퍼텍스트 문서를 읽고, 그것을 사용 중인 컴퓨터에 보여주는 프로그램   
 // 웹 서비스에서 문자나 화상은 물론 동영상, 음악, 게임 등을 지원하는 멀티미디어 검색 프로그램   
 // 구체적인 자료의 검색, 저장, 전송 등을 가능하게 함   
-- An application used to retrieve information from the Internet   
+- An application used to search information from the Internet   
 - A program that connects to a server and reads a hypertext document that is made available to the HTTP server and shows it to computer   
 - Multimedia search programs that support text and video, video, music, games, etc. on web services   
 - Enables search, storage, and transfer of specific data   

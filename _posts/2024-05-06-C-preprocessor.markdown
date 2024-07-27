@@ -28,7 +28,7 @@ categories: [C]
 // 한 줄에 하나의 명령만 씀   
 // 소스 프로그램의 첫 부분에 위치함   
 - Must start with '#'   
-- Do not put a semicolon ( ; ) at the end of the command   
+- Do not put a semicolon ( ; ) at the end of the command statement   
 - Only one command in a line   
 - Located at the beginning of the source program   
    

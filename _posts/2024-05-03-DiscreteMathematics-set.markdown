@@ -152,7 +152,7 @@ categories: [Discrete Mathematics]
    
 <br />
 ### Set Operator   
-// 집합연산   
+// 집합 연산   
    
 // U : 전체집합, A ⊂ U, B ⊂ U 라 할 때   
 // - 합집합 : A ∪ B = {x ∈ U \| x ∈ A ∨ x ∈ B}   

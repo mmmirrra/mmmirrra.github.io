@@ -29,7 +29,7 @@ categories: [C]
 ### Arithmetic Operator   
 // 산술 연산자   
    
-// 피연산자에 대해 사칙연산을 포함한 각종 산술연산을 수행하는 연산자   
+// 피연산자에 대해 사칙 연산을 포함한 각종 산술 연산을 수행하는 연산자   
 - Operators performing various arithmetic operations, including four arithmetic operations, on operands   
    
 |Type|Operator|Function|Example of use|
@@ -40,7 +40,7 @@ categories: [C]
 ||++|// 1 증가<br />- 1 increase|i++, ++i|
 ||--|// 1 감소<br />- 1 decrease|i--, --i|
    
-// 이항연산자 사용 예시   
+// 이항 연산자 사용 예시   
 - Example of using binary operator   
    
 ```c
@@ -70,7 +70,7 @@ x%y=1
 y%x=3
 ```
    
-// 단항연산자 사용 예시   
+// 단항 연산자 사용 예시   
 - Example of using unary operator   
    
 ```c

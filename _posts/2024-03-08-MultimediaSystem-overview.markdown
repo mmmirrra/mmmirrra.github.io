@@ -148,7 +148,7 @@ Representative Multimedia-Related Technologies
 // --- GUI 기술을 이용하여 사용자에게 보다 나은 상호작용을 지원   
 // -- 음성 인식기술, 제스처 인식기술 등   
 - HCI (Human Computer Interaction)   
-  - Multimedia data is diverse and has a large capacity, making it difficult for general users to retrieve information   
+  - Multimedia data is diverse and has a large capacity, making it difficult for general users to search information   
   - HCI technology aims to improve human-computer interaction easily and conveniently by enabling interactive manipulation of Multimedia data input, processing, and control   
     - GUI (Graphical User Interface)   
       - Interface with graphics technology for user convenience   

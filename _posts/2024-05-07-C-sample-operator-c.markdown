@@ -173,7 +173,7 @@ void main() {
 	printf("%s", s1);	// No Auto-lined
 	printf("%s\n", s2);	// String connection output : Output Results --> ComputerScience
 
-	/* 산술연산자 예제 - 이항연산자 */
+	/* 산술 연산자 예제 - 이항 연산자 */
 	/* Example of Arithmetic Operator - Binary Operator */
 	int x, y;
 	x = 10;
@@ -184,14 +184,14 @@ void main() {
 	printf("x%%y=%d\n", x % y);	// Output Results --> x%y=1
 	printf("y%%x=%d\n", y % x);	// Output Results --> y%x=3
 
-	/* 산술연산자 예제 - 단항연산자 */
+	/* 산술 연산자 예제 - 단항 연산자 */
 	/* Example of Arithmetic Operator - Unary Operator */
 	int x1 = 5, a1, b1;
 	a1 = ++x1 * x1--;				// Order of run 1. ++x1 --> 2. ++x1*x1 --> 3. x1--
 	b1 = x1 * 10;
 	printf("a1=%d b1=%d x1=%d\n", a1, b1, x1);	// Output Results --> a1=36 b1=50 x1=5
 
-	/* 관계연산자 예제 */
+	/* 관계 연산자 예제 */
 	/* Example of Relational Operator */
 	int a2 = 4, b2, c2, d2;
 	b2 = a2 > 2;			// True
@@ -201,7 +201,7 @@ void main() {
 	d2 = a2 == 4;			// True
 	printf("d2=%d\n", d2);		// Output Results --> d2=1
 
-	/* 논리연산자 예제 */
+	/* 논리 연산자 예제 */
 	/* Example of Logical Operator */
 	int a3 = 4, b3 = 7, c3, d3, e3;
 
@@ -220,7 +220,7 @@ void main() {
 	e3 = !a3;
 	printf("e3=%d\n", e3);		// Output Results --> e3=0
 
-	/* 대입연산자 예제 */
+	/* 대입 연산자 예제 */
 	/* Example of Substitution Operator */
 	int a4;
 
@@ -291,7 +291,7 @@ void main() {
 	c5 += 2;
 	printf("a5=%d b5=%d c5=%d\n", a5, b5, c5);	// Output Results --> a5=20 b5=1 c5=13
 
-	/* 조건연산자 예제 */
+	/* 조건 연산자 예제 */
 	/* Example of Conditional Operator */
 	int a6 = 10, b6;
 	// 조건을 만족하지 않으므로 (a6 - 1) 을 수행
@@ -299,7 +299,7 @@ void main() {
 	b6 = (a6 > 15) ? (a6 + 1) : (a6 - 1);
 	printf("b6=%d\n", b6);			// Output Results --> b6=9
 
-	/* 비트연산자 예제 */
+	/* 비트 연산자 예제 */
 	/* Example of Bit Operator */
 	printf("a bit of x == 10110011\n");
 	printf("a bit of y == if 01001001\n");
@@ -310,7 +310,7 @@ void main() {
 	printf("the result of x<<2 == 11001100 (Move the bit to the left by 2 bits. Fill empty spaces with 00)\n");
 	printf("the result of x>>2 == 00101100 (Move the bit to the right by 2 bits. Fill empty spaces with 00)\n");
 
-	/* 기타연산자 예제 - sizeof(자료형 또는 수식 또는 변수 또는 상수) 
+	/* 기타 연산자 예제 - sizeof(자료형 또는 수식 또는 변수 또는 상수) 
 		: 지정한 자료형, 수식, 변수, 상수의 기억공간의 크기 (byte) 를 구함 */
 	/* Example of Other Operators - sizeof(Data type or expression statement or variable or constant) 
 		: Obtain the size (byte) of the memory space of the specified data type, expression statement, variable, and constant */
@@ -318,7 +318,7 @@ void main() {
 	printf("int형의 크기는=%d바이트\n", sizeof(int));		// Output Results --> Int type size is = 4 bytes
 	printf("float형 변수 a7의 크기는=%d바이트\n", sizeof(a7));	// Output Results --> Size of float type variable a7 is = 4 bytes
 
-	/* 기타연산자 예제 - cast(형변환) - (형명칭)자료 
+	/* 기타 연산자 예제 - cast(형변환) - (형명칭)자료 
 		: 지정한 자료형을 다른 자료형으로 강제적으로 바꿈 */
 	/* Example of Other Operators - cast(type cast) - (typeName)data 
 		: Forced to change the specified data type to another data type */
@@ -329,8 +329,8 @@ void main() {
 	c8 = (double)a8 / b8;
 	printf("나눗셈 결과 : %f\n", c8);	// Output Results --> 나눗셈 결과 : 0.750000
 
-	/* 기타연산자 예제 - & : 주소 연산자로서 피연산자의 주소를 나타냄 */
-	/* 기타연산자 예제 - * : 내용 연산자로서 피연산자의 내용을 가져옴 */
+	/* 기타 연산자 예제 - & : 주소 연산자로서 피연산자의 주소를 나타냄 */
+	/* 기타 연산자 예제 - * : 내용 연산자로서 피연산자의 내용을 가져옴 */
 	/* Example of Other Operators - & : Address operator represents the address of the operand */
 	/* Example of Other Operators - * : Gets the content of the operand as a content operator */
 

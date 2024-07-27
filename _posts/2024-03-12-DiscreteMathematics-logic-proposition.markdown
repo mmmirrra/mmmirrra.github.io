@@ -96,14 +96,14 @@ categories: [Discrete Mathematics]
   - 0.5, √2 --> Constant. Real number constant   
   - x, y --> Variable. Real number variable   
    
-// 실수연산자   
+// 실수 연산자   
 // - +, -, ×, ÷   
 - Real number operator   
   - +, -, ×, ÷   
    
 // 수식 (실수 연산식)   
-// - 실수연산을 실수집합에 적용하면 성질이 나옴   
-// - 실수집합에서 실수상수와 실수변수들을 실수연산들로 묶어놓으면 수식 (실수 연산식) 이 됨   
+// - 실수 연산을 실수집합에 적용하면 성질이 나옴   
+// - 실수집합에서 실수상수와 실수변수들을 실수 연산들로 묶어놓으면 수식 (실수 연산식) 이 됨   
 // - 예시 : √2x + y   
 - Numeric expression (Real number operation expression)   
   - Applying real number operations to real number sets results in properties   
@@ -119,18 +119,18 @@ categories: [Discrete Mathematics]
   - T, F --> Constant. Logical constant   
   - p, q --> Variable. Logical variable. Proposition   
    
-// 논리연산, 논리연산자   
+// 논리 연산, 논리 연산자   
 // - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁). <u>X</u>), ⊕ (xor), ⊙ (xnor)   
-// - or, and, not, xor --> 논리연산   
-// - ∨, ∧, ~ (﹁), ⊕, ⊙ --> 논리연산자   
+// - or, and, not, xor --> 논리 연산   
+// - ∨, ∧, ~ (﹁), ⊕, ⊙ --> 논리 연산자   
 - Logical Operation, Logical Operator   
   - ∨ (or. +), ∧ (and. ×. ·), ~ (not. ~ (﹁). <u>X</u>), ⊕ (xor), ⊙ (xnor)   
   - or, and, not, xor --> Logical Operation   
   - ∨, ∧, ~ (﹁), ⊕, ⊙ --> Logical Operator   
    
 // 합성명제 (논리 연산식)   
-// - 논리연산을 논리집합에 적용하면 성질이 나옴   
-// - 논리집합에서 논리상수와 논리변수들을 논리연산들로 묶어놓으면 합성명제 (논리 연산식) 이 됨   
+// - 논리 연산을 논리집합에 적용하면 성질이 나옴   
+// - 논리집합에서 논리상수와 논리변수들을 논리 연산들로 묶어놓으면 합성명제 (논리 연산식) 이 됨   
 // - 예시 : p ∨ q   
 - Compound Proposition (Logical Operation Expression)   
   - Applying logical operations to logical sets results in properties   
@@ -138,7 +138,7 @@ categories: [Discrete Mathematics]
   - Example : p ∨ q   
    
 #### Disjunction (Logical Operation or, Logical Operator ∨)   
-// 논리합 (논리연산 or, 논리연산자 ∨)   
+// 논리합 (논리 연산 or, 논리 연산자 ∨)   
    
 - p ∨ q   
    
@@ -172,7 +172,7 @@ Truth Table
       &nbsp;&nbsp;&nbsp;&nbsp; --> p ∨ q ∨ r --> ∴ F   
    
 #### Conjunction (Logical Operation and, Logical Operator ∧)   
-// 논리곱 (논리연산 and, 논리연산자 ∧)   
+// 논리곱 (논리 연산 and, 논리 연산자 ∧)   
    
 - p ∧ q   
    
@@ -206,7 +206,7 @@ Truth Table
       &nbsp;&nbsp;&nbsp;&nbsp; --> p ∧ q ∧ r --> ∴ F   
    
 #### Negation (Logical Operation Not, Logical Operator ~ (﹁))   
-// 부정 (논리연산 not, 논리연산자 ~ (﹁))   
+// 부정 (논리 연산 not, 논리 연산자 ~ (﹁))   
    
 - ~p   
    
@@ -219,7 +219,7 @@ Truth Table
 |F|T|
    
 #### Exclusive or (Logical Operation XOR, Logical operator ⊕)   
-// 배타적 논리합 (논리연산 xor, 논리연산자 ⊕)   
+// 배타적 논리합 (논리 연산 xor, 논리 연산자 ⊕)   
    
 - p ⊕ q ≡ (p ∧ ~q) ∨ (~p ∧ q)   
    
@@ -261,7 +261,7 @@ Truth Table
 ### Compound Proposition   
 // 합성명제   
    
-// 하나 이상의 명제와 논리연산자 (∨, ∧, ~(﹁), ⊕, ⊙) 그리고 괄호로 이루어진 명제   
+// 하나 이상의 명제와 논리 연산자 (∨, ∧, ~(﹁), ⊕, ⊙) 그리고 괄호로 이루어진 명제   
 - A proposition consisting of one or more propositions and logical operators (∨, ∧, ~(﹁), ⊕, ⊙) and parentheses   
    
 <br />

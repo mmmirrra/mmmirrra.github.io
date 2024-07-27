@@ -77,7 +77,7 @@ categories: [Discrete Mathematics]
 // 행렬의 연산   
    
 #### Basic operation   
-// 기본연산   
+// 기본 연산   
    
 #### Sum, Difference, Scalar Multiplication of the Matrix   
 // 행렬의 합, 차 스칼라 곱   
@@ -385,7 +385,7 @@ B : Constant matrix
   - A<sup>-1</sup>A ⇒ Unit matrix I = Identity for multiplication   
    
 #### Gaussian elimination method - Elementary row operation   
-// 가우스 소거법 - 기본행연산   
+// 가우스 소거법 - 기본행 연산   
    
 // 행 교환 (row interchange) 연산 (R<sub>i, j</sub>)   
 // - 두 행의 위치를 서로 바꾸는 연산   
@@ -408,7 +408,7 @@ B : Constant matrix
 // - A : L<sub>1</sub>의 확대행렬   
 // - B : L<sub>2</sub>의 확대행렬   
 // - A ~ B ⇒ L<sub>1</sub> ~ L<sub>2</sub> ( = A → B ⇒ L<sub>1</sub> → L<sub>2</sub>)   
-// -- A ~ B : A에 유한번의 기본행연산을 적용하여 B를 얻을 수 있음   
+// -- A ~ B : A에 유한번의 기본행 연산을 적용하여 B를 얻을 수 있음   
 // -- L<sub>1</sub> ~ L<sub>2</sub> : L<sub>1</sub> 과 L<sub>2</sub> 의 해집합이 동일함   
 - Theorem   
   -  L<sub>1</sub>, L<sub>2</sub> : System of linear equations   
@@ -623,7 +623,7 @@ Reduced row-echelon matrix                Row echelon matrix
 └ 2   2   9   1 ┘
 ```
    
-// 기본행연산으로 소거 행제형으로 바꿈   
+// 기본행 연산으로 소거 행제형으로 바꿈   
 - Change to reduced row-echelon matrix by elementary row operation   
    
 ⇒ R<sub>1, 2</sub>   

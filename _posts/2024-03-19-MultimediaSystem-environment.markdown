@@ -287,7 +287,7 @@ categories: [Multimedia System]
 - Existing database systems   
   - Processing numeric and character data to target   
 - Multimedia Database System   
-  - A system that can efficiently store and retrieve multimedia data as well as numbers and letters   
+  - A system that can efficiently store and search multimedia data as well as numbers and letters   
   - Create a description based on the content of the media object and save the description : Metadata   
   - Requires a large amount of storage   
    

@@ -107,9 +107,9 @@ categories: [Data Analysis]
    
 ```r
 > ex8 = read.table("c:/Users/Desktop/DataAnalysis_ex8-1.csv", header=T)
-> #ex8 = read.csv("c:/Users/Desktop/DataAnalysis_ex8-1.csv")
-> #앞에서부터 일부분의 행 표기
-> #Mark part of the line from the beginning
+> # ex8 = read.csv("c:/Users/Desktop/DataAnalysis_ex8-1.csv")
+> # 앞에서부터 일부분의 행 표기
+> # Mark part of the line from the beginning
 > head(ex8)
   id sex age edu salary
 1  1   1  21   2    150
@@ -118,15 +118,15 @@ categories: [Data Analysis]
 4  4   2  33   3    220
 5  5   1  28   2    170
 6  6   1  41   3    300
-> #앞에서부터 3개의 행 표기
-> #Mark 3 lines from the beginning
+> # 앞에서부터 3개의 행 표기
+> # Mark 3 lines from the beginning
 > head(ex8, 3)
   id sex age edu salary
 1  1   1  21   2    150
 2  2   2  22   1    100
 3  3   1  33   2    200
-> #뒤에서부터 일부분의 행 표기
-> #Mark part of a line from the back
+> # 뒤에서부터 일부분의 행 표기
+> # Mark part of a line from the back
 > tail(ex8)
    id sex age edu salary
 5   5   1  28   2    170
@@ -135,8 +135,8 @@ categories: [Data Analysis]
 8   8   1  32   3    220
 9   9   2  44   1    370
 10 10   1  55   3    410
-> #뒤에서부터 3개의 행 표기
-> #Mark 3 lines from the back
+> # 뒤에서부터 3개의 행 표기
+> # Mark 3 lines from the back
 > tail(ex8, 3)
    id sex age edu salary
 8   8   1  32   3    220
@@ -157,8 +157,8 @@ categories: [Data Analysis]
 - Read using `xlsx`   
    
 ```r
-> #패키지 설정
-> #Package Settings
+> # 패키지 설정
+> # Package Settings
 > library(xlsx)
 > ex8_xls = read.xlsx("c:/Users/Desktop/DataAnalysis_ex8-1.xlsx", 1)
 > head(ex8_xls, 3)
@@ -197,13 +197,13 @@ categories: [Data Analysis]
 1  1   1  21   2    150
 2  2   2  22   1    100
 3  3   1  33   2    200
-> names(ex8)    #Display column name
+> names(ex8)    # Display column name
 [1] "id"     "sex"    "age"    "edu"    "salary"
-> mean(ex8$salary)    #Average
+> mean(ex8$salary)    # Average
 [1] 243
-> sd(ex8$salary)    #Standard deviation
+> sd(ex8$salary)    # Standard deviation
 [1] 98.21179
-> summary(ex8$salary)    #Five-number summary + mean
+> summary(ex8$salary)    # Five-number summary + mean
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   100.0   177.5   220.0   243.0   297.5   410.0 
 ```
@@ -212,8 +212,8 @@ categories: [Data Analysis]
 - attach() allows variable names to be used immediately   
    
 ```r
-> #해당 객체 고정 
-> #attach that object
+> # 해당 객체 고정 
+> # attach that object
 > attach(ex8)
 > mean(salary)
 [1] 243
@@ -239,8 +239,8 @@ categories: [Data Analysis]
         1         2 
  97.45084 114.45523 
 > mean_Sal_Sex = tapply(ex8$salary, ex8$sex, mean)
-> #행 이름 지정
-> #Name a row
+> # 행 이름 지정
+> # Name a row
 > rownames(mean_Sal_Sex) = c("Male","Female")
 > mean_Sal_Sex
       Male       Female 
@@ -269,11 +269,11 @@ categories: [Data Analysis]
     1        2   3
 1  NA 173.3333 310
 2 235 290.0000 220
-> #행 이름 지정
-> #Name a row
+> # 행 이름 지정
+> # Name a row
 > rownames(mean_sal_sex_edu) = c("M", "F")
-> #열 이름 지정
-> #Name a column
+> # 열 이름 지정
+> # Name a column
 > colnames(mean_sal_sex_edu) = c("Middle", "High", "College-")
 > mean_sal_sex_edu
   Middle     High College-
@@ -345,15 +345,15 @@ Test for independence of all factors:
 1 2 3 
 2 4 4 
 > rownames(edu_freq) = c("Middle", "High", "College-")
-> #막대그림
-> #Bar Plot
+> # 막대그림
+> # Bar Plot
 > barplot(edu_freq)
 > title("a bar plot of edu level")
-> #원그림
-> #Pie
+> # 원그림
+> # Pie
 > pie(edu_freq)
 > title("a circle plot of edu level")
-> #pie(edu_freq, main="a cicle picture of edu level")
+> # pie(edu_freq, main="a cicle picture of edu level")
 ```
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/dataAnalysisRBarplot1.png)
@@ -379,8 +379,8 @@ Test for independence of all factors:
   2 2 1 1
 > colnames(sex_edu) = c("Middle", "High", "College-")
 > rownames(sex_edu) = c("M", "F")
-> #막대그림
-> #Bar Plot
+> # 막대그림
+> # Bar Plot
 > barplot(sex_edu)
 > barplot(sex_edu, main="Gender education level bar chart")
 ```
@@ -394,28 +394,28 @@ Test for independence of all factors:
 // 히스토그램, 줄기-잎 그림, 상자그림   
    
 ```r
-> #히스토그램
-> #Histogram
+> # 히스토그램
+> # Histogram
 > hist(ex8$salary, nclass=4)
-> #줄기-잎 그림
-> #Stem-and-Leaf Plot
+> # 줄기-잎 그림
+> # Stem-and-Leaf Plot
 > stem(ex8$salary)
 
   The decimal point is 2 digit(s) to the right of the |
 
-  1 | 057    #100, 150, 170
-  2 | 0229    #200, 220, 220, 290
-  3 | 07    #300, 370
-  4 | 1    #400
+  1 | 057    # 100, 150, 170
+  2 | 0229    # 200, 220, 220, 290
+  3 | 07    # 300, 370
+  4 | 1    # 400
 
-> #par는 한 화면을 분할해서 보여줌 : c(1, 2) == 행 1, 열 2
-> #par is to split one screen and show it : c(1, 2) == row 1, column 2
+> # par는 한 화면을 분할해서 보여줌 : c(1, 2) == 행 1, 열 2
+> # par is to split one screen and show it : c(1, 2) == row 1, column 2
 > par(mfrow=c(1, 2))
-> #상자그림
-> #Box Plot
+> # 상자그림
+> # Box Plot
 > boxplot(ex8$salary~ex8$sex, main="box plot")
-> #factor 이산형 변수의 범주를 알려줌
-> #factor finds the range of discrete variables
+> # factor 이산형 변수의 범주를 알려줌
+> # factor finds the range of discrete variables
 > ex8$sex = factor(ex8$sex, levels=c(1:2), labels = c("M", "F"))
 > boxplot(ex8$salary~ex8$sex, main="box plot2")
 ```
@@ -487,8 +487,8 @@ Read 65 items
 ```
    
 ```r
-> #도움말
-> #Help
+> # 도움말
+> # Help
 > ?stem
 httpd 도움말 서버를 시작합니다 ... 완료
 ```
@@ -519,8 +519,8 @@ httpd 도움말 서버를 시작합니다 ... 완료
 1  1   M  21   2    150
 2  2   F  22   1    100
 3  3   M  33   2    200
-> #pch는 점의 모양
-> #Pch is the shape of a dot
+> # pch는 점의 모양
+> # pch is the shape of a dot
 > plot(ex8$age, ex8$salary, col="BLUE", pch=19)
 ```
    
@@ -531,21 +531,21 @@ httpd 도움말 서버를 시작합니다 ... 완료
    
 ```r
 > plot(ex8$age, ex8$salary, type="n")
-> #해당하는 값만 표기
-> #Mark corresponding values only
+> # 해당하는 값만 표기
+> # Mark corresponding values only
 > points(ex8$age[ex8$sex==1], ex8$salary[ex8$sex==1], pch="M", col="BLUE")
 > points(ex8$age[ex8$sex==2], ex8$salary[ex8$sex==2], pch="F", col="RED")
-> #legend는 범례임
+> # legend는 범례임
 > legend("bottomright", legend=c("Male", "Female"), pch=c("M", "F"), col=c("BLUE", "RED"))
-> #legend(locator(1), ~~~) try! #마우스로 클릭한 위치에 범례를 표기
-> #legend(locator(1), ~~~) try! #Mark legend at mouse-clicked locations
+> # legend(locator(1), ~~~) try! # 마우스로 클릭한 위치에 범례를 표기
+> # legend(locator(1), ~~~) try! # Mark legend at mouse-clicked locations
 ```
    
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/dataAnalysisRScatterPlot2.png)
    
 ```r
-> #도움말
-> #Help
+> # 도움말
+> # Help
 > ?legend
 ```
    
@@ -851,16 +851,16 @@ plot(function(x) dnorm(x), -3, 3, main="Normal distribution")
 - Calculate Pr(X ≤ x)   
    
 ```r
-> #0이하의 값 : Pr(X < 0)
-> #A value less than or equal to zero : Pr(X < 0)
+> # 0이하의 값 : Pr(X < 0)
+> # A value less than or equal to zero : Pr(X < 0)
 > pnorm(0)
 [1] 0.5
-> #1이하의 값 : Pr(X < 1)
-> #A value of not more than 1 : Pr(X < 1)
+> # 1이하의 값 : Pr(X < 1)
+> # A value of not more than 1 : Pr(X < 1)
 > pnorm(1)
 [1] 0.8413447
-> #3이하의 값 : Pr(X < 3)
-> #A value of not more than 3 : Pr(X < 3)
+> # 3이하의 값 : Pr(X < 3)
+> # A value of not more than 3 : Pr(X < 3)
 > pnorm(3)
 [1] 0.9986501
 ```

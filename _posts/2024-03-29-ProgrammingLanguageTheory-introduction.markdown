@@ -177,8 +177,8 @@ categories: [Programming Language Theory]
 - Most programming languages use a variety of operators and commands to construct numeric expressions and statements   
    
 // 연산의 종류   
-// - 원시연산 : 언어가 기본적으로 제공하고 있는 연산   
-// - 사용자정의연산 : 프로그래머가 추가로 정의한 연산   
+// - 원시 연산 : 언어가 기본적으로 제공하고 있는 연산   
+// - 사용자 정의 연산 : 프로그래머가 추가로 정의한 연산   
 // - 라이브러리 : 사용자가 자주 사용할만한 연산을 미리 정의해둔 것   
 - Types of operations   
   - Raw operations : operations that the language provides by default   
