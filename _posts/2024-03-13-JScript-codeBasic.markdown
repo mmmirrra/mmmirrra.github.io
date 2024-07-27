@@ -36,7 +36,7 @@ var today = new Data();
 // - 첫번째 문은 함수의 정의를 시작하는 문으로, 이 함수는 5개의 문으로 이루어진 블록으로 구성되어 있음   
 // - 중괄호를 사용하지 않은 마지막 3개 문은 블록이 아니며 함수의 일부분도 아님   
 - Example   
-  - The first statement is the statement that starts the definition of a function, which consists of a block of five statements   
+  - The first statement is the statement that starts the definition of the function, which consists of a block of five statements   
   - The last 3 statements without brace are not blocks and are not part of a function   
    
 ```javascript

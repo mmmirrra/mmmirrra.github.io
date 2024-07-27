@@ -41,7 +41,7 @@ Phenomenon (Observation, Measurement) → Data (Processing) → Information
 The process of generating information by converting data by sorting, clustering, calculating, changing expression method a set of collected data   
    
 <br />
-### Definition of a Computer   
+### Definition of the Computer   
 // 컴퓨터의 정의   
    
 // 정의된 방법에 따라 입력된 데이터를 자동으로 처리하여 정보를 생산하는 기계   

@@ -183,7 +183,7 @@ void store(int *a, int i, int e) {    // i = 3, e = 35
 ### One-dimensional array   
 // 1차원 배열   
    
-#### Definition of a one-dimensional array   
+#### Definition of the one-dimensional array   
 // 1차원 배열의 정의   
    
 // 한 줄짜리 배열을 의미하며, 하나의 인덱스로 구분됨   

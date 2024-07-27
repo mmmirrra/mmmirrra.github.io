@@ -17,7 +17,7 @@ categories: [Java]
 // - 상속은 기존 클래스의 확장 or 특화하는 것   
 // - 자식 "is-a" 부모의 관계   
 - Synthesis   
-  - Use as a data type in a data field in a new class definition of an existing class   
+  - Use as a data type in a data field in a new class definition of the existing class   
   - "has-a" relationship   
 - Inheritance   
   - Define a new class (child) using an existing class (parent)   

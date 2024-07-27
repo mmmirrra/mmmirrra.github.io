@@ -138,7 +138,7 @@ Separate Data Usage from Data Management
 // 다수 사용자 트랜잭션 처리   
    
 // 트랜잭션의 정의 : 하나의 논리적 작업을 처리하기 위한 일련의 데이터베이스 명령의 집합   
-- The definition of a transaction : a set of Database commands to handle a logical task   
+- The definition of the transaction : a set of Database commands to handle a logical task   
    
 <br />
 ### Terms related to the Database   
