@@ -29,15 +29,15 @@ categories: [Data Analysis]
 // -- 케이스 3 : [이름 : 임], [성별 : 남자], [나이 : 27], [교육정도 : .], [월수입 : 210만원]   
 - case, record : A collection of information about one survey unit in a data set   
 - variable, field : Individual properties measured from each unit of investigation   
-  - Example : A sample of 10 people from an organization is used to examine each person's name, gender, age, educational level, and monthly income   
-    - case 1 : [Name : Hong], [Gender : Male], [Age : 30], [Education : High school graduate] [Monthly income : 2 million won]   
-    - case 2 : [Name : Park], [Gender : Female], [Age : 31], [Education : College graduate], [Monthly income : 2.3 million won]   
-    - case 3 : [Name : Lim], [Gender : Male], [Age : 27], [Education : .], [Monthly income : 2.1 million won]   
+  - Example : A sample of 10 people from an organization is used to examine each person's name, gender, age, educational level, and monthly salary   
+    - case 1 : [Name : Hong], [Gender : Male], [Age : 30], [Education : High school graduate] [Monthly salary : 2 million won]   
+    - case 2 : [Name : Park], [Gender : Female], [Age : 31], [Education : College graduate], [Monthly salary : 2.3 million won]   
+    - case 3 : [Name : Lim], [Gender : Male], [Age : 27], [Education : .], [Monthly salary : 2.1 million won]   
    
 Representation of matrix form of data   
 // 데이터의 행렬 형태 표현   
    
-|Name|Gender|Age|Education|Monthly income|
+|Name|Gender|Age|Education|Monthly salary|
 |:---:|:---:|:---:|:---:|:---:|
 |Hong|Male|30|High school graduate|2 million won|
 |Park|Female|31|College graduate|2.3 million won|
