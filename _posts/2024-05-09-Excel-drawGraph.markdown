@@ -130,15 +130,15 @@ categories: [Excel]
 // - 첫 번째 상한경계값 = 하한경계값 + 계급의 폭   
 // - 계급값 = <sup>(하한경계값 + 상한경계값)</sup> / <sub>2</sub>   
 // ⑤ 도구분포표 작성   
-① Count the number of data, obtain the maximum and minimum values of the data   
-② Determining the number of classes : √n ± 2 ~ 3 (usually 5 to 20)   
-③ the determination of the breadth of the class   
+- ① Count the number of data, obtain the maximum and minimum values of the data   
+- ② Determining the number of classes : √n ± 2 ~ 3 (usually 5 to 20)   
+- ③ the determination of the breadth of the class   
     - The breadth of the class = <sup>(maximum - minimum)</sup> / <sub>Number of classes</sub>   
-④ Obtain the boundary and median values of the rank   
+- ④ Obtain the boundary and median values of the rank   
     - First lower bound = minimum - (<sup>minimum unit of measurement</sup> / <sub>2</sub>)   
     - First upper bound = lower bound + the breadth of the class   
     - Class value = <sup>(lower bound + upper bound)</sup> / <sub>2</sub>   
-⑤ Create a frequency distribution table   
+- ⑤ Create a frequency distribution table   
    
 <br />
 ### Histogram   
