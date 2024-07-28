@@ -132,7 +132,7 @@ categories: [Database Systems]
 // - F에서 X → A를 X의 진부분집합 Y에 대하여 Y → A로 교체했을 때, 그 집합이 F와 동등한 집합이 불가능   
 // - F에서 어떤 함수적 종속성을 제거했을 때, 그 집합이 F와 동등한 집합이 불가능   
 - Closure extended to functional dependency inference rules include self-evident dependencies and duplicate dependencies   
-  - Self-evident dependency : The meaning of "A → A" is obvious   
+  - Self-evident dependency : The meaning of 'A → A' is obvious   
   - Duplicate dependencies : X → AB and X → B exist many times   
 - Normalization is performed after conversion to a standard form that removes unnecessary functional dependencies   
 - Standard form conditions   
