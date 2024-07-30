@@ -1,133 +1,90 @@
 ---
 layout: post
 title:  "Multimedia System: Overview"
-date:   2024-03-08 09:00:00 +0900
+date:   2023-08-01 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
-### Define Multimedia   
-// 멀티미디어의 정의   
+### Definition of multimedia   
    
-// 여러 (multi) 매체 (media) 라는 의미   
-// 텍스트, 사운드, 이미지, 그래픽, 비디오, 애니메이션 등의 여러 미디어들을 이용하여 표현되는 정보   
-- the meaning of multiple media   
+- Meaning of multi media   
 - Information expressed using various media such as text, sound, images, graphics, video, animation, etc.   
    
-#### Multimedia Content   
-// 멀티미디어 콘텐츠   
+#### Multimedia content   
    
-// 멀티미디어가 갖는 궁극적인 가치   
-// 멀티미디어 데이터로 구성   
-- The ultimate value of Multimedia   
-- Organize with Multimedia data   
+- The ultimate value of multimedia   
+- Composed of Multimedia data   
    
 #### Media data   
-// 미디어 데이터   
    
-// 원시 미디어   
-// - 가공되지 않은 미디어   
-// - 자연 그대로의 물리적 요소 : 종이, 돌, 잉크, 그림, 음악 등   
-// 디지털 미디어   
-// - 컴퓨터에 의존   
-// - 디지털 이미지, 디지털 비디오, 디지털 오디오 등   
 - Raw media   
   - Unprocessed media   
   - Natural physical elements : paper, stone, ink, painting, music, etc.   
 - Digital media   
-  - Computer dependence   
-  - Digital images, digital videos, digital audio, etc.   
+  - Rely on computers   
+  - Digital image, digital video, digital audio, etc.   
    
 #### Multimedia data   
-// 멀티미디어 데이터   
    
-// 디지털 미디어들의 결합된 형태   
-// 다양하게 표현 가능한 미디어를 컴퓨터가 읽을 수 있는 형태로 표현한 것   
-// 텍스트, 사운드, 이미지, 그래픽, 미디오, 애니메이션 등   
-- A combined form of digital media   
-- A computer-readable representation of a variety of expressive media   
-- text, sound, image, graphics, media, animation, etc.   
+- Combined form of digital media   
+- Expressing media that can be expressed in various ways in a computer-readable form   
+- Text, sound, image, graphic, media, animation, etc.   
    
 <br />
-### The process of Multimedia development   
-// 멀티미디어의 발전과정   
+### Background of multimedia development   
    
-// 1. 컴퓨터 성능의 향상   
-// 2. 멀티미디어 관련 기술의 발전   
-1. Computer Performance Improvement   
-2. Advancement of Multimedia-related technologies   
+① Improvement of computer performance   
+② Advancement of multimedia related technologies   
    
-#### Computer Performance Improvement   
-// 컴퓨터 성능의 향상   
+#### Improvement of computer performance   
    
-// 멀티미디어 데이터 처리를 위해서는 컴퓨터의 성능이 중요   
-// - 멀티미디어 데이터가 컴퓨터에 저장될 때는 엄청난 양의 기억장소가 필요   
-// - 많은 양의 정보를 실시간에 처리하기 위해서는 빠른 컴퓨터의 처리속도가 필요   
-- Computer performance is important for Multimedia data processing   
-  - When Multimedia data is stored on a computer, a huge amount of storage is required   
-  - In order to process a large amount of information in real time, a fast computer processing speed is required   
+- Computer performance is important for processing multimedia data   
+  - When Multimedia data is stored on a computer, a huge amount of memory is required   
+  - In order to process large amounts of information in real time, fast computer processing speed is required   
    
-Memory Capacity by Multimedia Data Type   
-// 멀티미디어 데이터 종류에 따른 메모리 용량   
+- Memory capacity according to multimedia data type   
    
-|Types of Multimedia Data|Memory Capacity|
+|Types of multimedia data|Memory capacity|
 |:---|:---|
-|1 sheet of A4 paper text|0.002MB|
-|1 image (still image)|1MB|
-|One minute of CD audio-level music|10MB|
-|Video (Video) One second|27MB|
+|1 sheet of A4 paper text|0.002 MB|
+|1 image (still image)|1 MB|
+|1 minute of CD audio quality music|10 MB|
+|Video (movie) 1 second|27 MB|
    
-// MPC (Multimedia PC) : 멀티미디어가 처리될 수 있는 PC   
-- MPC (Multimedia PC) : PC where Multimedia can be processed   
+- MPC (Multimedia PC) : A PC that can process multimedia   
    
-#### Advancement of Multimedia-related technologies   
-// 멀티미디어 관련 기술의 발전   
+#### Development of multimedia related technologies   
    
-// 저장매체 기술의 발전   
-// - CD (Compact Disc)   
-// -- 약 650MB의 데이터 저장용량   
-// -- 다른 기억장치에 비해 매우 값싼 저장장치   
-// - DVD (Digital Video Disc)   
-// -- 고해상도의 영화 한편을 스테레오 사운드 수준으로 저장할 수 있는 용량을 가진 저장매체   
-// - 블루레이 디스크 (Blu-ray Disc)   
-// -- 고선명 (HD) 비디오를 위한 디지털 데이터를 저장할 수 있는 광 기록방식 저장매체   
-// -- 용량은 DVD의 5배 정도   
-- Advances in Storage Media Technology   
+- Development of storage media technology   
   - CD (Compact Disc)   
-    - About 650MB of data storage   
-    - Very cheap storage compared to other memory devices   
+    - Approximately 650 MB of data storage capacity   
+    - Very cheap storage device compared to other storage devices   
   - DVD (Digital Video Disc)   
     - A storage medium with the capacity to store a high-resolution movie at the stereo sound level   
   - Blu-ray Disc   
-    - An optical recording type storage medium capable of storing digital data for high definition (HD) videos   
-    - It's about five times the size of a DVD   
+    - Optical recording storage medium that can store digital data for high-definition (HD) video   
+   - Capacity is about 5 times that of DVD   
    
-// 멀티미디어의 표준화 제정   
-// - 멀티미디어 기술이 발전하고 데이터의 호환요구가 증가함에 따라 자연히 표준화의 필요성이 대두   
-// - 멀티미디어 분야의 표준은 다양   
-// -- 멀티미디어 데이터의 압축과 복원에 관한 표준   
-// -- 데이터의 전송에 관한 표준   
-// -- 인터넷 웹에 관련한 표준 등   
-- Standardization of Multimedia   
-  - As Multimedia technology advances and data compatibility needs increase, the need for standardization naturally emerges   
-  - Multimedia standards vary   
-    - Standards for Compression and Restoration of Multimedia Data   
+- Establishment of multimedia standardization   
+  - As multimedia technology develops and data compatibility requirements increase, the need for standardization naturally arises   
+  - There are various standards in the multimedia field   
+    - Standards for compression and restoration of multimedia data   
     - Standards for data transmission   
-    - Standards related to the Internet Web, etc.   
+    - Internet web related standards, etc.   
    
-Representative Multimedia-Related Technologies   
-// 대표적인 멀티미디어 관련 기술   
+- Representative multimedia-related technologies   
    
-|// 멀티미디어 관련 장치 및 기술<br />Multimedia related devices and technologies|// 설명<br />Description|
+|Multimedia-related devices and technologies|Explanation|
 |:---|:---|
-|// 저장매체<br />Storage media|// CD, DVD, 블루레이 디스크 등<br />CD, DVD, Blu-ray Disc, etc.|
-|// 멀티미디어 관련 주변장치<br />multimedia-related peripherals|// 사운드 카드, 그래픽/비디오 가속 보드 등<br />Sound card, graphics/video acceleration board, etc.|
-|// 데이터 압축 및 복원 기술<br />Data compression and restoration technology|JPEG, MPEG, MP3, etc.|
-|// 아날로그-디지털 데이터 변환 기술<br />analog-to-digital data conversion technology|PCM, ADPCM, etc.|
-|// 멀티미디어 소프트웨어 도구의 개발<br />Development of Multimedia software tools|// 멀티미디어 편집도구와 저작도구 등<br />Multimedia editing tools and authoring tools, etc.|
-|// 하이퍼미디어 기술<br />Hypermedia technology|HTML, XML, DHTML, etc.|
-|// 멀티미디어 정보의 호환을 위한 표준화<br />Standardization for compatibility of Multimedia information|JPEG, MPEG, XML, SMIL, SVG, etc.|
-|// 멀티미디어 통신 기술<br />Multimedia communication technology|// 이동통신, 무선인터넷 등<br />Mobile communication, wireless Internet, etc.|
-|// 모바일 멀티미디어<br />Mobile Multimedia|WAP, WML, etc.|
+|Storage medium|CD, DVD, Blu-ray disc, etc.|
+|Multimedia-related peripherals|Sound card, graphics / video acceleration board, etc.|
+|Data compression and restoration technology|JPEG, MPEG, MP3, etc.|
+|Analog-to-digital data conversion technology|PCM, ADPCM, etc.|
+|Development of multimedia software tools|Multimedia editing tools and authoring tools, etc.|
+|Hypermedia technology|HTML, XML, DHTML, etc.|
+|Standardization for compatibility of multimedia information|JPEG, MPEG, XML, SMIL, SVG, etc.|
+|Multimedia communication technology|Mobile communication, wireless internet, etc.|
+|Mobile multimedia|WAP, WML, etc.|
    
 // 인간과 컴퓨터의 상호작용 기술의 발전   
 // - 컴퓨터를 이용하여 다양한 정보를 다루기 위해서는 컴퓨터의 사용이 쉽고 편리해야 함   
