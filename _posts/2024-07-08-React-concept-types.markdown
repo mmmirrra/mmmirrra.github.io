@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React: concept: @types How to use it"
-date:   2023-08-07 09:00:00 +0900
+date:   2024-07-08 09:00:00 +0900
 categories: [React]
 ---
 

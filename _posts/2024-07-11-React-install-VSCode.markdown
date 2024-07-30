@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React: First installation - in VSCode"
-date:   2024-01-14 09:00:00 +0900
+date:   2024-07-11 09:00:00 +0900
 categories: [React]
 ---
 
