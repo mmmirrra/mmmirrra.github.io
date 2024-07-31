@@ -120,187 +120,109 @@ categories: [Multimedia System]
    
 #### Digitalization of information   
    
-// 멀티미디어가 컴퓨터에서 처리되기 위해서는 정보가 디지털화되어야 함   
-- Information must be digitized in order for Multimedia to be processed on a computer   
+- In order for multimedia to be processed on computers, the information must be digitized   
    
-// 디지털화 (digitization)   
-// - 이미지나 사운드 등의 아날로그 신호를 컴퓨터의 입력으로 사용하기 위해 디지털 형태로 변환하는 것   
-- digitization   
-  - converting analog signals, such as images and sounds, into digital forms for use as input to computers   
+- Digitization   
+  - Converting analog signals such as images or sounds into digital form for use as input to a computer   
    
-// 디지털화의 장점   
-// - 아날로그 데이터로 존재할 때 보다 데이터의 가공과 편집이 용이   
-// - 데이터의 전송이나 출력에 의한 데이터의 품질 저하를 방지   
-// - 디지털 데이터로 존재하기 때문에 랜덤 액세스가 가능하여 원하는 데이터의 검색이 용이   
-- Benefits of Digitalization   
-  - Easier to process and edit data than exists as analog data   
-  - Avoid data quality degradation due to data transfer or output   
-  - Because it exists as digital data, random access is possible, and search for the desired data is easy   
+- Advantages of digitalization   
+  - Easier to process and edit data than when it exists as analog data   
+  - Prevent data quality deterioration due to data transmission or output   
+  - Because it exists as digital data, random access is possible, making it easy to search for desired data   
    
 #### Integration of information   
-// 정보의 통합   
    
-// 여러 종류의 미디어 매체들이 통합되어 동적인 정보를 전달할 수 있는 특성   
-// - 과거에는 텍스트, 이미지, 소리, 동영상이 각각의 전용장치에서만 이용 가능   
-// - 최근에는 멀티미디어 데이터 정보처리기술로 인해 하나의 소프트웨어나 장치를 통해 다양한 형태의 정보를 동시에 저장하고 조작할 수 있음   
-// - 따라서 그래픽, 오디오, 비디오, 텍스트 등의 멀티미디어 데이터를 광범위하게 통합하여 사용자에게 훨씬 더 효과적인 정보 전달 가능   
-- Characteristics of integrating different types of media media to deliver dynamic information   
-  - Text, images, sounds, and videos were previously only available on each dedicated device   
-  - Recently, Multimedia data information processing technology allows you to store and manipulate various types of information simultaneously through one software or device   
-  - This enables the broad integration of Multimedia data, such as graphics, audio, video, and text, to deliver much more effective information to users   
+- The ability to deliver dynamic information by integrating various types of media   
+  - In the past, text, images, sounds, and videos were only available on each dedicated device   
+  - Recently, thanks to multimedia data information processing technology, various types of information can be stored and manipulated simultaneously through a single software or device   
+  - Therefore, it is possible to deliver information to users much more effectively by integrating a wide range of multimedia data such as graphics, audio, video, and text   
    
 #### Interaction of information   
-// 정보의 상호작용   
    
-// 개별 사용자의 요구에 맞게 사용자가 원하는 형태로 데이터를 만들어주는 특성   
-// - 주문형 비디오 : VOD (Video On Demand)   
-// - 주문형 음악 : MOD (Music On Demand)   
-// - 주문형 게임 : GOD (Game On Demand)   
-// - 주문형 뉴스 : NOD (News On Demand)   
-// - 인터넷 프로토콜 텔레비전 : IPTV (Internet Protocal Television)   
-// -- 주문형 비디오나 기존 웹에서 이루어지던 정보검색과 쇼핑, VoIP (Voice over Internet Protocal) 등과 같은 인터넷 서비스를 부가적으로 제공   
-- Characteristics of creating data in the form that users want to meet the needs of individual users   
-  - VOD (Video On Demand)   
-  - MOD (Music On Demand)   
-  - GOD (Game On Demand)   
-  - NOD (News On Demand)   
-  - IPTV (Internet Protocal Television)   
-    - Additional Internet services such as video on demand or information retrieval, shopping, VoIP, etc. from the existing web   
+- Characteristics that create data in the form desired by the user to suit the needs of individual users   
+  - Video On Demand (VOD)   
+  - Music On Demand (MOD)   
+  - Game On Demand (GOD)   
+  - News On Demand (NOD)   
+  - Internet Protocal Television (IPTV)   
+    - It additionally provides Internet services such as information search, shopping, VoIP (Voice over Internet Protocol) that were previously available on the web, or on-demand video services   
    
 #### Sharing of information   
-// 정보의 공유   
    
-// 멀티미디어 정보가 인터넷상에서 많은 사용자에 의하여 공유   
-// - 검색사이트와 포털   
-// -- 방대한 자료를 한데 모아서 하나의 묶으로 제공함으로써 많은 사용자들이 모이고, 정보를 공유   
-// - 월드 와이드 웹 (www : World Wide Web, 줄여서 Web) 의 발전   
-// -- 정보의 공유에 대한 개념이 더욱 확산됨   
 - Multimedia information is shared by many users on the Internet   
   - Search sites and portals   
-    - Gather and share information by bringing together vast amounts of data and providing them in a single bundle   
-  - Advances in the World Wide Web (www : World Wide Web, Web for short)   
-    - The concept of sharing information spreads further   
+    - By gathering a vast amount of data and providing it in one bundle, many users can gather and share information   
+  - Development of the World Wide Web (WWW : Web for short)   
+    - The concept of information sharing is becoming more widespread   
    
-// 팀 버너스 리 (Tim Berners-Lee)   
-// - 오늘날의 웹을 웹 2.0으로 정의   
-// - 웹 2.0 : 데이터의 소유자나 독점자 없이 누구나 손쉽게 데이터를 생성하고 인터넷에서 공유할 수 있도록 한, 사용자 참여 중심의 인터넷 환경   
 - Tim Berners-Lee   
-  - Define today's Web as Web 2.0   
-  - Web 2.0 : User engagement-driven Internet environment that makes it easy for anyone to create and share data on the Internet without the owner or monopoly of the data   
+  - Defining today's web as Web 2.0   
+  - Web 2.0 : It is a user-centered Internet environment that allows anyone to easily create data and share it on the Internet without the owner or monopolist of the data.   
    
 <br />
-### Multimedia Ccontent   
-// 멀티미디어 콘텐츠   
+### Multimedia content   
    
-#### Define Multimedia Content   
-// 멀티미디어 콘텐츠의 정의   
+#### Definition of multimedia content   
    
-// 텍스트, 사운드, 이미지 등의 멀티미디어 데이터를 디지털화 하여 생상되고 처리된 각종 정보, 또는 그 내용물   
-- Various information generated and processed by digitizing Multimedia data such as text, sound, and image, or its contents   
+- Various information or contents produced and processed by digitizing multimedia data such as text, sound, and images   
    
-// 예시   
-// - 인터넷에서 제공되는 각종 프로그램이나 정보 내용물   
-// - 비디오테이프나 CD에 담긴 영화나 음악   
-// - 전자출판 등의 출판물   
-// - 영화나 광고와 같은 영상   
-// - 각종 게임과 온라인 또는 네트워크 형태로 제공되는 멀티미디어 서비스 등   
 - Example   
-  - The contents of various programs or information provided on the Internet   
-  - A movie or music on a videotape or CD   
-  - Publications such as electronic publications   
-  - A video such as a movie or commercial   
-  - Various games and Multimedia services provided online or on the network, etc.   
+  - Various programs or information provided on the Internet   
+  - Movies or music on video tapes or CDs   
+  - Publications such as electronic publishing   
+  - Videos such as movies or advertisements   
+  - Various games and multimedia services provided online or through networks, etc.   
    
-#### Features of Multimedia Content   
-// 멀티미디어 콘텐츠의 특징   
+#### Characteristics of multimedia content   
    
-// 디지털 데이터   
-// - 기존의 콘텐츠가 아날로그 위주인데 반해 멀티미디어 콘텐츠는 디지털 데이터로 구성   
-// 정보의 상호 작용   
-// - 사용자와 정보 제공자가 양방향으로 정보를 주고 받는, 즉 생산소비자 (프로슈머 : prosumer) 의 경향을 보임   
-// 시공간 제약의 완화   
-// - 인터넷의 발달로 인해 시간과 공간의 제약이 완화되어 정보의 확장이 가능   
-// 정보에 대한 비선형적인 접근   
-// - 책을 읽는 것처럼 순차적으로 정보를 받아들이는 것이 아니라 개개인의 능력에 따라 정보의 습득이 비선형적으로 되어 정보 습득경로가 다양해짐   
 - Digital data   
-  - While traditional content is focused on analog, Multimedia content consists of digital data   
+  - While existing content is mainly analog, multimedia content consists of digital data   
 - Interaction of information   
-  - Users and information providers exchange information in both directions, that is, they tend to be production consumers (prosumer)   
-- Relaxation of space-time constraints   
-  - Internet development eases time and space constraints to expand information   
-- A nonlinear approach to information   
-  - Rather than accepting information sequentially like reading a book, information acquisition becomes nonlinear according to individual abilities, and the information acquisition path is diversified   
+  - Users and information providers exchange information in two directions, that is, they tend to be prosumers   
+- Relaxation of space and time constraints   
+  - Due to the development of the Internet, restrictions on time and space have been eased, allowing for the expansion of information   
+- Non-linear access to information   
+  - Rather than receiving information sequentially like reading a book, the acquisition of information becomes non-linear depending on each individual's ability, so the path to acquiring information becomes diverse   
    
-#### Types of Multimedia Content   
-// 멀티미디어 콘텐츠의 종류   
+#### Types of multimedia Content   
    
-// 정보제공이나 교육, 홍보, 엔터테인먼트 등을 위한 콘텐츠   
-// 문화와 정보기술의 만남인 문화 콘텐츠   
-// 사용자와의 상호작용을 도모하는 콘텐츠 등   
 - Content for information provision, education, promotion, entertainment, etc.   
 - Cultural content, the meeting of culture and information technology   
 - Content that promotes interaction with users, etc.   
    
-// 내용 구성으로 본 콘텐츠   
-// - 정보제공 콘텐츠, 교육 콘텐츠, 홍보 콘텐츠, 엔터테인먼트 콘텐츠 등   
-- Content viewed as content configuration   
-  - Information-provided content, educational content, promotional content, entertainment content, etc.   
+- Content viewed through content structure   
+  - Informational content, educational content, promotional content, entertainment content, etc.   
    
-// 문화 콘텐츠   
-// - 예술, 디자인, 인문사회학 등의 문화적 요소를 창의성과 기술을 바탕으로 디지털화한 콘텐츠   
 - Cultural content   
-  - Content that digitizes cultural elements such as art, design, and humanities and sociology based on creativity and technology   
+  - Content that digitizes cultural elements such as art, design, humanities and social sciences based on creativity and technology   
    
-// 상호작용을 위한 콘텐츠   
-// - 사용자와의 상호작용이 가능한 콘텐츠는 사용자의 흥미를 유발시키고 참여를 유도하는 효과를 얻을 수 있음   
-- Content for Interaction   
-  - Content that can interact with the user can generate user interest and engagement effects   
+- Content for interaction   
+  - Content that allows interaction with users can have the effect of arousing user interest and encouraging participation   
    
-#### Create Multimedia Content   
-// 멀티미디어 콘텐츠 제작   
+#### Multimedia content production   
    
-// 영화나 게임을 제작하는 것과 매우 유사   
-// 멀티미디어 콘텐츠를 성공적으로 제작하기 위해서는   
-// - 전문가들로 이루어진 개발 인력이 필요   
-// - 제작 목적에 맞춰진 완벽한 제작과정이 필요   
 - Very similar to making a movie or game   
-- In order to produce Multimedia content successfully   
-  - Need a development staff of experts   
-  - Need a complete production process tailored to the purpose of production   
+- In order to successfully produce multimedia content   
+  - Development staff made up of experts   
+  - A perfect production process tailored to the production purpose is required   
    
-// 제작팀의 구성원   
-// - 프로젝트 매니저 : 전반적인 관리 및 수행   
-// - 프로젝트 디자이너 : 프로젝트의 기술적인 면을 수행   
-// - 콘텐츠 전문가 : 스토리보드부터 콘텐츠 제작까지 수행   
-// - 프로그래머 : 준비된 콘텐츠를 S/W등을 이용하여 제품으로 완성   
-// - 카피라이터 : 프로젝트에 들어갈 텍스트를 준비   
-// - 그래픽 디자이너 : 제품의 시각적인 효과를 위해 준비   
-- A member of the production team   
-  - Project Manager : Overall management and performance   
-  - Project designer : To carry out the technical aspects of the project   
-  - Content expert : From storyboard to content creation   
-  - Programmers : Complete prepared content into products using S/W   
-  - Copywriter : Prepare the text for the project   
-  - Graphic designer : Prepare the visual effects of the product   
+- Production team members   
+  - Project manager : Overall management and execution   
+  - Project designer : Performs technical aspects of the project   
+  - Content expert : Performs everything from storyboard to content creation   
+  - Programmer : Completes prepared contents into products using S/W, etc.   
+  - Copywriter : Prepare text for the project   
+  - Graphic designer : Prepare graphics for visual effects of the product   
    
-// 제작 과정   
-// 1. 설계 단계   
-// 2. 요구사항 및 구조 디자인 단계   
-// 3. 스토리보드 단계   
-// 4. 콘텐츠 제작 단계   
-// 5. 저작 단계   
-// 6. 평가 단계   
-// 7. 배포 단계   
-// 8. 유지 보수 단계   
-- The production process   
-  1. design step   
-  2. Requirements and structural design step   
-  3. Storyboard step   
-  4. Content Production step   
-  5. Authoring step   
-  6. Evaluation step   
-  7. Deployment step   
-  8. Maintenance step   
+- Production process   
+  ① Design stage   
+  ② Requirements and structural design stage   
+  ③ Storyboard stage   
+  ④ Content production stage   
+  ⑤ Authoring stage   
+  ⑥ Evaluation stage   
+  ⑦ Distribution stage   
+  ⑧ Maintenance phase   
    
 <br />
-<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>Source : Department of Computer Science, Korea National Open University</cite>
