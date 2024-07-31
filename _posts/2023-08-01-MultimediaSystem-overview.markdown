@@ -86,66 +86,39 @@ categories: [Multimedia System]
 |Multimedia communication technology|Mobile communication, wireless internet, etc.|
 |Mobile multimedia|WAP, WML, etc.|
    
-// 인간과 컴퓨터의 상호작용 기술의 발전   
-// - 컴퓨터를 이용하여 다양한 정보를 다루기 위해서는 컴퓨터의 사용이 쉽고 편리해야 함   
-// - 컴퓨터를 보다 편리하고 쉽게 이용할 수 있도록 인간과 컴퓨터의 상호작용에 관한 기술이 필요   
-// - 오늘날의 컴퓨터   
-// -- 사용자에게 편리한 다양한 인터페이스 (interface) 를 제공   
-- Advancement of human-computer interaction technology   
-  - The computer should be easy and convenient to use to handle a variety of information using the computer   
-  - Technology on human-computer interaction is needed to make computers more convenient and easy to use   
-  - A recent computer   
-    - Provides users with a variety of convenient interface   
+- Advances in human-computer interaction technology   
+  - In order to use a computer to handle various information, the computer must be easy and convenient to use   
+  - Technology related to human-computer interaction is needed to make computers more convenient and easy to use   
+  - Today's Computers   
+    - Provides various user-friendly interfaces   
    
-// 인간-컴퓨터 상호작용 기술 : HCI (Human Computer Interaction)   
-// - 멀티미디어 데이터는 다양하고 큰 용량을 가지므로 일반 사용자의 정보검색은 쉽지 않음   
-// - HCI 기술은 멀티미디어 데이터의 입력, 처리, 제어 등을 상호 대화 형태의 조작이 가능하도록 함으로써 인간과 컴퓨터 간의 상호작용을 쉽고 편리하게 개선하는데 목적   
-// -- GUI (Graphical User Interface) 기술   
-// --- 사용자의 편리성 제공을 위해 그래픽스 기술이 적용된 인터페이스   
-// --- GUI 기술을 이용하여 사용자에게 보다 나은 상호작용을 지원   
-// -- 음성 인식기술, 제스처 인식기술 등   
-- HCI (Human Computer Interaction)   
-  - Multimedia data is diverse and has a large capacity, making it difficult for general users to search information   
-  - HCI technology aims to improve human-computer interaction easily and conveniently by enabling interactive manipulation of Multimedia data input, processing, and control   
-    - GUI (Graphical User Interface)   
-      - Interface with graphics technology for user convenience   
-      - Use GUI technology to better interact with users   
-    - Speech recognition technology, gesture recognition technology, etc.   
+- Human Computer Interaction (HCI) technology   
+  - Multimedia data is diverse and has a large capacity, so it is not easy for general users to search for information   
+  - HCI technology aims to improve the interaction between humans and computers easily and conveniently by enabling interactive manipulation of multimedia data input, processing, and control   
+    - Graphical User Interface (GUI) technology   
+      - Interface with graphics technology to provide user convenience   
+      - Supports better user interaction using GUI technology   
+    - Voice recognition technology, gesture recognition technology, etc.   
    
-// 정보통신기술의 발전   
-// - 멀티미디어 데이터를 생성하는 데는 많은 비용과 시간이 필요   
-// - 따라서 멀티미디어 정보의 공유는 효율성이나 경제성 측면에서 매우 중요   
-// -- 저장매체를 이용한 멀티미디어 데이터의 저장과 공유는 한계가 있음   
-// -- 따라서 데이터 전송을 위한 정보통신망의 발전은 멀티미디어 활용을 위해 필수   
-// - 멀티미디어 활용 영역의 대부분은 인터넷 환경에서 이루어짐   
-// -- 대화형 인터넷 쇼핑, 온라인 게임, 주문형 비디오, 화상회의, 원격의료, 가상대학 등   
-// - 결국 멀티미디어 활용을 위해서는 정보통신망의 발전은 필수 요소   
-// -- 특히 초고속 정보통신망의 구축은 매우 중요   
-- Advancement of information and communication technology   
-  - Creating Multimedia data is costly and time consuming   
-  - Therefore, sharing Multimedia information is very important in terms of efficiency and economy   
-    - Storage and sharing of Multimedia data using storage media is limited   
-    - Therefore, the development of information and communication networks for data transmission is essential for the use of multimedia   
-  - The majority of Multimedia utilization is done in an Internet environment   
-    - Interactive Internet shopping, online gaming, video on demand, video conferencing, telemedicine, virtual universities, etc.   
-  - After all, the development of information and communication networks is essential for the use of Multimedia   
-    - In particular, the establishment of high-speed information and communication networks is very important   
+- Advances in information and communication technology   
+  - Generating multimedia data requires a lot of money and time   
+  - Therefore, sharing multimedia information is very important in terms of efficiency and economics   
+    - There are limits to storing and sharing multimedia data using storage media   
+    - Therefore, the development of information and communication networks for data transmission is essential for multimedia utilization   
+  - Most areas of multimedia use take place in the internet environment   
+    - Interactive internet shopping, online games, video on demand, video conferencing, telemedicine, virtual university, etc.   
+  - Ultimately, the development of information and communication networks is essential for the use of multimedia   
+    - In particular, the establishment of a high-speed information and communication network is very important   
    
 <br />
-### Characteristics of Multimedia   
-// 멀티미디어의 특성   
+### Characteristics of multimedia   
    
-// 1. 정보의 디지털화 : 멀티미디어 데이터를 컴퓨터에서 사용하기 위해서는 디지털화가 필요   
-// 2. 정보의 통합 : 효과적인 정보 전달을 위해서는 멀티미디어 데이터를 통합하여 사용   
-// 3. 정보의 상호작용 : 개별 사용자의 요구에 맞게 원하는 형태로 데이터를 구성   
-// 4. 정보의 공유 : 인터넷으로 인한 정보의 독점이 없어지고 서로 연결된 열린 지식 형태   
-1. Digitalization of information : Digitalization is required to use Multimedia data on a computer   
-2. Integration of information : Integrate Multimedia data for effective information delivery   
-3. Interaction of information : Organize data in a form that meets the needs of individual users   
-4. Sharing of information : Open forms of knowledge that are connected to each other without the monopoly of information due to the Internet   
+① Digitalization of information : Multimedia data needs to be digitized for use on computers   
+② Integration of information : Use integrated multimedia data to effectively convey information   
+③ Interaction of information : Organize data in the desired form to suit individual user needs   
+④ Sharing of information : The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge   
    
 #### Digitalization of information   
-// 정보의 디지털화   
    
 // 멀티미디어가 컴퓨터에서 처리되기 위해서는 정보가 디지털화되어야 함   
 - Information must be digitized in order for Multimedia to be processed on a computer   
