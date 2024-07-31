@@ -115,119 +115,69 @@ categories: [Multimedia System]
   - A semi-permanent medium that stores signals by carving a groove in a thin aluminum film with a laser and reads the signals with a laser, so there is no damage to the data   
   - Recently, with the spread of DVDs with large storage capacity, they are used as an inexpensive content distribution medium rather than as a storage device   
    
-// CD의 종류   
-// - CD-R (CD-Recordable)   
-// -- 데이터가 없는 상태의 CD로서 1회만 쓸 수 있음   
-// - CD-ROM (CD-Read Only Memory)   
-// -- 읽기 전용 CD로서, 데이터를 지우거나 추가할 수 없음   
-// - CD-RW (CD-ReWritable)   
-// -- 약 1,000번 이상 기록과 삭제가 가능, 백업용 매체로 사용   
-- Types of CD   
+- Types of CDs   
   - CD-R (CD-Recordable)   
-    - Can only be used once as a data-free CD   
+    - This is a CD with no data and can only be used once   
   - CD-ROM (CD-Read Only Memory)   
-    - Read-only CD, unable to erase or add data   
+    - As a read-only CD, data cannot be erased or added to   
   - CD-RW (CD-ReWritable)   
-    - Record and delete about 1,000 times. Used as a backup medium   
+    - Can be recorded and deleted over 1,000 times, used as a backup medium   
    
-// CD-ROM 배속   
-// - CD-ROM으로부터 주기억장치로의 데이터 전송속도   
-// - 초기의 CD-ROM의 1배속은 150Kbps   
-// - 이후 16, 32, 48, 52배속 등의 개발로 전송속도 향상   
-// - 예시 : 48배속 CD 드라이브란?   
-// -- 150Kbps x 48 = 7,200Kbps의 전송속도를 의미   
 - CD-ROM speed   
-  - Data transfer rate from CD-ROM to main memory   
-  - 1x the initial CD-ROM is 150Kbps   
-  - Since then, developments such as 16, 32, 48, 52x speed have improved transmission speed   
-  - Example : What is a 48x CD drive?   
-    - 150 Kbps x 48 = 7,200 Kbps transmission speed   
+  - Data transfer speed from CD-ROM to main memory   
+  - The initial speed of CD-ROM was 150 Kbps   
+  - Afterwards, transfer speeds were improved with the development of 16, 32, 48, and 52x speeds   
+  - Example) What is a 48x CD drive?   
+    - 150 Kbps x 48 = Means transfer speed of 7,200 Kbps   
    
-// 차세대 DVD   
-// - 블루레이 (blu-ray) 디스크   
-// -- 최고 50GB 저장용량   
-// -- 삼성, LG, 소니 등이 주축으로 개발   
-// -- 2002년 표준규격 통일   
-// - HD-DVD   
-// -- 최고 25GB 저장용량   
-// -- 도시바, NEC를 주축으로 개발   
-// -- 2008년 개발 포기   
-- Next Generation DVD   
+- Next generation DVD   
   - Blu-ray Disk   
-    - Up to 50GB storage   
-    - Developed mainly by Samsung, LG, and Sony   
-    - 2002 Unification of Standards   
+    - Up to 50 GB storage capacity   
+    - Developed mainly by Samsung, LG, Sony, etc.   
+    - Unification of standards in 2002   
   - HD-DVD   
-    - Up to 25GB storage   
-    - Developed by Toshiba and NEC   
-    - 2008 Abandonment of Development   
+    - Up to 25 GB storage capacity   
+    - Development led by Toshiba and NEC   
+    - Development abandoned in 2008   
    
 <br />
 ### Software   
-// 소프트웨어   
    
 #### Software for multimedia   
-// 멀티미디어를 위한 소프트웨어   
    
-// 멀티미디어 운영체제   
-// 멀티미디어 데이터베이스 시스템   
-// 멀티미디어 처리 소프트웨어   
-- Multimedia Operating System   
-- Multimedia Database System   
-- Multimedia Processing Software   
+- Multimedia operating system   
+- Multimedia database system   
+- Multimedia processing software   
    
-#### Multimedia Operating System   
-// 멀티미디어 운영체제   
+#### Multimedia operating system   
    
-// 가장 중요한 역할을 수행   
-// 사용자가 손쉽게 하드웨어를 설치하고 관리할 수 있도록 함   
-// 멀티미디어 장치와 편집 소프트웨어, 저작도구간의 인터페이스 제공   
-- Playing the most important role   
+- Plays the most important role   
 - Allows users to easily install and manage hardware   
-- Provides an interface between multimedia device, editing software, and authoring tools   
+- Provides interfaces between multimedia devices, editing software, and authoring tools   
    
-// 윈도우 (Windows)   
-// - DOS 운영체제는 멀티미디어 활용이 불편   
-// - 윈도우 운영체제는 GUI 환경을 통하여 손쉬운 멀티미디어 사용 가능   
-// - 플러그 앤 플레이 (plug & play) 기술을 통해 편리한 멀티미디어 환경 조성   
-// - 멀티태스킹 (multitasking) 기능 지원   
 - Windows   
-  - DOS operating system is inconvenient to use multimedia   
-  - Windows operating system enables easy multimedia use through GUI environment   
-  - Create a convenient multimedia experience with plug & play technology   
-  - Support for multitasking capabilities   
+  - DOS operating system is difficult to use multimedia   
+  - Windows operating system allows easy multimedia use through GUI environment   
+  - Creating a convenient multimedia environment through plug & play technology   
+  - Supports multitasking function   
    
-#### Multimedia Database System   
-// 멀티미디어 데이터베이스 시스템   
+#### Multimedia database system   
    
-// 기존 데이터베이스 시스템   
-// - 숫자와 문자 데이터를 대상으로 처리   
-// 멀티미디어 데이터베이스 시스템   
-// - 숫자나 문자 뿐만 아니라 멀티미디어 데이터를 효율적으로 저장, 검색할 수 있는 시스템   
-// - 미디어 개체의 내용을 근거로 설명을 작성하고, 그 설명을 저장 : 메타 데이터   
-// - 대용량의 저장공간이 필요   
-- Existing database systems   
-  - Processing numeric and character data to target   
-- Multimedia Database System   
-  - A system that can efficiently store and search multimedia data as well as numbers and letters   
-  - Create a description based on the content of the media object and save the description : Metadata   
-  - Requires a large amount of storage   
+- Existing database system   
+  - Processes numeric and character data   
+- Multimedia database system   
+  - A system that can efficiently store and search not only numbers and characters but also multimedia data   
+  - Create a description based on the contents of the media object and store that description : Metadata   
+  - Requires large storage space   
    
-// 메타 데이터베이스   
-// - 메타 데이터로 이루어진 데이터베이스   
-- Meta Database   
-  - Database consisting of Metadata   
+- Meta database   
+  - Database made up of metadata   
    
-// 메타 데이터   
-// - 데이터에 관한 데이터 (data about data)   
-// - 정보 자원을 설명하는 요소들의 집합   
-// - 도서관의 카드, 인덱스, 카탈로그 등이 하나의 예시   
-// -- 도서관의 카드에는 메타 데이터인 제목, 저자, 주제분류, 책꽂이 마크 등의 정보가 포함   
-- Meta Data   
-  - Data about Data   
+- Metadata   
+  - Data about data   
   - A set of elements that describe an information resource   
-  - A library's card, index, catalog, etc. are one example   
-    - The library's cards contain information such as metadata titles, authors, subject classifications, and shelf marks   
+  - Library cards, indexes, catalogs, etc. are one example   
+    - Library cards contain metadata such as title, author, subject classification, and bookshelf mark   
    
 // 메타 데이터의 기능   
 // - 정보자원의 접근과 탐색   
