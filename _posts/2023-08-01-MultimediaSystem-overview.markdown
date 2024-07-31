@@ -166,7 +166,7 @@ categories: [Multimedia System]
    
 - Various information or contents produced and processed by digitizing multimedia data such as text, sound, and images   
    
-- Example   
+- e.g.   
   - Various programs or information provided on the Internet   
   - Movies or music on video tapes or CDs   
   - Publications such as electronic publishing   

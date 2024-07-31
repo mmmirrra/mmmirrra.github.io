@@ -5,193 +5,115 @@ date:   2023-08-02 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
-### Multimedia System Environment   
-// 멀티미디어시스템 환경   
+### Multimedia system environment   
    
-// 멀티미디어의 목적   
-// - 멀티미디어 콘테츠를 제작하고 사용자로 하여금 이 콘텐츠를 재생할 수 있게 하는 것   
-// 멀티미디어시스템 환경   
-// - 멀티미디어에 관련된 전반적인 시스템   
-// - 멀티미디어 제작을 위한 컴퓨터시스템과 멀티미디어 서비스를 위한 통신시스템으로 구성   
-- Purpose of Multimedia   
-  - Creating multimedia content and enabling users to play this content   
-- Multimedia System Environment   
-  - Overall multimedia-related systems   
+- Purpose of multimedia   
+  - Creating multimedia content and allowing users to play this content   
+- Multimedia System environment   
+  - Overall system related to multimedia   
   - It consists of a computer system for multimedia production and a communication system for multimedia services   
    
 #### Classification of multimedia systems   
-// 멀티미디어시스템의 분류   
    
-// 저작시스템   
-// - 멀티미디어 콘텐츠를 저작할 수 있는 기능과 환경을 제공   
-// 재생시스템   
-// - 단순히 멀티미디어 콘텐츠를 이용하고 재생   
-- authoring system   
-  - Provides the ability and environment to author multimedia content   
-- presentation system   
-  - Simply use and play multimedia content   
+- Authoring system   
+  - Provides functions and environment to author multimedia content   
+- Presentation system   
+  - Simply access and play multimedia content   
    
-// - 멀티미디어 시스템 환경   
-// -- → 멀티미디어 컴퓨터시스템   
-// --- → 하드웨어   
-// ---- 미디어 처리장치   
-// ---- 입력장치   
-// ---- 출력장치   
-// ---- 저장장치   
-// --- → 소프트웨어   
-// ---- 운영체제   
-// ---- 데이터베이스 시스템   
-// ---- 멀티미디어 편집도구   
-// ---- 멀티미디어 저작도구   
-// -- → 멀티미디어 통신시스템   
-// --- → 종합정보통신망   
-// --- → 초고속 인터넷망   
-// --- → 이동통신   
-- Multimedia System Environment   
-  - → Multimedia Computer System   
+- Multimedia system environment   
+  - → Multimedia computer system   
     - → Hardware   
-      - Media Processing Equipment   
-      - Input Device   
-      - Output Device   
-      - Storage Device   
+      - Media processing device   
+      - Input device   
+      - Output device   
+      - Storage device   
     - → Software   
-      - Operating System   
-      - Database System   
-      - Multimedia Editing Tools   
-      - Multimedia Authoring Tools   
-  - → Multimedia Communication System   
-    - → Comprehensive Information and Communication Network   
-    - → High-speed Internet Network   
-    - → Mobile Communication   
+      - Operating system   
+      - Database system   
+      - Multimedia editing tools   
+      - Multimedia authoring tools   
+  - → Multimedia communication system   
+    - → Comprehensive information communication network   
+    - → High-speed internet network   
+    - → Mobile communication   
    
 <br />   
-### Multimedia Computer System   
-// 멀티미디어 컴퓨터시스템   
+### Multimedia computer system   
    
-// 멀티미디어 콘덴츠를 제작하고 재생하는 하드웨어 환경과 소프트웨어 환경을 합쳐서 멀티미디어 컴퓨터 시스템 또는 멀티미디어 플랫폼 (Multimedia Platform) 이라고 함   
-// 멀티미디어 컴퓨터시스템은 하나의 멀티미디어 콘텐츠를 제작하기 위해 필요한 하드웨어와 소프트웨어로 구성되어 있음   
-- The hardware and software environments that produce and play multimedia condensates are called multimedia computer systems or multimedia platforms   
-- A multimedia computer system consists of the hardware and software required to produce a single multimedia content   
+- The hardware and software environments that produce and play multimedia content are collectively called a multimedia computer system or multimedia platform   
+- A multimedia computer system consists of the hardware and software required to produce multimedia content   
    
-#### Equipment Required for Multimedia Computer   
-// 멀티미디어 컴퓨터의 요구 사양   
+#### Requirements for multimedia computers   
    
-// 오디오/비디오 데이터를 모두 처리할 수 있는 성능의 PC   
-// 사운드 카드, 스피커, 마이크로폰, 그리고 사운드 효과를 개발하는 데 필요한 오디오 디지타이저나 오디오 편집 소프트웨어   
-// 오디오 CD를 동작시킬 수 있는 CD-ROM 드라이브   
-// 성능 높은 그래픽 카드, 비디오 보드, 고해상도 모니터   
-// CD-ROM이나 DVD의 멀티미디어 지원 소프트웨어   
-- PC with the ability to handle all audio/video data   
-- Audio digitizers or audio editing software needed to develop sound cards, speakers, microphones, and sound effects   
-- CD-ROM drive that can operate an audio CD   
-- High-performance graphics cards, video boards, high-resolution monitors   
-- Multimedia-enabled software on a CD-ROM or DVD   
+- A PC capable of processing both audio/video data   
+- A sound card, speakers, microphone, and audio digitizer or audio editing software needed to develop sound effects   
+- CD-ROM drive that can play audio CDs   
+- High-performance graphics card, video board, high-resolution monitor   
+- Multimedia support software on CD-ROM or DVD   
    
 <br />
 ### Hardware   
-// 하드웨어   
    
-#### Media Processing Equipment   
-// 미디어 처리장치   
+#### Media processing device   
    
-// 디지털 미디어 장비   
-// - 캡처 : 원시자료를 디지털로 표현 (예시 : 스캐너, 디지타이저 등)   
-// - 프레젠테이션 : 원시자료를 재구성하여 보여주는 것 (예시 : 프린터, 모니터 등)   
-// - 프로세싱 : 디지털 신호와 사운드 및 이미지를 처리 (예시 : 인코더, 디코더 등)   
-// 아날로그 미디어 장비   
-// - 소스 (source) : 아날로그 신호를 생성 (예시 : 마이크로폰)   
-// - 싱크 (sink) : 출력 생성 (예시 : 스피커)   
-// - 필터 (filter) : 특성 변환 (예시 : 오디오 믹서)   
-- Digital Media Equipment   
+- Digital media equipment   
   - Capture : Digital representation of raw data (e.g. scanners, digitizers, etc.)   
-  - Presentation : Reconstructing and presenting raw data (e.g. printers, monitors, etc.)   
-  - Processing : Processing digital signals and sounds and images (e.g. encoders, decoders, etc.)   
-- Analog Media Equipment   
-  - Source : Generating analog signals (e.g. microphones)   
-  - Sink : Create output (e.g. speaker)   
-  - Filter : Characteristic conversion (e.g. audio mixer)   
+  - Presentation : Reorganizing and showing raw data (e.g. printer, monitor, etc.)   
+  - Processing : Processing digital signals, sounds and images (e.g. encoders, decoders, etc.)   
+- Analog media equipment   
+  - Source : Generates an analog signal (e.g. microphone)   
+  - Sink : Generate output (e.g. speaker)   
+  - Filter : Transform characteristics (e.g. audio mixer)   
    
-#### Example of Media Processing Devices   
-// 미디어 처리장치의 예시   
+#### Example of media processing device   
    
-// 그래픽 카드   
-// - 컴퓨터와 모니터를 연결하는 장치   
-// - 화면에 나타나는 정보를 저장하는 비디오 램과 그 내용을 읽어서 제어신호로 바꾸어 내보내는 영상제어회로로 구성   
-- Graphic card   
+- Graphics card   
   - A device that connects a computer to a monitor   
-  - It consists of a video RAM that stores information on the screen, and an image control circuit that reads and converts the contents into a control signal and sends it out   
+  - It consists of a video RAM that stores information displayed on the screen and a video control circuit that reads the contents and converts them into control signals and outputs them   
     - MDA (Monochrome Display Adapter)   
     - CGA (Color Graphics Adapter)   
     - EGA (Enhanced Graphics Adapter)   
     - VGA (Video Graphic Array)   
-    - SVGA (Super VGA)   
+    - Evolving into SVGA (Super VGA)   
    
-// 비디오 보드   
-// - 컴퓨터의 CD 드라이브나 DVD 드라이브로부터 비디오 영상을 컴퓨터 화면에 재생   
-// -- 프레임 그래버 보드 (Frame Grabber Board) : 아날로그 영상을 디지털 영상으로 변환시켜 컴퓨터에 저장   
-// -- 비디오 오버레이 보드 (Video Overlay Board) : 컴퓨터 내부에서 생성된 이미지/그래픽 정보와 TV와 같은 외부 영상정보를 중첩하여 나타냄   
-// -- TV 수신카드 : 디지털 방송이나 DMB를 수신할 수 있는 장치   
-- Video Board   
-  - Play video images from computer's CD or DVD drive on computer screen   
-    - Frame Grabber Board : Converting analog images into digital images and storing them on a computer   
-    - Video Overlay Board : Superimposed image/graphical information generated inside the computer with external image information such as TV   
-    - TV Receiving Card : Devices that can receive digital broadcasting or DMB   
+- Video board   
+  - Play video images on the computer screen from the computer's CD drive or DVD drive   
+    - Frame Grabber Board : Converts analog video into digital video and stores them on the computer.   
+    - Video Overlay Board : Displays image/graphic information generated inside the computer and external video information such as TV overlapping   
+    - TV receiving card : Device that can receive digital broadcasting or DMB   
    
-// 사운드 카드   
-// - 컴퓨터의 CD 드라이브를 오디오 CD 플레이어처럼 사용할 수 있도록 하는 장치   
-// - 즉, CD에 저장된 디지털 정보를 소리정보로 해석   
-- Sound Card   
-  - A sound card is a device that can use a computer's CD drive like an audio CD player   
-  - In other words, digital information stored in CDs is interpreted as sound information   
+- Sound card   
+  - Device that allows a computer's CD drive to be used as an audio CD player   
+  - In other words, digital information stored on a CD is interpreted as sound information   
    
-// 미디 (MIDI)   
-// - Musical Instrument Digital Interface   
-// - 전자악기와 컴퓨터간의 상호 정보교환을 위한 규약   
-// - 일종의 멀티미디어 응용 장비   
-// -- 악기의 연주정보를 디지털로 통신하는 디지털 인터페이스   
 - MIDI   
   - Musical Instrument Digital Interface   
-  - Protocols for the exchange of information between electronic instruments and computers   
-  - A kind of multimedia application equipment   
-    - It is a digital interface that digitally communicates the performance information of an instrument   
+  - Protocol for mutual information exchange between electronic instruments and computers   
+  - A type of multimedia application equipment   
+    - A digital interface that digitally communicates information played by an instrument   
    
-#### Input Device   
-// 입력장치   
+#### Input device   
    
-// 소리, 영상 등의 데이터를 컴퓨터 내부로 읽어 들이는 장치   
-// - 마이크, 스캐너, 디지털 카메라, 디지털 캠코더, 디지타이저   
-- A device that reads data such as sound and video into a computer   
-  - microphone, scanner, digital camera, digital camcorder, digitizer   
+- Device that reads data such as sound and video into the computer   
+  - Microphones, scanners, digital cameras, digital camcorders, digitizers, etc.   
    
-#### Output Device   
-// 출력장치   
+#### Output device   
    
-// 멀티미디어 정보를 사용자가 이용할 수 있도록 표시하는 장치   
-// - 스피커, 모니터, 프린터, 프로젝터, HMD (Head Mounted Display)   
-- A device that displays multimedia information for users to use   
-  - Speakers, monitors, printers, projectors, head mounted displays (HMD)   
+- Device that displays multimedia information so that users can use it   
+  - Speakers, monitors, printers, projectors, HMD (Head Mounted Display), etc.   
    
-#### Storage Device   
-// 저장장치   
+#### Storage device   
    
-// 멀티미디어 데이터를 기록하기 위한 장치   
-// - CD나 DVD와 같은 대용량 저장장치가 사용   
-// - DVD-RW가 PC의 기본 사양으로 장착됨   
-- A device for recording multimedia data   
-  - Use large storage devices such as CD and DVD   
-  - DVD-RW is installed as the default specification for the PC   
+- Device for recording multimedia data   
+  - Mass storage device such as CDs and DVDs are used   
+  - DVD-RW is installed as standard specification on PC   
    
-#### Example of Storage Device   
-// 저장장치의 예시   
+#### Example of storage device   
    
-// CD (Compact Disk)   
-// - 지름 12cm의 원반에 650MB 정도의 저장 용량   
-// - 알루미늄 박막에 레이저로 홈을 파서 신호를 저장하고, 레이저로 신호를 읽기 때문에 자료의 손상이 없는 반 영구적인 매체   
-// - 최근에는 저장용량이 큰 DVD의 보급으로 저장장치의 역할보다는 가격이 저렴한 콘텐츠 배포용 매체로 사용   
 - CD (Compact Disk)   
   - A disk with a diameter of 12 cm and a storage capacity of about 650 MB   
-  - A semi-permanent medium with no damage to the data because it is laser-grooved into an aluminum thin film to store the signal and reads the signal with the laser   
-  - Recently, with the spread of large-capacity DVDs, it is used as a medium for distributing inexpensive content rather than the role of storage devices   
+  - A semi-permanent medium that stores signals by carving a groove in a thin aluminum film with a laser and reads the signals with a laser, so there is no damage to the data   
+  - Recently, with the spread of DVDs with large storage capacity, they are used as an inexpensive content distribution medium rather than as a storage device   
    
 // CD의 종류   
 // - CD-R (CD-Recordable)   
@@ -262,7 +184,7 @@ categories: [Multimedia System]
 // 멀티미디어 장치와 편집 소프트웨어, 저작도구간의 인터페이스 제공   
 - Playing the most important role   
 - Allows users to easily install and manage hardware   
-- Provides an interface between multimedia devices, editing software, and authoring tools   
+- Provides an interface between multimedia device, editing software, and authoring tools   
    
 // 윈도우 (Windows)   
 // - DOS 운영체제는 멀티미디어 활용이 불편   
