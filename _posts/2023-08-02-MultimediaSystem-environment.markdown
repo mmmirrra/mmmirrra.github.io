@@ -318,7 +318,7 @@ categories: [Multimedia System]
   - 5G mobile communication network technology is needed due to rapid changes in the mobile environment   
   - 5G is a next-generation mobile communication technology with a data transfer speed 1000 times faster than 4th generation LTE   
     - Maximum speed of LTE : 75 Mbps   
-    - 5G : 75Gbps ~ 100Gbps (Expected speed of 1 Gbps)   
+    - 5G : 75 Gbps ~ 100 Gbps (Expected speed of 1 Gbps)   
   - Effects of 5G development   
     - Providing futuristic services such as Internet of Things (IoT), augmented reality, and holograms   
   - Current status of 5G technology development   
