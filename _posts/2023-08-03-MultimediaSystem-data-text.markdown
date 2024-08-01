@@ -5,26 +5,17 @@ date:   2023-08-03 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
-### Multimedia Data   
-// 멀티미디어 데이터   
+### Multimedia data   
    
-// 텍스트, 사운드, 이미지, 그래픽, 비디오, 애니메이션   
-- text, sound, images, graphics, video, animation   
+- Text, sound, images, graphics, video, animation   
    
-// 각 멀티미디어 데이터들의 차이점   
-// - 획득방법   
-// -- 컴퓨터를 통해 획득 : 텍스트, 그래픽, 애니메이션   
-// -- 실세계에서 획득 : 사운드, 이미지, 비디오   
-// - 시공간적인 측면   
-// -- 연속적인 특성 : 사운드, 비디오, 애니메이션   
-// -- 비연속적인 특성 : 텍스트, 이미지, 그래픽   
-- The difference between each multimedia data   
-  - Acquisition method   
+- Differences between each multimedia data   
+  - How to obtain   
     - Acquired via computer : text, graphics, animation   
-    - Acquired in the real world : sound, image, video   
-  - A space-time aspect   
-    - Continuous properties : sound, video, animation   
-    - Non-continuous properties : text, images, graphics   
+    - Acquire from the real world : sound, images, video   
+  - Spatio-temporal aspects   
+    - Continuous characteristics : sound, video, animation   
+    - Non-continuous characteristics : text, images, graphics   
    
 ### Overview of text   
 // 텍스트의 개요   
