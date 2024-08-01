@@ -179,266 +179,153 @@ categories: [Multimedia System]
   - Library cards, indexes, catalogs, etc. are one example   
     - Library cards contain metadata such as title, author, subject classification, and bookshelf mark   
    
-// 메타 데이터의 기능   
-// - 정보자원의 접근과 탐색   
-// - 개체 내용의 요약   
-// - 개체 간의 의미적 상호 연동성   
-// - 자원관리   
-// - 사용자 인터페이스 방법   
-- What Metadata Can Do   
-  - Accessing and Exploring Information Resources   
-  - Summary of object content   
-  - Semantic interconnectivity between object   
+- Functions of metadata   
+  - Access and exploration of information resources   
+  - Summary of object contents   
+  - Semantic interoperability between objects   
   - Resource management   
-  - Method of user interface   
+  - User interface methods   
    
-// 멀티미디어 데이터베이스의 질의처리   
-// - 데이터베이스는 질의에 대한 효율적인 응답이 매우 중요   
-// - 멀티미디어의 데이터 엑세스는 메타 데이터베이스를 활용   
-// - 멀티미디어 데이터베이스에서 메타 데이터의 역할은 매우 중요   
-- Query processing of multimedia databases   
-  - The database is critical to efficiently respond to queries   
-  - Multimedia data access uses meta-databases   
-  - The role of metadata in multimedia databases is critical   
+- Query processing of multimedia database   
+  - Efficient responses to queries are very important in database   
+  - Multimedia data access utilizes metadatabase   
+  - The role of metadata in multimedia databases is very important   
    
-// 메타 데이터의 역할이 중요한 이유   
-// - 멀티미디어 데이터베이스에서는 완전한 내용기반 검색 기능이 제공되지 못하고 메타 데이터베이스에서는 대체 기능에 대한 설명이 제공되기 때문   
-- Why Metadata's Role Is Important   
-  - Because the multimedia database does not provide a complete content-based search function, and the meta database provides a description of the alternative function   
+- Why the role of metadata is important   
+  - The reason why metadata plays an important role is that multimedia databases do not provide full content-based retrieval capabilities, and meta databases provide descriptions of alternative functions   
    
-// 멀티미디어 메타 데이터   
-// - 멀티미디어 데이터의 디지털 형식, 용어와 상태, 데이터의 위치 등   
 - Multimedia metadata   
-  - Digital format, terminology and status of multimedia data, location of data, etc.   
+  - Digital format, terminology and status, location of data, etc. of multimedia data   
    
-#### Multimedia Processing Software   
-// 멀티미디어 처리 소프트웨어   
+#### Multimedia processing software   
    
-// 디지털 멀티미디어 데이터를 생성, 저작, 저장, 편집하고 프레젠테이션 할 수 있는 소프트웨어   
-// 편집 소프트웨어와 저작 소프트웨어로 구분   
-- Software for creating, authoring, storing, editing, and presenting digital multimedia data   
-- Separated into editing and authoring software   
+- Software for creating, authoring, storing, editing and presenting digital multimedia data   
+- Divided into editing software and authoring software   
    
-// 편집 소프트웨어   
-// - 단일 미디어를 생성, 편집하고 프레젠테이션   
-// - 그래픽 소프트웨어, 사운드 편집기, 이미지 편집기, MIDI 시퀀서, 애니메이션 소프트웨어, 비디오 편집기 등   
 - Editing software   
-  - Create, edit, and present a single media   
-  - graphics software, sound editor, image editor, MIDI sequencer, animation software, video editor, etc.   
+  - Create, edit and present single media   
+  - Graphics software, sound editor, image editor, MIDI sequencer, animation software, video editor, etc.   
    
-// 저작 소프트웨어   
-// - 여러 미디어를 통합하여 멀티미디어 응용시스템을 저작   
 - Authoring software   
-  - Merge multiple media to author multimedia applications   
+  - Integrate multiple media to create a multimedia application system   
    
-// 대표적인 멀티미디어 관련 소프트웨어   
-// - 편집 소프트웨어 : 어도비 포토샵   
-// - 저작 소프트웨어 : 어도비 드림위버   
-- Leading multimedia-related software   
+- Representative multimedia-related software   
   - Editing software : Adobe Photoshop   
-  - Authoring software : Adobe Dreamweaver   
+  - Authorizing software : Adobe Dreamweaver   
    
 <br />
-### Multimedia Communication System   
-// 멀티미디어 통신시스템   
+### Multimedia communication system   
    
 #### Overview   
-// 개요   
-   
-// 다양한 멀티미디어에 대한 사용자의 요구와 정보통신 기술의 발전으로 멀티미디어 통신기술이 대두   
-// 정보통신망은 다양한 매체를 통한 정보 교환을 위해서는 필수   
-// 정보교환을 위해서는 상호작용이 중요   
-// - 인간과 컴퓨터의 상호 작용   
-// -- 사용자가 일상생활에서 대하는 대화환경을 멀티미디어 처리기능을 가지고 실현   
-// - 인간과 인간의 상호작용   
-// -- 원거리의 사용자들이 다양한 매체를 통하여 인간의 대화환경을 실현   
-// 이러한 상호작용을 실현하는 것이 멀티미디어 통신서비스   
-- Multimedia communication technology has emerged due to the user's demand for various multimedia and the development of information and communication technology   
-- Information and communication networks are essential for the exchange of information through various media   
+      
+- Multimedia communication technology has emerged due to user demands for various multimedia and the development of information and communication technology   
+- Information and communications networks are essential for information exchange through various media   
 - Interaction is important for information exchange   
-  - Human-Computer interaction   
-    - Realize the conversation environment that users face in their daily lives with multimedia processing capabilities   
-  - Human-to-Human interaction   
-    - Long-distance users realize the human conversation environment through various media   
-- Making this interaction happen is a multimedia communication service   
+  - Interaction between humans and computers   
+    - Realize the conversation environment that users encounter in their daily lives with multimedia processing functions   
+  - Human-human interaction   
+    - Realize a human conversation environment for remote users through various media   
+- Multimedia communication services enable this interaction   
    
-#### Definition of Multimedia Communication Services   
-// 멀티미디어 통신서비스의 정의   
+#### Definition of multimedia communication services   
    
-// 멀티미디어 정보를 종합적으로 생성, 저장, 전송, 재생하는데 사용되는 각종 기술과 제품   
-// 두 가지 이상의 미디어를 동일한 시스템에서 동시에 대화형으로 필요한 정보를 제공하는 것   
 - Various technologies and products used to comprehensively create, store, transmit, and play multimedia information   
-- Interactively providing the necessary information on two or more media simultaneously on the same system   
+- Providing necessary information interactively through two or more media simultaneously in the same system   
    
-#### Communication System for Multimedia Service   
-// 멀티미디어 서비스를 위한 통신시스템   
+#### Communication system for multimedia services   
    
-// 광섬유의 기술과 데이터 압축기술의 발전으로 시간과 장소에 관계없이 멀티미디어 서비스를 이용할 수 있게 됨   
-// 멀티미디어 데이터는 기존 데이터와는 다른 통신량과 형태를 가지므로 새로운 통신시스템이 필요   
-// 멀티미디어 통신시스템은 개별 기술인 컴퓨터, 통신, 방송기술들이 디지털 기술에 의해 하나로 수렴되는 과정에서 자연스럽게 발전   
-- Advances in fiber optics and data compression make multimedia services available regardless of time and place   
-- Multimedia data needs a new communication system because it has a different communication volume and form than existing data   
-- Multimedia communication systems naturally develop in the process of converging individual technologies such as computer, communication, and broadcasting technologies into one by digital technology   
+- Advances in optical fiber technology and data compression technology have made it possible to use multimedia services regardless of time and place   
+- Multimedia data has a different communication volume and form than existing data, so a new communication system is needed   
+- Multimedia communication systems naturally develop in the process of converging individual technologies such as computer, communication, and broadcasting technologies into one through digital technology   
    
-#### Communication System using a Network   
-// 네트워크를 이용한 통신시스템   
+#### Communication system using network   
    
-// 종합정보통신망 (ISDN : Integrated Services Digital Networks)   
-// - 단일 통신망으로 음성, 문자, 영상 등 다양한 서비스를 종합적으로 제공하는 통신망   
-// - 기존의 전화망에 비해 다양한 서비스를 고속, 고품질로 제공   
-// - 그러나 동선을 사용한 64kbps를 기본으로, 광섬유를 이용하면 1.5Mbps ~ 2Mbps 정도로 멀티미디어 통신을 위해서는 미흡   
-// - 따라서 TV영상과 같은 멀티미디어 통신을 위해서는 10배 이상의 고속 전송이 가능한 ISDN이 필요 ⇒ B-ISDN   
 - ISDN : Integrated Services Digital Networks   
-  - A single communication network that comprehensively provides various services such as voice, text, and video   
-  - Provides high-speed, high-quality services compared to traditional telephone networks   
-  - However, based on 64kbps using copper, 1.5Mbps to 2Mbps using optical fiber, which is insufficient for multimedia communication   
-  - Therefore, for multimedia communication such as TV images, an ISDN capable of 10 times higher speed transmission is required ⇒ B-ISDN   
+  - A communication network that comprehensively provides various services such as voice, text, and video through a single communication network   
+  - Provides a variety of services at high speed and high quality compared to existing telephone networks   
+  - However, based on 64 Kbps using copper wire, it is about 1.5 Mbps to 2 Mbps using optical fiber, which is insufficient for multimedia communication   
+  - Therefore, for multimedia communication such as TV video, ISDN capable of 10 times higher speed transmission is required ⇒ B-ISDN   
    
-// 광대역 종합정보통신망 (B-ISDN : Broadband ISDN)   
-// - ISDN 보다 고속전송을 지원   
-// - B-ISDN의 정보 전달 방식   
-// -- 회선전달 방식과 패킷 전달 방식을 통합한 비동기식 전달방식   
-// -- 비동기식 전달방식 (ATM : Asynchronous Transfer Mode)   
-// --- 150Mbps ~ 600Mbps의 초고속 대용량 데이터의 디지털 전송이 가능하여 영상통신이나 멀티미디어 통신에 이용   
-- B-ISDN : Broadband ISDN   
-  - Supports faster transmission than ISDN   
-  - B-ISDN's Information Delivery Method   
-    - Asynchronous delivery method integrating the line delivery method and the packet delivery method   
+- Broadband Integrated Information and Communication Network (B-ISDN : Broadband ISDN)   
+  - Supports higher speed transmission than ISDN   
+  - B-ISDN information delivery method   
+    - Asynchronous delivery method that integrates line delivery method and packet delivery method   
     - ATM : Asynchronous Transfer Mode   
-      - Digital transmission of high-speed, high-capacity data from 150Mbps to 600Mbps is available for video communication or multimedia communication   
+      - It is capable of digitally transmitting large amounts of data at ultra-high speeds of 150 Mbps to 600 Mbps and is used for video and multimedia communications   
    
-// 초고속 인터넷망   
-// - 디지털 가입자 회선방식 (xDSL) 을 사용하는 초고속 인터넷망   
-// -- 단선 디지털 가입자회선 (SDSL)   
-// -- 비대칭 디지털 가입자회선 (ADSL)   
-// -- 초고속 디지털 가입자회선 (VDSL)   
-- High-speed Internet Network   
-  - High-speed Internet Network using Digital Subscriber Line method (xDSL)   
+- High-speed Internet network   
+  - High-speed Internet network using Digital Subscriber Line (xDSL)   
     - Single Line Digital Subscriber Line (SDSL)   
     - Asymmetric Digital Subscriber Line (ADSL)   
     - Very high data rate Digital Subscriber Line (VDSL)   
    
-// ADSL (Asymmetric Digital Subscriber Line)   
-// - 기존의 전화선을 사용하면서 고속 데이터 통신이 가능한 방식   
-// - 전송속도는 수신의 경우 최고 9Mbps, 송신은 640 Kbps 정도   
 - ADSL (Asymmetric Digital Subscriber Line)   
-  - A way to enable high-speed data communication while using traditional telephone lines   
-  - The transmission speed is up to 9 Mbps for receiving and 640 Kbps for transmission   
+  - A method that enables high-speed data communication while using existing phone lines   
+  - Transmission speed is up to 9 Mbps for reception and 640 Kbps for transmission   
    
-// VDSL (Very high data rate Digital Subscriber Line)   
-// - ADSL 보다 상위 개념의 초고속 인터넷 방식   
-// - ADSL 에 비해 송, 수신의 속도차이가 없으며, 2 ~ 5배 빠른 전송속도를 가짐   
-// - 전송속도는 수신의 경우 최대 52Mbps, 송신의 경우 최대 26Mbps를 가짐   
-// - VOD나 고화질 TV 등 다양한 분야에 적용   
 - VDSL (Very high data rate Digital Subscriber Line)   
-  - High-speed Internet approach with higher concept than ADSL   
-  - There is no difference in transmission/receiving speed compared to ADSL, and it has 2 to 5 times faster transmission speed   
-  - The transmission speed is up to 52 Mbps for receiving and up to 26 Mbps for transmission   
-  - Applies to various fields such as VOD and high definition TV   
+  - High-speed Internet method with a higher concept than ADSL   
+  - Compared to ADSL, there is no difference in transmission and reception speeds, and the transmission speed is 2 to 5 times faster   
+  - Transmission speed is up to 52 Mbps for reception and up to 26 Mbps for transmission   
+  - Applied to various fields such as VOD and high-definition TV   
    
-// 케이블 망   
-// - 양방향 특성을 가지며, 최대 10Mbps의 전송속도   
 - Cable Network   
-  - Two-way characteristics, up to 10 Mbps transmission speed   
+  - Has two-way characteristics, with a transmission speed of up to 10 Mbps   
    
-#### Mobile Communication System   
-// 이동통신 시스템   
+#### Mobile communication system   
    
-// IMT-2000   
-// - 동일한 시스템이라도 지역별로 표준 및 주파수 대역이 다름   
-// - 따라서 다양한 무선 개인통신시스템을 통합하여 하나의 무선 구조로 통합 필요   
-// - IMT-2000 (International Mobile Telecommunication - 2000) 이 등장   
-// -- 국제 전기통신연합 (ITU) 이 정의한 3세대 이동통신의 국제 표준   
-// -- 지상이나 위성에서 음성, 고속 데이터, 영상 등의 멀티미디어 서비스를 제공   
-// -- 글로벌 로밍 서비스를 제공하는 유무선 통합 차세대 통신서비스   
-// -- 미래 공중육상이동통신시스템 (FPLMTS) 이라고도 부름   
 - IMT-2000   
-  - Standard and frequency bands vary by region even with the same system   
-  - Therefore, it is necessary to integrate various wireless personal communication systems into a single wireless structure   
+  - Even for the same system, standards and frequency bands differ depending on the region   
+  - Therefore, it is necessary to integrate various wireless personal communication systems into one wireless structure   
   - IMT-2000 (International Mobile Telecommunication - 2000) appears   
-    - International standards for third-generation mobile communications as defined by the International Telecommunication Union (ITU)   
+    - International standard for 3rd generation mobile communications defined by the International Telecommunication Union (ITU)   
     - Provides multimedia services such as voice, high-speed data, and video on the ground or satellite   
-    - Wired and Wired Integrated Next Generation Communication Services to Provide Global Roaming Services   
-    - Also called the Future Public Land Mobile Telecommunications System (FPLMTS)   
+    - Integrated wired and wireless next-generation communication service that provides global roaming services   
+    - Also called Future Public Land Mobile Telecommunication System (FPLMTS)   
    
-// IMT-Advanced   
-// - 국제 전기 통신 연합 (ITU) 에서 채택한 4세대 이동 통신의 공식 명칭   
 - IMT-Advanced   
-  - The official name of the 4th generation mobile communications adopted by the International Telecommunication Union (ITU)   
+  - Official name for 4th generation mobile communications adopted by the International Telecommunication Union (ITU)   
    
-// IMT-2020   
-// - 국제 전기 통신 연합 (ITU) 에서 채택한 5세대 이동 통신의 공식 명칭   
 - IMT-2020   
-  - The official name of the 5th generation mobile communications adopted by the International Telecommunication Union (ITU)   
+  - Official name for 5th generation mobile communications adopted by the International Telecommunication Union (ITU)   
    
-// ※ ITU에서는 3G, 4G, 5G 등 세대 구분 용어를 사용하지 않고 IMT-2000, IMT-Advanced, IMT-2020의 용어를 사용   
-※ ITU does not use generational terms such as 3G, 4G, 5G, etc., but uses terms such as IMT-2000, IMT-Advanced, IMT-2020   
+※ ITU does not use generational terms such as 3G, 4G, 5G, and etc., but uses the terms IMT-2000, IMT-Advanced, and IMT-2020   
    
-#### The development process of mobile communication   
-// 이동통신의 발전 과정   
+#### Development process of mobile communication   
    
-// 1세대 (1G) 이동통신   
-// - 음성통신만 가능한 아날로그 방식의 이동통신시스템   
-// - AMPS (Advaced Mobile Phone System)   
-- First Generation (1G) Mobile Communications   
-  - An analog mobile communication system with only voice communication   
+- First generation (1G) mobile communication   
+  - Analog mobile communication system capable of voice communication only   
   - AMPS (Advaced Mobile Phone System)   
    
-// 2세대 (2G) 이동통신   
-// - 디지털 방식의 이동통신시스템   
-// - 음성과 문자 서비스 제공   
-// - 유럽방식의 GSM (Global System for Mobile Communications) 과 미국방식의 CDMA (Code Division Multiple Access)   
-- 2nd Generation (2G) Mobile Communications   
-  - A digital mobile communication system   
-  - Provides voice and text service   
-  - European GSM (Global System for Mobile Communications) and American CDMA (Code Division Multiple Access)   
+- Second generation (2G) mobile communication   
+  - Digital mobile communication system   
+  - Providing voice and text services   
+  - European-style GSM (Global System for Mobile Communications) and American-style CDMA (Code Division Multiple Access)   
    
-// 3세대 (3G) 이동통신   
-// - IMT-2000   
-// - 동영상을 포함한 본격적인 멀티미디어 서비스   
-// - CDMA2000, WCDMA, HSDPA, LTE, Wibro   
-- 3rd Generation (3G) Mobile Communications   
+- 3rd generation (3G) mobile communication   
   - IMT-2000   
-  - Full-scale multimedia services, including video   
+  - Full-fledged multimedia service including video   
   - CDMA2000, WCDMA, HSDPA, LTE, Wibro   
    
-// 4세대 (4G) 이동통신   
-// - IMT-Advanced   
-// - 데이터 이용량의 급속한 증가와 트래픽의 폭증으로 4G 기술 개발   
-// - 3G의 WCDMA에 기반한 LTE Advanced와 3G의 Wibro에 기반한 Wibro Advanced 기술   
-// - 4G의 표준 전송규격은 1Gbps   
-- 4th Generation (4G) Mobile Communications   
+- 4th generation (4G) mobile communication   
   - IMT-Advanced   
-  - Development of 4G technology due to rapid increase in data utilization and surge in traffic   
-  - LTE Advanced based on 3G's WCDMA, and Wibro Advanced based on 3G's Wibro   
-  - The standard 4G transmission standard is 1Gbps   
+  - The rapid increase in data usage and the explosion of traffic led to the development of 4G technology   
+  - LTE Advanced based on 3G’s WCDMA and Wibro Advanced technology based on 3G’s Wibro   
+  - The standard transmission standard for 4G is 1 Gbps   
    
-// 5세대 (5G) 이동통신   
-// - IMT-2020   
-// - 모바일 환경의 급변으로 5G 이동통신 네트워크 기술 필요   
-// - 5G는 4세대 LTE보다 데이터 전송속도가 1000배 빠른 차세대 이동통신 기술   
-// -- LTE의 최고속도 : 75Mbps   
-// -- 5G : 75Gbps ~ 100Gbps (체감속도 1Gbps 예상)   
-// - 5G의 개발 효과   
-// -- 사물인터넷 (IoT), 증강현실, 홀로그램 등 미래형 서비스 제공   
-// - 5G의 기술개발 현황   
-// -- METIS 2020 : 유럽 9개국 컨소시움   
-// -- IMT-2020 (5G) Promotion Group : 중국   
-// -- 2020 and Beyond Ad hoc : 일본   
-// -- 5G 포럼 : 한국   
-- 5th Generation (5G) Mobile Communications   
+- 5th generation (5G) mobile communication   
   - IMT-2020   
-  - 5G mobile communication network technology is needed due to the rapid change of mobile environment   
-  - 5G is a next-generation mobile communication technology that is 1,000 times faster in data transmission than 4G LTE   
-    - LTE maximum speed : 75 Mbps   
-    - 5G : 75Gbps ~ 100Gbps (1Gbps Sensitive Speed Expected)   
-  - Development Effects of 5G   
+  - 5G mobile communication network technology is needed due to rapid changes in the mobile environment   
+  - 5G is a next-generation mobile communication technology with a data transfer speed 1000 times faster than 4th generation LTE   
+    - Maximum speed of LTE : 75 Mbps   
+    - 5G : 75Gbps ~ 100Gbps (Expected speed of 1 Gbps)   
+  - Effects of 5G development   
     - Providing futuristic services such as Internet of Things (IoT), augmented reality, and holograms   
-  - 5G Technology Development Status   
+  - Current status of 5G technology development   
     - METIS 2020 : Consortium of 9 European countries   
     - IMT-2020 (5G) Promotion Group : China   
     - 2020 and Beyond Ad hoc : Japan   
     - 5G Forum : Korea   
    
 <br />
-<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>Source : Department of Computer Science, Korea National Open University</cite>
