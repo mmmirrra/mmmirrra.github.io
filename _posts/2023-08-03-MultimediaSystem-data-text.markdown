@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Multimedia System: Data - Text"
-date:   2024-05-02 09:00:00 +0900
+date:   2023-08-03 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
