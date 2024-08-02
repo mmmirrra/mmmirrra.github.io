@@ -47,9 +47,9 @@ categories: [Multimedia System]
 |Types of multimedia data|Memory capacity|
 |:---|:---|
 |1 sheet of A4 paper text|0.002 MB|
-|1 image (still image)|1 MB|
+|1 image (Still image)|1 MB|
 |1 minute of CD audio quality music|10 MB|
-|Video (movie) 1 second|27 MB|
+|Video (Movie) 1 second|27 MB|
    
 - MPC (Multimedia PC) : A PC that can process multimedia   
    

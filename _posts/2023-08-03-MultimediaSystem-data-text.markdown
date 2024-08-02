@@ -222,7 +222,7 @@ categories: [Multimedia System]
 - LaTeX   
   - A system that improves the inconvenient user interface of TeX   
    
-- TeX/LaTeX has the advantage of being able to write very pretty fonts or mathematical formulas by writing simple commands (tags) according to the grammar and compiling this file.   
+- TeX/LaTeX has the advantage of being able to write very pretty fonts or mathematical formulas by writing simple commands (Tags) according to the grammar and compiling this file.   
    
 <br />
 ### Electronic books and publishing   
