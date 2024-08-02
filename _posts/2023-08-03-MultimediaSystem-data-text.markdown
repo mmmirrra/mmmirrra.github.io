@@ -17,209 +17,127 @@ categories: [Multimedia System]
     - Continuous characteristics : sound, video, animation   
     - Non-continuous characteristics : text, images, graphics   
    
-### Overview of text   
-// 텍스트의 개요   
+### Overview of the text   
    
-// 문서 데이터로 종이 위에 인쇄되거나 모니터 등의 화면상에 표시되는 정보   
-// 상대방에게 의미를 전달하는 것을 목적으로 하는 데이터   
-// 인터넷의 통신경로를 지정하는 문자로도 사용   
-// 다른 멀티미디어 데이터와 같이 시청각적 흥미를 제공하지는 않지만 중요하고 정교한 정보를 옮기는데 사용   
 - Information printed on paper as document data or displayed on a screen such as a monitor   
-- data aimed at communicating meaning to the other party   
-- Also used as a character to specify the Internet's communication path   
-- It does not provide audio-visual interest like other multimedia data, but it is used to move important and sophisticated information   
+- Data aimed at conveying meaning to the other party   
+- Also used as a character designating the Internet communication path   
+- It does not provide audio-visual interest like other multimedia data, but is used to convey important and elaborate information   
    
-#### Characteristics of Text   
-// 텍스트의 특성   
+#### Characteristics of text   
    
-// 다른 멀티미디어 데이터에 비해 적은 기억장치 용량 필요   
-// 사용 언어에 따라 서로 다른 특성   
-// - 사용 언어에 따라 해당 언어를 지원하는 특정 도구 필요   
-// - 사용 언어에 따라 텍스트를 표현하는 문자집합이 다르기 때문   
-- Requires less memory capacity than other multimedia data   
-- Characteristics of different texts depending on the language used   
-  - Requires specific tools to support that language, depending on the language   
-  - This is because the set of characters expressing text is different depending on the language   
+- Requires less storage capacity compared to other multimedia data   
+- Different characteristics depending on the language used   
+  - Depending on the language, specific tools are required to support that language   
+  - This is because the character set that represents text is different depending on the language used   
    
 <br />
-### Representation of a Text   
-// 텍스트의 표현   
+### Expression of text   
    
-// 텍스트는 컴퓨터 내부에서 문자집합으로 구성   
-- Text consists of a set of characters inside the computer   
+- Text is composed of a set of characters inside the computer   
    
-// 문자 인코딩   
-// - 모든 문자는 컴퓨터 내부에서 2진수 코드로 표현되고, 각각의 문자는 1개의 숫자로 할당되는 것   
-// - 따라서 언어가 다르면 서로 사용하는 코드도 다름   
 - Character encoding   
-  - All characters are represented by binary code inside the computer, and each character is assigned as one number   
-  - Therefore, if the languages are different, the codes used by each other are also different   
+  - All characters are expressed as binary codes inside the computer, and each character is assigned one number   
+  - Therefore, if the language is different, the code used is also different   
    
-#### Character Set and Encoding   
-// 문자집합과 인코딩   
+#### Character set and encoding   
    
-// 문자집합   
-// - 표현해야 할 문자를 정의하고 순서를 지정하는 것   
-- Character Set   
-  - Defining and ordering characters to be expressed   
+- Character set   
+  - Defining and ordering the characters to be expressed   
    
-// 코드화된 문자집합 (CCS : Coded Character Set)   
-// - 문자집합을 코드형태로 표기한 것   
-// -- ASCII   
-// -- EBCDIC   
-// -- 서유럽 문자집합   
-// -- 한글코드   
-// -- 유니코드   
 - CCS : Coded Character Set   
-  - A code representation of a set of characters   
+  - Character set expressed in code form   
     - ASCII   
     - EBCDIC   
-    - Western European Character Set   
-    - Korean code   
+    - Western European character set   
+    - Hangul code   
     - Unicode   
    
 #### ASCII (American Standard Code for Information Interchange)   
    
-// 영어의 문자집합으로 미국에서 제정한 표준   
-// 컴퓨터나 인터넷상에서 텍스트 파일을 위한 가장 일반적인 형식   
-// 알파벳과 숫자, 그리고 특수문자들이 7비트 2진수로 표현   
-// 총 128개의 문자가 정의   
-- A set of English characters established in the United States   
-- The most common format of text files on a computer or the Internet   
-- alphabets, numbers, and special characters are represented in 7-bit binary numbers   
+- Standard established in the United States as the English character set   
+- The most common format for text files on a computer or on the Internet   
+- Alphabets, numbers, and special characters are expressed as 7-bit binary numbers   
 - A total of 128 characters are defined   
    
 #### EBCDIC (Extended Binary Coded Decimal for Interchange Code)   
    
-// IBM사에서 개발한 코드 체계   
-// IBM의 대형 컴퓨터에서 주로 사용   
-// 8비트 2진수 사용   
-// ASCII에 비해 두 배의 기호와 제어기능을 표현할 수 있음   
 - Code system developed by IBM   
-- Used primarily on IBM's large computers   
-- Use an 8-bit binary number   
-- Can express twice as many symbols and controls as ASCII   
+- Mainly used in IBM's large computers   
+- Use 8-bit binary numbers   
+- Can express twice as many symbols and control functions compared to ASCII   
    
-#### Western European Character Set   
-// 서유럽 문자집합   
+#### Western European character set   
    
-// 유럽어를 7비트 ASCII로 표현하기는 부족   
-// 서유럽의 문자들을 ASCII에 포함시킨 새로운 문자집합   
-// "서유럽 문자집합" 또는 "ISO Latin-1"이라 함   
-// ASCII의 확장으로 8비트 코드체계 사용   
-- Not enough to express European in 7-bit ASCII   
-- A new set of characters incorporating Western European characters into ASCII   
-- "Western European Character Set" or "ISO Latin-1"   
-- Extensions of ASCII use of 8-bit code systems   
+- It is not enough to express European languages ​​in 7-bit ASCII   
+- A new character set incorporating Western European characters into ASCII   
+- Also called "Western European Character Set" or "ISO Latin-1"   
+- Uses 8-bit code system as an extension of ASCII   
    
 - ISO : International Organization for Standardization   
    
-#### Korean code   
-// 한글코드   
+#### Hangul code   
    
-// 영어나 유럽어는 8비트 256개의 코드로 표현 가능   
-// 한글은 8비트로 모든 한글 조합을 표현할 수 없음   
-// 따라서 조합형과 완성형 한글코드가 만들어짐   
-// - 조합형 : 한글의 제작 원리에 기반하여 초성, 중성, 종성에 각각 코드 할당   
-// - 완성형 : '가', '각'과 같은 완성형 문자에 코드를 할당   
-// 완성형 한글코드가 한글 표준안   
-// - 완성형은 모든 한글을 표현할 수 없다는 단점이 있으나 컴퓨터 통신에서 문제점이 덜 생기는 장점으로 표준안 채택   
-- English or European can be expressed in 8 bits and 256 codes   
-- Hangul cannot express all Hangul combinations with 8 bits   
-- Consequently, a combination type and a complete Korean code are created   
-  - Combination type : Based on the principle of making Hangul, code is assigned to the initial sound, middle sound, and final sound, respectively   
-  - Complete Type : Assign codes to complete characters such as '가' and '각'   
-- The complete Korean code is Korean standard plan   
-  - The completion type has the weakness of not being able to express all Korean characters, but the standard is adopted as an strength of less problems in computer communication   
+- English or European languages ​​can be expressed with 256 8-bit codes   
+- Hangul cannot express all Hangul combinations in 8 bits   
+- Therefore, combined and completed Hangul codes were created   
+  - Combined type : Based on the principle of Hangul, codes are assigned to each elementary, middle, and final consonant   
+  - Completed type : Assign codes to complete characters such as '가' and '각'   
+- The completed Hangul code is the Hangul standard   
+  - The completed type has the disadvantage of not being able to express all Hangul characters, but it was adopted as a standard because it causes fewer problems in computer communications   
    
 #### Unicode   
-// 유니코드   
    
-// ASCII가 갖는 문자표현의 한계 때문에 도입   
-// 전세계 모든 언어를 컴퓨터에서 일관되게 표현할 수 있는 산업표준   
-// 유니코드의 대표적인 문자 인코딩 방법   
-// - UTF-8 (UCS Transformation Format-8bit)   
-// -- 파일 사이즈를 작게 하기 위해 ASCII는 1바이트로 인코딩 하고, 다른 문자들은 2바이트나 그 이상으로 인코딩 하는 방식 - ASCII와 호환   
-// - UTF-16 (UCS Transformation Format-16bit)   
-// -- 모든 문자를 2바이트로 인코딩 하는 방식 - 글자 개수에 제한이 없음   
-- Introduction due to the limitations of character expression in ASCII   
-- Industrial standards for consistent computer representation of all languages in the world   
+- Introduced due to limitations in character expression of ASCII   
+- An industry standard that allows all languages ​​around the world to be expressed consistently on computers   
 - Unicode's representative character encoding method   
   - UTF-8 (UCS Transformation Format-8bit)   
-    - To reduce file size, ASCII encodes into 1 byte and other characters encodes into 2 bytes or more - compatible with ASCII   
+    - To reduce the file size, ASCII is encoded into 1 byte, and other characters are encoded into 2 bytes or more - Compatible with ASCII   
   - UTF-16 (UCS Transformation Format-16bit)   
-    - Encode all characters to 2 bytes - no limit on the number of characters   
+    - A method of encoding all characters into 2 bytes - There is no limit to the number of characters   
    
 #### Markup text   
-// 마크업 텍스트   
    
-// 문서의 서식작성을 지정하거나 구조적 경계를 밝히는 특수문자를 삽입하여 표현하는 텍스트   
-// 즉, 문서 내용 이외에 문서 서식을 지정하거나, 찾아보기 등을 지정하거나, 다른 문서와의 연결방법을 지정하여 컴퓨터에게 지시하는 마크업 정보가 들어있는 텍스트   
-- Text that specifies the formatting of a document or incorporates special characters that reveal structural boundaries   
-- In other words, text containing markup information instructing the computer by designating a document format, searching, etc., or designating a method of connection with other documents other than the contents of the document   
+- Text expressed by inserting special characters that specify the format of the document or reveal structural boundaries   
+- In other words, text that contains markup information that instructs the computer to specify the document format, search, etc., or how to connect to other documents in addition to the document content   
    
-// 마크업 (markup)   
-// - 문서 구조를 정의하거나 표현하기 위해 정의된 부가 정보   
-// - 대표적인 마크업 언어 : HTML, SGML   
-- markup   
-  - Additional information defined to define or represent document structures   
-  - Representative Markup Language : HTML, SGML   
+- Markup   
+  - Additional information defined to define or express the document structure   
+  - Representative markup languages : HTML, SGML   
    
-#### Structural text   
-// 구조적 텍스트   
+#### Structured text   
    
-// 구조적 정보를 갖는 태그가 사용된 텍스트   
-// 선형의 순차적인 구조   
-// 텍스트의 구조적 정보는 타이틀, 절, 단락 등을 말하며, 구조적 정보는 문서 처리와 문서 설계를 위해 독점적인 표현방법을 갖음   
-- Text with tags with structural information   
-- A linear sequential structure   
-- Structural information of text refers to titles, clauses, paragraphs, etc., and structural information has a proprietary method of expression for document processing and document design   
+- Text using tags with structural information   
+- Linear sequential structure   
+- Structural information of text refers to titles, clauses, paragraphs, etc., and structural information has a proprietary expression method for document processing and document design   
    
 - ODA (Office Document Architecture)   
-// - 논리적 구조와 설계 구성요소가 어떻게 구성되고 서로 관계를 맺는지를 명시하는 국제 표준   
-  - International standards specifying how logical structures and design components are structured and related to each other   
+  - An international standard that specifies how logical structures and design components are organized and relate to each other   
    
 #### Hypertext   
-// 하이퍼 텍스트   
    
-// 비순차적인 전개원리를 갖는 텍스트   
-// 여러 개의 연결된 문서라는 의미   
-// 일반적인 텍스트와는 달리 다른 문서의 특정 위치로 연결   
-// 따라서 물리적이고 논리적인 공간을 뛰어넘는 임의의 연결이 가능한 새로운 개념의 문서연결 형태   
-- Text with non-sequential development principles   
+- Text with a non-sequential development principle   
 - Meaning multiple linked documents   
-- Connect to a specific location in another document, as opposed to normal text   
-- Thus, a new conceptual form of document connection that allows arbitrary connections beyond physical and logical space   
+- Unlike general text, links to a specific location in another document   
+- Therefore, a new concept of document connection form that allows arbitrary connections beyond physical and logical space   
    
-// 하이퍼텍스트의 원리   
-// - 비선형으로 그래프와 같은 구조   
-// - 노드와 링크를 단위로 하는 정보의 구조화 방식   
-// -- 노드는 텍스트의 작은 덩어리이며 링크로 연결   
-- Principles of Hypertext   
-  - non-linearly graph-like structure   
-  - Structuring of information with nodes and links as units   
-    - A node is a small chunk of text, linked by a link   
+- Principles of hypertext   
+  - Non-linear graph-like structure   
+  - Structural method of information using nodes and links as units   
+    - Nodes are small chunks of text, connected by links   
    
-// 하이퍼링크 (hyperlink)   
-// - 자료와 자료를 연결해 주는 방법   
-- hyperlink   
-  - How to link data to data   
+- Hyperlink   
+  - How to connect data to data   
    
 <br />
-### File Type of Text   
-// 텍스트의 파일 형식   
+### Text file format   
    
-// 텍스트 데이터의 파일 저장방식   
-// - 영문 : ASCII   
-// - 한글 : 완성형 한글코드   
-// - 각종 문서 편집 응용 프로그램 : 각기 다른 저장 방식   
-- How to save a file of text data   
+- File storage method for text data   
   - English : ASCII   
-  - Hangul : Complete Korean Code   
+  - Hangul : Completed Hangul code   
   - Various document editing applications : Different storage methods   
    
-// 텍스트 파일 형식   
-- Text File Format   
+- Text file format   
   - TXT   
   - DOC   
   - HWP   
@@ -232,14 +150,10 @@ categories: [Multimedia System]
    
 #### TXT (Text)   
    
-// ASCII 체계를 따른 편집기에서 작성한 파일 형식   
-// 운영체제에서 기본적으로 제공하는 문서 편집기의 형식   
-// 모든 텍스트 편집기나 워드 프로세서에서 읽을 수 있음   
-// 그래프나 수식은 제공하지 않음   
-- File types created by editors that follow ASCII schemes   
-- The format of the document editor that the operating system provides by default   
-- Readable from any text editor or word processor   
-- Do not provide graphs or formulas   
+- File format created in an editor following the ASCII system   
+- The format of the document editor provided by default in the operating system   
+- Readable in any text editor or word processor   
+- Graphs or formulas are not provided   
    
 #### DOC (Document)   
    

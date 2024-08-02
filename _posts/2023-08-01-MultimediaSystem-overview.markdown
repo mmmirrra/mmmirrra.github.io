@@ -19,7 +19,7 @@ categories: [Multimedia System]
    
 - Raw media   
   - Unprocessed media   
-  - Natural physical elements : paper, stone, ink, painting, music, etc.   
+  - Natural physical elements : Paper, stone, ink, painting, music, etc.   
 - Digital media   
   - Rely on computers   
   - Digital image, digital video, digital audio, etc.   
