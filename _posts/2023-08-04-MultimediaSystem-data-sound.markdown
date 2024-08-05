@@ -295,11 +295,11 @@ categories: [Multimedia System]
 - It does not contain actual sounds, but contains information about how to play the instrument   
    
 ```
-[ Sequencing program ]       [ MIDI devices (sampler, etc.) ]
+[ Sequencing program ]        [ MIDI devices (sampler, etc.) ]
           |                                 |
-     [ Computer ]────────────────[ MIDI interface card ]
+     [ Computer ]────────[ MIDI interface card ]
                                             |
-[ Amplifier (speaker) ]────[ MIDI devices (synthesizers, etc.) ]
+[ Amplifier (speaker) ]──[ MIDI devices (synthesizers, etc.) ]
 ```
    
 <br />
