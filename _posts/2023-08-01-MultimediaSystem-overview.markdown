@@ -42,7 +42,8 @@ categories: [Multimedia System]
   - When Multimedia data is stored on a computer, a huge amount of memory is required   
   - In order to process large amounts of information in real time, fast computer processing speed is required   
    
-##### Memory capacity according to multimedia data type   
+<br />
+- Memory capacity according to multimedia data type   
    
 |Types of multimedia data|Memory capacity|
 |:---|:---|
@@ -72,7 +73,8 @@ categories: [Multimedia System]
     - Standards for data transmission   
     - Internet web related standards, etc.   
    
-##### Representative multimedia-related technologies   
+<br />
+- Representative multimedia-related technologies   
    
 |Multimedia-related devices and technologies|Explanation|
 |:---|:---|
@@ -86,12 +88,13 @@ categories: [Multimedia System]
 |Multimedia communication technology|Mobile communication, wireless internet, etc.|
 |Mobile multimedia|WAP, WML, etc.|
    
+<br />
 - Advances in human-computer interaction technology   
   - In order to use a computer to handle various information, the computer must be easy and convenient to use   
   - Technology related to human-computer interaction is needed to make computers more convenient and easy to use   
   - Today's Computers   
     - Provides various user-friendly interfaces   
-   
+<br />
 - Human Computer Interaction (HCI) technology   
   - Multimedia data is diverse and has a large capacity, so it is not easy for general users to search for information   
   - HCI technology aims to improve the interaction between humans and computers easily and conveniently by enabling interactive manipulation of multimedia data input, processing, and control   
@@ -99,7 +102,7 @@ categories: [Multimedia System]
       - Interface with graphics technology to provide user convenience   
       - Supports better user interaction using GUI technology   
     - Voice recognition technology, gesture recognition technology, etc.   
-   
+<br />
 - Advances in information and communication technology   
   - Generating multimedia data requires a lot of money and time   
   - Therefore, sharing multimedia information is very important in terms of efficiency and economics   
@@ -121,10 +124,10 @@ categories: [Multimedia System]
 #### Digitalization of information   
    
 - In order for multimedia to be processed on computers, the information must be digitized   
-   
+<br />
 - Digitization   
   - Converting analog signals such as images or sounds into digital form for use as input to a computer   
-   
+<br />
 - Advantages of digitalization   
   - Easier to process and edit data than when it exists as analog data   
   - Prevent data quality deterioration due to data transmission or output   
@@ -154,7 +157,7 @@ categories: [Multimedia System]
     - By gathering a vast amount of data and providing it in one bundle, many users can gather and share information   
   - Development of the World Wide Web (WWW : Web for short)   
     - The concept of information sharing is becoming more widespread   
-   
+<br />
 - Tim Berners-Lee   
   - Defining today's web as Web 2.0   
   - Web 2.0 : It is a user-centered Internet environment that allows anyone to easily create data and share it on the Internet without the owner or monopolist of the data.   
@@ -165,7 +168,7 @@ categories: [Multimedia System]
 #### Definition of multimedia content   
    
 - Various information or contents produced and processed by digitizing multimedia data such as text, sound, and images   
-   
+<br />
 - e.g.   
   - Various programs or information provided on the Internet   
   - Movies or music on video tapes or CDs   
@@ -189,13 +192,13 @@ categories: [Multimedia System]
 - Content for information provision, education, promotion, entertainment, etc.   
 - Cultural content, the meeting of culture and information technology   
 - Content that promotes interaction with users, etc.   
-   
+<br />
 - Content viewed through content structure   
   - Informational content, educational content, promotional content, entertainment content, etc.   
-   
+<br />
 - Cultural content   
   - Content that digitizes cultural elements such as art, design, humanities and social sciences based on creativity and technology   
-   
+<br />
 - Content for interaction   
   - Content that allows interaction with users can have the effect of arousing user interest and encouraging participation   
    
@@ -205,7 +208,7 @@ categories: [Multimedia System]
 - In order to successfully produce multimedia content   
   - Development staff made up of experts   
   - A perfect production process tailored to the production purpose is required   
-   
+<br />
 - Production team members   
   - Project manager : Overall management and execution   
   - Project designer : Performs technical aspects of the project   
@@ -213,7 +216,7 @@ categories: [Multimedia System]
   - Programmer : Completes prepared contents into products using S/W, etc.   
   - Copywriter : Prepare text for the project   
   - Graphic designer : Prepare graphics for visual effects of the product   
-   
+<br />
 - Production process   
   ① Design stage   
   ② Requirements and structural design stage   
