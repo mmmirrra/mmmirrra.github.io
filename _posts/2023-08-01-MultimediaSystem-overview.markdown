@@ -52,6 +52,7 @@ categories: [Multimedia System]
 |1 minute of CD audio quality music|10 MB|
 |Video (Movie) 1 second|27 MB|
    
+<br />
 - MPC (Multimedia PC) : A PC that can process multimedia   
    
 #### Development of multimedia related technologies   

@@ -21,8 +21,10 @@ categories: [Multimedia System]
 - Concept of sound waves   
   - Sound waves (Vibration of sound) are composed of amplitude and period   
    
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/multimediaSystemSound1.png)
    
+<br />
   - Amplitude : The height of the waveform between the highest or lowest point of the waveform and the center line   
   - Period : The time it takes for one cycle to start at the center line, pass through the top and bottom of the waveform, and reach the center line again   
   - Frequency : Number of cycles per unit time, unit called Hertz (Hz)   
@@ -33,8 +35,10 @@ categories: [Multimedia System]
 - Sound is displayed as a continuous analog waveform   
 - Expressed as sound size (Amplitude), sound pitch (Frequency : cycle), and tone   
    
+<br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/multimediaSystemSound2.png)
    
+<br />
 - Three characteristics of analog sound   
   - Sound size (Amplitude)   
     - The larger the amplitude, the louder the sound   
@@ -65,12 +69,12 @@ categories: [Multimedia System]
 ### Converting sound   
    
 - Converting analog signals to digital signals   
-   
+<br />
 - Analog signals   
   - Continuous signals with linear values ​​such as sound, current, and voltage   
   - The advantage of being able to adjust the size of the signal in minute increments   
   - However, the disadvantage is that the signal changes due to noise   
-   
+<br />
 - Digital signals   
   - Signals with values ​​in discrete steps   
   - Express the case by a combination of 0 and 1   
@@ -81,7 +85,7 @@ categories: [Multimedia System]
 - Using ADC (Analog-to-Digital Converter) and DAC (Digital-to-Analog Converter) conversion devices   
 - Through an ADC device, analog signals are converted into digital signals through sampling, quantization, and encoding processes   
 - Convert digital signals to analog signals through a DAC device for playback   
-   
+<br />
 - Sound conversion process   
   - [Analog signal] → Sampling → Quantization → [Encoding] → [Digital signal]   
    
@@ -89,7 +93,7 @@ categories: [Multimedia System]
    
 - To digitize the sound and play it again   
     - The analog waveform of the sound is divided into small pieces at regular intervals and the values ​​are recorded one by one. When playing back, the waveform is redrawn according to the recorded values   
-   
+<br />
 - Sampling   
     - The process of dividing the waveform into small pieces at regular intervals and extracting the values ​​of each point one by one   
     - At this time, the value expressed as each value is called a sample   
@@ -129,7 +133,7 @@ categories: [Multimedia System]
     - This means dividing the sample's highest and lowest points into 256 intervals   
   - Determine the number of sample bits considering quality and economy   
     - Typically 8-bit, 16-bit encoding   
-   
+<br />
 - Since voice signals are converted using the PCM (Pulse Code Modulation) method, the number of sample bits is also called a PCM word   
    
 #### Three characteristics of digital sound (Numerical standards)   
@@ -137,11 +141,11 @@ categories: [Multimedia System]
 - Sampling size   
   - Expressing the size (Amplitude) of the sound as a digital number   
   - The larger the number of sample bits, the more detailed the size of the sound is expressed   
-   
+<br />
 - Sampling rate   
   - Also called sampling frequency   
   - The smaller the sampling interval (Larger the sampling rate), the more precisely the analog waveform can be expressed as digital sound   
-   
+<br />
 - Number of channels   
   - Number of sounds heard simultaneously   
   - There are mono and stereo   
@@ -177,7 +181,7 @@ categories: [Multimedia System]
 #### PCM signal generation process   
    
 - First, the analog signal is quantized to create a PAM (Pulse Amplitude Modulation) signal, which is then converted into a binary code string with a number of bits equal to the number of digital level bits of the pulse   
-   
+<br />
 - In the PCM method, the higher the sampling rate, the better the sound quality, but since there is no compression process, the memory capacity increases   
    
 #### DPCM (Differential PCM)   
@@ -213,13 +217,13 @@ categories: [Multimedia System]
   - Easy to use, can record up to 1 minute   
   - Through the microphone, sound is converted into sound data in wave format   
   - In other words, the sound recorder writes files in Microsoft's wave format   
-   
+<br />
 - Digital sounds are saved as digital audio files   
    
 #### File size of digital audio   
    
 - Size of audio file = Sampling size (byte) x Sampling rate x Number of channels x Time (Seconds)   
-   
+<br />
 - Example) What if you save stereo sound at 16 bit, 44.1 KHz for 1 minute?   
   - Size of audio file = 2 (byte) x 44100 × 2 × 60 (Seconds) = 10,584,000 ≒ 10 Mbyte   
     - Therefore, one 3-minute piece of music requires approximately 30 Mbytes of storage space   
@@ -234,14 +238,14 @@ categories: [Multimedia System]
   - Increasing the amount of data improves sound quality   
     - Same as the original sound : Audio data must not be compressed   
     - Similar to the original sound : Compresses and uses audio data   
-   
+<br />
 - Compression of audio data   
   - Lossy compression : Take the loss of information and minimize the amount of data   
   - Lossless compression : Suppresses information loss as much as possible and maintains the highest sound quality   
-   
+<br />
 - Various audio file formats   
   - Digital audio data exists in various file formats depending on the compression method for storage or transmission on a storage medium   
-   
+<br />
 - Representative audio file format with lossless compression   
   - WAV (Waveform Audio Format)   
     - File format jointly developed by Microsoft and IBM   
@@ -294,6 +298,7 @@ categories: [Multimedia System]
 - Summary of communication protocols between hardware, cables, and equipment that connect computers and electronic instruments from different manufacturers   
 - It does not contain actual sounds, but contains information about how to play the instrument   
    
+<br />
 ```
 [ Sequencing program ]        [ MIDI devices (sampler, etc.) ]
           |                                 |
@@ -306,12 +311,12 @@ categories: [Multimedia System]
 ### MIDI editing program   
    
 - To play and create professional MIDI files, you must use a MIDI editing program   
-   
+<br />
 - If you use a MIDI editing program,   
   - When you play using an electronic instrument, the results are input in the form of sheet music,   
   - If your performance or notes are wrong, you can correct them   
   - You can listen to the sound of the violin played on the piano   
-   
+<br />
 - To use MIDI on a computer   
   - Pentium MMX or higher computer,   
   - Operating system Windows 95 or higher,   
@@ -322,10 +327,10 @@ categories: [Multimedia System]
    
 - A program that simulates a multitrack recorder   
   - A program that records music played on a musical instrument in units called tracks and plays several recorded tracks simultaneously, giving the effect of playing an orchestra   
-   
+<br />
 - Using a sequencer program   
   - Just by playing the instrument, you can record and save individual MIDI data, making music creation easy and efficient   
-   
+<br />
 - Types of sequencer programs   
   - Cakewalk by CMS Technologies   
   - Sequencer Plus mk I, mk II, mk III, etc. by Voyetra   

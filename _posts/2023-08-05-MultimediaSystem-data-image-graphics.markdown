@@ -14,7 +14,7 @@ categories: [Multimedia System]
     - Visual information, such as pictures, entered through devices such as scanners or digital cameras   
   - Graphic   
     - Artificial drawing created through computer software   
-   
+<br />
 - Image   
   - Used interchangeably with the terms video or image   
   - There are various ways to express images or process images   
@@ -24,15 +24,16 @@ categories: [Multimedia System]
    
 - Pixel is the basic unit that makes up the screen   
   - Expressed as a pixel, it refers to each dot that appears on the screen   
-   
+<br />
 - The image is   
   - It is expressed and stored as a set of pixels,   
   - This is called the bitmap method   
-   
+<br />
 - Images expressed as bitmaps   
   - When displayed on a monitor, each pixel displays the values ​​of red, green, and blue in an appropriate combination   
   - At this time, the type of color that each pixel can have depends on how many bits are allocated to each pixel   
    
+<br />
 - Relationship between number of bits and color   
    
 |Number of bits|Number of colors|Note|
@@ -44,6 +45,7 @@ categories: [Multimedia System]
 |24|16,777,216 (2<sup>24</sup>)|True Color (R : G : B = 8 : 8 : 8)|
 |32|16,777,216 + 8-bit alpha channel|True color + alpha channel|
    
+<br />
 - Alpha channel   
   - It refers to 256 levels of transparency as a channel other than RGB, and does not contain color information   
   - Transparency 0 means 100% opaque, transparency 255 means 100% transparent   
@@ -65,7 +67,7 @@ categories: [Multimedia System]
   - Also called bitmap method   
   - File size is proportional to resolution   
   - When the screen is enlarged, the image quality deteriorates and a staircase phenomenon occurs   
-   
+<br />
 - Vector method   
   - Create and store objects in a mathematically described set form   
   - Takes up less memory compared to the raster method   
@@ -79,13 +81,13 @@ categories: [Multimedia System]
 - It refers to a color space that can define and reproduce each color on a computer   
   - Color space : The three properties of color, hue, brightness, and saturation, are expressed as coordinates in three-dimensional space   
 - Therefore, the color model expresses color by corresponding color properties to a three-dimensional coordinate system   
-   
+<br />
 - Types of color models   
   - RGB model   
   - CMY(K) model   
   - HSV (HSB) model, HSL model, HIS model   
   - YIQ model, YUV model, YCbCr model, etc.   
-   
+<br />
 - List of color coordinates   
   - Red (1, 0, 0)   
   - Green (0, 1, 0)   
@@ -126,12 +128,12 @@ categories: [Multimedia System]
     - HSI model   
       - A model that uses I (Intensity) instead of V (Value) in the HSV model   
       - Mainly used in image processing field   
-   
+<br />
 - YIQ, YUV model   
   - Model suitable for TV broadcasting using lighting   
     - YIQ model : Applied to NTSC method   
     - YUV model : Applied to PAL method   
-   
+<br />
 - YCbCr model   
   - Model using color difference information Cb and Cr   
     - Cb : Color difference information indicating blueness   
@@ -148,7 +150,7 @@ categories: [Multimedia System]
   - Video improvement   
   - Video synthesis and restoration   
   - Video recognition and understanding, etc.   
-   
+<br />
 - Distinct from computer graphics   
   - Computer graphics is about creating composite images   
   - Image processing manipulates images that have already been acquired or created   
@@ -168,7 +170,7 @@ categories: [Multimedia System]
       - The y-axis is the frequency of the pixel   
     - Histogram equalization   
       - Uniformly distributes brightness values ​​in the image to improve image quality   
-   
+<br />
 - Area processing   
   - Change pixel value based on pixel's original value and neighboring pixel values   
   - Blurring   
@@ -181,10 +183,10 @@ categories: [Multimedia System]
     - First-order differential operators and second-order differential operators are used   
       - First-order differential operators - prewitt, sobel operators   
       - Second-order differential operator - Laplacian operator   
-   
+<br />
 - Geometric processing   
   - Transforms the position or arrangement of pixels   
-   
+<br />
 - Frame processing   
   - Generates pixel values ​​based on operations on two or more images   
    
@@ -214,7 +216,7 @@ categories: [Multimedia System]
     - Resolution is expressed as the product of the number of horizontal and vertical pixels that make up the image, and color precision is determined by the number of bits required to express the color for each pixel   
     - When enlarged, it becomes rough or blurred (aliasing phenomenon)   
   - Raster graphics are practical when dealing with photographs or near-photographic images   
-   
+<br />
 - Vector graphics   
   - Expressing objects such as points, straight lines, curves, and polygons based on mathematical equations   
   - For example, when you want to express a straight line   
@@ -232,7 +234,7 @@ categories: [Multimedia System]
   - High-quality output can be produced even if you are not a professional programmer   
     - CAD package : Used for product design in various fields such as architecture, machinery, and electronic circuits   
     - Paint package (Adobe Photoshop, etc.) : Create or edit raster pictures, photos, etc.   
-   
+<br />
 - Graphics Application Programming Interface (API)   
   - A graphics library that allows professional programmers to write programs using graphics functions in programming languages ​​such as C/C++ and Java   
   - Low-level graphics API   
@@ -258,13 +260,13 @@ categories: [Multimedia System]
 #### Modeling   
    
 - Modeling refers to creating the geometric shape of an object   
-   
+<br />
 - Model   
   - All objects used to complete a scene in 3D graphics   
 - Modeling   
   - Creating the shapes of models   
   - The process of expressing the shape of an object for modeling on a computer using a three-dimensional coordinate system   
-   
+<br />
 - Types of models for modeling   
   - Wire Frame Model   
     - A model that constructs the skeleton of an object based on points and lines   
@@ -278,7 +280,7 @@ categories: [Multimedia System]
 - Rendering is converting a modeled object into an image that resembles its actual form   
   - To make 3D modeled objects look realistic   
     - A method of converting an image of an object closer to reality by removing the invisible side and adding light, dark, color, and texture to the visible side to give perspective   
-   
+<br />
 - Rendering Techniques   
   - Mapping techniques   
     - Texture processing technique using texture to increase the realism of objects   
@@ -306,21 +308,21 @@ categories: [Multimedia System]
   - JPEG file   
   - TIFF file   
   - WebP file   
-   
+<br />
 - Vector type files   
   - CGM file   
   - SVG file   
   - DXF file   
   - AI file   
   - CDR file   
-   
+<br />
 - Mixed files   
   - PDF file   
   - PICT file   
   - SWF file   
   - EPS file   
   - WMF   
-   
+<br />
 - Other files   
   - RAW file   
   - Exif file   
@@ -332,11 +334,11 @@ categories: [Multimedia System]
   - Photoshop   
   - PaintShop Pro   
   - GIMP (GNU Image Manipulation Program)   
-   
+<br />
 - 2D graphics editing tools   
   - Illustrator   
   - Corel Draw   
-   
+<br />
 - 3D graphics software   
   - 3ds Max   
   - Maya   
