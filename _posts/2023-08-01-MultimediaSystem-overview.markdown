@@ -41,7 +41,6 @@ categories: [Multimedia System]
 - Computer performance is important for processing multimedia data   
   - When Multimedia data is stored on a computer, a huge amount of memory is required   
   - In order to process large amounts of information in real time, fast computer processing speed is required   
-   
 <br />
 - Memory capacity according to multimedia data type   
    
@@ -52,7 +51,6 @@ categories: [Multimedia System]
 |1 minute of CD audio quality music|10 MB|
 |Video (Movie) 1 second|27 MB|
    
-<br />
 - MPC (Multimedia PC) : A PC that can process multimedia   
    
 #### Development of multimedia related technologies   
@@ -73,7 +71,6 @@ categories: [Multimedia System]
     - Standards for compression and restoration of multimedia data   
     - Standards for data transmission   
     - Internet web related standards, etc.   
-   
 <br />
 - Representative multimedia-related technologies   
    
@@ -89,7 +86,6 @@ categories: [Multimedia System]
 |Multimedia communication technology|Mobile communication, wireless internet, etc.|
 |Mobile multimedia|WAP, WML, etc.|
    
-<br />
 - Advances in human-computer interaction technology   
   - In order to use a computer to handle various information, the computer must be easy and convenient to use   
   - Technology related to human-computer interaction is needed to make computers more convenient and easy to use   

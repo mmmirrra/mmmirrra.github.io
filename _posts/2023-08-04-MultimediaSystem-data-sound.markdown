@@ -297,7 +297,6 @@ categories: [Multimedia System]
 - International standard for digital music established in 1982   
 - Summary of communication protocols between hardware, cables, and equipment that connect computers and electronic instruments from different manufacturers   
 - It does not contain actual sounds, but contains information about how to play the instrument   
-   
 <br />
 ```
 [ Sequencing program ]        [ MIDI devices (sampler, etc.) ]

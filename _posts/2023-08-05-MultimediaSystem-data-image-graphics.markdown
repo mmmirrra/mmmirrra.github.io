@@ -32,7 +32,6 @@ categories: [Multimedia System]
 - Images expressed as bitmaps   
   - When displayed on a monitor, each pixel displays the values ​​of red, green, and blue in an appropriate combination   
   - At this time, the type of color that each pixel can have depends on how many bits are allocated to each pixel   
-   
 <br />
 - Relationship between number of bits and color   
    
@@ -45,7 +44,6 @@ categories: [Multimedia System]
 |24|16,777,216 (2<sup>24</sup>)|True Color (R : G : B = 8 : 8 : 8)|
 |32|16,777,216 + 8-bit alpha channel|True color + alpha channel|
    
-<br />
 - Alpha channel   
   - It refers to 256 levels of transparency as a channel other than RGB, and does not contain color information   
   - Transparency 0 means 100% opaque, transparency 255 means 100% transparent   
