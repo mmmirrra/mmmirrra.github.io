@@ -42,7 +42,7 @@ categories: [Multimedia System]
   - When Multimedia data is stored on a computer, a huge amount of memory is required   
   - In order to process large amounts of information in real time, fast computer processing speed is required   
    
-- Memory capacity according to multimedia data type   
+##### Memory capacity according to multimedia data type   
    
 |Types of multimedia data|Memory capacity|
 |:---|:---|
