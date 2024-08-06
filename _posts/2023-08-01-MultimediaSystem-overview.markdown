@@ -64,7 +64,6 @@ categories: [Multimedia System]
   - Blu-ray Disc   
     - Optical recording storage medium that can store digital data for high-definition (HD) video   
    - Capacity is about 5 times that of DVD   
-   
 <br />
 - Establishment of multimedia standardization   
   - As multimedia technology develops and data compatibility requirements increase, the need for standardization naturally arises   
