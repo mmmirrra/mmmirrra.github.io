@@ -64,7 +64,7 @@ categories: [Multimedia System]
    
 - Code system developed by IBM   
 - Mainly used in IBM's large computers   
-- Use 8-bit binary numbers   
+- 8-bit binary numbers are used   
 - Can express twice as many symbols and control functions compared to ASCII   
    
 #### Western European character set   

@@ -140,7 +140,7 @@ categories: [Multimedia System]
 - DivX (Digital internet video eXpress)   
   - Video codec using MPEG-4 technology   
   - Capacity to store one high-definition movie on 1 ~ 2 CDs   
-  - Use lossy compression method   
+  - Uses a lossy compression method   
    
 <br />
 ### Video file formats   

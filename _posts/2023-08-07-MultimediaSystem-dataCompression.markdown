@@ -73,7 +73,7 @@ categories: [Multimedia System]
 <br />
 ### Lossless compression technique
 
-- Run Length Coding
+- Repeat Length Coding
 - Huffman Coding
 - LZW Coding (Lempel-Ziv-Welch Coding)
 
@@ -167,7 +167,7 @@ categories: [Multimedia System]
 - How to map a vector with multiple input values ​​into a simple vector
 <br />
 - Vector quantization process
-  - ① The data stream is first divided into blocks called 'vectors'
+  - ① The data stream is first divided into blocks called 'Vectors'
   - ② Create a reference table that is a code book
     - A lookup table is a set of patterns, each consisting of v bytes
   - ③ Find patterns that match each vector in the codebook
@@ -243,7 +243,7 @@ categories: [Multimedia System]
   - Advantages of AAC
     - AAC data has a variable structure, so the size changes depending on the compression rate, which reduces the overall file capacity
       - MP3 structure is fixed
-    - Compared to MP3, the capacity can be reduced by up to 30%
+    - Compared to MP3, the capacity can be reduced by up to 30 %
     - To improve sound quality, quantization correction technology is applied to reduce noise and make it closer to the original sound
   - Disadvantages of AAC
     - Lack of compatibility between players due to copyright copy protection system
@@ -278,48 +278,255 @@ categories: [Multimedia System]
 ## Compression of digital images
 
 <br />
-### JPEG
+### JPEG (Joint Photographic Experts Group)
 
+#### Overview
 
+- As the name of the organization, it is used as a compression standard for color still images
+- Established under ISO / TC97 / SC2 / WG8
+- Standards that form the basis of MPEG
+- Used in storage systems such as digital electronic still cameras and image databases, transmission systems such as still image transmission devices and video conferencing, and printing systems such as color printers
 
+#### JPEG Algorithm
 
+- Mixed compression method using lossy compression and lossless compression
+<br />
+- lossy compression
+  - Compression using DCT transform and quantization
+  - Practical decoding image quality can be obtained even at high compression rates
+  - Divided into basic and extended methods
+    - Basic method (Lossy sequential DCT-based mode)
+      - Basic essential functions in the JPEG system
+      - A method of encoding each element of the image according to the order in which it is scanned
+    - Expanded lossy DCT-based mode
+      - Method of encoding an image into multiple scans
+<br />
+- Lossless compression
+  - Perform lossless compression using a prediction method
+    - Entropy coding is performed using Huffman coding or arithmetic coding
+    - Compared to DCT conversion, the compression rate is lower, but the advantage is that there is no deterioration in image quality
+<br />
+- Mixed compression
+  - Uses a hierarchical approach
+    - Encode video in multiple resolutions so that video can be played or output in various environments
+    - Encoding is performed repeatedly while gradually increasing the resolution of the video
+    - Encoding at each stage uses either lossy compression or lossless compression
 
+#### JPEG algorithm process
 
+① Image segmentation process
+② DCT conversion process
+③ Quantization process
+④ Entropy encoding process
+<br />
+- JPEG compression process
+  - [ Original video (8 × 8 pixel block) ] → [ DCT ] → [ Quantization (Quantization table) ] → [ Encoder (Huffman Table) ] → [ Compressed video ]
 
+#### ① Image segmentation process
 
+- Image segmentation is achieved by color model conversion and blocking
+<br />
+- Color model conversion
+  - Convert RGB model to YIQ color model
+  - Because human vision is more sensitive to brightness than color
+<br />
+- Blockification
+  - To compress the entire video by blocking it into 8 x 8 blocks, divide each component for Y, I, and Q into 8 x 8 blocks
 
+#### ② DCT conversion process
 
+- Perform DCT operation on blocks divided by blockification
+  - After DCT conversion, 64 DCT coefficients are obtained (8 × 8 blocks)
+  - Among these, the first value obtained is the DC (Direct Current) component, and the remaining 63 are AC (Alternating Current) components.
 
+#### ③ Quantization process
 
+- Quantization is performed on the DC and AC components obtained during the DCT conversion process
+  - Quantization is the process of rounding DCT coefficients to integers within a range that is imperceptible to humans.
+  - In the quantization process, each DCT coefficient is divided using a predefined quantization table, and the result is rounded and calculated
 
+#### ④ Entropy encoding process
+
+- As a lossless compression process, the quantized DCT coefficients are further compressed according to spatial characteristics
+- The encoding process scans the quantized DCT coefficients in a zigzag pattern and encodes them from low to high frequencies
+- The encoding method mainly uses Huffman coding
+  - Huffman coding is a method of reducing the total length by assigning short-length codes to frequently appearing values ​​and long-length codes to infrequently appearing values
 
 <br />
-### MPEG
+### MPEG (Moving Picture Experts Group)
 
+#### Overview
 
+- Compression standards for video
+- A group of video experts responsible for developing standards for multimedia such as video and audio established under ISO / IEC
 
+#### MPEG standard
 
+- ① MPEG-1
+  - The first video and audio standard to include the MP3 audio compression format
+- ② MPEG-2
+  - Standards for Television Broadcasting
+- ③ MPEG-3
+  - It was originally designed for HDTV broadcasting, but was discontinued when content was incorporated into MPEG-2
+- ④ MPEG-4
+  - A standard that extends MPEG-2 and was developed for use in multimedia communications
+- ⑤ MPEG-7
+  - A formal system for describing multimedia content
+- ⑥ MPEG-21
+  - Described as a 'multimedia framework' as a future standard
 
+#### MPEG algorithm
 
+- Development of the JPEG algorithm and H.261 compression algorithm
+  - JPEG performs frame-by-frame compression of video, while MPEG compresses video using the correlation between frames
+- MPEG is an algorithm that compresses using prediction and interpolation techniques by taking advantage of the high correlation between adjacent frames
+  - However, since random access must be possible, frames that can be restored with only the information contained in the current frame must be inserted regularly
+- Therefore, the types of frames inserted are
+  - I frame : Compressed frame
+  - P frame : Frame for prediction only
+  - B frame : Frame for interpolation
+<br />
+- Frames of MPEG video
+  - GOP (Group Of Picture)
+    - A set of frames between one I frame and the next I frame
+  - GOP structure of video
+    - [] ... [P][B][I][B][B][P][B][B][P][B][B][P][B][B][I] → t
+      - [I] ~ [I] ⇔ GOP
+<br />
+- Frames of MPEG video
+  - I Frame (Intra-coded Frame)
+    - It is an independent image and can be placed anywhere in the video data
+    - Frames essential for random access to video
+    - It is compressed by itself without reference to other frames
+    - Has the lowest compression rate among other frames
+  - P Frame (Predictive-coded Frame)
+    - Use previous I frame or P frame information when compressing
+    - Compresses only the difference by taking advantage of the small difference between the previous frame and the current frame
+  - B Frame (Bidirectional-coded Frame)
+    - When compressing, use information on previous and subsequent I frame or P frame
+    - Has the best compression ratio
+<br />
+- Coding of MPEG video
+  - [I] [B] [B] [P] [B] [B] [B] [P]
+    - Size of compressed frame : I > P > B frame
+  - I frame
+    - It is placed periodically and serves as a starting point for random access and error recovery
+  - P frame
+    - Encodes the difference from the predicted signal estimated from the previous I or P frame
+  - B frame
+    - Encode the difference from the prediction signal estimated from I or P frames located before and after the screen
+<br />
+- Decryption of MPEG video
+  - Because B frames are used, the order of MPEG data streams may differ from the actual decoding order
+  - That is, the P frame to be output after the related B frame is needed when restoring the B frame, so the P frame must be restored first
+  - Decryption example
+    - Frame order before compression
+   
+      |Type of frame|B|B|I|B|B|P|B|B|P|B|B|P|
+      |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+      |Frame number|0|1|2|3|4|5|6|7|8|9|10|11|
+   
+    - Frame order when restoring   
+   
+      |Type of frame|I|B|B|P|B|B|P|B|B|P|B|B|
+      |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+      |Frame number|2|0|1|5|3|4|8|6|7|11|9|10|
+   
+  - In the example above, the I frame with frame number 2 is decoded first, and then the B frames with frame numbers 0 and 1 are decoded using the information of that I frame. In order to decode B frames 3 and 4, I frames 2 and P frames 5 are required, so P frame 5 is decoded before decoding frames 3 and 4. Decode up to B frame 10 in the same way.
 
+#### ① MPEG-1
 
+- With the advent of audio and video, data compression is required for storage or transmission on storage media, and standards are needed for national compatibility
+- Standardized in WC11 of ISO / IEC / JTC1 (Joint Technical Committee 1)
+- Combination of JPEG standard and H.261 (Established by ITU) standard
+- Established standards for storing and playing video and stereo music on CD-ROM
+- The transmission speed is 1.5 Mbps per second, which is insufficient to transmit video quality sufficiently
 
+#### Characteristics of MPEG-1
 
+- Use of ME (Motion Estimation) and MC (Motion Compensation) to reduce temporal redundancy
+- Use frequency transform (DCT) that uses spatial redundancy information
+- Differential coding (DPCM) used on neighboring data of the same type
+- Use variable-length encoding that considers the statistical frequency of occurrence of transmitted data
 
+#### ② MPEG-2
 
+- Established to improve the problem that 1.5Mbps, the highest transmission speed of MPEG-1, is difficult to provide sufficient video quality
+- A standard for obtaining better picture quality at a higher transmission rate than MPEG-1
+- Requirements for DTV and HDTV broadcasting have been added
+
+#### Characteristics of MPEG-2
+
+- Process each screen on a frame-by-frame or field-by-field basis
+- Image processing of progressive scanning and interlaced scanning
+- Hierarchical method that allows efficient processing when the screen size or frame ratio is different
+
+#### ④ MPEG-4
+
+- MPEG-3 for HDTV existed before MPEG-4
+  - However, HDTV can be accommodated only with MPEG-1 and MPEG-2
+  - Decision to use MPEG-1 for HDTV in the US and Europe
+  - So MPEG-3 was deprecated and MPEG-4 appeared
+- Developed to provide digital AV (Audio / Video) to transmission channels with small transmission frequency bandwidth
+  - Development of an encoding method with a very low transmission rate of less than 64 Kbps
+  - A content-based encoding method was used as the encoding method
+<br />
+- Types of encoding methods
+  - Content-based coding method
+    - Encoding method based on understanding the content of the video : MPEG-4
+    - Applicable to all video applications from ultra-low-speed transmission to ultra-high-speed transmission
+  - Object-based encoding method
+    - A method of analyzing video signals to recognize objects included in the screen by separating them from the background, then compressing and transmitting each object
+  - Model-based coding method
+    - A method of defining a model for an object and then encoding and restoring the object using the model information through an encoder and decoder
+  - Segmentation-based coding method
+    - A method of separating the border and interior of the screen, somewhat sacrificing the texture of flat parts, and clearly encoding the outline of the object
+  - Fractal encoding method
+    - A method of expressing multiple units through geometric transformation by utilizing the characteristic that the similarity between units is large when an image is divided into small units
+  - etc.
+
+#### Characteristics of MPEG-4
+
+- Supports flexible encoding tools that can support both existing methods and new functions
+- High compression rate and various connections possible
+- Provides flexibility and scalability for related technologies
+- A two-way service that provides the necessary information at the desired time according to the recipient's needs and choices
 
 <br />
 ### H.26x
 
+- Video-related standard line established by ITU-T (International Telecommunication Union Telecommunication Sector)
+  - H.261, H.262, H.263, H.264 / AVC, etc.
 
+#### H.261
 
+- TV video compression standard for TV calls and conferences
+- Supports high compression ratio and real-time compression for low-speed video phones or video conferences
+- A prediction technique between images is used to remove temporal redundancy, and a DCT conversion technique is used to remove spatial redundancy (Same as MPEG method)
+- Intra frame and inter frame methods are used for compression
+  - Intra frame method
+    - Input frame is encoded independently from other frames
+      - Similar to MPEG's I frame
+  - Inter frame method
+    - Based on a prediction technique, using the difference between the previous frame and the current frame
+      - Similar to MPEG's P frame
 
+#### H.262
 
+- Standardized jointly with MPEG 
+- Same standard as MPEG-2
 
+#### H.263
 
+- Developed for low bit rate communication for video conferencing and video calling
+- Improved compression performance based on H.261
 
+#### H.264 / AVC (Advanced Video Coding)
 
-
+- Standard for digital video codecs with very high compression ratios
+- ITU-T and MPEG jointly formed JVT (Joint Video Team) to proceed with standardization
+  - H.264 / AVC and MPEG-4 / AVC (or MPEG-4 Part 10) are the same standard
+- Compared to H.263 and MPEG-4, it was developed to achieve similar or better image quality with a compression rate of less than half the bit rate
 
 <br />
 <cite>Source : Department of Computer Science, Korea National Open University</cite>
