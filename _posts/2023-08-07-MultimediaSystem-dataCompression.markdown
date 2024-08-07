@@ -135,10 +135,10 @@ categories: [Multimedia System]
    
 - A technique to reduce the number of unit information that constitutes data by moving one area of ​​data to another area through appropriate transformation   
 <br />
-① PCM conversion   
+- ① PCM conversion   
   - The most basic conversion technique   
   - Technique for converting analog signals into digital signals through sampling, quantization, and encoding   
-② Discrete Cosine Transform (DCT)   
+- ② Discrete Cosine Transform (DCT)   
   - DCT is a method of converting image data defined as a two-dimensional matrix from the spatial domain to the frequency domain   
   - Mainly used for encoding JPEG, MPEG, H.261, etc.   
    
@@ -147,15 +147,15 @@ categories: [Multimedia System]
    
 - A technique based on the fact that the original information can be restored by predicting the next information from previous information and correcting errors caused by the prediction using a small amount of error correction information   
 <br />
-① DPCM (Differential PCM)   
+- ① DPCM (Differential PCM)   
   - The simplest prediction technique used to compress data encoded through PCM   
     - Predict the information to be encoded using the value of the previous information   
     - Capacity can be reduced by using the difference between adjacent values, but there is a disadvantage in that efficiency decreases if the change in amplitude is large   
-② ADPCM (Adaptive DPCM)   
+- ② ADPCM (Adaptive DPCM)   
   - How to solve the problems of DPCM   
     - Slope overload problem : A problem that occurs when the amplitude changes significantly, i.e. due to a sudden change in slope   
   - If the difference between adjacent values ​​is large, the steps for dividing the amplitude are increased, and if the difference is small, the steps for dividing the amplitude are made small   
-③ DM (Delta Modulation)   
+- ③ DM (Delta Modulation)   
   - A special form of DPCM encoding   
     - Encode the difference between the previous value and the current value with just 1 bit   
     - Therefore, the signal value increases by one step or decreases by one step compared to the previous value   
@@ -314,10 +314,10 @@ categories: [Multimedia System]
    
 #### JPEG algorithm process   
    
-① Image segmentation process   
-② DCT conversion process   
-③ Quantization process   
-④ Entropy encoding process   
+- ① Image segmentation process   
+- ② DCT conversion process   
+- ③ Quantization process   
+- ④ Entropy encoding process   
 <br />
 - JPEG compression process   
   - [ Original video (8 × 8 pixel block) ] → [ DCT ] → [ Quantization (Quantization table) ] → [ Encoder (Huffman Table) ] → [ Compressed video ]   

@@ -33,8 +33,8 @@ categories: [Multimedia System]
 <br />
 ### Background of multimedia development   
    
-① Improvement of computer performance   
-② Advancement of multimedia related technologies   
+- ① Improvement of computer performance   
+- ② Advancement of multimedia related technologies   
    
 #### Improvement of computer performance   
    
@@ -44,12 +44,12 @@ categories: [Multimedia System]
 <br />
 - Memory capacity according to multimedia data type   
    
-|Types of multimedia data|Memory capacity|
-|:---|:---|
-|1 sheet of A4 paper text|0.002 MB|
-|1 image (Still image)|1 MB|
-|1 minute of CD audio quality music|10 MB|
-|Video (Movie) 1 second|27 MB|
+  |Types of multimedia data|Memory capacity|
+  |:---|:---|
+  |1 sheet of A4 paper text|0.002 MB|
+  |1 image (Still image)|1 MB|
+  |1 minute of CD audio quality music|10 MB|
+  |Video (Movie) 1 second|27 MB|
    
 - MPC (Multimedia PC) : A PC that can process multimedia   
    
@@ -74,17 +74,17 @@ categories: [Multimedia System]
 <br />
 - Representative multimedia-related technologies   
    
-|Multimedia-related devices and technologies|Explanation|
-|:---|:---|
-|Storage medium|CD, DVD, Blu-ray disc, etc.|
-|Multimedia-related peripherals|Sound card, graphics / video acceleration board, etc.|
-|Data compression and restoration technology|JPEG, MPEG, MP3, etc.|
-|Analog-to-digital data conversion technology|PCM, ADPCM, etc.|
-|Development of multimedia software tools|Multimedia editing tools and authoring tools, etc.|
-|Hypermedia technology|HTML, XML, DHTML, etc.|
-|Standardization for compatibility of multimedia information|JPEG, MPEG, XML, SMIL, SVG, etc.|
-|Multimedia communication technology|Mobile communication, wireless internet, etc.|
-|Mobile multimedia|WAP, WML, etc.|
+  |Multimedia-related devices and technologies|Explanation|
+  |:---|:---|
+  |Storage medium|CD, DVD, Blu-ray disc, etc.|
+  |Multimedia-related peripherals|Sound card, graphics / video acceleration board, etc.|
+  |Data compression and restoration technology|JPEG, MPEG, MP3, etc.|
+  |Analog-to-digital data conversion technology|PCM, ADPCM, etc.|
+  |Development of multimedia software tools|Multimedia editing tools and authoring tools, etc.|
+  |Hypermedia technology|HTML, XML, DHTML, etc.|
+  |Standardization for compatibility of multimedia information|JPEG, MPEG, XML, SMIL, SVG, etc.|
+  |Multimedia communication technology|Mobile communication, wireless internet, etc.|
+  |Mobile multimedia|WAP, WML, etc.|
    
 - Advances in human-computer interaction technology   
   - In order to use a computer to handle various information, the computer must be easy and convenient to use   
@@ -113,10 +113,10 @@ categories: [Multimedia System]
 <br />
 ### Characteristics of multimedia   
    
-① Digitalization of information : Multimedia data needs to be digitized for use on computers   
-② Integration of information : Use integrated multimedia data to effectively convey information   
-③ Interaction of information : Organize data in the desired form to suit individual user needs   
-④ Sharing of information : The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge   
+- ① Digitalization of information : Multimedia data needs to be digitized for use on computers   
+- ② Integration of information : Use integrated multimedia data to effectively convey information   
+- ③ Interaction of information : Organize data in the desired form to suit individual user needs   
+- ④ Sharing of information : The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge   
    
 #### Digitalization of information   
    
@@ -215,14 +215,14 @@ categories: [Multimedia System]
   - Graphic designer : Prepare graphics for visual effects of the product   
 <br />
 - Production process   
-  ① Design stage   
-  ② Requirements and structural design stage   
-  ③ Storyboard stage   
-  ④ Content production stage   
-  ⑤ Authoring stage   
-  ⑥ Evaluation stage   
-  ⑦ Distribution stage   
-  ⑧ Maintenance phase   
+  - ① Design stage   
+  - ② Requirements and structural design stage   
+  - ③ Storyboard stage   
+  - ④ Content production stage   
+  - ⑤ Authoring stage   
+  - ⑥ Evaluation stage   
+  - ⑦ Distribution stage   
+  - ⑧ Maintenance phase   
    
 <br />
 <cite>Source : Department of Computer Science, Korea National Open University</cite>

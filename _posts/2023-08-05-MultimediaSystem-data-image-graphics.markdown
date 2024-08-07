@@ -35,14 +35,14 @@ categories: [Multimedia System]
 <br />
 - Relationship between number of bits and color   
    
-|Number of bits|Number of colors|Note|
-|:---:|:---|:---|
-|1|2 (2<sup>1</sup>)|Gray-scale|
-|4|16 (2<sup>4</sup>)|Use Palette (Index Color)|
-|8|256 (2<sup>8</sup>)|Use Palette (Index Color)|
-|16|65,536 (2<sup>16</sup>)|High color (R : G : B = 5 : 5 : 5)|
-|24|16,777,216 (2<sup>24</sup>)|True Color (R : G : B = 8 : 8 : 8)|
-|32|16,777,216 + 8-bit alpha channel|True color + alpha channel|
+  |Number of bits|Number of colors|Note|
+  |:---:|:---|:---|
+  |1|2 (2<sup>1</sup>)|Gray-scale|
+  |4|16 (2<sup>4</sup>)|Use Palette (Index Color)|
+  |8|256 (2<sup>8</sup>)|Use Palette (Index Color)|
+  |16|65,536 (2<sup>16</sup>)|High color (R : G : B = 5 : 5 : 5)|
+  |24|16,777,216 (2<sup>24</sup>)|True Color (R : G : B = 8 : 8 : 8)|
+  |32|16,777,216 + 8-bit alpha channel|True color + alpha channel|
    
 - Alpha channel   
   - It refers to 256 levels of transparency as a channel other than RGB, and does not contain color information   

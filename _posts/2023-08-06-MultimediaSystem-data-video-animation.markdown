@@ -43,11 +43,11 @@ categories: [Multimedia System]
 <br />
 - Video signal format and usage area   
    
-|Broadcast format|Nation|Number of horizontal lines (Line)|Frame rate (frame / sec)|
-|:---:|:---|:---:|:---:|
-|NTSC|USA, Canada, Korea, Japan, Mexico|525|29.97|
-|PAL|Australia, China, European countries, South Africa|625|25|
-|SECAM|France, Middle East, African countries|625|25|
+  |Broadcast format|Nation|Number of horizontal lines (Line)|Frame rate (frame / sec)|
+  |:---:|:---|:---:|:---:|
+  |NTSC|USA, Canada, Korea, Japan, Mexico|525|29.97|
+  |PAL|Australia, China, European countries, South Africa|625|25|
+  |SECAM|France, Middle East, African countries|625|25|
    
 - Connection format for analog video (Cable connection format)   
   - Because analog video is noisy, the connection format between devices is very important   
