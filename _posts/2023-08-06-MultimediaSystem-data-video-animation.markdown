@@ -31,12 +31,12 @@ categories: [Multimedia System]
 - Characteristics of analog video   
   - Frame rate   
     - Refers to the number of frames per second produced by the video signal   
-    - Typical frame rate is 25-30 frames per second   
+    - Typical frame rate is 25 ~ 30 frames per second   
   - Number of scan lines   
     - Number of horizontal lines that make up a TV screen   
   - Aspect ratio   
     - Width-to-height ratio of video images   
-    - Broadcast video format has an aspect ratio of 4:3   
+    - Broadcast video format has an aspect ratio of 4 : 3   
 <br />
 - Analog video signal format   
   - NTSC, PAL, SECAM methods   
@@ -106,7 +106,7 @@ categories: [Multimedia System]
    
 #### Video codec   
    
-- Technology to compress/restore digital video data without loss of quality   
+- Technology to compress / restore digital video data without loss of quality   
 <br />
 - Codec (Compressor / Decompressor)   
   - A term that includes both software that compresses or decompresses data using a data compression function, or devices and software that convert data such as audio and video into other formats   
@@ -139,7 +139,7 @@ categories: [Multimedia System]
 <br />
 - DivX (Digital internet video eXpress)   
   - Video codec using MPEG-4 technology   
-  - Capacity to store one high-definition movie on 1-2 CDs   
+  - Capacity to store one high-definition movie on 1 ~ 2 CDs   
   - Use lossy compression method   
    
 <br />
@@ -167,7 +167,7 @@ categories: [Multimedia System]
 - The file format for QuickTime has the extension `*.mov`   
 <br />
 - Quicktime   
-  - Multimedia playback software for Macintosh/Windows developed by Apple   
+  - Multimedia playback software for Macintosh / Windows developed by Apple   
   - You can watch videos without the help of special hardware devices   
   - Real-time streaming support   
   - Scalability (QuickTime VR that implements virtual reality is also possible)   
