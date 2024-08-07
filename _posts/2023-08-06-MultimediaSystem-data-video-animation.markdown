@@ -135,7 +135,7 @@ categories: [Multimedia System]
   - One of several sub-codecs based on H.264   
     - H.264 is a video compression standard jointly created by MPEG and ITU   
     - Highest compression rate and highest quality picture quality among compression codecs   
-    - The downside is that the encoding time is twice that of other codecs   
+    - The disadvantage is that the encoding time is twice that of other codecs   
 <br />
 - DivX (Digital internet video eXpress)   
   - Video codec using MPEG-4 technology   
