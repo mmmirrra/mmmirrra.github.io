@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multimedia System: Video, Animation"
+title:  "Multimedia System: Data - Video, Animation"
 date:   2023-08-06 09:00:00 +0900
 categories: [Multimedia System]
 ---
