@@ -25,15 +25,15 @@ categories: [Multimedia System]
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/multimediaSystemSound1.png)
    
 <br />
-  - Amplitude : The height of the waveform between the highest or lowest point of the waveform and the center line   
-  - Period : The time it takes for one cycle to start at the center line, pass through the top and bottom of the waveform, and reach the center line again   
-  - Frequency : Number of cycles per unit time, unit called Hertz (Hz)   
+  - Amplitude: The height of the waveform between the highest or lowest point of the waveform and the center line   
+  - Period: The time it takes for one cycle to start at the center line, pass through the top and bottom of the waveform, and reach the center line again   
+  - Frequency: Number of cycles per unit time, unit called Hertz (Hz)   
     - Frequency = <sup>1</sup> / <sub>cycle</sub>   
    
 #### Characteristics of analog sound   
    
 - Sound is displayed as a continuous analog waveform   
-- Expressed as sound size (Amplitude), sound pitch (Frequency : cycle), and tone   
+- Expressed as sound size (Amplitude), sound pitch (Frequency: cycle), and tone   
    
 <br />
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/multimediaSystemSound2.png)
@@ -43,13 +43,13 @@ categories: [Multimedia System]
   - Sound size (Amplitude)   
     - The larger the amplitude, the louder the sound   
     - The unit is decibel (dB)   
-    - 0 dB : The quietest sound a person can hear   
-    - 50 ~ 70 dB : Loudness when having a conversation   
+    - 0 dB: The quietest sound a person can hear   
+    - 50 ~ 70 dB: Loudness when having a conversation   
   - Sound pitch (Frequency)   
     - Number of cycles per second   
     - The higher the frequency, the higher the sound   
-    - 10 kHz : 10,000 cycles occur per second   
-    - Audible frequency : 20 ~ 20 kHz   
+    - 10 kHz: 10,000 cycles occur per second   
+    - Audible frequency: 20 ~ 20 kHz   
   - Tone   
     - Features that help our ears distinguish sounds from each other   
     - Determined by frequency and amplitude   
@@ -57,8 +57,8 @@ categories: [Multimedia System]
 #### Digital sound   
    
 - This means that sound is expressed and stored digitally   
-- Sound : Original analog signal   
-- Digital sound : Conversion of analog signals to digital signals   
+- Sound: Original analog signal   
+- Digital sound: Conversion of analog signals to digital signals   
    
 #### Characteristics of digital sound   
    
@@ -149,8 +149,8 @@ categories: [Multimedia System]
 - Number of channels   
   - Number of sounds heard simultaneously   
   - There are mono and stereo   
-    - Mono : Uses only one single channel   
-    - Stereo : Uses two channels, twice the storage capacity compared to mono   
+    - Mono: Uses only one single channel   
+    - Stereo: Uses two channels, twice the storage capacity compared to mono   
    
 #### Sound quality and use according to the characteristics of digital sound   
    
@@ -236,12 +236,12 @@ categories: [Multimedia System]
 - Digital audio quality   
   - Proportional to the amount of data and determined by the sampling rate and number of sample bits   
   - Increasing the amount of data improves sound quality   
-    - Same as the original sound : Audio data must not be compressed   
-    - Similar to the original sound : Compresses and uses audio data   
+    - Same as the original sound: Audio data must not be compressed   
+    - Similar to the original sound: Compresses and uses audio data   
 <br />
 - Compression of audio data   
-  - Lossy compression : Take the loss of information and minimize the amount of data   
-  - Lossless compression : Suppresses information loss as much as possible and maintains the highest sound quality   
+  - Lossy compression: Take the loss of information and minimize the amount of data   
+  - Lossless compression: Suppresses information loss as much as possible and maintains the highest sound quality   
 <br />
 - Various audio file formats   
   - Digital audio data exists in various file formats depending on the compression method for storage or transmission on a storage medium   
@@ -298,13 +298,13 @@ categories: [Multimedia System]
 - Summary of communication protocols between hardware, cables, and equipment that connect computers and electronic instruments from different manufacturers   
 - It does not contain actual sounds, but contains information about how to play the instrument   
 <br />
-```
-[ Sequencing program ]        [ MIDI devices (sampler, etc.) ]
-          |                                 |
-     [ Computer ]────────[ MIDI interface card ]
-                                            |
-[ Amplifier (speaker) ]──[ MIDI devices (synthesizers, etc.) ]
-```
+  ```
+  [ Sequencing program ]        [ MIDI devices (sampler, etc.) ]
+            |                                 |
+       [ Computer ]────────[ MIDI interface card ]
+                                              |
+  [ Amplifier (speaker) ]──[ MIDI devices (synthesizers, etc.) ]
+  ```
    
 <br />
 ### MIDI editing program   
@@ -368,4 +368,4 @@ categories: [Multimedia System]
 - Extension is `*.mod`   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

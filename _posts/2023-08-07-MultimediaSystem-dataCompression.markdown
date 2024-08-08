@@ -43,13 +43,13 @@ categories: [Multimedia System]
 ### Data Compression Techniques   
    
 - Depending on the degree of information loss when compressing   
-  - Lossless compression : Reversible compression   
-  - Losy compression : Irreversible compression   
-  - Hybrid compression : Lossless and lossy compression used together   
+  - Lossless compression: Reversible compression   
+  - Losy compression: Irreversible compression   
+  - Hybrid compression: Lossless and lossy compression used together   
 - Depending on the nature used for compression   
-  - Entropy Compression : Lossless Compression   
+  - Entropy Compression: Lossless Compression   
     - Compression technique that does not consider the properties of the object to be compressed   
-  - Target-based compression : Lossy compression   
+  - Target-based compression: Lossy compression   
     - Compress using the characteristics of the target information to be compressed   
    
 ### Requirements for data compression techniques   
@@ -81,7 +81,7 @@ categories: [Multimedia System]
 ### Repeat Length Coding   
    
 - Suppress the use of frequently repeated codes in one data as much as possible   
-  - Example : Repeated data is expressed as one value and the number of repetitions of that value   
+  - Example: Repeated data is expressed as one value and the number of repetitions of that value   
     - Data to compress → (730000000)   
     - Data after compression → (730n7)   
   - Since '0' is repeated 7 times in the above sequence, it is indicated by 'O', a flag (n) that can indicate the number of repetitions, and the number of repetitions '7'   
@@ -94,7 +94,7 @@ categories: [Multimedia System]
    
 - A technique that uses codes of different lengths depending on the frequency of characters appearing in the data   
 - Variable length coding method is widely used in video coding   
-  - Example : If there is a string 'AABBAC'   
+  - Example: If there is a string 'AABBAC'   
     - The frequency of each letter is A 3 times, B 2 times, and C 1 time   
     - If you assign '0' to A, '10' to B, and '11' to C,   
     - The above string is 'A(0)A(0)B(10)B(10)A(0)C(11)', so it can be expressed as '001010011'   
@@ -153,7 +153,7 @@ categories: [Multimedia System]
     - Capacity can be reduced by using the difference between adjacent values, but there is a disadvantage in that efficiency decreases if the change in amplitude is large   
 - ② ADPCM (Adaptive DPCM)   
   - How to solve the problems of DPCM   
-    - Slope overload problem : A problem that occurs when the amplitude changes significantly, i.e. due to a sudden change in slope   
+    - Slope overload problem: A problem that occurs when the amplitude changes significantly, i.e. due to a sudden change in slope   
   - If the difference between adjacent values ​​is large, the steps for dividing the amplitude are increased, and if the difference is small, the steps for dividing the amplitude are made small   
 - ③ DM (Delta Modulation)   
   - A special form of DPCM encoding   
@@ -233,9 +233,9 @@ categories: [Multimedia System]
     - It is a compression method developed to increase efficiency by compressing relatively large audio signals   
 <br />
 - Layer of MPEG Audio   
-  - Layer-1 : Simplest layer, suitable for general users   
-  - Layer-2 : Higher compression rate compared to Layer-1, used for professional audio such as broadcasting   
-  - Layer-3 : Sound quality no different from the original, standard for more professional audio   
+  - Layer-1: Simplest layer, suitable for general users   
+  - Layer-2: Higher compression rate compared to Layer-1, used for professional audio such as broadcasting   
+  - Layer-3: Sound quality no different from the original, standard for more professional audio   
 <br />
 - AAC   
   - The official name is MPEG-2 AAC (Advanced Audio Coding)   
@@ -265,7 +265,7 @@ categories: [Multimedia System]
   - Much faster encoding time due to improved encoding algorithm   
 <br />
 - Real Audio   
-  - Real Audio format : RA, RAM, RM   
+  - Real Audio format: RA, RAM, RM   
     - One of the streaming technologies that transmits multimedia data in real time over a network   
     - Fast transfer rate and high compression rate   
 <br />
@@ -382,9 +382,9 @@ categories: [Multimedia System]
 - MPEG is an algorithm that compresses using prediction and interpolation techniques by taking advantage of the high correlation between adjacent frames   
   - However, since random access must be possible, frames that can be restored with only the information contained in the current frame must be inserted regularly   
 - Therefore, the types of frames inserted are   
-  - I frame : Compressed frame   
-  - P frame : Frame for prediction only   
-  - B frame : Frame for interpolation   
+  - I frame: Compressed frame   
+  - P frame: Frame for prediction only   
+  - B frame: Frame for interpolation   
 <br />
 - Frames of MPEG video   
   - GOP (Group Of Picture)   
@@ -408,7 +408,7 @@ categories: [Multimedia System]
 <br />
 - Coding of MPEG video   
   - [I] [B] [B] [P] [B] [B] [B] [P]   
-    - Size of compressed frame : I > P > B frame   
+    - Size of compressed frame: I > P > B frame   
   - I frame   
     - It is placed periodically and serves as a starting point for random access and error recovery   
   - P frame   
@@ -473,7 +473,7 @@ categories: [Multimedia System]
 <br />
 - Types of encoding methods   
   - Content-based coding method   
-    - Encoding method based on understanding the content of the video : MPEG-4   
+    - Encoding method based on understanding the content of the video: MPEG-4   
     - Applicable to all video applications from ultra-low-speed transmission to ultra-high-speed transmission   
   - Object-based encoding method   
     - A method of analyzing video signals to recognize objects included in the screen by separating them from the background, then compressing and transmitting each object   
@@ -529,4 +529,4 @@ categories: [Multimedia System]
 - Compared to H.263 and MPEG-4, it was developed to achieve similar or better image quality with a compression rate of less than half the bit rate   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

@@ -19,7 +19,7 @@ categories: [Multimedia System]
    
 - Raw media   
   - Unprocessed media   
-  - Natural physical elements : Paper, stone, ink, painting, music, etc.   
+  - Natural physical elements: Paper, stone, ink, painting, music, etc.   
 - Digital media   
   - Rely on computers   
   - Digital image, digital video, digital audio, etc.   
@@ -51,7 +51,7 @@ categories: [Multimedia System]
   |1 minute of CD audio quality music|10 MB|
   |Video (Movie) 1 second|27 MB|
    
-- MPC (Multimedia PC) : A PC that can process multimedia   
+- MPC (Multimedia PC): A PC that can process multimedia   
    
 #### Development of multimedia related technologies   
    
@@ -113,10 +113,10 @@ categories: [Multimedia System]
 <br />
 ### Characteristics of multimedia   
    
-- ① Digitalization of information : Multimedia data needs to be digitized for use on computers   
-- ② Integration of information : Use integrated multimedia data to effectively convey information   
-- ③ Interaction of information : Organize data in the desired form to suit individual user needs   
-- ④ Sharing of information : The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge   
+- ① Digitalization of information: Multimedia data needs to be digitized for use on computers   
+- ② Integration of information: Use integrated multimedia data to effectively convey information   
+- ③ Interaction of information: Organize data in the desired form to suit individual user needs   
+- ④ Sharing of information: The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge   
    
 #### Digitalization of information   
    
@@ -152,12 +152,12 @@ categories: [Multimedia System]
 - Multimedia information is shared by many users on the Internet   
   - Search sites and portals   
     - By gathering a vast amount of data and providing it in one bundle, many users can gather and share information   
-  - Development of the World Wide Web (WWW : Web for short)   
+  - Development of the World Wide Web (WWW: Web for short)   
     - The concept of information sharing is becoming more widespread   
 <br />
 - Tim Berners-Lee   
   - Defining today's web as Web 2.0   
-  - Web 2.0 : It is a user-centered Internet environment that allows anyone to easily create data and share it on the Internet without the owner or monopolist of the data.   
+  - Web 2.0: It is a user-centered Internet environment that allows anyone to easily create data and share it on the Internet without the owner or monopolist of the data.   
    
 <br />
 ### Multimedia content   
@@ -207,12 +207,12 @@ categories: [Multimedia System]
   - A perfect production process tailored to the production purpose is required   
 <br />
 - Production team members   
-  - Project manager : Overall management and execution   
-  - Project designer : Performs technical aspects of the project   
-  - Content expert : Performs everything from storyboard to content creation   
-  - Programmer : Completes prepared contents into products using S/W, etc.   
-  - Copywriter : Prepare text for the project   
-  - Graphic designer : Prepare graphics for visual effects of the product   
+  - Project manager: Overall management and execution   
+  - Project designer: Performs technical aspects of the project   
+  - Content expert: Performs everything from storyboard to content creation   
+  - Programmer: Completes prepared contents into products using S/W, etc.   
+  - Copywriter: Prepare text for the project   
+  - Graphic designer: Prepare graphics for visual effects of the product   
 <br />
 - Production process   
   - ① Design stage   
@@ -225,4 +225,4 @@ categories: [Multimedia System]
   - ⑧ Maintenance phase   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

@@ -13,9 +13,9 @@ categories: [Multimedia System]
 - The largest and most difficult to process multimedia data   
 - Video is structured multimedia (Consisting of video and audio)   
 - Video is classified by screen size and number of frames per second   
-  - Frame : Images that make up a video   
-    - Computer or TV video : 30 frames per second   
-    - Movie : 24 frames per second   
+  - Frame: Images that make up a video   
+    - Computer or TV video: 30 frames per second   
+    - Movie: 24 frames per second   
   - So the size of the video is   
     - Size of image frame × number of frames per second   
    
@@ -117,8 +117,8 @@ categories: [Multimedia System]
    
 - MPEG-4   
   - Developed by Microsoft as a complement to MPEG-2   
-    - MPEG-1 : VCD quality   
-    - MPEG-2 : DVD / HD quality   
+    - MPEG-1: VCD quality   
+    - MPEG-2: DVD / HD quality   
       - Need to increase the capacity of storage media due to large capacity   
       - Difficulty playing in real time over the network   
   - Picture quality is similar to MPEG-2, but capacity is significantly reduced   
@@ -194,7 +194,7 @@ categories: [Multimedia System]
 <br />
 ### Video editing software   
    
-- Windows Movie Maker : End of support   
+- Windows Movie Maker: End of support   
 <br />
 - Adobe Premiere Pro   
   - Adobe's real-time, timeline-based video editing software   
@@ -246,7 +246,7 @@ categories: [Multimedia System]
 #### Model animation   
    
 - Clay animation   
-  - A method of moving a model made of clay little by little to fit the frame and then taking pictures of each : Stop motion method   
+  - A method of moving a model made of clay little by little to fit the frame and then taking pictures of each: Stop motion method   
   - Photographing an object while it is still and later projecting different images to create the illusion of movement   
 <br />
 - Silhouette animation   
@@ -258,9 +258,9 @@ categories: [Multimedia System]
    
 - Web animation   
   - Animation for the Internet produced using a computer   
-  - A mixture of web design and animation : Webtoons   
-  - Flash is widely used as production software : Flash animation   
-    - Flash animation : Excellent image quality compared to small file size   
+  - A mixture of web design and animation: Webtoons   
+  - Flash is widely used as production software: Flash animation   
+    - Flash animation: Excellent image quality compared to small file size   
 <br />
 - 3D computer animation   
   - Key frame techniques, motion capture techniques, etc. are used   
@@ -295,4 +295,4 @@ categories: [Multimedia System]
 - Various file formats exist   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

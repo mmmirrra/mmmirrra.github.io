@@ -57,13 +57,13 @@ categories: [Multimedia System]
 #### Media processing device   
    
 - Digital media equipment   
-  - Capture : Digital representation of raw data (e.g. scanners, digitizers, etc.)   
-  - Presentation : Reorganizing and showing raw data (e.g. printer, monitor, etc.)   
-  - Processing : Processing digital signals, sounds and images (e.g. encoders, decoders, etc.)   
+  - Capture: Digital representation of raw data (e.g. scanners, digitizers, etc.)   
+  - Presentation: Reorganizing and showing raw data (e.g. printer, monitor, etc.)   
+  - Processing: Processing digital signals, sounds and images (e.g. encoders, decoders, etc.)   
 - Analog media equipment   
-  - Source : Generates an analog signal (e.g. microphone)   
-  - Sink : Generate output (e.g. speaker)   
-  - Filter : Transform characteristics (e.g. audio mixer)   
+  - Source: Generates an analog signal (e.g. microphone)   
+  - Sink: Generate output (e.g. speaker)   
+  - Filter: Transform characteristics (e.g. audio mixer)   
    
 #### Example of media processing device   
    
@@ -78,9 +78,9 @@ categories: [Multimedia System]
 <br />
 - Video board   
   - Play video images on the computer screen from the computer's CD drive or DVD drive   
-    - Frame Grabber Board : Converts analog video into digital video and stores them on the computer.   
-    - Video Overlay Board : Displays image/graphic information generated inside the computer and external video information such as TV overlapping   
-    - TV receiving card : Device that can receive digital broadcasting or DMB   
+    - Frame Grabber Board: Converts analog video into digital video and stores them on the computer.   
+    - Video Overlay Board: Displays image/graphic information generated inside the computer and external video information such as TV overlapping   
+    - TV receiving card: Device that can receive digital broadcasting or DMB   
 <br />
 - Sound card   
   - Device that allows a computer's CD drive to be used as an audio CD player   
@@ -167,7 +167,7 @@ categories: [Multimedia System]
   - Processes numeric and character data   
 - Multimedia database system   
   - A system that can efficiently store and search not only numbers and characters but also multimedia data   
-  - Create a description based on the contents of the media object and store that description : Metadata   
+  - Create a description based on the contents of the media object and store that description: Metadata   
   - Requires large storage space   
 <br />
 - Meta database   
@@ -210,8 +210,8 @@ categories: [Multimedia System]
   - Integrate multiple media to create a multimedia application system   
 <br />
 - Representative multimedia-related software   
-  - Editing software : Adobe Photoshop   
-  - Authorizing software : Adobe Dreamweaver   
+  - Editing software: Adobe Photoshop   
+  - Authorizing software: Adobe Dreamweaver   
    
 <br />
 ### Multimedia communication system   
@@ -240,17 +240,17 @@ categories: [Multimedia System]
    
 #### Communication system using network   
    
-- ISDN : Integrated Services Digital Networks   
+- ISDN (Integrated Services Digital Networks)   
   - A communication network that comprehensively provides various services such as voice, text, and video through a single communication network   
   - Provides a variety of services at high speed and high quality compared to existing telephone networks   
   - However, based on 64 Kbps using copper wire, it is about 1.5 Mbps to 2 Mbps using optical fiber, which is insufficient for multimedia communication   
   - Therefore, for multimedia communication such as TV video, ISDN capable of 10 times higher speed transmission is required ⇒ B-ISDN   
 <br />
-- Broadband Integrated Information and Communication Network (B-ISDN : Broadband ISDN)   
+- Broadband Integrated Information and Communication Network (B-ISDN: Broadband ISDN)   
   - Supports higher speed transmission than ISDN   
   - B-ISDN information delivery method   
     - Asynchronous delivery method that integrates line delivery method and packet delivery method   
-    - ATM : Asynchronous Transfer Mode   
+    - ATM (Asynchronous Transfer Mode)   
       - It is capable of digitally transmitting large amounts of data at ultra-high speeds of 150 Mbps to 600 Mbps and is used for video and multimedia communications   
 <br />
 - High-speed Internet network   
@@ -317,15 +317,15 @@ categories: [Multimedia System]
   - IMT-2020   
   - 5G mobile communication network technology is needed due to rapid changes in the mobile environment   
   - 5G is a next-generation mobile communication technology with a data transfer speed 1000 times faster than 4th generation LTE   
-    - Maximum speed of LTE : 75 Mbps   
-    - 5G : 75 Gbps ~ 100 Gbps (Expected speed of 1 Gbps)   
+    - Maximum speed of LTE: 75 Mbps   
+    - 5G: 75 Gbps ~ 100 Gbps (Expected speed of 1 Gbps)   
   - Effects of 5G development   
     - Providing futuristic services such as Internet of Things (IoT), augmented reality, and holograms   
   - Current status of 5G technology development   
-    - METIS 2020 : Consortium of 9 European countries   
-    - IMT-2020 (5G) Promotion Group : China   
-    - 2020 and Beyond Ad hoc : Japan   
-    - 5G Forum : Korea   
+    - METIS 2020: Consortium of 9 European countries   
+    - IMT-2020 (5G) Promotion Group: China   
+    - 2020 and Beyond Ad hoc: Japan   
+    - 5G Forum: Korea   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

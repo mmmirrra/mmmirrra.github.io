@@ -49,7 +49,7 @@ Internet ≠ Web
   - Later, the development of browsers with various functions   
   - Mosaic : Developed by Mark Andreessen and others of the NCSA (National Center for Supercomputing Applications)   
 - Web-related technologies are developed by Web Consortium (W3C)   
-  - Founded in 1994 with a focus on 'Team Bernas Lee'   
+  - Founded in 1994 with a focus on 'Tim Berners-Lee'   
   - Aim for Web interoperability   
    
 <br />

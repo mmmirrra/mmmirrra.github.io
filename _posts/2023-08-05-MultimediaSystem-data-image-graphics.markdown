@@ -54,8 +54,8 @@ categories: [Multimedia System]
 - Number of pixels or dots that can be displayed per unit length   
 - The unit is dpi (dot per inch)   
 - Distinguish between device resolution and image resolution   
-  - Device resolution : Number of pixels that an output device can express in unit area   
-  - Image resolution : Resolution of the image itself   
+  - Device resolution: Number of pixels that an output device can express in unit area   
+  - Image resolution: Resolution of the image itself   
    
 <br />
 ### Expression of images   
@@ -77,7 +77,7 @@ categories: [Multimedia System]
    
 - A color model is a way to express color in a digital environment   
 - It refers to a color space that can define and reproduce each color on a computer   
-  - Color space : The three properties of color, hue, brightness, and saturation, are expressed as coordinates in three-dimensional space   
+  - Color space: The three properties of color, hue, brightness, and saturation, are expressed as coordinates in three-dimensional space   
 - Therefore, the color model expresses color by corresponding color properties to a three-dimensional coordinate system   
 <br />
 - Types of color models   
@@ -129,13 +129,13 @@ categories: [Multimedia System]
 <br />
 - YIQ, YUV model   
   - Model suitable for TV broadcasting using lighting   
-    - YIQ model : Applied to NTSC method   
-    - YUV model : Applied to PAL method   
+    - YIQ model: Applied to NTSC method   
+    - YUV model: Applied to PAL method   
 <br />
 - YCbCr model   
   - Model using color difference information Cb and Cr   
-    - Cb : Color difference information indicating blueness   
-    - Cr : Color difference information indicating redness   
+    - Cb: Color difference information indicating blueness   
+    - Cr: Color difference information indicating redness   
   - Used in compression methods such as JPEG   
    
 <br />
@@ -230,8 +230,8 @@ categories: [Multimedia System]
 - Special-purpose graphics package   
   - Provides functions and a convenient user interface to create pictures suitable for various application fields   
   - High-quality output can be produced even if you are not a professional programmer   
-    - CAD package : Used for product design in various fields such as architecture, machinery, and electronic circuits   
-    - Paint package (Adobe Photoshop, etc.) : Create or edit raster pictures, photos, etc.   
+    - CAD package: Used for product design in various fields such as architecture, machinery, and electronic circuits   
+    - Paint package (Adobe Photoshop, etc.): Create or edit raster pictures, photos, etc.   
 <br />
 - Graphics Application Programming Interface (API)   
   - A graphics library that allows professional programmers to write programs using graphics functions in programming languages ​​such as C/C++ and Java   
@@ -282,15 +282,15 @@ categories: [Multimedia System]
 - Rendering Techniques   
   - Mapping techniques   
     - Texture processing technique using texture to increase the realism of objects   
-      - Texture mapping : A method of simply applying materials such as photographs or drawings to the surface of an object   
-      - Bump mapping : A method of forming bumps, such as irregularities, on the surface of an object   
-      - Opacity mapping : A method of representing the transparency of an object   
-      - Reflection mapping : A method of representing reflections on a surface   
+      - Texture mapping: A method of simply applying materials such as photographs or drawings to the surface of an object   
+      - Bump mapping: A method of forming bumps, such as irregularities, on the surface of an object   
+      - Opacity mapping: A method of representing the transparency of an object   
+      - Reflection mapping: A method of representing reflections on a surface   
   - Shading Technique   
     - A technique for coloring an object by calculating the brightness of each unit surface of the object, the brightness of the light source, the brightness of the surroundings, and the angle of the three-dimensional surface   
-      - Flat shading : The most basic technique   
-      - Gouraud shading : Softer contrast than flat shading   
-      - Phong shading : Suitable for objects with curved surfaces   
+      - Flat shading: The most basic technique   
+      - Gouraud shading: Softer contrast than flat shading   
+      - Phong shading: Suitable for objects with curved surfaces   
   - Hidden line removal technique   
     - Technique to remove invisible lines from objects   
    
@@ -342,4 +342,4 @@ categories: [Multimedia System]
   - Maya   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

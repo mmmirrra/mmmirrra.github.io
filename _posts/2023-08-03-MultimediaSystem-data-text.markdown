@@ -11,11 +11,11 @@ categories: [Multimedia System]
 <br />
 - Differences between each multimedia data   
   - How to obtain   
-    - Acquired via computer : Text, graphics, animation   
-    - Acquire from the real world : Sound, images, video   
+    - Acquired via computer: Text, graphics, animation   
+    - Acquire from the real world: Sound, images, video   
   - Spatio-temporal aspects   
-    - Continuous characteristics : Sound, video, animation   
-    - Non-continuous characteristics : Text, images, graphics   
+    - Continuous characteristics: Sound, video, animation   
+    - Non-continuous characteristics: Text, images, graphics   
    
 ### Overview of the text   
    
@@ -45,7 +45,7 @@ categories: [Multimedia System]
 - Character set   
   - Defining and ordering the characters to be expressed   
 <br />
-- CCS : Coded Character Set   
+- CCS (Coded Character Set)   
   - Character set expressed in code form   
     - ASCII   
     - EBCDIC   
@@ -74,15 +74,15 @@ categories: [Multimedia System]
 - Also called "Western European Character Set" or "ISO Latin-1"   
 - Uses 8-bit code system as an extension of ASCII   
 <br />
-- ISO : International Organization for Standardization   
+- ISO: International Organization for Standardization   
    
 #### Hangul code   
    
 - English or European languages ​​can be expressed with 256 8-bit codes   
 - Hangul cannot express all Hangul combinations in 8 bits   
 - Therefore, combined and completed Hangul codes were created   
-  - Combined type : Based on the principle of Hangul, codes are assigned to each elementary, middle, and final consonant   
-  - Completed type : Assign codes to complete characters such as '가' and '각'   
+  - Combined type: Based on the principle of Hangul, codes are assigned to each elementary, middle, and final consonant   
+  - Completed type: Assign codes to complete characters such as '가' and '각'   
 - The completed Hangul code is the Hangul standard   
   - The completed type has the disadvantage of not being able to express all Hangul characters, but it was adopted as a standard because it causes fewer problems in computer communications   
    
@@ -103,7 +103,7 @@ categories: [Multimedia System]
 <br />
 - Markup   
   - Additional information defined to define or express the document structure   
-  - Representative markup languages : HTML, SGML   
+  - Representative markup languages: HTML, SGML   
    
 #### Structured text   
    
@@ -133,9 +133,9 @@ categories: [Multimedia System]
 ### Text file format   
    
 - File storage method for text data   
-  - English : ASCII   
-  - Hangul : Completed Hangul code   
-  - Various document editing applications : Different storage methods   
+  - English: ASCII   
+  - Hangul: Completed Hangul code   
+  - Various document editing applications: Different storage methods   
 <br />
 - Text file format   
   - TXT   
@@ -277,4 +277,4 @@ categories: [Multimedia System]
   - It is a language that describes how a markup language is actually displayed, and is mainly used in HTML and XHTML, and is also used in XML   
    
 <br />
-<cite>Source : Department of Computer Science, Korea National Open University</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>
