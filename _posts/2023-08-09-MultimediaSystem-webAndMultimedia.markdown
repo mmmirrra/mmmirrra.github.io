@@ -216,7 +216,7 @@ categories: [Multimedia System]
 <br />
 ## Web page using multimedia   
    
-- web page   
+- Web page   
   - A web page is a representation of a web document on the Internet   
   - Web pages are created using HTML   
   - The web page is   
@@ -243,7 +243,7 @@ categories: [Multimedia System]
 - Characteristics of general documents despite being a hypertext language   
 <br />
 - How HTML differs from Word documents   
-  - Write using tags (＜ ＞)   
+  - Write using tags `＜ ＞`   
   - The [Spacebar], [Enter], and [Tab] keys are not recognized   
   - HTML documents must be saved as text documents, and when saving, the extension of `*.htm` or `*.html` must be used   
   - Does not distinguish between upper and lower case letters   
@@ -254,7 +254,7 @@ categories: [Multimedia System]
 #### Structure of HTML document   
    
 - HTML uses markup tags that specify the expressive form of a word or sentence   
-- Expressed by inserting a word indicating the attribute in the tag symbol '＜ ＞'   
+- Expressed by inserting a word indicating the attribute in the tag symbol `＜ ＞`   
 - Therefore, the document structure largely consists of two parts   
   - The part surrounded by the HEAD tag   
   - The part surrounded by the BODY tag   
