@@ -469,24 +469,24 @@ categories: [Multimedia System]
   - Technical structure   
    
     ```
-    ----------------------------------------------------------------
-    │    Advertising, Search, Order Payments     │                 │
-    │--------------------------------------------│                 │
-    │     Electronic catalog,     │              │                 │
-    │      electronic store,      │              │                 │
-    │  electronic payment system  │              │                 │
-    │-----------------------------│              │                 │
-    │  Electronic bulletin board, │   Directory  │                 │
-    │     electronic form, EDI    │    service   │ Authentication, │
-    │-----------------------------│              │    security     │
-    │          RDA, ORB           │              │                 │
-    │-----------------------------│              │                 │
-    │          Email, FTP         │              │                 │
-    │--------------------------------------------│                 │
+    -------------------------------------------------------------------
+    │    Advertising, Search, Order Payments       │                 │
+    │----------------------------------------------│                 │
+    │     Electronic catalog,     │               │                 │
+    │      electronic store,      │               │                 │
+    │  electronic payment system  │               │                 │
+    │-----------------------------│               │                 │
+    │  Electronic bulletin board, │   Directory   │                 │
+    │     electronic form, EDI    │    service    │ Authentication, │
+    │-----------------------------│               │    security     │
+    │          RDA, ORB           │               │                 │
+    │-----------------------------│               │                 │
+    │          Email, FTP         │               │                 │
+    │----------------------------------------------│                 │
     │  Χ, 400 / 435, SMTP / MIME  │ Χ, 500, LDAP │                 │
-    │--------------------------------------------│                 │
-    │            PSTN, PSDN, ISDN                │                 │
-    ----------------------------------------------------------------
+    │----------------------------------------------│                 │
+    │            PSTN, PSDN, ISDN                  │                 │
+    -------------------------------------------------------------------
     ```
    
 #### Market specialized application layer   
