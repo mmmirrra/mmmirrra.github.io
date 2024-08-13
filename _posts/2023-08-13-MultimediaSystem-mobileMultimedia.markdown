@@ -460,7 +460,7 @@ categories: [Multimedia System]
    
 - E-commerce method using mobile devices   
 - Unlike e-commerce, the number of users increases due to the advantage of using mobile devices   
-  - e-commerce: Electronic commerce using a computer connected to the wired internet   
+  - E-commerce: Electronic commerce using a computer connected to the wired internet   
 - Compared to e-commerce   
   - Advantages   
     - Transaction possible anytime, anywhere, even on the go   
