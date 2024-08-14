@@ -223,10 +223,10 @@ categories: [Multimedia System]
 #### Conceptual diagram of broadband convergence network   
    
 ```
-                           [Application service]
-                                     ↑
-                                [Open API]
-                                     ↓
+                          [Application service]
+                                    ↑
+                               [Open API]
+                                    ↓
                        [QoS]   [Security]   [IPv6]
           │                       │                          │
 ┌      Wired and      ┐ ┌     Voice and    ┐ ┌  Telecommunications and  ┐
