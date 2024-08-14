@@ -224,9 +224,9 @@ categories: [Multimedia System]
    
 ```
                           [Application service]
-                                    ↑
+                                   ↑
                                [Open API]
-                                    ↓
+                                   ↓
                        [QoS]   [Security]   [IPv6]
           │                       │                          │
 ┌      Wired and      ┐ ┌     Voice and    ┐ ┌  Telecommunications and  ┐
