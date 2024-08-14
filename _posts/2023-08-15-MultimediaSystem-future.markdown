@@ -223,13 +223,13 @@ categories: [Multimedia System]
 #### Conceptual diagram of broadband convergence network   
    
 ```
-                       [Application service]
-                                 ↑
-                            [Open API]
-                                 ↓
-                    [QoS]   [Security]   [IPv6]
-          │                      │                          │
-┌     Wired and       ┐ ┌     Voice and    ┐ ┌  Telecommunications and  ┐
+                           [Application service]
+                                     ↑
+                                [Open API]
+                                     ↓
+                       [QoS]   [Security]   [IPv6]
+          │                       │                          │
+┌      Wired and      ┐ ┌     Voice and    ┐ ┌  Telecommunications and  ┐
 │ wireless convergence│ │ data convergence │ │ broadcasting convergence │
 │  - Wired            │ │   - Phone call   │ │         - CATV           │
 │    communication    │ │    - Internet    │ │          - DMB           │
@@ -238,7 +238,7 @@ categories: [Multimedia System]
 │    wireless         │ │                  │ │                          │
 └    communications   ┘ └                  ┘ └                          ┘
 
-[ Home network, u-Sensor network, Convergence type information terminal ]
+[   Home network, u-Sensor network, Convergence type information terminal    ]
 ```
    
 <br />
