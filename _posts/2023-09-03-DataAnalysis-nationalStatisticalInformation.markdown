@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Data Analysis: National Statistical Information & Sites that Provides Data"
-date:   2024-04-10 09:00:00 +0900
+date:   2023-09-03 09:00:00 +0900
 categories: [Data Analysis]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Excel: Function"
-date:   2024-05-10 09:00:00 +0900
+date:   2023-09-10 09:00:00 +0900
 categories: [Excel]
 ---
 

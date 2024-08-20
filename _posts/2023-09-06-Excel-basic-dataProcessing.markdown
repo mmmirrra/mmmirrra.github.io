@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Excel: Excel Basic & Data Processing using Excel"
-date:   2024-05-08 09:00:00 +0900
+title:  "Excel: Excel Basic & Data processing using excel"
+date:   2023-09-06 09:00:00 +0900
 categories: [Excel]
 ---
 
@@ -10,7 +10,8 @@ categories: [Excel]
         text-decoration : overline;
     }
 </style>
-   
+
+<br />
 ### Key Features of Excel   
 // 엑셀의 주요 기능   
    

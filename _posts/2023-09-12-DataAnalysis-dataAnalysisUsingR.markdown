@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Data Analysis: Data Analysis Using R"
-date:   2024-06-22 09:00:00 +0900
+date:   2023-09-12 09:00:00 +0900
 categories: [Data Analysis]
 ---
 

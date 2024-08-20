@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Excel: Draw Graph"
-date:   2024-05-09 09:00:00 +0900
+date:   2023-09-08 09:00:00 +0900
 categories: [Excel]
 ---
 
@@ -13,7 +13,7 @@ categories: [Excel]
         letter-spacing : -0.6em;
     }
 </style>
-   
+
 ### The role of graph in statistical analysis   
 // 통계분석에서 그래프의 역할   
    
