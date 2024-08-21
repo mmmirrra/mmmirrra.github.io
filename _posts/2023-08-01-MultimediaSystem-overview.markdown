@@ -27,7 +27,7 @@ categories: [Multimedia System]
 #### Multimedia data   
    
 - Combined form of digital media   
-- Expressing media that can be expressed in various ways in a computer-readable form   
+- Expressing media that can be expressed in various ways in a computer-readable form.   
 - Text, sound, image, graphic, media, animation, etc.   
    
 <br />
@@ -38,9 +38,9 @@ categories: [Multimedia System]
    
 #### Improvement of computer performance   
    
-- Computer performance is important for processing multimedia data   
-  - When Multimedia data is stored on a computer, a huge amount of memory is required   
-  - In order to process large amounts of information in real time, fast computer processing speed is required   
+- Computer performance is important for processing multimedia data.   
+  - When Multimedia data is stored on a computer, a huge amount of memory is required.   
+  - In order to process large amounts of information in real time, fast computer processing speed is required.   
 <br />
 - Memory capacity according to multimedia data type   
    
@@ -63,11 +63,11 @@ categories: [Multimedia System]
     - A storage medium with the capacity to store a high-resolution movie at the stereo sound level   
   - Blu-ray Disc   
     - Optical recording storage medium that can store digital data for high-definition (HD) video   
-   - Capacity is about 5 times that of DVD   
+   - Capacity is about 5 times that of DVD.   
 <br />
 - Establishment of multimedia standardization   
-  - As multimedia technology develops and data compatibility requirements increase, the need for standardization naturally arises   
-  - There are various standards in the multimedia field   
+  - As multimedia technology develops and data compatibility requirements increase, the need for standardization naturally arises.   
+  - There are various standards in the multimedia field.   
     - Standards for compression and restoration of multimedia data   
     - Standards for data transmission   
     - Internet web related standards, etc.   
@@ -87,55 +87,55 @@ categories: [Multimedia System]
   |Mobile multimedia|WAP, WML, etc.|
    
 - Advances in human-computer interaction technology   
-  - In order to use a computer to handle various information, the computer must be easy and convenient to use   
-  - Technology related to human-computer interaction is needed to make computers more convenient and easy to use   
+  - In order to use a computer to handle various information, the computer must be easy and convenient to use.   
+  - Technology related to human-computer interaction is needed to make computers more convenient and easy to use.   
   - Today's Computers   
-    - Provides various user-friendly interfaces   
+    - Provides various user-friendly interfaces.   
 <br />
 - Human Computer Interaction (HCI) technology   
-  - Multimedia data is diverse and has a large capacity, so it is not easy for general users to search for information   
-  - HCI technology aims to improve the interaction between humans and computers easily and conveniently by enabling interactive manipulation of multimedia data input, processing, and control   
+  - Multimedia data is diverse and has a large capacity, so it is not easy for general users to search for information.   
+  - HCI technology aims to improve the interaction between humans and computers easily and conveniently by enabling interactive manipulation of multimedia data input, processing, and control.   
     - Graphical User Interface (GUI) technology   
       - Interface with graphics technology to provide user convenience   
-      - Supports better user interaction using GUI technology   
+      - Supports better user interaction using GUI technology.   
     - Voice recognition technology, gesture recognition technology, etc.   
 <br />
 - Advances in information and communication technology   
-  - Generating multimedia data requires a lot of money and time   
-  - Therefore, sharing multimedia information is very important in terms of efficiency and economics   
-    - There are limits to storing and sharing multimedia data using storage media   
-    - Therefore, the development of information and communication networks for data transmission is essential for multimedia utilization   
-  - Most areas of multimedia use take place in the internet environment   
+  - Generating multimedia data requires a lot of money and time.   
+  - Therefore, sharing multimedia information is very important in terms of efficiency and economics.   
+    - There are limits to storing and sharing multimedia data using storage media.   
+    - Therefore, the development of information and communication networks for data transmission is essential for multimedia utilization.   
+  - Most areas of multimedia use take place in the internet environment.   
     - Interactive internet shopping, online games, video on demand, video conferencing, telemedicine, virtual university, etc.   
-  - Ultimately, the development of information and communication networks is essential for the use of multimedia   
-    - In particular, the establishment of a high-speed information and communication network is very important   
+  - Ultimately, the development of information and communication networks is essential for the use of multimedia.   
+    - In particular, the establishment of a high-speed information and communication network is very important.   
    
 <br />
 ### Characteristics of multimedia   
    
-- ① Digitalization of information: Multimedia data needs to be digitized for use on computers   
-- ② Integration of information: Use integrated multimedia data to effectively convey information   
-- ③ Interaction of information: Organize data in the desired form to suit individual user needs   
-- ④ Sharing of information: The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge   
+- ① Digitalization of information: Multimedia data needs to be digitized for use on computers.   
+- ② Integration of information: Use integrated multimedia data to effectively convey information.   
+- ③ Interaction of information: Organize data in the desired form to suit individual user needs.   
+- ④ Sharing of information: The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge.   
    
 #### Digitalization of information   
    
-- In order for multimedia to be processed on computers, the information must be digitized   
+- In order for multimedia to be processed on computers, the information must be digitized.   
 <br />
 - Digitization   
-  - Converting analog signals such as images or sounds into digital form for use as input to a computer   
+  - Converting analog signals such as images or sounds into digital form for use as input to a computer.   
 <br />
 - Advantages of digitalization   
-  - Easier to process and edit data than when it exists as analog data   
-  - Prevent data quality deterioration due to data transmission or output   
-  - Because it exists as digital data, random access is possible, making it easy to search for desired data   
+  - Easier to process and edit data than when it exists as analog data.   
+  - Prevent data quality deterioration due to data transmission or output.   
+  - Because it exists as digital data, random access is possible, making it easy to search for desired data.   
    
 #### Integration of information   
    
 - The ability to deliver dynamic information by integrating various types of media   
-  - In the past, text, images, sounds, and videos were only available on each dedicated device   
-  - Recently, thanks to multimedia data information processing technology, various types of information can be stored and manipulated simultaneously through a single software or device   
-  - Therefore, it is possible to deliver information to users much more effectively by integrating a wide range of multimedia data such as graphics, audio, video, and text   
+  - In the past, text, images, sounds, and videos were only available on each dedicated device.   
+  - Recently, thanks to multimedia data information processing technology, various types of information can be stored and manipulated simultaneously through a single software or device.   
+  - Therefore, it is possible to deliver information to users much more effectively by integrating a wide range of multimedia data such as graphics, audio, video, and text.   
    
 #### Interaction of information   
    
@@ -145,18 +145,18 @@ categories: [Multimedia System]
   - Game On Demand (GOD)   
   - News On Demand (NOD)   
   - Internet Protocal Television (IPTV)   
-    - It additionally provides Internet services such as information search, shopping, VoIP (Voice over Internet Protocol) that were previously available on the web, or on-demand video services   
+    - It additionally provides Internet services such as information search, shopping, VoIP (Voice over Internet Protocol) that were previously available on the web, or on-demand video services.   
    
 #### Sharing of information   
    
-- Multimedia information is shared by many users on the Internet   
+- Multimedia information is shared by many users on the Internet.   
   - Search sites and portals   
-    - By gathering a vast amount of data and providing it in one bundle, many users can gather and share information   
+    - By gathering a vast amount of data and providing it in one bundle, many users can gather and share information.   
   - Development of the World Wide Web (WWW: Web for short)   
-    - The concept of information sharing is becoming more widespread   
+    - The concept of information sharing is becoming more widespread.   
 <br />
 - Tim Berners-Lee   
-  - Defining today's web as Web 2.0   
+  - Defining today's web as Web 2.0.   
   - Web 2.0: It is a user-centered Internet environment that allows anyone to easily create data and share it on the Internet without the owner or monopolist of the data.   
    
 <br />
@@ -176,13 +176,13 @@ categories: [Multimedia System]
 #### Characteristics of multimedia content   
    
 - Digital data   
-  - While existing content is mainly analog, multimedia content consists of digital data   
+  - While existing content is mainly analog, multimedia content consists of digital data.   
 - Interaction of information   
-  - Users and information providers exchange information in two directions, that is, they tend to be prosumers   
+  - Users and information providers exchange information in two directions, that is, they tend to be prosumers.   
 - Relaxation of space and time constraints   
-  - Due to the development of the Internet, restrictions on time and space have been eased, allowing for the expansion of information   
+  - Due to the development of the Internet, restrictions on time and space have been eased, allowing for the expansion of information.   
 - Non-linear access to information   
-  - Rather than receiving information sequentially like reading a book, the acquisition of information becomes non-linear depending on each individual's ability, so the path to acquiring information becomes diverse   
+  - Rather than receiving information sequentially like reading a book, the acquisition of information becomes non-linear depending on each individual's ability, so the path to acquiring information becomes diverse.   
    
 #### Types of multimedia Content   
    
@@ -197,14 +197,14 @@ categories: [Multimedia System]
   - Content that digitizes cultural elements such as art, design, humanities and social sciences based on creativity and technology   
 <br />
 - Content for interaction   
-  - Content that allows interaction with users can have the effect of arousing user interest and encouraging participation   
+  - Content that allows interaction with users can have the effect of arousing user interest and encouraging participation.   
    
 #### Multimedia content production   
    
-- Very similar to making a movie or game   
-- In order to successfully produce multimedia content   
-  - Development staff made up of experts   
-  - A perfect production process tailored to the production purpose is required   
+- Very similar to making a movie or game.   
+- In order to successfully produce multimedia content,   
+  - Development staff made up of experts,   
+  - A perfect production process tailored to the production purpose is required.   
 <br />
 - Production team members   
   - Project manager: Overall management and execution   
