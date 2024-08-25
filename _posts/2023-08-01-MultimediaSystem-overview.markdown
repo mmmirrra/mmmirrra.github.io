@@ -13,7 +13,7 @@ categories: [Multimedia System]
 #### Multimedia content   
    
 - The ultimate value of multimedia   
-- Composed of Multimedia data   
+- Composed of Multimedia data.   
    
 #### Media data   
    
@@ -57,12 +57,12 @@ categories: [Multimedia System]
    
 - Development of storage media technology   
   - CD (Compact Disc)   
-    - Approximately 650 MB of data storage capacity   
-    - Very cheap storage device compared to other storage devices   
+    - Approximately 650 MB of data storage capacity.   
+    - Very cheap storage device compared to other storage devices.   
   - DVD (Digital Video Disc)   
-    - A storage medium with the capacity to store a high-resolution movie at the stereo sound level   
+    - A storage medium with the capacity to store a high-resolution movie at the stereo sound level.   
   - Blu-ray Disc   
-    - Optical recording storage medium that can store digital data for high-definition (HD) video   
+    - Optical recording storage medium that can store digital data for high-definition (HD) video.   
    - Capacity is about 5 times that of DVD.   
 <br />
 - Establishment of multimedia standardization   
@@ -96,7 +96,7 @@ categories: [Multimedia System]
   - Multimedia data is diverse and has a large capacity, so it is not easy for general users to search for information.   
   - HCI technology aims to improve the interaction between humans and computers easily and conveniently by enabling interactive manipulation of multimedia data input, processing, and control.   
     - Graphical User Interface (GUI) technology   
-      - Interface with graphics technology to provide user convenience   
+      - Interface with graphics technology to provide user convenience.   
       - Supports better user interaction using GUI technology.   
     - Voice recognition technology, gesture recognition technology, etc.   
 <br />
@@ -164,7 +164,7 @@ categories: [Multimedia System]
    
 #### Definition of multimedia content   
    
-- Various information or contents produced and processed by digitizing multimedia data such as text, sound, and images   
+- Various information or contents produced and processed by digitizing multimedia data such as text, sound, and images.   
 <br />
 - e.g.   
   - Various programs or information provided on the Internet   
