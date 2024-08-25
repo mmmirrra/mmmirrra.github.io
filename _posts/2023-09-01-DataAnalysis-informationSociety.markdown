@@ -78,7 +78,7 @@ categories: [Data Analysis]
 - R   
   - www.r-project.org   
   - Free   
-  - Highly functional   
+  - Highly functional.   
   - It's a program processing method.   
   - Excellence in data processing, analysis, and graphics.   
 - Python   
