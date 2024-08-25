@@ -64,7 +64,7 @@ categories: [Data Analysis]
   - Various dialog boxes are provided to suit the analysis procedure, allowing for easy analysis processing.   
   - Familiar to general users with data input in spreadsheet format.   
   - Provides statistical analysis procedures using both menu and program methods.   
-  - Excellent statistical graphics function using menu method   
+  - Excellent statistical graphics function using menu method.   
   - It is possible to obtain a certificate of 'Social Research Analyst'.   
 - SAS   
   - www.sas.com   
@@ -78,15 +78,15 @@ categories: [Data Analysis]
 - R   
   - www.r-project.org   
   - Free   
-  - highly functional   
+  - Highly functional   
   - It's a program processing method.   
-  - Excellence in data processing, analysis, and graphics   
+  - Excellence in data processing, analysis, and graphics.   
 - Python   
   - www.anaconda.com   
   - Free   
-  - object-oriented language   
-  - program grammar is easy.   
-  - Excellent features for machine learning and deep learning   
+  - Object-oriented language   
+  - Program grammar is easy.   
+  - Excellent features for machine learning and deep learning.   
    
 <br />
 ### SAS Module   
@@ -116,15 +116,15 @@ categories: [Data Analysis]
 > plot(math, physics, pch=16, col="BLUE", main="(math, physics scatterplot)")
 # Regression equation
 > abline(lm(physics ~ math))
-# Check each point case
+# Check each point case.
 > identify(math, physics)
 [1] 5 7
 ```
    
 ```r
-# Insert from 1 to 10 in a
+# Insert from 1 to 10 in a.
 > a <- c(1:10)
-# Divide all elements of a by 3
+# Divide all elements of a by 3.
 > a/3
  [1] 0.3333333 0.6666667 1.0000000 1.3333333 1.6666667 2.0000000 2.3333333
  [8] 2.6666667 3.0000000 3.3333333
@@ -133,7 +133,7 @@ categories: [Data Analysis]
 ```r
 # Importing file
 > ex12 <- read.csv("C:/Users/R-workspace/ex1-2.csv")
-# Check the contents of the file
+# Check the contents of the file.
 > head(ex12)
   id math physics
 1  1   66      79
@@ -150,7 +150,7 @@ categories: [Data Analysis]
 3  3   48      46
 # scatter plot
 > plot(ex12$math, ex12$physics, pch=19, col="BLUE")
-# Change the title of the scatterplot
+# Change the title of the scatterplot.
 > title("\n Scatter Plot of (math, physics)\n")
 # Correlation coefficient
 > cor(ex12$math, ex12$physics)
