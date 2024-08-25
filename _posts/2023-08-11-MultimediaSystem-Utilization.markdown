@@ -367,7 +367,7 @@ categories: [Multimedia System]
   - In particular, role-playing games (RPG) that can be played online by a large number of players are called MMORPG (Massively Multi-player Online RPG).   
 - Simulation games   
   - A game that allows you to virtually experience various tasks and movements/   
-  - Rather than moving according to a pre-made plot in a given situation, various situations unfold depending on the gamer's actions/   
+  - Rather than moving according to a pre-made plot in a given situation, various situations unfold depending on the gamer's actions.   
 - Types of simulation games   
   - Piloting simulation   
     - Directly controlling an airplane, tank, etc.   
