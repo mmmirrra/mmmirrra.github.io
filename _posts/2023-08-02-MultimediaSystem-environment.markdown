@@ -18,7 +18,7 @@ categories: [Multimedia System]
 - Authoring system   
   - Provides functions and environment to author multimedia content.   
 - Presentation system   
-  - Simply access and play multimedia content.   
+  - Multimedia content is simply accessible and played.   
 <br />
 - Multimedia system environment   
   - → Multimedia computer system   
@@ -59,7 +59,7 @@ categories: [Multimedia System]
 - Digital media equipment   
   - Capture: Digital representation of raw data (e.g. scanners, digitizers, etc.)   
   - Presentation: Reorganizing and showing raw data. (e.g. printer, monitor, etc.)   
-  - Processing: Processing digital signals, sounds and images. (e.g. encoders, decoders, etc.)   
+  - Processing: Processing digital signals, sounds and images (e.g. encoders, decoders, etc.)   
 - Analog media equipment   
   - Source: Generates an analog signal. (e.g. microphone)   
   - Sink: Generate output. (e.g. speaker)   
@@ -68,7 +68,7 @@ categories: [Multimedia System]
 #### Example of media processing device   
    
 - Graphics card   
-  - A device that connects a computer to a monitor.   
+  - A device that connects a computer to a monitor   
   - It consists of a video RAM that stores information displayed on the screen and a video control circuit that reads the contents and converts them into control signals and outputs them.   
     - MDA (Monochrome Display Adapter)   
     - CGA (Color Graphics Adapter)   
@@ -80,7 +80,7 @@ categories: [Multimedia System]
   - Play video images on the computer screen from the computer's CD drive or DVD drive.   
     - Frame Grabber Board: Converts analog video into digital video and stores them on the computer.   
     - Video Overlay Board: Displays image/graphic information generated inside the computer and external video information such as TV overlapping.   
-    - TV receiving card: Device that can receive digital broadcasting or DMB.   
+    - TV receiving card: Device that can receive digital broadcasting or DMB   
 <br />
 - Sound card   
   - Device that allows a computer's CD drive to be used as an audio CD player   
