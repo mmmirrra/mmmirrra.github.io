@@ -170,7 +170,7 @@ categories: [Multimedia System]
   - Multimedia playback software for Macintosh / Windows developed by Apple   
   - You can watch videos without the help of special hardware devices.   
   - Real-time streaming support   
-  - Scalability (QuickTime VR that implements virtual reality is also possible)   
+  - Scalability (QuickTime VR that implements virtual reality is also possible.)   
    
 #### MPEG   
    
