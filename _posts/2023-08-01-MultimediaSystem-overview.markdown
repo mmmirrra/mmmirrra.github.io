@@ -194,7 +194,7 @@ categories: [Multimedia System]
   - Informational content, educational content, promotional content, entertainment content, etc.   
 <br />
 - Cultural content   
-  - Content that digitizes cultural elements such as art, design, humanities and social sciences based on creativity and technology   
+  - Content that digitizes cultural elements such as art, design, humanities and social sciences based on creativity and technology.   
 <br />
 - Content for interaction   
   - Content that allows interaction with users can have the effect of arousing user interest and encouraging participation.   
@@ -208,11 +208,11 @@ categories: [Multimedia System]
 <br />
 - Production team members   
   - Project manager: Overall management and execution   
-  - Project designer: Performs technical aspects of the project   
-  - Content expert: Performs everything from storyboard to content creation   
+  - Project designer: Performs technical aspects of the project.   
+  - Content expert: Performs everything from storyboard to content creation.   
   - Programmer: Completes prepared contents into products using S/W, etc.   
-  - Copywriter: Prepare text for the project   
-  - Graphic designer: Prepare graphics for visual effects of the product   
+  - Copywriter: Prepare text for the project.   
+  - Graphic designer: Prepare graphics for visual effects of the product.   
 <br />
 - Production process   
   - ① Design stage   
