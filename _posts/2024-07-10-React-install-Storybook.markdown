@@ -7,7 +7,7 @@ categories: [React]
 
 // 1. node.js 설치   
 // 2. VScode 압축해제   
-// 3. korean 언어패키지 설치 (옵션)   
+// 3. Korean 언어패키지 설치 (옵션)   
 // 4. 터미널창 오픈 - npx create-react-app "프로젝트명"   
 // 5. 프로젝트 설치 완료 후 터미널창에서 'npm run build' 입력. 완료 후 'npm start' 입력   
 // 6. 인터넷창에서 'localhost:3000' 으로 접속 시 화면이 동작하면 기본동작 완료   
