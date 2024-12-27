@@ -81,6 +81,7 @@ categories: [Data Analysis]
   - Highly functional.   
   - It's a program processing method.   
   - Excellence in data processing, analysis, and graphics.   
+  - Download R: Click CRAN at www.r-project.org → Select Mirrors site (Korea) → Download for Windows → base → Download R   
 - Python   
   - www.anaconda.com   
   - Free   
@@ -130,6 +131,22 @@ categories: [Data Analysis]
  [8] 2.6666667 3.0000000 3.3333333
 ```
    
+#### Example) Scatterplot, correlation analysis
+  - The following is a list of randomly selected 10 students from a high school and recorded their math and physics scores. Let’s draw a scatterplot between two variables and find the correlation coefficient between the two variables.   
+   
+|Student number|Math score|Physics score|
+|:---:|:---:|:---:|
+|1|66|79|
+|2|64|68|
+|3|48|46|
+|4|46|48|
+|5|78|84|
+|6|60|64|
+|7|90|92|
+|8|50|52|
+|9|66|68|
+|10|70|72|
+   
 ```r
 # Importing file
 > ex12 <- read.csv("C:/Users/R-workspace/ex1-2.csv")
@@ -169,6 +186,13 @@ sample estimates:
       cor 
 0.9693012 
 ```
+   
+<br />
+### R Studio   
+   
+- An integrated environment system developed to enable users to easily use R in a friendly way.   
+- Download: www.rstudio.com   
+- Reference: http://dss.princeton.edu/training/RStudio101.pdf   
    
 <br />
 <cite>Source: Department of Computer Science, Korea National Open University</cite>
