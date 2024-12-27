@@ -92,17 +92,17 @@ categories: [Data Analysis]
 <br />
 ### SAS Module   
    
-`SAS/BASE` : SAS Basic   
-`SAS/STAT` : Data analysis and statistical analysis   
-`SAS/AF` : Application development support   
-`SAS/ASSIST` : Menu-type SAS system support   
-`SAS/ETS` : Time Series Analysis   
-`SAS/GRAPH` : Graph   
-`SAS/IML` : Matrix Operation   
-`SAS/INSIGHT` : Statistical analysis and graphic implementation   
-`SAS/OR` : Operation Research   
-`SAS/QC` : Statistical quality control   
-`SAS/E-Miner` : Data Mining   
+`SAS/BASE`: SAS Basic   
+`SAS/STAT`: Data analysis and statistical analysis   
+`SAS/AF`: Application development support   
+`SAS/ASSIST`: Menu-type SAS system support   
+`SAS/ETS`: Time Series Analysis   
+`SAS/GRAPH`: Graph   
+`SAS/IML`: Matrix Operation   
+`SAS/INSIGHT`: Statistical analysis and graphic implementation   
+`SAS/OR`: Operation Research   
+`SAS/QC`: Statistical quality control   
+`SAS/E-Miner`: Data Mining   
    
 <br />
 ### R sample   
@@ -131,7 +131,7 @@ categories: [Data Analysis]
  [8] 2.6666667 3.0000000 3.3333333
 ```
    
-#### Example) Scatterplot, correlation analysis
+#### Example: Scatterplot, correlation analysis
   - The following is a list of randomly selected 10 students from a high school and recorded their math and physics scores. Let’s draw a scatterplot between two variables and find the correlation coefficient between the two variables.   
    
 |Student number|Math score|Physics score|

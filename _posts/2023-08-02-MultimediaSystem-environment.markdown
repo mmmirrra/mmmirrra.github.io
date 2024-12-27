@@ -127,7 +127,7 @@ categories: [Multimedia System]
   - Data transfer speed from CD-ROM to main memory   
   - The initial speed of CD-ROM was 150 Kbps.   
   - Afterwards, transfer speeds were improved with the development of 16, 32, 48, and 52x speeds.   
-  - Example) What is a 48x CD drive?   
+  - Example: What is a 48x CD drive?   
     - 150 Kbps x 48 = Means transfer speed of 7,200 Kbps.   
 <br />
 - Next generation DVD   

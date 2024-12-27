@@ -5,85 +5,57 @@ date:   2023-09-02 09:00:00 +0900
 categories: [Data Analysis]
 ---
 
-## Concept of Data   
+## Concept of data   
    
 <br />
-### data   
-데이터   
+### Data   
    
-// 어떤 관심 있는 주제에 대해서 수집된 구조화된 정보 (organized information)   
-// 일반적인 의미의 데이터는 수치, 문자, 그림 등의 표현양식과 관계없이 어떤 주제에 대한 구조화된 정보를 뜻함   
-- Structured information gathered on a topic of interest   
-- Data in the general sense refers to structured information on a subject regardless of expression patterns such as figures, characters, or pictures   
+- Organized information collected about a topic of interest.   
+- Data in a general sense refers to organized information about a subject regardless of the form of expression such as numbers, letters, or pictures.   
    
 <br />
 ### Characteristics of the data   
-// 데이터의 특징   
    
-// 어떤 관심 있는 주제에 대하여 얻어진 것   
-// 분석에 안맞은 일정한 규칙과 형태로 수집되고 정리됨   
-// 분석과정을 통해서 유용한 정보 (infomation) 로 변환   
-// 조사나 실험을 통해 수집되어 알맞은 형태로 변환   
-- Data obtained on a subject of interest   
-- Collected and organized with certain rules and forms that do not fit the analysis   
-- Converting to useful information through the analysis process   
-- Collected through an investigation or experiment and converted into a suitable form   
+- What is gained about a topic of interest   
+- Collected and organized in certain rules and forms suitable for analysis   
+- Converted into useful information through the analysis process   
+- Collected through survey or experiment and converted into appropriate form   
    
 <br />
-### statistical data   
-// 통계적 데이터   
+### Statistical data   
    
-// 수치적 계산과 통계적 분석에 알맞은 데이터   
-- Data for numerical calculation and statistical analysis   
+- Data suitable for numerical calculations and statistical analysis.   
    
 <br />
-### Purpose of Data Analysis   
-// 데이터 분석의 목적   
+### Purpose of data analysis   
    
-// 자연 및 사회현상에 대한 정확한 현상 (집단의 특징) 파악   
-// 왜 그런 현상이 나타나게 되었는지 (인과관계) 규명   
-// 경제, 사회현상 속에 숨어있는 법칙성 발견   
-// → 미래상황 예측으로 합리적인 의사결정 도움   
-- Identify the exact phenomena (characteristics of the group) of natural and social phenomena   
-- To find out why such a phenomenon occurred (causal relationship)   
-- Discovering the lawfulness hidden in economic and social phenomena   
-- → Help make rational decisions by predicting future conditions   
+- Accurate identification of natural and social phenomena (characteristics of groups).   
+- Identify why such a phenomenon occurred (causal relationship).   
+- Discovering hidden laws in economic and social phenomena.   
+-→ Helps make rational decisions by predicting future situations.   
    
    
-## Level of Measurement and Data Type   
+## Levels of measurement and types of data   
    
 <br />
 ### How to collect data   
-// 데이터 수집 방법   
    
-// 통계조사, 실험, 관찰 등을 통해서 조사단위나 실험단위로부터 정해진 측정 방법 (측정도구, 질문지) 으로 측정하여 얻음   
-// 측정 : 각각의 조사단위의 어떤 특성을 일정한 기준에 따라 관측하여 각 조사단위에 수치를 부여하는 작업   
-// - 예시 : 표본으로 뽑힌 사람들의 몸무게, 지능 혹은 취업상태 등을 관측하여 수치로 나타내는 경우   
-// → 측정된 전체 자료를 데이터 (data) 라고 함   
-- It is obtained by measuring by a designated measurement method from an investigation unit or experimental unit through statistical survey, experiment, observation, etc. (Measurement tool, questionnaire)   
-- Measurement : Observing certain characteristics of each survey unit according to certain criteria and assigning numerical values to each survey unit   
-  - Example : When the weight, intelligence, or employment status of the sampled people are observed and expressed as figures   
-- → The entire data measured is referred to as data   
+- Obtained by measuring using a designated measurement method (measurement tool, questionnaire) from a survey unit or experimental unit through statistical surveys, experiments, observations, etc.   
+- Measurement: The task of observing certain characteristics of each survey unit according to certain standards and assigning a numerical value to each survey unit.   
+- Example: When the weight, intelligence, or employment status of the sampled people are observed and expressed as figures   
+- → The entire measured data is called data.   
    
 <br />
-### Basic Data Terminology   
-// 데이터 관련 기본용어   
+### Basic terminology related to data   
    
-// 케이스 (case, 레코드) : 데이터 세트에서 하나의 조사단위에 대한 정보의 집합체   
-// 변수 (variable, 필드) : 각 조사단위로부터 측정된 개별적인 속성   
-// - 예시 : 어느 단체에서 10명을 표본으로 추출하여 각 사람으로부터 이름, 성별, 나이, 교육정도, 월수입을 조사하는 경우   
-// -- 케이스 1 : [이름 : 홍], [성별 : 남자], [나이 : 30], [교육정도 : 고졸], [월수입 : 200만원]   
-// -- 케이스 2 : [이름 : 박], [성별 : 여자], [나이 : 31], [교육정도 : 대졸], [월수입 : 230만원]   
-// -- 케이스 3 : [이름 : 임], [성별 : 남자], [나이 : 27], [교육정도 : .], [월수입 : 210만원]   
-- case, record : A collection of information about one survey unit in a data set   
-- variable, field : Individual properties measured from each unit of investigation   
-  - Example : A sample of 10 people from an organization is used to examine each person's name, gender, age, educational level, and monthly salary   
-    - case 1 : [Name : Hong], [Gender : Male], [Age : 30], [Education : High school graduate] [Monthly salary : 2 million won]   
-    - case 2 : [Name : Park], [Gender : Female], [Age : 31], [Education : College graduate], [Monthly salary : 2.3 million won]   
-    - case 3 : [Name : Lim], [Gender : Male], [Age : 27], [Education : .], [Monthly salary : 2.1 million won]   
+- case, record: A collection of information about a unit of survey in a data set   
+- variable, field: Individual properties measured from each survey unit   
+  - Example: Sample 10 people from an organization and when investigating name, gender, age, education level, and monthly salary (unit: 10,000 won).   
+    - Case 1: [Name: Hong], [Gender: Male], [Age: 30], [Education: High school graduate] [Monthly salary: 2 million won]   
+    - Case 2: [Name: Park], [Gender: Female], [Age: 31], [Education: College graduate], [Monthly salary: 2.3 million won]   
+    - Case 3: [Name: Lim], [Gender: Male], [Age: 27], [Education: .], [Monthly salary: 2.1 million won]   
    
-Representation of matrix form of data   
-// 데이터의 행렬 형태 표현   
+Matrix form representation of dat   
    
 |Name|Gender|Age|Education|Monthly salary|
 |:---:|:---:|:---:|:---:|:---:|
@@ -91,25 +63,18 @@ Representation of matrix form of data
 |Park|Female|31|College graduate|2.3 million won|
 |Lim|Male|27|.|2.1 million won|
    
-// -- 데이터를 행렬 형태로 표시하면 이해하기 쉬움   
-// -- 각 행은 케이스 (레코드), 각 열은 변수 (필드) 가 됨   
-// -- 임 케이스에서 교육정도의 "."는 결측값을 뜻함   
-- Displaying data in matrix form is easy to understand   
-- Each row becomes a case (record) and each column becomes a variable (field)   
-- In Case Lim, the "." of the degree of education means a missing value   
+- Displaying data in matrix form makes it easier to understand.   
+- Each row becomes a case (record), and each column becomes a variable (field).   
+- In Lim's case, the "." in education level indicates a missing value.   
    
 <br />
-### level of measurement   
-// 측정의 수준   
+### Level of measurement   
    
-// 측정수준에 따라 명목척도, 순서척도, 구간척도, 비율척도로 구분함   
-// 측정의 척도에 따라서 제공되는 정보의 수준과 데이터 분석에 이용할 수 있는 분석 방법이 달라짐   
-  - Depending on the level of measurement, it is divided into nominal scale, ordinal scale, interval scale, and ratio scale   
-  - The measurement scale varies the level of information provided and the analytical methods available for data analysis   
+- Depending on the measurement level, there are divided into nominal scale, ordinal scale,  interval scale, and ratio scale.   
+- Depending on the scale of measurement, the 'level of information provided' and the 'analytic methods available for data analysis' vary.   
    
 <br />
-### nominal scale   
-// 명목척도, 명명척도   
+### Nominal scale   
    
 // 측정대상의 속성을 단순히 분류하거나 확인할 목적으로 수치 부여   
 // 단순히 범주 구분이 목적임   
@@ -192,7 +157,7 @@ Representation of matrix form of data
 // 데이터 코딩 설계   
    
 // 조사/실험을 통해서 얻은 데이터를 입력할 때 어떻게 입력해야 더 간편하고, 효과적으로 분석할 수 있는지를 구상하는 것   
-- Envisioning how to input data obtained from research/experiment in a simpler and more effective way to analyze it   
+- Envisioning how to input data obtained from survey/experiment in a simpler and more effective way to analyze it   
    
 <br />
 ### Example of coding designs for data   

@@ -206,7 +206,7 @@ categories: [Multimedia System]
    
 - Extract sound from a music CD or sound effect CD using the computer's CD driver.   
 - Connect computer's sound card to audio system to record sound from CDs, tapes, radio, etc.   
-- Example) Using a Windows sound recording program.   
+- Example: Using a Windows sound recording program.   
   - When the analog signal, which is a sound wave, is transmitted to the microphone, the thin membrane inside the microphone vibrates.   
   - Analog signal of vibration is digitized by sound card.   
   - Digitized signals are stored as digital data in RAM.   
@@ -224,7 +224,7 @@ categories: [Multimedia System]
    
 - Size of audio file = Sampling size (byte) x Sampling rate x Number of channels x Time (Seconds)   
 <br />
-- Example) What if you save stereo sound at 16 bit, 44.1 KHz for 1 minute?   
+- Example: What if you save stereo sound at 16 bit, 44.1 KHz for 1 minute?   
   - Size of audio file = 2 (byte) x 44100 × 2 × 60 (Seconds) = 10,584,000 ≒ 10 Mbyte   
     - Therefore, one 3-minute piece of music requires approximately 30 Mbytes of storage space.   
     - Also, in order to transmit audio files, it is essential to keep the file size small.   
