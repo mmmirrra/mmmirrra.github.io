@@ -13,13 +13,13 @@ categories: [Multimedia System]
 #### Multimedia content   
    
 - The ultimate value of multimedia   
-- Composed of Multimedia data.   
+- Composed of multimedia data.   
    
 #### Media data   
    
 - Raw media   
   - Unprocessed media   
-  - Natural physical elements: Paper, stone, ink, painting, music, etc.   
+  - Natural physical elements: paper, stone, ink, painting, music, etc.   
 - Digital media   
   - Rely on computers   
   - Digital image, digital video, digital audio, etc.   
@@ -39,7 +39,7 @@ categories: [Multimedia System]
 #### Improvement of computer performance   
    
 - Computer performance is important for processing multimedia data.   
-  - When Multimedia data is stored on a computer, a huge amount of memory is required.   
+  - When multimedia data is stored on a computer, a huge amount of memory is required.   
   - In order to process large amounts of information in real time, fast computer processing speed is required.   
 <br />
 - Memory capacity according to multimedia data type   
