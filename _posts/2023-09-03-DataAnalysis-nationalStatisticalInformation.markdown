@@ -138,5 +138,6 @@ categories: [Data Analysis]
 - Provide various statistics produced by U.S. government departments   
 - Search by region and topic   
    
+   
 <br />
-<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

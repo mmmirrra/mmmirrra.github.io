@@ -223,4 +223,4 @@ categories: [Excel]
 ![](https://raw.githubusercontent.com/mmmirrra/mmmirrra.github.io/main/_assets/excelCorrelation3.png)
    
 <br />
-<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>

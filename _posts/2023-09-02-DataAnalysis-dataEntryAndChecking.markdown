@@ -327,7 +327,7 @@ Representation of matrix form of data
 - Enter data directly into the S-Link worksheet, or read external text or Excel files   
    
    
-## Check the Data Entered   
+## Checking the entered data   
    
 <br />
 ### debugging   
@@ -374,4 +374,4 @@ Example : Create a cross-table between the patient's gender and the type of canc
     - → Check the case's observations for input errors for patient gender or cancer type   
    
 <br />
-<cite>출처 : 한국방송통신대학교 컴퓨터과학과</cite>
+<cite>Source: Department of Computer Science, Korea National Open University</cite>
