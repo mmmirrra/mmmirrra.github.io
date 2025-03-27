@@ -21,7 +21,7 @@ categories: [Multimedia System]
   - Unprocessed media   
   - Natural physical elements: paper, stone, ink, painting, music, etc.   
 - Digital media   
-  - Rely on computers   
+  - Relies on computers.   
   - Digital image, digital video, digital audio, etc.   
    
 #### Multimedia data   
@@ -156,7 +156,7 @@ categories: [Multimedia System]
     - The concept of information sharing is becoming more widespread.   
 <br />
 - Tim Berners-Lee   
-  - Defining today's web as Web 2.0.   
+  - He defined today's web as Web 2.0.   
   - Web 2.0: It is a user-centered Internet environment that allows anyone to easily create data and share it on the Internet without the owner or monopolist of the data.   
    
 <br />
