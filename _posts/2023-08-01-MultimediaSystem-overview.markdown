@@ -5,7 +5,7 @@ date:   2023-08-01 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
-# Definition of multimedia   
+## Definition of multimedia   
    
 - Meaning of multi media   
 - Information expressed using various media such as text, sound, image, graphics, video, animation, etc.   
@@ -15,7 +15,7 @@ categories: [Multimedia System]
 - The ultimate value of multimedia   
 - Composed of multimedia data.   
    
-## Media data   
+### Media data   
    
 - Raw media   
   - Unprocessed media   
@@ -24,7 +24,7 @@ categories: [Multimedia System]
   - Relies on computers.   
   - Digital image, digital video, digital audio, etc.   
    
-## Multimedia data   
+### Multimedia data   
    
 - Combined form of digital media   
 - Expressing media that can be expressed in various ways in a computer-readable form.   
@@ -32,12 +32,12 @@ categories: [Multimedia System]
    
 <br />
    
-# Background of multimedia development   
+## Background of multimedia development   
    
 - ① Improvement of computer performance   
 - ② Advancement of multimedia related technologies   
    
-## ① Improvement of computer performance   
+### ① Improvement of computer performance   
    
 - Computer performance is important for processing multimedia data.   
   - When multimedia data is stored on a computer, a huge amount of memory is required.   
@@ -54,7 +54,7 @@ categories: [Multimedia System]
    
 - MPC (Multimedia PC): A PC that can process multimedia   
    
-## ② Development of multimedia related technologies   
+### ② Development of multimedia related technologies   
    
 - Development of storage media technology   
   - CD (Compact Disc)   
@@ -113,14 +113,14 @@ categories: [Multimedia System]
    
 <br />
    
-# Characteristics of multimedia   
+## Characteristics of multimedia   
    
 - ① Digitalization of information: Multimedia data needs to be digitized for use on computers.   
 - ② Integration of information: Use integrated multimedia data to effectively convey information.   
 - ③ Interaction of information: Organize data in the desired form to suit individual user needs.   
 - ④ Sharing of information: The Internet eliminates the monopoly on information and creates an open, interconnected form of knowledge.   
    
-## Digitalization of information   
+### Digitalization of information   
    
 - In order for multimedia to be processed on computers, the information must be digitized.   
 <br />
@@ -132,14 +132,14 @@ categories: [Multimedia System]
   - Prevent data quality deterioration due to data transmission or output.   
   - Because it exists as digital data, random access is possible, making it easy to search for desired data.   
    
-## Integration of information   
+### Integration of information   
    
 - The ability to deliver dynamic information by integrating various types of media   
   - In the past, text, images, sounds, and videos were only available on each dedicated device.   
   - Recently, thanks to multimedia data information processing technology, various types of information can be stored and manipulated simultaneously through a single software or device.   
   - Therefore, it is possible to deliver information to users much more effectively by integrating a wide range of multimedia data such as graphics, audio, video, and text.   
    
-## Interaction of information   
+### Interaction of information   
    
 - Characteristics that create data in the form desired by the user to suit the needs of individual users   
   - Video On Demand (VOD)   
@@ -149,7 +149,7 @@ categories: [Multimedia System]
   - Internet Protocal Television (IPTV)   
     - It additionally provides Internet services such as information search, shopping, VoIP (Voice over Internet Protocol) that were previously available on the web, or on-demand video services.   
    
-## Sharing of information   
+### Sharing of information   
    
 - Multimedia information is shared by many users on the Internet.   
   - Search sites and portals   
@@ -163,9 +163,9 @@ categories: [Multimedia System]
    
 <br />
    
-# Multimedia content   
+## Multimedia content   
    
-## Definition of multimedia content   
+### Definition of multimedia content   
    
 - Various information or contents produced and processed by digitizing multimedia data such as text, sound, and images.   
 <br />
@@ -176,7 +176,7 @@ categories: [Multimedia System]
   - Videos such as movies or advertisements   
   - Various games and multimedia services provided online or through networks, etc.   
    
-## Characteristics of multimedia content   
+### Characteristics of multimedia content   
    
 - Digital data   
   - While existing content is mainly analog, multimedia content consists of digital data.   
@@ -187,7 +187,7 @@ categories: [Multimedia System]
 - Non-linear access to information   
   - Rather than receiving information sequentially like reading a book, the acquisition of information becomes non-linear depending on each individual's ability, so the path to acquiring information becomes diverse.   
    
-## Types of multimedia Content   
+### Types of multimedia Content   
    
 - Content for information provision, education, promotion, entertainment, etc.   
 - Cultural content, the meeting of culture and information technology   
@@ -202,13 +202,14 @@ categories: [Multimedia System]
 - Content for interaction   
   - Content that allows interaction with users can have the effect of arousing user interest and encouraging participation.   
    
-## Multimedia content production   
+### Multimedia content production   
    
 - Very similar to making a movie or game.   
 - In order to successfully produce multimedia content,   
   - Development staff made up of experts,   
   - A perfect production process tailored to the production purpose is required.   
 <br />
+   
 #### Production team members   
   - Project manager: Overall management and execution   
   - Project designer: Performs technical aspects of the project.   
@@ -217,6 +218,7 @@ categories: [Multimedia System]
   - Copywriter: Prepare text for the project.   
   - Graphic designer: Prepare graphics for visual effects of the product.   
 <br />
+   
 #### Production process   
   - ① Design stage   
   - ② Requirements and structural design stage   
