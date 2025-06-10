@@ -8,7 +8,8 @@ categories: [Multimedia System]
 ## Video   
    
 <br />
-### Overview of video   
+   
+## Overview of video   
    
 - The largest and most difficult to process multimedia data   
 - Video is structured multimedia (Consisting of video and audio).   
@@ -20,9 +21,10 @@ categories: [Multimedia System]
     - Size of image frame × number of frames per second   
    
 <br />
-### Analog video and digital video   
    
-#### Analog video   
+## Analog video and digital video   
+   
+### Analog video   
    
 - Analog video is an electrical signal.   
 - Visual information is coded according to the amplitude change of the signal.   
@@ -61,7 +63,7 @@ categories: [Multimedia System]
     - The best connection method   
     - Transmit each YCC signal through each cable.   
    
-#### Digital video   
+### Digital video   
    
 - Digital video digitizes analog video and expresses the image as a set of frames.   
 <br />
@@ -73,11 +75,12 @@ categories: [Multimedia System]
    - Frame rate affects the depiction of motion in the video.   
    
 <br />
-### Analog and video editing   
+   
+## Analog and video editing   
    
 - Analog video has the advantage of being inexpensive and easily accessible, but has disadvantages in terms of picture quality, sound quality, and preservation compared to digital video.   
    
-#### Analog Editing   
+### Analog Editing   
    
 - Analog editing is linear editing, digital editing is non-linear editing.   
   - Linear editing   
@@ -87,7 +90,7 @@ categories: [Multimedia System]
     - Random access to specific parts of recorded video   
     - Use disk as recording medium.   
    
-#### Digital editing   
+### Digital editing   
    
 - Advantages   
   - Random access to specific parts of recorded video is possible.   
@@ -102,9 +105,10 @@ categories: [Multimedia System]
   - Since the work is done using a computer, expertise is required.   
    
 <br />
-### Video compression codec   
    
-#### Video codec   
+## Video compression codec   
+   
+### Video codec   
    
 - Technology to compress / restore digital video data without loss of quality   
 <br />
@@ -113,7 +117,7 @@ categories: [Multimedia System]
     - When video is compressed with different codecs, the compressed data has a unique extension depending on the codec.   
     - Codecs are not compatible with each other, so a codec that matches the extension is required for playback.   
    
-#### Types of video codecs   
+### Types of video codecs   
    
 - MPEG-4   
   - Developed by Microsoft as a complement to MPEG-2.   
@@ -143,7 +147,8 @@ categories: [Multimedia System]
   - Uses a lossy compression method.   
    
 <br />
-### Video file formats   
+   
+## Video file formats   
    
 - AVI   
 - MOV   
@@ -192,7 +197,8 @@ categories: [Multimedia System]
   - Now streaming, including video.   
    
 <br />
-### Video editing software   
+   
+## Video editing software   
    
 - Windows Movie Maker: End of support   
 <br />
@@ -205,10 +211,12 @@ categories: [Multimedia System]
   - Often used in movies and broadcasts.   
    
 <br />
+   
 ## Animation   
    
 <br />
-### Overview of animation   
+   
+## Overview of animation   
    
 - Animation   
   - A film or a technique for making a film using a cartoon or doll to make it look as if it were alive   
@@ -221,7 +229,8 @@ categories: [Multimedia System]
     - If 10 frames per second are shown, the movement appears to be broken to the eye.   
    
 <br />
-### Types of animation   
+   
+## Types of animation   
    
 - Depending on the production method.   
   - Picture animation   
@@ -234,7 +243,7 @@ categories: [Multimedia System]
     - Web animation   
     - 3D computer animation   
    
-#### Picture animation   
+### Picture animation   
    
 - Flip-book animation   
   - The most basic animation   
@@ -243,7 +252,7 @@ categories: [Multimedia System]
 - Cell animation   
   - It is composed of each scene by overlapping several transparent cells (Celluloid) on a background and taking pictures.   
    
-#### Model animation   
+### Model animation   
    
 - Clay animation   
   - A method of moving a model made of clay little by little to fit the frame and then taking pictures of each.: Stop motion method   
@@ -254,7 +263,7 @@ categories: [Multimedia System]
   - A technique of making a flat picture look like a silhouette and then shooting it in stop motion to make the silhouette appear to be moving.   
   - Enriches imagination through the harmony of emotional characters and light illuminated by halos.   
    
-#### Computer animation   
+### Computer animation   
    
 - Web animation   
   - Animation for the Internet produced using a computer   
@@ -274,7 +283,8 @@ categories: [Multimedia System]
   - A technique of making a virtual character move in the same motion by attaching a sensor to the body and recording the human body's movements in digital form.   
    
 <br />
-### Animation authoring tools   
+   
+## Animation authoring tools   
    
 - Flash   
   - Adobe's vector graphics processing-based animation production software   
@@ -286,7 +296,8 @@ categories: [Multimedia System]
     - Supports animation production function.   
    
 <br />
-### Animation file format   
+   
+## Animation file format   
    
 - SWF (ShockWave File)   
   - It is the basic file format of Flash.   

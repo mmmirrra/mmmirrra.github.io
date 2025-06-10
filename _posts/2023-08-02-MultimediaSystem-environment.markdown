@@ -5,7 +5,7 @@ date:   2023-08-02 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
-### Multimedia system environment   
+## Multimedia system environment   
    
 - Purpose of multimedia   
   - Creating multimedia content and allowing users to play this content.   
@@ -13,7 +13,7 @@ categories: [Multimedia System]
   - Overall system related to multimedia.   
   - It consists of a computer system for multimedia production and a communication system for multimedia services.   
    
-#### Classification of multimedia systems   
+### Classification of multimedia systems   
    
 - Authoring system   
   - Provides functions and environment to author multimedia content.   
@@ -38,12 +38,13 @@ categories: [Multimedia System]
     - → Mobile communication   
    
 <br />   
-### Multimedia computer system   
+   
+## Multimedia computer system   
    
 - The hardware and software environments that produce and play multimedia content are collectively called a multimedia computer system or multimedia platform.   
 - A multimedia computer system consists of the hardware and software required to produce multimedia content.   
    
-#### Requirements for multimedia computers   
+### Requirements for multimedia computers   
    
 - A PC capable of processing both audio/video data   
 - A sound card, speakers, microphone, and audio digitizer or audio editing software needed to develop sound effects.   
@@ -52,9 +53,10 @@ categories: [Multimedia System]
 - Multimedia support software on CD-ROM or DVD   
    
 <br />
-### Hardware   
    
-#### Media processing device   
+## Hardware   
+   
+### Media processing device   
    
 - Digital media equipment   
   - Capture: Digital representation of raw data (e.g. scanners, digitizers, etc.)   
@@ -65,7 +67,7 @@ categories: [Multimedia System]
   - Sink: Generate output. (e.g. speaker)   
   - Filter: Transform characteristics. (e.g. audio mixer)   
    
-#### Example of media processing device   
+### Example of media processing device   
    
 - Graphics card   
   - A device that connects a computer to a monitor   
@@ -92,23 +94,23 @@ categories: [Multimedia System]
   - A type of multimedia application equipment   
     - A digital interface that digitally communicates information played by an instrument   
    
-#### Input device   
+### Input device   
    
 - Device that reads data such as sound and video into the computer   
   - Microphones, scanners, digital cameras, digital camcorders, digitizers, etc.   
    
-#### Output device   
+### Output device   
    
 - Device that displays multimedia information so that users can use it   
   - Speakers, monitors, printers, projectors, HMD (Head Mounted Display), etc.   
    
-#### Storage device   
+### Storage device   
    
 - Device for recording multimedia data   
   - Mass storage device such as CDs and DVDs are used.   
   - DVD-RW is installed as standard specification on PC.   
    
-#### Example of storage device   
+### Example of storage device   
    
 - CD (Compact Disk)   
   - A disk with a diameter of 12 cm and a storage capacity of about 650 MB   
@@ -141,15 +143,16 @@ categories: [Multimedia System]
     - Development abandoned in 2008.   
    
 <br />
-### Software   
    
-#### Software for multimedia   
+## Software   
+   
+### Software for multimedia   
    
 - Multimedia operating system   
 - Multimedia database system   
 - Multimedia processing software   
    
-#### Multimedia operating system   
+### Multimedia operating system   
    
 - Plays the most important role.   
 - Allows users to easily install and manage hardware.   
@@ -161,7 +164,7 @@ categories: [Multimedia System]
   - Creating a convenient multimedia environment through plug & play technology.   
   - Supports multitasking function.   
    
-#### Multimedia database system   
+### Multimedia database system   
    
 - Existing database system   
   - Processes numeric and character data.   
@@ -197,7 +200,7 @@ categories: [Multimedia System]
 - Multimedia metadata   
   - Digital format, terminology and status, location of data, etc. of multimedia data   
    
-#### Multimedia processing software   
+### Multimedia processing software   
    
 - Software for creating, authoring, storing, editing and presenting digital multimedia data   
 - Divided into editing software and authoring software.   
@@ -214,9 +217,10 @@ categories: [Multimedia System]
   - Authorizing software: Adobe Dreamweaver   
    
 <br />
-### Multimedia communication system   
    
-#### Overview   
+## Multimedia communication system   
+   
+### Overview   
    
 - Multimedia communication technology has emerged due to user demands for various multimedia and the development of information and communication technology.   
 - Information and communications networks are essential for information exchange through various media.   
@@ -227,18 +231,18 @@ categories: [Multimedia System]
     - Realize a human conversation environment for remote users through various media.   
 - Multimedia communication services enable this interaction.   
    
-#### Definition of multimedia communication services   
+### Definition of multimedia communication services   
    
 - Various technologies and products used to comprehensively create, store, transmit, and play multimedia information.   
 - Providing necessary information interactively through two or more media simultaneously in the same system.   
    
-#### Communication system for multimedia services   
+### Communication system for multimedia services   
    
 - Advances in optical fiber technology and data compression technology have made it possible to use multimedia services regardless of time and place.   
 - Multimedia data has a different communication volume and form than existing data, so a new communication system is needed.   
 - Multimedia communication systems naturally develop in the process of converging individual technologies such as computer, communication, and broadcasting technologies into one through digital technology.   
    
-#### Communication system using network   
+### Communication system using network   
    
 - ISDN (Integrated Services Digital Networks)   
   - A communication network that comprehensively provides various services such as voice, text, and video through a single communication network.   
@@ -272,7 +276,7 @@ categories: [Multimedia System]
 - Cable Network   
   - Has two-way characteristics, with a transmission speed of up to 10 Mbps.   
    
-#### Mobile communication system   
+### Mobile communication system   
    
 - IMT-2000   
   - Even for the same system, standards and frequency bands differ depending on the region.   
@@ -291,7 +295,7 @@ categories: [Multimedia System]
 <br />
 ※ ITU does not use generational terms such as 3G, 4G, 5G, and etc., but uses the terms IMT-2000, IMT-Advanced, and IMT-2020.   
    
-#### Development process of mobile communication   
+### Development process of mobile communication   
    
 - First generation (1G) mobile communication   
   - Analog mobile communication system capable of voice communication only.   

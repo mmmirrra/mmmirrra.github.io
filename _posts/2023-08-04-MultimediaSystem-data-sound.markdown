@@ -5,7 +5,7 @@ date:   2023-08-04 09:00:00 +0900
 categories: [Multimedia System]
 ---
 
-### Concept of sound   
+## Concept of sound   
    
 - Sound   
   - Refers to music, voices, simple sounds, etc.   
@@ -14,7 +14,7 @@ categories: [Multimedia System]
   - The sound part of radio, television, record players, etc.   
   - Common term for devices for listening to music, etc. with effective sound   
    
-#### Analog sound   
+### Analog sound   
    
 - Sounds heard in the real world   
 - Sound consists of tone, sound size, and sound pitch.   
@@ -30,7 +30,7 @@ categories: [Multimedia System]
   - Frequency: Number of cycles per unit time, unit called Hertz (Hz).   
     - Frequency = <sup>1</sup> / <sub>cycle</sub>   
    
-#### Characteristics of analog sound   
+### Characteristics of analog sound   
    
 - Sound is displayed as a continuous analog waveform.   
 - Expressed as sound size (Amplitude), sound pitch (Frequency: cycle), and tone.   
@@ -54,19 +54,20 @@ categories: [Multimedia System]
     - Features that help our ears distinguish sounds from each other   
     - Determined by frequency and amplitude.   
    
-#### Digital sound   
+### Digital sound   
    
 - This means that sound is expressed and stored digitally.   
 - Sound: Original analog signal   
 - Digital sound: Conversion of analog signals to digital signals   
    
-#### Characteristics of digital sound   
+### Characteristics of digital sound   
    
 - Analog sound preserves its original form in all signal processing, but digital sound completely breaks down the basic form, preserves it in a completely new form, and then returns it to its original form.   
 - Therefore, even if there is loss of the original sound, it is not a problem as the loss is compensated for through various methods.   
    
 <br />
-### Converting sound   
+   
+## Converting sound   
    
 - Converting analog signals to digital signals.   
 <br />
@@ -80,7 +81,7 @@ categories: [Multimedia System]
   - It is expressed by combining 0 and 1.   
   - Digital equipment such as computers cannot process anything other than digital signals.   
    
-#### Analog → Digital / Digital → Analog   
+### Analog → Digital / Digital → Analog   
    
 - Using ADC (Analog-to-Digital Converter) and DAC (Digital-to-Analog Converter) conversion devices.   
 - Through an ADC device, analog signals are converted into digital signals through sampling, quantization, and encoding processes.   
@@ -89,7 +90,7 @@ categories: [Multimedia System]
 - Sound conversion process   
   - [Analog signal] → Sampling → Quantization → [Encoding] → [Digital signal]   
    
-#### Sampling   
+### Sampling   
    
 - To digitize the sound and play it again.   
     - The analog waveform of the sound is divided into small pieces at regular intervals and the values ​​are recorded one by one. When playing back, the waveform is redrawn according to the recorded values.   
@@ -98,7 +99,7 @@ categories: [Multimedia System]
     - The process of dividing the waveform into small pieces at regular intervals and extracting the values ​​of each point one by one.   
     - At this time, the value expressed as each value is called a sample.   
    
-#### Sampling rate   
+### Sampling rate   
    
 - Number of samples taken in 1 second   
 - The unit is Hz, also called sampling frequency.   
@@ -106,26 +107,26 @@ categories: [Multimedia System]
 - In other words, the sound quality improves when more samples are stored per unit time.   
 - However, the disadvantage is that a higher sampling rate increases the amount of data.   
    
-#### Nyquist theorem   
+### Nyquist theorem   
    
 - According to sampling theory, in order to reproduce the original analog signal, more than twice the highest frequency of the analog signal must be sampled.   
 - As an example, to sample a sound we can hear   
   - A sampling period of 40 kHz or more is required, which is twice the maximum audible frequency of 20 kHz.   
   - To maintain high quality, use a sampling cycle of 4 times or more.   
    
-#### Quantization   
+### Quantization   
    
 - Signals obtained through sampling must be quantized.   
   - Quantization refers to the operation of expressing a certain value as a finite, discrete value.   
   - In other words, the process of discretely approximating the magnitude of the sampled signal.   
    
-#### Quantization error   
+### Quantization error   
    
 - Occurs when approximating a continuous signal to a discrete signal.   
 - Refers to the error between the original signal and the quantized signal.   
 - It is also called quantization noise, and it needs to be kept as small as possible as it causes quality deterioration following digitization.   
    
-#### Encoding   
+### Encoding   
    
 - Expressing quantized analog signals as binary information in digital form.   
   - What is 8-bit encoding?   
@@ -136,7 +137,7 @@ categories: [Multimedia System]
 <br />
 - Since voice signals are converted using the PCM (Pulse Code Modulation) method, the number of sample bits is also called a PCM word.   
    
-#### Three characteristics of digital sound (Numerical standards)   
+### Three characteristics of digital sound (Numerical standards)   
    
 - Sampling size   
   - Expressing the size (Amplitude) of the sound as a digital number.   
@@ -152,7 +153,7 @@ categories: [Multimedia System]
     - Mono: Uses only one single channel.   
     - Stereo: Uses two channels, twice the storage capacity compared to mono.   
    
-#### Sound quality and use according to the characteristics of digital sound   
+### Sound quality and use according to the characteristics of digital sound   
    
 |Sampling rate|Sample beat|Mode|Size of data per minute|Sound quality and use|
 |:---|:---:|:---:|:---:|:---|
@@ -170,28 +171,29 @@ categories: [Multimedia System]
 |5.5 kHz|8 bit|Mono|325 kb|The sound quality is similar to that of a phone with very poor sensitivity.|
    
 <br />
-### How to convert sound   
    
-#### PCM (Pulse Code Modulation)   
+## How to convert sound   
+   
+### PCM (Pulse Code Modulation)   
    
 - Representative methods used to digitize sound   
   - How to save the entered value as is   
   - The analog waveform is continuously divided into small time intervals (Sampling), each is displayed in a rectangular size (Quantization), and its height is numbered (Encoding).   
    
-#### PCM signal generation process   
+### PCM signal generation process   
    
 - First, the analog signal is quantized to create a PAM (Pulse Amplitude Modulation) signal, which is then converted into a binary code string with a number of bits equal to the number of digital level bits of the pulse.   
 <br />
 - In the PCM method, the higher the sampling rate, the better the sound quality, but since there is no compression process, the memory capacity increases.   
    
-#### DPCM (Differential PCM)   
+### DPCM (Differential PCM)   
    
 - DPCM method is an improved PCM method.   
   - A method based on the fact that analog signals do not change significantly when comparing waveforms at adjacent sampling points.   
   - In other words, the PCM method stores the sound waveform value as is, but the DPCM method stores only the difference from the previous value.   
   - The amount of data is reduced compared to the PCM method.   
    
-#### ADPCM (Adaptive DPCM)   
+### ADPCM (Adaptive DPCM)   
    
 - ADPCM method improves the DPCM method.   
   - The DPCM method stores the difference from the immediately preceding signal, but when the signal difference is large, there is a problem that the efficiency of DPCM decreases.   
@@ -200,9 +202,10 @@ categories: [Multimedia System]
   - In other words, if the difference from adjacent values ​​is large, the amplitude step width is increased, and if the difference is small, the amplitude step width is made small to express the difference variably and precisely.   
    
 <br />
-### Creation and storage of digital audio   
    
-#### How to create digital audio   
+## Creation and storage of digital audio   
+   
+### How to create digital audio   
    
 - Extract sound from a music CD or sound effect CD using the computer's CD driver.   
 - Connect computer's sound card to audio system to record sound from CDs, tapes, radio, etc.   
@@ -211,7 +214,7 @@ categories: [Multimedia System]
   - Analog signal of vibration is digitized by sound card.   
   - Digitized signals are stored as digital data in RAM.   
    
-#### Storage of digital audio   
+### Storage of digital audio   
    
 - Recorder provided by Windows.   
   - Easy to use, can record up to 1 minute.   
@@ -220,7 +223,7 @@ categories: [Multimedia System]
 <br />
 - Digital sounds are saved as digital audio files.   
    
-#### File size of digital audio   
+### File size of digital audio   
    
 - Size of audio file = Sampling size (byte) x Sampling rate x Number of channels x Time (Seconds)   
 <br />
@@ -231,7 +234,7 @@ categories: [Multimedia System]
     - Therefore, data compression is necessary to reduce the size of the audio file.   
     - An efficient compression method that can maintain sound quality while increasing the compression rate should be considered.   
    
-#### Format of audio files   
+### Format of audio files   
    
 - Digital audio quality   
   - Proportional to the amount of data and determined by the sampling rate and number of sample bits.   
@@ -273,16 +276,17 @@ categories: [Multimedia System]
     - Files can be downloaded and played simultaneously.   
    
 <br />
-### Digital audio editing software   
    
-#### Sound Forge   
+## Digital audio editing software   
+   
+### Sound Forge   
    
 - Developed by Sony creative software.   
 - Real-time sample-level wave editing software   
 - Sound Forge can burn music files directly to CD and capture audio in its original form.   
 - Supports various file formats (WAV, AVI, AIFF, MP3, AA3, AU, FLAC, etc.).   
    
-#### GoldWave   
+### GoldWave   
    
 - Developed by GoldWave.   
 - Sound can be expressed in real-time amplitude and spectrum through an oscilloscope.   
@@ -290,9 +294,10 @@ categories: [Multimedia System]
 - It has the advantage of supporting various file formats and being easy to use.   
    
 <br />
-### MIDI   
    
-#### Overview   
+## MIDI   
+   
+### Overview   
    
 - International standard for digital music established in 1982   
 - Summary of communication protocols between hardware, cables, and equipment that connect computers and electronic instruments from different manufacturers.   
@@ -307,7 +312,8 @@ categories: [Multimedia System]
   ```
    
 <br />
-### MIDI editing program   
+
+## MIDI editing program   
    
 - To play and create professional MIDI files, you must use a MIDI editing program.   
 <br />
@@ -348,7 +354,8 @@ categories: [Multimedia System]
 - Provides a convenient tone creation environment using the computer’s relatively large screen and graphics.   
    
 <br />
-### MIDI file format   
+   
+## MIDI file format   
    
 - MIDI files   
   - Unlike WAV files, waveform information is not stored, so the file size is relatively small and editing such as adding and deleting instruments is easy.   

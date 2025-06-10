@@ -7,7 +7,7 @@ categories: [Multimedia System]
 
 ## Image   
    
-### Overview of the image   
+## Overview of the image   
    
 - Image and Graphic   
   - Image   
@@ -20,7 +20,7 @@ categories: [Multimedia System]
   - There are various ways to express images or process images.   
   - Image files come in various forms depending on the data compression method.   
    
-#### Pixel (Picture Element)   
+### Pixel (Picture Element)   
    
 - Pixel is the basic unit that makes up the screen.   
   - Expressed as a pixel, it refers to each dot that appears on the screen.   
@@ -48,7 +48,7 @@ categories: [Multimedia System]
   - It refers to 256 levels of transparency as a channel other than RGB, and does not contain color information.   
   - Transparency 0 means 100% opaque, transparency 255 means 100% transparent.   
    
-#### Resolution   
+### Resolution   
    
 - A numerical expression of the clarity of the image.   
 - Number of pixels or dots that can be displayed per unit length.   
@@ -58,7 +58,8 @@ categories: [Multimedia System]
   - Image resolution: Resolution of the image itself   
    
 <br />
-### Expression of images   
+   
+## Expression of images   
    
 - Raster method   
   - Express images in pixels.   
@@ -73,7 +74,8 @@ categories: [Multimedia System]
   - Provides high-resolution display and printing functions.   
    
 <br />
-### Color model   
+   
+## Color model   
    
 - A color model is a way to express color in a digital environment.   
 - It refers to a color space that can define and reproduce each color on a computer.   
@@ -139,9 +141,10 @@ categories: [Multimedia System]
   - Used in compression methods such as JPEG.   
    
 <br />
-### Image processing (Video processing)   
    
-#### Concept of image processing (Video processing)   
+## Image processing (Video processing)   
+   
+### Concept of image processing (Video processing)   
    
 - A field of study that processes pictures using computer technology   
   - Video analysis   
@@ -153,7 +156,7 @@ categories: [Multimedia System]
   - Computer graphics is about creating composite images.   
   - Image processing manipulates images that have already been acquired or created.   
    
-#### Image processing techniques   
+### Image processing techniques   
    
 - Point processing   
   - Changes pixel values ​​based on the pixel's original value or location.   
@@ -189,23 +192,25 @@ categories: [Multimedia System]
   - Generates pixel values ​​based on operations on two or more images.   
    
 <br />
+   
 ## Graphics   
    
 <br />
-### Computer graphics   
    
-#### Definition of computer graphics   
+## Computer graphics   
+   
+### Definition of computer graphics   
    
 "Graphics created using a computer, or the representation and manipulation of graphic data by a computer"   
    
-#### How to create computer images   
+### How to create computer images   
    
 - 2D computer graphics (2D graphics)   
   - Manipulate images on the computer screen using a tablet pen or mouse.   
 - 3D computer graphics (3D graphics)   
   - Use the screen as a window in a virtual environment and create a 3D image using a computer program.   
    
-#### Computer graphics techniques   
+### Computer graphics techniques   
    
 - Raster graphics   
   - Originates from the raster scanning method of CRT, which displays images on a monitor one line at a time.   
@@ -225,7 +230,7 @@ categories: [Multimedia System]
       - Can be expressed with only small information.   
       - The advantage is that the image quality does not deteriorate even when enlarged.   
    
-#### Computer graphics software   
+### Computer graphics software   
    
 - Special-purpose graphics package   
   - Provides functions and a convenient user interface to create pictures suitable for various application fields.   
@@ -243,7 +248,8 @@ categories: [Multimedia System]
     - Open Inventor, VRML, Java 3D, etc.   
    
 <br />
-### 3D graphics   
+   
+## 3D graphics   
    
 - 2D graphics   
   - Display two-dimensional shapes on the screen.   
@@ -255,7 +261,7 @@ categories: [Multimedia System]
   - Modeling process   
   - Rendering process   
    
-#### Modeling   
+### Modeling   
    
 - Modeling refers to creating the geometric shape of an object.   
 <br />
@@ -273,7 +279,7 @@ categories: [Multimedia System]
   - Solid Model   
     - It is an improvement on the face-centered modeling method, and constructs the object in a form where the inside of the object is completely filled.   
    
-#### Rendering   
+### Rendering   
    
 - Rendering is converting a modeled object into an image that resembles its actual form.   
   - To make 3D modeled objects look realistic,   
@@ -295,7 +301,8 @@ categories: [Multimedia System]
     - Technique to remove invisible lines from objects   
    
 <br />
-### File formats of images and graphics   
+   
+## File formats of images and graphics   
    
 - Raster type files   
   - BMP (bitmap) file   
@@ -326,7 +333,8 @@ categories: [Multimedia System]
   - Exif file   
    
 <br />
-### Image and graphic editing software   
+   
+## Image and graphic editing software   
    
 - Image editing tools   
   - Photoshop   
